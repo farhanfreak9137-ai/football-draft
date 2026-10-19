@@ -23,6 +23,7 @@ interface LobbyViewProps {
     hostName: string;
     formationId: string;
     strategy: Strategy;
+    matchFormat: 'auto' | 'normal' | 'knockout';
   }) => void;
   onJoinRoom: (params: {
     roomCode: string;
@@ -46,6 +47,7 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
   const [managerName, setManagerName] = useState('Tactical Manager');
   const [selectedFormationId, setSelectedFormationId] = useState('4-3-3');
   const [strategy, setStrategy] = useState<Strategy>('balanced');
+  const [matchFormat, setMatchFormat] = useState<'auto' | 'normal' | 'knockout'>('auto');
   const [joinCode, setJoinCode] = useState('');
 
   const handleCreate = (e: React.FormEvent) => {
@@ -56,6 +58,7 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
       hostName: managerName.trim() || 'Tactical Manager',
       formationId: selectedFormationId,
       strategy,
+      matchFormat,
     });
   };
 
@@ -281,6 +284,49 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
                     }`}
                   >
                     {st}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Match Format & Rotation */}
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <label className="block text-xs font-semibold text-tactical-300 uppercase tracking-wider">
+                  Match Format & Rules
+                </label>
+                <span className="text-[11px] text-pitch-accent font-mono">auto-rotates draws & penalties</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                {[
+                  {
+                    id: 'auto' as const,
+                    title: 'Auto-Rotate',
+                    subtitle: 'Alternates League & Cup format',
+                  },
+                  {
+                    id: 'normal' as const,
+                    title: 'Normal Time (League)',
+                    subtitle: "90' draws allowed • No penalties",
+                  },
+                  {
+                    id: 'knockout' as const,
+                    title: 'Cup Knockout',
+                    subtitle: 'Ties go to Extra Time & Penalties',
+                  },
+                ].map((fmt) => (
+                  <button
+                    key={fmt.id}
+                    type="button"
+                    onClick={() => setMatchFormat(fmt.id)}
+                    className={`p-3 rounded-lg border text-left transition-all ${
+                      matchFormat === fmt.id
+                        ? 'bg-tactical-800 border-pitch-line ring-1 ring-pitch-line text-tactical-100 shadow-sm'
+                        : 'bg-tactical-900/60 border-tactical-750 text-tactical-400 hover:border-tactical-600'
+                    }`}
+                  >
+                    <div className="font-semibold text-xs text-tactical-100">{fmt.title}</div>
+                    <div className="text-[10px] text-tactical-400 mt-0.5">{fmt.subtitle}</div>
                   </button>
                 ))}
               </div>

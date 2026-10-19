@@ -54,6 +54,7 @@ export const App: React.FC = () => {
   const [token, setToken] = useState<string | null>(null);
   const [liveMatch, setLiveMatch] = useState<MatchSimulationState | null>(null);
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerVersion | null>(null);
+  const [viewingSquad, setViewingSquad] = useState<'mine' | 'opponent'>('mine');
 
   // Reset selected player when turn or draft state changes
   useEffect(() => {
@@ -211,6 +212,7 @@ export const App: React.FC = () => {
     hostName: string;
     formationId: string;
     strategy: Strategy;
+    matchFormat: 'auto' | 'normal' | 'knockout';
   }) => {
     try {
       setLoading(true);
@@ -513,21 +515,78 @@ export const App: React.FC = () => {
               )}
             </div>
 
-            {/* Tactical Pitch View (Your Lineup) */}
+            {/* Tactical Announcements & AI Status */}
+            {room.lastPickAnnouncement && (
+              <div className="bg-tactical-850 border border-tactical-700/80 rounded-lg px-4 py-2.5 flex items-center justify-between text-xs shadow-md">
+                <div className="flex items-center gap-2 min-w-0">
+                  <span className="text-base shrink-0">
+                    {room.lastPickAnnouncement.seat === mySeat ? '👤' : room.mode === 'solo' ? '🤖' : '👥'}
+                  </span>
+                  <span className="text-tactical-200 truncate">
+                    <strong>{room.lastPickAnnouncement.seat === mySeat ? 'You' : oppDraft?.playerName || 'Opponent'}</strong> drafted{' '}
+                    <strong className="text-pitch-accent">#{room.lastPickAnnouncement.squadNumber} {room.lastPickAnnouncement.playerName}</strong>{' '}
+                    ({room.lastPickAnnouncement.position})
+                    {room.lastPickAnnouncement.teamEditionName ? ` from ${room.lastPickAnnouncement.teamEditionName}` : ''}!
+                  </span>
+                </div>
+                <span className="font-mono text-[10px] text-tactical-400 shrink-0 ml-2">Turn #{room.turnNumber - 1}</span>
+              </div>
+            )}
+
+            {!isMyTurn && room.mode === 'solo' && !isBothDraftComplete && (
+              <div className="bg-purple-950/40 border border-purple-500/40 rounded-lg px-4 py-2 text-xs text-purple-200 flex items-center gap-2 animate-pulse">
+                <span className="w-2 h-2 rounded-full bg-purple-400 animate-ping shrink-0" />
+                <span>
+                  <strong>{oppDraft?.playerName || 'Tactical AI Challenger'}</strong> is evaluating rolled team edition & choosing with equal odds...
+                </span>
+              </div>
+            )}
+
+            {/* Tactical Pitch View (Your Lineup or Opponent Lineup) */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
               <div className="lg:col-span-5 space-y-3">
+                {/* Squad Selector Toggle */}
+                <div className="flex items-center gap-2 p-1 bg-tactical-900 rounded-lg border border-tactical-750">
+                  <button
+                    type="button"
+                    onClick={() => setViewingSquad('mine')}
+                    className={`flex-1 py-1.5 px-3 rounded text-xs font-semibold transition-all ${
+                      viewingSquad === 'mine'
+                        ? 'bg-tactical-750 text-tactical-100 shadow-sm border border-tactical-600'
+                        : 'text-tactical-400 hover:text-tactical-200'
+                    }`}
+                  >
+                    Your Squad ({myDraftedCount}/11)
+                  </button>
+                  {oppDraft && (
+                    <button
+                      type="button"
+                      onClick={() => setViewingSquad('opponent')}
+                      className={`flex-1 py-1.5 px-3 rounded text-xs font-semibold transition-all ${
+                        viewingSquad === 'opponent'
+                          ? 'bg-tactical-750 text-tactical-100 shadow-sm border border-tactical-600'
+                          : 'text-tactical-400 hover:text-tactical-200'
+                      }`}
+                    >
+                      {room.mode === 'solo' ? '🤖 AI Squad' : 'Opponent Squad'} ({oppDraftedCount}/11)
+                    </button>
+                  )}
+                </div>
+
                 <div className="flex items-center justify-between text-xs text-tactical-300">
                   <span className="font-bold flex items-center gap-1.5">
                     <Shield className="w-4 h-4 text-pitch-accent" />
-                    Your Tactical XI ({myDraft.formation.name})
+                    {viewingSquad === 'mine'
+                      ? `Your Tactical XI (${myDraft.formation.name})`
+                      : `${oppDraft?.playerName || 'Opponent'} (${oppDraft?.formation.name || '4-3-3'})`}
                   </span>
                   <span className="font-mono text-tactical-400 capitalize">
-                    {myDraft.strategy} Strategy
+                    {viewingSquad === 'mine' ? myDraft.strategy : oppDraft?.strategy || 'balanced'} Strategy
                   </span>
                 </div>
 
                 {/* Selection Guidance Banner */}
-                {selectedPlayer ? (
+                {viewingSquad === 'mine' && selectedPlayer ? (
                   <div className="bg-emerald-950/90 border border-emerald-400 rounded-lg px-3 py-2 flex items-center justify-between shadow-lg shadow-emerald-950/50 animate-pulse">
                     <div className="flex items-center gap-2 min-w-0">
                       <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
@@ -543,7 +602,7 @@ export const App: React.FC = () => {
                       Cancel
                     </button>
                   </div>
-                ) : isMyTurn && !isBothDraftComplete ? (
+                ) : viewingSquad === 'mine' && isMyTurn && !isBothDraftComplete ? (
                   <div className="bg-tactical-850/80 border border-tactical-700/60 rounded-lg px-3 py-1.5 text-xs text-tactical-400 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-pitch-accent animate-pulse shrink-0" />
                     <span>Click any player in the list to reveal their glowing pitch positions.</span>
@@ -551,11 +610,11 @@ export const App: React.FC = () => {
                 ) : null}
 
                 <TacticalPitch
-                  formation={myDraft.formation}
-                  draftedSlots={myDraft.draftedSlots}
-                  highlightedSlotIds={highlightedSlotIds}
+                  formation={viewingSquad === 'mine' ? myDraft.formation : (oppDraft?.formation || myDraft.formation)}
+                  draftedSlots={viewingSquad === 'mine' ? myDraft.draftedSlots : (oppDraft?.draftedSlots || {})}
+                  highlightedSlotIds={viewingSquad === 'mine' ? highlightedSlotIds : []}
                   onSlotSelect={handleSlotSelect}
-                  interactive={isMyTurn}
+                  interactive={viewingSquad === 'mine' && isMyTurn}
                 />
               </div>
 

@@ -125,7 +125,16 @@ export const MatchView: React.FC<MatchViewProps> = ({
             <span className="text-tactical-400 text-[11px]">/ {maxVisualMinute}' Match Time ({liveMatch.currentSecond}s Sim)</span>
           </div>
 
-          <div>{getStatusBadge()}</div>
+          <div className="flex items-center gap-2 flex-wrap">
+            <div>{getStatusBadge()}</div>
+            <span className={`px-2.5 py-0.5 rounded text-[11px] font-semibold border ${
+              liveMatch.knockoutMode
+                ? 'bg-purple-500/15 text-purple-300 border-purple-500/40'
+                : 'bg-pitch-DEFAULT/20 text-pitch-accent border-pitch-line/50'
+            }`}>
+              {liveMatch.knockoutMode ? '🏆 Cup Knockout (ET & Penalties)' : '⚽ League Match (Draws Allowed)'}
+            </span>
+          </div>
 
           <button
             onClick={toggleSound}
@@ -309,52 +318,106 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
       {/* Penalty Shootout Display (if penalties active or completed) */}
       {liveMatch.penalties && liveMatch.penalties.length > 0 && (
-        <div className="bg-tactical-850 border border-gold-500/40 rounded-xl p-4">
-          <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider mb-3 flex items-center gap-2">
-            <Trophy className="w-4 h-4" />
-            Penalty Shootout (Sudden Death)
-          </h4>
+        <div className="bg-tactical-850 border border-gold-500/50 rounded-xl p-5 shadow-2xl space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-tactical-700/70 gap-2">
+            <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">
+              <Trophy className="w-4 h-4 text-gold-400" />
+              Penalty Shootout Results
+            </h4>
+            <div className="font-mono text-xs font-bold text-tactical-200 bg-tactical-900 px-3 py-1 rounded border border-tactical-700">
+              Shootout Score: <span className="text-emerald-400 font-black">{liveMatch.penaltyScore?.host ?? 0}</span> - <span className="text-emerald-400 font-black">{liveMatch.penaltyScore?.guest ?? 0}</span>
+            </div>
+          </div>
 
-          <div className="space-y-3">
-            {/* Host Kicks */}
-            <div className="flex items-center justify-between text-xs">
-              <span className="font-semibold text-tactical-200 w-32 truncate">{hostName}:</span>
-              <div className="flex gap-2">
+          {/* Side-by-side shootout columns */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Host Kickers */}
+            <div className="bg-tactical-900/80 rounded-lg p-3 border border-tactical-750 space-y-2">
+              <div className="flex items-center justify-between text-xs pb-1.5 border-b border-tactical-800">
+                <span className="font-bold text-tactical-100 truncate">{hostName}</span>
+                <span className="font-mono text-emerald-400 font-bold">
+                  {liveMatch.penalties.filter((p) => p.team === 'host' && p.scored).length} Goals
+                </span>
+              </div>
+              <div className="space-y-1.5">
                 {liveMatch.penalties
                   .filter((p) => p.team === 'host')
                   .map((p, idx) => (
                     <div
                       key={idx}
-                      title={`${p.kicker.name}: ${p.scored ? 'Scored' : 'Missed/Saved'}`}
-                      className="cursor-help"
+                      className={`flex items-center justify-between px-2.5 py-1.5 rounded border text-xs transition-all ${
+                        p.scored
+                          ? 'bg-emerald-950/40 border-emerald-500/40 text-emerald-200'
+                          : 'bg-red-950/40 border-red-500/40 text-red-200'
+                      }`}
                     >
-                      {p.scored ? (
-                        <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-                      ) : (
-                        <XCircle className="w-5 h-5 text-red-400" />
-                      )}
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span className="font-mono text-[11px] text-tactical-400 font-semibold w-5">
+                          #{p.round}
+                        </span>
+                        <span className="font-medium truncate">
+                          {p.kicker.squadNumber}. {p.kicker.name}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-1.5 shrink-0 ml-2 font-mono font-bold text-[11px]">
+                        {p.scored ? (
+                          <>
+                            <span className="text-emerald-400">⚽ SCORED</span>
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                          </>
+                        ) : (
+                          <>
+                            <span className="text-red-400">❌ MISSED</span>
+                            <XCircle className="w-4 h-4 text-red-400 shrink-0" />
+                          </>
+                        )}
+                      </div>
                     </div>
                   ))}
               </div>
             </div>
 
-            {/* Guest Kicks */}
-            <div className="flex items-center justify-between text-xs">
-              <span className="font-semibold text-tactical-200 w-32 truncate">{guestName}:</span>
-              <div className="flex gap-2">
+            {/* Guest Kickers */}
+            <div className="bg-tactical-900/80 rounded-lg p-3 border border-tactical-750 space-y-2">
+              <div className="flex items-center justify-between text-xs pb-1.5 border-b border-tactical-800">
+                <span className="font-bold text-tactical-100 truncate">{guestName}</span>
+                <span className="font-mono text-emerald-400 font-bold">
+                  {liveMatch.penalties.filter((p) => p.team === 'guest' && p.scored).length} Goals
+                </span>
+              </div>
+              <div className="space-y-1.5">
                 {liveMatch.penalties
                   .filter((p) => p.team === 'guest')
                   .map((p, idx) => (
                     <div
                       key={idx}
-                      title={`${p.kicker.name}: ${p.scored ? 'Scored' : 'Missed/Saved'}`}
-                      className="cursor-help"
+                      className={`flex items-center justify-between px-2.5 py-1.5 rounded border text-xs transition-all ${
+                        p.scored
+                          ? 'bg-emerald-950/40 border-emerald-500/40 text-emerald-200'
+                          : 'bg-red-950/40 border-red-500/40 text-red-200'
+                      }`}
                     >
-                      {p.scored ? (
-                        <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-                      ) : (
-                        <XCircle className="w-5 h-5 text-red-400" />
-                      )}
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span className="font-mono text-[11px] text-tactical-400 font-semibold w-5">
+                          #{p.round}
+                        </span>
+                        <span className="font-medium truncate">
+                          {p.kicker.squadNumber}. {p.kicker.name}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-1.5 shrink-0 ml-2 font-mono font-bold text-[11px]">
+                        {p.scored ? (
+                          <>
+                            <span className="text-emerald-400">⚽ SCORED</span>
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                          </>
+                        ) : (
+                          <>
+                            <span className="text-red-400">❌ MISSED</span>
+                            <XCircle className="w-4 h-4 text-red-400 shrink-0" />
+                          </>
+                        )}
+                      </div>
                     </div>
                   ))}
               </div>
