@@ -48,6 +48,7 @@ export const messages = {
     legendSeal: 'Golden Legend Seal',
     legendSealTooltip: 'Awarded for documented individual tournament/season standout performance.',
     alreadyDrafted: 'Player identity already drafted in this XI',
+    alreadyDraftedByOpponent: 'Already drafted by opponent (22 unique players rule)',
     positionIncompatible: 'Incompatible with remaining open positions',
     pickPlayer: 'Select Player',
     waitingOnOpponent: 'Opponent is making their selection...',

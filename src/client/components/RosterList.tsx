@@ -10,6 +10,7 @@ interface RosterListProps {
   roster: PlayerVersion[];
   openSlots: FormationSlot[];
   draftedPlayerIds: string[];
+  opponentDraftedPlayerIds?: string[];
   rerollsRemaining: number;
   isMyTurn: boolean;
   selectedPlayerId?: string | null;
@@ -23,6 +24,7 @@ export const RosterList: React.FC<RosterListProps> = ({
   roster,
   openSlots,
   draftedPlayerIds,
+  opponentDraftedPlayerIds = [],
   rerollsRemaining,
   isMyTurn,
   selectedPlayerId,
@@ -41,17 +43,29 @@ export const RosterList: React.FC<RosterListProps> = ({
 
   // Pre-calculate eligibility for each player in the edition
   const playerEligibility = roster.map((player) => {
-    // 1. Identity uniqueness
+    // 1. Identity uniqueness in user's own team
     const alreadyDrafted = draftedPlayerIds.includes(player.identityId);
     if (alreadyDrafted) {
       return {
         player,
         eligible: false,
         reason: messages.draft.alreadyDrafted,
+        isTakenByOpponent: false,
       };
     }
 
-    // 2. Open slot compatibility using authoritative slot matching
+    // 2. Identity uniqueness across the match (22 unique players rule)
+    const takenByOpponent = opponentDraftedPlayerIds.includes(player.identityId);
+    if (takenByOpponent) {
+      return {
+        player,
+        eligible: false,
+        reason: messages.draft.alreadyDraftedByOpponent,
+        isTakenByOpponent: true,
+      };
+    }
+
+    // 3. Open slot compatibility using authoritative slot matching
     const matchingSlots = openSlots.filter((slot) => isPlayerEligibleForSlot(player, slot));
 
     if (matchingSlots.length === 0) {
@@ -59,6 +73,7 @@ export const RosterList: React.FC<RosterListProps> = ({
         player,
         eligible: false,
         reason: messages.draft.positionIncompatible,
+        isTakenByOpponent: false,
       };
     }
 
@@ -66,6 +81,7 @@ export const RosterList: React.FC<RosterListProps> = ({
       player,
       eligible: true,
       reason: undefined,
+      isTakenByOpponent: false,
     };
   });
 
@@ -108,13 +124,14 @@ export const RosterList: React.FC<RosterListProps> = ({
 
       {/* Minimalist Roster List (2 columns on sm+, single column on mobile) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 max-h-[560px] overflow-y-auto pr-1">
-        {playerEligibility.map(({ player, eligible, reason }) => (
+        {playerEligibility.map(({ player, eligible, reason, isTakenByOpponent }) => (
           <PlayerCard
             key={player.id}
             player={player}
             eligible={eligible}
             isSelected={selectedPlayerId === player.id}
             ineligibleReason={reason}
+            isTakenByOpponent={isTakenByOpponent}
             disabled={!isMyTurn || disabled}
             onPick={eligible && isMyTurn ? () => onSelectPlayer(player) : undefined}
           />
