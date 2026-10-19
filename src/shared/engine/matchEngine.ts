@@ -4,7 +4,9 @@ import {
   MatchSimulationState,
   PenaltyKickResult,
   PlayerDraftState,
+  PlayerMatchRating,
   PlayerVersion,
+  Position,
 } from '../types/index.js';
 import { PRNG } from './prng.js';
 
@@ -563,6 +565,189 @@ export class MatchEngine {
       winner: isFinished ? simulation.winner : undefined,
       winMethod: isFinished ? simulation.winMethod : undefined,
       stats: liveStats,
+    };
+  }
+
+  /**
+   * Computes authentic post-match player ratings (5.0 - 10.0 scale)
+   * factoring individual goals, assists, saves, clean sheets, disciplinary actions,
+   * penalty kicks, team match outcome, and base historical OVR.
+   */
+  static computePlayerRatings(
+    hostDraft: PlayerDraftState,
+    guestDraft: PlayerDraftState,
+    simulation: MatchSimulationState
+  ): {
+    hostRatings: PlayerMatchRating[];
+    guestRatings: PlayerMatchRating[];
+    starOfMatch: PlayerMatchRating | null;
+  } {
+    const isHostWinner = simulation.winner === 'host';
+    const isGuestWinner = simulation.winner === 'guest';
+    const isDraw = !simulation.winner || simulation.winner === 'draw';
+
+    const hostConceded = simulation.score.guest;
+    const guestConceded = simulation.score.host;
+
+    const POSITION_ORDER: Record<string, number> = {
+      GK: 1, LB: 2, LWB: 3, CB: 4, RB: 5, RWB: 6,
+      CDM: 7, CM: 8, CAM: 9, LM: 10, RM: 11,
+      LW: 12, RW: 13, CF: 14, SS: 15, ST: 16,
+    };
+
+    const rateSquad = (
+      draft: PlayerDraftState,
+      team: 'host' | 'guest',
+      teamConceded: number,
+      won: boolean,
+      draw: boolean
+    ): PlayerMatchRating[] => {
+      const slots = Object.values(draft.draftedSlots);
+      const ratings = slots.map((slot) => {
+        const p = slot.player;
+        const pos = slot.assignedPosition;
+        const isGK = pos === 'GK' || p.naturalPositions.includes('GK');
+        const isDef = ['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(pos) || p.naturalPositions.some((np) => ['CB', 'LB', 'RB'].includes(np));
+
+        let goals = 0;
+        let assists = 0;
+        let saves = 0;
+        let yellowCard = false;
+        let redCard = false;
+
+        for (const ev of simulation.events) {
+          if (ev.type === 'goal') {
+            if (ev.player?.id === p.id) goals++;
+            if (ev.secondaryPlayer?.id === p.id) assists++;
+          } else if (ev.type === 'save') {
+            if (ev.player?.id === p.id || (isGK && ev.team !== team)) {
+              saves++;
+            }
+          } else if (ev.type === 'yellow_card') {
+            if (ev.player?.id === p.id) yellowCard = true;
+          } else if (ev.type === 'red_card') {
+            if (ev.player?.id === p.id) redCard = true;
+          }
+        }
+
+        let penaltyScored = false;
+        let penaltyMissed = false;
+        if (simulation.penalties) {
+          for (const pen of simulation.penalties) {
+            if (pen.team === team && pen.kicker?.id === p.id) {
+              if (pen.scored) penaltyScored = true;
+              else penaltyMissed = true;
+            }
+          }
+        }
+
+        const cleanSheet = teamConceded === 0;
+
+        // Base rating starts around 6.2
+        let score = 6.2;
+
+        // Modest quality adjustment from historical OVR (+0.03 per OVR above 80)
+        score += (p.ovr - 80) * 0.03;
+
+        // Team outcome impact
+        if (won) score += 0.5;
+        else if (draw) score += 0.1;
+        else score -= 0.3;
+
+        // Clean sheet & defensive impact
+        if (cleanSheet && (isGK || isDef)) {
+          score += 0.8;
+        } else if (teamConceded > 0 && (isGK || isDef)) {
+          score -= teamConceded * 0.2;
+        }
+
+        // Saves
+        score += saves * 0.35;
+
+        // Goals
+        if (isDef) score += goals * 1.3;
+        else score += goals * 1.0;
+
+        // Assists
+        score += assists * 0.5;
+
+        // Cards
+        if (yellowCard) score -= 0.5;
+        if (redCard) score -= 1.5;
+
+        // Penalties
+        if (penaltyScored) score += 0.3;
+        if (penaltyMissed) score -= 0.5;
+
+        // Clamp between 5.0 and 10.0
+        score = Math.max(5.0, Math.min(10.0, score));
+        const finalRating = Math.round(score * 10) / 10;
+
+        const highlights: string[] = [];
+        if (goals > 0) highlights.push(`${goals} Goal${goals > 1 ? 's' : ''}`);
+        if (assists > 0) highlights.push(`${assists} Assist${assists > 1 ? 's' : ''}`);
+        if (saves > 0) highlights.push(`${saves} Save${saves > 1 ? 's' : ''}`);
+        if (cleanSheet && (isGK || isDef)) highlights.push('Clean Sheet');
+        if (redCard) highlights.push('Red Card');
+        else if (yellowCard) highlights.push('Cautioned');
+        if (penaltyScored) highlights.push('Shootout Goal');
+
+        let summary = highlights.join(' • ');
+        if (!summary) {
+          if (finalRating >= 8.0) summary = 'High-Impact Performance';
+          else if (finalRating >= 7.0) summary = 'Solid Tactical Display';
+          else if (finalRating >= 6.0) summary = 'Steady Performance';
+          else summary = 'Quiet Match';
+        }
+
+        return {
+          playerId: p.id,
+          name: p.name,
+          squadNumber: p.squadNumber,
+          position: pos,
+          ovr: p.ovr,
+          team,
+          rating: finalRating,
+          stats: {
+            goals,
+            assists,
+            saves,
+            yellowCard,
+            redCard,
+            penaltyScored,
+            penaltyMissed,
+            cleanSheet,
+          },
+          summary,
+        };
+      });
+
+      // Sort naturally in tactical line order: GK -> DEF -> MID -> FWD
+      ratings.sort((a, b) => (POSITION_ORDER[a.position] || 99) - (POSITION_ORDER[b.position] || 99));
+      return ratings;
+    };
+
+    const hostRatings = rateSquad(hostDraft, 'host', hostConceded, isHostWinner, isDraw);
+    const guestRatings = rateSquad(guestDraft, 'guest', guestConceded, isGuestWinner, isDraw);
+
+    // Determine Player of the Match (highest rated, tie-break: goals -> OVR -> squad #)
+    const all = [...hostRatings, ...guestRatings];
+    let star: PlayerMatchRating | null = null;
+    if (all.length > 0) {
+      all.sort((a, b) => {
+        if (b.rating !== a.rating) return b.rating - a.rating;
+        if (b.stats.goals !== a.stats.goals) return b.stats.goals - a.stats.goals;
+        return b.ovr - a.ovr;
+      });
+      star = all[0];
+      star.isStarOfMatch = true;
+      star.summary = star.summary ? `★ Player of the Match • ${star.summary}` : '★ Player of the Match';
+    }
+
+    return {
+      hostRatings,
+      guestRatings,
+      starOfMatch: star,
     };
   }
 }

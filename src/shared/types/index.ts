@@ -271,3 +271,26 @@ export interface MatchSimulationState {
   };
 }
 
+export interface PlayerMatchRating {
+  playerId: string;
+  name: string;
+  squadNumber: number;
+  position: Position;
+  ovr: number;
+  team: 'host' | 'guest';
+  rating: number; // 5.0 to 10.0 scale
+  isStarOfMatch?: boolean;
+  stats: {
+    goals: number;
+    assists: number;
+    saves: number;
+    yellowCard: boolean;
+    redCard: boolean;
+    penaltyScored: boolean;
+    penaltyMissed: boolean;
+    cleanSheet: boolean;
+  };
+  summary: string;
+}
+
+

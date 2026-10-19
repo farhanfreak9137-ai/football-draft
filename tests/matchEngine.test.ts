@@ -184,4 +184,27 @@ describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)',
     expect(stateAt50.currentSecond).toBe(45);
     expect(stateAt50.status).toBe('completed');
   });
+
+  it('computes comprehensive post-match player ratings and designates Star of the Match', () => {
+    const hostDraft = createTestSquad('spain-2010', 'Spain');
+    const guestDraft = createTestSquad('netherlands-1974', 'Netherlands');
+
+    const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, { randomSeed: 777 });
+    const { hostRatings, guestRatings, starOfMatch } = MatchEngine.computePlayerRatings(
+      hostDraft,
+      guestDraft,
+      sim
+    );
+
+    expect(hostRatings.length).toBe(11);
+    expect(guestRatings.length).toBe(11);
+    expect(starOfMatch).not.toBeNull();
+    expect(starOfMatch?.isStarOfMatch).toBe(true);
+
+    for (const r of [...hostRatings, ...guestRatings]) {
+      expect(r.rating).toBeGreaterThanOrEqual(5.0);
+      expect(r.rating).toBeLessThanOrEqual(10.0);
+      expect(r.summary).toBeDefined();
+    }
+  });
 });
