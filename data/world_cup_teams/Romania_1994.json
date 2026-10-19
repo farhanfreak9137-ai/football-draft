@@ -1,0 +1,494 @@
+{
+  "teamName": "Romania",
+  "teamCode": "ROU",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "romania-1994-florin_prunea",
+      "identityId": "P-29644",
+      "squadNumber": 1,
+      "name": "Florin Prunea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1994-dan_petrescu",
+      "identityId": "P-12625",
+      "squadNumber": 2,
+      "name": "Dan Petrescu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "romania-1994-daniel_prodan",
+      "identityId": "P-87995",
+      "squadNumber": 3,
+      "name": "Daniel Prodan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "romania-1994-miodrag_belodedici",
+      "identityId": "P-43639",
+      "squadNumber": 4,
+      "name": "Miodrag Belodedici",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "romania-1994-ioan_lupescu",
+      "identityId": "P-86528",
+      "squadNumber": 5,
+      "name": "Ioan Lupescu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "romania-1994-gheorghe_popescu",
+      "identityId": "P-19537",
+      "squadNumber": 6,
+      "name": "Gheorghe Popescu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "romania-1994-dorinel_munteanu",
+      "identityId": "P-04888",
+      "squadNumber": 7,
+      "name": "Dorinel Munteanu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "romania-1994-iulian_chiri_",
+      "identityId": "P-83265",
+      "squadNumber": 8,
+      "name": "Iulian Chiriță",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "romania-1994-florin_r_ducioiu",
+      "identityId": "P-69340",
+      "squadNumber": 9,
+      "name": "Florin Răducioiu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "romania-1994-gheorghe_hagi",
+      "identityId": "P-30739",
+      "squadNumber": 10,
+      "name": "Gheorghe Hagi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "romania-1994-ilie_dumitrescu",
+      "identityId": "P-54322",
+      "squadNumber": 11,
+      "name": "Ilie Dumitrescu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "romania-1994-bogdan_stelea",
+      "identityId": "P-44978",
+      "squadNumber": 12,
+      "name": "Bogdan Stelea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "romania-1994-tibor_selymes",
+      "identityId": "P-79864",
+      "squadNumber": 13,
+      "name": "Tibor Selymes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1994-gheorghe_mihali",
+      "identityId": "P-81047",
+      "squadNumber": 14,
+      "name": "Gheorghe Mihali",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1994-basarab_panduru",
+      "identityId": "P-11979",
+      "squadNumber": 15,
+      "name": "Basarab Panduru",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "romania-1994-ion_vl_doiu",
+      "identityId": "P-15773",
+      "squadNumber": 16,
+      "name": "Ion Vlădoiu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "romania-1994-viorel_moldovan",
+      "identityId": "P-67833",
+      "squadNumber": 17,
+      "name": "Viorel Moldovan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "romania-1994-constantin_g_lc_",
+      "identityId": "P-17898",
+      "squadNumber": 18,
+      "name": "Constantin Gâlcă",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "romania-1994-corneliu_papur_",
+      "identityId": "P-42028",
+      "squadNumber": 19,
+      "name": "Corneliu Papură",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "romania-1994-ovidiu_st_ng_",
+      "identityId": "P-44448",
+      "squadNumber": 20,
+      "name": "Ovidiu Stîngă",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "romania-1994-marian_ivan",
+      "identityId": "P-00266",
+      "squadNumber": 21,
+      "name": "Marian Ivan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "romania-1994-_tefan_preda",
+      "identityId": "P-47501",
+      "squadNumber": 22,
+      "name": "Ștefan Preda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Romania (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

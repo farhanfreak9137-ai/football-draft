@@ -1,0 +1,495 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "west_germany-1962-hans_tilkowski",
+      "identityId": "P-35661",
+      "squadNumber": 1,
+      "name": "Hans Tilkowski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-herbert_erhardt",
+      "identityId": "P-34121",
+      "squadNumber": 2,
+      "name": "Herbert Erhardt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-karl-heinz_schnellinger",
+      "identityId": "P-93072",
+      "squadNumber": 3,
+      "name": "Karl-Heinz Schnellinger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-willi_schulz",
+      "identityId": "P-77426",
+      "squadNumber": 4,
+      "name": "Willi Schulz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-leo_wilden",
+      "identityId": "P-41116",
+      "squadNumber": 5,
+      "name": "Leo Wilden",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-horst_szymaniak",
+      "identityId": "P-55225",
+      "squadNumber": 6,
+      "name": "Horst Szymaniak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1962-willi_koslowski",
+      "identityId": "P-41843",
+      "squadNumber": 7,
+      "name": "Willi Koslowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-helmut_haller",
+      "identityId": "P-12272",
+      "squadNumber": 8,
+      "name": "Helmut Haller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-uwe_seeler",
+      "identityId": "P-64138",
+      "squadNumber": 9,
+      "name": "Uwe Seeler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1962 World Cup performance for West Germany (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1962-albert_br_lls",
+      "identityId": "P-12917",
+      "squadNumber": 10,
+      "name": "Albert Brülls",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1962-hans_sch_fer",
+      "identityId": "P-63184",
+      "squadNumber": 11,
+      "name": "Hans Schäfer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for West Germany (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1962-hans_nowak",
+      "identityId": "P-83060",
+      "squadNumber": 12,
+      "name": "Hans Nowak",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-j_rgen_kurbjuhn",
+      "identityId": "P-48317",
+      "squadNumber": 13,
+      "name": "Jürgen Kurbjuhn",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-j_rgen_werner",
+      "identityId": "P-65688",
+      "squadNumber": 14,
+      "name": "Jürgen Werner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-willi_giesemann",
+      "identityId": "P-27606",
+      "squadNumber": 15,
+      "name": "Willi Giesemann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-hans_sturm",
+      "identityId": "P-06103",
+      "squadNumber": 16,
+      "name": "Hans Sturm",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-engelbert_kraus",
+      "identityId": "P-24131",
+      "squadNumber": 17,
+      "name": "Engelbert Kraus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-g_nther_herrmann",
+      "identityId": "P-19353",
+      "squadNumber": 18,
+      "name": "Günther Herrmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-heinz_strehl",
+      "identityId": "P-48720",
+      "squadNumber": 19,
+      "name": "Heinz Strehl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-heinz_vollmar",
+      "identityId": "P-10351",
+      "squadNumber": 20,
+      "name": "Heinz Vollmar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-g_nter_sawitzki",
+      "identityId": "P-24558",
+      "squadNumber": 21,
+      "name": "Günter Sawitzki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1962-wolfgang_fahrian",
+      "identityId": "P-98864",
+      "squadNumber": 22,
+      "name": "Wolfgang Fahrian",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for West Germany (Group Stage). Squad reserve member."
+    }
+  ]
+}

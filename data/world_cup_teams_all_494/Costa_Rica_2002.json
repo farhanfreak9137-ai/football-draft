@@ -1,0 +1,514 @@
+{
+  "teamName": "Costa Rica",
+  "teamCode": "CRI",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "costa_rica-2002-erick_lonnis",
+      "identityId": "P-74709",
+      "squadNumber": 1,
+      "name": "Erick Lonnis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-jervis_drummond",
+      "identityId": "P-56632",
+      "squadNumber": 2,
+      "name": "Jervis Drummond",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-luis_mar_n",
+      "identityId": "P-50749",
+      "squadNumber": 3,
+      "name": "Luis Marín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-mauricio_wright",
+      "identityId": "P-56613",
+      "squadNumber": 4,
+      "name": "Mauricio Wright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2002-gilberto_mart_nez",
+      "identityId": "P-32696",
+      "squadNumber": 5,
+      "name": "Gilberto Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-w_lmer_l_pez",
+      "identityId": "P-67575",
+      "squadNumber": 6,
+      "name": "Wílmer López",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2002-rolando_fonseca",
+      "identityId": "P-03776",
+      "squadNumber": 7,
+      "name": "Rolando Fonseca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2002-mauricio_sol_s",
+      "identityId": "P-26474",
+      "squadNumber": 8,
+      "name": "Mauricio Solís",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-paulo_wanchope",
+      "identityId": "P-22046",
+      "squadNumber": 9,
+      "name": "Paulo Wanchope",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2002-walter_centeno",
+      "identityId": "P-68890",
+      "squadNumber": 10,
+      "name": "Walter Centeno",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-r_nald_g_mez",
+      "identityId": "P-55170",
+      "squadNumber": 11,
+      "name": "Rónald Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "costa_rica-2002-winston_parks",
+      "identityId": "P-20880",
+      "squadNumber": 12,
+      "name": "Winston Parks",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2002-daniel_vallejos",
+      "identityId": "P-75965",
+      "squadNumber": 13,
+      "name": "Daniel Vallejos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-juan_jos_rodr_guez",
+      "identityId": "P-56119",
+      "squadNumber": 14,
+      "name": "Juan José Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-harold_wallace",
+      "identityId": "P-85975",
+      "squadNumber": 15,
+      "name": "Harold Wallace",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-steven_bryce",
+      "identityId": "P-14189",
+      "squadNumber": 16,
+      "name": "Steven Bryce",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "costa_rica-2002-hern_n_medford",
+      "identityId": "P-02273",
+      "squadNumber": 17,
+      "name": "Hernán Medford",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2002-_lvaro_mes_n",
+      "identityId": "P-86109",
+      "squadNumber": 18,
+      "name": "Álvaro Mesén",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-rodrigo_cordero",
+      "identityId": "P-98663",
+      "squadNumber": 19,
+      "name": "Rodrigo Cordero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-william_sunsing",
+      "identityId": "P-96930",
+      "squadNumber": 20,
+      "name": "William Sunsing",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-pablo_chinchilla",
+      "identityId": "P-29122",
+      "squadNumber": 21,
+      "name": "Pablo Chinchilla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2002-carlos_castro",
+      "identityId": "P-73169",
+      "squadNumber": 22,
+      "name": "Carlos Castro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2002-lester_morgan",
+      "identityId": "P-74506",
+      "squadNumber": 23,
+      "name": "Lester Morgan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    }
+  ]
+}

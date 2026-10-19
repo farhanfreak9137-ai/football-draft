@@ -1,0 +1,493 @@
+{
+  "teamName": "Honduras",
+  "teamCode": "HND",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "honduras-1982-salom_n_nazar",
+      "identityId": "P-06835",
+      "squadNumber": 1,
+      "name": "Salomón Nazar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-1982-efra_n_guti_rrez",
+      "identityId": "P-62087",
+      "squadNumber": 2,
+      "name": "Efraín Gutiérrez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-1982-jaime_villegas",
+      "identityId": "P-72685",
+      "squadNumber": 3,
+      "name": "Jaime Villegas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-fernando_bulnes",
+      "identityId": "P-62128",
+      "squadNumber": 4,
+      "name": "Fernando Bulnes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-1982-anthony_costly",
+      "identityId": "P-71750",
+      "squadNumber": 5,
+      "name": "Anthony Costly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-ram_n_maradiaga",
+      "identityId": "P-33765",
+      "squadNumber": 6,
+      "name": "Ramón Maradiaga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-antonio_laing",
+      "identityId": "P-17413",
+      "squadNumber": 7,
+      "name": "Antonio Laing",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1982 World Cup performance for Honduras (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "honduras-1982-francisco_javier_toledo",
+      "identityId": "P-26834",
+      "squadNumber": 8,
+      "name": "Francisco Javier Toledo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-1982-armando_betancourt",
+      "identityId": "P-84123",
+      "squadNumber": 9,
+      "name": "Armando Betancourt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-roberto_figueroa",
+      "identityId": "P-55438",
+      "squadNumber": 10,
+      "name": "Roberto Figueroa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-david_buezo",
+      "identityId": "P-54224",
+      "squadNumber": 11,
+      "name": "David Buezo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-1982-domingo_drummond",
+      "identityId": "P-30605",
+      "squadNumber": 12,
+      "name": "Domingo Drummond",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-1982-prudencio_norales",
+      "identityId": "P-88933",
+      "squadNumber": 13,
+      "name": "Prudencio Norales",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-1982-juan_cruz",
+      "identityId": "P-29948",
+      "squadNumber": 14,
+      "name": "Juan Cruz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-1982-h_ctor_zelaya",
+      "identityId": "P-10770",
+      "squadNumber": 15,
+      "name": "Héctor Zelaya",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "honduras-1982-roberto_bailey",
+      "identityId": "P-75470",
+      "squadNumber": 16,
+      "name": "Roberto Bailey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-1982-luis_cruz",
+      "identityId": "P-91620",
+      "squadNumber": 17,
+      "name": "Luis Cruz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-1982-carlos_caballero",
+      "identityId": "P-42459",
+      "squadNumber": 18,
+      "name": "Carlos Caballero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Honduras (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "honduras-1982-celso_g_ity",
+      "identityId": "P-26353",
+      "squadNumber": 19,
+      "name": "Celso Güity",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-1982-gilberto_yearwood",
+      "identityId": "P-06989",
+      "squadNumber": 20,
+      "name": "Gilberto Yearwood",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-julio_c_sar_arz_",
+      "identityId": "P-80606",
+      "squadNumber": 21,
+      "name": "Julio César Arzú",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-1982-jimmy_steward",
+      "identityId": "P-88196",
+      "squadNumber": 22,
+      "name": "Jimmy Steward",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    }
+  ]
+}

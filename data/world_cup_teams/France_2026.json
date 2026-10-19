@@ -1,0 +1,492 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "france-2026-mike_maignan",
+      "identityId": "identity-2026-mike_maignan",
+      "squadNumber": 16,
+      "name": "Mike Maignan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with France. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "france-2026-jules_kound_",
+      "identityId": "identity-2026-jules_kound_",
+      "squadNumber": 5,
+      "name": "Jules Koundé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-dayot_upamecano",
+      "identityId": "identity-2026-dayot_upamecano",
+      "squadNumber": 4,
+      "name": "Dayot Upamecano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-william_saliba",
+      "identityId": "identity-2026-william_saliba",
+      "squadNumber": 17,
+      "name": "William Saliba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with France. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "france-2026-theo_hern_ndez",
+      "identityId": "identity-2026-theo_hern_ndez",
+      "squadNumber": 22,
+      "name": "Theo Hernández",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-aur_lien_tchouam_ni",
+      "identityId": "identity-2026-aur_lien_tchouam_ni",
+      "squadNumber": 8,
+      "name": "Aurélien Tchouaméni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-eduardo_camavinga",
+      "identityId": "identity-2026-eduardo_camavinga",
+      "squadNumber": 6,
+      "name": "Eduardo Camavinga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-antoine_griezmann",
+      "identityId": "identity-2026-antoine_griezmann",
+      "squadNumber": 7,
+      "name": "Antoine Griezmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "World Champion & Master Playmaker"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "World Champion & Master Playmaker",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with France. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "france-2026-ousmane_demb_l_",
+      "identityId": "identity-2026-ousmane_demb_l_",
+      "squadNumber": 11,
+      "name": "Ousmane Dembélé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-kylian_mbapp_",
+      "identityId": "identity-2026-kylian_mbapp_",
+      "squadNumber": 10,
+      "name": "Kylian Mbappé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "RW"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "World Cup Final Hat-Trick Hero & Global Megastar"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "World Cup Final Hat-Trick Hero & Global Megastar",
+      "ratingRationale": "Rated 95 OVR for 2026 World Cup form with France. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "france-2026-marcus_thuram",
+      "identityId": "identity-2026-marcus_thuram",
+      "squadNumber": 9,
+      "name": "Marcus Thuram",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with France. Regular starting lineup selection."
+    },
+    {
+      "id": "france-2026-brice_samba",
+      "identityId": "identity-2026-brice_samba",
+      "squadNumber": 1,
+      "name": "Brice Samba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with France. National squad reserve depth."
+    },
+    {
+      "id": "france-2026-alphonse_areola",
+      "identityId": "identity-2026-alphonse_areola",
+      "squadNumber": 23,
+      "name": "Alphonse Areola",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with France. National squad reserve depth."
+    },
+    {
+      "id": "france-2026-benjamin_pavard",
+      "identityId": "identity-2026-benjamin_pavard",
+      "squadNumber": 2,
+      "name": "Benjamin Pavard",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-jonathan_clauss",
+      "identityId": "identity-2026-jonathan_clauss",
+      "squadNumber": 21,
+      "name": "Jonathan Clauss",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "RWB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-ferland_mendy",
+      "identityId": "identity-2026-ferland_mendy",
+      "squadNumber": 3,
+      "name": "Ferland Mendy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-ibrahima_konat_",
+      "identityId": "identity-2026-ibrahima_konat_",
+      "squadNumber": 13,
+      "name": "Ibrahima Konaté",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-adrien_rabiot",
+      "identityId": "identity-2026-adrien_rabiot",
+      "squadNumber": 14,
+      "name": "Adrien Rabiot",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "LM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-warren_za_re-emery",
+      "identityId": "identity-2026-warren_za_re-emery",
+      "squadNumber": 18,
+      "name": "Warren Zaïre-Emery",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-youssouf_fofana",
+      "identityId": "identity-2026-youssouf_fofana",
+      "squadNumber": 19,
+      "name": "Youssouf Fofana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-randal_kolo_muani",
+      "identityId": "identity-2026-randal_kolo_muani",
+      "squadNumber": 12,
+      "name": "Randal Kolo Muani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-kingsley_coman",
+      "identityId": "identity-2026-kingsley_coman",
+      "squadNumber": 20,
+      "name": "Kingsley Coman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "france-2026-bradley_barcola",
+      "identityId": "identity-2026-bradley_barcola",
+      "squadNumber": 25,
+      "name": "Bradley Barcola",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with France. Frequent tactical rotation contributor."
+    }
+  ]
+}

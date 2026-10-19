@@ -1,0 +1,514 @@
+{
+  "teamName": "Chile",
+  "teamCode": "CHL",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "chile-2010-claudio_bravo",
+      "identityId": "P-89601",
+      "squadNumber": 1,
+      "name": "Claudio Bravo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-2010-ismael_fuentes",
+      "identityId": "P-98593",
+      "squadNumber": 2,
+      "name": "Ismael Fuentes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-2010-waldo_ponce",
+      "identityId": "P-23300",
+      "squadNumber": 3,
+      "name": "Waldo Ponce",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-2010-mauricio_isla",
+      "identityId": "P-16376",
+      "squadNumber": 4,
+      "name": "Mauricio Isla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-2010-pablo_contreras",
+      "identityId": "P-29404",
+      "squadNumber": 5,
+      "name": "Pablo Contreras",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-2010-carlos_carmona",
+      "identityId": "P-41671",
+      "squadNumber": 6,
+      "name": "Carlos Carmona",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-2010-alexis_s_nchez",
+      "identityId": "P-30014",
+      "squadNumber": 7,
+      "name": "Alexis Sánchez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-2010-arturo_vidal",
+      "identityId": "P-41001",
+      "squadNumber": 8,
+      "name": "Arturo Vidal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-2010-humberto_suazo",
+      "identityId": "P-66477",
+      "squadNumber": 9,
+      "name": "Humberto Suazo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "chile-2010-jorge_valdivia",
+      "identityId": "P-65631",
+      "squadNumber": 10,
+      "name": "Jorge Valdivia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "chile-2010-mark_gonz_lez",
+      "identityId": "P-35574",
+      "squadNumber": 11,
+      "name": "Mark González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-2010-miguel_pinto",
+      "identityId": "P-52362",
+      "squadNumber": 12,
+      "name": "Miguel Pinto",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Chile (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "chile-2010-marco_estrada",
+      "identityId": "P-08305",
+      "squadNumber": 13,
+      "name": "Marco Estrada",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-2010-mat_as_fern_ndez",
+      "identityId": "P-96009",
+      "squadNumber": 14,
+      "name": "Matías Fernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "chile-2010-jean_beausejour",
+      "identityId": "P-74480",
+      "squadNumber": 15,
+      "name": "Jean Beausejour",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-2010-fabi_n_orellana",
+      "identityId": "P-31755",
+      "squadNumber": 16,
+      "name": "Fabián Orellana",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Chile (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "chile-2010-gary_medel",
+      "identityId": "P-49014",
+      "squadNumber": 17,
+      "name": "Gary Medel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-2010-gonzalo_jara",
+      "identityId": "P-21890",
+      "squadNumber": 18,
+      "name": "Gonzalo Jara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-2010-gonzalo_fierro",
+      "identityId": "P-67949",
+      "squadNumber": 19,
+      "name": "Gonzalo Fierro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Chile (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "chile-2010-rodrigo_millar",
+      "identityId": "P-39840",
+      "squadNumber": 20,
+      "name": "Rodrigo Millar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-2010-rodrigo_tello",
+      "identityId": "P-90807",
+      "squadNumber": 21,
+      "name": "Rodrigo Tello",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Chile (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "chile-2010-esteban_paredes",
+      "identityId": "P-08708",
+      "squadNumber": 22,
+      "name": "Esteban Paredes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Chile (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "chile-2010-luis_mar_n",
+      "identityId": "P-11751",
+      "squadNumber": 23,
+      "name": "Luis Marín",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Chile (Round of 16). Squad reserve member."
+    }
+  ]
+}

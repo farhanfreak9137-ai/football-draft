@@ -1,0 +1,519 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "france-2006-micka_l_landreau",
+      "identityId": "P-30652",
+      "squadNumber": 1,
+      "name": "Mickaël Landreau",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for France (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "france-2006-jean-alain_boumsong",
+      "identityId": "P-63176",
+      "squadNumber": 2,
+      "name": "Jean-Alain Boumsong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for France (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "france-2006-eric_abidal",
+      "identityId": "P-04469",
+      "squadNumber": 3,
+      "name": "Eric Abidal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2006-patrick_vieira",
+      "identityId": "P-96540",
+      "squadNumber": 4,
+      "name": "Patrick Vieira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "france-2006-william_gallas",
+      "identityId": "P-68803",
+      "squadNumber": 5,
+      "name": "William Gallas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2006-claude_mak_l_l_",
+      "identityId": "P-93048",
+      "squadNumber": 6,
+      "name": "Claude Makélélé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2006-florent_malouda",
+      "identityId": "P-18830",
+      "squadNumber": 7,
+      "name": "Florent Malouda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2006-vikash_dhorasoo",
+      "identityId": "P-51388",
+      "squadNumber": 8,
+      "name": "Vikash Dhorasoo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for France (Runners-up). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "france-2006-sidney_govou",
+      "identityId": "P-31668",
+      "squadNumber": 9,
+      "name": "Sidney Govou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for France (Runners-up). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "france-2006-zinedine_zidane",
+      "identityId": "P-56430",
+      "squadNumber": 10,
+      "name": "Zinedine Zidane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2006 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 6 match(es). Scored 3 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "france-2006-sylvain_wiltord",
+      "identityId": "P-00916",
+      "squadNumber": 11,
+      "name": "Sylvain Wiltord",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2006 World Cup performance for France (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2006-thierry_henry",
+      "identityId": "P-51395",
+      "squadNumber": 12,
+      "name": "Thierry Henry",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "france-2006-mika_l_silvestre",
+      "identityId": "P-66615",
+      "squadNumber": 13,
+      "name": "Mikaël Silvestre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2006 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2006-louis_saha",
+      "identityId": "P-48944",
+      "squadNumber": 14,
+      "name": "Louis Saha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for France (Runners-up). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "france-2006-lilian_thuram",
+      "identityId": "P-56947",
+      "squadNumber": 15,
+      "name": "Lilian Thuram",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2006-fabien_barthez",
+      "identityId": "P-55991",
+      "squadNumber": 16,
+      "name": "Fabien Barthez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2006-ga_l_givet",
+      "identityId": "P-98022",
+      "squadNumber": 17,
+      "name": "Gaël Givet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for France (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "france-2006-alou_diarra",
+      "identityId": "P-58415",
+      "squadNumber": 18,
+      "name": "Alou Diarra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for France (Runners-up). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "france-2006-willy_sagnol",
+      "identityId": "P-23315",
+      "squadNumber": 19,
+      "name": "Willy Sagnol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2006-david_trezeguet",
+      "identityId": "P-12167",
+      "squadNumber": 20,
+      "name": "David Trezeguet",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2006 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2006-pascal_chimbonda",
+      "identityId": "P-43681",
+      "squadNumber": 21,
+      "name": "Pascal Chimbonda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for France (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "france-2006-franck_rib_ry",
+      "identityId": "P-55659",
+      "squadNumber": 22,
+      "name": "Franck Ribéry",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2006 World Cup performance for France (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2006-gr_gory_coupet",
+      "identityId": "P-57021",
+      "squadNumber": 23,
+      "name": "Grégory Coupet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for France (Runners-up). Squad reserve member."
+    }
+  ]
+}

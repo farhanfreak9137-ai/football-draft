@@ -1,0 +1,492 @@
+{
+  "teamName": "Cameroon",
+  "teamCode": "CMR",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "cameroon-1990-joseph-antoine_bell",
+      "identityId": "P-17774",
+      "squadNumber": 1,
+      "name": "Joseph-Antoine Bell",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1990-andr_kana-biyik",
+      "identityId": "P-84420",
+      "squadNumber": 2,
+      "name": "André Kana-Biyik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1990-jules_onana",
+      "identityId": "P-56577",
+      "squadNumber": 3,
+      "name": "Jules Onana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1990-benjamin_massing",
+      "identityId": "P-31657",
+      "squadNumber": 4,
+      "name": "Benjamin Massing",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-1990-bertin_ebwell_",
+      "identityId": "P-31884",
+      "squadNumber": 5,
+      "name": "Bertin Ebwellé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "cameroon-1990-emmanuel_kund_",
+      "identityId": "P-44016",
+      "squadNumber": 6,
+      "name": "Emmanuel Kundé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-1990-fran_ois_omam-biyik",
+      "identityId": "P-77989",
+      "squadNumber": 7,
+      "name": "François Omam-Biyik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-1990-_mile_mbouh",
+      "identityId": "P-12458",
+      "squadNumber": 8,
+      "name": "Émile Mbouh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "cameroon-1990-roger_milla",
+      "identityId": "P-58080",
+      "squadNumber": 9,
+      "name": "Roger Milla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Substitute rotation option (5 sub app). Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "cameroon-1990-louis-paul_mf_d_",
+      "identityId": "P-59402",
+      "squadNumber": 10,
+      "name": "Louis-Paul M'Fédé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "cameroon-1990-eug_ne_ek_k_",
+      "identityId": "P-41084",
+      "squadNumber": 11,
+      "name": "Eugène Ekéké",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-1990-alphonse_yombi",
+      "identityId": "P-79721",
+      "squadNumber": 12,
+      "name": "Alphonse Yombi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1990-jean-claude_pagal",
+      "identityId": "P-81131",
+      "squadNumber": 13,
+      "name": "Jean-Claude Pagal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-1990-stephen_tataw",
+      "identityId": "P-08703",
+      "squadNumber": 14,
+      "name": "Stephen Tataw",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "cameroon-1990-thomas_libiih",
+      "identityId": "P-94752",
+      "squadNumber": 15,
+      "name": "Thomas Libiih",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-1990-thomas_nkono",
+      "identityId": "P-95667",
+      "squadNumber": 16,
+      "name": "Thomas N'Kono",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "cameroon-1990-victor_ndip",
+      "identityId": "P-53341",
+      "squadNumber": 17,
+      "name": "Victor N'Dip",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "cameroon-1990-bonaventure_djonkep",
+      "identityId": "P-36769",
+      "squadNumber": 18,
+      "name": "Bonaventure Djonkep",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-1990-roger_feutmba",
+      "identityId": "P-19849",
+      "squadNumber": 19,
+      "name": "Roger Feutmba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1990-cyrille_makanaky",
+      "identityId": "P-64478",
+      "squadNumber": 20,
+      "name": "Cyrille Makanaky",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "cameroon-1990-emmanuel_maboang",
+      "identityId": "P-03377",
+      "squadNumber": 21,
+      "name": "Emmanuel Maboang",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1990-jacques_songoo",
+      "identityId": "P-93402",
+      "squadNumber": 22,
+      "name": "Jacques Songo'o",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Cameroon (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

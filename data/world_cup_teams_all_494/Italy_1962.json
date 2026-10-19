@@ -1,0 +1,494 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "italy-1962-lorenzo_buffon",
+      "identityId": "P-95875",
+      "squadNumber": 1,
+      "name": "Lorenzo Buffon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-giacomo_losi",
+      "identityId": "P-05300",
+      "squadNumber": 2,
+      "name": "Giacomo Losi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-luigi_radice",
+      "identityId": "P-11175",
+      "squadNumber": 3,
+      "name": "Luigi Radice",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-sandro_salvadore",
+      "identityId": "P-97727",
+      "squadNumber": 4,
+      "name": "Sandro Salvadore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-cesare_maldini",
+      "identityId": "P-34023",
+      "squadNumber": 5,
+      "name": "Cesare Maldini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-giovanni_trapattoni",
+      "identityId": "P-53115",
+      "squadNumber": 6,
+      "name": "Giovanni Trapattoni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-bruno_mora",
+      "identityId": "P-14709",
+      "squadNumber": 7,
+      "name": "Bruno Mora",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1962-humberto_maschio",
+      "identityId": "P-80419",
+      "squadNumber": 8,
+      "name": "Humberto Maschio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-jos_altafini",
+      "identityId": "P-60629",
+      "squadNumber": 9,
+      "name": "José Altafini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-omar_s_vori",
+      "identityId": "P-12682",
+      "squadNumber": 10,
+      "name": "Omar Sívori",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-giampaolo_menichelli",
+      "identityId": "P-34797",
+      "squadNumber": 11,
+      "name": "Giampaolo Menichelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1962-carlo_mattrel",
+      "identityId": "P-40979",
+      "squadNumber": 12,
+      "name": "Carlo Mattrel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-enrico_albertosi",
+      "identityId": "P-73673",
+      "squadNumber": 13,
+      "name": "Enrico Albertosi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-gianni_rivera",
+      "identityId": "P-62214",
+      "squadNumber": 14,
+      "name": "Gianni Rivera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-angelo_sormani",
+      "identityId": "P-39599",
+      "squadNumber": 15,
+      "name": "Angelo Sormani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-enzo_robotti",
+      "identityId": "P-31011",
+      "squadNumber": 16,
+      "name": "Enzo Robotti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-ezio_pascutti",
+      "identityId": "P-50486",
+      "squadNumber": 17,
+      "name": "Ezio Pascutti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-mario_david",
+      "identityId": "P-29660",
+      "squadNumber": 18,
+      "name": "Mario David",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-francesco_janich",
+      "identityId": "P-89616",
+      "squadNumber": 19,
+      "name": "Francesco Janich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-paride_tumburus",
+      "identityId": "P-92379",
+      "squadNumber": 20,
+      "name": "Paride Tumburus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-giorgio_ferrini",
+      "identityId": "P-37836",
+      "squadNumber": 21,
+      "name": "Giorgio Ferrini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1962-giacomo_bulgarelli",
+      "identityId": "P-72738",
+      "squadNumber": 22,
+      "name": "Giacomo Bulgarelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1962 World Cup performance for Italy (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    }
+  ]
+}

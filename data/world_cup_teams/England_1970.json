@@ -1,0 +1,495 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "england-1970-gordon_banks",
+      "identityId": "P-74455",
+      "squadNumber": 1,
+      "name": "Gordon Banks",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1970-keith_newton",
+      "identityId": "P-79568",
+      "squadNumber": 2,
+      "name": "Keith Newton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1970-terry_cooper",
+      "identityId": "P-40921",
+      "squadNumber": 3,
+      "name": "Terry Cooper",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-1970-alan_mullery",
+      "identityId": "P-62668",
+      "squadNumber": 4,
+      "name": "Alan Mullery",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1970-brian_labone",
+      "identityId": "P-49952",
+      "squadNumber": 5,
+      "name": "Brian Labone",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1970-bobby_moore",
+      "identityId": "P-52816",
+      "squadNumber": 6,
+      "name": "Bobby Moore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-1970-francis_lee",
+      "identityId": "P-88728",
+      "squadNumber": 7,
+      "name": "Francis Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1970-alan_ball",
+      "identityId": "P-22841",
+      "squadNumber": 8,
+      "name": "Alan Ball",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1970-bobby_charlton",
+      "identityId": "P-08601",
+      "squadNumber": 9,
+      "name": "Bobby Charlton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-1970-geoff_hurst",
+      "identityId": "P-34802",
+      "squadNumber": 10,
+      "name": "Geoff Hurst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1970-martin_peters",
+      "identityId": "P-34233",
+      "squadNumber": 11,
+      "name": "Martin Peters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1970-peter_bonetti",
+      "identityId": "P-25979",
+      "squadNumber": 12,
+      "name": "Peter Bonetti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1970-alex_stepney",
+      "identityId": "P-43486",
+      "squadNumber": 13,
+      "name": "Alex Stepney",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-1970-tommy_wright",
+      "identityId": "P-22176",
+      "squadNumber": 14,
+      "name": "Tommy Wright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1970-nobby_stiles",
+      "identityId": "P-34887",
+      "squadNumber": 15,
+      "name": "Nobby Stiles",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-1970-emlyn_hughes",
+      "identityId": "P-63494",
+      "squadNumber": 16,
+      "name": "Emlyn Hughes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-1970-jack_charlton",
+      "identityId": "P-43761",
+      "squadNumber": 17,
+      "name": "Jack Charlton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1970-norman_hunter",
+      "identityId": "P-70457",
+      "squadNumber": 18,
+      "name": "Norman Hunter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-1970-colin_bell",
+      "identityId": "P-77223",
+      "squadNumber": 19,
+      "name": "Colin Bell",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1970-peter_osgood",
+      "identityId": "P-11917",
+      "squadNumber": 20,
+      "name": "Peter Osgood",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-1970-allan_clarke",
+      "identityId": "P-52978",
+      "squadNumber": 21,
+      "name": "Allan Clarke",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1970-jeff_astle",
+      "identityId": "P-27328",
+      "squadNumber": 22,
+      "name": "Jeff Astle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

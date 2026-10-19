@@ -1,0 +1,512 @@
+{
+  "teamName": "Saudi Arabia",
+  "teamCode": "SAU",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 78,
+  "players": [
+    {
+      "id": "saudi_arabia-2026-salem_al-dawsari",
+      "identityId": "identity-2026-salem_al-dawsari",
+      "squadNumber": 1,
+      "name": "Salem Al-Dawsari",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "AFC Player of the Year & World Cup Scorer"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "AFC Player of the Year & World Cup Scorer",
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Saudi Arabia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "saudi_arabia-2026-firas_al-buraikan",
+      "identityId": "identity-2026-firas_al-buraikan",
+      "squadNumber": 2,
+      "name": "Firas Al-Buraikan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Saudi Arabia. Regular starting lineup selection."
+    },
+    {
+      "id": "saudi_arabia-2026-saud_abdulhamid",
+      "identityId": "identity-2026-saud_abdulhamid",
+      "squadNumber": 3,
+      "name": "Saud Abdulhamid",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Saudi Arabia. Regular starting lineup selection."
+    },
+    {
+      "id": "saudi_arabia-2026-ali_al-bulaihi",
+      "identityId": "identity-2026-ali_al-bulaihi",
+      "squadNumber": 4,
+      "name": "Ali Al-Bulaihi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Saudi Arabia. Regular starting lineup selection."
+    },
+    {
+      "id": "saudi_arabia-2026-mohamed_kanno",
+      "identityId": "identity-2026-mohamed_kanno",
+      "squadNumber": 5,
+      "name": "Mohamed Kanno",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Saudi Arabia. Regular starting lineup selection."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_6",
+      "identityId": "identity-2026-saudi_arabia_squad_member_6",
+      "squadNumber": 6,
+      "name": "Saudi Arabia Squad Member #6",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_7",
+      "identityId": "identity-2026-saudi_arabia_squad_member_7",
+      "squadNumber": 7,
+      "name": "Saudi Arabia Squad Member #7",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_8",
+      "identityId": "identity-2026-saudi_arabia_squad_member_8",
+      "squadNumber": 8,
+      "name": "Saudi Arabia Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_9",
+      "identityId": "identity-2026-saudi_arabia_squad_member_9",
+      "squadNumber": 9,
+      "name": "Saudi Arabia Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_10",
+      "identityId": "identity-2026-saudi_arabia_squad_member_10",
+      "squadNumber": 10,
+      "name": "Saudi Arabia Squad Member #10",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_11",
+      "identityId": "identity-2026-saudi_arabia_squad_member_11",
+      "squadNumber": 11,
+      "name": "Saudi Arabia Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_12",
+      "identityId": "identity-2026-saudi_arabia_squad_member_12",
+      "squadNumber": 12,
+      "name": "Saudi Arabia Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_13",
+      "identityId": "identity-2026-saudi_arabia_squad_member_13",
+      "squadNumber": 13,
+      "name": "Saudi Arabia Squad Member #13",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_14",
+      "identityId": "identity-2026-saudi_arabia_squad_member_14",
+      "squadNumber": 14,
+      "name": "Saudi Arabia Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_15",
+      "identityId": "identity-2026-saudi_arabia_squad_member_15",
+      "squadNumber": 15,
+      "name": "Saudi Arabia Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_16",
+      "identityId": "identity-2026-saudi_arabia_squad_member_16",
+      "squadNumber": 16,
+      "name": "Saudi Arabia Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_17",
+      "identityId": "identity-2026-saudi_arabia_squad_member_17",
+      "squadNumber": 17,
+      "name": "Saudi Arabia Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_18",
+      "identityId": "identity-2026-saudi_arabia_squad_member_18",
+      "squadNumber": 18,
+      "name": "Saudi Arabia Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_19",
+      "identityId": "identity-2026-saudi_arabia_squad_member_19",
+      "squadNumber": 19,
+      "name": "Saudi Arabia Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_20",
+      "identityId": "identity-2026-saudi_arabia_squad_member_20",
+      "squadNumber": 20,
+      "name": "Saudi Arabia Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_21",
+      "identityId": "identity-2026-saudi_arabia_squad_member_21",
+      "squadNumber": 21,
+      "name": "Saudi Arabia Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_22",
+      "identityId": "identity-2026-saudi_arabia_squad_member_22",
+      "squadNumber": 22,
+      "name": "Saudi Arabia Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    },
+    {
+      "id": "saudi_arabia-2026-saudi_arabia_squad_member_23",
+      "identityId": "identity-2026-saudi_arabia_squad_member_23",
+      "squadNumber": 23,
+      "name": "Saudi Arabia Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Saudi Arabia. National squad reserve depth."
+    }
+  ]
+}

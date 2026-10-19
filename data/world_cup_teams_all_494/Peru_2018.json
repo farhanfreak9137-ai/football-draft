@@ -1,0 +1,515 @@
+{
+  "teamName": "Peru",
+  "teamCode": "PER",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "peru-2018-pedro_gallese",
+      "identityId": "P-83518",
+      "squadNumber": 1,
+      "name": "Pedro Gallese",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-alberto_rodr_guez",
+      "identityId": "P-86020",
+      "squadNumber": 2,
+      "name": "Alberto Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Peru (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-2018-aldo_corzo",
+      "identityId": "P-02351",
+      "squadNumber": 3,
+      "name": "Aldo Corzo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-2018-anderson_santamar_a",
+      "identityId": "P-56647",
+      "squadNumber": 4,
+      "name": "Anderson Santamaría",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Peru (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "peru-2018-miguel_araujo",
+      "identityId": "P-36397",
+      "squadNumber": 5,
+      "name": "Miguel Araujo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-2018-miguel_trauco",
+      "identityId": "P-53701",
+      "squadNumber": 6,
+      "name": "Miguel Trauco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-paolo_hurtado",
+      "identityId": "P-88592",
+      "squadNumber": 7,
+      "name": "Paolo Hurtado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Peru (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "peru-2018-christian_cueva",
+      "identityId": "P-04154",
+      "squadNumber": 8,
+      "name": "Christian Cueva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-paolo_guerrero",
+      "identityId": "P-29117",
+      "squadNumber": 9,
+      "name": "Paolo Guerrero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Peru (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-2018-jefferson_farf_n",
+      "identityId": "P-70132",
+      "squadNumber": 10,
+      "name": "Jefferson Farfán",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Peru (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "peru-2018-ra_l_ruid_az",
+      "identityId": "P-16977",
+      "squadNumber": 11,
+      "name": "Raúl Ruidíaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Peru (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "peru-2018-carlos_c_ceda",
+      "identityId": "P-01594",
+      "squadNumber": 12,
+      "name": "Carlos Cáceda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-2018-renato_tapia",
+      "identityId": "P-82532",
+      "squadNumber": 13,
+      "name": "Renato Tapia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Peru (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-2018-andy_polo",
+      "identityId": "P-96067",
+      "squadNumber": 14,
+      "name": "Andy Polo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-2018-christian_ramos",
+      "identityId": "P-70241",
+      "squadNumber": 15,
+      "name": "Christian Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-wilder_cartagena",
+      "identityId": "P-77391",
+      "squadNumber": 16,
+      "name": "Wilder Cartagena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Peru (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "peru-2018-luis_adv_ncula",
+      "identityId": "P-47833",
+      "squadNumber": 17,
+      "name": "Luis Advíncula",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-andr_carrillo",
+      "identityId": "P-39610",
+      "squadNumber": 18,
+      "name": "André Carrillo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-2018-yoshimar_yot_n",
+      "identityId": "P-61528",
+      "squadNumber": 19,
+      "name": "Yoshimar Yotún",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-edison_flores",
+      "identityId": "P-05862",
+      "squadNumber": 20,
+      "name": "Edison Flores",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-2018-jos_carvallo",
+      "identityId": "P-09633",
+      "squadNumber": 21,
+      "name": "José Carvallo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-2018-nilson_loyola",
+      "identityId": "P-23264",
+      "squadNumber": 22,
+      "name": "Nilson Loyola",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-2018-pedro_aquino",
+      "identityId": "P-59720",
+      "squadNumber": 23,
+      "name": "Pedro Aquino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Peru (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

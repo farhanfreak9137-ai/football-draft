@@ -1,0 +1,497 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "west_germany-1970-sepp_maier",
+      "identityId": "P-14080",
+      "squadNumber": 1,
+      "name": "Sepp Maier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "west_germany-1970-horst-dieter_h_ttges",
+      "identityId": "P-28162",
+      "squadNumber": 2,
+      "name": "Horst-Dieter Höttges",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1970-karl-heinz_schnellinger",
+      "identityId": "P-93072",
+      "squadNumber": 3,
+      "name": "Karl-Heinz Schnellinger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1970-franz_beckenbauer",
+      "identityId": "P-72864",
+      "squadNumber": 4,
+      "name": "Franz Beckenbauer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1970-willi_schulz",
+      "identityId": "P-77426",
+      "squadNumber": 5,
+      "name": "Willi Schulz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1970-wolfgang_weber",
+      "identityId": "P-11099",
+      "squadNumber": 6,
+      "name": "Wolfgang Weber",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1970-berti_vogts",
+      "identityId": "P-69695",
+      "squadNumber": 7,
+      "name": "Berti Vogts",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1970-helmut_haller",
+      "identityId": "P-12272",
+      "squadNumber": 8,
+      "name": "Helmut Haller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1970-uwe_seeler",
+      "identityId": "P-64138",
+      "squadNumber": 9,
+      "name": "Uwe Seeler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1970-sigfried_held",
+      "identityId": "P-86276",
+      "squadNumber": 10,
+      "name": "Sigfried Held",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1970-klaus_fichtel",
+      "identityId": "P-63982",
+      "squadNumber": 11,
+      "name": "Klaus Fichtel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "west_germany-1970-wolfgang_overath",
+      "identityId": "P-60896",
+      "squadNumber": 12,
+      "name": "Wolfgang Overath",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1970-gerd_m_ller",
+      "identityId": "P-72441",
+      "squadNumber": 13,
+      "name": "Gerd Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 97,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 10,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1970 FIFA World Cup Golden Boot Winner (10 Goals)",
+      "ratingRationale": "Rated 97 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 6 match(es). Scored 10 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "west_germany-1970-reinhard_libuda",
+      "identityId": "P-62529",
+      "squadNumber": 14,
+      "name": "Reinhard Libuda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1970-bernd_patzke",
+      "identityId": "P-83141",
+      "squadNumber": 15,
+      "name": "Bernd Patzke",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1970-max_lorenz",
+      "identityId": "P-86015",
+      "squadNumber": 16,
+      "name": "Max Lorenz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for West Germany (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "west_germany-1970-hannes_l_hr",
+      "identityId": "P-12863",
+      "squadNumber": 17,
+      "name": "Hannes Löhr",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for West Germany (Third Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1970-klaus-dieter_sieloff",
+      "identityId": "P-50033",
+      "squadNumber": 18,
+      "name": "Klaus-Dieter Sieloff",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for West Germany (Third Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1970-peter_dietrich",
+      "identityId": "P-09958",
+      "squadNumber": 19,
+      "name": "Peter Dietrich",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for West Germany (Third Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1970-j_rgen_grabowski",
+      "identityId": "P-48733",
+      "squadNumber": 20,
+      "name": "Jürgen Grabowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1970-manfred_manglitz",
+      "identityId": "P-89031",
+      "squadNumber": 21,
+      "name": "Manfred Manglitz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for West Germany (Third Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1970-horst_wolter",
+      "identityId": "P-57908",
+      "squadNumber": 22,
+      "name": "Horst Wolter",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for West Germany (Third Place). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

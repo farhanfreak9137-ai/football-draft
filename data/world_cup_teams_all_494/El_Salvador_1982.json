@@ -1,0 +1,450 @@
+{
+  "teamName": "El Salvador",
+  "teamCode": "SLV",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 20,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "el_salvador-1982-luis_guevara_mora",
+      "identityId": "P-45636",
+      "squadNumber": 1,
+      "name": "Luis Guevara Mora",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-mario_castillo",
+      "identityId": "P-98480",
+      "squadNumber": 2,
+      "name": "Mario Castillo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "el_salvador-1982-jos_francisco_jovel",
+      "identityId": "P-58500",
+      "squadNumber": 3,
+      "name": "José Francisco Jovel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-carlos_recinos",
+      "identityId": "P-98609",
+      "squadNumber": 4,
+      "name": "Carlos Recinos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-ram_n_fagoaga",
+      "identityId": "P-47601",
+      "squadNumber": 5,
+      "name": "Ramón Fagoaga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "el_salvador-1982-joaqu_n_ventura",
+      "identityId": "P-55381",
+      "squadNumber": 6,
+      "name": "Joaquín Ventura",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-silvio_aquino",
+      "identityId": "P-06708",
+      "squadNumber": 7,
+      "name": "Silvio Aquino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "el_salvador-1982-jos_luis_rugamas",
+      "identityId": "P-38399",
+      "squadNumber": 8,
+      "name": "José Luis Rugamas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "el_salvador-1982-ever_hern_ndez",
+      "identityId": "P-84407",
+      "squadNumber": 9,
+      "name": "Ever Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "el_salvador-1982-norberto_huezo",
+      "identityId": "P-12423",
+      "squadNumber": 10,
+      "name": "Norberto Huezo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-jorge_gonz_lez",
+      "identityId": "P-11306",
+      "squadNumber": 11,
+      "name": "Jorge González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-francisco_osorto",
+      "identityId": "P-86679",
+      "squadNumber": 12,
+      "name": "Francisco Osorto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "el_salvador-1982-jos_mar_a_rivas",
+      "identityId": "P-48156",
+      "squadNumber": 13,
+      "name": "José María Rivas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-luis_ram_rez_zapata",
+      "identityId": "P-41807",
+      "squadNumber": 14,
+      "name": "Luis Ramírez Zapata",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "el_salvador-1982-jaime_rodr_guez",
+      "identityId": "P-49970",
+      "squadNumber": 15,
+      "name": "Jaime Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "el_salvador-1982-mauricio_alfaro",
+      "identityId": "P-21488",
+      "squadNumber": 16,
+      "name": "Mauricio Alfaro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "el_salvador-1982-guillermo_ragazzone",
+      "identityId": "P-46831",
+      "squadNumber": 17,
+      "name": "Guillermo Ragazzone",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "el_salvador-1982-miguel_ngel_d_az",
+      "identityId": "P-58071",
+      "squadNumber": 18,
+      "name": "Miguel Ángel Díaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "el_salvador-1982-eduardo_hern_ndez",
+      "identityId": "P-04162",
+      "squadNumber": 19,
+      "name": "Eduardo Hernández",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "el_salvador-1982-jos_luis_mungu_a",
+      "identityId": "P-29001",
+      "squadNumber": 20,
+      "name": "José Luis Munguía",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for El Salvador (Group Stage). Squad reserve member."
+    }
+  ]
+}

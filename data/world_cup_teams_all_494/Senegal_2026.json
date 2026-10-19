@@ -1,0 +1,485 @@
+{
+  "teamName": "Senegal",
+  "teamCode": "SEN",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "senegal-2026-_douard_mendy",
+      "identityId": "identity-2026-_douard_mendy",
+      "squadNumber": 16,
+      "name": "Édouard Mendy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-kr_pin_diatta",
+      "identityId": "identity-2026-kr_pin_diatta",
+      "squadNumber": 15,
+      "name": "Krépin Diatta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "RWB"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-kalidou_koulibaly",
+      "identityId": "identity-2026-kalidou_koulibaly",
+      "squadNumber": 3,
+      "name": "Kalidou Koulibaly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Senegal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "senegal-2026-moussa_niakhat_",
+      "identityId": "identity-2026-moussa_niakhat_",
+      "squadNumber": 19,
+      "name": "Moussa Niakhaté",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-ismail_jakobs",
+      "identityId": "identity-2026-ismail_jakobs",
+      "squadNumber": 14,
+      "name": "Ismail Jakobs",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-idrissa_gueye",
+      "identityId": "identity-2026-idrissa_gueye",
+      "squadNumber": 5,
+      "name": "Idrissa Gueye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-pape_gueye",
+      "identityId": "identity-2026-pape_gueye",
+      "squadNumber": 26,
+      "name": "Pape Gueye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-cheikhou_kouyat_",
+      "identityId": "identity-2026-cheikhou_kouyat_",
+      "squadNumber": 8,
+      "name": "Cheikhou Kouyaté",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-isma_la_sarr",
+      "identityId": "identity-2026-isma_la_sarr",
+      "squadNumber": 18,
+      "name": "Ismaïla Sarr",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-nicolas_jackson",
+      "identityId": "identity-2026-nicolas_jackson",
+      "squadNumber": 11,
+      "name": "Nicolas Jackson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-sadio_man_",
+      "identityId": "identity-2026-sadio_man_",
+      "squadNumber": 10,
+      "name": "Sadio Mané",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "African Footballer of the Year & Continental Champion"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "African Footballer of the Year & Continental Champion",
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Senegal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "senegal-2026-mory_diaw",
+      "identityId": "identity-2026-mory_diaw",
+      "squadNumber": 1,
+      "name": "Mory Diaw",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Senegal. National squad reserve depth."
+    },
+    {
+      "id": "senegal-2026-alfred_gomis",
+      "identityId": "identity-2026-alfred_gomis",
+      "squadNumber": 23,
+      "name": "Alfred Gomis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Senegal. National squad reserve depth."
+    },
+    {
+      "id": "senegal-2026-formose_mendy",
+      "identityId": "identity-2026-formose_mendy",
+      "squadNumber": 2,
+      "name": "Formose Mendy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-abdoulaye_seck",
+      "identityId": "identity-2026-abdoulaye_seck",
+      "squadNumber": 4,
+      "name": "Abdoulaye Seck",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-fod_ballo-tour_",
+      "identityId": "identity-2026-fod_ballo-tour_",
+      "squadNumber": 12,
+      "name": "Fodé Ballo-Touré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-nampalys_mendy",
+      "identityId": "identity-2026-nampalys_mendy",
+      "squadNumber": 6,
+      "name": "Nampalys Mendy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-pape_matar_sarr",
+      "identityId": "identity-2026-pape_matar_sarr",
+      "squadNumber": 17,
+      "name": "Pape Matar Sarr",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Senegal. Regular starting lineup selection."
+    },
+    {
+      "id": "senegal-2026-lamine_camara",
+      "identityId": "identity-2026-lamine_camara",
+      "squadNumber": 25,
+      "name": "Lamine Camara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-habib_diarra",
+      "identityId": "identity-2026-habib_diarra",
+      "squadNumber": 7,
+      "name": "Habib Diarra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-habib_diallo",
+      "identityId": "identity-2026-habib_diallo",
+      "squadNumber": 9,
+      "name": "Habib Diallo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-iliman_ndiaye",
+      "identityId": "identity-2026-iliman_ndiaye",
+      "squadNumber": 13,
+      "name": "Iliman Ndiaye",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "CF"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Senegal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "senegal-2026-bamba_dieng",
+      "identityId": "identity-2026-bamba_dieng",
+      "squadNumber": 20,
+      "name": "Bamba Dieng",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Senegal. National squad reserve depth."
+    }
+  ]
+}

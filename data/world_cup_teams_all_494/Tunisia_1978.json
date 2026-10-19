@@ -1,0 +1,494 @@
+{
+  "teamName": "Tunisia",
+  "teamCode": "TUN",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "tunisia-1978-sadok_sassi",
+      "identityId": "P-25714",
+      "squadNumber": 1,
+      "name": "Sadok Sassi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-mokhtar_dhouib",
+      "identityId": "P-32712",
+      "squadNumber": 2,
+      "name": "Mokhtar Dhouib",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-1978-ali_kaabi",
+      "identityId": "P-10069",
+      "squadNumber": 3,
+      "name": "Ali Kaabi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-1978-khaled_gasmi",
+      "identityId": "P-82486",
+      "squadNumber": 4,
+      "name": "Khaled Gasmi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-1978-mohsen_labidi",
+      "identityId": "P-71287",
+      "squadNumber": 5,
+      "name": "Mohsen Labidi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-1978-n_jib_ghommidh",
+      "identityId": "P-66055",
+      "squadNumber": 6,
+      "name": "Néjib Ghommidh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-1978-t_mime_lahzami",
+      "identityId": "P-94864",
+      "squadNumber": 7,
+      "name": "Témime Lahzami",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-1978-hamadi_agrebi",
+      "identityId": "P-44105",
+      "squadNumber": 8,
+      "name": "Hamadi Agrebi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-1978-mohamed_akid",
+      "identityId": "P-47488",
+      "squadNumber": 9,
+      "name": "Mohamed Akid",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-1978-tarak_dhiab",
+      "identityId": "P-12467",
+      "squadNumber": 10,
+      "name": "Tarak Dhiab",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-1978-abderraouf_ben_aziza",
+      "identityId": "P-25130",
+      "squadNumber": 11,
+      "name": "Abderraouf Ben Aziza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-1978-khemais_labidi",
+      "identityId": "P-36542",
+      "squadNumber": 12,
+      "name": "Khemais Labidi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-1978-n_jib_limam",
+      "identityId": "P-32146",
+      "squadNumber": 13,
+      "name": "Néjib Limam",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-slah_karoui",
+      "identityId": "P-50864",
+      "squadNumber": 14,
+      "name": "Slah Karoui",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-1978-mohamed_ben_mouza",
+      "identityId": "P-01949",
+      "squadNumber": 15,
+      "name": "Mohamed Ben Mouza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-ohman_chehaibi",
+      "identityId": "P-23179",
+      "squadNumber": 16,
+      "name": "Ohman Chehaibi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-ridha_el_louze",
+      "identityId": "P-74931",
+      "squadNumber": 17,
+      "name": "Ridha El Louze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-kamel_chebli",
+      "identityId": "P-43535",
+      "squadNumber": 18,
+      "name": "Kamel Chebli",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-mokhtar_hasni",
+      "identityId": "P-78107",
+      "squadNumber": 19,
+      "name": "Mokhtar Hasni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-amor_jebali",
+      "identityId": "P-16979",
+      "squadNumber": 20,
+      "name": "Amor Jebali",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-1978-lamine_ben_aziza",
+      "identityId": "P-72733",
+      "squadNumber": 21,
+      "name": "Lamine Ben Aziza",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-1978-mokhtar_naili",
+      "identityId": "P-99636",
+      "squadNumber": 22,
+      "name": "Mokhtar Naili",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "poland-1986-j_zef_m_ynarczyk",
+      "identityId": "P-50717",
+      "squadNumber": 1,
+      "name": "Józef Młynarczyk",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1986-kazimierz_przyby_",
+      "identityId": "P-31117",
+      "squadNumber": 2,
+      "name": "Kazimierz Przybyś",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1986-w_adys_aw_muda",
+      "identityId": "P-48883",
+      "squadNumber": 3,
+      "name": "Władysław Żmuda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-1986-marek_ostrowski",
+      "identityId": "P-00146",
+      "squadNumber": 4,
+      "name": "Marek Ostrowski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1986-roman_w_jcicki",
+      "identityId": "P-22126",
+      "squadNumber": 5,
+      "name": "Roman Wójcicki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1986-waldemar_matysik",
+      "identityId": "P-02493",
+      "squadNumber": 6,
+      "name": "Waldemar Matysik",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-1986-ryszard_tarasiewicz",
+      "identityId": "P-71521",
+      "squadNumber": 7,
+      "name": "Ryszard Tarasiewicz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1986-jan_urban",
+      "identityId": "P-83573",
+      "squadNumber": 8,
+      "name": "Jan Urban",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-1986-jan_kara_",
+      "identityId": "P-39326",
+      "squadNumber": 9,
+      "name": "Jan Karaś",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1986-stefan_majewski",
+      "identityId": "P-01165",
+      "squadNumber": 10,
+      "name": "Stefan Majewski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1986-w_odzimierz_smolarek",
+      "identityId": "P-57931",
+      "squadNumber": 11,
+      "name": "Włodzimierz Smolarek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-1986-jacek_kazimierski",
+      "identityId": "P-71920",
+      "squadNumber": 12,
+      "name": "Jacek Kazimierski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1986-ryszard_komornicki",
+      "identityId": "P-71979",
+      "squadNumber": 13,
+      "name": "Ryszard Komornicki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-1986-dariusz_kubicki",
+      "identityId": "P-07710",
+      "squadNumber": 14,
+      "name": "Dariusz Kubicki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1986-andrzej_buncol",
+      "identityId": "P-40684",
+      "squadNumber": 15,
+      "name": "Andrzej Buncol",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1986-andrzej_pa_asz",
+      "identityId": "P-98924",
+      "squadNumber": 16,
+      "name": "Andrzej Pałasz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1986-andrzej_zgutczy_ski",
+      "identityId": "P-86899",
+      "squadNumber": 17,
+      "name": "Andrzej Zgutczyński",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-1986-krzysztof_pawlak",
+      "identityId": "P-59285",
+      "squadNumber": 18,
+      "name": "Krzysztof Pawlak",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Poland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-1986-j_zef_wandzik",
+      "identityId": "P-39546",
+      "squadNumber": 19,
+      "name": "Józef Wandzik",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1986-zbigniew_boniek",
+      "identityId": "P-03652",
+      "squadNumber": 20,
+      "name": "Zbigniew Boniek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1986-dariusz_dziekanowski",
+      "identityId": "P-17582",
+      "squadNumber": 21,
+      "name": "Dariusz Dziekanowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1986-jan_furtok",
+      "identityId": "P-52039",
+      "squadNumber": 22,
+      "name": "Jan Furtok",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

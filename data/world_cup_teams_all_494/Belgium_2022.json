@@ -1,0 +1,585 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "belgium-2022-thibaut_courtois",
+      "identityId": "P-09658",
+      "squadNumber": 1,
+      "name": "Thibaut Courtois",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2022-toby_alderweireld",
+      "identityId": "P-70547",
+      "squadNumber": 2,
+      "name": "Toby Alderweireld",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2022-arthur_theate",
+      "identityId": "P-75820",
+      "squadNumber": 3,
+      "name": "Arthur Theate",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-2022-wout_faes",
+      "identityId": "P-61413",
+      "squadNumber": 4,
+      "name": "Wout Faes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-2022-jan_vertonghen",
+      "identityId": "P-64049",
+      "squadNumber": 5,
+      "name": "Jan Vertonghen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2022-axel_witsel",
+      "identityId": "P-53048",
+      "squadNumber": 6,
+      "name": "Axel Witsel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2022-kevin_de_bruyne",
+      "identityId": "P-48955",
+      "squadNumber": 7,
+      "name": "Kevin De Bruyne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2022-youri_tielemans",
+      "identityId": "P-47906",
+      "squadNumber": 8,
+      "name": "Youri Tielemans",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2022-romelu_lukaku",
+      "identityId": "P-72637",
+      "squadNumber": 9,
+      "name": "Romelu Lukaku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Belgium (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "belgium-2022-eden_hazard",
+      "identityId": "P-72011",
+      "squadNumber": 10,
+      "name": "Eden Hazard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2022-yannick_carrasco",
+      "identityId": "P-06338",
+      "squadNumber": 11,
+      "name": "Yannick Carrasco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2022-simon_mignolet",
+      "identityId": "P-10313",
+      "squadNumber": 12,
+      "name": "Simon Mignolet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-2022-koen_casteels",
+      "identityId": "P-88715",
+      "squadNumber": 13,
+      "name": "Koen Casteels",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-2022-dries_mertens",
+      "identityId": "P-84852",
+      "squadNumber": 14,
+      "name": "Dries Mertens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2022-thomas_meunier",
+      "identityId": "P-22930",
+      "squadNumber": 15,
+      "name": "Thomas Meunier",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2022-thorgan_hazard",
+      "identityId": "P-74337",
+      "squadNumber": 16,
+      "name": "Thorgan Hazard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2022-leandro_trossard",
+      "identityId": "P-95312",
+      "squadNumber": 17,
+      "name": "Leandro Trossard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2022-amadou_onana",
+      "identityId": "P-21652",
+      "squadNumber": 18,
+      "name": "Amadou Onana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2022-leander_dendoncker",
+      "identityId": "P-73834",
+      "squadNumber": 19,
+      "name": "Leander Dendoncker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2022-hans_vanaken",
+      "identityId": "P-81997",
+      "squadNumber": 20,
+      "name": "Hans Vanaken",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-2022-timothy_castagne",
+      "identityId": "P-56069",
+      "squadNumber": 21,
+      "name": "Timothy Castagne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2022-charles_de_ketelaere",
+      "identityId": "P-61810",
+      "squadNumber": 22,
+      "name": "Charles De Ketelaere",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Belgium (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-2022-michy_batshuayi",
+      "identityId": "P-13975",
+      "squadNumber": 23,
+      "name": "Michy Batshuayi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2022-lo_s_openda",
+      "identityId": "P-70691",
+      "squadNumber": 24,
+      "name": "Loïs Openda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Belgium (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-2022-j_r_my_doku",
+      "identityId": "P-29578",
+      "squadNumber": 25,
+      "name": "Jérémy Doku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Belgium (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-2022-zeno_debast",
+      "identityId": "P-56669",
+      "squadNumber": 26,
+      "name": "Zeno Debast",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    }
+  ]
+}

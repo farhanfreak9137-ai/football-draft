@@ -1,0 +1,517 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "argentina-2018-nahuel_guzm_n",
+      "identityId": "P-18444",
+      "squadNumber": 1,
+      "name": "Nahuel Guzmán",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-2018-gabriel_mercado",
+      "identityId": "P-32508",
+      "squadNumber": 2,
+      "name": "Gabriel Mercado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2018-nicol_s_tagliafico",
+      "identityId": "P-35173",
+      "squadNumber": 3,
+      "name": "Nicolás Tagliafico",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2018-cristian_ansaldi",
+      "identityId": "P-64424",
+      "squadNumber": 4,
+      "name": "Cristian Ansaldi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-2018-lucas_biglia",
+      "identityId": "P-38647",
+      "squadNumber": 5,
+      "name": "Lucas Biglia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2018-federico_fazio",
+      "identityId": "P-00981",
+      "squadNumber": 6,
+      "name": "Federico Fazio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Argentina (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2018-_ver_banega",
+      "identityId": "P-66433",
+      "squadNumber": 7,
+      "name": "Éver Banega",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2018-marcos_acu_a",
+      "identityId": "P-73712",
+      "squadNumber": 8,
+      "name": "Marcos Acuña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2018-gonzalo_higua_n",
+      "identityId": "P-29398",
+      "squadNumber": 9,
+      "name": "Gonzalo Higuaín",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2018-lionel_messi",
+      "identityId": "P-14758",
+      "squadNumber": 10,
+      "name": "Lionel Messi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2018-_ngel_di_mar_a",
+      "identityId": "P-42113",
+      "squadNumber": 11,
+      "name": "Ángel Di María",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2018-franco_armani",
+      "identityId": "P-39788",
+      "squadNumber": 12,
+      "name": "Franco Armani",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2018-maximiliano_meza",
+      "identityId": "P-95278",
+      "squadNumber": 13,
+      "name": "Maximiliano Meza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2018-javier_mascherano",
+      "identityId": "P-77063",
+      "squadNumber": 14,
+      "name": "Javier Mascherano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2018-enzo_p_rez",
+      "identityId": "P-69019",
+      "squadNumber": 15,
+      "name": "Enzo Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2018-marcos_rojo",
+      "identityId": "P-18222",
+      "squadNumber": 16,
+      "name": "Marcos Rojo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2018-nicol_s_otamendi",
+      "identityId": "P-49114",
+      "squadNumber": 17,
+      "name": "Nicolás Otamendi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2018-eduardo_salvio",
+      "identityId": "P-22992",
+      "squadNumber": 18,
+      "name": "Eduardo Salvio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2018-sergio_ag_ero",
+      "identityId": "P-36870",
+      "squadNumber": 19,
+      "name": "Sergio Agüero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-2018-giovani_lo_celso",
+      "identityId": "P-16352",
+      "squadNumber": 20,
+      "name": "Giovani Lo Celso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-2018-paulo_dybala",
+      "identityId": "P-28151",
+      "squadNumber": 21,
+      "name": "Paulo Dybala",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Argentina (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2018-cristian_pav_n",
+      "identityId": "P-85116",
+      "squadNumber": 22,
+      "name": "Cristian Pavón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2018-willy_caballero",
+      "identityId": "P-17853",
+      "squadNumber": 23,
+      "name": "Willy Caballero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

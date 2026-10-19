@@ -1,0 +1,496 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "belgium-1994-michel_preudhomme",
+      "identityId": "P-00531",
+      "squadNumber": 1,
+      "name": "Michel Preud'homme",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1994 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "belgium-1994-dirk_medved",
+      "identityId": "P-72736",
+      "squadNumber": 2,
+      "name": "Dirk Medved",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1994-vital_borkelmans",
+      "identityId": "P-10129",
+      "squadNumber": 3,
+      "name": "Vital Borkelmans",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1994-philippe_albert",
+      "identityId": "P-43307",
+      "squadNumber": 4,
+      "name": "Philippe Albert",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "belgium-1994-rudi_smidts",
+      "identityId": "P-61846",
+      "squadNumber": 5,
+      "name": "Rudi Smidts",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1994-lorenzo_staelens",
+      "identityId": "P-33618",
+      "squadNumber": 6,
+      "name": "Lorenzo Staelens",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1994-franky_van_der_elst",
+      "identityId": "P-08623",
+      "squadNumber": 7,
+      "name": "Franky Van der Elst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1994-luc_nilis",
+      "identityId": "P-51869",
+      "squadNumber": 8,
+      "name": "Luc Nilis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1994-marc_degryse",
+      "identityId": "P-28230",
+      "squadNumber": 9,
+      "name": "Marc Degryse",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1994-enzo_scifo",
+      "identityId": "P-97414",
+      "squadNumber": 10,
+      "name": "Enzo Scifo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1994-alexandre_czerniatynski",
+      "identityId": "P-88070",
+      "squadNumber": 11,
+      "name": "Alexandre Czerniatynski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Belgium (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-1994-filip_de_wilde",
+      "identityId": "P-72937",
+      "squadNumber": 12,
+      "name": "Filip De Wilde",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1994-georges_gr_n",
+      "identityId": "P-99499",
+      "squadNumber": 13,
+      "name": "Georges Grün",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1994-michel_de_wolf",
+      "identityId": "P-39297",
+      "squadNumber": 14,
+      "name": "Michel De Wolf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1994-marc_emmers",
+      "identityId": "P-35636",
+      "squadNumber": 15,
+      "name": "Marc Emmers",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1994-danny_boffin",
+      "identityId": "P-33197",
+      "squadNumber": 16,
+      "name": "Danny Boffin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1994-josip_weber",
+      "identityId": "P-83199",
+      "squadNumber": 17,
+      "name": "Josip Weber",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1994-marc_wilmots",
+      "identityId": "P-69659",
+      "squadNumber": 18,
+      "name": "Marc Wilmots",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1994-eric_van_meir",
+      "identityId": "P-71601",
+      "squadNumber": 19,
+      "name": "Eric Van Meir",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1994-dany_verlinden",
+      "identityId": "P-54160",
+      "squadNumber": 20,
+      "name": "Dany Verlinden",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1994-st_phane_van_der_heyden",
+      "identityId": "P-90526",
+      "squadNumber": 21,
+      "name": "Stéphane van der Heyden",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1994-pascal_renier",
+      "identityId": "P-48499",
+      "squadNumber": 22,
+      "name": "Pascal Renier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    }
+  ]
+}

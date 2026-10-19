@@ -1,0 +1,515 @@
+{
+  "teamName": "Panama",
+  "teamCode": "PAN",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "panama-2018-jaime_penedo",
+      "identityId": "P-77521",
+      "squadNumber": 1,
+      "name": "Jaime Penedo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-michael_amir_murillo",
+      "identityId": "P-72819",
+      "squadNumber": 2,
+      "name": "Michael Amir Murillo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "panama-2018-harold_cummings",
+      "identityId": "P-53385",
+      "squadNumber": 3,
+      "name": "Harold Cummings",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Panama (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "panama-2018-fidel_escobar",
+      "identityId": "P-91455",
+      "squadNumber": 4,
+      "name": "Fidel Escobar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-rom_n_torres",
+      "identityId": "P-02886",
+      "squadNumber": 5,
+      "name": "Román Torres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-gabriel_g_mez",
+      "identityId": "P-32575",
+      "squadNumber": 6,
+      "name": "Gabriel Gómez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-blas_p_rez",
+      "identityId": "P-76850",
+      "squadNumber": 7,
+      "name": "Blas Pérez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "panama-2018-_dgar_b_rcenas",
+      "identityId": "P-10561",
+      "squadNumber": 8,
+      "name": "Édgar Bárcenas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-gabriel_torres",
+      "identityId": "P-78106",
+      "squadNumber": 9,
+      "name": "Gabriel Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "panama-2018-ismael_d_az",
+      "identityId": "P-09945",
+      "squadNumber": 10,
+      "name": "Ismael Díaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Panama (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "panama-2018-armando_cooper",
+      "identityId": "P-06696",
+      "squadNumber": 11,
+      "name": "Armando Cooper",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "panama-2018-jos_calder_n",
+      "identityId": "P-91983",
+      "squadNumber": 12,
+      "name": "José Calderón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Panama (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "panama-2018-adolfo_machado",
+      "identityId": "P-77892",
+      "squadNumber": 13,
+      "name": "Adolfo Machado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "panama-2018-valent_n_pimentel",
+      "identityId": "P-48670",
+      "squadNumber": 14,
+      "name": "Valentín Pimentel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Panama (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "panama-2018-erick_davis",
+      "identityId": "P-44505",
+      "squadNumber": 15,
+      "name": "Erick Davis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "panama-2018-abdiel_arroyo",
+      "identityId": "P-52444",
+      "squadNumber": 16,
+      "name": "Abdiel Arroyo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Panama (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "panama-2018-luis_ovalle",
+      "identityId": "P-22016",
+      "squadNumber": 17,
+      "name": "Luis Ovalle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "panama-2018-luis_tejada",
+      "identityId": "P-03144",
+      "squadNumber": 18,
+      "name": "Luis Tejada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Panama (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "panama-2018-ricardo_vila",
+      "identityId": "P-67176",
+      "squadNumber": 19,
+      "name": "Ricardo Ávila",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Panama (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "panama-2018-an_bal_godoy",
+      "identityId": "P-24760",
+      "squadNumber": 20,
+      "name": "Aníbal Godoy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-jos_luis_rodr_guez",
+      "identityId": "P-34448",
+      "squadNumber": 21,
+      "name": "José Luis Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Panama (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "panama-2018-_lex_rodr_guez",
+      "identityId": "P-80905",
+      "squadNumber": 22,
+      "name": "Álex Rodríguez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Panama (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "panama-2018-felipe_baloy",
+      "identityId": "P-76368",
+      "squadNumber": 23,
+      "name": "Felipe Baloy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Panama (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    }
+  ]
+}

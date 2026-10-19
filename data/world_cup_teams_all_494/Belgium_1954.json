@@ -1,0 +1,495 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "belgium-1954-l_opold_gernaey",
+      "identityId": "P-88474",
+      "squadNumber": 1,
+      "name": "Léopold Gernaey",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-marcel_dries",
+      "identityId": "P-82650",
+      "squadNumber": 2,
+      "name": "Marcel Dries",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-alfons_van_brandt",
+      "identityId": "P-50070",
+      "squadNumber": 3,
+      "name": "Alfons Van Brandt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-constant_huysmans",
+      "identityId": "P-93298",
+      "squadNumber": 4,
+      "name": "Constant Huysmans",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-louis_carr_",
+      "identityId": "P-34780",
+      "squadNumber": 5,
+      "name": "Louis Carré",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-victor_mees",
+      "identityId": "P-66559",
+      "squadNumber": 6,
+      "name": "Victor Mees",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-jozef_vliers",
+      "identityId": "P-67742",
+      "squadNumber": 7,
+      "name": "Jozef Vliers",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-denis_houf",
+      "identityId": "P-90085",
+      "squadNumber": 8,
+      "name": "Denis Houf",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-henri_coppens",
+      "identityId": "P-26664",
+      "squadNumber": 9,
+      "name": "Henri Coppens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1954-l_opold_anoul",
+      "identityId": "P-99158",
+      "squadNumber": 10,
+      "name": "Léopold Anoul",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for Belgium (Group Stage). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "belgium-1954-joseph_mermans",
+      "identityId": "P-21144",
+      "squadNumber": 11,
+      "name": "Joseph Mermans",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Belgium (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "belgium-1954-charles_geerts",
+      "identityId": "P-43724",
+      "squadNumber": 12,
+      "name": "Charles Geerts",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-henri_dirickx",
+      "identityId": "P-01895",
+      "squadNumber": 13,
+      "name": "Henri Dirickx",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-robert_van_kerkhoven",
+      "identityId": "P-52841",
+      "squadNumber": 14,
+      "name": "Robert Van Kerkhoven",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-hippolyte_van_den_bosch",
+      "identityId": "P-62692",
+      "squadNumber": 15,
+      "name": "Hippolyte Van Den Bosch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-pieter_van_den_bosch",
+      "identityId": "P-19279",
+      "squadNumber": 16,
+      "name": "Pieter Van Den Bosch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-raymond_ausloos",
+      "identityId": "P-88961",
+      "squadNumber": 17,
+      "name": "Raymond Ausloos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-jef_van_der_linden",
+      "identityId": "P-14373",
+      "squadNumber": 18,
+      "name": "Jef Van Der Linden",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-jo_backaert",
+      "identityId": "P-02344",
+      "squadNumber": 19,
+      "name": "Jo Backaert",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-robert_maertens",
+      "identityId": "P-16358",
+      "squadNumber": 20,
+      "name": "Robert Maertens",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-jean_van_steen",
+      "identityId": "P-88434",
+      "squadNumber": 21,
+      "name": "Jean Van Steen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1954-luc_van_hoyweghen",
+      "identityId": "P-65653",
+      "squadNumber": 22,
+      "name": "Luc Van Hoyweghen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    }
+  ]
+}

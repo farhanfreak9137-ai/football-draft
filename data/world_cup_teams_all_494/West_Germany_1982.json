@@ -1,0 +1,498 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "west_germany-1982-harald_schumacher",
+      "identityId": "P-07171",
+      "squadNumber": 1,
+      "name": "Harald Schumacher",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1982-hans-peter_briegel",
+      "identityId": "P-79689",
+      "squadNumber": 2,
+      "name": "Hans-Peter Briegel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1982-paul_breitner",
+      "identityId": "P-48686",
+      "squadNumber": 3,
+      "name": "Paul Breitner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1982-karlheinz_f_rster",
+      "identityId": "P-27251",
+      "squadNumber": 4,
+      "name": "Karlheinz Förster",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1982-bernd_f_rster",
+      "identityId": "P-31123",
+      "squadNumber": 5,
+      "name": "Bernd Förster",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1982-wolfgang_dremmler",
+      "identityId": "P-29426",
+      "squadNumber": 6,
+      "name": "Wolfgang Dremmler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1982-pierre_littbarski",
+      "identityId": "P-89975",
+      "squadNumber": 7,
+      "name": "Pierre Littbarski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1982-klaus_fischer",
+      "identityId": "P-52461",
+      "squadNumber": 8,
+      "name": "Klaus Fischer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1982-horst_hrubesch",
+      "identityId": "P-89949",
+      "squadNumber": 9,
+      "name": "Horst Hrubesch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1982-hansi_m_ller",
+      "identityId": "P-95747",
+      "squadNumber": 10,
+      "name": "Hansi Müller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1982 World Cup performance for West Germany (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1982-karl-heinz_rummenigge",
+      "identityId": "P-59574",
+      "squadNumber": 11,
+      "name": "Karl-Heinz Rummenigge",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 5,
+      "awards": [
+        "Bronze Ball",
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1982 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 95 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 6 match(es). Scored 5 goal(s). Honors: Bronze Ball, Silver Boot."
+    },
+    {
+      "id": "west_germany-1982-wilfried_hannes",
+      "identityId": "P-36307",
+      "squadNumber": 12,
+      "name": "Wilfried Hannes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1982-uwe_reinders",
+      "identityId": "P-40743",
+      "squadNumber": 13,
+      "name": "Uwe Reinders",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1982 World Cup performance for West Germany (Runners-up). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1982-felix_magath",
+      "identityId": "P-79344",
+      "squadNumber": 14,
+      "name": "Felix Magath",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1982-uli_stielike",
+      "identityId": "P-45695",
+      "squadNumber": 15,
+      "name": "Uli Stielike",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1982-thomas_allofs",
+      "identityId": "P-17092",
+      "squadNumber": 16,
+      "name": "Thomas Allofs",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1982-stephan_engels",
+      "identityId": "P-39771",
+      "squadNumber": 17,
+      "name": "Stephan Engels",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1982-lothar_matth_us",
+      "identityId": "P-49502",
+      "squadNumber": 18,
+      "name": "Lothar Matthäus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for West Germany (Runners-up). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "west_germany-1982-holger_hieronymus",
+      "identityId": "P-25464",
+      "squadNumber": 19,
+      "name": "Holger Hieronymus",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1982-manfred_kaltz",
+      "identityId": "P-68969",
+      "squadNumber": 20,
+      "name": "Manfred Kaltz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1982-bernd_franke",
+      "identityId": "P-85181",
+      "squadNumber": 21,
+      "name": "Bernd Franke",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1982-eike_immel",
+      "identityId": "P-84364",
+      "squadNumber": 22,
+      "name": "Eike Immel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    }
+  ]
+}

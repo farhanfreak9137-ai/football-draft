@@ -1,0 +1,511 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 89,
+  "players": [
+    {
+      "id": "brazil-1958-carlos_jos_castilho",
+      "identityId": "P-86570",
+      "squadNumber": 1,
+      "name": "Carlos José Castilho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-hilderaldo_bellini",
+      "identityId": "P-70724",
+      "squadNumber": 2,
+      "name": "Hilderaldo Bellini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-gilmar",
+      "identityId": "P-07056",
+      "squadNumber": 3,
+      "name": "Gilmar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-djalma_santos",
+      "identityId": "P-52002",
+      "squadNumber": 4,
+      "name": "Djalma Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-dino_sani",
+      "identityId": "P-07441",
+      "squadNumber": 5,
+      "name": "Dino Sani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-didi",
+      "identityId": "P-76740",
+      "squadNumber": 6,
+      "name": "Didi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1958 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 1958 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 1 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "brazil-1958-m_rio_zagallo",
+      "identityId": "P-38164",
+      "squadNumber": 7,
+      "name": "Mário Zagallo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1958-oreco",
+      "identityId": "P-82336",
+      "squadNumber": 8,
+      "name": "Oreco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-z_zimo",
+      "identityId": "P-39031",
+      "squadNumber": 9,
+      "name": "Zózimo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1958-pel_",
+      "identityId": "P-38906",
+      "squadNumber": 10,
+      "name": "Pelé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Silver Boot",
+        "Best Young Player"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1958 World Cup 17-Year-Old Sensation & Champion (6 Goals)",
+      "ratingRationale": "Rated 98 OVR based on 1958 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 6 goal(s). Honors: Silver Boot, Best Young Player."
+    },
+    {
+      "id": "brazil-1958-garrincha",
+      "identityId": "P-46080",
+      "squadNumber": 11,
+      "name": "Garrincha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "All-Star Forward"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1958 World Cup Breakthrough Dribbler & Champion",
+      "ratingRationale": "Rated 95 OVR based on 1958 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Honors: All-Star Forward."
+    },
+    {
+      "id": "brazil-1958-n_lton_santos",
+      "identityId": "P-75955",
+      "squadNumber": 12,
+      "name": "Nílton Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1958 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1958-moacir",
+      "identityId": "P-07545",
+      "squadNumber": 13,
+      "name": "Moacir",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-de_sordi",
+      "identityId": "P-20979",
+      "squadNumber": 14,
+      "name": "De Sordi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-orlando",
+      "identityId": "P-00577",
+      "squadNumber": 15,
+      "name": "Orlando",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-mauro_ramos",
+      "identityId": "P-34782",
+      "squadNumber": 16,
+      "name": "Mauro Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-joel_ant_nio_martins",
+      "identityId": "P-40185",
+      "squadNumber": 17,
+      "name": "Joel Antônio Martins",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-jos_altafini",
+      "identityId": "P-60629",
+      "squadNumber": 18,
+      "name": "José Altafini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1958 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1958-zito",
+      "identityId": "P-82525",
+      "squadNumber": 19,
+      "name": "Zito",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-vav_",
+      "identityId": "P-45310",
+      "squadNumber": 20,
+      "name": "Vavá",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Champion Striker"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1958 World Cup Final Brace Scorer (5 Goals)",
+      "ratingRationale": "Rated 98 OVR based on 1958 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 5 goal(s). Honors: Champion Striker."
+    },
+    {
+      "id": "brazil-1958-dida",
+      "identityId": "P-27005",
+      "squadNumber": 21,
+      "name": "Dida",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1958-pepe",
+      "identityId": "P-54379",
+      "squadNumber": 22,
+      "name": "Pepe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Brazil (Champions). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "teamName": "Ivory Coast",
+  "teamCode": "CIV",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "ivory_coast-2010-boubacar_barry",
+      "identityId": "P-30753",
+      "squadNumber": 1,
+      "name": "Boubacar Barry",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2010-benjamin_angoua",
+      "identityId": "P-19422",
+      "squadNumber": 2,
+      "name": "Benjamin Angoua",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2010-arthur_boka",
+      "identityId": "P-08544",
+      "squadNumber": 3,
+      "name": "Arthur Boka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2010-kolo_tour_",
+      "identityId": "P-25398",
+      "squadNumber": 4,
+      "name": "Kolo Touré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2010-didier_zokora",
+      "identityId": "P-48968",
+      "squadNumber": 5,
+      "name": "Didier Zokora",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2010-steve_gohouri",
+      "identityId": "P-04746",
+      "squadNumber": 6,
+      "name": "Steve Gohouri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2010-seydou_doumbia",
+      "identityId": "P-63253",
+      "squadNumber": 7,
+      "name": "Seydou Doumbia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2010-salomon_kalou",
+      "identityId": "P-31976",
+      "squadNumber": 8,
+      "name": "Salomon Kalou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2010-cheick_tiot_",
+      "identityId": "P-19801",
+      "squadNumber": 9,
+      "name": "Cheick Tioté",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2010-gervinho",
+      "identityId": "P-33586",
+      "squadNumber": 10,
+      "name": "Gervinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2010-didier_drogba",
+      "identityId": "P-99466",
+      "squadNumber": 11,
+      "name": "Didier Drogba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2010-jean-jacques_gosso",
+      "identityId": "P-50281",
+      "squadNumber": 12,
+      "name": "Jean-Jacques Gosso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2010-romaric",
+      "identityId": "P-55581",
+      "squadNumber": 13,
+      "name": "Romaric",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2010-emmanuel_kon_",
+      "identityId": "P-77484",
+      "squadNumber": 14,
+      "name": "Emmanuel Koné",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2010-aruna_dindane",
+      "identityId": "P-93241",
+      "squadNumber": 15,
+      "name": "Aruna Dindane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2010-aristide_zogbo",
+      "identityId": "P-77464",
+      "squadNumber": 16,
+      "name": "Aristide Zogbo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2010-siaka_ti_n_",
+      "identityId": "P-59702",
+      "squadNumber": 17,
+      "name": "Siaka Tiéné",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2010-abdul_kader_ke_ta",
+      "identityId": "P-98071",
+      "squadNumber": 18,
+      "name": "Abdul Kader Keïta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2010-yaya_tour_",
+      "identityId": "P-44934",
+      "squadNumber": 19,
+      "name": "Yaya Touré",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2010-guy_demel",
+      "identityId": "P-75763",
+      "squadNumber": 20,
+      "name": "Guy Demel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2010-emmanuel_ebou_",
+      "identityId": "P-92316",
+      "squadNumber": 21,
+      "name": "Emmanuel Eboué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2010-sol_bamba",
+      "identityId": "P-55416",
+      "squadNumber": 22,
+      "name": "Sol Bamba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2010-daniel_yeboah",
+      "identityId": "P-64945",
+      "squadNumber": 23,
+      "name": "Daniel Yeboah",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    }
+  ]
+}

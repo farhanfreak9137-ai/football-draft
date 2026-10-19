@@ -1,0 +1,496 @@
+{
+  "teamName": "Greece",
+  "teamCode": "GRC",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "greece-1994-antonis_minou",
+      "identityId": "P-07892",
+      "squadNumber": 1,
+      "name": "Antonis Minou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-stratos_apostolakis",
+      "identityId": "P-54632",
+      "squadNumber": 2,
+      "name": "Stratos Apostolakis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-1994-thanasis_kolitsidakis",
+      "identityId": "P-86801",
+      "squadNumber": 3,
+      "name": "Thanasis Kolitsidakis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-stelios_manolas",
+      "identityId": "P-43850",
+      "squadNumber": 4,
+      "name": "Stelios Manolas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-ioannis_kalitzakis",
+      "identityId": "P-59135",
+      "squadNumber": 5,
+      "name": "Ioannis Kalitzakis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-1994-panagiotis_tsalouchidis",
+      "identityId": "P-06459",
+      "squadNumber": 6,
+      "name": "Panagiotis Tsalouchidis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-1994-dimitris_saravakos",
+      "identityId": "P-68230",
+      "squadNumber": 7,
+      "name": "Dimitris Saravakos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-nikos_nioplias",
+      "identityId": "P-68233",
+      "squadNumber": 8,
+      "name": "Nikos Nioplias",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-1994-nikos_machlas",
+      "identityId": "P-16110",
+      "squadNumber": 9,
+      "name": "Nikos Machlas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-1994-tasos_mitropoulos",
+      "identityId": "P-12695",
+      "squadNumber": 10,
+      "name": "Tasos Mitropoulos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-nikos_tsiantakis",
+      "identityId": "P-75239",
+      "squadNumber": 11,
+      "name": "Nikos Tsiantakis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-spiros_marangos",
+      "identityId": "P-83956",
+      "squadNumber": 12,
+      "name": "Spiros Marangos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-vaios_karagiannis",
+      "identityId": "P-35810",
+      "squadNumber": 13,
+      "name": "Vaios Karagiannis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-1994-vasilis_dimitriadis",
+      "identityId": "P-11986",
+      "squadNumber": 14,
+      "name": "Vasilis Dimitriadis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Greece (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "greece-1994-christos_karkamanis",
+      "identityId": "P-70338",
+      "squadNumber": 15,
+      "name": "Christos Karkamanis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-alexis_alexoudis",
+      "identityId": "P-98623",
+      "squadNumber": 16,
+      "name": "Alexis Alexoudis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-minas_hantzidis",
+      "identityId": "P-38731",
+      "squadNumber": 17,
+      "name": "Minas Hantzidis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-1994-kyriakos_karataidis",
+      "identityId": "P-68585",
+      "squadNumber": 18,
+      "name": "Kyriakos Karataidis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-savvas_kofidis",
+      "identityId": "P-87563",
+      "squadNumber": 19,
+      "name": "Savvas Kofidis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-1994-elias_atmatsidis",
+      "identityId": "P-24277",
+      "squadNumber": 20,
+      "name": "Elias Atmatsidis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-alexis_alexandris",
+      "identityId": "P-80966",
+      "squadNumber": 21,
+      "name": "Alexis Alexandris",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-1994-alexis_alexiou",
+      "identityId": "P-20597",
+      "squadNumber": 22,
+      "name": "Alexis Alexiou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "teamName": "Austria",
+  "teamCode": "AUT",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "austria-1990-klaus_lindenberger",
+      "identityId": "P-29893",
+      "squadNumber": 1,
+      "name": "Klaus Lindenberger",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1990-ernst_aigner",
+      "identityId": "P-22801",
+      "squadNumber": 2,
+      "name": "Ernst Aigner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1990-robert_pecl",
+      "identityId": "P-57468",
+      "squadNumber": 3,
+      "name": "Robert Pecl",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1990-anton_pfeffer",
+      "identityId": "P-46006",
+      "squadNumber": 4,
+      "name": "Anton Pfeffer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1990-peter_sch_ttel",
+      "identityId": "P-77198",
+      "squadNumber": 5,
+      "name": "Peter Schöttel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1990-manfred_zsak",
+      "identityId": "P-69681",
+      "squadNumber": 6,
+      "name": "Manfred Zsak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1990-kurt_russ",
+      "identityId": "P-76884",
+      "squadNumber": 7,
+      "name": "Kurt Russ",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1990-peter_artner",
+      "identityId": "P-67942",
+      "squadNumber": 8,
+      "name": "Peter Artner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1990-toni_polster",
+      "identityId": "P-16938",
+      "squadNumber": 9,
+      "name": "Toni Polster",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1990-manfred_linzmaier",
+      "identityId": "P-52446",
+      "squadNumber": 10,
+      "name": "Manfred Linzmaier",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "austria-1990-alfred_h_rtnagl",
+      "identityId": "P-06378",
+      "squadNumber": 11,
+      "name": "Alfred Hörtnagl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "austria-1990-michael_baur",
+      "identityId": "P-11735",
+      "squadNumber": 12,
+      "name": "Michael Baur",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1990-andreas_ogris",
+      "identityId": "P-07284",
+      "squadNumber": 13,
+      "name": "Andreas Ogris",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1990-gerhard_rodax",
+      "identityId": "P-79953",
+      "squadNumber": 14,
+      "name": "Gerhard Rodax",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1990-christian_keglevits",
+      "identityId": "P-68014",
+      "squadNumber": 15,
+      "name": "Christian Keglevits",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1990-andreas_reisinger",
+      "identityId": "P-67426",
+      "squadNumber": 16,
+      "name": "Andreas Reisinger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Austria (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "austria-1990-heimo_pfeifenberger",
+      "identityId": "P-67358",
+      "squadNumber": 17,
+      "name": "Heimo Pfeifenberger",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1990-michael_streiter",
+      "identityId": "P-57682",
+      "squadNumber": 18,
+      "name": "Michael Streiter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1990-gerald_glatzmayer",
+      "identityId": "P-16277",
+      "squadNumber": 19,
+      "name": "Gerald Glatzmayer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Austria (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "austria-1990-andi_herzog",
+      "identityId": "P-46897",
+      "squadNumber": 20,
+      "name": "Andi Herzog",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1990-michael_konsel",
+      "identityId": "P-80487",
+      "squadNumber": 21,
+      "name": "Michael Konsel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1990-otto_konrad",
+      "identityId": "P-91339",
+      "squadNumber": 22,
+      "name": "Otto Konrad",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Austria (Group Stage). Squad reserve member."
+    }
+  ]
+}

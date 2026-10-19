@@ -1,0 +1,514 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "japan-2002-yoshikatsu_kawaguchi",
+      "identityId": "P-54298",
+      "squadNumber": 1,
+      "name": "Yoshikatsu Kawaguchi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2002-yutaka_akita",
+      "identityId": "P-34956",
+      "squadNumber": 2,
+      "name": "Yutaka Akita",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2002-naoki_matsuda",
+      "identityId": "P-21222",
+      "squadNumber": 3,
+      "name": "Naoki Matsuda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2002-ryuzo_morioka",
+      "identityId": "P-49610",
+      "squadNumber": 4,
+      "name": "Ryuzo Morioka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2002-junichi_inamoto",
+      "identityId": "P-46807",
+      "squadNumber": 5,
+      "name": "Junichi Inamoto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "japan-2002-toshihiro_hattori",
+      "identityId": "P-64961",
+      "squadNumber": 6,
+      "name": "Toshihiro Hattori",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2002-hidetoshi_nakata",
+      "identityId": "P-09349",
+      "squadNumber": 7,
+      "name": "Hidetoshi Nakata",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2002-hiroaki_morishima",
+      "identityId": "P-17348",
+      "squadNumber": 8,
+      "name": "Hiroaki Morishima",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Japan (Round of 16). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2002-akinori_nishizawa",
+      "identityId": "P-99721",
+      "squadNumber": 9,
+      "name": "Akinori Nishizawa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2002-masashi_nakayama",
+      "identityId": "P-84762",
+      "squadNumber": 10,
+      "name": "Masashi Nakayama",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2002-takayuki_suzuki",
+      "identityId": "P-96566",
+      "squadNumber": 11,
+      "name": "Takayuki Suzuki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2002-seigo_narazaki",
+      "identityId": "P-24251",
+      "squadNumber": 12,
+      "name": "Seigo Narazaki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2002-atsushi_yanagisawa",
+      "identityId": "P-35882",
+      "squadNumber": 13,
+      "name": "Atsushi Yanagisawa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2002-alessandro_santos",
+      "identityId": "P-42311",
+      "squadNumber": 14,
+      "name": "Alessandro Santos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2002-takashi_fukunishi",
+      "identityId": "P-89292",
+      "squadNumber": 15,
+      "name": "Takashi Fukunishi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2002-k_ji_nakata",
+      "identityId": "P-95259",
+      "squadNumber": 16,
+      "name": "Kōji Nakata",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2002-tsuneyasu_miyamoto",
+      "identityId": "P-11915",
+      "squadNumber": 17,
+      "name": "Tsuneyasu Miyamoto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2002-shinji_ono",
+      "identityId": "P-04785",
+      "squadNumber": 18,
+      "name": "Shinji Ono",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2002-mitsuo_ogasawara",
+      "identityId": "P-12376",
+      "squadNumber": 19,
+      "name": "Mitsuo Ogasawara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2002-tomokazu_myojin",
+      "identityId": "P-58878",
+      "squadNumber": 20,
+      "name": "Tomokazu Myojin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2002-kazuyuki_toda",
+      "identityId": "P-79993",
+      "squadNumber": 21,
+      "name": "Kazuyuki Toda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2002-daisuke_ichikawa",
+      "identityId": "P-48525",
+      "squadNumber": 22,
+      "name": "Daisuke Ichikawa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2002-hitoshi_sogahata",
+      "identityId": "P-94511",
+      "squadNumber": 23,
+      "name": "Hitoshi Sogahata",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Japan (Round of 16). Squad reserve member."
+    }
+  ]
+}

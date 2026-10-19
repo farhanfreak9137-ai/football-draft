@@ -1,0 +1,474 @@
+{
+  "teamName": "Canada",
+  "teamCode": "CAN",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "canada-2026-maxime_cr_peau",
+      "identityId": "identity-2026-maxime_cr_peau",
+      "squadNumber": 16,
+      "name": "Maxime Crépeau",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-alistair_johnston",
+      "identityId": "identity-2026-alistair_johnston",
+      "squadNumber": 2,
+      "name": "Alistair Johnston",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-luc_de_fougerolles",
+      "identityId": "identity-2026-luc_de_fougerolles",
+      "squadNumber": 3,
+      "name": "Luc de Fougerolles",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 76,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-kamal_miller",
+      "identityId": "identity-2026-kamal_miller",
+      "squadNumber": 4,
+      "name": "Kamal Miller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-derek_cornelius",
+      "identityId": "identity-2026-derek_cornelius",
+      "squadNumber": 5,
+      "name": "Derek Cornelius",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-samuel_piette",
+      "identityId": "identity-2026-samuel_piette",
+      "squadNumber": 6,
+      "name": "Samuel Piette",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 76,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-stephen_eust_quio",
+      "identityId": "identity-2026-stephen_eust_quio",
+      "squadNumber": 7,
+      "name": "Stephen Eustáquio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Canada. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "canada-2026-isma_l_kon_",
+      "identityId": "identity-2026-isma_l_kon_",
+      "squadNumber": 8,
+      "name": "Ismaël Koné",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-cyle_larin",
+      "identityId": "identity-2026-cyle_larin",
+      "squadNumber": 9,
+      "name": "Cyle Larin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-jonathan_david",
+      "identityId": "identity-2026-jonathan_david",
+      "squadNumber": 10,
+      "name": "Jonathan David",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "SS"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Canada. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "canada-2026-theo_bair",
+      "identityId": "identity-2026-theo_bair",
+      "squadNumber": 11,
+      "name": "Theo Bair",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-dayne_st_clair",
+      "identityId": "identity-2026-dayne_st_clair",
+      "squadNumber": 12,
+      "name": "Dayne St. Clair",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Canada. National squad reserve depth."
+    },
+    {
+      "id": "canada-2026-jacob_shaffelburg",
+      "identityId": "identity-2026-jacob_shaffelburg",
+      "squadNumber": 13,
+      "name": "Jacob Shaffelburg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "LM",
+        "LB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-mo_se_bombito",
+      "identityId": "identity-2026-mo_se_bombito",
+      "squadNumber": 14,
+      "name": "Moïse Bombito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-tajon_buchanan",
+      "identityId": "identity-2026-tajon_buchanan",
+      "squadNumber": 15,
+      "name": "Tajon Buchanan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "RM",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Canada. Regular starting lineup selection."
+    },
+    {
+      "id": "canada-2026-richie_laryea",
+      "identityId": "identity-2026-richie_laryea",
+      "squadNumber": 17,
+      "name": "Richie Laryea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "LB"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-tom_mcgill",
+      "identityId": "identity-2026-tom_mcgill",
+      "squadNumber": 18,
+      "name": "Tom McGill",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 74,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR for 2026 World Cup form with Canada. National squad reserve depth."
+    },
+    {
+      "id": "canada-2026-alphonso_davies",
+      "identityId": "identity-2026-alphonso_davies",
+      "squadNumber": 19,
+      "name": "Alphonso Davies",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "LM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Continental Icon & World-Class Fullback"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Continental Icon & World-Class Fullback",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Canada. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "canada-2026-ali_ahmed",
+      "identityId": "identity-2026-ali_ahmed",
+      "squadNumber": 20,
+      "name": "Ali Ahmed",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-jonathan_osorio",
+      "identityId": "identity-2026-jonathan_osorio",
+      "squadNumber": 21,
+      "name": "Jonathan Osorio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "canada-2026-jacen_russell-rowe",
+      "identityId": "identity-2026-jacen_russell-rowe",
+      "squadNumber": 22,
+      "name": "Jacen Russell-Rowe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR for 2026 World Cup form with Canada. National squad reserve depth."
+    },
+    {
+      "id": "canada-2026-liam_millar",
+      "identityId": "identity-2026-liam_millar",
+      "squadNumber": 23,
+      "name": "Liam Millar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Canada. Frequent tactical rotation contributor."
+    }
+  ]
+}

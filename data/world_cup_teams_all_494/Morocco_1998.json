@@ -1,0 +1,495 @@
+{
+  "teamName": "Morocco",
+  "teamCode": "MAR",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "morocco-1998-abdelkader_el_brazi",
+      "identityId": "P-62026",
+      "squadNumber": 1,
+      "name": "Abdelkader El Brazi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1998-abdelilah_saber",
+      "identityId": "P-16954",
+      "squadNumber": 2,
+      "name": "Abdelilah Saber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1998-abdelkrim_el_hadrioui",
+      "identityId": "P-19991",
+      "squadNumber": 3,
+      "name": "Abdelkrim El Hadrioui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1998-youssef_rossi",
+      "identityId": "P-66082",
+      "squadNumber": 4,
+      "name": "Youssef Rossi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1998-smahi_triki",
+      "identityId": "P-77110",
+      "squadNumber": 5,
+      "name": "Smahi Triki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1998-noureddine_naybet",
+      "identityId": "P-96824",
+      "squadNumber": 6,
+      "name": "Noureddine Naybet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1998-mustapha_hadji",
+      "identityId": "P-45896",
+      "squadNumber": 7,
+      "name": "Mustapha Hadji",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-1998-sa_d_chiba",
+      "identityId": "P-76158",
+      "squadNumber": 8,
+      "name": "Saïd Chiba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1998-abdeljalil_hadda",
+      "identityId": "P-14349",
+      "squadNumber": 9,
+      "name": "Abdeljalil Hadda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "morocco-1998-abderrahim_ouakili",
+      "identityId": "P-56643",
+      "squadNumber": 10,
+      "name": "Abderrahim Ouakili",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1998-ali_elkhattabi",
+      "identityId": "P-80057",
+      "squadNumber": 11,
+      "name": "Ali Elkhattabi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Morocco (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "morocco-1998-driss_benzekri",
+      "identityId": "P-20094",
+      "squadNumber": 12,
+      "name": "Driss Benzekri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1998-rachid_neqrouz",
+      "identityId": "P-36579",
+      "squadNumber": 13,
+      "name": "Rachid Neqrouz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1998-salaheddine_bassir",
+      "identityId": "P-87059",
+      "squadNumber": 14,
+      "name": "Salaheddine Bassir",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "morocco-1998-lahcen_abrami",
+      "identityId": "P-51300",
+      "squadNumber": 15,
+      "name": "Lahcen Abrami",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1998-rachid_azzouzi",
+      "identityId": "P-84885",
+      "squadNumber": 16,
+      "name": "Rachid Azzouzi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Morocco (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "morocco-1998-gharib_amzine",
+      "identityId": "P-28649",
+      "squadNumber": 17,
+      "name": "Gharib Amzine",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1998-youssef_chippo",
+      "identityId": "P-78077",
+      "squadNumber": 18,
+      "name": "Youssef Chippo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1998-jamal_sellami",
+      "identityId": "P-32237",
+      "squadNumber": 19,
+      "name": "Jamal Sellami",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Morocco (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "morocco-1998-tahar_el_khalej",
+      "identityId": "P-82124",
+      "squadNumber": 20,
+      "name": "Tahar El Khalej",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1998-rachid_rokki",
+      "identityId": "P-03706",
+      "squadNumber": 21,
+      "name": "Rachid Rokki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1998-mustapha_chadili",
+      "identityId": "P-89078",
+      "squadNumber": 22,
+      "name": "Mustapha Chadili",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    }
+  ]
+}

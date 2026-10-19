@@ -1,0 +1,519 @@
+{
+  "teamName": "Ghana",
+  "teamCode": "GHA",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "ghana-2006-sammy_adjei",
+      "identityId": "P-17027",
+      "squadNumber": 1,
+      "name": "Sammy Adjei",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ghana (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ghana-2006-hans_sarpei",
+      "identityId": "P-24586",
+      "squadNumber": 2,
+      "name": "Hans Sarpei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ghana (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ghana-2006-asamoah_gyan",
+      "identityId": "P-38556",
+      "squadNumber": 3,
+      "name": "Asamoah Gyan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2006-samuel_kuffour",
+      "identityId": "P-84395",
+      "squadNumber": 4,
+      "name": "Samuel Kuffour",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2006-john_mensah",
+      "identityId": "P-29967",
+      "squadNumber": 5,
+      "name": "John Mensah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ghana-2006-emmanuel_pappoe",
+      "identityId": "P-03949",
+      "squadNumber": 6,
+      "name": "Emmanuel Pappoe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2006-illiasu_shilla",
+      "identityId": "P-52437",
+      "squadNumber": 7,
+      "name": "Illiasu Shilla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2006-michael_essien",
+      "identityId": "P-12805",
+      "squadNumber": 8,
+      "name": "Michael Essien",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2006-derek_boateng",
+      "identityId": "P-49882",
+      "squadNumber": 9,
+      "name": "Derek Boateng",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2006-stephen_appiah",
+      "identityId": "P-09728",
+      "squadNumber": 10,
+      "name": "Stephen Appiah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2006-sulley_muntari",
+      "identityId": "P-50641",
+      "squadNumber": 11,
+      "name": "Sulley Muntari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2006-alex_tachie-mensah",
+      "identityId": "P-98986",
+      "squadNumber": 12,
+      "name": "Alex Tachie-Mensah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ghana (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "ghana-2006-habib_mohamed",
+      "identityId": "P-00384",
+      "squadNumber": 13,
+      "name": "Habib Mohamed",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2006-matthew_amoah",
+      "identityId": "P-79316",
+      "squadNumber": 14,
+      "name": "Matthew Amoah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ghana-2006-john_paintsil",
+      "identityId": "P-25083",
+      "squadNumber": 15,
+      "name": "John Paintsil",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ghana-2006-george_owu",
+      "identityId": "P-97589",
+      "squadNumber": 16,
+      "name": "George Owu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ghana (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ghana-2006-daniel_quaye",
+      "identityId": "P-23035",
+      "squadNumber": 17,
+      "name": "Daniel Quaye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ghana (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ghana-2006-eric_addo",
+      "identityId": "P-77757",
+      "squadNumber": 18,
+      "name": "Eric Addo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2006-razak_pimpong",
+      "identityId": "P-70474",
+      "squadNumber": 19,
+      "name": "Razak Pimpong",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2006-otto_addo",
+      "identityId": "P-23846",
+      "squadNumber": 20,
+      "name": "Otto Addo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2006-issah_ahmed",
+      "identityId": "P-27915",
+      "squadNumber": 21,
+      "name": "Issah Ahmed",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ghana (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ghana-2006-richard_kingson",
+      "identityId": "P-81778",
+      "squadNumber": 22,
+      "name": "Richard Kingson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ghana (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ghana-2006-haminu_draman",
+      "identityId": "P-51458",
+      "squadNumber": 23,
+      "name": "Haminu Draman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Ghana (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "teamName": "Republic of Ireland",
+  "teamCode": "IRL",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "republic_of_ireland-2002-shay_given",
+      "identityId": "P-32512",
+      "squadNumber": 1,
+      "name": "Shay Given",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-steve_finnan",
+      "identityId": "P-56778",
+      "squadNumber": 2,
+      "name": "Steve Finnan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-ian_harte",
+      "identityId": "P-59412",
+      "squadNumber": 3,
+      "name": "Ian Harte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-kenny_cunningham",
+      "identityId": "P-57630",
+      "squadNumber": 4,
+      "name": "Kenny Cunningham",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-2002-steve_staunton",
+      "identityId": "P-69817",
+      "squadNumber": 5,
+      "name": "Steve Staunton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-roy_keane",
+      "identityId": "P-91106",
+      "squadNumber": 6,
+      "name": "Roy Keane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-2002-jason_mcateer",
+      "identityId": "P-15705",
+      "squadNumber": 7,
+      "name": "Jason McAteer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "republic_of_ireland-2002-matt_holland",
+      "identityId": "P-00105",
+      "squadNumber": 8,
+      "name": "Matt Holland",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-2002-damien_duff",
+      "identityId": "P-18106",
+      "squadNumber": 9,
+      "name": "Damien Duff",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-2002-robbie_keane",
+      "identityId": "P-84878",
+      "squadNumber": 10,
+      "name": "Robbie Keane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-2002-kevin_kilbane",
+      "identityId": "P-32499",
+      "squadNumber": 11,
+      "name": "Kevin Kilbane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-mark_kinsella",
+      "identityId": "P-34285",
+      "squadNumber": 12,
+      "name": "Mark Kinsella",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-david_connolly",
+      "identityId": "P-20792",
+      "squadNumber": 13,
+      "name": "David Connolly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-2002-gary_breen",
+      "identityId": "P-22209",
+      "squadNumber": 14,
+      "name": "Gary Breen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-2002-richard_dunne",
+      "identityId": "P-98853",
+      "squadNumber": 15,
+      "name": "Richard Dunne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-2002-dean_kiely",
+      "identityId": "P-79072",
+      "squadNumber": 16,
+      "name": "Dean Kiely",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-2002-niall_quinn",
+      "identityId": "P-51629",
+      "squadNumber": 17,
+      "name": "Niall Quinn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-2002-gary_kelly",
+      "identityId": "P-07683",
+      "squadNumber": 18,
+      "name": "Gary Kelly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-2002-clinton_morrison",
+      "identityId": "P-83418",
+      "squadNumber": 19,
+      "name": "Clinton Morrison",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-2002-andrew_obrien",
+      "identityId": "P-74235",
+      "squadNumber": 20,
+      "name": "Andrew O'Brien",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-2002-steven_reid",
+      "identityId": "P-19727",
+      "squadNumber": 21,
+      "name": "Steven Reid",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-2002-lee_carsley",
+      "identityId": "P-57284",
+      "squadNumber": 22,
+      "name": "Lee Carsley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-2002-alan_kelly",
+      "identityId": "P-33377",
+      "squadNumber": 23,
+      "name": "Alan Kelly",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    }
+  ]
+}

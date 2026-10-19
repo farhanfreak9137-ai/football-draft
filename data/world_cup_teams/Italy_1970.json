@@ -1,0 +1,496 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "italy-1970-enrico_albertosi",
+      "identityId": "P-73673",
+      "squadNumber": 1,
+      "name": "Enrico Albertosi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1970-tarcisio_burgnich",
+      "identityId": "P-42540",
+      "squadNumber": 2,
+      "name": "Tarcisio Burgnich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1970-giacinto_facchetti",
+      "identityId": "P-68170",
+      "squadNumber": 3,
+      "name": "Giacinto Facchetti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1970-fabrizio_poletti",
+      "identityId": "P-56668",
+      "squadNumber": 4,
+      "name": "Fabrizio Poletti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1970 World Cup performance for Italy (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-1970-pierluigi_cera",
+      "identityId": "P-53189",
+      "squadNumber": 5,
+      "name": "Pierluigi Cera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1970-ugo_ferrante",
+      "identityId": "P-28851",
+      "squadNumber": 6,
+      "name": "Ugo Ferrante",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Italy (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "italy-1970-comunardo_niccolai",
+      "identityId": "P-77413",
+      "squadNumber": 7,
+      "name": "Comunardo Niccolai",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1970 World Cup performance for Italy (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-1970-roberto_rosato",
+      "identityId": "P-45085",
+      "squadNumber": 8,
+      "name": "Roberto Rosato",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "italy-1970-giorgio_puia",
+      "identityId": "P-03206",
+      "squadNumber": 9,
+      "name": "Giorgio Puia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Italy (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "italy-1970-mario_bertini",
+      "identityId": "P-72033",
+      "squadNumber": 10,
+      "name": "Mario Bertini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1970-gigi_riva",
+      "identityId": "P-00119",
+      "squadNumber": 11,
+      "name": "Gigi Riva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "italy-1970-dino_zoff",
+      "identityId": "P-48831",
+      "squadNumber": 12,
+      "name": "Dino Zoff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Italy (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "italy-1970-angelo_domenghini",
+      "identityId": "P-67671",
+      "squadNumber": 13,
+      "name": "Angelo Domenghini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1970-gianni_rivera",
+      "identityId": "P-62214",
+      "squadNumber": 14,
+      "name": "Gianni Rivera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Italy (Runners-up). Substitute rotation option (4 sub app). Scored 2 goal(s)."
+    },
+    {
+      "id": "italy-1970-sandro_mazzola",
+      "identityId": "P-91195",
+      "squadNumber": 15,
+      "name": "Sandro Mazzola",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1970-giancarlo_de_sisti",
+      "identityId": "P-77530",
+      "squadNumber": 16,
+      "name": "Giancarlo De Sisti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1970-lido_vieri",
+      "identityId": "P-68967",
+      "squadNumber": 17,
+      "name": "Lido Vieri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Italy (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "italy-1970-antonio_juliano",
+      "identityId": "P-68792",
+      "squadNumber": 18,
+      "name": "Antonio Juliano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1970 World Cup performance for Italy (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-1970-sergio_gori",
+      "identityId": "P-86117",
+      "squadNumber": 19,
+      "name": "Sergio Gori",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1970 World Cup performance for Italy (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-1970-roberto_boninsegna",
+      "identityId": "P-92154",
+      "squadNumber": 20,
+      "name": "Roberto Boninsegna",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1970 World Cup performance for Italy (Runners-up). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "italy-1970-giuseppe_furino",
+      "identityId": "P-05329",
+      "squadNumber": 21,
+      "name": "Giuseppe Furino",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1970 World Cup performance for Italy (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-1970-pierino_prati",
+      "identityId": "P-63857",
+      "squadNumber": 22,
+      "name": "Pierino Prati",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Italy (Runners-up). Squad reserve member."
+    }
+  ]
+}

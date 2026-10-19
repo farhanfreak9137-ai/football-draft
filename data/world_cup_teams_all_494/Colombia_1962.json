@@ -1,0 +1,502 @@
+{
+  "teamName": "Colombia",
+  "teamCode": "COL",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "colombia-1962-efra_n_s_nchez",
+      "identityId": "P-79242",
+      "squadNumber": 1,
+      "name": "Efraín Sánchez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-achito_vivas",
+      "identityId": "P-60014",
+      "squadNumber": 2,
+      "name": "Achito Vivas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-francisco_zuluaga",
+      "identityId": "P-32148",
+      "squadNumber": 3,
+      "name": "Francisco Zuluaga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1962-an_bal_alzate",
+      "identityId": "P-40750",
+      "squadNumber": 4,
+      "name": "Aníbal Alzate",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-jaime_gonz_lez",
+      "identityId": "P-75261",
+      "squadNumber": 5,
+      "name": "Jaime González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-ignacio_calle",
+      "identityId": "P-87249",
+      "squadNumber": 6,
+      "name": "Ignacio Calle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-carlos_aponte",
+      "identityId": "P-98630",
+      "squadNumber": 7,
+      "name": "Carlos Aponte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-h_ctor_echeverry",
+      "identityId": "P-48377",
+      "squadNumber": 8,
+      "name": "Héctor Echeverry",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-jaime_silva",
+      "identityId": "P-16644",
+      "squadNumber": 9,
+      "name": "Jaime Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-rolando_serrano",
+      "identityId": "P-61986",
+      "squadNumber": 10,
+      "name": "Rolando Serrano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-_scar_l_pez",
+      "identityId": "P-10418",
+      "squadNumber": 11,
+      "name": "Óscar López",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "colombia-1962-hernando_tovar",
+      "identityId": "P-38014",
+      "squadNumber": 12,
+      "name": "Hernando Tovar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1962-germ_n_aceros",
+      "identityId": "P-17067",
+      "squadNumber": 13,
+      "name": "Germán Aceros",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1962-luis_paz",
+      "identityId": "P-81306",
+      "squadNumber": 14,
+      "name": "Luis Paz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1962-marcos_coll",
+      "identityId": "P-32950",
+      "squadNumber": 15,
+      "name": "Marcos Coll",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1962-ignacio_p_rez",
+      "identityId": "P-09775",
+      "squadNumber": 16,
+      "name": "Ignacio Pérez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1962-marino_klinger",
+      "identityId": "P-07544",
+      "squadNumber": 17,
+      "name": "Marino Klinger",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1962-eusebio_escobar",
+      "identityId": "P-79071",
+      "squadNumber": 18,
+      "name": "Eusebio Escobar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1962-delio_gamboa",
+      "identityId": "P-73967",
+      "squadNumber": 19,
+      "name": "Delio Gamboa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1962-antonio_rada",
+      "identityId": "P-31841",
+      "squadNumber": 20,
+      "name": "Antonio Rada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Colombia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1962-h_ctor_gonz_lez",
+      "identityId": "P-37056",
+      "squadNumber": 21,
+      "name": "Héctor González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1962-jairo_arias",
+      "identityId": "P-93894",
+      "squadNumber": 22,
+      "name": "Jairo Arias",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    }
+  ]
+}

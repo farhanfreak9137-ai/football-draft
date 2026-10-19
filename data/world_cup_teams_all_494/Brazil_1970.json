@@ -1,0 +1,506 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 90,
+  "players": [
+    {
+      "id": "brazil-1970-f_lix",
+      "identityId": "P-39749",
+      "squadNumber": 1,
+      "name": "Félix",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-1970-brito",
+      "identityId": "P-59934",
+      "squadNumber": 2,
+      "name": "Brito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-1970-piazza",
+      "identityId": "P-02965",
+      "squadNumber": 3,
+      "name": "Piazza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-1970-carlos_alberto",
+      "identityId": "P-25829",
+      "squadNumber": 4,
+      "name": "Carlos Alberto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Champion Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1970 World Cup Champion Captain & Iconic Final Goal",
+      "ratingRationale": "Rated 94 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 1 goal(s). Honors: Champion Captain."
+    },
+    {
+      "id": "brazil-1970-clodoaldo",
+      "identityId": "P-14923",
+      "squadNumber": 5,
+      "name": "Clodoaldo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1970-marco_ant_nio",
+      "identityId": "P-15663",
+      "squadNumber": 6,
+      "name": "Marco Antônio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Brazil (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1970-jairzinho",
+      "identityId": "P-77430",
+      "squadNumber": 7,
+      "name": "Jairzinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 99,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 7,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1970 World Cup Scored in Every Single Match (7 Goals)",
+      "ratingRationale": "Rated 99 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 7 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "brazil-1970-g_rson",
+      "identityId": "P-04354",
+      "squadNumber": 8,
+      "name": "Gérson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Final Man of the Match"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1970 World Cup Final Man of the Match & Midfield Architect",
+      "ratingRationale": "Rated 94 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 4 match(es). Scored 1 goal(s). Honors: Final Man of the Match."
+    },
+    {
+      "id": "brazil-1970-tost_o",
+      "identityId": "P-53202",
+      "squadNumber": 9,
+      "name": "Tostão",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1970-pel_",
+      "identityId": "P-38906",
+      "squadNumber": 10,
+      "name": "Pelé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1970 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 4 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "brazil-1970-rivellino",
+      "identityId": "P-85778",
+      "squadNumber": 11,
+      "name": "Rivellino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "brazil-1970-ado",
+      "identityId": "P-47010",
+      "squadNumber": 12,
+      "name": "Ado",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1970-roberto",
+      "identityId": "P-97113",
+      "squadNumber": 13,
+      "name": "Roberto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1970 World Cup performance for Brazil (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-1970-baldocchi",
+      "identityId": "P-87388",
+      "squadNumber": 14,
+      "name": "Baldocchi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1970-fontana",
+      "identityId": "P-17395",
+      "squadNumber": 15,
+      "name": "Fontana",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Brazil (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1970-everaldo",
+      "identityId": "P-27277",
+      "squadNumber": 16,
+      "name": "Everaldo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1970 World Cup performance for Brazil (Champions). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1970-joel",
+      "identityId": "P-34222",
+      "squadNumber": 17,
+      "name": "Joel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1970-caju",
+      "identityId": "P-65181",
+      "squadNumber": 18,
+      "name": "Caju",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1970 World Cup performance for Brazil (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-1970-edu",
+      "identityId": "P-49805",
+      "squadNumber": 19,
+      "name": "Edu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1970 World Cup performance for Brazil (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-1970-dario",
+      "identityId": "P-03810",
+      "squadNumber": 20,
+      "name": "Dario",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1970-z_maria",
+      "identityId": "P-72683",
+      "squadNumber": 21,
+      "name": "Zé Maria",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1970-le_o",
+      "identityId": "P-06015",
+      "squadNumber": 22,
+      "name": "Leão",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1970 World Cup performance for Brazil (Champions). Squad reserve member."
+    }
+  ]
+}

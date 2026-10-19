@@ -1,0 +1,493 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "england-1982-ray_clemence",
+      "identityId": "P-79390",
+      "squadNumber": 1,
+      "name": "Ray Clemence",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-1982-viv_anderson",
+      "identityId": "P-70102",
+      "squadNumber": 2,
+      "name": "Viv Anderson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-1982-trevor_brooking",
+      "identityId": "P-04882",
+      "squadNumber": 3,
+      "name": "Trevor Brooking",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for England (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-1982-terry_butcher",
+      "identityId": "P-49962",
+      "squadNumber": 4,
+      "name": "Terry Butcher",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-1982-steve_coppell",
+      "identityId": "P-40179",
+      "squadNumber": 5,
+      "name": "Steve Coppell",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-1982-steve_foster",
+      "identityId": "P-19836",
+      "squadNumber": 6,
+      "name": "Steve Foster",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1982-kevin_keegan",
+      "identityId": "P-50128",
+      "squadNumber": 7,
+      "name": "Kevin Keegan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for England (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-1982-trevor_francis",
+      "identityId": "P-65224",
+      "squadNumber": 8,
+      "name": "Trevor Francis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "england-1982-glenn_hoddle",
+      "identityId": "P-68542",
+      "squadNumber": 9,
+      "name": "Glenn Hoddle",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1982-terry_mcdermott",
+      "identityId": "P-31450",
+      "squadNumber": 10,
+      "name": "Terry McDermott",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-1982-paul_mariner",
+      "identityId": "P-83210",
+      "squadNumber": 11,
+      "name": "Paul Mariner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1982-mick_mills",
+      "identityId": "P-47197",
+      "squadNumber": 12,
+      "name": "Mick Mills",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-1982-joe_corrigan",
+      "identityId": "P-34569",
+      "squadNumber": 13,
+      "name": "Joe Corrigan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-1982-phil_neal",
+      "identityId": "P-52968",
+      "squadNumber": 14,
+      "name": "Phil Neal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1982-graham_rix",
+      "identityId": "P-72479",
+      "squadNumber": 15,
+      "name": "Graham Rix",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-1982-bryan_robson",
+      "identityId": "P-02675",
+      "squadNumber": 16,
+      "name": "Bryan Robson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "england-1982-kenny_sansom",
+      "identityId": "P-59016",
+      "squadNumber": 17,
+      "name": "Kenny Sansom",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-1982-phil_thompson",
+      "identityId": "P-68823",
+      "squadNumber": 18,
+      "name": "Phil Thompson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-1982-ray_wilkins",
+      "identityId": "P-34141",
+      "squadNumber": 19,
+      "name": "Ray Wilkins",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-1982-peter_withe",
+      "identityId": "P-28235",
+      "squadNumber": 20,
+      "name": "Peter Withe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-1982-tony_woodcock",
+      "identityId": "P-34594",
+      "squadNumber": 21,
+      "name": "Tony Woodcock",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1982-peter_shilton",
+      "identityId": "P-20640",
+      "squadNumber": 22,
+      "name": "Peter Shilton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for England (Round of 16). Main pillar starting 5 match(es)."
+    }
+  ]
+}

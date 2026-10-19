@@ -1,0 +1,519 @@
+{
+  "teamName": "South Africa",
+  "teamCode": "ZAF",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "south_africa-2002-hans_vonk",
+      "identityId": "P-57626",
+      "squadNumber": 1,
+      "name": "Hans Vonk",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for South Africa (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_africa-2002-cyril_nzama",
+      "identityId": "P-72876",
+      "squadNumber": 2,
+      "name": "Cyril Nzama",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_africa-2002-bradley_carnell",
+      "identityId": "P-14062",
+      "squadNumber": 3,
+      "name": "Bradley Carnell",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_africa-2002-aaron_mokoena",
+      "identityId": "P-65611",
+      "squadNumber": 4,
+      "name": "Aaron Mokoena",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_africa-2002-jacob_lekgetho",
+      "identityId": "P-10439",
+      "squadNumber": 5,
+      "name": "Jacob Lekgetho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for South Africa (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_africa-2002-macbeth_sibaya",
+      "identityId": "P-21000",
+      "squadNumber": 6,
+      "name": "MacBeth Sibaya",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_africa-2002-quinton_fortune",
+      "identityId": "P-02423",
+      "squadNumber": 7,
+      "name": "Quinton Fortune",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_africa-2002-thabo_mngomeni",
+      "identityId": "P-30964",
+      "squadNumber": 8,
+      "name": "Thabo Mngomeni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for South Africa (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_africa-2002-macdonald_mukansi",
+      "identityId": "P-65059",
+      "squadNumber": 9,
+      "name": "MacDonald Mukansi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for South Africa (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_africa-2002-bennett_mnguni",
+      "identityId": "P-53464",
+      "squadNumber": 10,
+      "name": "Bennett Mnguni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for South Africa (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_africa-2002-jabu_pule",
+      "identityId": "P-27802",
+      "squadNumber": 11,
+      "name": "Jabu Pule",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for South Africa (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_africa-2002-teboho_mokoena",
+      "identityId": "P-99521",
+      "squadNumber": 12,
+      "name": "Teboho Mokoena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_africa-2002-pierre_issa",
+      "identityId": "P-65806",
+      "squadNumber": 13,
+      "name": "Pierre Issa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for South Africa (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_africa-2002-siyabonga_nomvethe",
+      "identityId": "P-22393",
+      "squadNumber": 14,
+      "name": "Siyabonga Nomvethe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for South Africa (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_africa-2002-sibusiso_zuma",
+      "identityId": "P-05390",
+      "squadNumber": 15,
+      "name": "Sibusiso Zuma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_africa-2002-andre_arendse",
+      "identityId": "P-57595",
+      "squadNumber": 16,
+      "name": "Andre Arendse",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_africa-2002-benni_mccarthy",
+      "identityId": "P-59298",
+      "squadNumber": 17,
+      "name": "Benni McCarthy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_africa-2002-delron_buckley",
+      "identityId": "P-37844",
+      "squadNumber": 18,
+      "name": "Delron Buckley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for South Africa (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_africa-2002-lucas_radebe",
+      "identityId": "P-56543",
+      "squadNumber": 19,
+      "name": "Lucas Radebe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for South Africa (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_africa-2002-calvin_marlin",
+      "identityId": "P-13782",
+      "squadNumber": 20,
+      "name": "Calvin Marlin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for South Africa (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_africa-2002-steven_pienaar",
+      "identityId": "P-38095",
+      "squadNumber": 21,
+      "name": "Steven Pienaar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for South Africa (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_africa-2002-thabang_molefe",
+      "identityId": "P-68024",
+      "squadNumber": 22,
+      "name": "Thabang Molefe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for South Africa (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_africa-2002-george_koumantarakis",
+      "identityId": "P-73319",
+      "squadNumber": 23,
+      "name": "George Koumantarakis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for South Africa (Group Stage). Substitute rotation option (3 sub app)."
+    }
+  ]
+}

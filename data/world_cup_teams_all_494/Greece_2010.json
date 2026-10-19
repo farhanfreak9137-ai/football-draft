@@ -1,0 +1,514 @@
+{
+  "teamName": "Greece",
+  "teamCode": "GRC",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "greece-2010-kostas_chalkias",
+      "identityId": "P-51633",
+      "squadNumber": 1,
+      "name": "Kostas Chalkias",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Greece (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "greece-2010-giourkas_seitaridis",
+      "identityId": "P-70793",
+      "squadNumber": 2,
+      "name": "Giourkas Seitaridis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-2010-christos_patsatzoglou",
+      "identityId": "P-70421",
+      "squadNumber": 3,
+      "name": "Christos Patsatzoglou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Greece (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "greece-2010-nikos_spyropoulos",
+      "identityId": "P-69064",
+      "squadNumber": 4,
+      "name": "Nikos Spyropoulos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Greece (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "greece-2010-vangelis_moras",
+      "identityId": "P-47188",
+      "squadNumber": 5,
+      "name": "Vangelis Moras",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-2010-alexandros_tziolis",
+      "identityId": "P-10140",
+      "squadNumber": 6,
+      "name": "Alexandros Tziolis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2010-georgios_samaras",
+      "identityId": "P-58348",
+      "squadNumber": 7,
+      "name": "Georgios Samaras",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2010-avraam_papadopoulos",
+      "identityId": "P-36090",
+      "squadNumber": 8,
+      "name": "Avraam Papadopoulos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2010-angelos_charisteas",
+      "identityId": "P-32124",
+      "squadNumber": 9,
+      "name": "Angelos Charisteas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-2010-giorgos_karagounis",
+      "identityId": "P-17698",
+      "squadNumber": 10,
+      "name": "Giorgos Karagounis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2010-loukas_vyntra",
+      "identityId": "P-28140",
+      "squadNumber": 11,
+      "name": "Loukas Vyntra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2010-alexandros_tzorvas",
+      "identityId": "P-83927",
+      "squadNumber": 12,
+      "name": "Alexandros Tzorvas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2010-michalis_sifakis",
+      "identityId": "P-07928",
+      "squadNumber": 13,
+      "name": "Michalis Sifakis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Greece (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "greece-2010-dimitris_salpingidis",
+      "identityId": "P-75292",
+      "squadNumber": 14,
+      "name": "Dimitris Salpingidis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "greece-2010-vasilis_torosidis",
+      "identityId": "P-05210",
+      "squadNumber": 15,
+      "name": "Vasilis Torosidis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "greece-2010-sotirios_kyrgiakos",
+      "identityId": "P-50181",
+      "squadNumber": 16,
+      "name": "Sotirios Kyrgiakos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2010-theofanis_gekas",
+      "identityId": "P-56893",
+      "squadNumber": 17,
+      "name": "Theofanis Gekas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2010-sotiris_ninis",
+      "identityId": "P-45647",
+      "squadNumber": 18,
+      "name": "Sotiris Ninis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Greece (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "greece-2010-sokratis_papastathopoulos",
+      "identityId": "P-11436",
+      "squadNumber": 19,
+      "name": "Sokratis Papastathopoulos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Greece (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2010-pantelis_kapetanos",
+      "identityId": "P-59270",
+      "squadNumber": 20,
+      "name": "Pantelis Kapetanos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Greece (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "greece-2010-kostas_katsouranis",
+      "identityId": "P-52378",
+      "squadNumber": 21,
+      "name": "Kostas Katsouranis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Greece (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2010-stelios_malezas",
+      "identityId": "P-08522",
+      "squadNumber": 22,
+      "name": "Stelios Malezas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Greece (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "greece-2010-sakis_prittas",
+      "identityId": "P-84614",
+      "squadNumber": 23,
+      "name": "Sakis Prittas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Greece (Group Stage). Squad reserve member."
+    }
+  ]
+}

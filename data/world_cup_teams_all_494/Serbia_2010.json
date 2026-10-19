@@ -1,0 +1,518 @@
+{
+  "teamName": "Serbia",
+  "teamCode": "SRB",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "serbia-2010-vladimir_stojkovi_",
+      "identityId": "P-46403",
+      "squadNumber": 1,
+      "name": "Vladimir Stojković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2010-antonio_rukavina",
+      "identityId": "P-39341",
+      "squadNumber": 2,
+      "name": "Antonio Rukavina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2010-aleksandar_kolarov",
+      "identityId": "P-33059",
+      "squadNumber": 3,
+      "name": "Aleksandar Kolarov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2010-gojko_ka_ar",
+      "identityId": "P-85465",
+      "squadNumber": 4,
+      "name": "Gojko Kačar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2010-nemanja_vidi_",
+      "identityId": "P-68901",
+      "squadNumber": 5,
+      "name": "Nemanja Vidić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2010-branislav_ivanovi_",
+      "identityId": "P-95482",
+      "squadNumber": 6,
+      "name": "Branislav Ivanović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2010-zoran_to_i_",
+      "identityId": "P-25507",
+      "squadNumber": 7,
+      "name": "Zoran Tošić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2010-danko_lazovi_",
+      "identityId": "P-40791",
+      "squadNumber": 8,
+      "name": "Danko Lazović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Serbia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "serbia-2010-marko_panteli_",
+      "identityId": "P-07371",
+      "squadNumber": 9,
+      "name": "Marko Pantelić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2010-dejan_stankovi_",
+      "identityId": "P-22793",
+      "squadNumber": 10,
+      "name": "Dejan Stanković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2010-nenad_milija_",
+      "identityId": "P-39459",
+      "squadNumber": 11,
+      "name": "Nenad Milijaš",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2010-bojan_isailovi_",
+      "identityId": "P-38928",
+      "squadNumber": 12,
+      "name": "Bojan Isailović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2010-aleksandar_lukovi_",
+      "identityId": "P-32588",
+      "squadNumber": 13,
+      "name": "Aleksandar Luković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2010-milan_jovanovi_",
+      "identityId": "P-56515",
+      "squadNumber": 14,
+      "name": "Milan Jovanović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2010-nikola_igi_",
+      "identityId": "P-18094",
+      "squadNumber": 15,
+      "name": "Nikola Žigić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2010-ivan_obradovi_",
+      "identityId": "P-59023",
+      "squadNumber": 16,
+      "name": "Ivan Obradović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2010-milo_krasi_",
+      "identityId": "P-23735",
+      "squadNumber": 17,
+      "name": "Miloš Krasić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2010-milo_ninkovi_",
+      "identityId": "P-71962",
+      "squadNumber": 18,
+      "name": "Miloš Ninković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2010-radosav_petrovi_",
+      "identityId": "P-30803",
+      "squadNumber": 19,
+      "name": "Radosav Petrović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2010-neven_suboti_",
+      "identityId": "P-47415",
+      "squadNumber": 20,
+      "name": "Neven Subotić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2010-dragan_mr_a",
+      "identityId": "P-81872",
+      "squadNumber": 21,
+      "name": "Dragan Mrđa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2010-zdravko_kuzmanovi_",
+      "identityId": "P-88851",
+      "squadNumber": 22,
+      "name": "Zdravko Kuzmanović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2010-an_elko_uri_i_",
+      "identityId": "P-28333",
+      "squadNumber": 23,
+      "name": "Anđelko Đuričić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    }
+  ]
+}

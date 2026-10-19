@@ -1,0 +1,490 @@
+{
+  "teamName": "United Arab Emirates",
+  "teamCode": "ARE",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "united_arab_emirates-1990-abdullah_musa",
+      "identityId": "P-95570",
+      "squadNumber": 1,
+      "name": "Abdullah Musa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_arab_emirates-1990-khalil_ghanim",
+      "identityId": "P-23285",
+      "squadNumber": 2,
+      "name": "Khalil Ghanim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-ali_thani_jumaa",
+      "identityId": "P-56780",
+      "squadNumber": 3,
+      "name": "Ali Thani Jumaa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_arab_emirates-1990-mubarak_ghanim",
+      "identityId": "P-36777",
+      "squadNumber": 4,
+      "name": "Mubarak Ghanim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_arab_emirates-1990-abdualla_sultan",
+      "identityId": "P-52938",
+      "squadNumber": 5,
+      "name": "Abdualla Sultan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_arab_emirates-1990-abdulrahman_mohamed",
+      "identityId": "P-35056",
+      "squadNumber": 6,
+      "name": "Abdulrahman Mohamed",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-fahad_khamees",
+      "identityId": "P-27017",
+      "squadNumber": 7,
+      "name": "Fahad Khamees",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_arab_emirates-1990-khalid_isma_l",
+      "identityId": "P-90097",
+      "squadNumber": 8,
+      "name": "Khalid Ismaïl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_arab_emirates-1990-abdulaziz_mohamed",
+      "identityId": "P-91477",
+      "squadNumber": 9,
+      "name": "Abdulaziz Mohamed",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_arab_emirates-1990-adnan_al-talyani",
+      "identityId": "P-11032",
+      "squadNumber": 10,
+      "name": "Adnan Al-Talyani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-zuhair_bakheet",
+      "identityId": "P-17799",
+      "squadNumber": 11,
+      "name": "Zuhair Bakheet",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_arab_emirates-1990-hussain_ghuloum",
+      "identityId": "P-16899",
+      "squadNumber": 12,
+      "name": "Hussain Ghuloum",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-hassan_mohamed",
+      "identityId": "P-96771",
+      "squadNumber": 13,
+      "name": "Hassan Mohamed",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_arab_emirates-1990-nasir_khamees",
+      "identityId": "P-77154",
+      "squadNumber": 14,
+      "name": "Nasir Khamees",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-ibrahim_meer",
+      "identityId": "P-99834",
+      "squadNumber": 15,
+      "name": "Ibrahim Meer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-mohamed_salim",
+      "identityId": "P-16918",
+      "squadNumber": 16,
+      "name": "Mohamed Salim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_arab_emirates-1990-muhsin_musabah",
+      "identityId": "P-00234",
+      "squadNumber": 17,
+      "name": "Muhsin Musabah",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-fahad_abdulrahman",
+      "identityId": "P-53430",
+      "squadNumber": 18,
+      "name": "Fahad Abdulrahman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_arab_emirates-1990-eissa_meer",
+      "identityId": "P-27206",
+      "squadNumber": 19,
+      "name": "Eissa Meer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_arab_emirates-1990-yousuf_hussain",
+      "identityId": "P-50458",
+      "squadNumber": 20,
+      "name": "Yousuf Hussain",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_arab_emirates-1990-abdulrahman_al-haddad",
+      "identityId": "P-17103",
+      "squadNumber": 21,
+      "name": "Abdulrahman Al-Haddad",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_arab_emirates-1990-abdulqadir_hassan",
+      "identityId": "P-42685",
+      "squadNumber": 22,
+      "name": "Abdulqadir Hassan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for United Arab Emirates (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "south_korea-1998-byung-ji_kim",
+      "identityId": "P-84722",
+      "squadNumber": 1,
+      "name": "Byung-ji Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1998-sung-yong_choi",
+      "identityId": "P-17666",
+      "squadNumber": 2,
+      "name": "Sung-yong Choi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1998-lim-saeng_lee",
+      "identityId": "P-65241",
+      "squadNumber": 3,
+      "name": "Lim-saeng Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for South Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-1998-young-il_choi",
+      "identityId": "P-51868",
+      "squadNumber": 4,
+      "name": "Young-il Choi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1998-min-sung_lee",
+      "identityId": "P-66219",
+      "squadNumber": 5,
+      "name": "Min-sung Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1998-sang-chul_yoo",
+      "identityId": "P-75255",
+      "squadNumber": 6,
+      "name": "Sang-chul Yoo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-1998-do-keun_kim",
+      "identityId": "P-54653",
+      "squadNumber": 7,
+      "name": "Do-keun Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1998-jung-yoon_noh",
+      "identityId": "P-09742",
+      "squadNumber": 8,
+      "name": "Jung-yoon Noh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1998-do-hoon_kim",
+      "identityId": "P-02853",
+      "squadNumber": 9,
+      "name": "Do-hoon Kim",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1998-yong-soo_choi",
+      "identityId": "P-72495",
+      "squadNumber": 10,
+      "name": "Yong-soo Choi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1998-jung-won_seo",
+      "identityId": "P-65525",
+      "squadNumber": 11,
+      "name": "Jung-won Seo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1998-sang-hun_lee",
+      "identityId": "P-54130",
+      "squadNumber": 12,
+      "name": "Sang-hun Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1998-tae-young_kim",
+      "identityId": "P-96267",
+      "squadNumber": 13,
+      "name": "Tae-young Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1998-jong-soo_ko",
+      "identityId": "P-64624",
+      "squadNumber": 14,
+      "name": "Jong-soo Ko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1998-sang-yoon_lee",
+      "identityId": "P-47850",
+      "squadNumber": 15,
+      "name": "Sang-yoon Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1998-hyung-seok_jang",
+      "identityId": "P-64908",
+      "squadNumber": 16,
+      "name": "Hyung-seok Jang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for South Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-1998-seok-ju_ha",
+      "identityId": "P-55350",
+      "squadNumber": 17,
+      "name": "Seok-ju Ha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-1998-sun-hong_hwang",
+      "identityId": "P-15222",
+      "squadNumber": 18,
+      "name": "Sun-hong Hwang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-1998-dae-il_jang",
+      "identityId": "P-75418",
+      "squadNumber": 19,
+      "name": "Dae-il Jang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-1998-myung-bo_hong",
+      "identityId": "P-55097",
+      "squadNumber": 20,
+      "name": "Myung-bo Hong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1998-dong-gook_lee",
+      "identityId": "P-85453",
+      "squadNumber": 21,
+      "name": "Dong-gook Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for South Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-1998-dong-myung_seo",
+      "identityId": "P-56801",
+      "squadNumber": 22,
+      "name": "Dong-myung Seo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    }
+  ]
+}

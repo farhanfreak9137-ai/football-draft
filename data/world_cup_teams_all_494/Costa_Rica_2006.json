@@ -1,0 +1,516 @@
+{
+  "teamName": "Costa Rica",
+  "teamCode": "CRI",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "costa_rica-2006-_lvaro_mes_n",
+      "identityId": "P-86109",
+      "squadNumber": 1,
+      "name": "Álvaro Mesén",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2006-jervis_drummond",
+      "identityId": "P-56632",
+      "squadNumber": 2,
+      "name": "Jervis Drummond",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2006-luis_mar_n",
+      "identityId": "P-50749",
+      "squadNumber": 3,
+      "name": "Luis Marín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2006-michael_uma_a",
+      "identityId": "P-52458",
+      "squadNumber": 4,
+      "name": "Michael Umaña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2006-gilberto_mart_nez",
+      "identityId": "P-32696",
+      "squadNumber": 5,
+      "name": "Gilberto Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2006-danny_fonseca",
+      "identityId": "P-30163",
+      "squadNumber": 6,
+      "name": "Danny Fonseca",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2006-christian_bola_os",
+      "identityId": "P-57722",
+      "squadNumber": 7,
+      "name": "Christian Bolaños",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2006-mauricio_sol_s",
+      "identityId": "P-26474",
+      "squadNumber": 8,
+      "name": "Mauricio Solís",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2006-paulo_wanchope",
+      "identityId": "P-22046",
+      "squadNumber": 9,
+      "name": "Paulo Wanchope",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "costa_rica-2006-walter_centeno",
+      "identityId": "P-68890",
+      "squadNumber": 10,
+      "name": "Walter Centeno",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2006-r_nald_g_mez",
+      "identityId": "P-55170",
+      "squadNumber": 11,
+      "name": "Rónald Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2006-leonardo_gonz_lez",
+      "identityId": "P-12856",
+      "squadNumber": 12,
+      "name": "Leonardo González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2006-kurt_bernard",
+      "identityId": "P-01674",
+      "squadNumber": 13,
+      "name": "Kurt Bernard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2006-randall_azofeifa",
+      "identityId": "P-07614",
+      "squadNumber": 14,
+      "name": "Randall Azofeifa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2006-harold_wallace",
+      "identityId": "P-85975",
+      "squadNumber": 15,
+      "name": "Harold Wallace",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2006-carlos_hern_ndez",
+      "identityId": "P-13659",
+      "squadNumber": 16,
+      "name": "Carlos Hernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2006-gabriel_badilla",
+      "identityId": "P-97927",
+      "squadNumber": 17,
+      "name": "Gabriel Badilla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2006-jos_francisco_porras",
+      "identityId": "P-66817",
+      "squadNumber": 18,
+      "name": "José Francisco Porras",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2006-_lvaro_sabor_o",
+      "identityId": "P-55781",
+      "squadNumber": 19,
+      "name": "Álvaro Saborío",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2006-douglas_sequeira",
+      "identityId": "P-37092",
+      "squadNumber": 20,
+      "name": "Douglas Sequeira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2006-v_ctor_n_ez",
+      "identityId": "P-17028",
+      "squadNumber": 21,
+      "name": "Víctor Núñez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2006-michael_rodr_guez",
+      "identityId": "P-71248",
+      "squadNumber": 22,
+      "name": "Michael Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2006-wardy_alfaro",
+      "identityId": "P-82853",
+      "squadNumber": 23,
+      "name": "Wardy Alfaro",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    }
+  ]
+}

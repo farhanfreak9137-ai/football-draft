@@ -1,0 +1,515 @@
+{
+  "teamName": "Saudi Arabia",
+  "teamCode": "SAU",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "saudi_arabia-2006-mohamed_al-deayea",
+      "identityId": "P-12996",
+      "squadNumber": 1,
+      "name": "Mohamed Al-Deayea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2006-ahmed_al-dokhi",
+      "identityId": "P-53448",
+      "squadNumber": 2,
+      "name": "Ahmed Al-Dokhi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-redha_tukar",
+      "identityId": "P-90725",
+      "squadNumber": 3,
+      "name": "Redha Tukar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-hamad_al-montashari",
+      "identityId": "P-48279",
+      "squadNumber": 4,
+      "name": "Hamad Al-Montashari",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-naif_al-qadi",
+      "identityId": "P-84226",
+      "squadNumber": 5,
+      "name": "Naif Al-Qadi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2006-omar_al-ghamdi",
+      "identityId": "P-00585",
+      "squadNumber": 6,
+      "name": "Omar Al-Ghamdi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2006-mohammed_ameen",
+      "identityId": "P-21753",
+      "squadNumber": 7,
+      "name": "Mohammed Ameen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2006-mohammed_noor",
+      "identityId": "P-90435",
+      "squadNumber": 8,
+      "name": "Mohammed Noor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-sami_al-jaber",
+      "identityId": "P-88041",
+      "squadNumber": 9,
+      "name": "Sami Al-Jaber",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-2006-mohammad_al-shalhoub",
+      "identityId": "P-11262",
+      "squadNumber": 10,
+      "name": "Mohammad Al-Shalhoub",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2006-saad_al-harthi",
+      "identityId": "P-88984",
+      "squadNumber": 11,
+      "name": "Saad Al-Harthi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2006-abdulaziz_al-khathran",
+      "identityId": "P-76946",
+      "squadNumber": 12,
+      "name": "Abdulaziz Al-Khathran",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2006-hussein_abdulghani",
+      "identityId": "P-77199",
+      "squadNumber": 13,
+      "name": "Hussein Abdulghani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-saud_kariri",
+      "identityId": "P-50973",
+      "squadNumber": 14,
+      "name": "Saud Kariri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-ahmed_al-bahri",
+      "identityId": "P-58952",
+      "squadNumber": 15,
+      "name": "Ahmed Al-Bahri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2006-khaled_aziz",
+      "identityId": "P-66016",
+      "squadNumber": 16,
+      "name": "Khaled Aziz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-mohamed_al-bishi",
+      "identityId": "P-60833",
+      "squadNumber": 17,
+      "name": "Mohamed Al-Bishi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2006-nawaf_al-temyat",
+      "identityId": "P-20886",
+      "squadNumber": 18,
+      "name": "Nawaf Al-Temyat",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2006-mohammad_massad",
+      "identityId": "P-33367",
+      "squadNumber": 19,
+      "name": "Mohammad Massad",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2006-yasser_al-qahtani",
+      "identityId": "P-87114",
+      "squadNumber": 20,
+      "name": "Yasser Al-Qahtani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-2006-mabrouk_zaid",
+      "identityId": "P-99270",
+      "squadNumber": 21,
+      "name": "Mabrouk Zaid",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2006-mohammad_khouja",
+      "identityId": "P-95677",
+      "squadNumber": 22,
+      "name": "Mohammad Khouja",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2006-malek_mouath",
+      "identityId": "P-69611",
+      "squadNumber": 23,
+      "name": "Malek Mouath",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (3 sub app)."
+    }
+  ]
+}

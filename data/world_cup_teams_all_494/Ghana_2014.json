@@ -1,0 +1,518 @@
+{
+  "teamName": "Ghana",
+  "teamCode": "GHA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "ghana-2014-stephen_adams",
+      "identityId": "P-40630",
+      "squadNumber": 1,
+      "name": "Stephen Adams",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2014-samuel_inkoom",
+      "identityId": "P-43176",
+      "squadNumber": 2,
+      "name": "Samuel Inkoom",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2014-asamoah_gyan",
+      "identityId": "P-38556",
+      "squadNumber": 3,
+      "name": "Asamoah Gyan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ghana-2014-daniel_opare",
+      "identityId": "P-04420",
+      "squadNumber": 4,
+      "name": "Daniel Opare",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2014-michael_essien",
+      "identityId": "P-12805",
+      "squadNumber": 5,
+      "name": "Michael Essien",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ghana (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ghana-2014-afriyie_acquah",
+      "identityId": "P-63370",
+      "squadNumber": 6,
+      "name": "Afriyie Acquah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ghana (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ghana-2014-christian_atsu",
+      "identityId": "P-48310",
+      "squadNumber": 7,
+      "name": "Christian Atsu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2014-emmanuel_agyemang-badu",
+      "identityId": "P-89904",
+      "squadNumber": 8,
+      "name": "Emmanuel Agyemang-Badu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2014-kevin-prince_boateng",
+      "identityId": "P-66316",
+      "squadNumber": 9,
+      "name": "Kevin-Prince Boateng",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2014-andr_ayew",
+      "identityId": "P-01945",
+      "squadNumber": 10,
+      "name": "André Ayew",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ghana-2014-sulley_muntari",
+      "identityId": "P-50641",
+      "squadNumber": 11,
+      "name": "Sulley Muntari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2014-adam_larsen_kwarasey",
+      "identityId": "P-84116",
+      "squadNumber": 12,
+      "name": "Adam Larsen Kwarasey",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2014-jordan_ayew",
+      "identityId": "P-31765",
+      "squadNumber": 13,
+      "name": "Jordan Ayew",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2014-albert_adomah",
+      "identityId": "P-67189",
+      "squadNumber": 14,
+      "name": "Albert Adomah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ghana (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ghana-2014-rashid_sumaila",
+      "identityId": "P-20971",
+      "squadNumber": 15,
+      "name": "Rashid Sumaila",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2014-fatau_dauda",
+      "identityId": "P-24689",
+      "squadNumber": 16,
+      "name": "Fatau Dauda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2014-mohammed_rabiu",
+      "identityId": "P-96497",
+      "squadNumber": 17,
+      "name": "Mohammed Rabiu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2014-abdul_majeed_waris",
+      "identityId": "P-24388",
+      "squadNumber": 18,
+      "name": "Abdul Majeed Waris",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2014-jonathan_mensah",
+      "identityId": "P-93750",
+      "squadNumber": 19,
+      "name": "Jonathan Mensah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2014-kwadwo_asamoah",
+      "identityId": "P-39956",
+      "squadNumber": 20,
+      "name": "Kwadwo Asamoah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2014-john_boye",
+      "identityId": "P-06024",
+      "squadNumber": 21,
+      "name": "John Boye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2014-mubarak_wakaso",
+      "identityId": "P-31813",
+      "squadNumber": 22,
+      "name": "Mubarak Wakaso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ghana (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ghana-2014-harrison_afful",
+      "identityId": "P-05368",
+      "squadNumber": 23,
+      "name": "Harrison Afful",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ghana (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

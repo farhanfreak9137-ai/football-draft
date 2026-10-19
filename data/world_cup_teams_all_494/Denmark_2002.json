@@ -1,0 +1,515 @@
+{
+  "teamName": "Denmark",
+  "teamCode": "DNK",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "denmark-2002-thomas_s_rensen",
+      "identityId": "P-00212",
+      "squadNumber": 1,
+      "name": "Thomas Sørensen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2002-stig_t_fting",
+      "identityId": "P-37132",
+      "squadNumber": 2,
+      "name": "Stig Tøfting",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2002-ren_henriksen",
+      "identityId": "P-86345",
+      "squadNumber": 3,
+      "name": "René Henriksen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2002-martin_laursen",
+      "identityId": "P-27808",
+      "squadNumber": 4,
+      "name": "Martin Laursen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2002-jan_heintze",
+      "identityId": "P-79273",
+      "squadNumber": 5,
+      "name": "Jan Heintze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2002-thomas_helveg",
+      "identityId": "P-72404",
+      "squadNumber": 6,
+      "name": "Thomas Helveg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2002-thomas_gravesen",
+      "identityId": "P-24031",
+      "squadNumber": 7,
+      "name": "Thomas Gravesen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2002-jesper_gr_nkj_r",
+      "identityId": "P-63778",
+      "squadNumber": 8,
+      "name": "Jesper Grønkjær",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2002-jon_dahl_tomasson",
+      "identityId": "P-50534",
+      "squadNumber": 9,
+      "name": "Jon Dahl Tomasson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "denmark-2002-martin_j_rgensen",
+      "identityId": "P-68055",
+      "squadNumber": 10,
+      "name": "Martin Jørgensen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2002-ebbe_sand",
+      "identityId": "P-80289",
+      "squadNumber": 11,
+      "name": "Ebbe Sand",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2002-niclas_jensen",
+      "identityId": "P-34389",
+      "squadNumber": 12,
+      "name": "Niclas Jensen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2002-steven_lust_",
+      "identityId": "P-94452",
+      "squadNumber": 13,
+      "name": "Steven Lustü",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2002-claus_jensen",
+      "identityId": "P-26759",
+      "squadNumber": 14,
+      "name": "Claus Jensen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2002-jan_michaelsen",
+      "identityId": "P-89928",
+      "squadNumber": 15,
+      "name": "Jan Michaelsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2002-peter_kj_r",
+      "identityId": "P-25541",
+      "squadNumber": 16,
+      "name": "Peter Kjær",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2002-christian_poulsen",
+      "identityId": "P-46718",
+      "squadNumber": 17,
+      "name": "Christian Poulsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2002-peter_l_venkrands",
+      "identityId": "P-41271",
+      "squadNumber": 18,
+      "name": "Peter Løvenkrands",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2002-dennis_rommedahl",
+      "identityId": "P-80170",
+      "squadNumber": 19,
+      "name": "Dennis Rommedahl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2002-kasper_b_gelund",
+      "identityId": "P-05337",
+      "squadNumber": 20,
+      "name": "Kasper Bøgelund",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Denmark (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "denmark-2002-peter_madsen",
+      "identityId": "P-06985",
+      "squadNumber": 21,
+      "name": "Peter Madsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2002-jesper_christiansen",
+      "identityId": "P-21988",
+      "squadNumber": 22,
+      "name": "Jesper Christiansen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2002-brian_steen_nielsen",
+      "identityId": "P-04393",
+      "squadNumber": 23,
+      "name": "Brian Steen Nielsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

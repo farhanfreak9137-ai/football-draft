@@ -1,0 +1,514 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "CHE",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "switzerland-2006-pascal_zuberb_hler",
+      "identityId": "P-38789",
+      "squadNumber": 1,
+      "name": "Pascal Zuberbühler",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2006-johan_djourou",
+      "identityId": "P-25758",
+      "squadNumber": 2,
+      "name": "Johan Djourou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2006-ludovic_magnin",
+      "identityId": "P-82814",
+      "squadNumber": 3,
+      "name": "Ludovic Magnin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2006-philippe_senderos",
+      "identityId": "P-94161",
+      "squadNumber": 4,
+      "name": "Philippe Senderos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2006-xavier_margairaz",
+      "identityId": "P-63929",
+      "squadNumber": 5,
+      "name": "Xavier Margairaz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2006-johann_vogel",
+      "identityId": "P-17148",
+      "squadNumber": 6,
+      "name": "Johann Vogel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2006-ricardo_cabanas",
+      "identityId": "P-11817",
+      "squadNumber": 7,
+      "name": "Ricardo Cabanas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2006-rapha_l_wicky",
+      "identityId": "P-56006",
+      "squadNumber": 8,
+      "name": "Raphaël Wicky",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2006-alexander_frei",
+      "identityId": "P-61684",
+      "squadNumber": 9,
+      "name": "Alexander Frei",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "switzerland-2006-daniel_gygax",
+      "identityId": "P-35674",
+      "squadNumber": 10,
+      "name": "Daniel Gygax",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2006-marco_streller",
+      "identityId": "P-87221",
+      "squadNumber": 11,
+      "name": "Marco Streller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2006-diego_benaglio",
+      "identityId": "P-46325",
+      "squadNumber": 12,
+      "name": "Diego Benaglio",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2006-st_phane_grichting",
+      "identityId": "P-49127",
+      "squadNumber": 13,
+      "name": "Stéphane Grichting",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2006-david_degen",
+      "identityId": "P-06129",
+      "squadNumber": 14,
+      "name": "David Degen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2006-blerim_d_emaili",
+      "identityId": "P-35818",
+      "squadNumber": 15,
+      "name": "Blerim Džemaili",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2006-tranquillo_barnetta",
+      "identityId": "P-97143",
+      "squadNumber": 16,
+      "name": "Tranquillo Barnetta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2006-christoph_spycher",
+      "identityId": "P-10953",
+      "squadNumber": 17,
+      "name": "Christoph Spycher",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2006-mauro_lustrinelli",
+      "identityId": "P-46417",
+      "squadNumber": 18,
+      "name": "Mauro Lustrinelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2006-valon_behrami",
+      "identityId": "P-54713",
+      "squadNumber": 19,
+      "name": "Valon Behrami",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2006-patrick_m_ller",
+      "identityId": "P-37656",
+      "squadNumber": 20,
+      "name": "Patrick Müller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2006-fabio_coltorti",
+      "identityId": "P-07302",
+      "squadNumber": 21,
+      "name": "Fabio Coltorti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2006-hakan_yakin",
+      "identityId": "P-59636",
+      "squadNumber": 22,
+      "name": "Hakan Yakin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2006-philipp_degen",
+      "identityId": "P-10789",
+      "squadNumber": 23,
+      "name": "Philipp Degen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

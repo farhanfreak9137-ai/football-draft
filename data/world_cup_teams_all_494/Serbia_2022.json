@@ -1,0 +1,579 @@
+{
+  "teamName": "Serbia",
+  "teamCode": "SRB",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "serbia-2022-marko_dmitrovi_",
+      "identityId": "P-72770",
+      "squadNumber": 1,
+      "name": "Marko Dmitrović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2022-strahinja_pavlovi_",
+      "identityId": "P-98435",
+      "squadNumber": 2,
+      "name": "Strahinja Pavlović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2022-strahinja_erakovi_",
+      "identityId": "P-55665",
+      "squadNumber": 3,
+      "name": "Strahinja Eraković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2022-nikola_milenkovi_",
+      "identityId": "P-57535",
+      "squadNumber": 4,
+      "name": "Nikola Milenković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2022-milo_veljkovi_",
+      "identityId": "P-30283",
+      "squadNumber": 5,
+      "name": "Miloš Veljković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2022-nemanja_maksimovi_",
+      "identityId": "P-89598",
+      "squadNumber": 6,
+      "name": "Nemanja Maksimović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2022-nemanja_radonji_",
+      "identityId": "P-79900",
+      "squadNumber": 7,
+      "name": "Nemanja Radonjić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "serbia-2022-nemanja_gudelj",
+      "identityId": "P-24610",
+      "squadNumber": 8,
+      "name": "Nemanja Gudelj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2022-aleksandar_mitrovi_",
+      "identityId": "P-85696",
+      "squadNumber": 9,
+      "name": "Aleksandar Mitrović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "serbia-2022-du_an_tadi_",
+      "identityId": "P-33390",
+      "squadNumber": 10,
+      "name": "Dušan Tadić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2022-luka_jovi_",
+      "identityId": "P-62033",
+      "squadNumber": 11,
+      "name": "Luka Jović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2022-predrag_rajkovi_",
+      "identityId": "P-35773",
+      "squadNumber": 12,
+      "name": "Predrag Rajković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2022-stefan_mitrovi_",
+      "identityId": "P-19069",
+      "squadNumber": 13,
+      "name": "Stefan Mitrović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2022-andrija_ivkovi_",
+      "identityId": "P-58363",
+      "squadNumber": 14,
+      "name": "Andrija Živković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2022-sr_an_babi_",
+      "identityId": "P-70515",
+      "squadNumber": 15,
+      "name": "Srđan Babić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2022-sa_a_luki_",
+      "identityId": "P-78056",
+      "squadNumber": 16,
+      "name": "Saša Lukić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2022-filip_kosti_",
+      "identityId": "P-80738",
+      "squadNumber": 17,
+      "name": "Filip Kostić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2022-du_an_vlahovi_",
+      "identityId": "P-63293",
+      "squadNumber": 18,
+      "name": "Dušan Vlahović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2022-uro_ra_i_",
+      "identityId": "P-09530",
+      "squadNumber": 19,
+      "name": "Uroš Račić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2022-sergej_milinkovi_-savi_",
+      "identityId": "P-27744",
+      "squadNumber": 20,
+      "name": "Sergej Milinković-Savić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2022-filip_uri_i_",
+      "identityId": "P-79754",
+      "squadNumber": 21,
+      "name": "Filip Đuričić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "serbia-2022-darko_lazovi_",
+      "identityId": "P-54211",
+      "squadNumber": 22,
+      "name": "Darko Lazović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2022-vanja_milinkovi_-savi_",
+      "identityId": "P-24245",
+      "squadNumber": 23,
+      "name": "Vanja Milinković-Savić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2022-ivan_ili_",
+      "identityId": "P-67641",
+      "squadNumber": 24,
+      "name": "Ivan Ilić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2022-filip_mladenovi_",
+      "identityId": "P-82143",
+      "squadNumber": 25,
+      "name": "Filip Mladenović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2022-marko_gruji_",
+      "identityId": "P-89573",
+      "squadNumber": 26,
+      "name": "Marko Grujić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

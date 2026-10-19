@@ -1,0 +1,516 @@
+{
+  "teamName": "Iran",
+  "teamCode": "IRN",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iran-2006-ebrahim_mirzapour",
+      "identityId": "P-18605",
+      "squadNumber": 1,
+      "name": "Ebrahim Mirzapour",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-mehdi_mahdavikia",
+      "identityId": "P-93633",
+      "squadNumber": 2,
+      "name": "Mehdi Mahdavikia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-sohrab_bakhtiarizadeh",
+      "identityId": "P-02909",
+      "squadNumber": 3,
+      "name": "Sohrab Bakhtiarizadeh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-2006-yahya_golmohammadi",
+      "identityId": "P-20762",
+      "squadNumber": 4,
+      "name": "Yahya Golmohammadi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-2006-rahman_rezaei",
+      "identityId": "P-96490",
+      "squadNumber": 5,
+      "name": "Rahman Rezaei",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-javad_nekounam",
+      "identityId": "P-59901",
+      "squadNumber": 6,
+      "name": "Javad Nekounam",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2006-ferydoon_zandi",
+      "identityId": "P-34386",
+      "squadNumber": 7,
+      "name": "Ferydoon Zandi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-2006-ali_karimi",
+      "identityId": "P-16416",
+      "squadNumber": 8,
+      "name": "Ali Karimi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2006-vahid_hashemian",
+      "identityId": "P-47539",
+      "squadNumber": 9,
+      "name": "Vahid Hashemian",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-ali_daei",
+      "identityId": "P-38371",
+      "squadNumber": 10,
+      "name": "Ali Daei",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2006-rasoul_khatibi",
+      "identityId": "P-56998",
+      "squadNumber": 11,
+      "name": "Rasoul Khatibi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Iran (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "iran-2006-hassan_roudbarian",
+      "identityId": "P-74059",
+      "squadNumber": 12,
+      "name": "Hassan Roudbarian",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2006-hossein_kaebi",
+      "identityId": "P-55405",
+      "squadNumber": 13,
+      "name": "Hossein Kaebi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-andranik_teymourian",
+      "identityId": "P-20969",
+      "squadNumber": 14,
+      "name": "Andranik Teymourian",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-arash_borhani",
+      "identityId": "P-13809",
+      "squadNumber": 15,
+      "name": "Arash Borhani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Iran (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "iran-2006-reza_enayati",
+      "identityId": "P-64146",
+      "squadNumber": 16,
+      "name": "Reza Enayati",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2006-javad_kazemian",
+      "identityId": "P-60564",
+      "squadNumber": 17,
+      "name": "Javad Kazemian",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2006-moharram_navidkia",
+      "identityId": "P-43423",
+      "squadNumber": 18,
+      "name": "Moharram Navidkia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2006-amir_hossein_sadeghi",
+      "identityId": "P-94570",
+      "squadNumber": 19,
+      "name": "Amir Hossein Sadeghi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2006-mohammad_nosrati",
+      "identityId": "P-56844",
+      "squadNumber": 20,
+      "name": "Mohammad Nosrati",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2006-mehrzad_madanchi",
+      "identityId": "P-16154",
+      "squadNumber": 21,
+      "name": "Mehrzad Madanchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2006-vahid_talebloo",
+      "identityId": "P-55739",
+      "squadNumber": 22,
+      "name": "Vahid Talebloo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2006-masoud_shojaei",
+      "identityId": "P-00111",
+      "squadNumber": 23,
+      "name": "Masoud Shojaei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

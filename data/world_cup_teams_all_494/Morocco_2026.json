@@ -1,0 +1,543 @@
+{
+  "teamName": "Morocco",
+  "teamCode": "MOR",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "morocco-2026-yassine_bounou",
+      "identityId": "identity-2026-yassine_bounou",
+      "squadNumber": 1,
+      "name": "Yassine Bounou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Historic World Cup Semi-Final Goalkeeper"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Historic World Cup Semi-Final Goalkeeper",
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Morocco. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "morocco-2026-achraf_hakimi",
+      "identityId": "identity-2026-achraf_hakimi",
+      "squadNumber": 2,
+      "name": "Achraf Hakimi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB",
+        "LB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Morocco. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "morocco-2026-nayef_aguerd",
+      "identityId": "identity-2026-nayef_aguerd",
+      "squadNumber": 5,
+      "name": "Nayef Aguerd",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-romain_sa_ss",
+      "identityId": "identity-2026-romain_sa_ss",
+      "squadNumber": 6,
+      "name": "Romain Saïss",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-noussair_mazraoui",
+      "identityId": "identity-2026-noussair_mazraoui",
+      "squadNumber": 3,
+      "name": "Noussair Mazraoui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "RB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-sofyan_amrabat",
+      "identityId": "identity-2026-sofyan_amrabat",
+      "squadNumber": 4,
+      "name": "Sofyan Amrabat",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-azzedine_ounahi",
+      "identityId": "identity-2026-azzedine_ounahi",
+      "squadNumber": 8,
+      "name": "Azzedine Ounahi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-hakim_ziyech",
+      "identityId": "identity-2026-hakim_ziyech",
+      "squadNumber": 11,
+      "name": "Hakim Ziyech",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-brahim_d_az",
+      "identityId": "identity-2026-brahim_d_az",
+      "squadNumber": 14,
+      "name": "Brahim Díaz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Morocco. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "morocco-2026-youssef_en-nesyri",
+      "identityId": "identity-2026-youssef_en-nesyri",
+      "squadNumber": 19,
+      "name": "Youssef En-Nesyri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-sofiane_boufal",
+      "identityId": "identity-2026-sofiane_boufal",
+      "squadNumber": 17,
+      "name": "Sofiane Boufal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Morocco. Regular starting lineup selection."
+    },
+    {
+      "id": "morocco-2026-munir_mohamedi",
+      "identityId": "identity-2026-munir_mohamedi",
+      "squadNumber": 12,
+      "name": "Munir Mohamedi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Morocco. National squad reserve depth."
+    },
+    {
+      "id": "morocco-2026-el_mehdi_benabid",
+      "identityId": "identity-2026-el_mehdi_benabid",
+      "squadNumber": 22,
+      "name": "El Mehdi Benabid",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 74,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR for 2026 World Cup form with Morocco. National squad reserve depth."
+    },
+    {
+      "id": "morocco-2026-abdel_abqar",
+      "identityId": "identity-2026-abdel_abqar",
+      "squadNumber": 18,
+      "name": "Abdel Abqar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-achraf_dari",
+      "identityId": "identity-2026-achraf_dari",
+      "squadNumber": 20,
+      "name": "Achraf Dari",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-yahia_attiyat_allah",
+      "identityId": "identity-2026-yahia_attiyat_allah",
+      "squadNumber": 25,
+      "name": "Yahia Attiyat Allah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-chadi_riad",
+      "identityId": "identity-2026-chadi_riad",
+      "squadNumber": 26,
+      "name": "Chadi Riad",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-amine_harit",
+      "identityId": "identity-2026-amine_harit",
+      "squadNumber": 7,
+      "name": "Amine Harit",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-amir_richardson",
+      "identityId": "identity-2026-amir_richardson",
+      "squadNumber": 13,
+      "name": "Amir Richardson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-bilal_el_khannouss",
+      "identityId": "identity-2026-bilal_el_khannouss",
+      "squadNumber": 23,
+      "name": "Bilal El Khannouss",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-ismael_saibari",
+      "identityId": "identity-2026-ismael_saibari",
+      "squadNumber": 24,
+      "name": "Ismael Saibari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-ayoub_el_kaabi",
+      "identityId": "identity-2026-ayoub_el_kaabi",
+      "squadNumber": 9,
+      "name": "Ayoub El Kaabi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-amine_adli",
+      "identityId": "identity-2026-amine_adli",
+      "squadNumber": 10,
+      "name": "Amine Adli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-eliesse_ben_seghir",
+      "identityId": "identity-2026-eliesse_ben_seghir",
+      "squadNumber": 15,
+      "name": "Eliesse Ben Seghir",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-abde_ezzalzouli",
+      "identityId": "identity-2026-abde_ezzalzouli",
+      "squadNumber": 16,
+      "name": "Abde Ezzalzouli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "morocco-2026-soufiane_rahimi",
+      "identityId": "identity-2026-soufiane_rahimi",
+      "squadNumber": 21,
+      "name": "Soufiane Rahimi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Morocco. Frequent tactical rotation contributor."
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "teamName": "Scotland",
+  "teamCode": "SCO",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "scotland-1978-alan_rough",
+      "identityId": "P-05695",
+      "squadNumber": 1,
+      "name": "Alan Rough",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1978-sandy_jardine",
+      "identityId": "P-88006",
+      "squadNumber": 2,
+      "name": "Sandy Jardine",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1978-willie_donachie",
+      "identityId": "P-14033",
+      "squadNumber": 3,
+      "name": "Willie Donachie",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1978-martin_buchan",
+      "identityId": "P-98422",
+      "squadNumber": 4,
+      "name": "Martin Buchan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1978-gordon_mcqueen",
+      "identityId": "P-54370",
+      "squadNumber": 5,
+      "name": "Gordon McQueen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1978-bruce_rioch",
+      "identityId": "P-93612",
+      "squadNumber": 6,
+      "name": "Bruce Rioch",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1978-don_masson",
+      "identityId": "P-58552",
+      "squadNumber": 7,
+      "name": "Don Masson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1978-kenny_dalglish",
+      "identityId": "P-68584",
+      "squadNumber": 8,
+      "name": "Kenny Dalglish",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1978-joe_jordan",
+      "identityId": "P-22480",
+      "squadNumber": 9,
+      "name": "Joe Jordan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1978-asa_hartford",
+      "identityId": "P-57616",
+      "squadNumber": 10,
+      "name": "Asa Hartford",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1978-willie_johnston",
+      "identityId": "P-73968",
+      "squadNumber": 11,
+      "name": "Willie Johnston",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1978-jim_blyth",
+      "identityId": "P-32668",
+      "squadNumber": 12,
+      "name": "Jim Blyth",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1978-stuart_kennedy",
+      "identityId": "P-53235",
+      "squadNumber": 13,
+      "name": "Stuart Kennedy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1978-tom_forsyth",
+      "identityId": "P-23439",
+      "squadNumber": 14,
+      "name": "Tom Forsyth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1978-archie_gemmill",
+      "identityId": "P-16479",
+      "squadNumber": 15,
+      "name": "Archie Gemmill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "scotland-1978-lou_macari",
+      "identityId": "P-35089",
+      "squadNumber": 16,
+      "name": "Lou Macari",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1978-derek_johnstone",
+      "identityId": "P-48230",
+      "squadNumber": 17,
+      "name": "Derek Johnstone",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1978-graeme_souness",
+      "identityId": "P-91562",
+      "squadNumber": 18,
+      "name": "Graeme Souness",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1978-john_robertson",
+      "identityId": "P-96391",
+      "squadNumber": 19,
+      "name": "John Robertson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1978-bobby_clark",
+      "identityId": "P-03406",
+      "squadNumber": 20,
+      "name": "Bobby Clark",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1978-joe_harper",
+      "identityId": "P-57585",
+      "squadNumber": 21,
+      "name": "Joe Harper",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Scotland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "scotland-1978-kenny_burns",
+      "identityId": "P-94977",
+      "squadNumber": 22,
+      "name": "Kenny Burns",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

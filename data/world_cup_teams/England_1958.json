@@ -1,0 +1,495 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "england-1958-colin_mcdonald",
+      "identityId": "P-06948",
+      "squadNumber": 1,
+      "name": "Colin McDonald",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-don_howe",
+      "identityId": "P-58940",
+      "squadNumber": 2,
+      "name": "Don Howe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-tommy_banks",
+      "identityId": "P-42945",
+      "squadNumber": 3,
+      "name": "Tommy Banks",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-eddie_clamp",
+      "identityId": "P-39670",
+      "squadNumber": 4,
+      "name": "Eddie Clamp",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-billy_wright",
+      "identityId": "P-43459",
+      "squadNumber": 5,
+      "name": "Billy Wright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-bill_slater",
+      "identityId": "P-47763",
+      "squadNumber": 6,
+      "name": "Bill Slater",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-bryan_douglas",
+      "identityId": "P-84663",
+      "squadNumber": 7,
+      "name": "Bryan Douglas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-bobby_robson",
+      "identityId": "P-34086",
+      "squadNumber": 8,
+      "name": "Bobby Robson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1958-derek_kevan",
+      "identityId": "P-60811",
+      "squadNumber": 9,
+      "name": "Derek Kevan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1958 World Cup performance for England (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "england-1958-johnny_haynes",
+      "identityId": "P-03578",
+      "squadNumber": 10,
+      "name": "Johnny Haynes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1958-tom_finney",
+      "identityId": "P-86813",
+      "squadNumber": 11,
+      "name": "Tom Finney",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for England (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1958-eddie_hopkinson",
+      "identityId": "P-55839",
+      "squadNumber": 12,
+      "name": "Eddie Hopkinson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-alan_hodgkinson",
+      "identityId": "P-79975",
+      "squadNumber": 13,
+      "name": "Alan Hodgkinson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-peter_sillett",
+      "identityId": "P-69171",
+      "squadNumber": 14,
+      "name": "Peter Sillett",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-ronnie_clayton",
+      "identityId": "P-17583",
+      "squadNumber": 15,
+      "name": "Ronnie Clayton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-maurice_norman",
+      "identityId": "P-93416",
+      "squadNumber": 16,
+      "name": "Maurice Norman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-peter_brabrook",
+      "identityId": "P-00300",
+      "squadNumber": 17,
+      "name": "Peter Brabrook",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-peter_broadbent",
+      "identityId": "P-75118",
+      "squadNumber": 18,
+      "name": "Peter Broadbent",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-bobby_smith",
+      "identityId": "P-96877",
+      "squadNumber": 19,
+      "name": "Bobby Smith",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-bobby_charlton",
+      "identityId": "P-08601",
+      "squadNumber": 20,
+      "name": "Bobby Charlton",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-alan_acourt",
+      "identityId": "P-35894",
+      "squadNumber": 21,
+      "name": "Alan A'Court",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-1958-maurice_setters",
+      "identityId": "P-97832",
+      "squadNumber": 22,
+      "name": "Maurice Setters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for England (Group Stage). Squad reserve member."
+    }
+  ]
+}

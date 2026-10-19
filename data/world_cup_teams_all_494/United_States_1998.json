@@ -1,0 +1,490 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "united_states-1998-brad_friedel",
+      "identityId": "P-76191",
+      "squadNumber": 1,
+      "name": "Brad Friedel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1998-frankie_hejduk",
+      "identityId": "P-34695",
+      "squadNumber": 2,
+      "name": "Frankie Hejduk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-eddie_pope",
+      "identityId": "P-02842",
+      "squadNumber": 3,
+      "name": "Eddie Pope",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-mike_burns",
+      "identityId": "P-06020",
+      "squadNumber": 4,
+      "name": "Mike Burns",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-thomas_dooley",
+      "identityId": "P-08863",
+      "squadNumber": 5,
+      "name": "Thomas Dooley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-1998-david_regis",
+      "identityId": "P-68379",
+      "squadNumber": 6,
+      "name": "David Regis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-1998-roy_wegerle",
+      "identityId": "P-69356",
+      "squadNumber": 7,
+      "name": "Roy Wegerle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1998-earnie_stewart",
+      "identityId": "P-96178",
+      "squadNumber": 8,
+      "name": "Earnie Stewart",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-joe-max_moore",
+      "identityId": "P-86464",
+      "squadNumber": 9,
+      "name": "Joe-Max Moore",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-tab_ramos",
+      "identityId": "P-07720",
+      "squadNumber": 10,
+      "name": "Tab Ramos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1998-eric_wynalda",
+      "identityId": "P-67232",
+      "squadNumber": 11,
+      "name": "Eric Wynalda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1998-jeff_agoos",
+      "identityId": "P-72797",
+      "squadNumber": 12,
+      "name": "Jeff Agoos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-1998-cobi_jones",
+      "identityId": "P-49258",
+      "squadNumber": 13,
+      "name": "Cobi Jones",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-1998-predrag_radosavljevi_",
+      "identityId": "P-25779",
+      "squadNumber": 14,
+      "name": "Predrag Radosavljević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for United States (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-1998-chad_deering",
+      "identityId": "P-18539",
+      "squadNumber": 15,
+      "name": "Chad Deering",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1998-juergen_sommer",
+      "identityId": "P-83591",
+      "squadNumber": 16,
+      "name": "Juergen Sommer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-1998-marcelo_balboa",
+      "identityId": "P-12470",
+      "squadNumber": 17,
+      "name": "Marcelo Balboa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for United States (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-1998-kasey_keller",
+      "identityId": "P-07553",
+      "squadNumber": 18,
+      "name": "Kasey Keller",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-brian_maisonneuve",
+      "identityId": "P-36074",
+      "squadNumber": 19,
+      "name": "Brian Maisonneuve",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-1998-brian_mcbride",
+      "identityId": "P-60597",
+      "squadNumber": 20,
+      "name": "Brian McBride",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1998-claudio_reyna",
+      "identityId": "P-97459",
+      "squadNumber": 21,
+      "name": "Claudio Reyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-1998-alexi_lalas",
+      "identityId": "P-79863",
+      "squadNumber": 22,
+      "name": "Alexi Lalas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for United States (Group Stage). Squad reserve member."
+    }
+  ]
+}

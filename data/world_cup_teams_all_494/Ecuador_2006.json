@@ -1,0 +1,515 @@
+{
+  "teamName": "Ecuador",
+  "teamCode": "ECU",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "ecuador-2006-edwin_villafuerte",
+      "identityId": "P-29399",
+      "squadNumber": 1,
+      "name": "Edwin Villafuerte",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2006-jorge_guagua",
+      "identityId": "P-72804",
+      "squadNumber": 2,
+      "name": "Jorge Guagua",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2006-iv_n_hurtado",
+      "identityId": "P-98031",
+      "squadNumber": 3,
+      "name": "Iván Hurtado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2006-ulises_de_la_cruz",
+      "identityId": "P-92146",
+      "squadNumber": 4,
+      "name": "Ulises de la Cruz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ecuador-2006-jos_luis_perlaza",
+      "identityId": "P-36290",
+      "squadNumber": 5,
+      "name": "José Luis Perlaza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2006-patricio_urrutia",
+      "identityId": "P-54675",
+      "squadNumber": 6,
+      "name": "Patricio Urrutia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "ecuador-2006-christian_lara",
+      "identityId": "P-17733",
+      "squadNumber": 7,
+      "name": "Christian Lara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ecuador-2006-_dison_m_ndez",
+      "identityId": "P-42534",
+      "squadNumber": 8,
+      "name": "Édison Méndez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ecuador-2006-f_lix_borja",
+      "identityId": "P-51733",
+      "squadNumber": 9,
+      "name": "Félix Borja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2006-iv_n_kaviedes",
+      "identityId": "P-03128",
+      "squadNumber": 10,
+      "name": "Iván Kaviedes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ecuador-2006-agust_n_delgado",
+      "identityId": "P-19156",
+      "squadNumber": 11,
+      "name": "Agustín Delgado",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ecuador-2006-cristian_mora",
+      "identityId": "P-18894",
+      "squadNumber": 12,
+      "name": "Cristian Mora",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ecuador-2006-pa_l_ambrosi",
+      "identityId": "P-75905",
+      "squadNumber": 13,
+      "name": "Paúl Ambrosi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2006-segundo_castillo",
+      "identityId": "P-96174",
+      "squadNumber": 14,
+      "name": "Segundo Castillo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2006-marlon_ayov_",
+      "identityId": "P-90857",
+      "squadNumber": 15,
+      "name": "Marlon Ayoví",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2006-antonio_valencia",
+      "identityId": "P-49265",
+      "squadNumber": 16,
+      "name": "Antonio Valencia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ecuador-2006-giovanny_espinoza",
+      "identityId": "P-06468",
+      "squadNumber": 17,
+      "name": "Giovanny Espinoza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ecuador-2006-n_icer_reasco",
+      "identityId": "P-61229",
+      "squadNumber": 18,
+      "name": "Néicer Reasco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2006-luis_saritama",
+      "identityId": "P-05227",
+      "squadNumber": 19,
+      "name": "Luis Saritama",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2006-edwin_tenorio",
+      "identityId": "P-30306",
+      "squadNumber": 20,
+      "name": "Edwin Tenorio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ecuador-2006-carlos_tenorio",
+      "identityId": "P-86943",
+      "squadNumber": 21,
+      "name": "Carlos Tenorio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ecuador-2006-dami_n_lanza",
+      "identityId": "P-27162",
+      "squadNumber": 22,
+      "name": "Damián Lanza",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2006-christian_ben_tez",
+      "identityId": "P-63618",
+      "squadNumber": 23,
+      "name": "Christian Benítez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ecuador (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "teamName": "Hungary",
+  "teamCode": "HUN",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "hungary-1986-p_ter_disztl",
+      "identityId": "P-71520",
+      "squadNumber": 1,
+      "name": "Péter Disztl",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1986-s_ndor_sallai",
+      "identityId": "P-65801",
+      "squadNumber": 2,
+      "name": "Sándor Sallai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1986-antal_r_th",
+      "identityId": "P-77817",
+      "squadNumber": 3,
+      "name": "Antal Róth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1986-j_zsef_varga",
+      "identityId": "P-51494",
+      "squadNumber": 4,
+      "name": "József Varga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1986-j_zsef_kardos",
+      "identityId": "P-04063",
+      "squadNumber": 5,
+      "name": "József Kardos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1986-imre_garaba",
+      "identityId": "P-45821",
+      "squadNumber": 6,
+      "name": "Imre Garaba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1986-j_zsef_kiprich",
+      "identityId": "P-67142",
+      "squadNumber": 7,
+      "name": "József Kiprich",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1986-antal_nagy",
+      "identityId": "P-99704",
+      "squadNumber": 8,
+      "name": "Antal Nagy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1986-l_szl_dajka",
+      "identityId": "P-52793",
+      "squadNumber": 9,
+      "name": "László Dajka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1986-lajos_d_t_ri",
+      "identityId": "P-88653",
+      "squadNumber": 10,
+      "name": "Lajos Détári",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1986-m_rton_esterh_zy",
+      "identityId": "P-06745",
+      "squadNumber": 11,
+      "name": "Márton Esterházy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1986-j_zsef_csuhay",
+      "identityId": "P-00795",
+      "squadNumber": 12,
+      "name": "József Csuhay",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1986-l_szl_disztl",
+      "identityId": "P-56500",
+      "squadNumber": 13,
+      "name": "László Disztl",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1986-zolt_n_p_ter",
+      "identityId": "P-15144",
+      "squadNumber": 14,
+      "name": "Zoltán Péter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1986-p_ter_hannich",
+      "identityId": "P-26969",
+      "squadNumber": 15,
+      "name": "Péter Hannich",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1986-j_zsef_nagy",
+      "identityId": "P-32610",
+      "squadNumber": 16,
+      "name": "József Nagy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1986-gy_z_burcsa",
+      "identityId": "P-13416",
+      "squadNumber": 17,
+      "name": "Győző Burcsa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1986-j_zsef_szendrei",
+      "identityId": "P-21159",
+      "squadNumber": 18,
+      "name": "József Szendrei",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1986-gy_rgy_bogn_r",
+      "identityId": "P-48639",
+      "squadNumber": 19,
+      "name": "György Bognár",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1986-k_lm_n_kov_cs",
+      "identityId": "P-97362",
+      "squadNumber": 20,
+      "name": "Kálmán Kovács",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1986-gyula_hajsz_n",
+      "identityId": "P-81476",
+      "squadNumber": 21,
+      "name": "Gyula Hajszán",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1986-j_zsef_andrusch",
+      "identityId": "P-12206",
+      "squadNumber": 22,
+      "name": "József Andrusch",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    }
+  ]
+}

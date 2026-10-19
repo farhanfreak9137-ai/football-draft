@@ -1,0 +1,494 @@
+{
+  "teamName": "Austria",
+  "teamCode": "AUT",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "austria-1958-rudolf_szanwald",
+      "identityId": "P-82202",
+      "squadNumber": 1,
+      "name": "Rudolf Szanwald",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-paul_halla",
+      "identityId": "P-11040",
+      "squadNumber": 2,
+      "name": "Paul Halla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-ernst_happel",
+      "identityId": "P-34192",
+      "squadNumber": 3,
+      "name": "Ernst Happel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-franz_swoboda",
+      "identityId": "P-03503",
+      "squadNumber": 4,
+      "name": "Franz Swoboda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-gerhard_hanappi",
+      "identityId": "P-98569",
+      "squadNumber": 5,
+      "name": "Gerhard Hanappi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-karl_koller",
+      "identityId": "P-32967",
+      "squadNumber": 6,
+      "name": "Karl Koller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1958-walter_horak",
+      "identityId": "P-57255",
+      "squadNumber": 7,
+      "name": "Walter Horak",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-paul_kozlicek",
+      "identityId": "P-05242",
+      "squadNumber": 8,
+      "name": "Paul Kozlicek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-hans_buzek",
+      "identityId": "P-79204",
+      "squadNumber": 9,
+      "name": "Hans Buzek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-alfred_k_rner",
+      "identityId": "P-26700",
+      "squadNumber": 10,
+      "name": "Alfred Körner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1958-helmut_senekowitsch",
+      "identityId": "P-04538",
+      "squadNumber": 11,
+      "name": "Helmut Senekowitsch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Austria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1958-kurt_schmied",
+      "identityId": "P-69826",
+      "squadNumber": 12,
+      "name": "Kurt Schmied",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-walter_schleger",
+      "identityId": "P-28341",
+      "squadNumber": 13,
+      "name": "Walter Schleger",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-josef_hamerl",
+      "identityId": "P-81537",
+      "squadNumber": 14,
+      "name": "Josef Hamerl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-walter_kollmann",
+      "identityId": "P-66263",
+      "squadNumber": 15,
+      "name": "Walter Kollmann",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-karl_stotz",
+      "identityId": "P-49790",
+      "squadNumber": 16,
+      "name": "Karl Stotz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-ernst_kozlicek",
+      "identityId": "P-54866",
+      "squadNumber": 17,
+      "name": "Ernst Kozlicek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-leopold_barschandt",
+      "identityId": "P-75651",
+      "squadNumber": 18,
+      "name": "Leopold Barschandt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-robert_dienst",
+      "identityId": "P-80274",
+      "squadNumber": 19,
+      "name": "Robert Dienst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-herbert_ninaus",
+      "identityId": "P-09741",
+      "squadNumber": 20,
+      "name": "Herbert Ninaus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-ignaz_puschnik",
+      "identityId": "P-51811",
+      "squadNumber": 21,
+      "name": "Ignaz Puschnik",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1958-bruno_engelmeier",
+      "identityId": "P-69227",
+      "squadNumber": 22,
+      "name": "Bruno Engelmeier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Austria (Group Stage). Squad reserve member."
+    }
+  ]
+}

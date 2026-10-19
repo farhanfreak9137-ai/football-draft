@@ -1,0 +1,497 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "belgium-1982-jean-marie_pfaff",
+      "identityId": "P-84816",
+      "squadNumber": 1,
+      "name": "Jean-Marie Pfaff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1982-eric_gerets",
+      "identityId": "P-73390",
+      "squadNumber": 2,
+      "name": "Eric Gerets",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1982-luc_millecamps",
+      "identityId": "P-07663",
+      "squadNumber": 3,
+      "name": "Luc Millecamps",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-1982-walter_meeuws",
+      "identityId": "P-86900",
+      "squadNumber": 4,
+      "name": "Walter Meeuws",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1982-michel_renquin",
+      "identityId": "P-88903",
+      "squadNumber": 5,
+      "name": "Michel Renquin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1982-franky_vercauteren",
+      "identityId": "P-26401",
+      "squadNumber": 6,
+      "name": "Franky Vercauteren",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-1982-jos_daerden",
+      "identityId": "P-53789",
+      "squadNumber": 7,
+      "name": "Jos Daerden",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1982-wilfried_van_moer",
+      "identityId": "P-47829",
+      "squadNumber": 8,
+      "name": "Wilfried Van Moer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1982-erwin_vandenbergh",
+      "identityId": "P-06736",
+      "squadNumber": 9,
+      "name": "Erwin Vandenbergh",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1982-ludo_coeck",
+      "identityId": "P-94036",
+      "squadNumber": 10,
+      "name": "Ludo Coeck",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1982-jan_ceulemans",
+      "identityId": "P-25456",
+      "squadNumber": 11,
+      "name": "Jan Ceulemans",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-1982-theo_custers",
+      "identityId": "P-77440",
+      "squadNumber": 12,
+      "name": "Theo Custers",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1982-fran_ois_van_der_elst",
+      "identityId": "P-43941",
+      "squadNumber": 13,
+      "name": "François Van Der Elst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Belgium (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "belgium-1982-marc_baecke",
+      "identityId": "P-53153",
+      "squadNumber": 14,
+      "name": "Marc Baecke",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1982-maurits_de_schrijver",
+      "identityId": "P-79995",
+      "squadNumber": 15,
+      "name": "Maurits De Schrijver",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1982-gerard_plessers",
+      "identityId": "P-47416",
+      "squadNumber": 16,
+      "name": "Gerard Plessers",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1982-ren_verheyen",
+      "identityId": "P-17433",
+      "squadNumber": 17,
+      "name": "René Verheyen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1982-raymond_mommens",
+      "identityId": "P-87975",
+      "squadNumber": 18,
+      "name": "Raymond Mommens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1982-marc_millecamps",
+      "identityId": "P-52742",
+      "squadNumber": 19,
+      "name": "Marc Millecamps",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Belgium (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-1982-guy_vandersmissen",
+      "identityId": "P-07477",
+      "squadNumber": 20,
+      "name": "Guy Vandersmissen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1982-alexandre_czerniatynski",
+      "identityId": "P-88070",
+      "squadNumber": 21,
+      "name": "Alexandre Czerniatynski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1982-jacky_munaron",
+      "identityId": "P-38187",
+      "squadNumber": 22,
+      "name": "Jacky Munaron",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

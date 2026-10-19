@@ -1,0 +1,583 @@
+{
+  "teamName": "Cameroon",
+  "teamCode": "CMR",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "cameroon-2022-simon_ngapandouetnbu",
+      "identityId": "P-22927",
+      "squadNumber": 1,
+      "name": "Simon Ngapandouetnbu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2022-jerome_ngom_mbekeli",
+      "identityId": "P-32773",
+      "squadNumber": 2,
+      "name": "Jerome Ngom Mbekeli",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-2022-nicolas_nkoulou",
+      "identityId": "P-93209",
+      "squadNumber": 3,
+      "name": "Nicolas Nkoulou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2022-christopher_wooh",
+      "identityId": "P-74894",
+      "squadNumber": 4,
+      "name": "Christopher Wooh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2022-ga_l_ondoua",
+      "identityId": "P-36707",
+      "squadNumber": 5,
+      "name": "Gaël Ondoua",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "cameroon-2022-moumi_ngamaleu",
+      "identityId": "P-27913",
+      "squadNumber": 6,
+      "name": "Moumi Ngamaleu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2022-georges-k_vin_nkoudou",
+      "identityId": "P-68058",
+      "squadNumber": 7,
+      "name": "Georges-Kévin Nkoudou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "cameroon-2022-andr_-frank_zambo_anguissa",
+      "identityId": "P-38355",
+      "squadNumber": 8,
+      "name": "André-Frank Zambo Anguissa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2022-jean-pierre_nsame",
+      "identityId": "P-39239",
+      "squadNumber": 9,
+      "name": "Jean-Pierre Nsame",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2022-vincent_aboubakar",
+      "identityId": "P-53452",
+      "squadNumber": 10,
+      "name": "Vincent Aboubakar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "cameroon-2022-christian_bassogog",
+      "identityId": "P-51549",
+      "squadNumber": 11,
+      "name": "Christian Bassogog",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-2022-karl_toko_ekambi",
+      "identityId": "P-20259",
+      "squadNumber": 12,
+      "name": "Karl Toko Ekambi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2022-eric_maxim_choupo-moting",
+      "identityId": "P-06117",
+      "squadNumber": 13,
+      "name": "Eric Maxim Choupo-Moting",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-2022-samuel_gouet",
+      "identityId": "P-63923",
+      "squadNumber": 14,
+      "name": "Samuel Gouet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2022-pierre_kunde",
+      "identityId": "P-29115",
+      "squadNumber": 15,
+      "name": "Pierre Kunde",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2022-devis_epassy",
+      "identityId": "P-70357",
+      "squadNumber": 16,
+      "name": "Devis Epassy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2022-olivier_mbaizo",
+      "identityId": "P-80930",
+      "squadNumber": 17,
+      "name": "Olivier Mbaizo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2022-martin_hongla",
+      "identityId": "P-34633",
+      "squadNumber": 18,
+      "name": "Martin Hongla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2022-collins_fai",
+      "identityId": "P-47677",
+      "squadNumber": 19,
+      "name": "Collins Fai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2022-bryan_mbeumo",
+      "identityId": "P-39394",
+      "squadNumber": 20,
+      "name": "Bryan Mbeumo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2022-jean-charles_castelletto",
+      "identityId": "P-59303",
+      "squadNumber": 21,
+      "name": "Jean-Charles Castelletto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-2022-olivier_ntcham",
+      "identityId": "P-62618",
+      "squadNumber": 22,
+      "name": "Olivier Ntcham",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-2022-andr_onana",
+      "identityId": "P-67127",
+      "squadNumber": 23,
+      "name": "André Onana",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2022-enzo_ebosse",
+      "identityId": "P-02759",
+      "squadNumber": 24,
+      "name": "Enzo Ebosse",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2022-nouhou_tolo",
+      "identityId": "P-55367",
+      "squadNumber": 25,
+      "name": "Nouhou Tolo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2022-souaibou_marou",
+      "identityId": "P-25904",
+      "squadNumber": 26,
+      "name": "Souaibou Marou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    }
+  ]
+}

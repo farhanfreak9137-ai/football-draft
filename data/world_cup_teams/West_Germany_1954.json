@@ -1,0 +1,508 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "west_germany-1954-toni_turek",
+      "identityId": "P-37943",
+      "squadNumber": 1,
+      "name": "Toni Turek",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-fritz_laband",
+      "identityId": "P-39583",
+      "squadNumber": 2,
+      "name": "Fritz Laband",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-werner_kohlmeyer",
+      "identityId": "P-51214",
+      "squadNumber": 3,
+      "name": "Werner Kohlmeyer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-hans_bauer",
+      "identityId": "P-61853",
+      "squadNumber": 4,
+      "name": "Hans Bauer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-herbert_erhardt",
+      "identityId": "P-34121",
+      "squadNumber": 5,
+      "name": "Herbert Erhardt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-horst_eckel",
+      "identityId": "P-61483",
+      "squadNumber": 6,
+      "name": "Horst Eckel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-josef_posipal",
+      "identityId": "P-68778",
+      "squadNumber": 7,
+      "name": "Josef Posipal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-karl_mai",
+      "identityId": "P-53545",
+      "squadNumber": 8,
+      "name": "Karl Mai",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-paul_mebus",
+      "identityId": "P-09250",
+      "squadNumber": 9,
+      "name": "Paul Mebus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-werner_liebrich",
+      "identityId": "P-85009",
+      "squadNumber": 10,
+      "name": "Werner Liebrich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-karl-heinz_metzner",
+      "identityId": "P-39750",
+      "squadNumber": 11,
+      "name": "Karl-Heinz Metzner",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1954-helmut_rahn",
+      "identityId": "P-08136",
+      "squadNumber": 12,
+      "name": "Helmut Rahn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Final Hero"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1954 World Cup Final Winning Hero (Miracle of Bern)",
+      "ratingRationale": "Rated 96 OVR based on 1954 World Cup performance for West Germany (Champions). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Final Hero."
+    },
+    {
+      "id": "west_germany-1954-max_morlock",
+      "identityId": "P-05766",
+      "squadNumber": 13,
+      "name": "Max Morlock",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1954 World Cup Champion Forward (6 Goals)",
+      "ratingRationale": "Rated 98 OVR based on 1954 World Cup performance for West Germany (Champions). Tournament standout and starting pillar. Scored 6 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "west_germany-1954-bernhard_klodt",
+      "identityId": "P-33698",
+      "squadNumber": 14,
+      "name": "Bernhard Klodt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1954-ottmar_walter",
+      "identityId": "P-71954",
+      "squadNumber": 15,
+      "name": "Ottmar Walter",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1954 World Cup performance for West Germany (Champions). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "west_germany-1954-fritz_walter",
+      "identityId": "P-09973",
+      "squadNumber": 16,
+      "name": "Fritz Walter",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Champion Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1954 World Cup Champion Captain",
+      "ratingRationale": "Rated 96 OVR based on 1954 World Cup performance for West Germany (Champions). Tournament standout and starting pillar. Scored 3 goal(s). Honors: Champion Captain."
+    },
+    {
+      "id": "west_germany-1954-richard_herrmann",
+      "identityId": "P-58241",
+      "squadNumber": 17,
+      "name": "Richard Herrmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1954-ulrich_biesinger",
+      "identityId": "P-10374",
+      "squadNumber": 18,
+      "name": "Ulrich Biesinger",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1954-alfred_pfaff",
+      "identityId": "P-57739",
+      "squadNumber": 19,
+      "name": "Alfred Pfaff",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for West Germany (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1954-hans_sch_fer",
+      "identityId": "P-63184",
+      "squadNumber": 20,
+      "name": "Hans Schäfer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1954 World Cup performance for West Germany (Champions). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "west_germany-1954-heinz_kubsch",
+      "identityId": "P-80280",
+      "squadNumber": 21,
+      "name": "Heinz Kubsch",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1954-heinz_kwiatkowski",
+      "identityId": "P-15476",
+      "squadNumber": 22,
+      "name": "Heinz Kwiatkowski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for West Germany (Champions). Squad reserve member."
+    }
+  ]
+}

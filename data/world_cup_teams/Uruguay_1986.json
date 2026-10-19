@@ -1,0 +1,494 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "uruguay-1986-rodolfo_rodr_guez",
+      "identityId": "P-73100",
+      "squadNumber": 1,
+      "name": "Rodolfo Rodríguez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1986-nelson_guti_rrez",
+      "identityId": "P-86817",
+      "squadNumber": 2,
+      "name": "Nelson Gutiérrez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-1986-eduardo_mario_acevedo",
+      "identityId": "P-48167",
+      "squadNumber": 3,
+      "name": "Eduardo Mario Acevedo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-1986-v_ctor_diogo",
+      "identityId": "P-29429",
+      "squadNumber": 4,
+      "name": "Víctor Diogo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1986-miguel_bossio",
+      "identityId": "P-89543",
+      "squadNumber": 5,
+      "name": "Miguel Bossio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1986-jos_batista",
+      "identityId": "P-57952",
+      "squadNumber": 6,
+      "name": "José Batista",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1986-antonio_alzamendi",
+      "identityId": "P-68463",
+      "squadNumber": 7,
+      "name": "Antonio Alzamendi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1986-jorge_barrios",
+      "identityId": "P-38492",
+      "squadNumber": 8,
+      "name": "Jorge Barrios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1986-jorge_da_silva",
+      "identityId": "P-94995",
+      "squadNumber": 9,
+      "name": "Jorge da Silva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1986-enzo_francescoli",
+      "identityId": "P-36582",
+      "squadNumber": 10,
+      "name": "Enzo Francescoli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1986-sergio_sant_n",
+      "identityId": "P-37351",
+      "squadNumber": 11,
+      "name": "Sergio Santín",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-1986-fernando_lvez",
+      "identityId": "P-22385",
+      "squadNumber": 12,
+      "name": "Fernando Álvez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-1986-c_sar_vega",
+      "identityId": "P-77490",
+      "squadNumber": 13,
+      "name": "César Vega",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1986-dar_o_pereyra",
+      "identityId": "P-03963",
+      "squadNumber": 14,
+      "name": "Darío Pereyra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1986-eliseo_rivero",
+      "identityId": "P-72094",
+      "squadNumber": 15,
+      "name": "Eliseo Rivero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1986-mario_saralegui",
+      "identityId": "P-66014",
+      "squadNumber": 16,
+      "name": "Mario Saralegui",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1986-jos_zalazar",
+      "identityId": "P-19175",
+      "squadNumber": 17,
+      "name": "José Zalazar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-1986-rub_n_paz",
+      "identityId": "P-83805",
+      "squadNumber": 18,
+      "name": "Rubén Paz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-1986-venancio_ramos",
+      "identityId": "P-97584",
+      "squadNumber": 19,
+      "name": "Venancio Ramos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1986-carlos_aguilera",
+      "identityId": "P-57189",
+      "squadNumber": 20,
+      "name": "Carlos Aguilera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1986-wilmar_cabrera",
+      "identityId": "P-18562",
+      "squadNumber": 21,
+      "name": "Wilmar Cabrera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1986-celso_otero",
+      "identityId": "P-00489",
+      "squadNumber": 22,
+      "name": "Celso Otero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    }
+  ]
+}

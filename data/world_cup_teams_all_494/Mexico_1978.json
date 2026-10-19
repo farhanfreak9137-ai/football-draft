@@ -1,0 +1,497 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "mexico-1978-jos_pilar_reyes",
+      "identityId": "P-07985",
+      "squadNumber": 1,
+      "name": "José Pilar Reyes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1978-manuel_n_jera",
+      "identityId": "P-86324",
+      "squadNumber": 2,
+      "name": "Manuel Nájera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1978-alfredo_tena",
+      "identityId": "P-04060",
+      "squadNumber": 3,
+      "name": "Alfredo Tena",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1978-eduardo_ramos",
+      "identityId": "P-04466",
+      "squadNumber": 4,
+      "name": "Eduardo Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1978-arturo_v_zquez_ayala",
+      "identityId": "P-84173",
+      "squadNumber": 5,
+      "name": "Arturo Vázquez Ayala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Mexico (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1978-guillermo_mendiz_bal",
+      "identityId": "P-55869",
+      "squadNumber": 6,
+      "name": "Guillermo Mendizábal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1978-antonio_de_la_torre",
+      "identityId": "P-08713",
+      "squadNumber": 7,
+      "name": "Antonio de la Torre",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Mexico (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1978-enrique_l_pez_zarza",
+      "identityId": "P-03980",
+      "squadNumber": 8,
+      "name": "Enrique López Zarza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-v_ctor_rangel",
+      "identityId": "P-64532",
+      "squadNumber": 9,
+      "name": "Víctor Rangel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Mexico (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1978-crist_bal_ortega",
+      "identityId": "P-10248",
+      "squadNumber": 10,
+      "name": "Cristóbal Ortega",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-hugo_s_nchez",
+      "identityId": "P-26316",
+      "squadNumber": 11,
+      "name": "Hugo Sánchez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Mexico (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1978-jes_s_mart_nez",
+      "identityId": "P-64464",
+      "squadNumber": 12,
+      "name": "Jesús Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1978-rigoberto_cisneros",
+      "identityId": "P-67584",
+      "squadNumber": 13,
+      "name": "Rigoberto Cisneros",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-carlos_g_mez",
+      "identityId": "P-46352",
+      "squadNumber": 14,
+      "name": "Carlos Gómez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-ignacio_flores_ocaranza",
+      "identityId": "P-42842",
+      "squadNumber": 15,
+      "name": "Ignacio Flores Ocaranza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-javier_c_rdenas",
+      "identityId": "P-25743",
+      "squadNumber": 16,
+      "name": "Javier Cárdenas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-leonardo_cu_llar",
+      "identityId": "P-69029",
+      "squadNumber": 17,
+      "name": "Leonardo Cuéllar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Mexico (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1978-gerardo_lugo",
+      "identityId": "P-21068",
+      "squadNumber": 18,
+      "name": "Gerardo Lugo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Mexico (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "mexico-1978-hugo_ren_rodr_guez",
+      "identityId": "P-49253",
+      "squadNumber": 19,
+      "name": "Hugo René Rodríguez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1978-mario_medina",
+      "identityId": "P-19851",
+      "squadNumber": 20,
+      "name": "Mario Medina",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1978-ra_l_isiordia",
+      "identityId": "P-52419",
+      "squadNumber": 21,
+      "name": "Raúl Isiordia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1978-pedro_soto",
+      "identityId": "P-50233",
+      "squadNumber": 22,
+      "name": "Pedro Soto",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Mexico (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

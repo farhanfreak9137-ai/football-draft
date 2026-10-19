@@ -1,0 +1,582 @@
+{
+  "teamName": "Wales",
+  "teamCode": "WAL",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "wales-2022-wayne_hennessey",
+      "identityId": "P-46457",
+      "squadNumber": 1,
+      "name": "Wayne Hennessey",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "wales-2022-chris_gunter",
+      "identityId": "P-92343",
+      "squadNumber": 2,
+      "name": "Chris Gunter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-neco_williams",
+      "identityId": "P-87190",
+      "squadNumber": 3,
+      "name": "Neco Williams",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "wales-2022-ben_davies",
+      "identityId": "P-41198",
+      "squadNumber": 4,
+      "name": "Ben Davies",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "wales-2022-chris_mepham",
+      "identityId": "P-74888",
+      "squadNumber": 5,
+      "name": "Chris Mepham",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "wales-2022-joe_rodon",
+      "identityId": "P-38105",
+      "squadNumber": 6,
+      "name": "Joe Rodon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "wales-2022-joe_allen",
+      "identityId": "P-92761",
+      "squadNumber": 7,
+      "name": "Joe Allen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "wales-2022-harry_wilson",
+      "identityId": "P-94779",
+      "squadNumber": 8,
+      "name": "Harry Wilson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "wales-2022-brennan_johnson",
+      "identityId": "P-57098",
+      "squadNumber": 9,
+      "name": "Brennan Johnson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Wales (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "wales-2022-aaron_ramsey",
+      "identityId": "P-86951",
+      "squadNumber": 10,
+      "name": "Aaron Ramsey",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "wales-2022-gareth_bale",
+      "identityId": "P-63927",
+      "squadNumber": 11,
+      "name": "Gareth Bale",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "wales-2022-danny_ward",
+      "identityId": "P-31718",
+      "squadNumber": 12,
+      "name": "Danny Ward",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "wales-2022-kieffer_moore",
+      "identityId": "P-10657",
+      "squadNumber": 13,
+      "name": "Kieffer Moore",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "wales-2022-connor_roberts",
+      "identityId": "P-56503",
+      "squadNumber": 14,
+      "name": "Connor Roberts",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "wales-2022-ethan_ampadu",
+      "identityId": "P-50398",
+      "squadNumber": 15,
+      "name": "Ethan Ampadu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Wales (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "wales-2022-joe_morrell",
+      "identityId": "P-69082",
+      "squadNumber": 16,
+      "name": "Joe Morrell",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Wales (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "wales-2022-tom_lockyer",
+      "identityId": "P-34567",
+      "squadNumber": 17,
+      "name": "Tom Lockyer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-jonny_williams",
+      "identityId": "P-56664",
+      "squadNumber": 18,
+      "name": "Jonny Williams",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-mark_harris",
+      "identityId": "P-37173",
+      "squadNumber": 19,
+      "name": "Mark Harris",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-daniel_james",
+      "identityId": "P-74707",
+      "squadNumber": 20,
+      "name": "Daniel James",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Wales (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "wales-2022-adam_davies",
+      "identityId": "P-92482",
+      "squadNumber": 21,
+      "name": "Adam Davies",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-sorba_thomas",
+      "identityId": "P-20564",
+      "squadNumber": 22,
+      "name": "Sorba Thomas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Wales (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "wales-2022-dylan_levitt",
+      "identityId": "P-24982",
+      "squadNumber": 23,
+      "name": "Dylan Levitt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-ben_cabango",
+      "identityId": "P-02030",
+      "squadNumber": 24,
+      "name": "Ben Cabango",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "wales-2022-rubin_colwill",
+      "identityId": "P-07137",
+      "squadNumber": 25,
+      "name": "Rubin Colwill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Wales (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "wales-2022-matthew_smith",
+      "identityId": "P-84269",
+      "squadNumber": 26,
+      "name": "Matthew Smith",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Wales (Group Stage). Squad reserve member."
+    }
+  ]
+}

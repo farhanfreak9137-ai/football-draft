@@ -1,0 +1,495 @@
+{
+  "teamName": "Paraguay",
+  "teamCode": "PRY",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "paraguay-1998-jos_luis_chilavert",
+      "identityId": "P-36426",
+      "squadNumber": 1,
+      "name": "José Luis Chilavert",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1998-francisco_arce",
+      "identityId": "P-76678",
+      "squadNumber": 2,
+      "name": "Francisco Arce",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-1998-catalino_rivarola",
+      "identityId": "P-14942",
+      "squadNumber": 3,
+      "name": "Catalino Rivarola",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1998-carlos_gamarra",
+      "identityId": "P-19241",
+      "squadNumber": 4,
+      "name": "Carlos Gamarra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1998-celso_ayala",
+      "identityId": "P-34957",
+      "squadNumber": 5,
+      "name": "Celso Ayala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "paraguay-1998-edgar_aguilera",
+      "identityId": "P-11212",
+      "squadNumber": 6,
+      "name": "Edgar Aguilera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1998-julio_c_sar_yegros",
+      "identityId": "P-74664",
+      "squadNumber": 7,
+      "name": "Julio César Yegros",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "paraguay-1998-ar_stides_rojas",
+      "identityId": "P-03217",
+      "squadNumber": 8,
+      "name": "Arístides Rojas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-1998-jos_cardozo",
+      "identityId": "P-98051",
+      "squadNumber": 9,
+      "name": "José Cardozo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "paraguay-1998-roberto_acu_a",
+      "identityId": "P-17884",
+      "squadNumber": 10,
+      "name": "Roberto Acuña",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-1998-pedro_sarabia",
+      "identityId": "P-50567",
+      "squadNumber": 11,
+      "name": "Pedro Sarabia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1998-danilo_aceval",
+      "identityId": "P-75402",
+      "squadNumber": 12,
+      "name": "Danilo Aceval",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1998-carlos_paredes",
+      "identityId": "P-42797",
+      "squadNumber": 13,
+      "name": "Carlos Paredes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-1998-ricardo_rojas",
+      "identityId": "P-08196",
+      "squadNumber": 14,
+      "name": "Ricardo Rojas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1998-miguel_ngel_ben_tez",
+      "identityId": "P-40108",
+      "squadNumber": 15,
+      "name": "Miguel Ángel Benítez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "paraguay-1998-julio_c_sar_enciso",
+      "identityId": "P-52469",
+      "squadNumber": 16,
+      "name": "Julio César Enciso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1998-hugo_brizuela",
+      "identityId": "P-73933",
+      "squadNumber": 17,
+      "name": "Hugo Brizuela",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-1998-c_sar_ram_rez",
+      "identityId": "P-34676",
+      "squadNumber": 18,
+      "name": "César Ramírez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "paraguay-1998-carlos_morales",
+      "identityId": "P-22146",
+      "squadNumber": 19,
+      "name": "Carlos Morales",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-1998-denis_caniza",
+      "identityId": "P-82458",
+      "squadNumber": 20,
+      "name": "Denis Caniza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "paraguay-1998-jorge_luis_campos",
+      "identityId": "P-78557",
+      "squadNumber": 21,
+      "name": "Jorge Luis Campos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-1998-rub_n_ruiz_d_az",
+      "identityId": "P-83261",
+      "squadNumber": 22,
+      "name": "Rubén Ruiz Díaz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    }
+  ]
+}

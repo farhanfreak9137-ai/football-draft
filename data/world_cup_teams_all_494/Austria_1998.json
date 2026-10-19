@@ -1,0 +1,493 @@
+{
+  "teamName": "Austria",
+  "teamCode": "AUT",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "austria-1998-michael_konsel",
+      "identityId": "P-80487",
+      "squadNumber": 1,
+      "name": "Michael Konsel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-markus_schopp",
+      "identityId": "P-78149",
+      "squadNumber": 2,
+      "name": "Markus Schopp",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Austria (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "austria-1998-peter_sch_ttel",
+      "identityId": "P-77198",
+      "squadNumber": 3,
+      "name": "Peter Schöttel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-anton_pfeffer",
+      "identityId": "P-46006",
+      "squadNumber": 4,
+      "name": "Anton Pfeffer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-wolfgang_feiersinger",
+      "identityId": "P-77565",
+      "squadNumber": 5,
+      "name": "Wolfgang Feiersinger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-walter_kogler",
+      "identityId": "P-10661",
+      "squadNumber": 6,
+      "name": "Walter Kogler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1998-mario_haas",
+      "identityId": "P-29966",
+      "squadNumber": 7,
+      "name": "Mario Haas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Austria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "austria-1998-heimo_pfeifenberger",
+      "identityId": "P-67358",
+      "squadNumber": 8,
+      "name": "Heimo Pfeifenberger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-ivica_vasti_",
+      "identityId": "P-28521",
+      "squadNumber": 9,
+      "name": "Ivica Vastić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Austria (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1998-andi_herzog",
+      "identityId": "P-46897",
+      "squadNumber": 10,
+      "name": "Andi Herzog",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Austria (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1998-martin_amerhauser",
+      "identityId": "P-31537",
+      "squadNumber": 11,
+      "name": "Martin Amerhauser",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1998-martin_hiden",
+      "identityId": "P-61823",
+      "squadNumber": 12,
+      "name": "Martin Hiden",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1998-harald_cerny",
+      "identityId": "P-99116",
+      "squadNumber": 13,
+      "name": "Harald Cerny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Austria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1998-hannes_reinmayr",
+      "identityId": "P-66639",
+      "squadNumber": 14,
+      "name": "Hannes Reinmayr",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Austria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "austria-1998-arnold_wetl",
+      "identityId": "P-09345",
+      "squadNumber": 15,
+      "name": "Arnold Wetl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-franz_wohlfahrt",
+      "identityId": "P-18786",
+      "squadNumber": 16,
+      "name": "Franz Wohlfahrt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1998-roman_m_hlich",
+      "identityId": "P-87315",
+      "squadNumber": 17,
+      "name": "Roman Mählich",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "austria-1998-peter_st_ger",
+      "identityId": "P-63420",
+      "squadNumber": 18,
+      "name": "Peter Stöger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Austria (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "austria-1998-toni_polster",
+      "identityId": "P-16938",
+      "squadNumber": 19,
+      "name": "Toni Polster",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1998-andreas_heraf",
+      "identityId": "P-62915",
+      "squadNumber": 20,
+      "name": "Andreas Heraf",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1998-wolfgang_knaller",
+      "identityId": "P-68074",
+      "squadNumber": 21,
+      "name": "Wolfgang Knaller",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Austria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "austria-1998-dietmar_k_hbauer",
+      "identityId": "P-37008",
+      "squadNumber": 22,
+      "name": "Dietmar Kühbauer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Austria (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "belgium-2014-thibaut_courtois",
+      "identityId": "P-09658",
+      "squadNumber": 1,
+      "name": "Thibaut Courtois",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-2014-toby_alderweireld",
+      "identityId": "P-70547",
+      "squadNumber": 2,
+      "name": "Toby Alderweireld",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2014-thomas_vermaelen",
+      "identityId": "P-92866",
+      "squadNumber": 3,
+      "name": "Thomas Vermaelen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2014-vincent_kompany",
+      "identityId": "P-95269",
+      "squadNumber": 4,
+      "name": "Vincent Kompany",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2014-jan_vertonghen",
+      "identityId": "P-64049",
+      "squadNumber": 5,
+      "name": "Jan Vertonghen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2014-axel_witsel",
+      "identityId": "P-53048",
+      "squadNumber": 6,
+      "name": "Axel Witsel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2014-kevin_de_bruyne",
+      "identityId": "P-48955",
+      "squadNumber": 7,
+      "name": "Kevin De Bruyne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2014-marouane_fellaini",
+      "identityId": "P-63363",
+      "squadNumber": 8,
+      "name": "Marouane Fellaini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2014-romelu_lukaku",
+      "identityId": "P-72637",
+      "squadNumber": 9,
+      "name": "Romelu Lukaku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2014-eden_hazard",
+      "identityId": "P-72011",
+      "squadNumber": 10,
+      "name": "Eden Hazard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2014-kevin_mirallas",
+      "identityId": "P-25209",
+      "squadNumber": 11,
+      "name": "Kevin Mirallas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2014-simon_mignolet",
+      "identityId": "P-10313",
+      "squadNumber": 12,
+      "name": "Simon Mignolet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "belgium-2014-sammy_bossut",
+      "identityId": "P-55762",
+      "squadNumber": 13,
+      "name": "Sammy Bossut",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "belgium-2014-dries_mertens",
+      "identityId": "P-84852",
+      "squadNumber": 14,
+      "name": "Dries Mertens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2014-daniel_van_buyten",
+      "identityId": "P-21070",
+      "squadNumber": 15,
+      "name": "Daniel Van Buyten",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-2014-steven_defour",
+      "identityId": "P-03735",
+      "squadNumber": 16,
+      "name": "Steven Defour",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2014-divock_origi",
+      "identityId": "P-77619",
+      "squadNumber": 17,
+      "name": "Divock Origi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2014-nicolas_lombaerts",
+      "identityId": "P-35334",
+      "squadNumber": 18,
+      "name": "Nicolas Lombaerts",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2014-mousa_demb_l_",
+      "identityId": "P-12533",
+      "squadNumber": 19,
+      "name": "Mousa Dembélé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2014-adnan_januzaj",
+      "identityId": "P-15896",
+      "squadNumber": 20,
+      "name": "Adnan Januzaj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2014-anthony_vanden_borre",
+      "identityId": "P-17974",
+      "squadNumber": 21,
+      "name": "Anthony Vanden Borre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2014-nacer_chadli",
+      "identityId": "P-69919",
+      "squadNumber": 22,
+      "name": "Nacer Chadli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2014-laurent_ciman",
+      "identityId": "P-33520",
+      "squadNumber": 23,
+      "name": "Laurent Ciman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Belgium (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

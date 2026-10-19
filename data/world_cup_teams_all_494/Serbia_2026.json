@@ -1,0 +1,506 @@
+{
+  "teamName": "Serbia",
+  "teamCode": "SER",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "3-4-1-2",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "serbia-2026-du_an_vlahovi_",
+      "identityId": "identity-2026-du_an_vlahovi_",
+      "squadNumber": 1,
+      "name": "Dušan Vlahović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Serbia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "serbia-2026-aleksandar_mitrovi_",
+      "identityId": "identity-2026-aleksandar_mitrovi_",
+      "squadNumber": 2,
+      "name": "Aleksandar Mitrović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Serbia. Regular starting lineup selection."
+    },
+    {
+      "id": "serbia-2026-sergej_milinkovi_-savi_",
+      "identityId": "identity-2026-sergej_milinkovi_-savi_",
+      "squadNumber": 3,
+      "name": "Sergej Milinković-Savić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Serbia. Regular starting lineup selection."
+    },
+    {
+      "id": "serbia-2026-strahinja_pavlovi_",
+      "identityId": "identity-2026-strahinja_pavlovi_",
+      "squadNumber": 4,
+      "name": "Strahinja Pavlović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Serbia. Regular starting lineup selection."
+    },
+    {
+      "id": "serbia-2026-lazar_samard_i_",
+      "identityId": "identity-2026-lazar_samard_i_",
+      "squadNumber": 5,
+      "name": "Lazar Samardžić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Serbia. Regular starting lineup selection."
+    },
+    {
+      "id": "serbia-2026-predrag_rajkovi_",
+      "identityId": "identity-2026-predrag_rajkovi_",
+      "squadNumber": 6,
+      "name": "Predrag Rajković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Serbia. Regular starting lineup selection."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_7",
+      "identityId": "identity-2026-serbia_squad_member_7",
+      "squadNumber": 7,
+      "name": "Serbia Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_8",
+      "identityId": "identity-2026-serbia_squad_member_8",
+      "squadNumber": 8,
+      "name": "Serbia Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_9",
+      "identityId": "identity-2026-serbia_squad_member_9",
+      "squadNumber": 9,
+      "name": "Serbia Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_10",
+      "identityId": "identity-2026-serbia_squad_member_10",
+      "squadNumber": 10,
+      "name": "Serbia Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_11",
+      "identityId": "identity-2026-serbia_squad_member_11",
+      "squadNumber": 11,
+      "name": "Serbia Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_12",
+      "identityId": "identity-2026-serbia_squad_member_12",
+      "squadNumber": 12,
+      "name": "Serbia Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_13",
+      "identityId": "identity-2026-serbia_squad_member_13",
+      "squadNumber": 13,
+      "name": "Serbia Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_14",
+      "identityId": "identity-2026-serbia_squad_member_14",
+      "squadNumber": 14,
+      "name": "Serbia Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_15",
+      "identityId": "identity-2026-serbia_squad_member_15",
+      "squadNumber": 15,
+      "name": "Serbia Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_16",
+      "identityId": "identity-2026-serbia_squad_member_16",
+      "squadNumber": 16,
+      "name": "Serbia Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_17",
+      "identityId": "identity-2026-serbia_squad_member_17",
+      "squadNumber": 17,
+      "name": "Serbia Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_18",
+      "identityId": "identity-2026-serbia_squad_member_18",
+      "squadNumber": 18,
+      "name": "Serbia Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_19",
+      "identityId": "identity-2026-serbia_squad_member_19",
+      "squadNumber": 19,
+      "name": "Serbia Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_20",
+      "identityId": "identity-2026-serbia_squad_member_20",
+      "squadNumber": 20,
+      "name": "Serbia Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_21",
+      "identityId": "identity-2026-serbia_squad_member_21",
+      "squadNumber": 21,
+      "name": "Serbia Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_22",
+      "identityId": "identity-2026-serbia_squad_member_22",
+      "squadNumber": 22,
+      "name": "Serbia Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    },
+    {
+      "id": "serbia-2026-serbia_squad_member_23",
+      "identityId": "identity-2026-serbia_squad_member_23",
+      "squadNumber": 23,
+      "name": "Serbia Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Serbia. National squad reserve depth."
+    }
+  ]
+}

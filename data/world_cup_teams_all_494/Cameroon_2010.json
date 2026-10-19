@@ -1,0 +1,519 @@
+{
+  "teamName": "Cameroon",
+  "teamCode": "CMR",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "cameroon-2010-carlos_kameni",
+      "identityId": "P-59683",
+      "squadNumber": 1,
+      "name": "Carlos Kameni",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2010-beno_t_assou-ekotto",
+      "identityId": "P-44116",
+      "squadNumber": 2,
+      "name": "Benoît Assou-Ekotto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2010-nicolas_nkoulou",
+      "identityId": "P-93209",
+      "squadNumber": 3,
+      "name": "Nicolas Nkoulou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2010-rigobert_song",
+      "identityId": "P-98173",
+      "squadNumber": 4,
+      "name": "Rigobert Song",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-2010-s_bastien_bassong",
+      "identityId": "P-68512",
+      "squadNumber": 5,
+      "name": "Sébastien Bassong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2010-alex_song",
+      "identityId": "P-99407",
+      "squadNumber": 6,
+      "name": "Alex Song",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2010-landry_ngu_mo",
+      "identityId": "P-88732",
+      "squadNumber": 7,
+      "name": "Landry N'Guémo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2010-geremi",
+      "identityId": "P-86465",
+      "squadNumber": 8,
+      "name": "Geremi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2010-samuel_etoo",
+      "identityId": "P-61703",
+      "squadNumber": 9,
+      "name": "Samuel Eto'o",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "cameroon-2010-achille_eman_",
+      "identityId": "P-96890",
+      "squadNumber": 10,
+      "name": "Achille Emaná",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2010-jean_makoun",
+      "identityId": "P-67012",
+      "squadNumber": 11,
+      "name": "Jean Makoun",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2010-ga_tan_bong",
+      "identityId": "P-47081",
+      "squadNumber": 12,
+      "name": "Gaëtan Bong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2010-eric_maxim_choupo-moting",
+      "identityId": "P-06117",
+      "squadNumber": 13,
+      "name": "Eric Maxim Choupo-Moting",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2010-aur_lien_chedjou",
+      "identityId": "P-86625",
+      "squadNumber": 14,
+      "name": "Aurélien Chedjou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2010-pierre_web_",
+      "identityId": "P-10830",
+      "squadNumber": 15,
+      "name": "Pierre Webó",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2010-souleymanou_hamidou",
+      "identityId": "P-44262",
+      "squadNumber": 16,
+      "name": "Souleymanou Hamidou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2010-mohammadou_idrissou",
+      "identityId": "P-53593",
+      "squadNumber": 17,
+      "name": "Mohammadou Idrissou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "cameroon-2010-eyong_enoh",
+      "identityId": "P-48455",
+      "squadNumber": 18,
+      "name": "Eyong Enoh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2010-st_phane_mbia",
+      "identityId": "P-48783",
+      "squadNumber": 19,
+      "name": "Stéphane Mbia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2010-georges_mandjeck",
+      "identityId": "P-48097",
+      "squadNumber": 20,
+      "name": "Georges Mandjeck",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2010-jo_l_matip",
+      "identityId": "P-47974",
+      "squadNumber": 21,
+      "name": "Joël Matip",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2010-guy_ndy_assemb_",
+      "identityId": "P-94440",
+      "squadNumber": 22,
+      "name": "Guy N'dy Assembé",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2010-vincent_aboubakar",
+      "identityId": "P-53452",
+      "squadNumber": 23,
+      "name": "Vincent Aboubakar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Cameroon (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

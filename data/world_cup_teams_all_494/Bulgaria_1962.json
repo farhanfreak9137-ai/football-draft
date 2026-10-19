@@ -1,0 +1,497 @@
+{
+  "teamName": "Bulgaria",
+  "teamCode": "BGR",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "bulgaria-1962-georgi_naydenov",
+      "identityId": "P-03284",
+      "squadNumber": 1,
+      "name": "Georgi Naydenov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-kiril_rakarov",
+      "identityId": "P-88804",
+      "squadNumber": 2,
+      "name": "Kiril Rakarov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-ivan_dimitrov",
+      "identityId": "P-19802",
+      "squadNumber": 3,
+      "name": "Ivan Dimitrov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-stoyan_kitov",
+      "identityId": "P-20700",
+      "squadNumber": 4,
+      "name": "Stoyan Kitov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-dimitar_kostov",
+      "identityId": "P-80720",
+      "squadNumber": 5,
+      "name": "Dimitar Kostov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-nikola_kovachev",
+      "identityId": "P-55242",
+      "squadNumber": 6,
+      "name": "Nikola Kovachev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-todor_diev",
+      "identityId": "P-03125",
+      "squadNumber": 7,
+      "name": "Todor Diev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-dimitar_dimov",
+      "identityId": "P-31348",
+      "squadNumber": 8,
+      "name": "Dimitar Dimov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-hristo_iliev",
+      "identityId": "P-52425",
+      "squadNumber": 9,
+      "name": "Hristo Iliev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-ivan_kolev",
+      "identityId": "P-89534",
+      "squadNumber": 10,
+      "name": "Ivan Kolev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-dimitar_yakimov",
+      "identityId": "P-22594",
+      "squadNumber": 11,
+      "name": "Dimitar Yakimov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bulgaria-1962-dobromir_zhechev",
+      "identityId": "P-01172",
+      "squadNumber": 12,
+      "name": "Dobromir Zhechev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-petar_velichkov",
+      "identityId": "P-82222",
+      "squadNumber": 13,
+      "name": "Petar Velichkov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-georgi_sokolov",
+      "identityId": "P-14962",
+      "squadNumber": 14,
+      "name": "Georgi Sokolov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "bulgaria-1962-georgi_asparuhov",
+      "identityId": "P-72803",
+      "squadNumber": 15,
+      "name": "Georgi Asparuhov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-aleksandar_kostov",
+      "identityId": "P-76463",
+      "squadNumber": 16,
+      "name": "Aleksandar Kostov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-panteley_dimitrov",
+      "identityId": "P-46885",
+      "squadNumber": 17,
+      "name": "Panteley Dimitrov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-ivan_ivanov",
+      "identityId": "P-90267",
+      "squadNumber": 18,
+      "name": "Ivan Ivanov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-dinko_dermendzhiev",
+      "identityId": "P-06520",
+      "squadNumber": 19,
+      "name": "Dinko Dermendzhiev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-nikola_parshanov",
+      "identityId": "P-03916",
+      "squadNumber": 20,
+      "name": "Nikola Parshanov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-panayot_panayotov",
+      "identityId": "P-88639",
+      "squadNumber": 21,
+      "name": "Panayot Panayotov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1962-georgi_nikolov",
+      "identityId": "P-08847",
+      "squadNumber": 22,
+      "name": "Georgi Nikolov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    }
+  ]
+}

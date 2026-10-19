@@ -1,0 +1,493 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "spain-1966-jos_ngel_iribar",
+      "identityId": "P-61200",
+      "squadNumber": 1,
+      "name": "José Ángel Iribar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-manuel_sanch_s",
+      "identityId": "P-50021",
+      "squadNumber": 2,
+      "name": "Manuel Sanchís",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1966-eladio",
+      "identityId": "P-50137",
+      "squadNumber": 3,
+      "name": "Eladio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-luis_del_sol",
+      "identityId": "P-80578",
+      "squadNumber": 4,
+      "name": "Luis del Sol",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-ignacio_zoco",
+      "identityId": "P-42046",
+      "squadNumber": 5,
+      "name": "Ignacio Zoco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-jes_s_glar_a",
+      "identityId": "P-48822",
+      "squadNumber": 6,
+      "name": "Jesús Glaría",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-jos_ufarte",
+      "identityId": "P-05221",
+      "squadNumber": 7,
+      "name": "José Ufarte",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-amancio",
+      "identityId": "P-80285",
+      "squadNumber": 8,
+      "name": "Amancio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1966-marcelino",
+      "identityId": "P-49138",
+      "squadNumber": 9,
+      "name": "Marcelino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-luis_su_rez",
+      "identityId": "P-39055",
+      "squadNumber": 10,
+      "name": "Luis Suárez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-francisco_gento",
+      "identityId": "P-09022",
+      "squadNumber": 11,
+      "name": "Francisco Gento",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1966-antonio_betancort",
+      "identityId": "P-93882",
+      "squadNumber": 12,
+      "name": "Antonio Betancort",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-miguel_reina",
+      "identityId": "P-45285",
+      "squadNumber": 13,
+      "name": "Miguel Reina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-feliciano_rivilla",
+      "identityId": "P-82150",
+      "squadNumber": 14,
+      "name": "Feliciano Rivilla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-severino_reija",
+      "identityId": "P-59058",
+      "squadNumber": 15,
+      "name": "Severino Reija",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-ferran_olivella",
+      "identityId": "P-03159",
+      "squadNumber": 16,
+      "name": "Ferran Olivella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-gallego",
+      "identityId": "P-08045",
+      "squadNumber": 17,
+      "name": "Gallego",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-pirri",
+      "identityId": "P-58423",
+      "squadNumber": 18,
+      "name": "Pirri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1966-josep_maria_fust_",
+      "identityId": "P-53638",
+      "squadNumber": 19,
+      "name": "Josep Maria Fusté",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1966-joaqu_n_peir_",
+      "identityId": "P-15268",
+      "squadNumber": 20,
+      "name": "Joaquín Peiró",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-adelardo",
+      "identityId": "P-03894",
+      "squadNumber": 21,
+      "name": "Adelardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1966-carlos_lapetra",
+      "identityId": "P-34577",
+      "squadNumber": 22,
+      "name": "Carlos Lapetra",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Spain (Group Stage). Squad reserve member."
+    }
+  ]
+}

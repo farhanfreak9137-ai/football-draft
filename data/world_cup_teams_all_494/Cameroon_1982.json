@@ -1,0 +1,497 @@
+{
+  "teamName": "Cameroon",
+  "teamCode": "CMR",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "cameroon-1982-thomas_nkono",
+      "identityId": "P-95667",
+      "squadNumber": 1,
+      "name": "Thomas N'Kono",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-michel_kaham",
+      "identityId": "P-73034",
+      "squadNumber": 2,
+      "name": "Michel Kaham",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-edmond_enoka",
+      "identityId": "P-96632",
+      "squadNumber": 3,
+      "name": "Edmond Enoka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-ren_ndjeya",
+      "identityId": "P-59682",
+      "squadNumber": 4,
+      "name": "René N'Djeya",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-elie_onana",
+      "identityId": "P-66008",
+      "squadNumber": 5,
+      "name": "Elie Onana",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-emmanuel_kund_",
+      "identityId": "P-44016",
+      "squadNumber": 6,
+      "name": "Emmanuel Kundé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-ephrem_mbom",
+      "identityId": "P-11469",
+      "squadNumber": 7,
+      "name": "Ephrem M'Bom",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-gr_goire_mbida",
+      "identityId": "P-32771",
+      "squadNumber": 8,
+      "name": "Grégoire M'Bida",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-1982-roger_milla",
+      "identityId": "P-58080",
+      "squadNumber": 9,
+      "name": "Roger Milla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-jean-pierre_tokoto",
+      "identityId": "P-34300",
+      "squadNumber": 10,
+      "name": "Jean-Pierre Tokoto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-1982-charles_toub_",
+      "identityId": "P-59315",
+      "squadNumber": 11,
+      "name": "Charles Toubé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-joseph-antoine_bell",
+      "identityId": "P-17774",
+      "squadNumber": 12,
+      "name": "Joseph-Antoine Bell",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-paul_bahoken",
+      "identityId": "P-93565",
+      "squadNumber": 13,
+      "name": "Paul Bahoken",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-1982-th_ophile_abega",
+      "identityId": "P-02805",
+      "squadNumber": 14,
+      "name": "Théophile Abega",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-fran_ois_ndoumb_",
+      "identityId": "P-72682",
+      "squadNumber": 15,
+      "name": "François N'Doumbé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-ibrahim_aoudou",
+      "identityId": "P-18610",
+      "squadNumber": 16,
+      "name": "Ibrahim Aoudou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-1982-joseph_kamga",
+      "identityId": "P-33634",
+      "squadNumber": 17,
+      "name": "Joseph Kamga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-jacques_nguea",
+      "identityId": "P-41427",
+      "squadNumber": 18,
+      "name": "Jacques N'Guea",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-1982-joseph_enanga",
+      "identityId": "P-52069",
+      "squadNumber": 19,
+      "name": "Joseph Enanga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-oscar_eyobo",
+      "identityId": "P-39692",
+      "squadNumber": 20,
+      "name": "Oscar Eyobo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-ernest_ebongu_",
+      "identityId": "P-93395",
+      "squadNumber": 21,
+      "name": "Ernest Ebongué",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-1982-simon_tchobang",
+      "identityId": "P-11668",
+      "squadNumber": 22,
+      "name": "Simon Tchobang",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    }
+  ]
+}

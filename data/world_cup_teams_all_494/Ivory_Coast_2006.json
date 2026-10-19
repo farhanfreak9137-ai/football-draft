@@ -1,0 +1,516 @@
+{
+  "teamName": "Ivory Coast",
+  "teamCode": "CIV",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "ivory_coast-2006-jean-jacques_tizi_",
+      "identityId": "P-31283",
+      "squadNumber": 1,
+      "name": "Jean-Jacques Tizié",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-kanga_akal_",
+      "identityId": "P-48722",
+      "squadNumber": 2,
+      "name": "Kanga Akalé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-arthur_boka",
+      "identityId": "P-08544",
+      "squadNumber": 3,
+      "name": "Arthur Boka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2006-kolo_tour_",
+      "identityId": "P-25398",
+      "squadNumber": 4,
+      "name": "Kolo Touré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-didier_zokora",
+      "identityId": "P-48968",
+      "squadNumber": 5,
+      "name": "Didier Zokora",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2006-blaise_kouassi",
+      "identityId": "P-80902",
+      "squadNumber": 6,
+      "name": "Blaise Kouassi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-emerse_fa_",
+      "identityId": "P-14259",
+      "squadNumber": 7,
+      "name": "Emerse Faé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2006-bonaventure_kalou",
+      "identityId": "P-67250",
+      "squadNumber": 8,
+      "name": "Bonaventure Kalou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2006-arouna_kon_",
+      "identityId": "P-14175",
+      "squadNumber": 9,
+      "name": "Arouna Koné",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-gilles_yapi_yapo",
+      "identityId": "P-58634",
+      "squadNumber": 10,
+      "name": "Gilles Yapi Yapo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2006-didier_drogba",
+      "identityId": "P-99466",
+      "squadNumber": 11,
+      "name": "Didier Drogba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2006-abdoulaye_m_t_",
+      "identityId": "P-12127",
+      "squadNumber": 12,
+      "name": "Abdoulaye Méïté",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-marco_zoro",
+      "identityId": "P-97294",
+      "squadNumber": 13,
+      "name": "Marco Zoro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2006-bakari_kon_",
+      "identityId": "P-64184",
+      "squadNumber": 14,
+      "name": "Bakari Koné",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2006-aruna_dindane",
+      "identityId": "P-93241",
+      "squadNumber": 15,
+      "name": "Aruna Dindane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2006-g_rard_gnanhouan",
+      "identityId": "P-51266",
+      "squadNumber": 16,
+      "name": "Gérard Gnanhouan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2006-cyril_domoraud",
+      "identityId": "P-20335",
+      "squadNumber": 17,
+      "name": "Cyril Domoraud",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-abdul_kader_ke_ta",
+      "identityId": "P-98071",
+      "squadNumber": 18,
+      "name": "Abdul Kader Keïta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-yaya_tour_",
+      "identityId": "P-44934",
+      "squadNumber": 19,
+      "name": "Yaya Touré",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2006-guy_demel",
+      "identityId": "P-75763",
+      "squadNumber": 20,
+      "name": "Guy Demel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2006-emmanuel_ebou_",
+      "identityId": "P-92316",
+      "squadNumber": 21,
+      "name": "Emmanuel Eboué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2006-romaric",
+      "identityId": "P-55581",
+      "squadNumber": 22,
+      "name": "Romaric",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2006-boubacar_barry",
+      "identityId": "P-30753",
+      "squadNumber": 23,
+      "name": "Boubacar Barry",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

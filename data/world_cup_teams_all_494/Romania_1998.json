@@ -1,0 +1,491 @@
+{
+  "teamName": "Romania",
+  "teamCode": "ROU",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "romania-1998-dumitru_st_ngaciu",
+      "identityId": "P-75836",
+      "squadNumber": 1,
+      "name": "Dumitru Stângaciu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Romania (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "romania-1998-dan_petrescu",
+      "identityId": "P-12625",
+      "squadNumber": 2,
+      "name": "Dan Petrescu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "romania-1998-cristian_dulca",
+      "identityId": "P-65453",
+      "squadNumber": 3,
+      "name": "Cristian Dulca",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Romania (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "romania-1998-anton_dobo_",
+      "identityId": "P-06854",
+      "squadNumber": 4,
+      "name": "Anton Doboș",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Romania (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "romania-1998-constantin_g_lc_",
+      "identityId": "P-17898",
+      "squadNumber": 5,
+      "name": "Constantin Gâlcă",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "romania-1998-gheorghe_popescu",
+      "identityId": "P-19537",
+      "squadNumber": 6,
+      "name": "Gheorghe Popescu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1998-marius_l_c_tu_",
+      "identityId": "P-01137",
+      "squadNumber": 7,
+      "name": "Marius Lăcătuș",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Romania (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "romania-1998-dorinel_munteanu",
+      "identityId": "P-04888",
+      "squadNumber": 8,
+      "name": "Dorinel Munteanu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "romania-1998-viorel_moldovan",
+      "identityId": "P-67833",
+      "squadNumber": 9,
+      "name": "Viorel Moldovan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "romania-1998-gheorghe_hagi",
+      "identityId": "P-30739",
+      "squadNumber": 10,
+      "name": "Gheorghe Hagi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "romania-1998-adrian_ilie",
+      "identityId": "P-70680",
+      "squadNumber": 11,
+      "name": "Adrian Ilie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "romania-1998-bogdan_stelea",
+      "identityId": "P-44978",
+      "squadNumber": 12,
+      "name": "Bogdan Stelea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "romania-1998-liviu_ciobotariu",
+      "identityId": "P-16780",
+      "squadNumber": 13,
+      "name": "Liviu Ciobotariu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "romania-1998-radu_niculescu",
+      "identityId": "P-27750",
+      "squadNumber": 14,
+      "name": "Radu Niculescu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Romania (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "romania-1998-lucian_marinescu",
+      "identityId": "P-66588",
+      "squadNumber": 15,
+      "name": "Lucian Marinescu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Romania (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "romania-1998-gabriel_popescu",
+      "identityId": "P-53546",
+      "squadNumber": 16,
+      "name": "Gabriel Popescu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1998-ilie_dumitrescu",
+      "identityId": "P-54322",
+      "squadNumber": 17,
+      "name": "Ilie Dumitrescu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Romania (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "romania-1998-iulian_filipescu",
+      "identityId": "P-48638",
+      "squadNumber": 18,
+      "name": "Iulian Filipescu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Romania (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1998-ovidiu_st_ng_",
+      "identityId": "P-44448",
+      "squadNumber": 19,
+      "name": "Ovidiu Stîngă",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Romania (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "romania-1998-tibor_selymes",
+      "identityId": "P-79864",
+      "squadNumber": 20,
+      "name": "Tibor Selymes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Romania (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "romania-1998-gheorghe_craioveanu",
+      "identityId": "P-43055",
+      "squadNumber": 21,
+      "name": "Gheorghe Craioveanu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Romania (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "romania-1998-florin_prunea",
+      "identityId": "P-29644",
+      "squadNumber": 22,
+      "name": "Florin Prunea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Romania (Round of 16). Squad reserve member."
+    }
+  ]
+}

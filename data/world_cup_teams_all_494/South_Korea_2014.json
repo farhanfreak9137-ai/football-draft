@@ -1,0 +1,515 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "south_korea-2014-sung-ryong_jung",
+      "identityId": "P-88939",
+      "squadNumber": 1,
+      "name": "Sung-ryong Jung",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2014-chang-soo_kim",
+      "identityId": "P-19142",
+      "squadNumber": 2,
+      "name": "Chang-soo Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2014-suk-young_yun",
+      "identityId": "P-13271",
+      "squadNumber": 3,
+      "name": "Suk-young Yun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-tae-hwi_kwak",
+      "identityId": "P-28296",
+      "squadNumber": 4,
+      "name": "Tae-hwi Kwak",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2014-young-gwon_kim",
+      "identityId": "P-07259",
+      "squadNumber": 5,
+      "name": "Young-gwon Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-seok-ho_hwang",
+      "identityId": "P-09632",
+      "squadNumber": 6,
+      "name": "Seok-ho Hwang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for South Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2014-bo-kyung_kim",
+      "identityId": "P-16139",
+      "squadNumber": 7,
+      "name": "Bo-kyung Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for South Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-2014-dae-sung_ha",
+      "identityId": "P-03869",
+      "squadNumber": 8,
+      "name": "Dae-sung Ha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2014-heung-min_son",
+      "identityId": "P-77335",
+      "squadNumber": 9,
+      "name": "Heung-min Son",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2014-chu-young_park",
+      "identityId": "P-06608",
+      "squadNumber": 10,
+      "name": "Chu-young Park",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2014-keun-ho_lee",
+      "identityId": "P-71308",
+      "squadNumber": 11,
+      "name": "Keun-ho Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for South Korea (Group Stage). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2014-yong_lee",
+      "identityId": "P-64718",
+      "squadNumber": 12,
+      "name": "Yong Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-ja-cheol_koo",
+      "identityId": "P-47440",
+      "squadNumber": 13,
+      "name": "Ja-cheol Koo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2014-kook-young_han",
+      "identityId": "P-29447",
+      "squadNumber": 14,
+      "name": "Kook-young Han",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-jong-woo_park",
+      "identityId": "P-71373",
+      "squadNumber": 15,
+      "name": "Jong-woo Park",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2014-sung-yueng_ki",
+      "identityId": "P-48433",
+      "squadNumber": 16,
+      "name": "Sung-yueng Ki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-chung-yong_lee",
+      "identityId": "P-40927",
+      "squadNumber": 17,
+      "name": "Chung-yong Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-shin-wook_kim",
+      "identityId": "P-15736",
+      "squadNumber": 18,
+      "name": "Shin-wook Kim",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2014-dong-won_ji",
+      "identityId": "P-03922",
+      "squadNumber": 19,
+      "name": "Dong-won Ji",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for South Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-2014-jeong-ho_hong",
+      "identityId": "P-55453",
+      "squadNumber": 20,
+      "name": "Jeong-ho Hong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2014-seung-gyu_kim",
+      "identityId": "P-42523",
+      "squadNumber": 21,
+      "name": "Seung-gyu Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2014-joo-ho_park",
+      "identityId": "P-16489",
+      "squadNumber": 22,
+      "name": "Joo-ho Park",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2014-bum-young_lee",
+      "identityId": "P-18963",
+      "squadNumber": 23,
+      "name": "Bum-young Lee",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    }
+  ]
+}

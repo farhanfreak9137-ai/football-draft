@@ -1,0 +1,515 @@
+{
+  "teamName": "Ecuador",
+  "teamCode": "ECU",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "ecuador-2014-m_ximo_banguera",
+      "identityId": "P-93941",
+      "squadNumber": 1,
+      "name": "Máximo Banguera",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2014-jorge_guagua",
+      "identityId": "P-72804",
+      "squadNumber": 2,
+      "name": "Jorge Guagua",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-frickson_erazo",
+      "identityId": "P-52676",
+      "squadNumber": 3,
+      "name": "Frickson Erazo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-juan_carlos_paredes",
+      "identityId": "P-43280",
+      "squadNumber": 4,
+      "name": "Juan Carlos Paredes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-renato_ibarra",
+      "identityId": "P-73520",
+      "squadNumber": 5,
+      "name": "Renato Ibarra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ecuador-2014-christian_noboa",
+      "identityId": "P-33117",
+      "squadNumber": 6,
+      "name": "Christian Noboa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-jefferson_montero",
+      "identityId": "P-55935",
+      "squadNumber": 7,
+      "name": "Jefferson Montero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-_dison_m_ndez",
+      "identityId": "P-42534",
+      "squadNumber": 8,
+      "name": "Édison Méndez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ecuador-2014-joao_rojas",
+      "identityId": "P-33089",
+      "squadNumber": 9,
+      "name": "Joao Rojas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ecuador-2014-walter_ayov_",
+      "identityId": "P-39602",
+      "squadNumber": 10,
+      "name": "Walter Ayoví",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-felipe_caicedo",
+      "identityId": "P-79710",
+      "squadNumber": 11,
+      "name": "Felipe Caicedo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ecuador-2014-adri_n_bone",
+      "identityId": "P-15123",
+      "squadNumber": 12,
+      "name": "Adrián Bone",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2014-enner_valencia",
+      "identityId": "P-75912",
+      "squadNumber": 13,
+      "name": "Enner Valencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "ecuador-2014-oswaldo_minda",
+      "identityId": "P-01933",
+      "squadNumber": 14,
+      "name": "Oswaldo Minda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ecuador-2014-michael_arroyo",
+      "identityId": "P-65206",
+      "squadNumber": 15,
+      "name": "Michael Arroyo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2014-antonio_valencia",
+      "identityId": "P-49265",
+      "squadNumber": 16,
+      "name": "Antonio Valencia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-jaime_ayov_",
+      "identityId": "P-73513",
+      "squadNumber": 17,
+      "name": "Jaime Ayoví",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2014-_scar_bag_",
+      "identityId": "P-57715",
+      "squadNumber": 18,
+      "name": "Óscar Bagüí",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2014-luis_saritama",
+      "identityId": "P-05227",
+      "squadNumber": 19,
+      "name": "Luis Saritama",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2014-fidel_mart_nez",
+      "identityId": "P-31812",
+      "squadNumber": 20,
+      "name": "Fidel Martínez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2014-gabriel_achilier",
+      "identityId": "P-29870",
+      "squadNumber": 21,
+      "name": "Gabriel Achilier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ecuador-2014-alexander_dom_nguez",
+      "identityId": "P-94877",
+      "squadNumber": 22,
+      "name": "Alexander Domínguez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2014-carlos_gruezo",
+      "identityId": "P-13321",
+      "squadNumber": 23,
+      "name": "Carlos Gruezo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

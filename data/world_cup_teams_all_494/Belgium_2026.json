@@ -1,0 +1,530 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 25,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "belgium-2026-koen_casteels",
+      "identityId": "identity-2026-koen_casteels",
+      "squadNumber": 1,
+      "name": "Koen Casteels",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-timothy_castagne",
+      "identityId": "identity-2026-timothy_castagne",
+      "squadNumber": 21,
+      "name": "Timothy Castagne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "LB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-wout_faes",
+      "identityId": "identity-2026-wout_faes",
+      "squadNumber": 4,
+      "name": "Wout Faes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-zeno_debast",
+      "identityId": "identity-2026-zeno_debast",
+      "squadNumber": 2,
+      "name": "Zeno Debast",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-arthur_theate",
+      "identityId": "identity-2026-arthur_theate",
+      "squadNumber": 3,
+      "name": "Arthur Theate",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-amadou_onana",
+      "identityId": "identity-2026-amadou_onana",
+      "squadNumber": 24,
+      "name": "Amadou Onana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-youri_tielemans",
+      "identityId": "identity-2026-youri_tielemans",
+      "squadNumber": 8,
+      "name": "Youri Tielemans",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-kevin_de_bruyne",
+      "identityId": "identity-2026-kevin_de_bruyne",
+      "squadNumber": 7,
+      "name": "Kevin De Bruyne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "CM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 92,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Generational Midfield Icon & Champions League Winner"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Generational Midfield Icon & Champions League Winner",
+      "ratingRationale": "Rated 92 OVR for 2026 World Cup form with Belgium. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "belgium-2026-yannick_carrasco",
+      "identityId": "identity-2026-yannick_carrasco",
+      "squadNumber": 11,
+      "name": "Yannick Carrasco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "LM"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Belgium. Regular starting lineup selection."
+    },
+    {
+      "id": "belgium-2026-romelu_lukaku",
+      "identityId": "identity-2026-romelu_lukaku",
+      "squadNumber": 10,
+      "name": "Romelu Lukaku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Belgium All-Time Top International Goalscorer"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Belgium All-Time Top International Goalscorer",
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Belgium. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "belgium-2026-j_r_my_doku",
+      "identityId": "identity-2026-j_r_my_doku",
+      "squadNumber": 22,
+      "name": "Jérémy Doku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Belgium. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "belgium-2026-thomas_kaminski",
+      "identityId": "identity-2026-thomas_kaminski",
+      "squadNumber": 12,
+      "name": "Thomas Kaminski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Belgium. National squad reserve depth."
+    },
+    {
+      "id": "belgium-2026-matz_sels",
+      "identityId": "identity-2026-matz_sels",
+      "squadNumber": 13,
+      "name": "Matz Sels",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Belgium. National squad reserve depth."
+    },
+    {
+      "id": "belgium-2026-jan_vertonghen",
+      "identityId": "identity-2026-jan_vertonghen",
+      "squadNumber": 5,
+      "name": "Jan Vertonghen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-thomas_meunier",
+      "identityId": "identity-2026-thomas_meunier",
+      "squadNumber": 15,
+      "name": "Thomas Meunier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "RWB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-maxim_de_cuyper",
+      "identityId": "identity-2026-maxim_de_cuyper",
+      "squadNumber": 25,
+      "name": "Maxim De Cuyper",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "LWB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-axel_witsel",
+      "identityId": "identity-2026-axel_witsel",
+      "squadNumber": 6,
+      "name": "Axel Witsel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-aster_vranckx",
+      "identityId": "identity-2026-aster_vranckx",
+      "squadNumber": 16,
+      "name": "Aster Vranckx",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-orel_mangala",
+      "identityId": "identity-2026-orel_mangala",
+      "squadNumber": 18,
+      "name": "Orel Mangala",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-arthur_vermeeren",
+      "identityId": "identity-2026-arthur_vermeeren",
+      "squadNumber": 23,
+      "name": "Arthur Vermeeren",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Belgium. National squad reserve depth."
+    },
+    {
+      "id": "belgium-2026-leandro_trossard",
+      "identityId": "identity-2026-leandro_trossard",
+      "squadNumber": 9,
+      "name": "Leandro Trossard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "CF"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-dodi_luk_bakio",
+      "identityId": "identity-2026-dodi_luk_bakio",
+      "squadNumber": 14,
+      "name": "Dodi Lukébakio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-charles_de_ketelaere",
+      "identityId": "identity-2026-charles_de_ketelaere",
+      "squadNumber": 17,
+      "name": "Charles De Ketelaere",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-johan_bakayoko",
+      "identityId": "identity-2026-johan_bakayoko",
+      "squadNumber": 19,
+      "name": "Johan Bakayoko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "belgium-2026-lo_s_openda",
+      "identityId": "identity-2026-lo_s_openda",
+      "squadNumber": 20,
+      "name": "Loïs Openda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Belgium. Frequent tactical rotation contributor."
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 90,
+  "players": [
+    {
+      "id": "argentina-1978-norberto_alonso",
+      "identityId": "P-44317",
+      "squadNumber": 1,
+      "name": "Norberto Alonso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1978 World Cup performance for Argentina (Champions). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "argentina-1978-osvaldo_ardiles",
+      "identityId": "P-66254",
+      "squadNumber": 2,
+      "name": "Osvaldo Ardiles",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "argentina-1978-h_ctor_baley",
+      "identityId": "P-45593",
+      "squadNumber": 3,
+      "name": "Héctor Baley",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1978-daniel_bertoni",
+      "identityId": "P-61157",
+      "squadNumber": 4,
+      "name": "Daniel Bertoni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1978-ubaldo_fillol",
+      "identityId": "P-25276",
+      "squadNumber": 5,
+      "name": "Ubaldo Fillol",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1978 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 94 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "argentina-1978-am_rico_gallego",
+      "identityId": "P-99593",
+      "squadNumber": 6,
+      "name": "Américo Gallego",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1978-luis_galv_n",
+      "identityId": "P-03905",
+      "squadNumber": 7,
+      "name": "Luis Galván",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1978-rub_n_galv_n",
+      "identityId": "P-21190",
+      "squadNumber": 8,
+      "name": "Rubén Galván",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1978-ren_houseman",
+      "identityId": "P-04739",
+      "squadNumber": 9,
+      "name": "René Houseman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1978-mario_kempes",
+      "identityId": "P-35082",
+      "squadNumber": 10,
+      "name": "Mario Kempes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Golden Ball",
+        "Golden Boot",
+        "Golden Ball & Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1978 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 6 goal(s). Honors: Golden Ball, Golden Boot, Golden Ball & Boot."
+    },
+    {
+      "id": "argentina-1978-daniel_killer",
+      "identityId": "P-30336",
+      "squadNumber": 11,
+      "name": "Daniel Killer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1978-omar_larrosa",
+      "identityId": "P-23168",
+      "squadNumber": 12,
+      "name": "Omar Larrosa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1978 World Cup performance for Argentina (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1978-ricardo_la_volpe",
+      "identityId": "P-66065",
+      "squadNumber": 13,
+      "name": "Ricardo La Volpe",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1978-leopoldo_luque",
+      "identityId": "P-26640",
+      "squadNumber": 14,
+      "name": "Leopoldo Luque",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 5 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "argentina-1978-jorge_olgu_n",
+      "identityId": "P-06976",
+      "squadNumber": 15,
+      "name": "Jorge Olguín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1978-oscar_ortiz",
+      "identityId": "P-34830",
+      "squadNumber": 16,
+      "name": "Oscar Ortiz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1978-miguel_oviedo",
+      "identityId": "P-45194",
+      "squadNumber": 17,
+      "name": "Miguel Oviedo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1978 World Cup performance for Argentina (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-1978-rub_n_pagnanini",
+      "identityId": "P-01736",
+      "squadNumber": 18,
+      "name": "Rubén Pagnanini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1978-daniel_passarella",
+      "identityId": "P-80376",
+      "squadNumber": 19,
+      "name": "Daniel Passarella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Champion Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1978 World Cup Champion Captain",
+      "ratingRationale": "Rated 95 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 1 goal(s). Honors: Champion Captain."
+    },
+    {
+      "id": "argentina-1978-alberto_tarantini",
+      "identityId": "P-54098",
+      "squadNumber": 20,
+      "name": "Alberto Tarantini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1978-jos_daniel_valencia",
+      "identityId": "P-62351",
+      "squadNumber": 21,
+      "name": "José Daniel Valencia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1978 World Cup performance for Argentina (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1978-ricardo_villa",
+      "identityId": "P-12477",
+      "squadNumber": 22,
+      "name": "Ricardo Villa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1978 World Cup performance for Argentina (Champions). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

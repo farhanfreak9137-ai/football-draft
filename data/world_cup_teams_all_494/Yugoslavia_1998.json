@@ -1,0 +1,497 @@
+{
+  "teamName": "Yugoslavia",
+  "teamCode": "YUG",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "yugoslavia-1998-ivica_kralj",
+      "identityId": "P-69448",
+      "squadNumber": 1,
+      "name": "Ivica Kralj",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1998-zoran_mirkovi_",
+      "identityId": "P-12268",
+      "squadNumber": 2,
+      "name": "Zoran Mirković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1998-goran_orovi_",
+      "identityId": "P-80898",
+      "squadNumber": 3,
+      "name": "Goran Đorović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1998-slavi_a_jokanovi_",
+      "identityId": "P-27338",
+      "squadNumber": 4,
+      "name": "Slaviša Jokanović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1998-miroslav_uki_",
+      "identityId": "P-72969",
+      "squadNumber": 5,
+      "name": "Miroslav Đukić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1998-branko_brnovi_",
+      "identityId": "P-15547",
+      "squadNumber": 6,
+      "name": "Branko Brnović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1998-vladimir_jugovi_",
+      "identityId": "P-69912",
+      "squadNumber": 7,
+      "name": "Vladimir Jugović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1998-dejan_savi_evi_",
+      "identityId": "P-18303",
+      "squadNumber": 8,
+      "name": "Dejan Savićević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "yugoslavia-1998-predrag_mijatovi_",
+      "identityId": "P-82329",
+      "squadNumber": 9,
+      "name": "Predrag Mijatović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1998-dragan_stojkovi_",
+      "identityId": "P-93318",
+      "squadNumber": 10,
+      "name": "Dragan Stojković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1998-sini_a_mihajlovi_",
+      "identityId": "P-04188",
+      "squadNumber": 11,
+      "name": "Siniša Mihajlović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1998-dragoje_lekovi_",
+      "identityId": "P-39053",
+      "squadNumber": 12,
+      "name": "Dragoje Leković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1998-slobodan_komljenovi_",
+      "identityId": "P-43392",
+      "squadNumber": 13,
+      "name": "Slobodan Komljenović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1998-ni_a_savelji_",
+      "identityId": "P-35544",
+      "squadNumber": 14,
+      "name": "Niša Saveljić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "yugoslavia-1998-ljubinko_drulovi_",
+      "identityId": "P-57880",
+      "squadNumber": 15,
+      "name": "Ljubinko Drulović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1998-_eljko_petrovi_",
+      "identityId": "P-11960",
+      "squadNumber": 16,
+      "name": "Željko Petrović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1998-savo_milo_evi_",
+      "identityId": "P-48250",
+      "squadNumber": 17,
+      "name": "Savo Milošević",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1998-dejan_govedarica",
+      "identityId": "P-40701",
+      "squadNumber": 18,
+      "name": "Dejan Govedarica",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "yugoslavia-1998-miroslav_stevi_",
+      "identityId": "P-45323",
+      "squadNumber": 19,
+      "name": "Miroslav Stević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "yugoslavia-1998-dejan_stankovi_",
+      "identityId": "P-22793",
+      "squadNumber": 20,
+      "name": "Dejan Stanković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1998-perica_ognjenovi_",
+      "identityId": "P-85140",
+      "squadNumber": 21,
+      "name": "Perica Ognjenović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "yugoslavia-1998-darko_kova_evi_",
+      "identityId": "P-33080",
+      "squadNumber": 22,
+      "name": "Darko Kovačević",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

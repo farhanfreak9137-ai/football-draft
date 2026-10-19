@@ -1,0 +1,514 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "spain-2006-iker_casillas",
+      "identityId": "P-61793",
+      "squadNumber": 1,
+      "name": "Iker Casillas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2006-m_chel_salgado",
+      "identityId": "P-63942",
+      "squadNumber": 2,
+      "name": "Míchel Salgado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-mariano_pern_a",
+      "identityId": "P-28485",
+      "squadNumber": 3,
+      "name": "Mariano Pernía",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2006-carlos_marchena",
+      "identityId": "P-15314",
+      "squadNumber": 4,
+      "name": "Carlos Marchena",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-carles_puyol",
+      "identityId": "P-51089",
+      "squadNumber": 5,
+      "name": "Carles Puyol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2006-david_albelda",
+      "identityId": "P-21683",
+      "squadNumber": 6,
+      "name": "David Albelda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-ra_l",
+      "identityId": "P-24556",
+      "squadNumber": 7,
+      "name": "Raúl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2006-xavi",
+      "identityId": "P-29415",
+      "squadNumber": 8,
+      "name": "Xavi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2006-fernando_torres",
+      "identityId": "P-71661",
+      "squadNumber": 9,
+      "name": "Fernando Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "spain-2006-jos_antonio_reyes",
+      "identityId": "P-83711",
+      "squadNumber": 10,
+      "name": "José Antonio Reyes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-luis_garc_a",
+      "identityId": "P-25905",
+      "squadNumber": 11,
+      "name": "Luis García",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2006-antonio_l_pez",
+      "identityId": "P-13964",
+      "squadNumber": 12,
+      "name": "Antonio López",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-andr_s_iniesta",
+      "identityId": "P-56330",
+      "squadNumber": 13,
+      "name": "Andrés Iniesta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-xabi_alonso",
+      "identityId": "P-73924",
+      "squadNumber": 14,
+      "name": "Xabi Alonso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2006-sergio_ramos",
+      "identityId": "P-89177",
+      "squadNumber": 15,
+      "name": "Sergio Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2006-marcos_senna",
+      "identityId": "P-82549",
+      "squadNumber": 16,
+      "name": "Marcos Senna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2006-joaqu_n",
+      "identityId": "P-70144",
+      "squadNumber": 17,
+      "name": "Joaquín",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-cesc_f_bregas",
+      "identityId": "P-81297",
+      "squadNumber": 18,
+      "name": "Cesc Fàbregas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2006-santiago_ca_izares",
+      "identityId": "P-16059",
+      "squadNumber": 19,
+      "name": "Santiago Cañizares",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2006-juanito",
+      "identityId": "P-51440",
+      "squadNumber": 20,
+      "name": "Juanito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2006-david_villa",
+      "identityId": "P-49097",
+      "squadNumber": 21,
+      "name": "David Villa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "spain-2006-pablo_ib_ez",
+      "identityId": "P-73344",
+      "squadNumber": 22,
+      "name": "Pablo Ibáñez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2006-pepe_reina",
+      "identityId": "P-44334",
+      "squadNumber": 23,
+      "name": "Pepe Reina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Spain (Round of 16). Squad reserve member."
+    }
+  ]
+}

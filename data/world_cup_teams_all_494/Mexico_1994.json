@@ -1,0 +1,491 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "mexico-1994-jorge_campos",
+      "identityId": "P-50787",
+      "squadNumber": 1,
+      "name": "Jorge Campos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1994-claudio_su_rez",
+      "identityId": "P-78308",
+      "squadNumber": 2,
+      "name": "Claudio Suárez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1994-juan_de_dios_ram_rez_perales",
+      "identityId": "P-09363",
+      "squadNumber": 3,
+      "name": "Juan de Dios Ramírez Perales",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1994-ignacio_ambr_z",
+      "identityId": "P-28217",
+      "squadNumber": 4,
+      "name": "Ignacio Ambríz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1994-ram_n_ram_rez",
+      "identityId": "P-21741",
+      "squadNumber": 5,
+      "name": "Ramón Ramírez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1994-marcelino_bernal",
+      "identityId": "P-40627",
+      "squadNumber": 6,
+      "name": "Marcelino Bernal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1994-carlos_hermosillo",
+      "identityId": "P-22941",
+      "squadNumber": 7,
+      "name": "Carlos Hermosillo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1994-alberto_garc_a_aspe",
+      "identityId": "P-21495",
+      "squadNumber": 8,
+      "name": "Alberto García Aspe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1994-hugo_s_nchez",
+      "identityId": "P-26316",
+      "squadNumber": 9,
+      "name": "Hugo Sánchez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1994-luis_garc_a_postigo",
+      "identityId": "P-46904",
+      "squadNumber": 10,
+      "name": "Luis García Postigo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "mexico-1994-zague",
+      "identityId": "P-97279",
+      "squadNumber": 11,
+      "name": "Zague",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1994-f_lix_fern_ndez",
+      "identityId": "P-53503",
+      "squadNumber": 12,
+      "name": "Félix Fernández",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-1994-juan_carlos_ch_vez",
+      "identityId": "P-70776",
+      "squadNumber": 13,
+      "name": "Juan Carlos Chávez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-1994-joaqu_n_del_olmo",
+      "identityId": "P-97610",
+      "squadNumber": 14,
+      "name": "Joaquín del Olmo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1994-missael_espinoza",
+      "identityId": "P-93217",
+      "squadNumber": 15,
+      "name": "Missael Espinoza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-1994-luis_antonio_vald_z",
+      "identityId": "P-16030",
+      "squadNumber": 16,
+      "name": "Luis Antonio Valdéz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1994-benjam_n_galindo",
+      "identityId": "P-82483",
+      "squadNumber": 17,
+      "name": "Benjamín Galindo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1994-jos_luis_salgado",
+      "identityId": "P-81177",
+      "squadNumber": 18,
+      "name": "José Luis Salgado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-1994-luis_miguel_salvador",
+      "identityId": "P-87112",
+      "squadNumber": 19,
+      "name": "Luis Miguel Salvador",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-1994-jorge_rodr_guez",
+      "identityId": "P-35042",
+      "squadNumber": 20,
+      "name": "Jorge Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1994-ra_l_guti_rrez",
+      "identityId": "P-74788",
+      "squadNumber": 21,
+      "name": "Raúl Gutiérrez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1994-adri_n_ch_vez",
+      "identityId": "P-10416",
+      "squadNumber": 22,
+      "name": "Adrián Chávez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    }
+  ]
+}

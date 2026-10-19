@@ -1,0 +1,513 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "belgium-2002-geert_de_vlieger",
+      "identityId": "P-48592",
+      "squadNumber": 1,
+      "name": "Geert De Vlieger",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2002-_ric_deflandre",
+      "identityId": "P-17071",
+      "squadNumber": 2,
+      "name": "Éric Deflandre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2002-glen_de_boeck",
+      "identityId": "P-94736",
+      "squadNumber": 3,
+      "name": "Glen De Boeck",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2002-eric_van_meir",
+      "identityId": "P-71601",
+      "squadNumber": 4,
+      "name": "Eric Van Meir",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2002-nico_van_kerckhoven",
+      "identityId": "P-28883",
+      "squadNumber": 5,
+      "name": "Nico Van Kerckhoven",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2002-timmy_simons",
+      "identityId": "P-80262",
+      "squadNumber": 6,
+      "name": "Timmy Simons",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2002-marc_wilmots",
+      "identityId": "P-69659",
+      "squadNumber": 7,
+      "name": "Marc Wilmots",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "belgium-2002-bart_goor",
+      "identityId": "P-34376",
+      "squadNumber": 8,
+      "name": "Bart Goor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2002-wesley_sonck",
+      "identityId": "P-64922",
+      "squadNumber": 9,
+      "name": "Wesley Sonck",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Belgium (Round of 16). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2002-johan_walem",
+      "identityId": "P-03447",
+      "squadNumber": 10,
+      "name": "Johan Walem",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2002-gert_verheyen",
+      "identityId": "P-52358",
+      "squadNumber": 11,
+      "name": "Gert Verheyen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2002-peter_van_der_heyden",
+      "identityId": "P-02977",
+      "squadNumber": 12,
+      "name": "Peter Van der Heyden",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2002-franky_vandendriessche",
+      "identityId": "P-12777",
+      "squadNumber": 13,
+      "name": "Franky Vandendriessche",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-2002-sven_vermant",
+      "identityId": "P-91831",
+      "squadNumber": 14,
+      "name": "Sven Vermant",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Belgium (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-2002-jacky_peeters",
+      "identityId": "P-12842",
+      "squadNumber": 15,
+      "name": "Jacky Peeters",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2002-daniel_van_buyten",
+      "identityId": "P-21070",
+      "squadNumber": 16,
+      "name": "Daniel Van Buyten",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2002-ga_tan_englebert",
+      "identityId": "P-42565",
+      "squadNumber": 17,
+      "name": "Gaëtan Englebert",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-2002-yves_vanderhaeghe",
+      "identityId": "P-46499",
+      "squadNumber": 18,
+      "name": "Yves Vanderhaeghe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2002-bernd_thijs",
+      "identityId": "P-88716",
+      "squadNumber": 19,
+      "name": "Bernd Thijs",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-2002-branko_strupar",
+      "identityId": "P-03038",
+      "squadNumber": 20,
+      "name": "Branko Strupar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2002-danny_boffin",
+      "identityId": "P-33197",
+      "squadNumber": 21,
+      "name": "Danny Boffin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-2002-mbo_mpenza",
+      "identityId": "P-90633",
+      "squadNumber": 22,
+      "name": "Mbo Mpenza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2002-fr_d_ric_herpoel",
+      "identityId": "P-44716",
+      "squadNumber": 23,
+      "name": "Frédéric Herpoel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    }
+  ]
+}

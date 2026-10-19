@@ -1,0 +1,506 @@
+{
+  "teamName": "Iraq",
+  "teamCode": "IRA",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 78,
+  "players": [
+    {
+      "id": "iraq-2026-aymen_hussein",
+      "identityId": "identity-2026-aymen_hussein",
+      "squadNumber": 1,
+      "name": "Aymen Hussein",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Iraq. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "iraq-2026-ali_jasim",
+      "identityId": "identity-2026-ali_jasim",
+      "squadNumber": 2,
+      "name": "Ali Jasim",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Iraq. Regular starting lineup selection."
+    },
+    {
+      "id": "iraq-2026-zidane_iqbal",
+      "identityId": "identity-2026-zidane_iqbal",
+      "squadNumber": 3,
+      "name": "Zidane Iqbal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Iraq. Regular starting lineup selection."
+    },
+    {
+      "id": "iraq-2026-mohanad_ali",
+      "identityId": "identity-2026-mohanad_ali",
+      "squadNumber": 4,
+      "name": "Mohanad Ali",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Iraq. Regular starting lineup selection."
+    },
+    {
+      "id": "iraq-2026-jalal_hassan",
+      "identityId": "identity-2026-jalal_hassan",
+      "squadNumber": 5,
+      "name": "Jalal Hassan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. Regular starting lineup selection."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_6",
+      "identityId": "identity-2026-iraq_squad_member_6",
+      "squadNumber": 6,
+      "name": "Iraq Squad Member #6",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_7",
+      "identityId": "identity-2026-iraq_squad_member_7",
+      "squadNumber": 7,
+      "name": "Iraq Squad Member #7",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_8",
+      "identityId": "identity-2026-iraq_squad_member_8",
+      "squadNumber": 8,
+      "name": "Iraq Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_9",
+      "identityId": "identity-2026-iraq_squad_member_9",
+      "squadNumber": 9,
+      "name": "Iraq Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_10",
+      "identityId": "identity-2026-iraq_squad_member_10",
+      "squadNumber": 10,
+      "name": "Iraq Squad Member #10",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_11",
+      "identityId": "identity-2026-iraq_squad_member_11",
+      "squadNumber": 11,
+      "name": "Iraq Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_12",
+      "identityId": "identity-2026-iraq_squad_member_12",
+      "squadNumber": 12,
+      "name": "Iraq Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_13",
+      "identityId": "identity-2026-iraq_squad_member_13",
+      "squadNumber": 13,
+      "name": "Iraq Squad Member #13",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_14",
+      "identityId": "identity-2026-iraq_squad_member_14",
+      "squadNumber": 14,
+      "name": "Iraq Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_15",
+      "identityId": "identity-2026-iraq_squad_member_15",
+      "squadNumber": 15,
+      "name": "Iraq Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_16",
+      "identityId": "identity-2026-iraq_squad_member_16",
+      "squadNumber": 16,
+      "name": "Iraq Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_17",
+      "identityId": "identity-2026-iraq_squad_member_17",
+      "squadNumber": 17,
+      "name": "Iraq Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_18",
+      "identityId": "identity-2026-iraq_squad_member_18",
+      "squadNumber": 18,
+      "name": "Iraq Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_19",
+      "identityId": "identity-2026-iraq_squad_member_19",
+      "squadNumber": 19,
+      "name": "Iraq Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_20",
+      "identityId": "identity-2026-iraq_squad_member_20",
+      "squadNumber": 20,
+      "name": "Iraq Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_21",
+      "identityId": "identity-2026-iraq_squad_member_21",
+      "squadNumber": 21,
+      "name": "Iraq Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_22",
+      "identityId": "identity-2026-iraq_squad_member_22",
+      "squadNumber": 22,
+      "name": "Iraq Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    },
+    {
+      "id": "iraq-2026-iraq_squad_member_23",
+      "identityId": "identity-2026-iraq_squad_member_23",
+      "squadNumber": 23,
+      "name": "Iraq Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iraq. National squad reserve depth."
+    }
+  ]
+}

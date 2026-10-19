@@ -1,0 +1,498 @@
+{
+  "teamName": "Chile",
+  "teamCode": "CHL",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "chile-1966-pedro_araya",
+      "identityId": "P-47391",
+      "squadNumber": 1,
+      "name": "Pedro Araya",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-hugo_berly",
+      "identityId": "P-77734",
+      "squadNumber": 2,
+      "name": "Hugo Berly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-carlos_campos",
+      "identityId": "P-42198",
+      "squadNumber": 3,
+      "name": "Carlos Campos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-humberto_cruz",
+      "identityId": "P-23529",
+      "squadNumber": 4,
+      "name": "Humberto Cruz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-humberto_donoso",
+      "identityId": "P-98099",
+      "squadNumber": 5,
+      "name": "Humberto Donoso",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-luis_eyzaguirre",
+      "identityId": "P-15923",
+      "squadNumber": 6,
+      "name": "Luis Eyzaguirre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-el_as_figueroa",
+      "identityId": "P-95834",
+      "squadNumber": 7,
+      "name": "Elías Figueroa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-alberto_fouilloux",
+      "identityId": "P-69887",
+      "squadNumber": 8,
+      "name": "Alberto Fouilloux",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-ad_n_godoy",
+      "identityId": "P-80104",
+      "squadNumber": 9,
+      "name": "Adán Godoy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-roberto_hodge",
+      "identityId": "P-52787",
+      "squadNumber": 10,
+      "name": "Roberto Hodge",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-honorino_landa",
+      "identityId": "P-87363",
+      "squadNumber": 11,
+      "name": "Honorino Landa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Chile (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1966-rub_n_marcos",
+      "identityId": "P-83441",
+      "squadNumber": 12,
+      "name": "Rubén Marcos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1966 World Cup performance for Chile (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "chile-1966-juan_olivares",
+      "identityId": "P-61074",
+      "squadNumber": 13,
+      "name": "Juan Olivares",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-ignacio_prieto",
+      "identityId": "P-33539",
+      "squadNumber": 14,
+      "name": "Ignacio Prieto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-jaime_ram_rez",
+      "identityId": "P-98252",
+      "squadNumber": 15,
+      "name": "Jaime Ramírez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-orlando_ram_rez",
+      "identityId": "P-06141",
+      "squadNumber": 16,
+      "name": "Orlando Ramírez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-leonel_s_nchez",
+      "identityId": "P-22224",
+      "squadNumber": 17,
+      "name": "Leonel Sánchez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-armando_tobar",
+      "identityId": "P-04782",
+      "squadNumber": 18,
+      "name": "Armando Tobar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-francisco_vald_s",
+      "identityId": "P-39340",
+      "squadNumber": 19,
+      "name": "Francisco Valdés",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-alberto_valentini",
+      "identityId": "P-24618",
+      "squadNumber": 20,
+      "name": "Alberto Valentini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-hugo_villanueva",
+      "identityId": "P-42080",
+      "squadNumber": 21,
+      "name": "Hugo Villanueva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1966-guillermo_y_var",
+      "identityId": "P-27288",
+      "squadNumber": 22,
+      "name": "Guillermo Yávar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Chile (Group Stage). Squad reserve member."
+    }
+  ]
+}

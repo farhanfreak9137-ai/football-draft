@@ -1,0 +1,496 @@
+{
+  "teamName": "Haiti",
+  "teamCode": "HTI",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "haiti-1974-henri_fran_illon",
+      "identityId": "P-46307",
+      "squadNumber": 1,
+      "name": "Henri Françillon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "haiti-1974-wilfried_louis",
+      "identityId": "P-93412",
+      "squadNumber": 2,
+      "name": "Wilfried Louis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "haiti-1974-ars_ne_auguste",
+      "identityId": "P-47461",
+      "squadNumber": 3,
+      "name": "Arsène Auguste",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "haiti-1974-fritz_andr_",
+      "identityId": "P-67450",
+      "squadNumber": 4,
+      "name": "Fritz André",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "haiti-1974-serge_ducost_",
+      "identityId": "P-71319",
+      "squadNumber": 5,
+      "name": "Serge Ducosté",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "haiti-1974-pierre_bayonne",
+      "identityId": "P-28084",
+      "squadNumber": 6,
+      "name": "Pierre Bayonne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "haiti-1974-philippe_vorbe",
+      "identityId": "P-40069",
+      "squadNumber": 7,
+      "name": "Philippe Vorbe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "haiti-1974-jean-claude_d_sir",
+      "identityId": "P-83389",
+      "squadNumber": 8,
+      "name": "Jean-Claude Désir",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "haiti-1974-eddy_antoine",
+      "identityId": "P-54786",
+      "squadNumber": 9,
+      "name": "Eddy Antoine",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "haiti-1974-guy_fran_ois",
+      "identityId": "P-39155",
+      "squadNumber": 10,
+      "name": "Guy François",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "haiti-1974-guy_saint-vil",
+      "identityId": "P-58000",
+      "squadNumber": 11,
+      "name": "Guy Saint-Vil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "haiti-1974-ernst_jean-joseph",
+      "identityId": "P-13619",
+      "squadNumber": 12,
+      "name": "Ernst Jean-Joseph",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "haiti-1974-serge_racine",
+      "identityId": "P-11430",
+      "squadNumber": 13,
+      "name": "Serge Racine",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "haiti-1974-wilner_nazaire",
+      "identityId": "P-14414",
+      "squadNumber": 14,
+      "name": "Wilner Nazaire",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "haiti-1974-roger_saint-vil",
+      "identityId": "P-28638",
+      "squadNumber": 15,
+      "name": "Roger Saint-Vil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Haiti (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "haiti-1974-fritz_leandr_",
+      "identityId": "P-16092",
+      "squadNumber": 16,
+      "name": "Fritz Leandré",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Haiti (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "haiti-1974-joseph-marion_leandr_",
+      "identityId": "P-52149",
+      "squadNumber": 17,
+      "name": "Joseph-Marion Leandré",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Haiti (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "haiti-1974-claude_barth_lemy",
+      "identityId": "P-50623",
+      "squadNumber": 18,
+      "name": "Claude Barthélemy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Haiti (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "haiti-1974-jean-herbert_austin",
+      "identityId": "P-19426",
+      "squadNumber": 19,
+      "name": "Jean-Herbert Austin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Haiti (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "haiti-1974-emmanuel_sanon",
+      "identityId": "P-32958",
+      "squadNumber": 20,
+      "name": "Emmanuel Sanon",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1974 World Cup performance for Haiti (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "haiti-1974-wilner_piquant",
+      "identityId": "P-87822",
+      "squadNumber": 21,
+      "name": "Wilner Piquant",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Haiti (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "haiti-1974-g_rard_joseph",
+      "identityId": "P-42054",
+      "squadNumber": 22,
+      "name": "Gérard Joseph",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Haiti (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "teamName": "Croatia",
+  "teamCode": "HRV",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "croatia-2006-stipe_pletikosa",
+      "identityId": "P-85818",
+      "squadNumber": 1,
+      "name": "Stipe Pletikosa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-darijo_srna",
+      "identityId": "P-97008",
+      "squadNumber": 2,
+      "name": "Darijo Srna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2006-josip_imuni_",
+      "identityId": "P-29621",
+      "squadNumber": 3,
+      "name": "Josip Šimunić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-robert_kova_",
+      "identityId": "P-61666",
+      "squadNumber": 4,
+      "name": "Robert Kovač",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Croatia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "croatia-2006-igor_tudor",
+      "identityId": "P-42144",
+      "squadNumber": 5,
+      "name": "Igor Tudor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-jurica_vranje_",
+      "identityId": "P-91190",
+      "squadNumber": 6,
+      "name": "Jurica Vranješ",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2006-dario_imi_",
+      "identityId": "P-41724",
+      "squadNumber": 7,
+      "name": "Dario Šimić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-marko_babi_",
+      "identityId": "P-13539",
+      "squadNumber": 8,
+      "name": "Marko Babić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-dado_pr_o",
+      "identityId": "P-12373",
+      "squadNumber": 9,
+      "name": "Dado Pršo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-niko_kova_",
+      "identityId": "P-84378",
+      "squadNumber": 10,
+      "name": "Niko Kovač",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2006-mario_toki_",
+      "identityId": "P-36053",
+      "squadNumber": 11,
+      "name": "Mario Tokić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2006-joey_didulica",
+      "identityId": "P-59970",
+      "squadNumber": 12,
+      "name": "Joey Didulica",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2006-stjepan_tomas",
+      "identityId": "P-87187",
+      "squadNumber": 13,
+      "name": "Stjepan Tomas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Croatia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2006-luka_modri_",
+      "identityId": "P-29491",
+      "squadNumber": 14,
+      "name": "Luka Modrić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Croatia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "croatia-2006-ivan_leko",
+      "identityId": "P-31316",
+      "squadNumber": 15,
+      "name": "Ivan Leko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2006-jerko_leko",
+      "identityId": "P-92627",
+      "squadNumber": 16,
+      "name": "Jerko Leko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Croatia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "croatia-2006-ivan_klasni_",
+      "identityId": "P-38099",
+      "squadNumber": 17,
+      "name": "Ivan Klasnić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Croatia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "croatia-2006-ivica_oli_",
+      "identityId": "P-13265",
+      "squadNumber": 18,
+      "name": "Ivica Olić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Croatia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2006-niko_kranj_ar",
+      "identityId": "P-76289",
+      "squadNumber": 19,
+      "name": "Niko Kranjčar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2006-anthony_eri_",
+      "identityId": "P-31857",
+      "squadNumber": 20,
+      "name": "Anthony Šerić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2006-bo_ko_balaban",
+      "identityId": "P-53874",
+      "squadNumber": 21,
+      "name": "Boško Balaban",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2006-ivan_bo_njak",
+      "identityId": "P-15428",
+      "squadNumber": 22,
+      "name": "Ivan Bošnjak",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Croatia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "croatia-2006-tomislav_butina",
+      "identityId": "P-99830",
+      "squadNumber": 23,
+      "name": "Tomislav Butina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    }
+  ]
+}

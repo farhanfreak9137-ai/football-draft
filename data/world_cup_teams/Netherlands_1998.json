@@ -1,0 +1,496 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "netherlands-1998-edwin_van_der_sar",
+      "identityId": "P-26572",
+      "squadNumber": 1,
+      "name": "Edwin van der Sar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1998-michael_reiziger",
+      "identityId": "P-27926",
+      "squadNumber": 2,
+      "name": "Michael Reiziger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1998-jaap_stam",
+      "identityId": "P-46061",
+      "squadNumber": 3,
+      "name": "Jaap Stam",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1998-frank_de_boer",
+      "identityId": "P-32212",
+      "squadNumber": 4,
+      "name": "Frank de Boer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1998-arthur_numan",
+      "identityId": "P-92458",
+      "squadNumber": 5,
+      "name": "Arthur Numan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "netherlands-1998-wim_jonk",
+      "identityId": "P-27957",
+      "squadNumber": 6,
+      "name": "Wim Jonk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-1998-ronald_de_boer",
+      "identityId": "P-92804",
+      "squadNumber": 7,
+      "name": "Ronald de Boer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-dennis_bergkamp",
+      "identityId": "P-22409",
+      "squadNumber": 8,
+      "name": "Dennis Bergkamp",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-patrick_kluivert",
+      "identityId": "P-59191",
+      "squadNumber": 9,
+      "name": "Patrick Kluivert",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-clarence_seedorf",
+      "identityId": "P-88946",
+      "squadNumber": 10,
+      "name": "Clarence Seedorf",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-1998-phillip_cocu",
+      "identityId": "P-42224",
+      "squadNumber": 11,
+      "name": "Phillip Cocu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-boudewijn_zenden",
+      "identityId": "P-34767",
+      "squadNumber": 12,
+      "name": "Boudewijn Zenden",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-andr_ooijer",
+      "identityId": "P-96131",
+      "squadNumber": 13,
+      "name": "André Ooijer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1998-marc_overmars",
+      "identityId": "P-33834",
+      "squadNumber": 14,
+      "name": "Marc Overmars",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-winston_bogarde",
+      "identityId": "P-76156",
+      "squadNumber": 15,
+      "name": "Winston Bogarde",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "netherlands-1998-edgar_davids",
+      "identityId": "P-45916",
+      "squadNumber": 16,
+      "name": "Edgar Davids",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-pierre_van_hooijdonk",
+      "identityId": "P-88340",
+      "squadNumber": 17,
+      "name": "Pierre van Hooijdonk",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1998-ed_de_goey",
+      "identityId": "P-15829",
+      "squadNumber": 18,
+      "name": "Ed de Goey",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1998-giovanni_van_bronckhorst",
+      "identityId": "P-21832",
+      "squadNumber": 19,
+      "name": "Giovanni van Bronckhorst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1998-aron_winter",
+      "identityId": "P-42249",
+      "squadNumber": 20,
+      "name": "Aron Winter",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-1998-jimmy_floyd_hasselbaink",
+      "identityId": "P-30015",
+      "squadNumber": 21,
+      "name": "Jimmy Floyd Hasselbaink",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1998-ruud_hesp",
+      "identityId": "P-55197",
+      "squadNumber": 22,
+      "name": "Ruud Hesp",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Netherlands (Fourth Place). Squad reserve member."
+    }
+  ]
+}

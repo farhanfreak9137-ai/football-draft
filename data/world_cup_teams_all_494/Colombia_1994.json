@@ -1,0 +1,491 @@
+{
+  "teamName": "Colombia",
+  "teamCode": "COL",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "colombia-1994-_scar_c_rdoba",
+      "identityId": "P-24621",
+      "squadNumber": 1,
+      "name": "Óscar Córdoba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-andr_s_escobar",
+      "identityId": "P-70177",
+      "squadNumber": 2,
+      "name": "Andrés Escobar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-alexis_mendoza",
+      "identityId": "P-33086",
+      "squadNumber": 3,
+      "name": "Alexis Mendoza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1994-luis_fernando_herrera",
+      "identityId": "P-43980",
+      "squadNumber": 4,
+      "name": "Luis Fernando Herrera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-herm_n_gaviria",
+      "identityId": "P-42991",
+      "squadNumber": 5,
+      "name": "Hermán Gaviria",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Colombia (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1994-gabriel_g_mez",
+      "identityId": "P-31825",
+      "squadNumber": 6,
+      "name": "Gabriel Gómez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1994-antony_de_vila",
+      "identityId": "P-23692",
+      "squadNumber": 7,
+      "name": "Antony de Ávila",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1994-john_harold_lozano",
+      "identityId": "P-19743",
+      "squadNumber": 8,
+      "name": "John Harold Lozano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Colombia (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1994-iv_n_valenciano",
+      "identityId": "P-27157",
+      "squadNumber": 9,
+      "name": "Iván Valenciano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Colombia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-1994-carlos_valderrama",
+      "identityId": "P-49600",
+      "squadNumber": 10,
+      "name": "Carlos Valderrama",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-adolfo_valencia",
+      "identityId": "P-55994",
+      "squadNumber": 11,
+      "name": "Adolfo Valencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Colombia (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "colombia-1994-faryd_mondrag_n",
+      "identityId": "P-02080",
+      "squadNumber": 12,
+      "name": "Faryd Mondragón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1994-n_stor_ortiz",
+      "identityId": "P-41894",
+      "squadNumber": 13,
+      "name": "Néstor Ortiz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1994-leonel_lvarez",
+      "identityId": "P-10890",
+      "squadNumber": 14,
+      "name": "Leonel Álvarez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-luis_carlos_perea",
+      "identityId": "P-92695",
+      "squadNumber": 15,
+      "name": "Luis Carlos Perea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Colombia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-1994-v_ctor_aristiz_bal",
+      "identityId": "P-76247",
+      "squadNumber": 16,
+      "name": "Víctor Aristizábal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1994-mauricio_serna",
+      "identityId": "P-80178",
+      "squadNumber": 17,
+      "name": "Mauricio Serna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1994-_scar_cort_s",
+      "identityId": "P-28003",
+      "squadNumber": 18,
+      "name": "Óscar Cortés",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1994-freddy_rinc_n",
+      "identityId": "P-69504",
+      "squadNumber": 19,
+      "name": "Freddy Rincón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-wilson_p_rez",
+      "identityId": "P-06957",
+      "squadNumber": 20,
+      "name": "Wilson Pérez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-faustino_asprilla",
+      "identityId": "P-10444",
+      "squadNumber": 21,
+      "name": "Faustino Asprilla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1994-jos_mar_a_pazo",
+      "identityId": "P-42369",
+      "squadNumber": 22,
+      "name": "José María Pazo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    }
+  ]
+}

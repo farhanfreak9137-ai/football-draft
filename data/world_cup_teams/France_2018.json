@@ -1,0 +1,520 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "france-2018-hugo_lloris",
+      "identityId": "P-30711",
+      "squadNumber": 1,
+      "name": "Hugo Lloris",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2018-benjamin_pavard",
+      "identityId": "P-60652",
+      "squadNumber": 2,
+      "name": "Benjamin Pavard",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2018-presnel_kimpembe",
+      "identityId": "P-17174",
+      "squadNumber": 3,
+      "name": "Presnel Kimpembe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2018-rapha_l_varane",
+      "identityId": "P-42326",
+      "squadNumber": 4,
+      "name": "Raphaël Varane",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2018-samuel_umtiti",
+      "identityId": "P-67297",
+      "squadNumber": 5,
+      "name": "Samuel Umtiti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2018-paul_pogba",
+      "identityId": "P-17509",
+      "squadNumber": 6,
+      "name": "Paul Pogba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2018-antoine_griezmann",
+      "identityId": "P-90908",
+      "squadNumber": 7,
+      "name": "Antoine Griezmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Ball",
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2018 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 96 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 7 match(es). Scored 4 goal(s). Honors: Bronze Ball, Silver Boot."
+    },
+    {
+      "id": "france-2018-thomas_lemar",
+      "identityId": "P-07153",
+      "squadNumber": 8,
+      "name": "Thomas Lemar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2018-olivier_giroud",
+      "identityId": "P-89750",
+      "squadNumber": 9,
+      "name": "Olivier Giroud",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2018-kylian_mbapp_",
+      "identityId": "P-64077",
+      "squadNumber": 10,
+      "name": "Kylian Mbappé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 4,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 6 match(es). Scored 4 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "france-2018-ousmane_demb_l_",
+      "identityId": "P-97778",
+      "squadNumber": 11,
+      "name": "Ousmane Dembélé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2018-corentin_tolisso",
+      "identityId": "P-54461",
+      "squadNumber": 12,
+      "name": "Corentin Tolisso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2018-ngolo_kant_",
+      "identityId": "P-98287",
+      "squadNumber": 13,
+      "name": "N'Golo Kanté",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2018-blaise_matuidi",
+      "identityId": "P-04964",
+      "squadNumber": 14,
+      "name": "Blaise Matuidi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-2018-steven_nzonzi",
+      "identityId": "P-69451",
+      "squadNumber": 15,
+      "name": "Steven Nzonzi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2018-steve_mandanda",
+      "identityId": "P-69594",
+      "squadNumber": 16,
+      "name": "Steve Mandanda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2018-adil_rami",
+      "identityId": "P-40789",
+      "squadNumber": 17,
+      "name": "Adil Rami",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for France (Champions). Squad reserve member."
+    },
+    {
+      "id": "france-2018-nabil_fekir",
+      "identityId": "P-20754",
+      "squadNumber": 18,
+      "name": "Nabil Fekir",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 6,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for France (Champions). Substitute rotation option (6 sub app)."
+    },
+    {
+      "id": "france-2018-djibril_sidib_",
+      "identityId": "P-73306",
+      "squadNumber": 19,
+      "name": "Djibril Sidibé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for France (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2018-florian_thauvin",
+      "identityId": "P-71285",
+      "squadNumber": 20,
+      "name": "Florian Thauvin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for France (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-2018-lucas_hernandez",
+      "identityId": "P-84424",
+      "squadNumber": 21,
+      "name": "Lucas Hernandez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for France (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-2018-benjamin_mendy",
+      "identityId": "P-71816",
+      "squadNumber": 22,
+      "name": "Benjamin Mendy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for France (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-2018-alphonse_areola",
+      "identityId": "P-81466",
+      "squadNumber": 23,
+      "name": "Alphonse Areola",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for France (Champions). Squad reserve member."
+    }
+  ]
+}

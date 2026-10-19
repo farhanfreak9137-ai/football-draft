@@ -1,0 +1,493 @@
+{
+  "teamName": "Chile",
+  "teamCode": "CHL",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "chile-1982-oscar_wirth",
+      "identityId": "P-05974",
+      "squadNumber": 1,
+      "name": "Oscar Wirth",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1982-lizardo_garrido",
+      "identityId": "P-93218",
+      "squadNumber": 2,
+      "name": "Lizardo Garrido",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Chile (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "chile-1982-ren_valenzuela",
+      "identityId": "P-15628",
+      "squadNumber": 3,
+      "name": "René Valenzuela",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1982-vladimir_bigorra",
+      "identityId": "P-33323",
+      "squadNumber": 4,
+      "name": "Vladimir Bigorra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1982-el_as_figueroa",
+      "identityId": "P-95834",
+      "squadNumber": 5,
+      "name": "Elías Figueroa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1982-rodolfo_dub_",
+      "identityId": "P-26922",
+      "squadNumber": 6,
+      "name": "Rodolfo Dubó",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1982-eduardo_bonvallet",
+      "identityId": "P-31736",
+      "squadNumber": 7,
+      "name": "Eduardo Bonvallet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1982-carlos_rivas",
+      "identityId": "P-86201",
+      "squadNumber": 8,
+      "name": "Carlos Rivas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1982-juan_carlos_letelier",
+      "identityId": "P-43905",
+      "squadNumber": 9,
+      "name": "Juan Carlos Letelier",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1982 World Cup performance for Chile (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-1982-mario_soto",
+      "identityId": "P-64288",
+      "squadNumber": 10,
+      "name": "Mario Soto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Chile (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-1982-gustavo_moscoso",
+      "identityId": "P-56491",
+      "squadNumber": 11,
+      "name": "Gustavo Moscoso",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-1982-marco_cornez",
+      "identityId": "P-02230",
+      "squadNumber": 12,
+      "name": "Marco Cornez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1982-carlos_caszely",
+      "identityId": "P-57208",
+      "squadNumber": 13,
+      "name": "Carlos Caszely",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Chile (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "chile-1982-ra_l_orme_o",
+      "identityId": "P-74243",
+      "squadNumber": 14,
+      "name": "Raúl Ormeño",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1982-patricio_y_ez",
+      "identityId": "P-81864",
+      "squadNumber": 15,
+      "name": "Patricio Yáñez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1982-manuel_rojas",
+      "identityId": "P-12252",
+      "squadNumber": 16,
+      "name": "Manuel Rojas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Chile (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "chile-1982-oscar_rojas",
+      "identityId": "P-12971",
+      "squadNumber": 17,
+      "name": "Oscar Rojas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1982-mario_galindo",
+      "identityId": "P-36374",
+      "squadNumber": 18,
+      "name": "Mario Galindo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Chile (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-1982-enzo_escobar",
+      "identityId": "P-95822",
+      "squadNumber": 19,
+      "name": "Enzo Escobar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Chile (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "chile-1982-miguel_ngel_neira",
+      "identityId": "P-71032",
+      "squadNumber": 20,
+      "name": "Miguel Ángel Neira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Chile (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-1982-miguel_ngel_gamboa",
+      "identityId": "P-03126",
+      "squadNumber": 21,
+      "name": "Miguel Ángel Gamboa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Chile (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-1982-mario_osb_n",
+      "identityId": "P-10055",
+      "squadNumber": 22,
+      "name": "Mario Osbén",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Chile (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

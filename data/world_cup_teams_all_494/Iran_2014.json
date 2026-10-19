@@ -1,0 +1,516 @@
+{
+  "teamName": "Iran",
+  "teamCode": "IRN",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iran-2014-rahman_ahmadi",
+      "identityId": "P-37948",
+      "squadNumber": 1,
+      "name": "Rahman Ahmadi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-khosro_heydari",
+      "identityId": "P-82213",
+      "squadNumber": 2,
+      "name": "Khosro Heydari",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-2014-ehsan_hajsafi",
+      "identityId": "P-75785",
+      "squadNumber": 3,
+      "name": "Ehsan Hajsafi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-jalal_hosseini",
+      "identityId": "P-19512",
+      "squadNumber": 4,
+      "name": "Jalal Hosseini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-amir_hossein_sadeghi",
+      "identityId": "P-94570",
+      "squadNumber": 5,
+      "name": "Amir Hossein Sadeghi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-javad_nekounam",
+      "identityId": "P-59901",
+      "squadNumber": 6,
+      "name": "Javad Nekounam",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-masoud_shojaei",
+      "identityId": "P-00111",
+      "squadNumber": 7,
+      "name": "Masoud Shojaei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2014-reza_haghighi",
+      "identityId": "P-05990",
+      "squadNumber": 8,
+      "name": "Reza Haghighi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iran-2014-alireza_jahanbakhsh",
+      "identityId": "P-98775",
+      "squadNumber": 9,
+      "name": "Alireza Jahanbakhsh",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Iran (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "iran-2014-karim_ansarifard",
+      "identityId": "P-53957",
+      "squadNumber": 10,
+      "name": "Karim Ansarifard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iran-2014-ghasem_haddadifar",
+      "identityId": "P-70046",
+      "squadNumber": 11,
+      "name": "Ghasem Haddadifar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-alireza_haghighi",
+      "identityId": "P-13053",
+      "squadNumber": 12,
+      "name": "Alireza Haghighi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-hossein_mahini",
+      "identityId": "P-41304",
+      "squadNumber": 13,
+      "name": "Hossein Mahini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-andranik_teymourian",
+      "identityId": "P-20969",
+      "squadNumber": 14,
+      "name": "Andranik Teymourian",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-pejman_montazeri",
+      "identityId": "P-23272",
+      "squadNumber": 15,
+      "name": "Pejman Montazeri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-reza_ghoochannejhad",
+      "identityId": "P-85324",
+      "squadNumber": 16,
+      "name": "Reza Ghoochannejhad",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-2014-ahmad_alenemeh",
+      "identityId": "P-82861",
+      "squadNumber": 17,
+      "name": "Ahmad Alenemeh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-bakhtiar_rahmani",
+      "identityId": "P-15489",
+      "squadNumber": 18,
+      "name": "Bakhtiar Rahmani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-hashem_beikzadeh",
+      "identityId": "P-82054",
+      "squadNumber": 19,
+      "name": "Hashem Beikzadeh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-steven_beitashour",
+      "identityId": "P-07353",
+      "squadNumber": 20,
+      "name": "Steven Beitashour",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-ashkan_dejagah",
+      "identityId": "P-84406",
+      "squadNumber": 21,
+      "name": "Ashkan Dejagah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2014-daniel_davari",
+      "identityId": "P-32139",
+      "squadNumber": 22,
+      "name": "Daniel Davari",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2014-mehrdad_pooladi",
+      "identityId": "P-94249",
+      "squadNumber": 23,
+      "name": "Mehrdad Pooladi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

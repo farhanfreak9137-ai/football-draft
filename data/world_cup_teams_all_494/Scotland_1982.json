@@ -1,0 +1,496 @@
+{
+  "teamName": "Scotland",
+  "teamCode": "SCO",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "scotland-1982-alan_rough",
+      "identityId": "P-05695",
+      "squadNumber": 1,
+      "name": "Alan Rough",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1982-danny_mcgrain",
+      "identityId": "P-66125",
+      "squadNumber": 2,
+      "name": "Danny McGrain",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1982-frank_gray",
+      "identityId": "P-19146",
+      "squadNumber": 3,
+      "name": "Frank Gray",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1982-graeme_souness",
+      "identityId": "P-91562",
+      "squadNumber": 4,
+      "name": "Graeme Souness",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1982-alan_hansen",
+      "identityId": "P-72942",
+      "squadNumber": 5,
+      "name": "Alan Hansen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1982-willie_miller",
+      "identityId": "P-11356",
+      "squadNumber": 6,
+      "name": "Willie Miller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1982-gordon_strachan",
+      "identityId": "P-46604",
+      "squadNumber": 7,
+      "name": "Gordon Strachan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1982-kenny_dalglish",
+      "identityId": "P-68584",
+      "squadNumber": 8,
+      "name": "Kenny Dalglish",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1982-alan_brazil",
+      "identityId": "P-27545",
+      "squadNumber": 9,
+      "name": "Alan Brazil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1982-john_wark",
+      "identityId": "P-11027",
+      "squadNumber": 10,
+      "name": "John Wark",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "scotland-1982-john_robertson",
+      "identityId": "P-96391",
+      "squadNumber": 11,
+      "name": "John Robertson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1982-george_wood",
+      "identityId": "P-26253",
+      "squadNumber": 12,
+      "name": "George Wood",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1982-alex_mcleish",
+      "identityId": "P-53843",
+      "squadNumber": 13,
+      "name": "Alex McLeish",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Scotland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "scotland-1982-david_narey",
+      "identityId": "P-12472",
+      "squadNumber": 14,
+      "name": "David Narey",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1982-joe_jordan",
+      "identityId": "P-22480",
+      "squadNumber": 15,
+      "name": "Joe Jordan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1982-asa_hartford",
+      "identityId": "P-57616",
+      "squadNumber": 16,
+      "name": "Asa Hartford",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1982-allan_evans",
+      "identityId": "P-53126",
+      "squadNumber": 17,
+      "name": "Allan Evans",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1982-steve_archibald",
+      "identityId": "P-56094",
+      "squadNumber": 18,
+      "name": "Steve Archibald",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1982-paul_sturrock",
+      "identityId": "P-15973",
+      "squadNumber": 19,
+      "name": "Paul Sturrock",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1982-davie_provan",
+      "identityId": "P-85827",
+      "squadNumber": 20,
+      "name": "Davie Provan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1982-george_burley",
+      "identityId": "P-65495",
+      "squadNumber": 21,
+      "name": "George Burley",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1982-jim_leighton",
+      "identityId": "P-85003",
+      "squadNumber": 22,
+      "name": "Jim Leighton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    }
+  ]
+}

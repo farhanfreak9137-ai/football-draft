@@ -1,0 +1,583 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "uruguay-2022-fernando_muslera",
+      "identityId": "P-10014",
+      "squadNumber": 1,
+      "name": "Fernando Muslera",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2022-jos_gim_nez",
+      "identityId": "P-65659",
+      "squadNumber": 2,
+      "name": "José Giménez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2022-diego_god_n",
+      "identityId": "P-78440",
+      "squadNumber": 3,
+      "name": "Diego Godín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2022-ronald_ara_jo",
+      "identityId": "P-89869",
+      "squadNumber": 4,
+      "name": "Ronald Araújo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2022-mat_as_vecino",
+      "identityId": "P-46785",
+      "squadNumber": 5,
+      "name": "Matías Vecino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2022-rodrigo_bentancur",
+      "identityId": "P-58791",
+      "squadNumber": 6,
+      "name": "Rodrigo Bentancur",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2022-nicol_s_de_la_cruz",
+      "identityId": "P-86878",
+      "squadNumber": 7,
+      "name": "Nicolás de la Cruz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2022-facundo_pellistri",
+      "identityId": "P-95062",
+      "squadNumber": 8,
+      "name": "Facundo Pellistri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2022-luis_su_rez",
+      "identityId": "P-30486",
+      "squadNumber": 9,
+      "name": "Luis Suárez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2022-giorgian_de_arrascaeta",
+      "identityId": "P-62594",
+      "squadNumber": 10,
+      "name": "Giorgian De Arrascaeta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "uruguay-2022-darwin_n_ez",
+      "identityId": "P-18885",
+      "squadNumber": 11,
+      "name": "Darwin Núñez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2022-sebasti_n_sosa",
+      "identityId": "P-19914",
+      "squadNumber": 12,
+      "name": "Sebastián Sosa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2022-guillermo_varela",
+      "identityId": "P-78932",
+      "squadNumber": 13,
+      "name": "Guillermo Varela",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2022-lucas_torreira",
+      "identityId": "P-47386",
+      "squadNumber": 14,
+      "name": "Lucas Torreira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2022-federico_valverde",
+      "identityId": "P-05174",
+      "squadNumber": 15,
+      "name": "Federico Valverde",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2022-math_as_olivera",
+      "identityId": "P-90796",
+      "squadNumber": 16,
+      "name": "Mathías Olivera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2022-mat_as_vi_a",
+      "identityId": "P-18564",
+      "squadNumber": 17,
+      "name": "Matías Viña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2022-maxi_g_mez",
+      "identityId": "P-70671",
+      "squadNumber": 18,
+      "name": "Maxi Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2022-sebasti_n_coates",
+      "identityId": "P-20051",
+      "squadNumber": 19,
+      "name": "Sebastián Coates",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2022-facundo_torres",
+      "identityId": "P-68430",
+      "squadNumber": 20,
+      "name": "Facundo Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2022-edinson_cavani",
+      "identityId": "P-59138",
+      "squadNumber": 21,
+      "name": "Edinson Cavani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2022-mart_n_c_ceres",
+      "identityId": "P-74058",
+      "squadNumber": 22,
+      "name": "Martín Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2022-sergio_rochet",
+      "identityId": "P-00232",
+      "squadNumber": 23,
+      "name": "Sergio Rochet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2022-agust_n_canobbio",
+      "identityId": "P-24667",
+      "squadNumber": 24,
+      "name": "Agustín Canobbio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-2022-manuel_ugarte",
+      "identityId": "P-94091",
+      "squadNumber": 25,
+      "name": "Manuel Ugarte",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2022-jos_luis_rodr_guez",
+      "identityId": "P-55597",
+      "squadNumber": 26,
+      "name": "José Luis Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    }
+  ]
+}

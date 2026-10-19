@@ -1,0 +1,514 @@
+{
+  "teamName": "Nigeria",
+  "teamCode": "NGA",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "nigeria-2018-ikechukwu_ezenwa",
+      "identityId": "P-51723",
+      "squadNumber": 1,
+      "name": "Ikechukwu Ezenwa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-brian_idowu",
+      "identityId": "P-01347",
+      "squadNumber": 2,
+      "name": "Brian Idowu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2018-elderson_echi_jil_",
+      "identityId": "P-45065",
+      "squadNumber": 3,
+      "name": "Elderson Echiéjilé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-wilfred_ndidi",
+      "identityId": "P-61893",
+      "squadNumber": 4,
+      "name": "Wilfred Ndidi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2018-william_troost-ekong",
+      "identityId": "P-15870",
+      "squadNumber": 5,
+      "name": "William Troost-Ekong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2018-leon_balogun",
+      "identityId": "P-65978",
+      "squadNumber": 6,
+      "name": "Leon Balogun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2018-ahmed_musa",
+      "identityId": "P-19591",
+      "squadNumber": 7,
+      "name": "Ahmed Musa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "nigeria-2018-peter_etebo",
+      "identityId": "P-62455",
+      "squadNumber": 8,
+      "name": "Peter Etebo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2018-odion_ighalo",
+      "identityId": "P-14651",
+      "squadNumber": 9,
+      "name": "Odion Ighalo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2018-john_obi_mikel",
+      "identityId": "P-01164",
+      "squadNumber": 10,
+      "name": "John Obi Mikel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2018-victor_moses",
+      "identityId": "P-26900",
+      "squadNumber": 11,
+      "name": "Victor Moses",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-2018-shehu_abdullahi",
+      "identityId": "P-75724",
+      "squadNumber": 12,
+      "name": "Shehu Abdullahi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2018-simeon_nwankwo",
+      "identityId": "P-55236",
+      "squadNumber": 13,
+      "name": "Simeon Nwankwo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "nigeria-2018-kelechi_iheanacho",
+      "identityId": "P-08253",
+      "squadNumber": 14,
+      "name": "Kelechi Iheanacho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2018-joel_obi",
+      "identityId": "P-33715",
+      "squadNumber": 15,
+      "name": "Joel Obi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-daniel_akpeyi",
+      "identityId": "P-83020",
+      "squadNumber": 16,
+      "name": "Daniel Akpeyi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-ogenyi_onazi",
+      "identityId": "P-94774",
+      "squadNumber": 17,
+      "name": "Ogenyi Onazi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-alex_iwobi",
+      "identityId": "P-40578",
+      "squadNumber": 18,
+      "name": "Alex Iwobi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2018-john_ogu",
+      "identityId": "P-40341",
+      "squadNumber": 19,
+      "name": "John Ogu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-chidozie_awaziem",
+      "identityId": "P-27669",
+      "squadNumber": 20,
+      "name": "Chidozie Awaziem",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2018-tyronne_ebuehi",
+      "identityId": "P-12630",
+      "squadNumber": 21,
+      "name": "Tyronne Ebuehi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "nigeria-2018-kenneth_omeruo",
+      "identityId": "P-98806",
+      "squadNumber": 22,
+      "name": "Kenneth Omeruo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2018-francis_uzoho",
+      "identityId": "P-07594",
+      "squadNumber": 23,
+      "name": "Francis Uzoho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

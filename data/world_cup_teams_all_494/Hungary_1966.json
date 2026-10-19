@@ -1,0 +1,497 @@
+{
+  "teamName": "Hungary",
+  "teamCode": "HUN",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "hungary-1966-antal_szentmih_lyi",
+      "identityId": "P-05681",
+      "squadNumber": 1,
+      "name": "Antal Szentmihályi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-ben_k_poszta",
+      "identityId": "P-34606",
+      "squadNumber": 2,
+      "name": "Benő Káposzta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-s_ndor_m_trai",
+      "identityId": "P-61906",
+      "squadNumber": 3,
+      "name": "Sándor Mátrai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-k_lm_n_s_v_ri",
+      "identityId": "P-93850",
+      "squadNumber": 4,
+      "name": "Kálmán Sóvári",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-k_lm_n_m_sz_ly",
+      "identityId": "P-95637",
+      "squadNumber": 5,
+      "name": "Kálmán Mészöly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1966 World Cup performance for Hungary (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "hungary-1966-ferenc_sipos",
+      "identityId": "P-92656",
+      "squadNumber": 6,
+      "name": "Ferenc Sipos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-ferenc_bene",
+      "identityId": "P-82516",
+      "squadNumber": 7,
+      "name": "Ferenc Bene",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for Hungary (Group Stage). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "hungary-1966-zolt_n_varga",
+      "identityId": "P-88739",
+      "squadNumber": 8,
+      "name": "Zoltán Varga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-fl_ri_n_albert",
+      "identityId": "P-21188",
+      "squadNumber": 9,
+      "name": "Flórián Albert",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-j_nos_farkas",
+      "identityId": "P-74113",
+      "squadNumber": 10,
+      "name": "János Farkas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1966-gyula_r_kosi",
+      "identityId": "P-30138",
+      "squadNumber": 11,
+      "name": "Gyula Rákosi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1966-m_t_fenyvesi",
+      "identityId": "P-36108",
+      "squadNumber": 12,
+      "name": "Máté Fenyvesi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-imre_mathesz",
+      "identityId": "P-55221",
+      "squadNumber": 13,
+      "name": "Imre Mathesz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-istv_n_nagy",
+      "identityId": "P-99498",
+      "squadNumber": 14,
+      "name": "István Nagy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-dezs_moln_r",
+      "identityId": "P-35206",
+      "squadNumber": 15,
+      "name": "Dezső Molnár",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-lajos_tichy",
+      "identityId": "P-82971",
+      "squadNumber": 16,
+      "name": "Lajos Tichy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-guszt_v_szepesi",
+      "identityId": "P-49366",
+      "squadNumber": 17,
+      "name": "Gusztáv Szepesi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-k_lm_n_ih_sz",
+      "identityId": "P-52027",
+      "squadNumber": 18,
+      "name": "Kálmán Ihász",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-lajos_pusk_s",
+      "identityId": "P-82931",
+      "squadNumber": 19,
+      "name": "Lajos Puskás",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-antal_nagy",
+      "identityId": "P-07203",
+      "squadNumber": 20,
+      "name": "Antal Nagy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-j_zsef_gelei",
+      "identityId": "P-32722",
+      "squadNumber": 21,
+      "name": "József Gelei",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1966-istv_n_g_czi",
+      "identityId": "P-64569",
+      "squadNumber": 22,
+      "name": "István Géczi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "teamName": "Yugoslavia",
+  "teamCode": "YUG",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "yugoslavia-1982-dragan_panteli_",
+      "identityId": "P-76922",
+      "squadNumber": 1,
+      "name": "Dragan Pantelić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-ive_jerolimov",
+      "identityId": "P-75249",
+      "squadNumber": 2,
+      "name": "Ive Jerolimov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-ivan_gudelj",
+      "identityId": "P-96969",
+      "squadNumber": 3,
+      "name": "Ivan Gudelj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1982-velimir_zajec",
+      "identityId": "P-84644",
+      "squadNumber": 4,
+      "name": "Velimir Zajec",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-nenad_stojkovi_",
+      "identityId": "P-17336",
+      "squadNumber": 5,
+      "name": "Nenad Stojković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-zlatko_krmpoti_",
+      "identityId": "P-85024",
+      "squadNumber": 6,
+      "name": "Zlatko Krmpotić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1982-vladimir_petrovi_",
+      "identityId": "P-43672",
+      "squadNumber": 7,
+      "name": "Vladimir Petrović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1982-edhem_ljivo",
+      "identityId": "P-67521",
+      "squadNumber": 8,
+      "name": "Edhem Šljivo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-zoran_vujovi_",
+      "identityId": "P-68408",
+      "squadNumber": 9,
+      "name": "Zoran Vujović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-zvonko_ivkovi_",
+      "identityId": "P-10281",
+      "squadNumber": 10,
+      "name": "Zvonko Živković",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-zlatko_vujovi_",
+      "identityId": "P-83693",
+      "squadNumber": 11,
+      "name": "Zlatko Vujović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-ivan_pudar",
+      "identityId": "P-14305",
+      "squadNumber": 12,
+      "name": "Ivan Pudar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-safet_su_i_",
+      "identityId": "P-74361",
+      "squadNumber": 13,
+      "name": "Safet Sušić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-nikola_jovanovi_",
+      "identityId": "P-36045",
+      "squadNumber": 14,
+      "name": "Nikola Jovanović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-milo_hrsti_",
+      "identityId": "P-00707",
+      "squadNumber": 15,
+      "name": "Miloš Hrstić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1982-milo_esti_",
+      "identityId": "P-46658",
+      "squadNumber": 16,
+      "name": "Miloš Šestić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "yugoslavia-1982-jurica_jerkovi_",
+      "identityId": "P-27514",
+      "squadNumber": 17,
+      "name": "Jurica Jerković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-stjepan_deveri_",
+      "identityId": "P-56193",
+      "squadNumber": 18,
+      "name": "Stjepan Deverić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-vahid_halilhod_i_",
+      "identityId": "P-40780",
+      "squadNumber": 19,
+      "name": "Vahid Halilhodžić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "yugoslavia-1982-ivica_urjak",
+      "identityId": "P-28747",
+      "squadNumber": 20,
+      "name": "Ivica Šurjak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1982-predrag_pa_i_",
+      "identityId": "P-24680",
+      "squadNumber": 21,
+      "name": "Predrag Pašić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1982-ratko_svilar",
+      "identityId": "P-84659",
+      "squadNumber": 22,
+      "name": "Ratko Svilar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    }
+  ]
+}

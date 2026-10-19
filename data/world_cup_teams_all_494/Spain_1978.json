@@ -1,0 +1,494 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "spain-1978-luis_arconada",
+      "identityId": "P-84380",
+      "squadNumber": 1,
+      "name": "Luis Arconada",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1978-antonio_de_la_cruz",
+      "identityId": "P-26973",
+      "squadNumber": 2,
+      "name": "Antonio de la Cruz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1978-francisco_javier_ur_a",
+      "identityId": "P-29981",
+      "squadNumber": 3,
+      "name": "Francisco Javier Uría",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1978-juan_manuel_asensi",
+      "identityId": "P-57837",
+      "squadNumber": 4,
+      "name": "Juan Manuel Asensi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1978-migueli",
+      "identityId": "P-90350",
+      "squadNumber": 5,
+      "name": "Migueli",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1978-antonio_biosca",
+      "identityId": "P-70869",
+      "squadNumber": 6,
+      "name": "Antonio Biosca",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1978-dani",
+      "identityId": "P-40352",
+      "squadNumber": 7,
+      "name": "Dani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1978-juanito",
+      "identityId": "P-03571",
+      "squadNumber": 8,
+      "name": "Juanito",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1978-quini",
+      "identityId": "P-99707",
+      "squadNumber": 9,
+      "name": "Quini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Spain (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1978-santillana",
+      "identityId": "P-39440",
+      "squadNumber": 10,
+      "name": "Santillana",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1978-julio_carde_osa",
+      "identityId": "P-28881",
+      "squadNumber": 11,
+      "name": "Julio Cardeñosa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1978-antonio_guzm_n",
+      "identityId": "P-12922",
+      "squadNumber": 12,
+      "name": "Antonio Guzmán",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Spain (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1978-miguel_ngel",
+      "identityId": "P-23912",
+      "squadNumber": 13,
+      "name": "Miguel Ángel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1978-eugenio_leal",
+      "identityId": "P-15195",
+      "squadNumber": 14,
+      "name": "Eugenio Leal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1978-mara_n",
+      "identityId": "P-87767",
+      "squadNumber": 15,
+      "name": "Marañón",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1978-antonio_olmo",
+      "identityId": "P-40419",
+      "squadNumber": 16,
+      "name": "Antonio Olmo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1978-marcelino",
+      "identityId": "P-50273",
+      "squadNumber": 17,
+      "name": "Marcelino",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1978-pirri",
+      "identityId": "P-58423",
+      "squadNumber": 18,
+      "name": "Pirri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1978-carles_rexach",
+      "identityId": "P-78126",
+      "squadNumber": 19,
+      "name": "Carles Rexach",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1978-rub_n_cano",
+      "identityId": "P-38692",
+      "squadNumber": 20,
+      "name": "Rubén Cano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1978-isidoro_san_jos_",
+      "identityId": "P-26030",
+      "squadNumber": 21,
+      "name": "Isidoro San José",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1978-urruti",
+      "identityId": "P-44005",
+      "squadNumber": 22,
+      "name": "Urruti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Spain (Group Stage). Squad reserve member."
+    }
+  ]
+}

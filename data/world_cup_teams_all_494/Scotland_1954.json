@@ -1,0 +1,503 @@
+{
+  "teamName": "Scotland",
+  "teamCode": "SCO",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "scotland-1954-fred_martin",
+      "identityId": "P-78119",
+      "squadNumber": 1,
+      "name": "Fred Martin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-willie_cunningham",
+      "identityId": "P-39669",
+      "squadNumber": 2,
+      "name": "Willie Cunningham",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-jock_aird",
+      "identityId": "P-35569",
+      "squadNumber": 3,
+      "name": "Jock Aird",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-bobby_evans",
+      "identityId": "P-25807",
+      "squadNumber": 4,
+      "name": "Bobby Evans",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-tommy_docherty",
+      "identityId": "P-47080",
+      "squadNumber": 5,
+      "name": "Tommy Docherty",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-jimmy_davidson",
+      "identityId": "P-45574",
+      "squadNumber": 6,
+      "name": "Jimmy Davidson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-doug_cowie",
+      "identityId": "P-70753",
+      "squadNumber": 7,
+      "name": "Doug Cowie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-john_mackenzie",
+      "identityId": "P-60694",
+      "squadNumber": 8,
+      "name": "John Mackenzie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-george_hamilton",
+      "identityId": "P-28715",
+      "squadNumber": 9,
+      "name": "George Hamilton",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-allan_brown",
+      "identityId": "P-09457",
+      "squadNumber": 10,
+      "name": "Allan Brown",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-neil_mochan",
+      "identityId": "P-15894",
+      "squadNumber": 11,
+      "name": "Neil Mochan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Scotland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "scotland-1954-willie_fernie",
+      "identityId": "P-72928",
+      "squadNumber": 12,
+      "name": "Willie Fernie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-willie_ormond",
+      "identityId": "P-70361",
+      "squadNumber": 13,
+      "name": "Willie Ormond",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-john_anderson",
+      "identityId": "P-60745",
+      "squadNumber": 14,
+      "name": "John Anderson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-bobby_johnstone",
+      "identityId": "P-04087",
+      "squadNumber": 15,
+      "name": "Bobby Johnstone",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-jackie_henderson",
+      "identityId": "P-83598",
+      "squadNumber": 16,
+      "name": "Jackie Henderson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-david_mathers",
+      "identityId": "P-81374",
+      "squadNumber": 17,
+      "name": "David Mathers",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-alex_wilson",
+      "identityId": "P-42336",
+      "squadNumber": 18,
+      "name": "Alex Wilson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-jimmy_binning",
+      "identityId": "P-95817",
+      "squadNumber": 19,
+      "name": "Jimmy Binning",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-bobby_combe",
+      "identityId": "P-47525",
+      "squadNumber": 20,
+      "name": "Bobby Combe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-ernie_copland",
+      "identityId": "P-52450",
+      "squadNumber": 21,
+      "name": "Ernie Copland",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1954-ian_mcmillan",
+      "identityId": "P-43964",
+      "squadNumber": 22,
+      "name": "Ian McMillan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    }
+  ]
+}

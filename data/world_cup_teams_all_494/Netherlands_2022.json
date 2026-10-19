@@ -1,0 +1,583 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "netherlands-2022-remko_pasveer",
+      "identityId": "P-18921",
+      "squadNumber": 1,
+      "name": "Remko Pasveer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2022-jurri_n_timber",
+      "identityId": "P-74111",
+      "squadNumber": 2,
+      "name": "Jurriën Timber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-2022-matthijs_de_ligt",
+      "identityId": "P-73572",
+      "squadNumber": 3,
+      "name": "Matthijs de Ligt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2022-virgil_van_dijk",
+      "identityId": "P-56029",
+      "squadNumber": 4,
+      "name": "Virgil van Dijk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2022-nathan_ak_",
+      "identityId": "P-64438",
+      "squadNumber": 5,
+      "name": "Nathan Aké",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2022-stefan_de_vrij",
+      "identityId": "P-70280",
+      "squadNumber": 6,
+      "name": "Stefan de Vrij",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2022-steven_bergwijn",
+      "identityId": "P-44799",
+      "squadNumber": 7,
+      "name": "Steven Bergwijn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2022-cody_gakpo",
+      "identityId": "P-28911",
+      "squadNumber": 8,
+      "name": "Cody Gakpo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-luuk_de_jong",
+      "identityId": "P-64551",
+      "squadNumber": 9,
+      "name": "Luuk de Jong",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2022-memphis_depay",
+      "identityId": "P-27540",
+      "squadNumber": 10,
+      "name": "Memphis Depay",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-steven_berghuis",
+      "identityId": "P-10326",
+      "squadNumber": 11,
+      "name": "Steven Berghuis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2022-noa_lang",
+      "identityId": "P-57903",
+      "squadNumber": 12,
+      "name": "Noa Lang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2022-justin_bijlow",
+      "identityId": "P-15282",
+      "squadNumber": 13,
+      "name": "Justin Bijlow",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2022-davy_klaassen",
+      "identityId": "P-42078",
+      "squadNumber": 14,
+      "name": "Davy Klaassen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-marten_de_roon",
+      "identityId": "P-55965",
+      "squadNumber": 15,
+      "name": "Marten de Roon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2022-tyrell_malacia",
+      "identityId": "P-78630",
+      "squadNumber": 16,
+      "name": "Tyrell Malacia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2022-daley_blind",
+      "identityId": "P-39861",
+      "squadNumber": 17,
+      "name": "Daley Blind",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-vincent_janssen",
+      "identityId": "P-57087",
+      "squadNumber": 18,
+      "name": "Vincent Janssen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2022-wout_weghorst",
+      "identityId": "P-95036",
+      "squadNumber": 19,
+      "name": "Wout Weghorst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Substitute rotation option (4 sub app). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-teun_koopmeiners",
+      "identityId": "P-35705",
+      "squadNumber": 20,
+      "name": "Teun Koopmeiners",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2022-frenkie_de_jong",
+      "identityId": "P-17688",
+      "squadNumber": 21,
+      "name": "Frenkie de Jong",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-denzel_dumfries",
+      "identityId": "P-97615",
+      "squadNumber": 22,
+      "name": "Denzel Dumfries",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2022-andries_noppert",
+      "identityId": "P-82000",
+      "squadNumber": 23,
+      "name": "Andries Noppert",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2022-kenneth_taylor",
+      "identityId": "P-95763",
+      "squadNumber": 24,
+      "name": "Kenneth Taylor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2022-xavi_simons",
+      "identityId": "P-34458",
+      "squadNumber": 25,
+      "name": "Xavi Simons",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2022-jeremie_frimpong",
+      "identityId": "P-70227",
+      "squadNumber": 26,
+      "name": "Jeremie Frimpong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

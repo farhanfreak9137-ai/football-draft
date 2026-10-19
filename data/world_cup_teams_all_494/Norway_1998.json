@@ -1,0 +1,497 @@
+{
+  "teamName": "Norway",
+  "teamCode": "NOR",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "norway-1998-frode_grod_s",
+      "identityId": "P-14379",
+      "squadNumber": 1,
+      "name": "Frode Grodås",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "norway-1998-gunnar_halle",
+      "identityId": "P-83152",
+      "squadNumber": 2,
+      "name": "Gunnar Halle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Norway (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "norway-1998-ronny_johnsen",
+      "identityId": "P-65348",
+      "squadNumber": 3,
+      "name": "Ronny Johnsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "norway-1998-henning_berg",
+      "identityId": "P-25644",
+      "squadNumber": 4,
+      "name": "Henning Berg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "norway-1998-stig_inge_bj_rnebye",
+      "identityId": "P-52878",
+      "squadNumber": 5,
+      "name": "Stig Inge Bjørnebye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "norway-1998-st_le_solbakken",
+      "identityId": "P-75062",
+      "squadNumber": 6,
+      "name": "Ståle Solbakken",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Norway (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1998-erik_mykland",
+      "identityId": "P-48934",
+      "squadNumber": 7,
+      "name": "Erik Mykland",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Norway (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "norway-1998-_yvind_leonhardsen",
+      "identityId": "P-61579",
+      "squadNumber": 8,
+      "name": "Øyvind Leonhardsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1998-tore_andr_flo",
+      "identityId": "P-03442",
+      "squadNumber": 9,
+      "name": "Tore André Flo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "norway-1998-kjetil_rekdal",
+      "identityId": "P-72296",
+      "squadNumber": 10,
+      "name": "Kjetil Rekdal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "norway-1998-mini_jakobsen",
+      "identityId": "P-31031",
+      "squadNumber": 11,
+      "name": "Mini Jakobsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Norway (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "norway-1998-thomas_myhre",
+      "identityId": "P-99616",
+      "squadNumber": 12,
+      "name": "Thomas Myhre",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Norway (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "norway-1998-espen_baardsen",
+      "identityId": "P-31312",
+      "squadNumber": 13,
+      "name": "Espen Baardsen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Norway (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "norway-1998-vegard_heggem",
+      "identityId": "P-86211",
+      "squadNumber": 14,
+      "name": "Vegard Heggem",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Norway (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "norway-1998-dan_eggen",
+      "identityId": "P-59890",
+      "squadNumber": 15,
+      "name": "Dan Eggen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "norway-1998-jostein_flo",
+      "identityId": "P-94465",
+      "squadNumber": 16,
+      "name": "Jostein Flo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Norway (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "norway-1998-h_vard_flo",
+      "identityId": "P-99732",
+      "squadNumber": 17,
+      "name": "Håvard Flo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "norway-1998-egil_stenstad",
+      "identityId": "P-94822",
+      "squadNumber": 18,
+      "name": "Egil Østenstad",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Norway (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "norway-1998-erik_hoftun",
+      "identityId": "P-25187",
+      "squadNumber": 19,
+      "name": "Erik Hoftun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Norway (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "norway-1998-ole_gunnar_solskj_r",
+      "identityId": "P-63924",
+      "squadNumber": 20,
+      "name": "Ole Gunnar Solskjær",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Norway (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1998-vidar_riseth",
+      "identityId": "P-35373",
+      "squadNumber": 21,
+      "name": "Vidar Riseth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Norway (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1998-roar_strand",
+      "identityId": "P-21663",
+      "squadNumber": 22,
+      "name": "Roar Strand",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Norway (Round of 16). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "brazil-1954-carlos_jos_castilho",
+      "identityId": "P-86570",
+      "squadNumber": 1,
+      "name": "Carlos José Castilho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1954-djalma_santos",
+      "identityId": "P-52002",
+      "squadNumber": 2,
+      "name": "Djalma Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1954-n_lton_santos",
+      "identityId": "P-75955",
+      "squadNumber": 3,
+      "name": "Nílton Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1954-brand_ozinho",
+      "identityId": "P-25037",
+      "squadNumber": 4,
+      "name": "Brandãozinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1954-pinheiro",
+      "identityId": "P-16760",
+      "squadNumber": 5,
+      "name": "Pinheiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1954-bauer",
+      "identityId": "P-80201",
+      "squadNumber": 6,
+      "name": "Bauer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1954-julinho",
+      "identityId": "P-08966",
+      "squadNumber": 7,
+      "name": "Julinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1954 World Cup performance for Brazil (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1954-didi",
+      "identityId": "P-76740",
+      "squadNumber": 8,
+      "name": "Didi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1954 World Cup performance for Brazil (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1954-baltazar",
+      "identityId": "P-17754",
+      "squadNumber": 9,
+      "name": "Baltazar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1954-pinga",
+      "identityId": "P-15387",
+      "squadNumber": 10,
+      "name": "Pinga",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1954 World Cup performance for Brazil (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1954-rodrigues",
+      "identityId": "P-03310",
+      "squadNumber": 11,
+      "name": "Rodrigues",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Brazil (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1954-paulinho",
+      "identityId": "P-09512",
+      "squadNumber": 12,
+      "name": "Paulinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-alfredo",
+      "identityId": "P-93949",
+      "squadNumber": 13,
+      "name": "Alfredo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-ely",
+      "identityId": "P-69827",
+      "squadNumber": 14,
+      "name": "Ely",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-mauro_ramos",
+      "identityId": "P-34782",
+      "squadNumber": 15,
+      "name": "Mauro Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-dequinha",
+      "identityId": "P-15506",
+      "squadNumber": 16,
+      "name": "Dequinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-maurinho",
+      "identityId": "P-99918",
+      "squadNumber": 17,
+      "name": "Maurinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-humberto",
+      "identityId": "P-04721",
+      "squadNumber": 18,
+      "name": "Humberto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-_ndio",
+      "identityId": "P-38339",
+      "squadNumber": 19,
+      "name": "Índio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-rubens",
+      "identityId": "P-45852",
+      "squadNumber": 20,
+      "name": "Rubens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-veludo",
+      "identityId": "P-83158",
+      "squadNumber": 21,
+      "name": "Veludo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "brazil-1954-cabe_o",
+      "identityId": "P-46849",
+      "squadNumber": 22,
+      "name": "Cabeção",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Brazil (Group Stage). Squad reserve member."
+    }
+  ]
+}

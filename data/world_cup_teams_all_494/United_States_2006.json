@@ -1,0 +1,516 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "united_states-2006-tim_howard",
+      "identityId": "P-50522",
+      "squadNumber": 1,
+      "name": "Tim Howard",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-2006-chris_albright",
+      "identityId": "P-59999",
+      "squadNumber": 2,
+      "name": "Chris Albright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-2006-carlos_bocanegra",
+      "identityId": "P-12548",
+      "squadNumber": 3,
+      "name": "Carlos Bocanegra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2006-pablo_mastroeni",
+      "identityId": "P-58649",
+      "squadNumber": 4,
+      "name": "Pablo Mastroeni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2006-john_obrien",
+      "identityId": "P-88043",
+      "squadNumber": 5,
+      "name": "John O'Brien",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for United States (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-2006-steve_cherundolo",
+      "identityId": "P-77238",
+      "squadNumber": 6,
+      "name": "Steve Cherundolo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2006-eddie_lewis",
+      "identityId": "P-97784",
+      "squadNumber": 7,
+      "name": "Eddie Lewis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2006-clint_dempsey",
+      "identityId": "P-18672",
+      "squadNumber": 8,
+      "name": "Clint Dempsey",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2006-eddie_johnson",
+      "identityId": "P-80859",
+      "squadNumber": 9,
+      "name": "Eddie Johnson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for United States (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2006-claudio_reyna",
+      "identityId": "P-97459",
+      "squadNumber": 10,
+      "name": "Claudio Reyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2006-brian_ching",
+      "identityId": "P-71080",
+      "squadNumber": 11,
+      "name": "Brian Ching",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-2006-gregg_berhalter",
+      "identityId": "P-09888",
+      "squadNumber": 12,
+      "name": "Gregg Berhalter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-2006-jimmy_conrad",
+      "identityId": "P-83190",
+      "squadNumber": 13,
+      "name": "Jimmy Conrad",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2006-ben_olsen",
+      "identityId": "P-60945",
+      "squadNumber": 14,
+      "name": "Ben Olsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for United States (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-2006-bobby_convey",
+      "identityId": "P-42535",
+      "squadNumber": 15,
+      "name": "Bobby Convey",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2006-josh_wolff",
+      "identityId": "P-78068",
+      "squadNumber": 16,
+      "name": "Josh Wolff",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for United States (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-2006-damarcus_beasley",
+      "identityId": "P-91976",
+      "squadNumber": 17,
+      "name": "DaMarcus Beasley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2006-kasey_keller",
+      "identityId": "P-07553",
+      "squadNumber": 18,
+      "name": "Kasey Keller",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2006-marcus_hahnemann",
+      "identityId": "P-92673",
+      "squadNumber": 19,
+      "name": "Marcus Hahnemann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-2006-brian_mcbride",
+      "identityId": "P-60597",
+      "squadNumber": 20,
+      "name": "Brian McBride",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2006-landon_donovan",
+      "identityId": "P-05728",
+      "squadNumber": 21,
+      "name": "Landon Donovan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2006-oguchi_onyewu",
+      "identityId": "P-87765",
+      "squadNumber": 22,
+      "name": "Oguchi Onyewu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for United States (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2006-eddie_pope",
+      "identityId": "P-02842",
+      "squadNumber": 23,
+      "name": "Eddie Pope",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for United States (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

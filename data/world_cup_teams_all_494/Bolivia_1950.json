@@ -1,0 +1,502 @@
+{
+  "teamName": "Bolivia",
+  "teamCode": "BOL",
+  "year": 1950,
+  "tournament": "1950 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "bolivia-1950-alberto_ach_",
+      "identityId": "P-01989",
+      "squadNumber": 1,
+      "name": "Alberto Achá",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-v_ctor_celestino_algara_az",
+      "identityId": "P-11079",
+      "squadNumber": 2,
+      "name": "Víctor Celestino Algarañaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-alberto_aparicio",
+      "identityId": "P-71503",
+      "squadNumber": 3,
+      "name": "Alberto Aparicio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-duberty_ar_oz",
+      "identityId": "P-15436",
+      "squadNumber": 4,
+      "name": "Duberty Aráoz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-vicente_arraya",
+      "identityId": "P-32386",
+      "squadNumber": 5,
+      "name": "Vicente Arraya",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-juan_arricio",
+      "identityId": "P-46561",
+      "squadNumber": 6,
+      "name": "Juan Arricio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-v_ctor_brown",
+      "identityId": "P-44723",
+      "squadNumber": 7,
+      "name": "Víctor Brown",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-jos_bustamante",
+      "identityId": "P-20091",
+      "squadNumber": 8,
+      "name": "José Bustamante",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-ren_cabrera",
+      "identityId": "P-67363",
+      "squadNumber": 9,
+      "name": "René Cabrera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-roberto_capparelli",
+      "identityId": "P-05119",
+      "squadNumber": 10,
+      "name": "Roberto Capparelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-leonardo_ferrel",
+      "identityId": "P-72370",
+      "squadNumber": 11,
+      "name": "Leonardo Ferrel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Bolivia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "bolivia-1950-benedicto_godoy_v_izaga",
+      "identityId": "P-52656",
+      "squadNumber": 12,
+      "name": "Benedicto Godoy Véizaga",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-antonio_greco",
+      "identityId": "P-97528",
+      "squadNumber": 13,
+      "name": "Antonio Greco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-juan_guerra",
+      "identityId": "P-69661",
+      "squadNumber": 14,
+      "name": "Juan Guerra",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-benigno_guti_rrez",
+      "identityId": "P-25954",
+      "squadNumber": 15,
+      "name": "Benigno Gutiérrez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-eduardo_guti_rrez",
+      "identityId": "P-71481",
+      "squadNumber": 16,
+      "name": "Eduardo Gutiérrez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-benjamin_maldonado",
+      "identityId": "P-27174",
+      "squadNumber": 17,
+      "name": "Benjamin Maldonado",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-mario_mena",
+      "identityId": "P-58955",
+      "squadNumber": 18,
+      "name": "Mario Mena",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-humberto_saavedra",
+      "identityId": "P-11841",
+      "squadNumber": 19,
+      "name": "Humberto Saavedra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-eulogio_sandoval",
+      "identityId": "P-54466",
+      "squadNumber": 20,
+      "name": "Eulogio Sandoval",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-v_ctor_agust_n_ugarte",
+      "identityId": "P-97331",
+      "squadNumber": 21,
+      "name": "Víctor Agustín Ugarte",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1950-antonio_valencia",
+      "identityId": "P-05024",
+      "squadNumber": 22,
+      "name": "Antonio Valencia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    }
+  ]
+}

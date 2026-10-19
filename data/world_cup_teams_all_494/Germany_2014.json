@@ -1,0 +1,521 @@
+{
+  "teamName": "Germany",
+  "teamCode": "DEU",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "germany-2014-manuel_neuer",
+      "identityId": "P-19408",
+      "squadNumber": 1,
+      "name": "Manuel Neuer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2014 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "germany-2014-kevin_gro_kreutz",
+      "identityId": "P-97775",
+      "squadNumber": 2,
+      "name": "Kevin Großkreutz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "germany-2014-matthias_ginter",
+      "identityId": "P-36126",
+      "squadNumber": 3,
+      "name": "Matthias Ginter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "germany-2014-benedikt_h_wedes",
+      "identityId": "P-54036",
+      "squadNumber": 4,
+      "name": "Benedikt Höwedes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2014-mats_hummels",
+      "identityId": "P-81447",
+      "squadNumber": 5,
+      "name": "Mats Hummels",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "germany-2014-sami_khedira",
+      "identityId": "P-13029",
+      "squadNumber": 6,
+      "name": "Sami Khedira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2014-bastian_schweinsteiger",
+      "identityId": "P-43400",
+      "squadNumber": 7,
+      "name": "Bastian Schweinsteiger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-2014-mesut_zil",
+      "identityId": "P-12818",
+      "squadNumber": 8,
+      "name": "Mesut Özil",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2014-andr_sch_rrle",
+      "identityId": "P-46979",
+      "squadNumber": 9,
+      "name": "André Schürrle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 90,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 6,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Germany (Champions). Substitute rotation option (6 sub app). Scored 3 goal(s)."
+    },
+    {
+      "id": "germany-2014-lukas_podolski",
+      "identityId": "P-36287",
+      "squadNumber": 10,
+      "name": "Lukas Podolski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2014-miroslav_klose",
+      "identityId": "P-27787",
+      "squadNumber": 11,
+      "name": "Miroslav Klose",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "germany-2014-ron-robert_zieler",
+      "identityId": "P-41334",
+      "squadNumber": 12,
+      "name": "Ron-Robert Zieler",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "germany-2014-thomas_m_ller",
+      "identityId": "P-28154",
+      "squadNumber": 13,
+      "name": "Thomas Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Ball",
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2014 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 98 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Silver Ball, Silver Boot."
+    },
+    {
+      "id": "germany-2014-julian_draxler",
+      "identityId": "P-21524",
+      "squadNumber": 14,
+      "name": "Julian Draxler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2014 World Cup performance for Germany (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2014-erik_durm",
+      "identityId": "P-46023",
+      "squadNumber": 15,
+      "name": "Erik Durm",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "germany-2014-philipp_lahm",
+      "identityId": "P-18599",
+      "squadNumber": 16,
+      "name": "Philipp Lahm",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2014-per_mertesacker",
+      "identityId": "P-02328",
+      "squadNumber": 17,
+      "name": "Per Mertesacker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "germany-2014-toni_kroos",
+      "identityId": "P-39356",
+      "squadNumber": 18,
+      "name": "Toni Kroos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "germany-2014-mario_g_tze",
+      "identityId": "P-63673",
+      "squadNumber": 19,
+      "name": "Mario Götze",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "germany-2014-j_r_me_boateng",
+      "identityId": "P-04224",
+      "squadNumber": 20,
+      "name": "Jérôme Boateng",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2014-shkodran_mustafi",
+      "identityId": "P-67414",
+      "squadNumber": 21,
+      "name": "Shkodran Mustafi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2014-roman_weidenfeller",
+      "identityId": "P-27707",
+      "squadNumber": 22,
+      "name": "Roman Weidenfeller",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "germany-2014-christoph_kramer",
+      "identityId": "P-42177",
+      "squadNumber": 23,
+      "name": "Christoph Kramer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Germany (Champions). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

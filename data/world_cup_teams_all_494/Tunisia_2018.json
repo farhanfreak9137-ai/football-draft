@@ -1,0 +1,518 @@
+{
+  "teamName": "Tunisia",
+  "teamCode": "TUN",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "tunisia-2018-farouk_ben_mustapha",
+      "identityId": "P-55710",
+      "squadNumber": 1,
+      "name": "Farouk Ben Mustapha",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-syam_ben_youssef",
+      "identityId": "P-62629",
+      "squadNumber": 2,
+      "name": "Syam Ben Youssef",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2018-yohan_benalouane",
+      "identityId": "P-03191",
+      "squadNumber": 3,
+      "name": "Yohan Benalouane",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2018-yassine_meriah",
+      "identityId": "P-81706",
+      "squadNumber": 4,
+      "name": "Yassine Meriah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2018-oussama_haddadi",
+      "identityId": "P-88818",
+      "squadNumber": 5,
+      "name": "Oussama Haddadi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-rami_bedoui",
+      "identityId": "P-96029",
+      "squadNumber": 6,
+      "name": "Rami Bedoui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-sa_f-eddine_khaoui",
+      "identityId": "P-14196",
+      "squadNumber": 7,
+      "name": "Saîf-Eddine Khaoui",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-fakhreddine_ben_youssef",
+      "identityId": "P-94563",
+      "squadNumber": 8,
+      "name": "Fakhreddine Ben Youssef",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2018-anice_badri",
+      "identityId": "P-75361",
+      "squadNumber": 9,
+      "name": "Anice Badri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2018-wahbi_khazri",
+      "identityId": "P-42223",
+      "squadNumber": 10,
+      "name": "Wahbi Khazri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "tunisia-2018-dylan_bronn",
+      "identityId": "P-11879",
+      "squadNumber": 11,
+      "name": "Dylan Bronn",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2018-ali_ma_loul",
+      "identityId": "P-38981",
+      "squadNumber": 12,
+      "name": "Ali Maâloul",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2018-ferjani_sassi",
+      "identityId": "P-90867",
+      "squadNumber": 13,
+      "name": "Ferjani Sassi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2018-mohamed_amine_ben_amor",
+      "identityId": "P-21962",
+      "squadNumber": 14,
+      "name": "Mohamed Amine Ben Amor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2018-ahmed_khalil",
+      "identityId": "P-12859",
+      "squadNumber": 15,
+      "name": "Ahmed Khalil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2018-aymen_mathlouthi",
+      "identityId": "P-25989",
+      "squadNumber": 16,
+      "name": "Aymen Mathlouthi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-ellyes_skhiri",
+      "identityId": "P-47815",
+      "squadNumber": 17,
+      "name": "Ellyes Skhiri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2018-bassem_srarfi",
+      "identityId": "P-77301",
+      "squadNumber": 18,
+      "name": "Bassem Srarfi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2018-saber_khalifa",
+      "identityId": "P-02778",
+      "squadNumber": 19,
+      "name": "Saber Khalifa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2018-ghailene_chaalali",
+      "identityId": "P-09569",
+      "squadNumber": 20,
+      "name": "Ghailene Chaalali",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-hamdi_nagguez",
+      "identityId": "P-39664",
+      "squadNumber": 21,
+      "name": "Hamdi Nagguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-mouez_hassen",
+      "identityId": "P-57303",
+      "squadNumber": 22,
+      "name": "Mouez Hassen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2018-na_m_sliti",
+      "identityId": "P-69793",
+      "squadNumber": 23,
+      "name": "Naïm Sliti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

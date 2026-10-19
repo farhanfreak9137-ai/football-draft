@@ -1,0 +1,493 @@
+{
+  "teamName": "Scotland",
+  "teamCode": "SCO",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "scotland-1998-jim_leighton",
+      "identityId": "P-85003",
+      "squadNumber": 1,
+      "name": "Jim Leighton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1998-jackie_mcnamara",
+      "identityId": "P-95707",
+      "squadNumber": 2,
+      "name": "Jackie McNamara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1998-tom_boyd",
+      "identityId": "P-48864",
+      "squadNumber": 3,
+      "name": "Tom Boyd",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1998-colin_calderwood",
+      "identityId": "P-77029",
+      "squadNumber": 4,
+      "name": "Colin Calderwood",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1998-colin_hendry",
+      "identityId": "P-68779",
+      "squadNumber": 5,
+      "name": "Colin Hendry",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1998-tosh_mckinlay",
+      "identityId": "P-39255",
+      "squadNumber": 6,
+      "name": "Tosh McKinlay",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Scotland (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "scotland-1998-kevin_gallacher",
+      "identityId": "P-00189",
+      "squadNumber": 7,
+      "name": "Kevin Gallacher",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1998-craig_burley",
+      "identityId": "P-74264",
+      "squadNumber": 8,
+      "name": "Craig Burley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1998-gordon_durie",
+      "identityId": "P-39265",
+      "squadNumber": 9,
+      "name": "Gordon Durie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1998-darren_jackson",
+      "identityId": "P-56227",
+      "squadNumber": 10,
+      "name": "Darren Jackson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1998-john_collins",
+      "identityId": "P-39646",
+      "squadNumber": 11,
+      "name": "John Collins",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1998-neil_sullivan",
+      "identityId": "P-28281",
+      "squadNumber": 12,
+      "name": "Neil Sullivan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1998-simon_donnelly",
+      "identityId": "P-25813",
+      "squadNumber": 13,
+      "name": "Simon Donnelly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1998-paul_lambert",
+      "identityId": "P-30400",
+      "squadNumber": 14,
+      "name": "Paul Lambert",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1998-scot_gemmill",
+      "identityId": "P-85724",
+      "squadNumber": 15,
+      "name": "Scot Gemmill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1998-david_weir",
+      "identityId": "P-96166",
+      "squadNumber": 16,
+      "name": "David Weir",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1998-billy_mckinlay",
+      "identityId": "P-02421",
+      "squadNumber": 17,
+      "name": "Billy McKinlay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Scotland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "scotland-1998-matt_elliott",
+      "identityId": "P-14701",
+      "squadNumber": 18,
+      "name": "Matt Elliott",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1998-derek_whyte",
+      "identityId": "P-54290",
+      "squadNumber": 19,
+      "name": "Derek Whyte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1998-scott_booth",
+      "identityId": "P-51888",
+      "squadNumber": 20,
+      "name": "Scott Booth",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Scotland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "scotland-1998-jonathan_gould",
+      "identityId": "P-01355",
+      "squadNumber": 21,
+      "name": "Jonathan Gould",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1998-christian_dailly",
+      "identityId": "P-60841",
+      "squadNumber": 22,
+      "name": "Christian Dailly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

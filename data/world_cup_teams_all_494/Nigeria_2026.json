@@ -1,0 +1,519 @@
+{
+  "teamName": "Nigeria",
+  "teamCode": "NIG",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "nigeria-2026-victor_osimhen",
+      "identityId": "identity-2026-victor_osimhen",
+      "squadNumber": 1,
+      "name": "Victor Osimhen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "African Footballer of the Year & World Class Striker"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "African Footballer of the Year & World Class Striker",
+      "ratingRationale": "Rated 90 OVR for 2026 World Cup form with Nigeria. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "nigeria-2026-ademola_lookman",
+      "identityId": "identity-2026-ademola_lookman",
+      "squadNumber": 2,
+      "name": "Ademola Lookman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Europa League Final Hat-Trick Hero"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Europa League Final Hat-Trick Hero",
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Nigeria. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "nigeria-2026-victor_boniface",
+      "identityId": "identity-2026-victor_boniface",
+      "squadNumber": 3,
+      "name": "Victor Boniface",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Nigeria. Regular starting lineup selection."
+    },
+    {
+      "id": "nigeria-2026-wilfred_ndidi",
+      "identityId": "identity-2026-wilfred_ndidi",
+      "squadNumber": 4,
+      "name": "Wilfred Ndidi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Nigeria. Regular starting lineup selection."
+    },
+    {
+      "id": "nigeria-2026-alex_iwobi",
+      "identityId": "identity-2026-alex_iwobi",
+      "squadNumber": 5,
+      "name": "Alex Iwobi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Nigeria. Regular starting lineup selection."
+    },
+    {
+      "id": "nigeria-2026-calvin_bassey",
+      "identityId": "identity-2026-calvin_bassey",
+      "squadNumber": 6,
+      "name": "Calvin Bassey",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Nigeria. Regular starting lineup selection."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_7",
+      "identityId": "identity-2026-nigeria_squad_member_7",
+      "squadNumber": 7,
+      "name": "Nigeria Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_8",
+      "identityId": "identity-2026-nigeria_squad_member_8",
+      "squadNumber": 8,
+      "name": "Nigeria Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_9",
+      "identityId": "identity-2026-nigeria_squad_member_9",
+      "squadNumber": 9,
+      "name": "Nigeria Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_10",
+      "identityId": "identity-2026-nigeria_squad_member_10",
+      "squadNumber": 10,
+      "name": "Nigeria Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_11",
+      "identityId": "identity-2026-nigeria_squad_member_11",
+      "squadNumber": 11,
+      "name": "Nigeria Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_12",
+      "identityId": "identity-2026-nigeria_squad_member_12",
+      "squadNumber": 12,
+      "name": "Nigeria Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_13",
+      "identityId": "identity-2026-nigeria_squad_member_13",
+      "squadNumber": 13,
+      "name": "Nigeria Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_14",
+      "identityId": "identity-2026-nigeria_squad_member_14",
+      "squadNumber": 14,
+      "name": "Nigeria Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_15",
+      "identityId": "identity-2026-nigeria_squad_member_15",
+      "squadNumber": 15,
+      "name": "Nigeria Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_16",
+      "identityId": "identity-2026-nigeria_squad_member_16",
+      "squadNumber": 16,
+      "name": "Nigeria Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_17",
+      "identityId": "identity-2026-nigeria_squad_member_17",
+      "squadNumber": 17,
+      "name": "Nigeria Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_18",
+      "identityId": "identity-2026-nigeria_squad_member_18",
+      "squadNumber": 18,
+      "name": "Nigeria Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_19",
+      "identityId": "identity-2026-nigeria_squad_member_19",
+      "squadNumber": 19,
+      "name": "Nigeria Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_20",
+      "identityId": "identity-2026-nigeria_squad_member_20",
+      "squadNumber": 20,
+      "name": "Nigeria Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_21",
+      "identityId": "identity-2026-nigeria_squad_member_21",
+      "squadNumber": 21,
+      "name": "Nigeria Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_22",
+      "identityId": "identity-2026-nigeria_squad_member_22",
+      "squadNumber": 22,
+      "name": "Nigeria Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    },
+    {
+      "id": "nigeria-2026-nigeria_squad_member_23",
+      "identityId": "identity-2026-nigeria_squad_member_23",
+      "squadNumber": 23,
+      "name": "Nigeria Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Nigeria. National squad reserve depth."
+    }
+  ]
+}

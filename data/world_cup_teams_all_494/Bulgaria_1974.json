@@ -1,0 +1,496 @@
+{
+  "teamName": "Bulgaria",
+  "teamCode": "BGR",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "bulgaria-1974-rumyancho_goranov",
+      "identityId": "P-74765",
+      "squadNumber": 1,
+      "name": "Rumyancho Goranov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bulgaria-1974-ivan_zafirov",
+      "identityId": "P-97295",
+      "squadNumber": 2,
+      "name": "Ivan Zafirov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1974-dobromir_zhechev",
+      "identityId": "P-01172",
+      "squadNumber": 3,
+      "name": "Dobromir Zhechev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1974-stefko_velichkov",
+      "identityId": "P-75999",
+      "squadNumber": 4,
+      "name": "Stefko Velichkov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-bozhil_kolev",
+      "identityId": "P-35917",
+      "squadNumber": 5,
+      "name": "Bozhil Kolev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-dimitar_penev",
+      "identityId": "P-59856",
+      "squadNumber": 6,
+      "name": "Dimitar Penev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-voyn_voynov",
+      "identityId": "P-74402",
+      "squadNumber": 7,
+      "name": "Voyn Voynov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-hristo_bonev",
+      "identityId": "P-63835",
+      "squadNumber": 8,
+      "name": "Hristo Bonev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bulgaria-1974-atanas_mihailov",
+      "identityId": "P-95083",
+      "squadNumber": 9,
+      "name": "Atanas Mihailov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "bulgaria-1974-ivan_stoyanov",
+      "identityId": "P-80628",
+      "squadNumber": 10,
+      "name": "Ivan Stoyanov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1974-georgi_denev",
+      "identityId": "P-04554",
+      "squadNumber": 11,
+      "name": "Georgi Denev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-stefan_aladzhov",
+      "identityId": "P-30493",
+      "squadNumber": 12,
+      "name": "Stefan Aladzhov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1974-mladen_vasilev",
+      "identityId": "P-90799",
+      "squadNumber": 13,
+      "name": "Mladen Vasilev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bulgaria-1974-kiril_milanov",
+      "identityId": "P-68155",
+      "squadNumber": 14,
+      "name": "Kiril Milanov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1974-pavel_panov",
+      "identityId": "P-66322",
+      "squadNumber": 15,
+      "name": "Pavel Panov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-bozhidar_grigorov",
+      "identityId": "P-99127",
+      "squadNumber": 16,
+      "name": "Bozhidar Grigorov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1974-asparuh_nikodimov",
+      "identityId": "P-45469",
+      "squadNumber": 17,
+      "name": "Asparuh Nikodimov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bulgaria-1974-tsonyo_vasilev",
+      "identityId": "P-76230",
+      "squadNumber": 18,
+      "name": "Tsonyo Vasilev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-kiril_ivkov",
+      "identityId": "P-96963",
+      "squadNumber": 19,
+      "name": "Kiril Ivkov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1974-krasimir_borisov",
+      "identityId": "P-77670",
+      "squadNumber": 20,
+      "name": "Krasimir Borisov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bulgaria-1974-stefan_staykov",
+      "identityId": "P-62720",
+      "squadNumber": 21,
+      "name": "Stefan Staykov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1974-simeon_simeonov",
+      "identityId": "P-66734",
+      "squadNumber": 22,
+      "name": "Simeon Simeonov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Bulgaria (Group Stage). Squad reserve member."
+    }
+  ]
+}

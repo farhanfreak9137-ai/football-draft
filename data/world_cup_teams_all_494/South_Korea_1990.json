@@ -1,0 +1,496 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "south_korea-1990-poong-joo_kim",
+      "identityId": "P-95438",
+      "squadNumber": 1,
+      "name": "Poong-joo Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-1990-kyung-hoon_park",
+      "identityId": "P-43950",
+      "squadNumber": 2,
+      "name": "Kyung-hoon Park",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1990-kang-hee_choi",
+      "identityId": "P-35322",
+      "squadNumber": 3,
+      "name": "Kang-hee Choi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1990-deok-yeo_yoon",
+      "identityId": "P-99575",
+      "squadNumber": 4,
+      "name": "Deok-yeo Yoon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1990-yong-hwan_chung",
+      "identityId": "P-68971",
+      "squadNumber": 5,
+      "name": "Yong-hwan Chung",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1990-tae-ho_lee",
+      "identityId": "P-83876",
+      "squadNumber": 6,
+      "name": "Tae-ho Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for South Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-1990-soo-jin_noh",
+      "identityId": "P-66410",
+      "squadNumber": 7,
+      "name": "Soo-jin Noh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1990-hae-won_chung",
+      "identityId": "P-43076",
+      "squadNumber": 8,
+      "name": "Hae-won Chung",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1990-kwan_hwangbo",
+      "identityId": "P-76411",
+      "squadNumber": 9,
+      "name": "Kwan Hwangbo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-1990-sang-yoon_lee",
+      "identityId": "P-47850",
+      "squadNumber": 10,
+      "name": "Sang-yoon Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-1990-byung-joo_byun",
+      "identityId": "P-50938",
+      "squadNumber": 11,
+      "name": "Byung-joo Byun",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1990-heung-sil_lee",
+      "identityId": "P-86017",
+      "squadNumber": 12,
+      "name": "Heung-sil Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1990-jong-soo_chung",
+      "identityId": "P-65387",
+      "squadNumber": 13,
+      "name": "Jong-soo Chung",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1990-soon-ho_choi",
+      "identityId": "P-51349",
+      "squadNumber": 14,
+      "name": "Soon-ho Choi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1990-min-kook_cho",
+      "identityId": "P-74032",
+      "squadNumber": 15,
+      "name": "Min-kook Cho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for South Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-1990-joo-sung_kim",
+      "identityId": "P-95664",
+      "squadNumber": 16,
+      "name": "Joo-sung Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1990-sang-bum_gu",
+      "identityId": "P-90303",
+      "squadNumber": 17,
+      "name": "Sang-bum Gu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-1990-sun-hong_hwang",
+      "identityId": "P-15222",
+      "squadNumber": 18,
+      "name": "Sun-hong Hwang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-1990-gi-dong_jeong",
+      "identityId": "P-93046",
+      "squadNumber": 19,
+      "name": "Gi-dong Jeong",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-1990-myung-bo_hong",
+      "identityId": "P-55097",
+      "squadNumber": 20,
+      "name": "Myung-bo Hong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1990-in-young_choi",
+      "identityId": "P-20285",
+      "squadNumber": 21,
+      "name": "In-young Choi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-1990-young-jin_lee",
+      "identityId": "P-50333",
+      "squadNumber": 22,
+      "name": "Young-jin Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

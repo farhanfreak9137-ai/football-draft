@@ -1,0 +1,493 @@
+{
+  "teamName": "Soviet Union",
+  "teamCode": "SUN",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "soviet_union-1990-rinat_dasayev",
+      "identityId": "P-32342",
+      "squadNumber": 1,
+      "name": "Rinat Dasayev",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1990-volodymyr_bezsonov",
+      "identityId": "P-64968",
+      "squadNumber": 2,
+      "name": "Volodymyr Bezsonov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1990-vagiz_khidiyatullin",
+      "identityId": "P-56334",
+      "squadNumber": 3,
+      "name": "Vagiz Khidiyatullin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1990-oleh_kuznetsov",
+      "identityId": "P-86826",
+      "squadNumber": 4,
+      "name": "Oleh Kuznetsov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1990-anatoliy_demyanenko",
+      "identityId": "P-18580",
+      "squadNumber": 5,
+      "name": "Anatoliy Demyanenko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1990-vasyl_rats",
+      "identityId": "P-16126",
+      "squadNumber": 6,
+      "name": "Vasyl Rats",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1990-sergei_aleinikov",
+      "identityId": "P-86677",
+      "squadNumber": 7,
+      "name": "Sergei Aleinikov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1990-gennadiy_litovchenko",
+      "identityId": "P-48718",
+      "squadNumber": 8,
+      "name": "Gennadiy Litovchenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1990-oleksandr_zavarov",
+      "identityId": "P-27906",
+      "squadNumber": 9,
+      "name": "Oleksandr Zavarov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1990-oleh_protasov",
+      "identityId": "P-10906",
+      "squadNumber": 10,
+      "name": "Oleh Protasov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1990-igor_dobrovolski",
+      "identityId": "P-77250",
+      "squadNumber": 11,
+      "name": "Igor Dobrovolski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1990-aleksandr_borodyuk",
+      "identityId": "P-99207",
+      "squadNumber": 12,
+      "name": "Aleksandr Borodyuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "soviet_union-1990-akhrik_tsveiba",
+      "identityId": "P-15788",
+      "squadNumber": 13,
+      "name": "Akhrik Tsveiba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1990-volodymyr_lyutyi",
+      "identityId": "P-35793",
+      "squadNumber": 14,
+      "name": "Volodymyr Lyutyi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "soviet_union-1990-ivan_yaremchuk",
+      "identityId": "P-34497",
+      "squadNumber": 15,
+      "name": "Ivan Yaremchuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "soviet_union-1990-viktor_chanov",
+      "identityId": "P-90721",
+      "squadNumber": 16,
+      "name": "Viktor Chanov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1990-andrei_zygmantovich",
+      "identityId": "P-05885",
+      "squadNumber": 17,
+      "name": "Andrei Zygmantovich",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1990-igor_shalimov",
+      "identityId": "P-10165",
+      "squadNumber": 18,
+      "name": "Igor Shalimov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1990-sergei_fokin",
+      "identityId": "P-45890",
+      "squadNumber": 19,
+      "name": "Sergei Fokin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1990-sergei_gorlukovich",
+      "identityId": "P-06372",
+      "squadNumber": 20,
+      "name": "Sergei Gorlukovich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1990-valeri_broshin",
+      "identityId": "P-10577",
+      "squadNumber": 21,
+      "name": "Valeri Broshin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1990-aleksandr_uvarov",
+      "identityId": "P-77395",
+      "squadNumber": 22,
+      "name": "Aleksandr Uvarov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Soviet Union (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

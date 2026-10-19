@@ -1,0 +1,517 @@
+{
+  "teamName": "Croatia",
+  "teamCode": "HRV",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "croatia-2014-stipe_pletikosa",
+      "identityId": "P-85818",
+      "squadNumber": 1,
+      "name": "Stipe Pletikosa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2014-_ime_vrsaljko",
+      "identityId": "P-65425",
+      "squadNumber": 2,
+      "name": "Šime Vrsaljko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Croatia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "croatia-2014-danijel_pranji_",
+      "identityId": "P-52946",
+      "squadNumber": 3,
+      "name": "Danijel Pranjić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Croatia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "croatia-2014-ivan_peri_i_",
+      "identityId": "P-93884",
+      "squadNumber": 4,
+      "name": "Ivan Perišić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "croatia-2014-vedran_orluka",
+      "identityId": "P-08916",
+      "squadNumber": 5,
+      "name": "Vedran Ćorluka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2014-dejan_lovren",
+      "identityId": "P-56297",
+      "squadNumber": 6,
+      "name": "Dejan Lovren",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2014-ivan_rakiti_",
+      "identityId": "P-65979",
+      "squadNumber": 7,
+      "name": "Ivan Rakitić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2014-ognjen_vukojevi_",
+      "identityId": "P-02932",
+      "squadNumber": 8,
+      "name": "Ognjen Vukojević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2014-nikica_jelavi_",
+      "identityId": "P-65367",
+      "squadNumber": 9,
+      "name": "Nikica Jelavić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Croatia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2014-luka_modri_",
+      "identityId": "P-29491",
+      "squadNumber": 10,
+      "name": "Luka Modrić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2014-darijo_srna",
+      "identityId": "P-97008",
+      "squadNumber": 11,
+      "name": "Darijo Srna",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "croatia-2014-oliver_zelenika",
+      "identityId": "P-02919",
+      "squadNumber": 12,
+      "name": "Oliver Zelenika",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2014-gordon_schildenfeld",
+      "identityId": "P-33855",
+      "squadNumber": 13,
+      "name": "Gordon Schildenfeld",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2014-marcelo_brozovi_",
+      "identityId": "P-79215",
+      "squadNumber": 14,
+      "name": "Marcelo Brozović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Croatia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "croatia-2014-milan_badelj",
+      "identityId": "P-77789",
+      "squadNumber": 15,
+      "name": "Milan Badelj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2014-ante_rebi_",
+      "identityId": "P-44463",
+      "squadNumber": 16,
+      "name": "Ante Rebić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Croatia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "croatia-2014-mario_mand_uki_",
+      "identityId": "P-25745",
+      "squadNumber": 17,
+      "name": "Mario Mandžukić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Croatia (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "croatia-2014-ivica_oli_",
+      "identityId": "P-13265",
+      "squadNumber": 18,
+      "name": "Ivica Olić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Croatia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2014-sammir",
+      "identityId": "P-39138",
+      "squadNumber": 19,
+      "name": "Sammir",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Croatia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2014-mateo_kova_i_",
+      "identityId": "P-07670",
+      "squadNumber": 20,
+      "name": "Mateo Kovačić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Croatia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2014-domagoj_vida",
+      "identityId": "P-91294",
+      "squadNumber": 21,
+      "name": "Domagoj Vida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "croatia-2014-eduardo",
+      "identityId": "P-15665",
+      "squadNumber": 22,
+      "name": "Eduardo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Croatia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "croatia-2014-danijel_suba_i_",
+      "identityId": "P-25428",
+      "squadNumber": 23,
+      "name": "Danijel Subašić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Croatia (Group Stage). Squad reserve member."
+    }
+  ]
+}

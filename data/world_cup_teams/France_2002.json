@@ -1,0 +1,516 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "france-2002-ulrich_ram_",
+      "identityId": "P-59735",
+      "squadNumber": 1,
+      "name": "Ulrich Ramé",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2002-vincent_candela",
+      "identityId": "P-22876",
+      "squadNumber": 2,
+      "name": "Vincent Candela",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2002-bixente_lizarazu",
+      "identityId": "P-56735",
+      "squadNumber": 3,
+      "name": "Bixente Lizarazu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-patrick_vieira",
+      "identityId": "P-96540",
+      "squadNumber": 4,
+      "name": "Patrick Vieira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-philippe_christanval",
+      "identityId": "P-62062",
+      "squadNumber": 5,
+      "name": "Philippe Christanval",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2002-youri_djorkaeff",
+      "identityId": "P-80680",
+      "squadNumber": 6,
+      "name": "Youri Djorkaeff",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2002-claude_mak_l_l_",
+      "identityId": "P-93048",
+      "squadNumber": 7,
+      "name": "Claude Makélélé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2002-marcel_desailly",
+      "identityId": "P-79380",
+      "squadNumber": 8,
+      "name": "Marcel Desailly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-djibril_ciss_",
+      "identityId": "P-53533",
+      "squadNumber": 9,
+      "name": "Djibril Cissé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for France (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "france-2002-zinedine_zidane",
+      "identityId": "P-56430",
+      "squadNumber": 10,
+      "name": "Zinedine Zidane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2002-sylvain_wiltord",
+      "identityId": "P-00916",
+      "squadNumber": 11,
+      "name": "Sylvain Wiltord",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-thierry_henry",
+      "identityId": "P-51395",
+      "squadNumber": 12,
+      "name": "Thierry Henry",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2002-mika_l_silvestre",
+      "identityId": "P-66615",
+      "squadNumber": 13,
+      "name": "Mikaël Silvestre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2002-alain_boghossian",
+      "identityId": "P-10738",
+      "squadNumber": 14,
+      "name": "Alain Boghossian",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2002-lilian_thuram",
+      "identityId": "P-56947",
+      "squadNumber": 15,
+      "name": "Lilian Thuram",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-fabien_barthez",
+      "identityId": "P-55991",
+      "squadNumber": 16,
+      "name": "Fabien Barthez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-emmanuel_petit",
+      "identityId": "P-40400",
+      "squadNumber": 17,
+      "name": "Emmanuel Petit",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2002-frank_leboeuf",
+      "identityId": "P-19907",
+      "squadNumber": 18,
+      "name": "Frank Leboeuf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2002-willy_sagnol",
+      "identityId": "P-23315",
+      "squadNumber": 19,
+      "name": "Willy Sagnol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2002-david_trezeguet",
+      "identityId": "P-12167",
+      "squadNumber": 20,
+      "name": "David Trezeguet",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2002-christophe_dugarry",
+      "identityId": "P-74065",
+      "squadNumber": 21,
+      "name": "Christophe Dugarry",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2002-johan_micoud",
+      "identityId": "P-57906",
+      "squadNumber": 22,
+      "name": "Johan Micoud",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2002-gr_gory_coupet",
+      "identityId": "P-57021",
+      "squadNumber": 23,
+      "name": "Grégory Coupet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for France (Group Stage). Squad reserve member."
+    }
+  ]
+}

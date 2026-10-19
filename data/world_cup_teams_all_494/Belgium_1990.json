@@ -1,0 +1,493 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "belgium-1990-michel_preudhomme",
+      "identityId": "P-00531",
+      "squadNumber": 1,
+      "name": "Michel Preud'homme",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1990-eric_gerets",
+      "identityId": "P-73390",
+      "squadNumber": 2,
+      "name": "Eric Gerets",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1990-philippe_albert",
+      "identityId": "P-43307",
+      "squadNumber": 3,
+      "name": "Philippe Albert",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1990-leo_clijsters",
+      "identityId": "P-05723",
+      "squadNumber": 4,
+      "name": "Leo Clijsters",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1990-bruno_versavel",
+      "identityId": "P-51650",
+      "squadNumber": 5,
+      "name": "Bruno Versavel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1990-marc_emmers",
+      "identityId": "P-35636",
+      "squadNumber": 6,
+      "name": "Marc Emmers",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1990-st_phane_demol",
+      "identityId": "P-95299",
+      "squadNumber": 7,
+      "name": "Stéphane Demol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1990-franky_van_der_elst",
+      "identityId": "P-08623",
+      "squadNumber": 8,
+      "name": "Franky Van der Elst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-1990-marc_degryse",
+      "identityId": "P-28230",
+      "squadNumber": 9,
+      "name": "Marc Degryse",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1990-enzo_scifo",
+      "identityId": "P-97414",
+      "squadNumber": 10,
+      "name": "Enzo Scifo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1990-jan_ceulemans",
+      "identityId": "P-25456",
+      "squadNumber": 11,
+      "name": "Jan Ceulemans",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1990-gilbert_bodart",
+      "identityId": "P-47067",
+      "squadNumber": 12,
+      "name": "Gilbert Bodart",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1990-georges_gr_n",
+      "identityId": "P-99499",
+      "squadNumber": 13,
+      "name": "Georges Grün",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Belgium (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1990-nico_claesen",
+      "identityId": "P-47038",
+      "squadNumber": 14,
+      "name": "Nico Claesen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Belgium (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-1990-jean-fran_ois_de_sart",
+      "identityId": "P-11791",
+      "squadNumber": 15,
+      "name": "Jean-François De Sart",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1990-michel_de_wolf",
+      "identityId": "P-39297",
+      "squadNumber": 16,
+      "name": "Michel De Wolf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Belgium (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1990-pascal_plovie",
+      "identityId": "P-37431",
+      "squadNumber": 17,
+      "name": "Pascal Plovie",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Belgium (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "belgium-1990-lorenzo_staelens",
+      "identityId": "P-33618",
+      "squadNumber": 18,
+      "name": "Lorenzo Staelens",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1990-marc_van_der_linden",
+      "identityId": "P-03300",
+      "squadNumber": 19,
+      "name": "Marc Van Der Linden",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1990-filip_de_wilde",
+      "identityId": "P-72937",
+      "squadNumber": 20,
+      "name": "Filip De Wilde",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1990-marc_wilmots",
+      "identityId": "P-69659",
+      "squadNumber": 21,
+      "name": "Marc Wilmots",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Belgium (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "belgium-1990-patrick_vervoort",
+      "identityId": "P-92384",
+      "squadNumber": 22,
+      "name": "Patrick Vervoort",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Belgium (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    }
+  ]
+}

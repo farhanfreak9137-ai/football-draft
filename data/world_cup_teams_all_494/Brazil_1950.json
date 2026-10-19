@@ -1,0 +1,512 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1950,
+  "tournament": "1950 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "brazil-1950-ad_ozinho",
+      "identityId": "P-56943",
+      "squadNumber": 1,
+      "name": "Adãozinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-ademir",
+      "identityId": "P-49381",
+      "squadNumber": 2,
+      "name": "Ademir",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 97,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 9,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 FIFA World Cup Golden Boot Winner (9 Goals)",
+      "ratingRationale": "Rated 97 OVR based on 1950 World Cup performance for Brazil (Runners-up). Tournament standout and starting pillar. Scored 9 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "brazil-1950-alfredo",
+      "identityId": "P-83086",
+      "squadNumber": 3,
+      "name": "Alfredo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1950-augusto",
+      "identityId": "P-68961",
+      "squadNumber": 4,
+      "name": "Augusto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-baltazar",
+      "identityId": "P-17754",
+      "squadNumber": 5,
+      "name": "Baltazar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1950 World Cup performance for Brazil (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1950-barbosa",
+      "identityId": "P-54481",
+      "squadNumber": 6,
+      "name": "Barbosa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-bauer",
+      "identityId": "P-80201",
+      "squadNumber": 7,
+      "name": "Bauer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-bigode",
+      "identityId": "P-22051",
+      "squadNumber": 8,
+      "name": "Bigode",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-carlos_jos_castilho",
+      "identityId": "P-86570",
+      "squadNumber": 9,
+      "name": "Carlos José Castilho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-chico",
+      "identityId": "P-22428",
+      "squadNumber": 10,
+      "name": "Chico",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 World Cup Outstanding Forward (5 Goals)",
+      "ratingRationale": "Rated 93 OVR based on 1950 World Cup performance for Brazil (Runners-up). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "brazil-1950-danilo",
+      "identityId": "P-28983",
+      "squadNumber": 11,
+      "name": "Danilo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1950-ely",
+      "identityId": "P-69827",
+      "squadNumber": 12,
+      "name": "Ely",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-fria_a",
+      "identityId": "P-21738",
+      "squadNumber": 13,
+      "name": "Friaça",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1950-jair",
+      "identityId": "P-44754",
+      "squadNumber": 14,
+      "name": "Jair",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1950 World Cup performance for Brazil (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1950-juvenal",
+      "identityId": "P-06730",
+      "squadNumber": 15,
+      "name": "Juvenal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-maneca",
+      "identityId": "P-99436",
+      "squadNumber": 16,
+      "name": "Maneca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1950 World Cup performance for Brazil (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1950-nena",
+      "identityId": "P-59996",
+      "squadNumber": 17,
+      "name": "Nena",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-noronha",
+      "identityId": "P-48847",
+      "squadNumber": 18,
+      "name": "Noronha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-rodrigues",
+      "identityId": "P-03310",
+      "squadNumber": 19,
+      "name": "Rodrigues",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-rui",
+      "identityId": "P-17764",
+      "squadNumber": 20,
+      "name": "Rui",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-n_lton_santos",
+      "identityId": "P-75955",
+      "squadNumber": 21,
+      "name": "Nílton Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1950 World Cup performance for Brazil (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "brazil-1950-zizinho",
+      "identityId": "P-73743",
+      "squadNumber": 22,
+      "name": "Zizinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1950 World Cup performance for Brazil (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    }
+  ]
+}

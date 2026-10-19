@@ -1,0 +1,518 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "england-2018-jordan_pickford",
+      "identityId": "P-70618",
+      "squadNumber": 1,
+      "name": "Jordan Pickford",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "england-2018-kyle_walker",
+      "identityId": "P-74071",
+      "squadNumber": 2,
+      "name": "Kyle Walker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2018-danny_rose",
+      "identityId": "P-48480",
+      "squadNumber": 3,
+      "name": "Danny Rose",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2018-eric_dier",
+      "identityId": "P-31219",
+      "squadNumber": 4,
+      "name": "Eric Dier",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2018-john_stones",
+      "identityId": "P-92628",
+      "squadNumber": 5,
+      "name": "John Stones",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "england-2018-harry_maguire",
+      "identityId": "P-02465",
+      "squadNumber": 6,
+      "name": "Harry Maguire",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2018-jesse_lingard",
+      "identityId": "P-63620",
+      "squadNumber": 7,
+      "name": "Jesse Lingard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2018-jordan_henderson",
+      "identityId": "P-08169",
+      "squadNumber": 8,
+      "name": "Jordan Henderson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2018-harry_kane",
+      "identityId": "P-58924",
+      "squadNumber": 9,
+      "name": "Harry Kane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2018 FIFA World Cup Golden Boot Winner (6 Goals)",
+      "ratingRationale": "Rated 94 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es). Scored 6 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "england-2018-raheem_sterling",
+      "identityId": "P-21553",
+      "squadNumber": 10,
+      "name": "Raheem Sterling",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "england-2018-jamie_vardy",
+      "identityId": "P-74242",
+      "squadNumber": 11,
+      "name": "Jamie Vardy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2018-kieran_trippier",
+      "identityId": "P-25937",
+      "squadNumber": 12,
+      "name": "Kieran Trippier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2018-jack_butland",
+      "identityId": "P-38372",
+      "squadNumber": 13,
+      "name": "Jack Butland",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for England (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "england-2018-danny_welbeck",
+      "identityId": "P-50943",
+      "squadNumber": 14,
+      "name": "Danny Welbeck",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for England (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-2018-gary_cahill",
+      "identityId": "P-56280",
+      "squadNumber": 15,
+      "name": "Gary Cahill",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2018-phil_jones",
+      "identityId": "P-06851",
+      "squadNumber": 16,
+      "name": "Phil Jones",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2018-fabian_delph",
+      "identityId": "P-16053",
+      "squadNumber": 17,
+      "name": "Fabian Delph",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2018-ashley_young",
+      "identityId": "P-09246",
+      "squadNumber": 18,
+      "name": "Ashley Young",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2018-marcus_rashford",
+      "identityId": "P-59837",
+      "squadNumber": 19,
+      "name": "Marcus Rashford",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2018-dele_alli",
+      "identityId": "P-83363",
+      "squadNumber": 20,
+      "name": "Dele Alli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2018-ruben_loftus-cheek",
+      "identityId": "P-84745",
+      "squadNumber": 21,
+      "name": "Ruben Loftus-Cheek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for England (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2018-trent_alexander-arnold",
+      "identityId": "P-05318",
+      "squadNumber": 22,
+      "name": "Trent Alexander-Arnold",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2018-nick_pope",
+      "identityId": "P-89070",
+      "squadNumber": 23,
+      "name": "Nick Pope",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for England (Fourth Place). Squad reserve member."
+    }
+  ]
+}

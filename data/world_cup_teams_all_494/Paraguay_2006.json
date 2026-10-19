@@ -1,0 +1,516 @@
+{
+  "teamName": "Paraguay",
+  "teamCode": "PRY",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "paraguay-2006-justo_villar",
+      "identityId": "P-94060",
+      "squadNumber": 1,
+      "name": "Justo Villar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-2006-jorge_n_ez",
+      "identityId": "P-00429",
+      "squadNumber": 2,
+      "name": "Jorge Núñez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "paraguay-2006-delio_toledo",
+      "identityId": "P-42228",
+      "squadNumber": 3,
+      "name": "Delio Toledo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-2006-carlos_gamarra",
+      "identityId": "P-19241",
+      "squadNumber": 4,
+      "name": "Carlos Gamarra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-julio_c_sar_c_ceres",
+      "identityId": "P-50109",
+      "squadNumber": 5,
+      "name": "Julio César Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-carlos_bonet",
+      "identityId": "P-22302",
+      "squadNumber": 6,
+      "name": "Carlos Bonet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "paraguay-2006-salvador_caba_as",
+      "identityId": "P-54903",
+      "squadNumber": 7,
+      "name": "Salvador Cabañas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "paraguay-2006-_dgar_barreto",
+      "identityId": "P-44396",
+      "squadNumber": 8,
+      "name": "Édgar Barreto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-2006-roque_santa_cruz",
+      "identityId": "P-34530",
+      "squadNumber": 9,
+      "name": "Roque Santa Cruz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-roberto_acu_a",
+      "identityId": "P-17884",
+      "squadNumber": 10,
+      "name": "Roberto Acuña",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-diego_gavil_n",
+      "identityId": "P-75108",
+      "squadNumber": 11,
+      "name": "Diego Gavilán",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "paraguay-2006-derlis_g_mez",
+      "identityId": "P-53378",
+      "squadNumber": 12,
+      "name": "Derlis Gómez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "paraguay-2006-carlos_paredes",
+      "identityId": "P-42797",
+      "squadNumber": 13,
+      "name": "Carlos Paredes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-paulo_da_silva",
+      "identityId": "P-30891",
+      "squadNumber": 14,
+      "name": "Paulo da Silva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "paraguay-2006-julio_c_sar_manzur",
+      "identityId": "P-22470",
+      "squadNumber": 15,
+      "name": "Julio César Manzur",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "paraguay-2006-cristian_riveros",
+      "identityId": "P-78654",
+      "squadNumber": 16,
+      "name": "Cristian Riveros",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "paraguay-2006-jos_montiel",
+      "identityId": "P-51433",
+      "squadNumber": 17,
+      "name": "José Montiel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "paraguay-2006-nelson_haedo_valdez",
+      "identityId": "P-71995",
+      "squadNumber": 18,
+      "name": "Nelson Haedo Valdez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-julio_dos_santos",
+      "identityId": "P-35595",
+      "squadNumber": 19,
+      "name": "Julio dos Santos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-2006-dante_l_pez",
+      "identityId": "P-99403",
+      "squadNumber": 20,
+      "name": "Dante López",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "paraguay-2006-denis_caniza",
+      "identityId": "P-82458",
+      "squadNumber": 21,
+      "name": "Denis Caniza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-2006-aldo_bobadilla",
+      "identityId": "P-26126",
+      "squadNumber": 22,
+      "name": "Aldo Bobadilla",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "paraguay-2006-nelson_cuevas",
+      "identityId": "P-88899",
+      "squadNumber": 23,
+      "name": "Nelson Cuevas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Paraguay (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    }
+  ]
+}

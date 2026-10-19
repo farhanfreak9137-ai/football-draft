@@ -1,0 +1,515 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "brazil-2010-j_lio_c_sar",
+      "identityId": "P-11275",
+      "squadNumber": 1,
+      "name": "Júlio César",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2010-maicon",
+      "identityId": "P-94551",
+      "squadNumber": 2,
+      "name": "Maicon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2010-l_cio",
+      "identityId": "P-42918",
+      "squadNumber": 3,
+      "name": "Lúcio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2010-juan",
+      "identityId": "P-98607",
+      "squadNumber": 4,
+      "name": "Juan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2010-felipe_melo",
+      "identityId": "P-58840",
+      "squadNumber": 5,
+      "name": "Felipe Melo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2010-michel_bastos",
+      "identityId": "P-86163",
+      "squadNumber": 6,
+      "name": "Michel Bastos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2010-elano",
+      "identityId": "P-78264",
+      "squadNumber": 7,
+      "name": "Elano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2010-gilberto_silva",
+      "identityId": "P-45956",
+      "squadNumber": 8,
+      "name": "Gilberto Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2010-lu_s_fabiano",
+      "identityId": "P-98528",
+      "squadNumber": 9,
+      "name": "Luís Fabiano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "brazil-2010-kak_",
+      "identityId": "P-58388",
+      "squadNumber": 10,
+      "name": "Kaká",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2010-robinho",
+      "identityId": "P-13354",
+      "squadNumber": 11,
+      "name": "Robinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2010-heurelho_gomes",
+      "identityId": "P-27402",
+      "squadNumber": 12,
+      "name": "Heurelho Gomes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2010-dani_alves",
+      "identityId": "P-09441",
+      "squadNumber": 13,
+      "name": "Dani Alves",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-2010-luis_o",
+      "identityId": "P-32968",
+      "squadNumber": 14,
+      "name": "Luisão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2010-thiago_silva",
+      "identityId": "P-32798",
+      "squadNumber": 15,
+      "name": "Thiago Silva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2010-gilberto",
+      "identityId": "P-30363",
+      "squadNumber": 16,
+      "name": "Gilberto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-2010-josu_",
+      "identityId": "P-74066",
+      "squadNumber": 17,
+      "name": "Josué",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2010-ramires",
+      "identityId": "P-86499",
+      "squadNumber": 18,
+      "name": "Ramires",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2010-j_lio_baptista",
+      "identityId": "P-29075",
+      "squadNumber": 19,
+      "name": "Júlio Baptista",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2010-kl_berson",
+      "identityId": "P-79283",
+      "squadNumber": 20,
+      "name": "Kléberson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2010-nilmar",
+      "identityId": "P-25449",
+      "squadNumber": 21,
+      "name": "Nilmar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2010-doni",
+      "identityId": "P-61927",
+      "squadNumber": 22,
+      "name": "Doni",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2010-grafite",
+      "identityId": "P-82456",
+      "squadNumber": 23,
+      "name": "Grafite",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

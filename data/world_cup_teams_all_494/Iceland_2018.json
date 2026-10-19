@@ -1,0 +1,514 @@
+{
+  "teamName": "Iceland",
+  "teamCode": "ISL",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iceland-2018-hannes_r_halld_rsson",
+      "identityId": "P-37032",
+      "squadNumber": 1,
+      "name": "Hannes Þór Halldórsson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iceland-2018-birkir_m_r_s_varsson",
+      "identityId": "P-27331",
+      "squadNumber": 2,
+      "name": "Birkir Már Sævarsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iceland-2018-sam_el_fri_j_nsson",
+      "identityId": "P-68348",
+      "squadNumber": 3,
+      "name": "Samúel Friðjónsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iceland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iceland-2018-albert_gu_mundsson",
+      "identityId": "P-69192",
+      "squadNumber": 4,
+      "name": "Albert Guðmundsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Iceland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iceland-2018-sverrir_ingi_ingason",
+      "identityId": "P-82839",
+      "squadNumber": 5,
+      "name": "Sverrir Ingi Ingason",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iceland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iceland-2018-ragnar_sigur_sson",
+      "identityId": "P-13758",
+      "squadNumber": 6,
+      "name": "Ragnar Sigurðsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iceland-2018-j_hann_berg_gu_mundsson",
+      "identityId": "P-03161",
+      "squadNumber": 7,
+      "name": "Jóhann Berg Guðmundsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iceland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iceland-2018-birkir_bjarnason",
+      "identityId": "P-90675",
+      "squadNumber": 8,
+      "name": "Birkir Bjarnason",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iceland-2018-bj_rn_bergmann_sigur_arson",
+      "identityId": "P-73258",
+      "squadNumber": 9,
+      "name": "Björn Bergmann Sigurðarson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Iceland (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "iceland-2018-gylfi_sigur_sson",
+      "identityId": "P-83367",
+      "squadNumber": 10,
+      "name": "Gylfi Sigurðsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "iceland-2018-alfre_finnbogason",
+      "identityId": "P-70085",
+      "squadNumber": 11,
+      "name": "Alfreð Finnbogason",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "iceland-2018-frederik_schram",
+      "identityId": "P-93803",
+      "squadNumber": 12,
+      "name": "Frederik Schram",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iceland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iceland-2018-r_nar_alex_r_narsson",
+      "identityId": "P-77257",
+      "squadNumber": 13,
+      "name": "Rúnar Alex Rúnarsson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iceland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iceland-2018-k_ri_rnason",
+      "identityId": "P-45419",
+      "squadNumber": 14,
+      "name": "Kári Árnason",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iceland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iceland-2018-h_lmar_rn_eyj_lfsson",
+      "identityId": "P-09507",
+      "squadNumber": 15,
+      "name": "Hólmar Örn Eyjólfsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iceland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iceland-2018-_lafur_ingi_sk_lason",
+      "identityId": "P-05450",
+      "squadNumber": 16,
+      "name": "Ólafur Ingi Skúlason",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iceland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iceland-2018-aron_gunnarsson",
+      "identityId": "P-58772",
+      "squadNumber": 17,
+      "name": "Aron Gunnarsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iceland-2018-h_r_ur_bj_rgvin_magn_sson",
+      "identityId": "P-28803",
+      "squadNumber": 18,
+      "name": "Hörður Björgvin Magnússon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iceland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iceland-2018-r_rik_g_slason",
+      "identityId": "P-38514",
+      "squadNumber": 19,
+      "name": "Rúrik Gíslason",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iceland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iceland-2018-emil_hallfre_sson",
+      "identityId": "P-07013",
+      "squadNumber": 20,
+      "name": "Emil Hallfreðsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iceland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iceland-2018-arn_r_ingvi_traustason",
+      "identityId": "P-48976",
+      "squadNumber": 21,
+      "name": "Arnór Ingvi Traustason",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Iceland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iceland-2018-j_n_da_i_b_varsson",
+      "identityId": "P-31941",
+      "squadNumber": 22,
+      "name": "Jón Daði Böðvarsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iceland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iceland-2018-ari_freyr_sk_lason",
+      "identityId": "P-02559",
+      "squadNumber": 23,
+      "name": "Ari Freyr Skúlason",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Iceland (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

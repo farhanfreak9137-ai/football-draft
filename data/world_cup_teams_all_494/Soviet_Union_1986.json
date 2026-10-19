@@ -1,0 +1,493 @@
+{
+  "teamName": "Soviet Union",
+  "teamCode": "SUN",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "soviet_union-1986-rinat_dasayev",
+      "identityId": "P-32342",
+      "squadNumber": 1,
+      "name": "Rinat Dasayev",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1986-volodymyr_bezsonov",
+      "identityId": "P-64968",
+      "squadNumber": 2,
+      "name": "Volodymyr Bezsonov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1986-aleksandr_chivadze",
+      "identityId": "P-66593",
+      "squadNumber": 3,
+      "name": "Aleksandr Chivadze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1986-gennady_morozov",
+      "identityId": "P-04915",
+      "squadNumber": 4,
+      "name": "Gennady Morozov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1986-anatoliy_demyanenko",
+      "identityId": "P-18580",
+      "squadNumber": 5,
+      "name": "Anatoliy Demyanenko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1986-aleksandr_bubnov",
+      "identityId": "P-93918",
+      "squadNumber": 6,
+      "name": "Aleksandr Bubnov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1986-ivan_yaremchuk",
+      "identityId": "P-34497",
+      "squadNumber": 7,
+      "name": "Ivan Yaremchuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-pavel_yakovenko",
+      "identityId": "P-33328",
+      "squadNumber": 8,
+      "name": "Pavel Yakovenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-oleksandr_zavarov",
+      "identityId": "P-27906",
+      "squadNumber": 9,
+      "name": "Oleksandr Zavarov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-oleh_kuznetsov",
+      "identityId": "P-86826",
+      "squadNumber": 10,
+      "name": "Oleh Kuznetsov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "soviet_union-1986-oleh_blokhin",
+      "identityId": "P-03282",
+      "squadNumber": 11,
+      "name": "Oleh Blokhin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-andriy_bal",
+      "identityId": "P-27460",
+      "squadNumber": 12,
+      "name": "Andriy Bal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1986-gennadiy_litovchenko",
+      "identityId": "P-48718",
+      "squadNumber": 13,
+      "name": "Gennadiy Litovchenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1986-sergey_rodionov",
+      "identityId": "P-05562",
+      "squadNumber": 14,
+      "name": "Sergey Rodionov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-nikolay_larionov",
+      "identityId": "P-51110",
+      "squadNumber": 15,
+      "name": "Nikolay Larionov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1986-viktor_chanov",
+      "identityId": "P-90721",
+      "squadNumber": 16,
+      "name": "Viktor Chanov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1986-vadym_yevtushenko",
+      "identityId": "P-12978",
+      "squadNumber": 17,
+      "name": "Vadym Yevtushenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1986-oleh_protasov",
+      "identityId": "P-10906",
+      "squadNumber": 18,
+      "name": "Oleh Protasov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1986-ihor_belanov",
+      "identityId": "P-10855",
+      "squadNumber": 19,
+      "name": "Ihor Belanov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-sergei_aleinikov",
+      "identityId": "P-86677",
+      "squadNumber": 20,
+      "name": "Sergei Aleinikov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-vasyl_rats",
+      "identityId": "P-16126",
+      "squadNumber": 21,
+      "name": "Vasyl Rats",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1986-serhiy_krakovskiy",
+      "identityId": "P-08071",
+      "squadNumber": 22,
+      "name": "Serhiy Krakovskiy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    }
+  ]
+}

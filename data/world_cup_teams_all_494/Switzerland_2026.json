@@ -1,0 +1,512 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "SWI",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "3-4-2-1",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "switzerland-2026-granit_xhaka",
+      "identityId": "identity-2026-granit_xhaka",
+      "squadNumber": 1,
+      "name": "Granit Xhaka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "National Captain & Bundesliga Champion"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "National Captain & Bundesliga Champion",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Switzerland. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "switzerland-2026-manuel_akanji",
+      "identityId": "identity-2026-manuel_akanji",
+      "squadNumber": 2,
+      "name": "Manuel Akanji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Switzerland. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "switzerland-2026-yann_sommer",
+      "identityId": "identity-2026-yann_sommer",
+      "squadNumber": 3,
+      "name": "Yann Sommer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Switzerland. Regular starting lineup selection."
+    },
+    {
+      "id": "switzerland-2026-breel_embolo",
+      "identityId": "identity-2026-breel_embolo",
+      "squadNumber": 4,
+      "name": "Breel Embolo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Switzerland. Regular starting lineup selection."
+    },
+    {
+      "id": "switzerland-2026-remo_freuler",
+      "identityId": "identity-2026-remo_freuler",
+      "squadNumber": 5,
+      "name": "Remo Freuler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Switzerland. Regular starting lineup selection."
+    },
+    {
+      "id": "switzerland-2026-ruben_vargas",
+      "identityId": "identity-2026-ruben_vargas",
+      "squadNumber": 6,
+      "name": "Ruben Vargas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Switzerland. Regular starting lineup selection."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_7",
+      "identityId": "identity-2026-switzerland_squad_member_7",
+      "squadNumber": 7,
+      "name": "Switzerland Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_8",
+      "identityId": "identity-2026-switzerland_squad_member_8",
+      "squadNumber": 8,
+      "name": "Switzerland Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_9",
+      "identityId": "identity-2026-switzerland_squad_member_9",
+      "squadNumber": 9,
+      "name": "Switzerland Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_10",
+      "identityId": "identity-2026-switzerland_squad_member_10",
+      "squadNumber": 10,
+      "name": "Switzerland Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_11",
+      "identityId": "identity-2026-switzerland_squad_member_11",
+      "squadNumber": 11,
+      "name": "Switzerland Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_12",
+      "identityId": "identity-2026-switzerland_squad_member_12",
+      "squadNumber": 12,
+      "name": "Switzerland Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_13",
+      "identityId": "identity-2026-switzerland_squad_member_13",
+      "squadNumber": 13,
+      "name": "Switzerland Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_14",
+      "identityId": "identity-2026-switzerland_squad_member_14",
+      "squadNumber": 14,
+      "name": "Switzerland Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_15",
+      "identityId": "identity-2026-switzerland_squad_member_15",
+      "squadNumber": 15,
+      "name": "Switzerland Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_16",
+      "identityId": "identity-2026-switzerland_squad_member_16",
+      "squadNumber": 16,
+      "name": "Switzerland Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_17",
+      "identityId": "identity-2026-switzerland_squad_member_17",
+      "squadNumber": 17,
+      "name": "Switzerland Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_18",
+      "identityId": "identity-2026-switzerland_squad_member_18",
+      "squadNumber": 18,
+      "name": "Switzerland Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_19",
+      "identityId": "identity-2026-switzerland_squad_member_19",
+      "squadNumber": 19,
+      "name": "Switzerland Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_20",
+      "identityId": "identity-2026-switzerland_squad_member_20",
+      "squadNumber": 20,
+      "name": "Switzerland Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_21",
+      "identityId": "identity-2026-switzerland_squad_member_21",
+      "squadNumber": 21,
+      "name": "Switzerland Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_22",
+      "identityId": "identity-2026-switzerland_squad_member_22",
+      "squadNumber": 22,
+      "name": "Switzerland Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    },
+    {
+      "id": "switzerland-2026-switzerland_squad_member_23",
+      "identityId": "identity-2026-switzerland_squad_member_23",
+      "squadNumber": 23,
+      "name": "Switzerland Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Switzerland. National squad reserve depth."
+    }
+  ]
+}

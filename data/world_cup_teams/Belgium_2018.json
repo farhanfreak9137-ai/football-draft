@@ -1,0 +1,526 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "belgium-2018-thibaut_courtois",
+      "identityId": "P-09658",
+      "squadNumber": 1,
+      "name": "Thibaut Courtois",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2018 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "belgium-2018-toby_alderweireld",
+      "identityId": "P-70547",
+      "squadNumber": 2,
+      "name": "Toby Alderweireld",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "belgium-2018-thomas_vermaelen",
+      "identityId": "P-92866",
+      "squadNumber": 3,
+      "name": "Thomas Vermaelen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2018-vincent_kompany",
+      "identityId": "P-95269",
+      "squadNumber": 4,
+      "name": "Vincent Kompany",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "belgium-2018-jan_vertonghen",
+      "identityId": "P-64049",
+      "squadNumber": 5,
+      "name": "Jan Vertonghen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-axel_witsel",
+      "identityId": "P-53048",
+      "squadNumber": 6,
+      "name": "Axel Witsel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "belgium-2018-kevin_de_bruyne",
+      "identityId": "P-48955",
+      "squadNumber": 7,
+      "name": "Kevin De Bruyne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-marouane_fellaini",
+      "identityId": "P-63363",
+      "squadNumber": 8,
+      "name": "Marouane Fellaini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-romelu_lukaku",
+      "identityId": "P-72637",
+      "squadNumber": 9,
+      "name": "Romelu Lukaku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 6 match(es). Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "belgium-2018-eden_hazard",
+      "identityId": "P-72011",
+      "squadNumber": 10,
+      "name": "Eden Hazard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2018 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 94 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 6 match(es). Scored 3 goal(s). Honors: Silver Ball."
+    },
+    {
+      "id": "belgium-2018-yannick_carrasco",
+      "identityId": "P-06338",
+      "squadNumber": 11,
+      "name": "Yannick Carrasco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2018-simon_mignolet",
+      "identityId": "P-10313",
+      "squadNumber": 12,
+      "name": "Simon Mignolet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Belgium (Third Place). Squad reserve member."
+    },
+    {
+      "id": "belgium-2018-koen_casteels",
+      "identityId": "P-88715",
+      "squadNumber": 13,
+      "name": "Koen Casteels",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Belgium (Third Place). Squad reserve member."
+    },
+    {
+      "id": "belgium-2018-dries_mertens",
+      "identityId": "P-84852",
+      "squadNumber": 14,
+      "name": "Dries Mertens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-thomas_meunier",
+      "identityId": "P-22930",
+      "squadNumber": 15,
+      "name": "Thomas Meunier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-thorgan_hazard",
+      "identityId": "P-74337",
+      "squadNumber": 16,
+      "name": "Thorgan Hazard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-2018-youri_tielemans",
+      "identityId": "P-47906",
+      "squadNumber": 17,
+      "name": "Youri Tielemans",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2018-adnan_januzaj",
+      "identityId": "P-15896",
+      "squadNumber": 18,
+      "name": "Adnan Januzaj",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-mousa_demb_l_",
+      "identityId": "P-12533",
+      "squadNumber": 19,
+      "name": "Mousa Dembélé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-2018-dedryck_boyata",
+      "identityId": "P-85472",
+      "squadNumber": 20,
+      "name": "Dedryck Boyata",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-2018-michy_batshuayi",
+      "identityId": "P-13975",
+      "squadNumber": 21,
+      "name": "Michy Batshuayi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-nacer_chadli",
+      "identityId": "P-69919",
+      "squadNumber": 22,
+      "name": "Nacer Chadli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2018 World Cup performance for Belgium (Third Place). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-2018-leander_dendoncker",
+      "identityId": "P-73834",
+      "squadNumber": 23,
+      "name": "Leander Dendoncker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Belgium (Third Place). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "teamName": "Republic of Ireland",
+  "teamCode": "IRL",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "republic_of_ireland-1994-pat_bonner",
+      "identityId": "P-67839",
+      "squadNumber": 1,
+      "name": "Pat Bonner",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-denis_irwin",
+      "identityId": "P-25274",
+      "squadNumber": 2,
+      "name": "Denis Irwin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "republic_of_ireland-1994-terry_phelan",
+      "identityId": "P-99685",
+      "squadNumber": 3,
+      "name": "Terry Phelan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-kevin_moran",
+      "identityId": "P-15882",
+      "squadNumber": 4,
+      "name": "Kevin Moran",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1994-paul_mcgrath",
+      "identityId": "P-96122",
+      "squadNumber": 5,
+      "name": "Paul McGrath",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-roy_keane",
+      "identityId": "P-91106",
+      "squadNumber": 6,
+      "name": "Roy Keane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-andy_townsend",
+      "identityId": "P-28854",
+      "squadNumber": 7,
+      "name": "Andy Townsend",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-ray_houghton",
+      "identityId": "P-95491",
+      "squadNumber": 8,
+      "name": "Ray Houghton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-1994-john_aldridge",
+      "identityId": "P-42603",
+      "squadNumber": 9,
+      "name": "John Aldridge",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-1994-john_sheridan",
+      "identityId": "P-52963",
+      "squadNumber": 10,
+      "name": "John Sheridan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-steve_staunton",
+      "identityId": "P-69817",
+      "squadNumber": 11,
+      "name": "Steve Staunton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-gary_kelly",
+      "identityId": "P-07683",
+      "squadNumber": 12,
+      "name": "Gary Kelly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "republic_of_ireland-1994-alan_kernaghan",
+      "identityId": "P-20706",
+      "squadNumber": 13,
+      "name": "Alan Kernaghan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1994-phil_babb",
+      "identityId": "P-28514",
+      "squadNumber": 14,
+      "name": "Phil Babb",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-tommy_coyne",
+      "identityId": "P-90357",
+      "squadNumber": 15,
+      "name": "Tommy Coyne",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1994-tony_cascarino",
+      "identityId": "P-94106",
+      "squadNumber": 16,
+      "name": "Tony Cascarino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1994-eddie_mcgoldrick",
+      "identityId": "P-11747",
+      "squadNumber": 17,
+      "name": "Eddie McGoldrick",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1994-ronnie_whelan",
+      "identityId": "P-04391",
+      "squadNumber": 18,
+      "name": "Ronnie Whelan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1994-alan_mcloughlin",
+      "identityId": "P-87036",
+      "squadNumber": 19,
+      "name": "Alan McLoughlin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1994-david_kelly",
+      "identityId": "P-98535",
+      "squadNumber": 20,
+      "name": "David Kelly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1994-jason_mcateer",
+      "identityId": "P-15705",
+      "squadNumber": 21,
+      "name": "Jason McAteer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "republic_of_ireland-1994-alan_kelly",
+      "identityId": "P-33377",
+      "squadNumber": 22,
+      "name": "Alan Kelly",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Republic of Ireland (Round of 16). Squad reserve member."
+    }
+  ]
+}

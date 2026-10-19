@@ -1,0 +1,496 @@
+{
+  "teamName": "Paraguay",
+  "teamCode": "PRY",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "paraguay-1986-roberto_fern_ndez",
+      "identityId": "P-47269",
+      "squadNumber": 1,
+      "name": "Roberto Fernández",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-juan_torales",
+      "identityId": "P-13699",
+      "squadNumber": 2,
+      "name": "Juan Torales",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-c_sar_zabala",
+      "identityId": "P-60644",
+      "squadNumber": 3,
+      "name": "César Zabala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-vladimiro_schettina",
+      "identityId": "P-77194",
+      "squadNumber": 4,
+      "name": "Vladimiro Schettina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "paraguay-1986-rogelio_delgado",
+      "identityId": "P-20267",
+      "squadNumber": 5,
+      "name": "Rogelio Delgado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-jorge_amado_nunes",
+      "identityId": "P-56811",
+      "squadNumber": 6,
+      "name": "Jorge Amado Nunes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-buenaventura_ferreira",
+      "identityId": "P-16678",
+      "squadNumber": 7,
+      "name": "Buenaventura Ferreira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-julio_c_sar_romero",
+      "identityId": "P-73704",
+      "squadNumber": 8,
+      "name": "Julio César Romero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "paraguay-1986-roberto_caba_as",
+      "identityId": "P-29440",
+      "squadNumber": 9,
+      "name": "Roberto Cabañas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "paraguay-1986-adolfino_ca_ete",
+      "identityId": "P-53152",
+      "squadNumber": 10,
+      "name": "Adolfino Cañete",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-alfredo_mendoza",
+      "identityId": "P-97522",
+      "squadNumber": 11,
+      "name": "Alfredo Mendoza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "paraguay-1986-jorge_battaglia",
+      "identityId": "P-03297",
+      "squadNumber": 12,
+      "name": "Jorge Battaglia",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-virginio_c_ceres",
+      "identityId": "P-84056",
+      "squadNumber": 13,
+      "name": "Virginio Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-luis_caballero",
+      "identityId": "P-69529",
+      "squadNumber": 14,
+      "name": "Luis Caballero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-eufemio_cabral",
+      "identityId": "P-03360",
+      "squadNumber": 15,
+      "name": "Eufemio Cabral",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-jorge_guasch",
+      "identityId": "P-37560",
+      "squadNumber": 16,
+      "name": "Jorge Guasch",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "paraguay-1986-francisco_alcaraz",
+      "identityId": "P-34547",
+      "squadNumber": 17,
+      "name": "Francisco Alcaraz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-evaristo_isasi",
+      "identityId": "P-55219",
+      "squadNumber": 18,
+      "name": "Evaristo Isasi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-rolando_chilavert",
+      "identityId": "P-38392",
+      "squadNumber": 19,
+      "name": "Rolando Chilavert",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-ram_n_hicks",
+      "identityId": "P-74570",
+      "squadNumber": 20,
+      "name": "Ramón Hicks",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "paraguay-1986-faustino_alonso",
+      "identityId": "P-18120",
+      "squadNumber": 21,
+      "name": "Faustino Alonso",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "paraguay-1986-juli_n_coronel",
+      "identityId": "P-82332",
+      "squadNumber": 22,
+      "name": "Julián Coronel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Paraguay (Round of 16). Squad reserve member."
+    }
+  ]
+}

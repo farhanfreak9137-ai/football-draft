@@ -1,0 +1,502 @@
+{
+  "teamName": "Soviet Union",
+  "teamCode": "SUN",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "soviet_union-1966-lev_yashin",
+      "identityId": "P-09317",
+      "squadNumber": 1,
+      "name": "Lev Yashin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-viktor_serebryanikov",
+      "identityId": "P-60181",
+      "squadNumber": 2,
+      "name": "Viktor Serebryanikov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-leonid_ostrovskiy",
+      "identityId": "P-04392",
+      "squadNumber": 3,
+      "name": "Leonid Ostrovskiy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-vladimir_ponomaryov",
+      "identityId": "P-36991",
+      "squadNumber": 4,
+      "name": "Vladimir Ponomaryov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-valentin_afonin",
+      "identityId": "P-76618",
+      "squadNumber": 5,
+      "name": "Valentin Afonin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-albert_shesternyov",
+      "identityId": "P-28651",
+      "squadNumber": 6,
+      "name": "Albert Shesternyov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-murtaz_khurtsilava",
+      "identityId": "P-90524",
+      "squadNumber": 7,
+      "name": "Murtaz Khurtsilava",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-yozhef_sabo",
+      "identityId": "P-22661",
+      "squadNumber": 8,
+      "name": "Yozhef Sabo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-viktor_getmanov",
+      "identityId": "P-60231",
+      "squadNumber": 9,
+      "name": "Viktor Getmanov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-vasiliy_danilov",
+      "identityId": "P-40669",
+      "squadNumber": 10,
+      "name": "Vasiliy Danilov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1966-igor_chislenko",
+      "identityId": "P-38721",
+      "squadNumber": 11,
+      "name": "Igor Chislenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "soviet_union-1966-valery_voronin",
+      "identityId": "P-63252",
+      "squadNumber": 12,
+      "name": "Valery Voronin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-alexey_korneyev",
+      "identityId": "P-99442",
+      "squadNumber": 13,
+      "name": "Alexey Korneyev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-georgi_sichinava",
+      "identityId": "P-24268",
+      "squadNumber": 14,
+      "name": "Georgi Sichinava",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-galimzyan_khusainov",
+      "identityId": "P-57969",
+      "squadNumber": 15,
+      "name": "Galimzyan Khusainov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-slava_metreveli",
+      "identityId": "P-19936",
+      "squadNumber": 16,
+      "name": "Slava Metreveli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-valeriy_porkujan",
+      "identityId": "P-53800",
+      "squadNumber": 17,
+      "name": "Valeriy Porkujan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "soviet_union-1966-anatoliy_banishevskiy",
+      "identityId": "P-44798",
+      "squadNumber": 18,
+      "name": "Anatoliy Banishevskiy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1966-eduard_malofeyev",
+      "identityId": "P-83456",
+      "squadNumber": 19,
+      "name": "Eduard Malofeyev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "soviet_union-1966-eduard_markarov",
+      "identityId": "P-87023",
+      "squadNumber": 20,
+      "name": "Eduard Markarov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-anzor_kavazashvili",
+      "identityId": "P-79597",
+      "squadNumber": 21,
+      "name": "Anzor Kavazashvili",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1966-viktor_bannikov",
+      "identityId": "P-91040",
+      "squadNumber": 22,
+      "name": "Viktor Bannikov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Soviet Union (Fourth Place). Squad reserve member."
+    }
+  ]
+}

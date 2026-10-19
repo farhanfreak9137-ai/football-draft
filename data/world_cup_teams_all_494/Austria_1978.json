@@ -1,0 +1,496 @@
+{
+  "teamName": "Austria",
+  "teamCode": "AUT",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "austria-1978-friedrich_koncilia",
+      "identityId": "P-62318",
+      "squadNumber": 1,
+      "name": "Friedrich Koncilia",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "austria-1978-robert_sara",
+      "identityId": "P-47233",
+      "squadNumber": 2,
+      "name": "Robert Sara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "austria-1978-erich_obermayer",
+      "identityId": "P-61365",
+      "squadNumber": 3,
+      "name": "Erich Obermayer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1978-gerhard_breitenberger",
+      "identityId": "P-49343",
+      "squadNumber": 4,
+      "name": "Gerhard Breitenberger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "austria-1978-bruno_pezzey",
+      "identityId": "P-92720",
+      "squadNumber": 5,
+      "name": "Bruno Pezzey",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "austria-1978-roland_hattenberger",
+      "identityId": "P-31109",
+      "squadNumber": 6,
+      "name": "Roland Hattenberger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Austria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "austria-1978-josef_hickersberger",
+      "identityId": "P-68078",
+      "squadNumber": 7,
+      "name": "Josef Hickersberger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "austria-1978-herbert_prohaska",
+      "identityId": "P-03451",
+      "squadNumber": 8,
+      "name": "Herbert Prohaska",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "austria-1978-hans_krankl",
+      "identityId": "P-52271",
+      "squadNumber": 9,
+      "name": "Hans Krankl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "austria-1978-wilhelm_kreuz",
+      "identityId": "P-25569",
+      "squadNumber": 10,
+      "name": "Wilhelm Kreuz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "austria-1978-kurt_jara",
+      "identityId": "P-90221",
+      "squadNumber": 11,
+      "name": "Kurt Jara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "austria-1978-eduard_krieger",
+      "identityId": "P-15636",
+      "squadNumber": 12,
+      "name": "Eduard Krieger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "austria-1978-g_nther_happich",
+      "identityId": "P-73149",
+      "squadNumber": 13,
+      "name": "Günther Happich",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Austria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "austria-1978-heinrich_strasser",
+      "identityId": "P-80182",
+      "squadNumber": 14,
+      "name": "Heinrich Strasser",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Austria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "austria-1978-heribert_weber",
+      "identityId": "P-05699",
+      "squadNumber": 15,
+      "name": "Heribert Weber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Austria (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "austria-1978-peter_persidis",
+      "identityId": "P-27925",
+      "squadNumber": 16,
+      "name": "Peter Persidis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Austria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "austria-1978-franz_oberacher",
+      "identityId": "P-75962",
+      "squadNumber": 17,
+      "name": "Franz Oberacher",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Austria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "austria-1978-walter_schachner",
+      "identityId": "P-99989",
+      "squadNumber": 18,
+      "name": "Walter Schachner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Austria (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "austria-1978-hans_pirkner",
+      "identityId": "P-82174",
+      "squadNumber": 19,
+      "name": "Hans Pirkner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Austria (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "austria-1978-ernst_baumeister",
+      "identityId": "P-82507",
+      "squadNumber": 20,
+      "name": "Ernst Baumeister",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Austria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "austria-1978-erwin_fuchsbichler",
+      "identityId": "P-40884",
+      "squadNumber": 21,
+      "name": "Erwin Fuchsbichler",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Austria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "austria-1978-hubert_baumgartner",
+      "identityId": "P-28170",
+      "squadNumber": 22,
+      "name": "Hubert Baumgartner",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Austria (Round of 16). Squad reserve member."
+    }
+  ]
+}

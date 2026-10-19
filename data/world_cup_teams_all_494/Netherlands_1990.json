@@ -1,0 +1,498 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "netherlands-1990-hans_van_breukelen",
+      "identityId": "P-58282",
+      "squadNumber": 1,
+      "name": "Hans van Breukelen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1990-berry_van_aerle",
+      "identityId": "P-37630",
+      "squadNumber": 2,
+      "name": "Berry van Aerle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1990-frank_rijkaard",
+      "identityId": "P-92391",
+      "squadNumber": 3,
+      "name": "Frank Rijkaard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1990-ronald_koeman",
+      "identityId": "P-72919",
+      "squadNumber": 4,
+      "name": "Ronald Koeman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1990-adri_van_tiggelen",
+      "identityId": "P-73794",
+      "squadNumber": 5,
+      "name": "Adri van Tiggelen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1990-jan_wouters",
+      "identityId": "P-50869",
+      "squadNumber": 6,
+      "name": "Jan Wouters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1990-erwin_koeman",
+      "identityId": "P-48431",
+      "squadNumber": 7,
+      "name": "Erwin Koeman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1990-gerald_vanenburg",
+      "identityId": "P-19670",
+      "squadNumber": 8,
+      "name": "Gerald Vanenburg",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1990-marco_van_basten",
+      "identityId": "P-76874",
+      "squadNumber": 9,
+      "name": "Marco van Basten",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1990-ruud_gullit",
+      "identityId": "P-32830",
+      "squadNumber": 10,
+      "name": "Ruud Gullit",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1990-richard_witschge",
+      "identityId": "P-47334",
+      "squadNumber": 11,
+      "name": "Richard Witschge",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-1990-wim_kieft",
+      "identityId": "P-11241",
+      "squadNumber": 12,
+      "name": "Wim Kieft",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1990-graeme_rutjes",
+      "identityId": "P-88192",
+      "squadNumber": 13,
+      "name": "Graeme Rutjes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1990-john_van_t_schip",
+      "identityId": "P-52936",
+      "squadNumber": 14,
+      "name": "John van 't Schip",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-1990-bryan_roy",
+      "identityId": "P-03942",
+      "squadNumber": 15,
+      "name": "Bryan Roy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1990-joop_hiele",
+      "identityId": "P-53103",
+      "squadNumber": 16,
+      "name": "Joop Hiele",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1990-hans_gillhaus",
+      "identityId": "P-15631",
+      "squadNumber": 17,
+      "name": "Hans Gillhaus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-1990-henk_fraser",
+      "identityId": "P-77764",
+      "squadNumber": 18,
+      "name": "Henk Fraser",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-1990-john_van_loen",
+      "identityId": "P-84043",
+      "squadNumber": 19,
+      "name": "John van Loen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-1990-aron_winter",
+      "identityId": "P-42249",
+      "squadNumber": 20,
+      "name": "Aron Winter",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1990-danny_blind",
+      "identityId": "P-29008",
+      "squadNumber": 21,
+      "name": "Danny Blind",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1990-stanley_menzo",
+      "identityId": "P-30771",
+      "squadNumber": 22,
+      "name": "Stanley Menzo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    }
+  ]
+}

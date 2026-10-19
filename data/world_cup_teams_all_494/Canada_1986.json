@@ -1,0 +1,493 @@
+{
+  "teamName": "Canada",
+  "teamCode": "CAN",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "canada-1986-tino_lettieri",
+      "identityId": "P-09660",
+      "squadNumber": 1,
+      "name": "Tino Lettieri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-1986-bob_lenarduzzi",
+      "identityId": "P-97018",
+      "squadNumber": 2,
+      "name": "Bob Lenarduzzi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-bruce_wilson",
+      "identityId": "P-78960",
+      "squadNumber": 3,
+      "name": "Bruce Wilson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-randy_ragan",
+      "identityId": "P-07554",
+      "squadNumber": 4,
+      "name": "Randy Ragan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-terry_moore",
+      "identityId": "P-35196",
+      "squadNumber": 5,
+      "name": "Terry Moore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-1986-ian_bridge",
+      "identityId": "P-15173",
+      "squadNumber": 6,
+      "name": "Ian Bridge",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-carl_valentine",
+      "identityId": "P-73303",
+      "squadNumber": 7,
+      "name": "Carl Valentine",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-gerry_gray",
+      "identityId": "P-61972",
+      "squadNumber": 8,
+      "name": "Gerry Gray",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-1986-branko_egota",
+      "identityId": "P-92139",
+      "squadNumber": 9,
+      "name": "Branko Šegota",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Canada (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "canada-1986-igor_vrablic",
+      "identityId": "P-27353",
+      "squadNumber": 10,
+      "name": "Igor Vrablic",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-1986-mike_sweeney",
+      "identityId": "P-05935",
+      "squadNumber": 11,
+      "name": "Mike Sweeney",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Canada (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "canada-1986-randy_samuel",
+      "identityId": "P-82297",
+      "squadNumber": 12,
+      "name": "Randy Samuel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-george_pakos",
+      "identityId": "P-21914",
+      "squadNumber": 13,
+      "name": "George Pakos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Canada (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "canada-1986-dale_mitchell",
+      "identityId": "P-67430",
+      "squadNumber": 14,
+      "name": "Dale Mitchell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Canada (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "canada-1986-paul_james",
+      "identityId": "P-73226",
+      "squadNumber": 15,
+      "name": "Paul James",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-greg_ion",
+      "identityId": "P-08567",
+      "squadNumber": 16,
+      "name": "Greg Ion",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-1986-david_norman",
+      "identityId": "P-50657",
+      "squadNumber": 17,
+      "name": "David Norman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-1986-jamie_lowery",
+      "identityId": "P-25508",
+      "squadNumber": 18,
+      "name": "Jamie Lowery",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Canada (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "canada-1986-pasquale_de_luca",
+      "identityId": "P-90988",
+      "squadNumber": 19,
+      "name": "Pasquale De Luca",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-1986-colin_miller",
+      "identityId": "P-13395",
+      "squadNumber": 20,
+      "name": "Colin Miller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-1986-sven_habermann",
+      "identityId": "P-27647",
+      "squadNumber": 21,
+      "name": "Sven Habermann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-1986-paul_dolan",
+      "identityId": "P-33784",
+      "squadNumber": 22,
+      "name": "Paul Dolan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Canada (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

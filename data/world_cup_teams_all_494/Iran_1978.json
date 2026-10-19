@@ -1,0 +1,498 @@
+{
+  "teamName": "Iran",
+  "teamCode": "IRN",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iran-1978-nasser_hejazi",
+      "identityId": "P-47243",
+      "squadNumber": 1,
+      "name": "Nasser Hejazi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-iraj_danaeifard",
+      "identityId": "P-76170",
+      "squadNumber": 2,
+      "name": "Iraj Danaeifard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-1978-behtash_fariba",
+      "identityId": "P-77051",
+      "squadNumber": 3,
+      "name": "Behtash Fariba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iran-1978-majid_bishkar",
+      "identityId": "P-64960",
+      "squadNumber": 4,
+      "name": "Majid Bishkar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1978-javad_allahverdi",
+      "identityId": "P-85841",
+      "squadNumber": 5,
+      "name": "Javad Allahverdi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-1978-hassan_nayebagha",
+      "identityId": "P-36227",
+      "squadNumber": 6,
+      "name": "Hassan Nayebagha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-1978-ali_parvin",
+      "identityId": "P-81360",
+      "squadNumber": 7,
+      "name": "Ali Parvin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-ebrahim_ghasempour",
+      "identityId": "P-64031",
+      "squadNumber": 8,
+      "name": "Ebrahim Ghasempour",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-mohammad_sadeghi",
+      "identityId": "P-64311",
+      "squadNumber": 9,
+      "name": "Mohammad Sadeghi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-hassan_roshan",
+      "identityId": "P-36867",
+      "squadNumber": 10,
+      "name": "Hassan Roshan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-1978-ali_reza_ghesghayan",
+      "identityId": "P-90846",
+      "squadNumber": 11,
+      "name": "Ali Reza Ghesghayan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1978-bahram_mavaddat",
+      "identityId": "P-04692",
+      "squadNumber": 12,
+      "name": "Bahram Mavaddat",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1978-hamid_majd_teymouri",
+      "identityId": "P-76892",
+      "squadNumber": 13,
+      "name": "Hamid Majd Teymouri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1978-hassan_nazari",
+      "identityId": "P-33083",
+      "squadNumber": 14,
+      "name": "Hassan Nazari",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-andranik_eskandarian",
+      "identityId": "P-61698",
+      "squadNumber": 15,
+      "name": "Andranik Eskandarian",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-1978-nasser_nouraei",
+      "identityId": "P-88492",
+      "squadNumber": 16,
+      "name": "Nasser Nouraei",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1978-ghafour_jahani",
+      "identityId": "P-60654",
+      "squadNumber": 17,
+      "name": "Ghafour Jahani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-1978-hossein_faraki",
+      "identityId": "P-14915",
+      "squadNumber": 18,
+      "name": "Hossein Faraki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-ali_shojaei",
+      "identityId": "P-70253",
+      "squadNumber": 19,
+      "name": "Ali Shojaei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1978-nasrollah_abdollahi",
+      "identityId": "P-98081",
+      "squadNumber": 20,
+      "name": "Nasrollah Abdollahi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-hossein_kazerani",
+      "identityId": "P-25070",
+      "squadNumber": 21,
+      "name": "Hossein Kazerani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1978-rasoul_korbekandi",
+      "identityId": "P-29913",
+      "squadNumber": 22,
+      "name": "Rasoul Korbekandi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Iran (Group Stage). Squad reserve member."
+    }
+  ]
+}

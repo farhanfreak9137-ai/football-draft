@@ -1,0 +1,518 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "mexico-2002-_scar_p_rez",
+      "identityId": "P-52784",
+      "squadNumber": 1,
+      "name": "Óscar Pérez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2002-francisco_gabriel_de_anda",
+      "identityId": "P-50893",
+      "squadNumber": 2,
+      "name": "Francisco Gabriel de Anda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2002-rafael_garc_a",
+      "identityId": "P-87592",
+      "squadNumber": 3,
+      "name": "Rafael García",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2002-rafael_m_rquez",
+      "identityId": "P-44763",
+      "squadNumber": 4,
+      "name": "Rafael Márquez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2002-manuel_vidrio",
+      "identityId": "P-13917",
+      "squadNumber": 5,
+      "name": "Manuel Vidrio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2002-gerardo_torrado",
+      "identityId": "P-89297",
+      "squadNumber": 6,
+      "name": "Gerardo Torrado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2002-ram_n_morales",
+      "identityId": "P-98036",
+      "squadNumber": 7,
+      "name": "Ramón Morales",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2002-alberto_garc_a_aspe",
+      "identityId": "P-21495",
+      "squadNumber": 8,
+      "name": "Alberto García Aspe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2002-jared_borgetti",
+      "identityId": "P-81643",
+      "squadNumber": 9,
+      "name": "Jared Borgetti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "mexico-2002-cuauht_moc_blanco",
+      "identityId": "P-88428",
+      "squadNumber": 10,
+      "name": "Cuauhtémoc Blanco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2002-braulio_luna",
+      "identityId": "P-19578",
+      "squadNumber": 11,
+      "name": "Braulio Luna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2002-oswaldo_s_nchez",
+      "identityId": "P-92932",
+      "squadNumber": 12,
+      "name": "Oswaldo Sánchez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2002-sigifredo_mercado",
+      "identityId": "P-87229",
+      "squadNumber": 13,
+      "name": "Sigifredo Mercado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2002-germ_n_villa",
+      "identityId": "P-72763",
+      "squadNumber": 14,
+      "name": "Germán Villa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2002-luis_hern_ndez",
+      "identityId": "P-45941",
+      "squadNumber": 15,
+      "name": "Luis Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Mexico (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "mexico-2002-salvador_carmona",
+      "identityId": "P-32594",
+      "squadNumber": 16,
+      "name": "Salvador Carmona",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2002-francisco_palencia",
+      "identityId": "P-80183",
+      "squadNumber": 17,
+      "name": "Francisco Palencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Mexico (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "mexico-2002-johan_rodr_guez",
+      "identityId": "P-57272",
+      "squadNumber": 18,
+      "name": "Johan Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-2002-gabriel_caballero",
+      "identityId": "P-76755",
+      "squadNumber": 19,
+      "name": "Gabriel Caballero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2002-melvin_brown",
+      "identityId": "P-36826",
+      "squadNumber": 20,
+      "name": "Melvin Brown",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2002-jes_s_arellano",
+      "identityId": "P-92547",
+      "squadNumber": 21,
+      "name": "Jesús Arellano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-2002-alberto_rodr_guez",
+      "identityId": "P-56348",
+      "squadNumber": 22,
+      "name": "Alberto Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2002-jorge_campos",
+      "identityId": "P-50787",
+      "squadNumber": 23,
+      "name": "Jorge Campos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    }
+  ]
+}

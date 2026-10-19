@@ -1,0 +1,493 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "mexico-1962-antonio_carbajal",
+      "identityId": "P-69496",
+      "squadNumber": 1,
+      "name": "Antonio Carbajal",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-jes_s_del_muro",
+      "identityId": "P-75144",
+      "squadNumber": 2,
+      "name": "Jesús del Muro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-guillermo_sep_lveda",
+      "identityId": "P-63904",
+      "squadNumber": 3,
+      "name": "Guillermo Sepúlveda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-jos_villegas",
+      "identityId": "P-56205",
+      "squadNumber": 4,
+      "name": "José Villegas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-ra_l_c_rdenas",
+      "identityId": "P-53255",
+      "squadNumber": 5,
+      "name": "Raúl Cárdenas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-pedro_n_jera",
+      "identityId": "P-46575",
+      "squadNumber": 6,
+      "name": "Pedro Nájera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-alfredo_del_guila",
+      "identityId": "P-32063",
+      "squadNumber": 7,
+      "name": "Alfredo del Águila",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1962-salvador_reyes",
+      "identityId": "P-92848",
+      "squadNumber": 8,
+      "name": "Salvador Reyes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-h_ctor_hern_ndez",
+      "identityId": "P-61576",
+      "squadNumber": 9,
+      "name": "Héctor Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1962-guillermo_ortiz_camargo",
+      "identityId": "P-52254",
+      "squadNumber": 10,
+      "name": "Guillermo Ortiz Camargo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1962-isidoro_d_az",
+      "identityId": "P-05631",
+      "squadNumber": 11,
+      "name": "Isidoro Díaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1962-jaime_g_mez",
+      "identityId": "P-21324",
+      "squadNumber": 12,
+      "name": "Jaime Gómez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-arturo_chaires",
+      "identityId": "P-76847",
+      "squadNumber": 13,
+      "name": "Arturo Chaires",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-pedro_romero",
+      "identityId": "P-87807",
+      "squadNumber": 14,
+      "name": "Pedro Romero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-ignacio_j_uregui",
+      "identityId": "P-48537",
+      "squadNumber": 15,
+      "name": "Ignacio Jáuregui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-salvador_farf_n",
+      "identityId": "P-09921",
+      "squadNumber": 16,
+      "name": "Salvador Farfán",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-felipe_ruvalcaba",
+      "identityId": "P-12371",
+      "squadNumber": 17,
+      "name": "Felipe Ruvalcaba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-alfredo_hern_ndez",
+      "identityId": "P-82053",
+      "squadNumber": 18,
+      "name": "Alfredo Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-antonio_jasso",
+      "identityId": "P-47450",
+      "squadNumber": 19,
+      "name": "Antonio Jasso",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-mario_velarde",
+      "identityId": "P-32657",
+      "squadNumber": 20,
+      "name": "Mario Velarde",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-alberto_baeza",
+      "identityId": "P-70795",
+      "squadNumber": 21,
+      "name": "Alberto Baeza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1962-antonio_mota",
+      "identityId": "P-62196",
+      "squadNumber": 22,
+      "name": "Antonio Mota",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    }
+  ]
+}

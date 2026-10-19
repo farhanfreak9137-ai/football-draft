@@ -1,0 +1,493 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "mexico-1998-jorge_campos",
+      "identityId": "P-50787",
+      "squadNumber": 1,
+      "name": "Jorge Campos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1998-claudio_su_rez",
+      "identityId": "P-78308",
+      "squadNumber": 2,
+      "name": "Claudio Suárez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1998-joel_s_nchez",
+      "identityId": "P-26108",
+      "squadNumber": 3,
+      "name": "Joel Sánchez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1998-germ_n_villa",
+      "identityId": "P-72763",
+      "squadNumber": 4,
+      "name": "Germán Villa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1998-duilio_davino",
+      "identityId": "P-83344",
+      "squadNumber": 5,
+      "name": "Duilio Davino",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1998-marcelino_bernal",
+      "identityId": "P-40627",
+      "squadNumber": 6,
+      "name": "Marcelino Bernal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1998-ram_n_ram_rez",
+      "identityId": "P-21741",
+      "squadNumber": 7,
+      "name": "Ramón Ramírez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1998-alberto_garc_a_aspe",
+      "identityId": "P-21495",
+      "squadNumber": 8,
+      "name": "Alberto García Aspe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1998-ricardo_pel_ez",
+      "identityId": "P-50252",
+      "squadNumber": 9,
+      "name": "Ricardo Peláez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Mexico (Round of 16). Substitute rotation option (3 sub app). Scored 2 goal(s)."
+    },
+    {
+      "id": "mexico-1998-luis_garc_a_postigo",
+      "identityId": "P-46904",
+      "squadNumber": 10,
+      "name": "Luis García Postigo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-1998-cuauht_moc_blanco",
+      "identityId": "P-88428",
+      "squadNumber": 11,
+      "name": "Cuauhtémoc Blanco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1998-oswaldo_s_nchez",
+      "identityId": "P-92932",
+      "squadNumber": 12,
+      "name": "Oswaldo Sánchez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-1998-p_vel_pardo",
+      "identityId": "P-34636",
+      "squadNumber": 13,
+      "name": "Pável Pardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1998-ra_l_lara",
+      "identityId": "P-35791",
+      "squadNumber": 14,
+      "name": "Raúl Lara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1998-luis_hern_ndez",
+      "identityId": "P-45941",
+      "squadNumber": 15,
+      "name": "Luis Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "mexico-1998-isaac_terrazas",
+      "identityId": "P-99771",
+      "squadNumber": 16,
+      "name": "Isaac Terrazas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-1998-francisco_palencia",
+      "identityId": "P-80183",
+      "squadNumber": 17,
+      "name": "Francisco Palencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1998-salvador_carmona",
+      "identityId": "P-32594",
+      "squadNumber": 18,
+      "name": "Salvador Carmona",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1998-braulio_luna",
+      "identityId": "P-19578",
+      "squadNumber": 19,
+      "name": "Braulio Luna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1998-jaime_ordiales",
+      "identityId": "P-77010",
+      "squadNumber": 20,
+      "name": "Jaime Ordiales",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1998-jes_s_arellano",
+      "identityId": "P-92547",
+      "squadNumber": 21,
+      "name": "Jesús Arellano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Mexico (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "mexico-1998-_scar_p_rez",
+      "identityId": "P-52784",
+      "squadNumber": 22,
+      "name": "Óscar Pérez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    }
+  ]
+}

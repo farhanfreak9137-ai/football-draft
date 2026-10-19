@@ -1,0 +1,532 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 25,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "italy-2026-gianluigi_donnarumma",
+      "identityId": "identity-2026-gianluigi_donnarumma",
+      "squadNumber": 1,
+      "name": "Gianluigi Donnarumma",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Euro 2020 Player of the Tournament & Elite Goalkeeper"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Euro 2020 Player of the Tournament & Elite Goalkeeper",
+      "ratingRationale": "Rated 90 OVR for 2026 World Cup form with Italy. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "italy-2026-giovanni_di_lorenzo",
+      "identityId": "identity-2026-giovanni_di_lorenzo",
+      "squadNumber": 2,
+      "name": "Giovanni Di Lorenzo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-alessandro_bastoni",
+      "identityId": "identity-2026-alessandro_bastoni",
+      "squadNumber": 23,
+      "name": "Alessandro Bastoni",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Italy. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "italy-2026-riccardo_calafiori",
+      "identityId": "identity-2026-riccardo_calafiori",
+      "squadNumber": 5,
+      "name": "Riccardo Calafiori",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-federico_dimarco",
+      "identityId": "identity-2026-federico_dimarco",
+      "squadNumber": 3,
+      "name": "Federico Dimarco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "LWB"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-jorginho",
+      "identityId": "identity-2026-jorginho",
+      "squadNumber": 8,
+      "name": "Jorginho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-nicol_barella",
+      "identityId": "identity-2026-nicol_barella",
+      "squadNumber": 18,
+      "name": "Nicolò Barella",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Italy. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "italy-2026-davide_frattesi",
+      "identityId": "identity-2026-davide_frattesi",
+      "squadNumber": 16,
+      "name": "Davide Frattesi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-federico_chiesa",
+      "identityId": "identity-2026-federico_chiesa",
+      "squadNumber": 14,
+      "name": "Federico Chiesa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Italy. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "italy-2026-gianluca_scamacca",
+      "identityId": "identity-2026-gianluca_scamacca",
+      "squadNumber": 9,
+      "name": "Gianluca Scamacca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-lorenzo_pellegrini",
+      "identityId": "identity-2026-lorenzo_pellegrini",
+      "squadNumber": 7,
+      "name": "Lorenzo Pellegrini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Italy. Regular starting lineup selection."
+    },
+    {
+      "id": "italy-2026-guglielmo_vicario",
+      "identityId": "identity-2026-guglielmo_vicario",
+      "squadNumber": 12,
+      "name": "Guglielmo Vicario",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Italy. National squad reserve depth."
+    },
+    {
+      "id": "italy-2026-alex_meret",
+      "identityId": "identity-2026-alex_meret",
+      "squadNumber": 26,
+      "name": "Alex Meret",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Italy. National squad reserve depth."
+    },
+    {
+      "id": "italy-2026-alessandro_buongiorno",
+      "identityId": "identity-2026-alessandro_buongiorno",
+      "squadNumber": 4,
+      "name": "Alessandro Buongiorno",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-federico_gatti",
+      "identityId": "identity-2026-federico_gatti",
+      "squadNumber": 6,
+      "name": "Federico Gatti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-matteo_darmian",
+      "identityId": "identity-2026-matteo_darmian",
+      "squadNumber": 13,
+      "name": "Matteo Darmian",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-raoul_bellanova",
+      "identityId": "identity-2026-raoul_bellanova",
+      "squadNumber": 15,
+      "name": "Raoul Bellanova",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "RWB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-andrea_cambiaso",
+      "identityId": "identity-2026-andrea_cambiaso",
+      "squadNumber": 24,
+      "name": "Andrea Cambiaso",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "RB"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-nicol_fagioli",
+      "identityId": "identity-2026-nicol_fagioli",
+      "squadNumber": 21,
+      "name": "Nicolò Fagioli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-michael_folorunsho",
+      "identityId": "identity-2026-michael_folorunsho",
+      "squadNumber": 25,
+      "name": "Michael Folorunsho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-giacomo_raspadori",
+      "identityId": "identity-2026-giacomo_raspadori",
+      "squadNumber": 10,
+      "name": "Giacomo Raspadori",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-mateo_retegui",
+      "identityId": "identity-2026-mateo_retegui",
+      "squadNumber": 11,
+      "name": "Mateo Retegui",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-mattia_zaccagni",
+      "identityId": "identity-2026-mattia_zaccagni",
+      "squadNumber": 19,
+      "name": "Mattia Zaccagni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-mattia_zaniolo",
+      "identityId": "identity-2026-mattia_zaniolo",
+      "squadNumber": 20,
+      "name": "Mattia Zaniolo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Italy. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "italy-2026-stephan_el_shaarawy",
+      "identityId": "identity-2026-stephan_el_shaarawy",
+      "squadNumber": 22,
+      "name": "Stephan El Shaarawy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Italy. National squad reserve depth."
+    }
+  ]
+}

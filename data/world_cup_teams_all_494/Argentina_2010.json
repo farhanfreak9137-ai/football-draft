@@ -1,0 +1,516 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "argentina-2010-diego_pozo",
+      "identityId": "P-70815",
+      "squadNumber": 1,
+      "name": "Diego Pozo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-2010-mart_n_demichelis",
+      "identityId": "P-39810",
+      "squadNumber": 2,
+      "name": "Martín Demichelis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2010-clemente_rodr_guez",
+      "identityId": "P-93262",
+      "squadNumber": 3,
+      "name": "Clemente Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2010-nicol_s_burdisso",
+      "identityId": "P-56532",
+      "squadNumber": 4,
+      "name": "Nicolás Burdisso",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2010-mario_bolatti",
+      "identityId": "P-06108",
+      "squadNumber": 5,
+      "name": "Mario Bolatti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2010-gabriel_heinze",
+      "identityId": "P-64352",
+      "squadNumber": 6,
+      "name": "Gabriel Heinze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2010-_ngel_di_mar_a",
+      "identityId": "P-42113",
+      "squadNumber": 7,
+      "name": "Ángel Di María",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2010-juan_sebasti_n_ver_n",
+      "identityId": "P-62209",
+      "squadNumber": 8,
+      "name": "Juan Sebastián Verón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2010-gonzalo_higua_n",
+      "identityId": "P-29398",
+      "squadNumber": 9,
+      "name": "Gonzalo Higuaín",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "argentina-2010-lionel_messi",
+      "identityId": "P-14758",
+      "squadNumber": 10,
+      "name": "Lionel Messi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-2010-carlos_tevez",
+      "identityId": "P-29080",
+      "squadNumber": 11,
+      "name": "Carlos Tevez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-2010-ariel_garc_",
+      "identityId": "P-05459",
+      "squadNumber": 12,
+      "name": "Ariel Garcé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-2010-walter_samuel",
+      "identityId": "P-76131",
+      "squadNumber": 13,
+      "name": "Walter Samuel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2010-javier_mascherano",
+      "identityId": "P-77063",
+      "squadNumber": 14,
+      "name": "Javier Mascherano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2010-nicol_s_otamendi",
+      "identityId": "P-49114",
+      "squadNumber": 15,
+      "name": "Nicolás Otamendi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2010-sergio_ag_ero",
+      "identityId": "P-36870",
+      "squadNumber": 16,
+      "name": "Sergio Agüero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2010-jon_s_guti_rrez",
+      "identityId": "P-56859",
+      "squadNumber": 17,
+      "name": "Jonás Gutiérrez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2010-mart_n_palermo",
+      "identityId": "P-60592",
+      "squadNumber": 18,
+      "name": "Martín Palermo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2010-diego_milito",
+      "identityId": "P-28014",
+      "squadNumber": 19,
+      "name": "Diego Milito",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2010-maxi_rodr_guez",
+      "identityId": "P-33570",
+      "squadNumber": 20,
+      "name": "Maxi Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2010-mariano_and_jar",
+      "identityId": "P-55451",
+      "squadNumber": 21,
+      "name": "Mariano Andújar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-2010-sergio_romero",
+      "identityId": "P-60541",
+      "squadNumber": 22,
+      "name": "Sergio Romero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-2010-javier_pastore",
+      "identityId": "P-91484",
+      "squadNumber": 23,
+      "name": "Javier Pastore",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    }
+  ]
+}

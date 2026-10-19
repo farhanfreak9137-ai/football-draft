@@ -1,0 +1,513 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "italy-2014-gianluigi_buffon",
+      "identityId": "P-11392",
+      "squadNumber": 1,
+      "name": "Gianluigi Buffon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2014-mattia_de_sciglio",
+      "identityId": "P-67615",
+      "squadNumber": 2,
+      "name": "Mattia De Sciglio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-giorgio_chiellini",
+      "identityId": "P-92874",
+      "squadNumber": 3,
+      "name": "Giorgio Chiellini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2014-matteo_darmian",
+      "identityId": "P-99163",
+      "squadNumber": 4,
+      "name": "Matteo Darmian",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2014-thiago_motta",
+      "identityId": "P-32717",
+      "squadNumber": 5,
+      "name": "Thiago Motta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-antonio_candreva",
+      "identityId": "P-35850",
+      "squadNumber": 6,
+      "name": "Antonio Candreva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2014-ignazio_abate",
+      "identityId": "P-75462",
+      "squadNumber": 7,
+      "name": "Ignazio Abate",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-claudio_marchisio",
+      "identityId": "P-37848",
+      "squadNumber": 8,
+      "name": "Claudio Marchisio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2014-mario_balotelli",
+      "identityId": "P-16785",
+      "squadNumber": 9,
+      "name": "Mario Balotelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2014-antonio_cassano",
+      "identityId": "P-04221",
+      "squadNumber": 10,
+      "name": "Antonio Cassano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Italy (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-2014-alessio_cerci",
+      "identityId": "P-39774",
+      "squadNumber": 11,
+      "name": "Alessio Cerci",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2014-salvatore_sirigu",
+      "identityId": "P-60016",
+      "squadNumber": 12,
+      "name": "Salvatore Sirigu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-mattia_perin",
+      "identityId": "P-60769",
+      "squadNumber": 13,
+      "name": "Mattia Perin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-2014-alberto_aquilani",
+      "identityId": "P-01292",
+      "squadNumber": 14,
+      "name": "Alberto Aquilani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-2014-andrea_barzagli",
+      "identityId": "P-26539",
+      "squadNumber": 15,
+      "name": "Andrea Barzagli",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2014-daniele_de_rossi",
+      "identityId": "P-65802",
+      "squadNumber": 16,
+      "name": "Daniele De Rossi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2014-ciro_immobile",
+      "identityId": "P-01078",
+      "squadNumber": 17,
+      "name": "Ciro Immobile",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-marco_parolo",
+      "identityId": "P-61270",
+      "squadNumber": 18,
+      "name": "Marco Parolo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Italy (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-2014-leonardo_bonucci",
+      "identityId": "P-57248",
+      "squadNumber": 19,
+      "name": "Leonardo Bonucci",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-gabriel_paletta",
+      "identityId": "P-73649",
+      "squadNumber": 20,
+      "name": "Gabriel Paletta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2014-andrea_pirlo",
+      "identityId": "P-99537",
+      "squadNumber": 21,
+      "name": "Andrea Pirlo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2014-lorenzo_insigne",
+      "identityId": "P-25985",
+      "squadNumber": 22,
+      "name": "Lorenzo Insigne",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2014-marco_verratti",
+      "identityId": "P-43029",
+      "squadNumber": 23,
+      "name": "Marco Verratti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

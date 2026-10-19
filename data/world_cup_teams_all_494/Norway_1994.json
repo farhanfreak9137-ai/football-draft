@@ -1,0 +1,494 @@
+{
+  "teamName": "Norway",
+  "teamCode": "NOR",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "norway-1994-erik_thorstvedt",
+      "identityId": "P-03090",
+      "squadNumber": 1,
+      "name": "Erik Thorstvedt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-gunnar_halle",
+      "identityId": "P-83152",
+      "squadNumber": 2,
+      "name": "Gunnar Halle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1994-erland_johnsen",
+      "identityId": "P-02163",
+      "squadNumber": 3,
+      "name": "Erland Johnsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1994-rune_bratseth",
+      "identityId": "P-90792",
+      "squadNumber": 4,
+      "name": "Rune Bratseth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-stig_inge_bj_rnebye",
+      "identityId": "P-52878",
+      "squadNumber": 5,
+      "name": "Stig Inge Bjørnebye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-jostein_flo",
+      "identityId": "P-94465",
+      "squadNumber": 6,
+      "name": "Jostein Flo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-erik_mykland",
+      "identityId": "P-48934",
+      "squadNumber": 7,
+      "name": "Erik Mykland",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-_yvind_leonhardsen",
+      "identityId": "P-61579",
+      "squadNumber": 8,
+      "name": "Øyvind Leonhardsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-jan_ge_fj_rtoft",
+      "identityId": "P-73648",
+      "squadNumber": 9,
+      "name": "Jan Åge Fjørtoft",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "norway-1994-kjetil_rekdal",
+      "identityId": "P-72296",
+      "squadNumber": 10,
+      "name": "Kjetil Rekdal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "norway-1994-mini_jakobsen",
+      "identityId": "P-31031",
+      "squadNumber": 11,
+      "name": "Mini Jakobsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1994-frode_grod_s",
+      "identityId": "P-14379",
+      "squadNumber": 12,
+      "name": "Frode Grodås",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Norway (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "norway-1994-ola_by_rise",
+      "identityId": "P-48304",
+      "squadNumber": 13,
+      "name": "Ola By Rise",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Norway (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "norway-1994-roger_nilsen",
+      "identityId": "P-47297",
+      "squadNumber": 14,
+      "name": "Roger Nilsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Norway (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "norway-1994-karl_petter_l_ken",
+      "identityId": "P-24240",
+      "squadNumber": 15,
+      "name": "Karl Petter Løken",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Norway (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "norway-1994-g_ran_s_rloth",
+      "identityId": "P-63024",
+      "squadNumber": 16,
+      "name": "Gøran Sørloth",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1994-dan_eggen",
+      "identityId": "P-59890",
+      "squadNumber": 17,
+      "name": "Dan Eggen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Norway (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "norway-1994-alf-inge_h_land",
+      "identityId": "P-93679",
+      "squadNumber": 18,
+      "name": "Alf-Inge Håland",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "norway-1994-roar_strand",
+      "identityId": "P-21663",
+      "squadNumber": 19,
+      "name": "Roar Strand",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Norway (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "norway-1994-henning_berg",
+      "identityId": "P-25644",
+      "squadNumber": 20,
+      "name": "Henning Berg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Norway (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "norway-1994-sigurd_rushfeldt",
+      "identityId": "P-96984",
+      "squadNumber": 21,
+      "name": "Sigurd Rushfeldt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "norway-1994-lars_bohinen",
+      "identityId": "P-50065",
+      "squadNumber": 22,
+      "name": "Lars Bohinen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Norway (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

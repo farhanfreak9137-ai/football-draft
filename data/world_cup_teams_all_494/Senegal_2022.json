@@ -1,0 +1,582 @@
+{
+  "teamName": "Senegal",
+  "teamCode": "SEN",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "senegal-2022-seny_dieng",
+      "identityId": "P-99821",
+      "squadNumber": 1,
+      "name": "Seny Dieng",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Senegal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "senegal-2022-formose_mendy",
+      "identityId": "P-11718",
+      "squadNumber": 2,
+      "name": "Formose Mendy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Senegal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "senegal-2022-kalidou_koulibaly",
+      "identityId": "P-47321",
+      "squadNumber": 3,
+      "name": "Kalidou Koulibaly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2022-pape_abou_ciss_",
+      "identityId": "P-90626",
+      "squadNumber": 4,
+      "name": "Pape Abou Cissé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Senegal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2022-idrissa_gueye",
+      "identityId": "P-40621",
+      "squadNumber": 5,
+      "name": "Idrissa Gueye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2022-nampalys_mendy",
+      "identityId": "P-96697",
+      "squadNumber": 6,
+      "name": "Nampalys Mendy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2022-nicolas_jackson",
+      "identityId": "P-86937",
+      "squadNumber": 7,
+      "name": "Nicolas Jackson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Senegal (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "senegal-2022-cheikhou_kouyat_",
+      "identityId": "P-55140",
+      "squadNumber": 8,
+      "name": "Cheikhou Kouyaté",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Senegal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2022-boulaye_dia",
+      "identityId": "P-33622",
+      "squadNumber": 9,
+      "name": "Boulaye Dia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2022-moussa_ndiaye",
+      "identityId": "P-66635",
+      "squadNumber": 10,
+      "name": "Moussa N'Diaye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Senegal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "senegal-2022-path_ciss",
+      "identityId": "P-61416",
+      "squadNumber": 11,
+      "name": "Pathé Ciss",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Senegal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "senegal-2022-fod_ballo-tour_",
+      "identityId": "P-86095",
+      "squadNumber": 12,
+      "name": "Fodé Ballo-Touré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Senegal (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "senegal-2022-iliman_ndiaye",
+      "identityId": "P-33958",
+      "squadNumber": 13,
+      "name": "Iliman Ndiaye",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Senegal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "senegal-2022-ismail_jakobs",
+      "identityId": "P-54506",
+      "squadNumber": 14,
+      "name": "Ismail Jakobs",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2022-kr_pin_diatta",
+      "identityId": "P-09292",
+      "squadNumber": 15,
+      "name": "Krépin Diatta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2022-_douard_mendy",
+      "identityId": "P-45399",
+      "squadNumber": 16,
+      "name": "Édouard Mendy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "senegal-2022-pape_matar_sarr",
+      "identityId": "P-76835",
+      "squadNumber": 17,
+      "name": "Pape Matar Sarr",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Senegal (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "senegal-2022-isma_la_sarr",
+      "identityId": "P-37935",
+      "squadNumber": 18,
+      "name": "Ismaïla Sarr",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2022-famara_di_dhiou",
+      "identityId": "P-27280",
+      "squadNumber": 19,
+      "name": "Famara Diédhiou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Senegal (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2022-bamba_dieng",
+      "identityId": "P-88928",
+      "squadNumber": 20,
+      "name": "Bamba Dieng",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Senegal (Round of 16). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2022-youssouf_sabaly",
+      "identityId": "P-55298",
+      "squadNumber": 21,
+      "name": "Youssouf Sabaly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "senegal-2022-abdou_diallo",
+      "identityId": "P-77769",
+      "squadNumber": 22,
+      "name": "Abdou Diallo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Senegal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "senegal-2022-alfred_gomis",
+      "identityId": "P-53694",
+      "squadNumber": 23,
+      "name": "Alfred Gomis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Senegal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "senegal-2022-moustapha_name",
+      "identityId": "P-92891",
+      "squadNumber": 24,
+      "name": "Moustapha Name",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Senegal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "senegal-2022-mamadou_loum",
+      "identityId": "P-37001",
+      "squadNumber": 25,
+      "name": "Mamadou Loum",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Senegal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "senegal-2022-pape_gueye",
+      "identityId": "P-45280",
+      "squadNumber": 26,
+      "name": "Pape Gueye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Senegal (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

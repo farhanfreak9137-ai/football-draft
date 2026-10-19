@@ -1,0 +1,492 @@
+{
+  "teamName": "Scotland",
+  "teamCode": "SCO",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "scotland-1990-jim_leighton",
+      "identityId": "P-85003",
+      "squadNumber": 1,
+      "name": "Jim Leighton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1990-alex_mcleish",
+      "identityId": "P-53843",
+      "squadNumber": 2,
+      "name": "Alex McLeish",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1990-roy_aitken",
+      "identityId": "P-08096",
+      "squadNumber": 3,
+      "name": "Roy Aitken",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1990-richard_gough",
+      "identityId": "P-05434",
+      "squadNumber": 4,
+      "name": "Richard Gough",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-paul_mcstay",
+      "identityId": "P-42726",
+      "squadNumber": 5,
+      "name": "Paul McStay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1990-maurice_malpas",
+      "identityId": "P-64688",
+      "squadNumber": 6,
+      "name": "Maurice Malpas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1990-mo_johnston",
+      "identityId": "P-17223",
+      "squadNumber": 7,
+      "name": "Mo Johnston",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1990-jim_bett",
+      "identityId": "P-78666",
+      "squadNumber": 8,
+      "name": "Jim Bett",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-ally_mccoist",
+      "identityId": "P-10580",
+      "squadNumber": 9,
+      "name": "Ally McCoist",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-murdo_macleod",
+      "identityId": "P-10435",
+      "squadNumber": 10,
+      "name": "Murdo MacLeod",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "scotland-1990-gary_gillespie",
+      "identityId": "P-16627",
+      "squadNumber": 11,
+      "name": "Gary Gillespie",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Scotland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "scotland-1990-andy_goram",
+      "identityId": "P-51002",
+      "squadNumber": 12,
+      "name": "Andy Goram",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1990-gordon_durie",
+      "identityId": "P-39265",
+      "squadNumber": 13,
+      "name": "Gordon Durie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-alan_mcinally",
+      "identityId": "P-34150",
+      "squadNumber": 14,
+      "name": "Alan McInally",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-craig_levein",
+      "identityId": "P-46094",
+      "squadNumber": 15,
+      "name": "Craig Levein",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-stuart_mccall",
+      "identityId": "P-49470",
+      "squadNumber": 16,
+      "name": "Stuart McCall",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "scotland-1990-stewart_mckimmie",
+      "identityId": "P-76645",
+      "squadNumber": 17,
+      "name": "Stewart McKimmie",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-john_collins",
+      "identityId": "P-39646",
+      "squadNumber": 18,
+      "name": "John Collins",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1990-david_mcpherson",
+      "identityId": "P-95626",
+      "squadNumber": 19,
+      "name": "David McPherson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Scotland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "scotland-1990-gary_mcallister",
+      "identityId": "P-09546",
+      "squadNumber": 20,
+      "name": "Gary McAllister",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "scotland-1990-robert_fleck",
+      "identityId": "P-56270",
+      "squadNumber": 21,
+      "name": "Robert Fleck",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Scotland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "scotland-1990-bryan_gunn",
+      "identityId": "P-18873",
+      "squadNumber": 22,
+      "name": "Bryan Gunn",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Scotland (Group Stage). Squad reserve member."
+    }
+  ]
+}

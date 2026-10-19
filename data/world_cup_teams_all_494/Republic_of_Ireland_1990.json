@@ -1,0 +1,499 @@
+{
+  "teamName": "Republic of Ireland",
+  "teamCode": "IRL",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "republic_of_ireland-1990-pat_bonner",
+      "identityId": "P-67839",
+      "squadNumber": 1,
+      "name": "Pat Bonner",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-chris_morris",
+      "identityId": "P-24199",
+      "squadNumber": 2,
+      "name": "Chris Morris",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-steve_staunton",
+      "identityId": "P-69817",
+      "squadNumber": 3,
+      "name": "Steve Staunton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-mick_mccarthy",
+      "identityId": "P-08289",
+      "squadNumber": 4,
+      "name": "Mick McCarthy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-kevin_moran",
+      "identityId": "P-15882",
+      "squadNumber": 5,
+      "name": "Kevin Moran",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-ronnie_whelan",
+      "identityId": "P-04391",
+      "squadNumber": 6,
+      "name": "Ronnie Whelan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1990-paul_mcgrath",
+      "identityId": "P-96122",
+      "squadNumber": 7,
+      "name": "Paul McGrath",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-ray_houghton",
+      "identityId": "P-95491",
+      "squadNumber": 8,
+      "name": "Ray Houghton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-john_aldridge",
+      "identityId": "P-42603",
+      "squadNumber": 9,
+      "name": "John Aldridge",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-tony_cascarino",
+      "identityId": "P-94106",
+      "squadNumber": 10,
+      "name": "Tony Cascarino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "republic_of_ireland-1990-kevin_sheedy",
+      "identityId": "P-72379",
+      "squadNumber": 11,
+      "name": "Kevin Sheedy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-1990-david_oleary",
+      "identityId": "P-64796",
+      "squadNumber": 12,
+      "name": "David O'Leary",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1990-andy_townsend",
+      "identityId": "P-28854",
+      "squadNumber": 13,
+      "name": "Andy Townsend",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "republic_of_ireland-1990-chris_hughton",
+      "identityId": "P-66543",
+      "squadNumber": 14,
+      "name": "Chris Hughton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1990-bernie_slaven",
+      "identityId": "P-56580",
+      "squadNumber": 15,
+      "name": "Bernie Slaven",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1990-john_sheridan",
+      "identityId": "P-52963",
+      "squadNumber": 16,
+      "name": "John Sheridan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1990-niall_quinn",
+      "identityId": "P-51629",
+      "squadNumber": 17,
+      "name": "Niall Quinn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "republic_of_ireland-1990-frank_stapleton",
+      "identityId": "P-90888",
+      "squadNumber": 18,
+      "name": "Frank Stapleton",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1990-david_kelly",
+      "identityId": "P-98535",
+      "squadNumber": 19,
+      "name": "David Kelly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1990-john_byrne",
+      "identityId": "P-61238",
+      "squadNumber": 20,
+      "name": "John Byrne",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "republic_of_ireland-1990-alan_mcloughlin",
+      "identityId": "P-87036",
+      "squadNumber": 21,
+      "name": "Alan McLoughlin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "republic_of_ireland-1990-gerry_peyton",
+      "identityId": "P-57771",
+      "squadNumber": 22,
+      "name": "Gerry Peyton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Republic of Ireland (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

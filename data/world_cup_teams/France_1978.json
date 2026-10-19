@@ -1,0 +1,496 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "france-1978-dominique_baratelli",
+      "identityId": "P-41870",
+      "squadNumber": 1,
+      "name": "Dominique Baratelli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for France (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-1978-patrick_battiston",
+      "identityId": "P-12738",
+      "squadNumber": 2,
+      "name": "Patrick Battiston",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-maxime_bossis",
+      "identityId": "P-03719",
+      "squadNumber": 3,
+      "name": "Maxime Bossis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1978-g_rard_janvion",
+      "identityId": "P-34605",
+      "squadNumber": 4,
+      "name": "Gérard Janvion",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1978-fran_ois_bracci",
+      "identityId": "P-86043",
+      "squadNumber": 5,
+      "name": "François Bracci",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-christian_lopez",
+      "identityId": "P-90883",
+      "squadNumber": 6,
+      "name": "Christian Lopez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1978-patrice_rio",
+      "identityId": "P-56255",
+      "squadNumber": 7,
+      "name": "Patrice Rio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-marius_tr_sor",
+      "identityId": "P-54040",
+      "squadNumber": 8,
+      "name": "Marius Trésor",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-1978-dominique_bathenay",
+      "identityId": "P-19199",
+      "squadNumber": 9,
+      "name": "Dominique Bathenay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1978-jean-marc_guillou",
+      "identityId": "P-65887",
+      "squadNumber": 10,
+      "name": "Jean-Marc Guillou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-henri_michel",
+      "identityId": "P-48925",
+      "squadNumber": 11,
+      "name": "Henri Michel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1978-claude_papi",
+      "identityId": "P-50374",
+      "squadNumber": 12,
+      "name": "Claude Papi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-jean_petit",
+      "identityId": "P-54760",
+      "squadNumber": 13,
+      "name": "Jean Petit",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-marc_berdoll",
+      "identityId": "P-27315",
+      "squadNumber": 14,
+      "name": "Marc Berdoll",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1978-michel_platini",
+      "identityId": "P-08939",
+      "squadNumber": 15,
+      "name": "Michel Platini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1978-christian_dalger",
+      "identityId": "P-83674",
+      "squadNumber": 16,
+      "name": "Christian Dalger",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-bernard_lacombe",
+      "identityId": "P-16067",
+      "squadNumber": 17,
+      "name": "Bernard Lacombe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1978-dominique_rocheteau",
+      "identityId": "P-99991",
+      "squadNumber": 18,
+      "name": "Dominique Rocheteau",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1978-didier_six",
+      "identityId": "P-74565",
+      "squadNumber": 19,
+      "name": "Didier Six",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1978-olivier_rouyer",
+      "identityId": "P-67442",
+      "squadNumber": 20,
+      "name": "Olivier Rouyer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1978-jean-paul_bertrand-demanes",
+      "identityId": "P-32988",
+      "squadNumber": 21,
+      "name": "Jean-Paul Bertrand-Demanes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1978-dominique_dropsy",
+      "identityId": "P-80046",
+      "squadNumber": 22,
+      "name": "Dominique Dropsy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

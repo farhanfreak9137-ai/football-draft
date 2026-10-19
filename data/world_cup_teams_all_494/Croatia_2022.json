@@ -1,0 +1,589 @@
+{
+  "teamName": "Croatia",
+  "teamCode": "HRV",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "croatia-2022-dominik_livakovi_",
+      "identityId": "P-99988",
+      "squadNumber": 1,
+      "name": "Dominik Livaković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "croatia-2022-josip_stani_i_",
+      "identityId": "P-91350",
+      "squadNumber": 2,
+      "name": "Josip Stanišić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2022-borna_bari_i_",
+      "identityId": "P-95766",
+      "squadNumber": 3,
+      "name": "Borna Barišić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2022-ivan_peri_i_",
+      "identityId": "P-93884",
+      "squadNumber": 4,
+      "name": "Ivan Perišić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2022-martin_erli_",
+      "identityId": "P-01196",
+      "squadNumber": 5,
+      "name": "Martin Erlić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Croatia (Third Place). Squad reserve member."
+    },
+    {
+      "id": "croatia-2022-dejan_lovren",
+      "identityId": "P-56297",
+      "squadNumber": 6,
+      "name": "Dejan Lovren",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "croatia-2022-lovro_majer",
+      "identityId": "P-64353",
+      "squadNumber": 7,
+      "name": "Lovro Majer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 6,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2022-mateo_kova_i_",
+      "identityId": "P-07670",
+      "squadNumber": 8,
+      "name": "Mateo Kovačić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "croatia-2022-andrej_kramari_",
+      "identityId": "P-65182",
+      "squadNumber": 9,
+      "name": "Andrej Kramarić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "croatia-2022-luka_modri_",
+      "identityId": "P-29491",
+      "squadNumber": 10,
+      "name": "Luka Modrić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Bronze Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2022 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 7 match(es). Honors: Bronze Ball."
+    },
+    {
+      "id": "croatia-2022-marcelo_brozovi_",
+      "identityId": "P-79215",
+      "squadNumber": 11,
+      "name": "Marcelo Brozović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "croatia-2022-ivo_grbi_",
+      "identityId": "P-32870",
+      "squadNumber": 12,
+      "name": "Ivo Grbić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Croatia (Third Place). Squad reserve member."
+    },
+    {
+      "id": "croatia-2022-nikola_vla_i_",
+      "identityId": "P-22160",
+      "squadNumber": 13,
+      "name": "Nikola Vlašić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2022-marko_livaja",
+      "identityId": "P-31643",
+      "squadNumber": 14,
+      "name": "Marko Livaja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2022-mario_pa_ali_",
+      "identityId": "P-89948",
+      "squadNumber": 15,
+      "name": "Mario Pašalić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "croatia-2022-bruno_petkovi_",
+      "identityId": "P-46461",
+      "squadNumber": 16,
+      "name": "Bruno Petković",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 5,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2022-ante_budimir",
+      "identityId": "P-99461",
+      "squadNumber": 17,
+      "name": "Ante Budimir",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Croatia (Third Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "croatia-2022-mislav_or_i_",
+      "identityId": "P-26942",
+      "squadNumber": 18,
+      "name": "Mislav Oršić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 5,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2022-borna_sosa",
+      "identityId": "P-84190",
+      "squadNumber": 19,
+      "name": "Borna Sosa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "croatia-2022-jo_ko_gvardiol",
+      "identityId": "P-58420",
+      "squadNumber": 20,
+      "name": "Joško Gvardiol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2022-domagoj_vida",
+      "identityId": "P-91294",
+      "squadNumber": 21,
+      "name": "Domagoj Vida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Croatia (Third Place). Squad reserve member."
+    },
+    {
+      "id": "croatia-2022-josip_juranovi_",
+      "identityId": "P-16484",
+      "squadNumber": 22,
+      "name": "Josip Juranović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Croatia (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "croatia-2022-ivica_ivu_i_",
+      "identityId": "P-94815",
+      "squadNumber": 23,
+      "name": "Ivica Ivušić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Croatia (Third Place). Squad reserve member."
+    },
+    {
+      "id": "croatia-2022-josip_utalo",
+      "identityId": "P-57417",
+      "squadNumber": 24,
+      "name": "Josip Šutalo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Croatia (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2022-luka_su_i_",
+      "identityId": "P-67668",
+      "squadNumber": 25,
+      "name": "Luka Sučić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Croatia (Third Place). Squad reserve member."
+    },
+    {
+      "id": "croatia-2022-kristijan_jaki_",
+      "identityId": "P-86466",
+      "squadNumber": 26,
+      "name": "Kristijan Jakić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Croatia (Third Place). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

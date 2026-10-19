@@ -1,0 +1,514 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "PRT",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "portugal-2010-eduardo",
+      "identityId": "P-37990",
+      "squadNumber": 1,
+      "name": "Eduardo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2010-bruno_alves",
+      "identityId": "P-76960",
+      "squadNumber": 2,
+      "name": "Bruno Alves",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2010-paulo_ferreira",
+      "identityId": "P-16378",
+      "squadNumber": 3,
+      "name": "Paulo Ferreira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2010-rolando",
+      "identityId": "P-04367",
+      "squadNumber": 4,
+      "name": "Rolando",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2010-duda",
+      "identityId": "P-08069",
+      "squadNumber": 5,
+      "name": "Duda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2010-ricardo_carvalho",
+      "identityId": "P-37760",
+      "squadNumber": 6,
+      "name": "Ricardo Carvalho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2010-cristiano_ronaldo",
+      "identityId": "P-70442",
+      "squadNumber": 7,
+      "name": "Cristiano Ronaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2010-pedro_mendes",
+      "identityId": "P-47801",
+      "squadNumber": 8,
+      "name": "Pedro Mendes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2010-li_dson",
+      "identityId": "P-28404",
+      "squadNumber": 9,
+      "name": "Liédson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2010-danny",
+      "identityId": "P-95172",
+      "squadNumber": 10,
+      "name": "Danny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2010-sim_o",
+      "identityId": "P-32279",
+      "squadNumber": 11,
+      "name": "Simão",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2010-beto",
+      "identityId": "P-27059",
+      "squadNumber": 12,
+      "name": "Beto",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2010-miguel",
+      "identityId": "P-28497",
+      "squadNumber": 13,
+      "name": "Miguel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2010-miguel_veloso",
+      "identityId": "P-98693",
+      "squadNumber": 14,
+      "name": "Miguel Veloso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Portugal (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "portugal-2010-pepe",
+      "identityId": "P-81972",
+      "squadNumber": 15,
+      "name": "Pepe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2010-raul_meireles",
+      "identityId": "P-88101",
+      "squadNumber": 16,
+      "name": "Raul Meireles",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2010-r_ben_amorim",
+      "identityId": "P-11629",
+      "squadNumber": 17,
+      "name": "Rúben Amorim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Portugal (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2010-hugo_almeida",
+      "identityId": "P-14428",
+      "squadNumber": 18,
+      "name": "Hugo Almeida",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2010-tiago",
+      "identityId": "P-21434",
+      "squadNumber": 19,
+      "name": "Tiago",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "portugal-2010-deco",
+      "identityId": "P-96343",
+      "squadNumber": 20,
+      "name": "Deco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2010-ricardo_costa",
+      "identityId": "P-55321",
+      "squadNumber": 21,
+      "name": "Ricardo Costa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2010-daniel_fernandes",
+      "identityId": "P-06977",
+      "squadNumber": 22,
+      "name": "Daniel Fernandes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2010-f_bio_coentr_o",
+      "identityId": "P-92000",
+      "squadNumber": 23,
+      "name": "Fábio Coentrão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

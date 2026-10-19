@@ -1,0 +1,495 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "argentina-1982-osvaldo_ardiles",
+      "identityId": "P-66254",
+      "squadNumber": 1,
+      "name": "Osvaldo Ardiles",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1982-h_ctor_baley",
+      "identityId": "P-45593",
+      "squadNumber": 2,
+      "name": "Héctor Baley",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1982-juan_barbas",
+      "identityId": "P-99392",
+      "squadNumber": 3,
+      "name": "Juan Barbas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1982-daniel_bertoni",
+      "identityId": "P-61157",
+      "squadNumber": 4,
+      "name": "Daniel Bertoni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1982-gabriel_calder_n",
+      "identityId": "P-10969",
+      "squadNumber": 5,
+      "name": "Gabriel Calderón",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1982-ram_n_d_az",
+      "identityId": "P-78111",
+      "squadNumber": 6,
+      "name": "Ramón Díaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1982-ubaldo_fillol",
+      "identityId": "P-25276",
+      "squadNumber": 7,
+      "name": "Ubaldo Fillol",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1982-luis_galv_n",
+      "identityId": "P-03905",
+      "squadNumber": 8,
+      "name": "Luis Galván",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1982-am_rico_gallego",
+      "identityId": "P-99593",
+      "squadNumber": 9,
+      "name": "Américo Gallego",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1982-diego_maradona",
+      "identityId": "P-80404",
+      "squadNumber": 10,
+      "name": "Diego Maradona",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1982-mario_kempes",
+      "identityId": "P-35082",
+      "squadNumber": 11,
+      "name": "Mario Kempes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1982-patricio_hern_ndez",
+      "identityId": "P-79724",
+      "squadNumber": 12,
+      "name": "Patricio Hernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1982-julio_olarticoechea",
+      "identityId": "P-46907",
+      "squadNumber": 13,
+      "name": "Julio Olarticoechea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1982-jorge_olgu_n",
+      "identityId": "P-06976",
+      "squadNumber": 14,
+      "name": "Jorge Olguín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1982-daniel_passarella",
+      "identityId": "P-80376",
+      "squadNumber": 15,
+      "name": "Daniel Passarella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1982-nery_pumpido",
+      "identityId": "P-15637",
+      "squadNumber": 16,
+      "name": "Nery Pumpido",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1982-santiago_santamar_a",
+      "identityId": "P-33159",
+      "squadNumber": 17,
+      "name": "Santiago Santamaría",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Argentina (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-1982-alberto_tarantini",
+      "identityId": "P-54098",
+      "squadNumber": 18,
+      "name": "Alberto Tarantini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1982-enzo_trossero",
+      "identityId": "P-29420",
+      "squadNumber": 19,
+      "name": "Enzo Trossero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1982-jorge_valdano",
+      "identityId": "P-02464",
+      "squadNumber": 20,
+      "name": "Jorge Valdano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1982-jos_daniel_valencia",
+      "identityId": "P-62351",
+      "squadNumber": 21,
+      "name": "José Daniel Valencia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Argentina (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-1982-jos_van_tuyne",
+      "identityId": "P-26142",
+      "squadNumber": 22,
+      "name": "José Van Tuyne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    }
+  ]
+}

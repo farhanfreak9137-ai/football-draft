@@ -1,0 +1,516 @@
+{
+  "teamName": "Turkey",
+  "teamCode": "TUR",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "turkey-2002-r_t_re_ber",
+      "identityId": "P-61478",
+      "squadNumber": 1,
+      "name": "Rüştü Reçber",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "turkey-2002-emre_a_k",
+      "identityId": "P-52032",
+      "squadNumber": 2,
+      "name": "Emre Aşık",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Turkey (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "turkey-2002-b_lent_korkmaz",
+      "identityId": "P-94559",
+      "squadNumber": 3,
+      "name": "Bülent Korkmaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "turkey-2002-fatih_akyel",
+      "identityId": "P-79130",
+      "squadNumber": 4,
+      "name": "Fatih Akyel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "turkey-2002-alpay_zalan",
+      "identityId": "P-44850",
+      "squadNumber": 5,
+      "name": "Alpay Özalan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "turkey-2002-arif_erdem",
+      "identityId": "P-37782",
+      "squadNumber": 6,
+      "name": "Arif Erdem",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Turkey (Third Place). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "turkey-2002-okan_buruk",
+      "identityId": "P-31907",
+      "squadNumber": 7,
+      "name": "Okan Buruk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Turkey (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "turkey-2002-tugay_kerimo_lu",
+      "identityId": "P-63089",
+      "squadNumber": 8,
+      "name": "Tugay Kerimoğlu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "turkey-2002-hakan_k_r",
+      "identityId": "P-58212",
+      "squadNumber": 9,
+      "name": "Hakan Şükür",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "turkey-2002-y_ld_ray_ba_t_rk",
+      "identityId": "P-21108",
+      "squadNumber": 10,
+      "name": "Yıldıray Baştürk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "turkey-2002-hasan_a_",
+      "identityId": "P-23883",
+      "squadNumber": 11,
+      "name": "Hasan Şaş",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "turkey-2002-_mer_atk_",
+      "identityId": "P-49485",
+      "squadNumber": 12,
+      "name": "Ömer Çatkıç",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Turkey (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "turkey-2002-muzzy_izzet",
+      "identityId": "P-59617",
+      "squadNumber": 13,
+      "name": "Muzzy Izzet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Turkey (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "turkey-2002-tayfur_havut_u",
+      "identityId": "P-16859",
+      "squadNumber": 14,
+      "name": "Tayfur Havutçu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Turkey (Third Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "turkey-2002-nihat_kahveci",
+      "identityId": "P-98680",
+      "squadNumber": 15,
+      "name": "Nihat Kahveci",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Turkey (Third Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "turkey-2002-_mit_zat",
+      "identityId": "P-04455",
+      "squadNumber": 16,
+      "name": "Ümit Özat",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Turkey (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "turkey-2002-_lhan_mans_z",
+      "identityId": "P-41133",
+      "squadNumber": 17,
+      "name": "İlhan Mansız",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 6,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Starting lineup contributor (1 starts). Scored 3 goal(s)."
+    },
+    {
+      "id": "turkey-2002-erg_n_penbe",
+      "identityId": "P-65298",
+      "squadNumber": 18,
+      "name": "Ergün Penbe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "turkey-2002-abdullah_ercan",
+      "identityId": "P-58069",
+      "squadNumber": 19,
+      "name": "Abdullah Ercan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Turkey (Third Place). Squad reserve member."
+    },
+    {
+      "id": "turkey-2002-hakan_nsal",
+      "identityId": "P-78533",
+      "squadNumber": 20,
+      "name": "Hakan Ünsal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "turkey-2002-emre_bel_zo_lu",
+      "identityId": "P-46497",
+      "squadNumber": 21,
+      "name": "Emre Belözoğlu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "turkey-2002-_mit_davala",
+      "identityId": "P-31566",
+      "squadNumber": 22,
+      "name": "Ümit Davala",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for Turkey (Third Place). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "turkey-2002-zafer_zg_ltekin",
+      "identityId": "P-05081",
+      "squadNumber": 23,
+      "name": "Zafer Özgültekin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Turkey (Third Place). Squad reserve member."
+    }
+  ]
+}

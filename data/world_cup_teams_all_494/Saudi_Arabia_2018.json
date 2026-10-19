@@ -1,0 +1,518 @@
+{
+  "teamName": "Saudi Arabia",
+  "teamCode": "SAU",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "saudi_arabia-2018-abdullah_al-mayouf",
+      "identityId": "P-61496",
+      "squadNumber": 1,
+      "name": "Abdullah Al-Mayouf",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-mansoor_al-harbi",
+      "identityId": "P-91707",
+      "squadNumber": 2,
+      "name": "Mansoor Al-Harbi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2018-osama_hawsawi",
+      "identityId": "P-95345",
+      "squadNumber": 3,
+      "name": "Osama Hawsawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2018-ali_al-bulaihi",
+      "identityId": "P-87284",
+      "squadNumber": 4,
+      "name": "Ali Al-Bulaihi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-omar_hawsawi",
+      "identityId": "P-31004",
+      "squadNumber": 5,
+      "name": "Omar Hawsawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-mohammed_al-breik",
+      "identityId": "P-94422",
+      "squadNumber": 6,
+      "name": "Mohammed Al-Breik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2018-salman_al-faraj",
+      "identityId": "P-93688",
+      "squadNumber": 7,
+      "name": "Salman Al-Faraj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-2018-yahya_al-shehri",
+      "identityId": "P-23568",
+      "squadNumber": 8,
+      "name": "Yahya Al-Shehri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-hattan_bahebri",
+      "identityId": "P-84563",
+      "squadNumber": 9,
+      "name": "Hattan Bahebri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-mohammad_al-sahlawi",
+      "identityId": "P-83734",
+      "squadNumber": 10,
+      "name": "Mohammad Al-Sahlawi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-abdulmalek_al-khaibri",
+      "identityId": "P-04434",
+      "squadNumber": 11,
+      "name": "Abdulmalek Al-Khaibri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2018-mohamed_kanno",
+      "identityId": "P-91268",
+      "squadNumber": 12,
+      "name": "Mohamed Kanno",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2018-yasser_al-shahrani",
+      "identityId": "P-45457",
+      "squadNumber": 13,
+      "name": "Yasser Al-Shahrani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2018-abdullah_otayf",
+      "identityId": "P-99177",
+      "squadNumber": 14,
+      "name": "Abdullah Otayf",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2018-abdullah_al-khaibari",
+      "identityId": "P-82537",
+      "squadNumber": 15,
+      "name": "Abdullah Al-Khaibari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2018-housain_al-mogahwi",
+      "identityId": "P-77853",
+      "squadNumber": 16,
+      "name": "Housain Al-Mogahwi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-taisir_al-jassim",
+      "identityId": "P-66636",
+      "squadNumber": 17,
+      "name": "Taisir Al-Jassim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-salem_al-dawsari",
+      "identityId": "P-70583",
+      "squadNumber": 18,
+      "name": "Salem Al-Dawsari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-2018-fahad_al-muwallad",
+      "identityId": "P-24301",
+      "squadNumber": 19,
+      "name": "Fahad Al-Muwallad",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-muhannad_assiri",
+      "identityId": "P-36522",
+      "squadNumber": 20,
+      "name": "Muhannad Assiri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2018-yasser_al-mosailem",
+      "identityId": "P-40442",
+      "squadNumber": 21,
+      "name": "Yasser Al-Mosailem",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-mohammed_al-owais",
+      "identityId": "P-85438",
+      "squadNumber": 22,
+      "name": "Mohammed Al-Owais",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2018-motaz_hawsawi",
+      "identityId": "P-30394",
+      "squadNumber": 23,
+      "name": "Motaz Hawsawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

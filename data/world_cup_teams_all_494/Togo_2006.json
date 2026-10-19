@@ -1,0 +1,515 @@
+{
+  "teamName": "Togo",
+  "teamCode": "TGO",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "togo-2006-ouro-nimini_tchagnirou",
+      "identityId": "P-08028",
+      "squadNumber": 1,
+      "name": "Ouro-Nimini Tchagnirou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Togo (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "togo-2006-dar_nibomb_",
+      "identityId": "P-41085",
+      "squadNumber": 2,
+      "name": "Daré Nibombé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Togo (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "togo-2006-jean-paul_abalo",
+      "identityId": "P-03523",
+      "squadNumber": 3,
+      "name": "Jean-Paul Abalo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "togo-2006-emmanuel_adebayor",
+      "identityId": "P-48772",
+      "squadNumber": 4,
+      "name": "Emmanuel Adebayor",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Togo (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "togo-2006-massamasso_tchangai",
+      "identityId": "P-08365",
+      "squadNumber": 5,
+      "name": "Massamasso Tchangai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Togo (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "togo-2006-yao_aziawonou",
+      "identityId": "P-43931",
+      "squadNumber": 6,
+      "name": "Yao Aziawonou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "togo-2006-moustapha_salifou",
+      "identityId": "P-57309",
+      "squadNumber": 7,
+      "name": "Moustapha Salifou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "togo-2006-kuami_agboh",
+      "identityId": "P-08310",
+      "squadNumber": 8,
+      "name": "Kuami Agboh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "togo-2006-thomas_dossevi",
+      "identityId": "P-12652",
+      "squadNumber": 9,
+      "name": "Thomas Dossevi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "togo-2006-ch_rif_tour_mamam",
+      "identityId": "P-64772",
+      "squadNumber": 10,
+      "name": "Chérif Touré Mamam",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Togo (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "togo-2006-robert_malm",
+      "identityId": "P-21511",
+      "squadNumber": 11,
+      "name": "Robert Malm",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Togo (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "togo-2006-eric_akoto",
+      "identityId": "P-01401",
+      "squadNumber": 12,
+      "name": "Eric Akoto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Togo (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "togo-2006-richmond_forson",
+      "identityId": "P-58731",
+      "squadNumber": 13,
+      "name": "Richmond Forson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "togo-2006-ad_kambi_olufad_",
+      "identityId": "P-44097",
+      "squadNumber": 14,
+      "name": "Adékambi Olufadé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Togo (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "togo-2006-alaixys_romao",
+      "identityId": "P-80410",
+      "squadNumber": 15,
+      "name": "Alaixys Romao",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "togo-2006-kossi_agassa",
+      "identityId": "P-30416",
+      "squadNumber": 16,
+      "name": "Kossi Agassa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Togo (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "togo-2006-mohamed_kader",
+      "identityId": "P-04210",
+      "squadNumber": 17,
+      "name": "Mohamed Kader",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Togo (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "togo-2006-yao_junior_s_naya",
+      "identityId": "P-22298",
+      "squadNumber": 18,
+      "name": "Yao Junior Sènaya",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "togo-2006-ludovic_assemoassa",
+      "identityId": "P-00077",
+      "squadNumber": 19,
+      "name": "Ludovic Assemoassa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "togo-2006-affo_erassa",
+      "identityId": "P-53024",
+      "squadNumber": 20,
+      "name": "Affo Erassa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Togo (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "togo-2006-franck_atsou",
+      "identityId": "P-10224",
+      "squadNumber": 21,
+      "name": "Franck Atsou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Togo (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "togo-2006-kodjovi_obilal_",
+      "identityId": "P-60422",
+      "squadNumber": 22,
+      "name": "Kodjovi Obilalé",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Togo (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "togo-2006-assimiou_tour_",
+      "identityId": "P-98500",
+      "squadNumber": 23,
+      "name": "Assimiou Touré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Togo (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

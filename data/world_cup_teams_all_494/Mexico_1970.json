@@ -1,0 +1,494 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "mexico-1970-ignacio_calder_n",
+      "identityId": "P-66980",
+      "squadNumber": 1,
+      "name": "Ignacio Calderón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1970-juan_manuel_alejandrez",
+      "identityId": "P-80210",
+      "squadNumber": 2,
+      "name": "Juan Manuel Alejandrez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1970-gustavo_pe_a",
+      "identityId": "P-64553",
+      "squadNumber": 3,
+      "name": "Gustavo Peña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1970-francisco_montes",
+      "identityId": "P-36154",
+      "squadNumber": 4,
+      "name": "Francisco Montes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1970-mario_p_rez",
+      "identityId": "P-42664",
+      "squadNumber": 5,
+      "name": "Mario Pérez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1970-guillermo_hern_ndez",
+      "identityId": "P-69898",
+      "squadNumber": 6,
+      "name": "Guillermo Hernández",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1970-marcos_rivas",
+      "identityId": "P-23385",
+      "squadNumber": 7,
+      "name": "Marcos Rivas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1970-antonio_mungu_a",
+      "identityId": "P-96873",
+      "squadNumber": 8,
+      "name": "Antonio Munguía",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1970-enrique_borja",
+      "identityId": "P-55734",
+      "squadNumber": 9,
+      "name": "Enrique Borja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1970-horacio_l_pez_salgado",
+      "identityId": "P-56971",
+      "squadNumber": 10,
+      "name": "Horacio López Salgado",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1970-aar_n_padilla",
+      "identityId": "P-91914",
+      "squadNumber": 11,
+      "name": "Aarón Padilla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1970-antonio_mota",
+      "identityId": "P-62196",
+      "squadNumber": 12,
+      "name": "Antonio Mota",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1970-jos_vantolr_",
+      "identityId": "P-96177",
+      "squadNumber": 13,
+      "name": "José Vantolrá",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1970-javier_guzm_n",
+      "identityId": "P-38555",
+      "squadNumber": 14,
+      "name": "Javier Guzmán",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1970-h_ctor_pulido",
+      "identityId": "P-85808",
+      "squadNumber": 15,
+      "name": "Héctor Pulido",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1970-isidoro_d_az",
+      "identityId": "P-05631",
+      "squadNumber": 16,
+      "name": "Isidoro Díaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-1970-jos_luis_gonz_lez",
+      "identityId": "P-13602",
+      "squadNumber": 17,
+      "name": "José Luis González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1970-mario_velarde",
+      "identityId": "P-32657",
+      "squadNumber": 18,
+      "name": "Mario Velarde",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1970-javier_valdivia",
+      "identityId": "P-07812",
+      "squadNumber": 19,
+      "name": "Javier Valdivia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "mexico-1970-juan_ignacio_basaguren",
+      "identityId": "P-64207",
+      "squadNumber": 20,
+      "name": "Juan Ignacio Basaguren",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1970-javier_fragoso",
+      "identityId": "P-48001",
+      "squadNumber": 21,
+      "name": "Javier Fragoso",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1970-francisco_castrej_n",
+      "identityId": "P-18898",
+      "squadNumber": 22,
+      "name": "Francisco Castrejón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "teamName": "Morocco",
+  "teamCode": "MAR",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "morocco-1986-badou_zaki",
+      "identityId": "P-87191",
+      "squadNumber": 1,
+      "name": "Badou Zaki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-labid_khalifa",
+      "identityId": "P-92676",
+      "squadNumber": 2,
+      "name": "Labid Khalifa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-abdelmajid_lamriss",
+      "identityId": "P-40516",
+      "squadNumber": 3,
+      "name": "Abdelmajid Lamriss",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-mustafa_el_biyaz",
+      "identityId": "P-95808",
+      "squadNumber": 4,
+      "name": "Mustafa El Biyaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1986-noureddine_bouyahyaoui",
+      "identityId": "P-07753",
+      "squadNumber": 5,
+      "name": "Noureddine Bouyahyaoui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-abdelmajid_dolmy",
+      "identityId": "P-40453",
+      "squadNumber": 6,
+      "name": "Abdelmajid Dolmy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-mustafa_el_haddaoui",
+      "identityId": "P-37917",
+      "squadNumber": 7,
+      "name": "Mustafa El Haddaoui",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1986-aziz_bouderbala",
+      "identityId": "P-99850",
+      "squadNumber": 8,
+      "name": "Aziz Bouderbala",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-abdelkrim_merry",
+      "identityId": "P-32922",
+      "squadNumber": 9,
+      "name": "Abdelkrim Merry",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-1986-mohamed_timoumi",
+      "identityId": "P-04834",
+      "squadNumber": 10,
+      "name": "Mohamed Timoumi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-1986-mustafa_merry",
+      "identityId": "P-87575",
+      "squadNumber": 11,
+      "name": "Mustafa Merry",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Morocco (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1986-salahdine_hmied",
+      "identityId": "P-37638",
+      "squadNumber": 12,
+      "name": "Salahdine Hmied",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-abdelfettah_rhiati",
+      "identityId": "P-32719",
+      "squadNumber": 13,
+      "name": "Abdelfettah Rhiati",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-lahcen_ouadani",
+      "identityId": "P-74260",
+      "squadNumber": 14,
+      "name": "Lahcen Ouadani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Morocco (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1986-mouncif_el_haddaoui",
+      "identityId": "P-13902",
+      "squadNumber": 15,
+      "name": "Mouncif El Haddaoui",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-azzedine_amanallah",
+      "identityId": "P-11961",
+      "squadNumber": 16,
+      "name": "Azzedine Amanallah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-abderrazak_khairi",
+      "identityId": "P-21024",
+      "squadNumber": 17,
+      "name": "Abderrazak Khairi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Morocco (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "morocco-1986-mohammed_sahil",
+      "identityId": "P-43398",
+      "squadNumber": 18,
+      "name": "Mohammed Sahil",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-fadel_jilal",
+      "identityId": "P-29930",
+      "squadNumber": 19,
+      "name": "Fadel Jilal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-abdellah_bidane",
+      "identityId": "P-03975",
+      "squadNumber": 20,
+      "name": "Abdellah Bidane",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "morocco-1986-abdelaziz_souleimani",
+      "identityId": "P-40996",
+      "squadNumber": 21,
+      "name": "Abdelaziz Souleimani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Morocco (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "morocco-1986-abdelfettah_mouddani",
+      "identityId": "P-79497",
+      "squadNumber": 22,
+      "name": "Abdelfettah Mouddani",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Morocco (Round of 16). Squad reserve member."
+    }
+  ]
+}

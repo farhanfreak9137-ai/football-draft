@@ -1,0 +1,511 @@
+{
+  "teamName": "Ukraine",
+  "teamCode": "UKR",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "ukraine-2026-artem_dovbyk",
+      "identityId": "identity-2026-artem_dovbyk",
+      "squadNumber": 1,
+      "name": "Artem Dovbyk",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "La Liga Golden Boot Winner"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "La Liga Golden Boot Winner",
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Ukraine. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "ukraine-2026-mykhailo_mudryk",
+      "identityId": "identity-2026-mykhailo_mudryk",
+      "squadNumber": 2,
+      "name": "Mykhailo Mudryk",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Ukraine. Regular starting lineup selection."
+    },
+    {
+      "id": "ukraine-2026-oleksandr_zinchenko",
+      "identityId": "identity-2026-oleksandr_zinchenko",
+      "squadNumber": 3,
+      "name": "Oleksandr Zinchenko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Ukraine. Regular starting lineup selection."
+    },
+    {
+      "id": "ukraine-2026-andriy_lunin",
+      "identityId": "identity-2026-andriy_lunin",
+      "squadNumber": 4,
+      "name": "Andriy Lunin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Ukraine. Regular starting lineup selection."
+    },
+    {
+      "id": "ukraine-2026-viktor_tsygankov",
+      "identityId": "identity-2026-viktor_tsygankov",
+      "squadNumber": 5,
+      "name": "Viktor Tsygankov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Ukraine. Regular starting lineup selection."
+    },
+    {
+      "id": "ukraine-2026-ilya_zabarnyi",
+      "identityId": "identity-2026-ilya_zabarnyi",
+      "squadNumber": 6,
+      "name": "Ilya Zabarnyi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Ukraine. Regular starting lineup selection."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_7",
+      "identityId": "identity-2026-ukraine_squad_member_7",
+      "squadNumber": 7,
+      "name": "Ukraine Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_8",
+      "identityId": "identity-2026-ukraine_squad_member_8",
+      "squadNumber": 8,
+      "name": "Ukraine Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_9",
+      "identityId": "identity-2026-ukraine_squad_member_9",
+      "squadNumber": 9,
+      "name": "Ukraine Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_10",
+      "identityId": "identity-2026-ukraine_squad_member_10",
+      "squadNumber": 10,
+      "name": "Ukraine Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_11",
+      "identityId": "identity-2026-ukraine_squad_member_11",
+      "squadNumber": 11,
+      "name": "Ukraine Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_12",
+      "identityId": "identity-2026-ukraine_squad_member_12",
+      "squadNumber": 12,
+      "name": "Ukraine Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_13",
+      "identityId": "identity-2026-ukraine_squad_member_13",
+      "squadNumber": 13,
+      "name": "Ukraine Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_14",
+      "identityId": "identity-2026-ukraine_squad_member_14",
+      "squadNumber": 14,
+      "name": "Ukraine Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_15",
+      "identityId": "identity-2026-ukraine_squad_member_15",
+      "squadNumber": 15,
+      "name": "Ukraine Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_16",
+      "identityId": "identity-2026-ukraine_squad_member_16",
+      "squadNumber": 16,
+      "name": "Ukraine Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_17",
+      "identityId": "identity-2026-ukraine_squad_member_17",
+      "squadNumber": 17,
+      "name": "Ukraine Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_18",
+      "identityId": "identity-2026-ukraine_squad_member_18",
+      "squadNumber": 18,
+      "name": "Ukraine Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_19",
+      "identityId": "identity-2026-ukraine_squad_member_19",
+      "squadNumber": 19,
+      "name": "Ukraine Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_20",
+      "identityId": "identity-2026-ukraine_squad_member_20",
+      "squadNumber": 20,
+      "name": "Ukraine Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_21",
+      "identityId": "identity-2026-ukraine_squad_member_21",
+      "squadNumber": 21,
+      "name": "Ukraine Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_22",
+      "identityId": "identity-2026-ukraine_squad_member_22",
+      "squadNumber": 22,
+      "name": "Ukraine Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    },
+    {
+      "id": "ukraine-2026-ukraine_squad_member_23",
+      "identityId": "identity-2026-ukraine_squad_member_23",
+      "squadNumber": 23,
+      "name": "Ukraine Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ukraine. National squad reserve depth."
+    }
+  ]
+}

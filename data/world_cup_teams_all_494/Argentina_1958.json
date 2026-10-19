@@ -1,0 +1,498 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "argentina-1958-amadeo_carrizo",
+      "identityId": "P-69090",
+      "squadNumber": 1,
+      "name": "Amadeo Carrizo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-pedro_dellacha",
+      "identityId": "P-10583",
+      "squadNumber": 2,
+      "name": "Pedro Dellacha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-federico_vairo",
+      "identityId": "P-11223",
+      "squadNumber": 3,
+      "name": "Federico Vairo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-juan_lombardo",
+      "identityId": "P-15145",
+      "squadNumber": 4,
+      "name": "Juan Lombardo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-n_stor_rossi",
+      "identityId": "P-91035",
+      "squadNumber": 5,
+      "name": "Néstor Rossi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-jos_varacka",
+      "identityId": "P-40725",
+      "squadNumber": 6,
+      "name": "José Varacka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-oreste_corbatta",
+      "identityId": "P-71952",
+      "squadNumber": 7,
+      "name": "Oreste Corbatta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Argentina (Group Stage). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "argentina-1958-eliseo_prado",
+      "identityId": "P-43944",
+      "squadNumber": 8,
+      "name": "Eliseo Prado",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-norberto_men_ndez",
+      "identityId": "P-98280",
+      "squadNumber": 9,
+      "name": "Norberto Menéndez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1958-alfredo_rojas",
+      "identityId": "P-35675",
+      "squadNumber": 10,
+      "name": "Alfredo Rojas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-_ngel_labruna",
+      "identityId": "P-33713",
+      "squadNumber": 11,
+      "name": "Ángel Labruna",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1958-julio_musimessi",
+      "identityId": "P-73082",
+      "squadNumber": 12,
+      "name": "Julio Musimessi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-alfredo_p_rez",
+      "identityId": "P-35217",
+      "squadNumber": 13,
+      "name": "Alfredo Pérez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-federico_edwards",
+      "identityId": "P-60343",
+      "squadNumber": 14,
+      "name": "Federico Edwards",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-david_acevedo",
+      "identityId": "P-81409",
+      "squadNumber": 15,
+      "name": "David Acevedo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-eliseo_mouri_o",
+      "identityId": "P-51757",
+      "squadNumber": 16,
+      "name": "Eliseo Mouriño",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-jos_ram_n_delgado",
+      "identityId": "P-86786",
+      "squadNumber": 17,
+      "name": "José Ramón Delgado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-norberto_boggio",
+      "identityId": "P-22258",
+      "squadNumber": 18,
+      "name": "Norberto Boggio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-ludovico_avio",
+      "identityId": "P-20645",
+      "squadNumber": 19,
+      "name": "Ludovico Avio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1958-ricardo_infante",
+      "identityId": "P-58138",
+      "squadNumber": 20,
+      "name": "Ricardo Infante",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-jos_sanfilippo",
+      "identityId": "P-46624",
+      "squadNumber": 21,
+      "name": "José Sanfilippo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1958-osvaldo_cruz",
+      "identityId": "P-19812",
+      "squadNumber": 22,
+      "name": "Osvaldo Cruz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    }
+  ]
+}

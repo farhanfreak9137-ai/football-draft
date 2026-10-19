@@ -1,0 +1,494 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "mexico-1986-pablo_larios",
+      "identityId": "P-96913",
+      "squadNumber": 1,
+      "name": "Pablo Larios",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "mexico-1986-mario_trejo",
+      "identityId": "P-47178",
+      "squadNumber": 2,
+      "name": "Mario Trejo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-1986-fernando_quirarte",
+      "identityId": "P-28996",
+      "squadNumber": 3,
+      "name": "Fernando Quirarte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "mexico-1986-armando_manzo",
+      "identityId": "P-38416",
+      "squadNumber": 4,
+      "name": "Armando Manzo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1986-francisco_javier_cruz",
+      "identityId": "P-83744",
+      "squadNumber": 5,
+      "name": "Francisco Javier Cruz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "mexico-1986-carlos_de_los_cobos",
+      "identityId": "P-10537",
+      "squadNumber": 6,
+      "name": "Carlos de los Cobos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-1986-miguel_espa_a",
+      "identityId": "P-19791",
+      "squadNumber": 7,
+      "name": "Miguel España",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1986-alejandro_dom_nguez",
+      "identityId": "P-03454",
+      "squadNumber": 8,
+      "name": "Alejandro Domínguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-1986-hugo_s_nchez",
+      "identityId": "P-26316",
+      "squadNumber": 9,
+      "name": "Hugo Sánchez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1986-tom_s_boy",
+      "identityId": "P-62984",
+      "squadNumber": 10,
+      "name": "Tomás Boy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "mexico-1986-carlos_hermosillo",
+      "identityId": "P-22941",
+      "squadNumber": 11,
+      "name": "Carlos Hermosillo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1986-ignacio_rodr_guez",
+      "identityId": "P-43570",
+      "squadNumber": 12,
+      "name": "Ignacio Rodríguez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1986-javier_aguirre",
+      "identityId": "P-59792",
+      "squadNumber": 13,
+      "name": "Javier Aguirre",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "mexico-1986-felix_cruz",
+      "identityId": "P-56743",
+      "squadNumber": 14,
+      "name": "Felix Cruz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "mexico-1986-luis_flores",
+      "identityId": "P-85837",
+      "squadNumber": 15,
+      "name": "Luis Flores",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1986-carlos_mu_oz",
+      "identityId": "P-67053",
+      "squadNumber": 16,
+      "name": "Carlos Muñoz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-1986-ra_l_serv_n",
+      "identityId": "P-89412",
+      "squadNumber": 17,
+      "name": "Raúl Servín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1986-rafael_amador",
+      "identityId": "P-63828",
+      "squadNumber": 18,
+      "name": "Rafael Amador",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-1986-javier_hern_ndez",
+      "identityId": "P-93110",
+      "squadNumber": 19,
+      "name": "Javier Hernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1986-olaf_heredia",
+      "identityId": "P-83083",
+      "squadNumber": 20,
+      "name": "Olaf Heredia",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1986-crist_bal_ortega",
+      "identityId": "P-10248",
+      "squadNumber": 21,
+      "name": "Cristóbal Ortega",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "mexico-1986-manuel_negrete",
+      "identityId": "P-66199",
+      "squadNumber": 22,
+      "name": "Manuel Negrete",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Mexico (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 90,
+  "players": [
+    {
+      "id": "brazil-1994-cl_udio_taffarel",
+      "identityId": "P-31850",
+      "squadNumber": 1,
+      "name": "Cláudio Taffarel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1994-jorginho",
+      "identityId": "P-26340",
+      "squadNumber": 2,
+      "name": "Jorginho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1994-ricardo_rocha",
+      "identityId": "P-61247",
+      "squadNumber": 3,
+      "name": "Ricardo Rocha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1994 World Cup performance for Brazil (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1994-ronald_o",
+      "identityId": "P-74676",
+      "squadNumber": 4,
+      "name": "Ronaldão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1994-mauro_silva",
+      "identityId": "P-12551",
+      "squadNumber": 5,
+      "name": "Mauro Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1994-branco",
+      "identityId": "P-90842",
+      "squadNumber": 6,
+      "name": "Branco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1994-bebeto",
+      "identityId": "P-68671",
+      "squadNumber": 7,
+      "name": "Bebeto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "brazil-1994-dunga",
+      "identityId": "P-32466",
+      "squadNumber": 8,
+      "name": "Dunga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1994-zinho",
+      "identityId": "P-12418",
+      "squadNumber": 9,
+      "name": "Zinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1994-ra_",
+      "identityId": "P-93386",
+      "squadNumber": 10,
+      "name": "Raí",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1994-rom_rio",
+      "identityId": "P-61251",
+      "squadNumber": 11,
+      "name": "Romário",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Golden Ball",
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1994 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Golden Ball, Bronze Boot."
+    },
+    {
+      "id": "brazil-1994-zetti",
+      "identityId": "P-02858",
+      "squadNumber": 12,
+      "name": "Zetti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1994-aldair",
+      "identityId": "P-56505",
+      "squadNumber": 13,
+      "name": "Aldair",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-1994-cafu",
+      "identityId": "P-91718",
+      "squadNumber": 14,
+      "name": "Cafu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1994 World Cup performance for Brazil (Champions). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "brazil-1994-m_rcio_santos",
+      "identityId": "P-07679",
+      "squadNumber": 15,
+      "name": "Márcio Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1994-leonardo",
+      "identityId": "P-72471",
+      "squadNumber": 16,
+      "name": "Leonardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-1994-mazinho",
+      "identityId": "P-78793",
+      "squadNumber": 17,
+      "name": "Mazinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Brazil (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-1994-paulo_s_rgio",
+      "identityId": "P-86509",
+      "squadNumber": 18,
+      "name": "Paulo Sérgio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1994 World Cup performance for Brazil (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-1994-m_ller",
+      "identityId": "P-60969",
+      "squadNumber": 19,
+      "name": "Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1994 World Cup performance for Brazil (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-1994-ronaldo",
+      "identityId": "P-62722",
+      "squadNumber": 20,
+      "name": "Ronaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1994-viola",
+      "identityId": "P-81097",
+      "squadNumber": 21,
+      "name": "Viola",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1994 World Cup performance for Brazil (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-1994-gilmar_rinaldi",
+      "identityId": "P-12835",
+      "squadNumber": 22,
+      "name": "Gilmar Rinaldi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Brazil (Champions). Squad reserve member."
+    }
+  ]
+}

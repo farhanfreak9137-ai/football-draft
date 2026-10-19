@@ -1,0 +1,515 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "south_korea-2010-woon-jae_lee",
+      "identityId": "P-95122",
+      "squadNumber": 1,
+      "name": "Woon-jae Lee",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2010-beom-seok_oh",
+      "identityId": "P-61649",
+      "squadNumber": 2,
+      "name": "Beom-seok Oh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2010-hyung-il_kim",
+      "identityId": "P-96457",
+      "squadNumber": 3,
+      "name": "Hyung-il Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2010-yong-hyung_cho",
+      "identityId": "P-16580",
+      "squadNumber": 4,
+      "name": "Yong-hyung Cho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2010-nam-il_kim",
+      "identityId": "P-51785",
+      "squadNumber": 5,
+      "name": "Nam-il Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for South Korea (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "south_korea-2010-bo-kyung_kim",
+      "identityId": "P-16139",
+      "squadNumber": 6,
+      "name": "Bo-kyung Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2010-ji-sung_park",
+      "identityId": "P-25724",
+      "squadNumber": 7,
+      "name": "Ji-sung Park",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2010-jung-woo_kim",
+      "identityId": "P-47942",
+      "squadNumber": 8,
+      "name": "Jung-woo Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2010-jung-hwan_ahn",
+      "identityId": "P-26616",
+      "squadNumber": 9,
+      "name": "Jung-hwan Ahn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2010-chu-young_park",
+      "identityId": "P-06608",
+      "squadNumber": 10,
+      "name": "Chu-young Park",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2010-seung-yeoul_lee",
+      "identityId": "P-47809",
+      "squadNumber": 11,
+      "name": "Seung-yeoul Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for South Korea (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2010-young-pyo_lee",
+      "identityId": "P-46519",
+      "squadNumber": 12,
+      "name": "Young-pyo Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2010-jae-sung_kim",
+      "identityId": "P-30708",
+      "squadNumber": 13,
+      "name": "Jae-sung Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2010-jung-soo_lee",
+      "identityId": "P-07494",
+      "squadNumber": 14,
+      "name": "Jung-soo Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "south_korea-2010-dong-jin_kim",
+      "identityId": "P-61550",
+      "squadNumber": 15,
+      "name": "Dong-jin Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for South Korea (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2010-sung-yueng_ki",
+      "identityId": "P-48433",
+      "squadNumber": 16,
+      "name": "Sung-yueng Ki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2010-chung-yong_lee",
+      "identityId": "P-40927",
+      "squadNumber": 17,
+      "name": "Chung-yong Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "south_korea-2010-sung-ryong_jung",
+      "identityId": "P-88939",
+      "squadNumber": 18,
+      "name": "Sung-ryong Jung",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2010-ki-hun_yeom",
+      "identityId": "P-32822",
+      "squadNumber": 19,
+      "name": "Ki-hun Yeom",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2010-dong-gook_lee",
+      "identityId": "P-85453",
+      "squadNumber": 20,
+      "name": "Dong-gook Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for South Korea (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-2010-young-kwang_kim",
+      "identityId": "P-08539",
+      "squadNumber": 21,
+      "name": "Young-kwang Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2010-du-ri_cha",
+      "identityId": "P-39884",
+      "squadNumber": 22,
+      "name": "Du-ri Cha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for South Korea (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2010-min-soo_kang",
+      "identityId": "P-15739",
+      "squadNumber": 23,
+      "name": "Min-soo Kang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    }
+  ]
+}

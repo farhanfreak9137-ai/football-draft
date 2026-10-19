@@ -1,0 +1,582 @@
+{
+  "teamName": "Morocco",
+  "teamCode": "MAR",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "morocco-2022-yassine_bounou",
+      "identityId": "P-50688",
+      "squadNumber": 1,
+      "name": "Yassine Bounou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "morocco-2022-achraf_hakimi",
+      "identityId": "P-45288",
+      "squadNumber": 2,
+      "name": "Achraf Hakimi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "morocco-2022-noussair_mazraoui",
+      "identityId": "P-09614",
+      "squadNumber": 3,
+      "name": "Noussair Mazraoui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "morocco-2022-sofyan_amrabat",
+      "identityId": "P-71023",
+      "squadNumber": 4,
+      "name": "Sofyan Amrabat",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "morocco-2022-nayef_aguerd",
+      "identityId": "P-47490",
+      "squadNumber": 5,
+      "name": "Nayef Aguerd",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-2022-romain_sa_ss",
+      "identityId": "P-26068",
+      "squadNumber": 6,
+      "name": "Romain Saïss",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-2022-hakim_ziyech",
+      "identityId": "P-70715",
+      "squadNumber": 7,
+      "name": "Hakim Ziyech",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-2022-azzedine_ounahi",
+      "identityId": "P-40619",
+      "squadNumber": 8,
+      "name": "Azzedine Ounahi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "morocco-2022-abderrazak_hamdallah",
+      "identityId": "P-90423",
+      "squadNumber": 9,
+      "name": "Abderrazak Hamdallah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "morocco-2022-anass_zaroury",
+      "identityId": "P-94093",
+      "squadNumber": 10,
+      "name": "Anass Zaroury",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "morocco-2022-abdelhamid_sabiri",
+      "identityId": "P-05265",
+      "squadNumber": 11,
+      "name": "Abdelhamid Sabiri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-2022-munir_mohamedi",
+      "identityId": "P-15566",
+      "squadNumber": 12,
+      "name": "Munir Mohamedi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-2022-ilias_chair",
+      "identityId": "P-87409",
+      "squadNumber": 13,
+      "name": "Ilias Chair",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "morocco-2022-zakaria_aboukhlal",
+      "identityId": "P-48295",
+      "squadNumber": 14,
+      "name": "Zakaria Aboukhlal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-2022-selim_amallah",
+      "identityId": "P-23330",
+      "squadNumber": 15,
+      "name": "Selim Amallah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "morocco-2022-abde_ezzalzouli",
+      "identityId": "P-21052",
+      "squadNumber": 16,
+      "name": "Abde Ezzalzouli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "morocco-2022-sofiane_boufal",
+      "identityId": "P-59033",
+      "squadNumber": 17,
+      "name": "Sofiane Boufal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "morocco-2022-jawad_el_yamiq",
+      "identityId": "P-14026",
+      "squadNumber": 18,
+      "name": "Jawad El Yamiq",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-2022-youssef_en-nesyri",
+      "identityId": "P-42517",
+      "squadNumber": 19,
+      "name": "Youssef En-Nesyri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "morocco-2022-achraf_dari",
+      "identityId": "P-52013",
+      "squadNumber": 20,
+      "name": "Achraf Dari",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-2022-walid_cheddira",
+      "identityId": "P-05216",
+      "squadNumber": 21,
+      "name": "Walid Cheddira",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "morocco-2022-ahmed_reda_tagnaouti",
+      "identityId": "P-88869",
+      "squadNumber": 22,
+      "name": "Ahmed Reda Tagnaouti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "morocco-2022-bilal_el_khannous",
+      "identityId": "P-80656",
+      "squadNumber": 23,
+      "name": "Bilal El Khannous",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-2022-badr_benoun",
+      "identityId": "P-00597",
+      "squadNumber": 24,
+      "name": "Badr Benoun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "morocco-2022-yahia_attiyat_allah",
+      "identityId": "P-91543",
+      "squadNumber": 25,
+      "name": "Yahia Attiyat Allah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-2022-yahya_jabrane",
+      "identityId": "P-86644",
+      "squadNumber": 26,
+      "name": "Yahya Jabrane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Morocco (Fourth Place). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

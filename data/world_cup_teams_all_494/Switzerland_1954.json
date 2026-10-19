@@ -1,0 +1,502 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "CHE",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "switzerland-1954-walter_eich",
+      "identityId": "P-64611",
+      "squadNumber": 1,
+      "name": "Walter Eich",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-eugene_parlier",
+      "identityId": "P-05331",
+      "squadNumber": 2,
+      "name": "Eugene Parlier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-georges_stuber",
+      "identityId": "P-00506",
+      "squadNumber": 3,
+      "name": "Georges Stuber",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-roger_bocquet",
+      "identityId": "P-27876",
+      "squadNumber": 4,
+      "name": "Roger Bocquet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-marcel_fl_ckiger",
+      "identityId": "P-20993",
+      "squadNumber": 5,
+      "name": "Marcel Flückiger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-roger_mathis",
+      "identityId": "P-20604",
+      "squadNumber": 6,
+      "name": "Roger Mathis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-andr_neury",
+      "identityId": "P-19543",
+      "squadNumber": 7,
+      "name": "André Neury",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-heinz_bigler",
+      "identityId": "P-60020",
+      "squadNumber": 8,
+      "name": "Heinz Bigler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-charles_casali",
+      "identityId": "P-53302",
+      "squadNumber": 9,
+      "name": "Charles Casali",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-oliver_eggimann",
+      "identityId": "P-44178",
+      "squadNumber": 10,
+      "name": "Oliver Eggimann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-norbert_eschmann",
+      "identityId": "P-09700",
+      "squadNumber": 11,
+      "name": "Norbert Eschmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1954-gilbert_fesselet",
+      "identityId": "P-94112",
+      "squadNumber": 12,
+      "name": "Gilbert Fesselet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-ivo_frosio",
+      "identityId": "P-68231",
+      "squadNumber": 13,
+      "name": "Ivo Frosio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-willy_kernen",
+      "identityId": "P-97894",
+      "squadNumber": 14,
+      "name": "Willy Kernen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-charles_antenen",
+      "identityId": "P-98547",
+      "squadNumber": 15,
+      "name": "Charles Antenen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-robert_ballaman",
+      "identityId": "P-63738",
+      "squadNumber": 16,
+      "name": "Robert Ballaman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "switzerland-1954-jacques_fatton",
+      "identityId": "P-80623",
+      "squadNumber": 17,
+      "name": "Jacques Fatton",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-1954-josef_h_gi",
+      "identityId": "P-14406",
+      "squadNumber": 18,
+      "name": "Josef Hügi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Tournament standout and starting pillar. Scored 6 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "switzerland-1954-marcel_mauron",
+      "identityId": "P-51308",
+      "squadNumber": 19,
+      "name": "Marcel Mauron",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-eugen_meier",
+      "identityId": "P-46939",
+      "squadNumber": 20,
+      "name": "Eugen Meier",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-ferdinando_riva",
+      "identityId": "P-30328",
+      "squadNumber": 21,
+      "name": "Ferdinando Riva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1954-roger_vonlanthen",
+      "identityId": "P-30097",
+      "squadNumber": 22,
+      "name": "Roger Vonlanthen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    }
+  ]
+}

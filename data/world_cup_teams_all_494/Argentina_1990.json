@@ -1,0 +1,497 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 88,
+  "players": [
+    {
+      "id": "argentina-1990-nery_pumpido",
+      "identityId": "P-15637",
+      "squadNumber": 1,
+      "name": "Nery Pumpido",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1990-sergio_batista",
+      "identityId": "P-22408",
+      "squadNumber": 2,
+      "name": "Sergio Batista",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1990-abel_balbo",
+      "identityId": "P-07031",
+      "squadNumber": 3,
+      "name": "Abel Balbo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1990-jos_basualdo",
+      "identityId": "P-14841",
+      "squadNumber": 4,
+      "name": "José Basualdo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1990-edgardo_bauza",
+      "identityId": "P-06684",
+      "squadNumber": 5,
+      "name": "Edgardo Bauza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Argentina (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "argentina-1990-gabriel_calder_n",
+      "identityId": "P-10969",
+      "squadNumber": 6,
+      "name": "Gabriel Calderón",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1990-jorge_burruchaga",
+      "identityId": "P-95267",
+      "squadNumber": 7,
+      "name": "Jorge Burruchaga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1990-claudio_caniggia",
+      "identityId": "P-35873",
+      "squadNumber": 8,
+      "name": "Claudio Caniggia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1990-gustavo_dezotti",
+      "identityId": "P-53936",
+      "squadNumber": 9,
+      "name": "Gustavo Dezotti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1990-diego_maradona",
+      "identityId": "P-80404",
+      "squadNumber": 10,
+      "name": "Diego Maradona",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Bronze Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1990 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es). Honors: Bronze Ball."
+    },
+    {
+      "id": "argentina-1990-n_stor_fabbri",
+      "identityId": "P-64003",
+      "squadNumber": 11,
+      "name": "Néstor Fabbri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1990-sergio_goycochea",
+      "identityId": "P-34056",
+      "squadNumber": 12,
+      "name": "Sergio Goycochea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1990-n_stor_lorenzo",
+      "identityId": "P-23349",
+      "squadNumber": 13,
+      "name": "Néstor Lorenzo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1990-ricardo_giusti",
+      "identityId": "P-49676",
+      "squadNumber": 14,
+      "name": "Ricardo Giusti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1990-pedro_monz_n",
+      "identityId": "P-31161",
+      "squadNumber": 15,
+      "name": "Pedro Monzón",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1990-julio_olarticoechea",
+      "identityId": "P-46907",
+      "squadNumber": 16,
+      "name": "Julio Olarticoechea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1990-roberto_n_stor_sensini",
+      "identityId": "P-82949",
+      "squadNumber": 17,
+      "name": "Roberto Néstor Sensini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for Argentina (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1990-jos_serrizuela",
+      "identityId": "P-80379",
+      "squadNumber": 18,
+      "name": "José Serrizuela",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1990-oscar_ruggeri",
+      "identityId": "P-79080",
+      "squadNumber": 19,
+      "name": "Oscar Ruggeri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1990-juan_sim_n",
+      "identityId": "P-14628",
+      "squadNumber": 20,
+      "name": "Juan Simón",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1990-pedro_troglio",
+      "identityId": "P-30977",
+      "squadNumber": 21,
+      "name": "Pedro Troglio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for Argentina (Runners-up). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1990-fabi_n_cancelarich",
+      "identityId": "P-15632",
+      "squadNumber": 22,
+      "name": "Fabián Cancelarich",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Argentina (Runners-up). Squad reserve member."
+    }
+  ]
+}

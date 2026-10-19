@@ -1,0 +1,583 @@
+{
+  "teamName": "Canada",
+  "teamCode": "CAN",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "canada-2022-dayne_st_clair",
+      "identityId": "P-94317",
+      "squadNumber": 1,
+      "name": "Dayne St. Clair",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-2022-alistair_johnston",
+      "identityId": "P-12635",
+      "squadNumber": 2,
+      "name": "Alistair Johnston",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-2022-sam_adekugbe",
+      "identityId": "P-55821",
+      "squadNumber": 3,
+      "name": "Sam Adekugbe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "canada-2022-kamal_miller",
+      "identityId": "P-31806",
+      "squadNumber": 4,
+      "name": "Kamal Miller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-2022-steven_vit_ria",
+      "identityId": "P-89710",
+      "squadNumber": 5,
+      "name": "Steven Vitória",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-2022-samuel_piette",
+      "identityId": "P-65386",
+      "squadNumber": 6,
+      "name": "Samuel Piette",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-2022-stephen_eust_quio",
+      "identityId": "P-28794",
+      "squadNumber": 7,
+      "name": "Stephen Eustáquio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-2022-liam_fraser",
+      "identityId": "P-32574",
+      "squadNumber": 8,
+      "name": "Liam Fraser",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-2022-lucas_cavallini",
+      "identityId": "P-58061",
+      "squadNumber": 9,
+      "name": "Lucas Cavallini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Canada (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "canada-2022-junior_hoilett",
+      "identityId": "P-35706",
+      "squadNumber": 10,
+      "name": "Junior Hoilett",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-2022-tajon_buchanan",
+      "identityId": "P-96259",
+      "squadNumber": 11,
+      "name": "Tajon Buchanan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-2022-ik_ugbo",
+      "identityId": "P-83822",
+      "squadNumber": 12,
+      "name": "Iké Ugbo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-2022-atiba_hutchinson",
+      "identityId": "P-03472",
+      "squadNumber": 13,
+      "name": "Atiba Hutchinson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-2022-mark-anthony_kaye",
+      "identityId": "P-72399",
+      "squadNumber": 14,
+      "name": "Mark-Anthony Kaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "canada-2022-isma_l_kon_",
+      "identityId": "P-85670",
+      "squadNumber": 15,
+      "name": "Ismaël Koné",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Canada (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "canada-2022-james_pantemis",
+      "identityId": "P-61949",
+      "squadNumber": 16,
+      "name": "James Pantemis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-2022-cyle_larin",
+      "identityId": "P-01925",
+      "squadNumber": 17,
+      "name": "Cyle Larin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-2022-milan_borjan",
+      "identityId": "P-46263",
+      "squadNumber": 18,
+      "name": "Milan Borjan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "canada-2022-alphonso_davies",
+      "identityId": "P-46358",
+      "squadNumber": 19,
+      "name": "Alphonso Davies",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Canada (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "canada-2022-jonathan_david",
+      "identityId": "P-48340",
+      "squadNumber": 20,
+      "name": "Jonathan David",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-2022-jonathan_osorio",
+      "identityId": "P-27541",
+      "squadNumber": 21,
+      "name": "Jonathan Osorio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "canada-2022-richie_laryea",
+      "identityId": "P-42390",
+      "squadNumber": 22,
+      "name": "Richie Laryea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Canada (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "canada-2022-liam_millar",
+      "identityId": "P-00809",
+      "squadNumber": 23,
+      "name": "Liam Millar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Canada (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "canada-2022-david_wotherspoon",
+      "identityId": "P-49915",
+      "squadNumber": 24,
+      "name": "David Wotherspoon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Canada (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "canada-2022-derek_cornelius",
+      "identityId": "P-21099",
+      "squadNumber": 25,
+      "name": "Derek Cornelius",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "canada-2022-joel_waterman",
+      "identityId": "P-71727",
+      "squadNumber": 26,
+      "name": "Joel Waterman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Canada (Group Stage). Squad reserve member."
+    }
+  ]
+}

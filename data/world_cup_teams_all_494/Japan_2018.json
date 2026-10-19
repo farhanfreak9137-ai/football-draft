@@ -1,0 +1,517 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "japan-2018-eiji_kawashima",
+      "identityId": "P-53272",
+      "squadNumber": 1,
+      "name": "Eiji Kawashima",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2018-naomichi_ueda",
+      "identityId": "P-28595",
+      "squadNumber": 2,
+      "name": "Naomichi Ueda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2018-gen_shoji",
+      "identityId": "P-46176",
+      "squadNumber": 3,
+      "name": "Gen Shoji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2018-keisuke_honda",
+      "identityId": "P-33175",
+      "squadNumber": 4,
+      "name": "Keisuke Honda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Japan (Round of 16). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2018-yuto_nagatomo",
+      "identityId": "P-26303",
+      "squadNumber": 5,
+      "name": "Yuto Nagatomo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2018-wataru_endo",
+      "identityId": "P-53282",
+      "squadNumber": 6,
+      "name": "Wataru Endo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2018-gaku_shibasaki",
+      "identityId": "P-99817",
+      "squadNumber": 7,
+      "name": "Gaku Shibasaki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2018-genki_haraguchi",
+      "identityId": "P-54138",
+      "squadNumber": 8,
+      "name": "Genki Haraguchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2018-shinji_okazaki",
+      "identityId": "P-84807",
+      "squadNumber": 9,
+      "name": "Shinji Okazaki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2018-shinji_kagawa",
+      "identityId": "P-36964",
+      "squadNumber": 10,
+      "name": "Shinji Kagawa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2018-takashi_usami",
+      "identityId": "P-02595",
+      "squadNumber": 11,
+      "name": "Takashi Usami",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2018-masaaki_higashiguchi",
+      "identityId": "P-11411",
+      "squadNumber": 12,
+      "name": "Masaaki Higashiguchi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2018-yoshinori_muto",
+      "identityId": "P-36278",
+      "squadNumber": 13,
+      "name": "Yoshinori Muto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2018-takashi_inui",
+      "identityId": "P-89984",
+      "squadNumber": 14,
+      "name": "Takashi Inui",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "japan-2018-yuya_osako",
+      "identityId": "P-23371",
+      "squadNumber": 15,
+      "name": "Yuya Osako",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2018-hotaru_yamaguchi",
+      "identityId": "P-41027",
+      "squadNumber": 16,
+      "name": "Hotaru Yamaguchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2018-makoto_hasebe",
+      "identityId": "P-91793",
+      "squadNumber": 17,
+      "name": "Makoto Hasebe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2018-ryota_oshima",
+      "identityId": "P-82154",
+      "squadNumber": 18,
+      "name": "Ryota Oshima",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2018-hiroki_sakai",
+      "identityId": "P-56398",
+      "squadNumber": 19,
+      "name": "Hiroki Sakai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2018-tomoaki_makino",
+      "identityId": "P-76596",
+      "squadNumber": 20,
+      "name": "Tomoaki Makino",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2018-g_toku_sakai",
+      "identityId": "P-62769",
+      "squadNumber": 21,
+      "name": "Gōtoku Sakai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2018-maya_yoshida",
+      "identityId": "P-89321",
+      "squadNumber": 22,
+      "name": "Maya Yoshida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2018-kosuke_nakamura",
+      "identityId": "P-20127",
+      "squadNumber": 23,
+      "name": "Kosuke Nakamura",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Japan (Round of 16). Squad reserve member."
+    }
+  ]
+}

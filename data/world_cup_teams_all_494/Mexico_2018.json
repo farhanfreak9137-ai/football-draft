@@ -1,0 +1,517 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "mexico-2018-jos_de_jes_s_corona",
+      "identityId": "P-05120",
+      "squadNumber": 1,
+      "name": "José de Jesús Corona",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2018-hugo_ayala",
+      "identityId": "P-76750",
+      "squadNumber": 2,
+      "name": "Hugo Ayala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-2018-carlos_salcedo",
+      "identityId": "P-01730",
+      "squadNumber": 3,
+      "name": "Carlos Salcedo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2018-rafael_m_rquez",
+      "identityId": "P-44763",
+      "squadNumber": 4,
+      "name": "Rafael Márquez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2018-_rick_guti_rrez",
+      "identityId": "P-64299",
+      "squadNumber": 5,
+      "name": "Érick Gutiérrez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2018-jonathan_dos_santos",
+      "identityId": "P-09951",
+      "squadNumber": 6,
+      "name": "Jonathan dos Santos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2018-miguel_lay_n",
+      "identityId": "P-10063",
+      "squadNumber": 7,
+      "name": "Miguel Layún",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-2018-marco_fabi_n",
+      "identityId": "P-36687",
+      "squadNumber": 8,
+      "name": "Marco Fabián",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2018-ra_l_jim_nez",
+      "identityId": "P-57865",
+      "squadNumber": 9,
+      "name": "Raúl Jiménez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Mexico (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "mexico-2018-giovani_dos_santos",
+      "identityId": "P-77047",
+      "squadNumber": 10,
+      "name": "Giovani dos Santos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2018-carlos_vela",
+      "identityId": "P-68042",
+      "squadNumber": 11,
+      "name": "Carlos Vela",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2018-alfredo_talavera",
+      "identityId": "P-94928",
+      "squadNumber": 12,
+      "name": "Alfredo Talavera",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2018-guillermo_ochoa",
+      "identityId": "P-80826",
+      "squadNumber": 13,
+      "name": "Guillermo Ochoa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2018-javier_hern_ndez",
+      "identityId": "P-36515",
+      "squadNumber": 14,
+      "name": "Javier Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2018-h_ctor_moreno",
+      "identityId": "P-21208",
+      "squadNumber": 15,
+      "name": "Héctor Moreno",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-2018-h_ctor_herrera",
+      "identityId": "P-42911",
+      "squadNumber": 16,
+      "name": "Héctor Herrera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2018-jes_s_manuel_corona",
+      "identityId": "P-96694",
+      "squadNumber": 17,
+      "name": "Jesús Manuel Corona",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Mexico (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "mexico-2018-andr_s_guardado",
+      "identityId": "P-40312",
+      "squadNumber": 18,
+      "name": "Andrés Guardado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2018-oribe_peralta",
+      "identityId": "P-83642",
+      "squadNumber": 19,
+      "name": "Oribe Peralta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2018-javier_aquino",
+      "identityId": "P-77419",
+      "squadNumber": 20,
+      "name": "Javier Aquino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2018-edson_lvarez",
+      "identityId": "P-26546",
+      "squadNumber": 21,
+      "name": "Edson Álvarez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-2018-hirving_lozano",
+      "identityId": "P-24705",
+      "squadNumber": 22,
+      "name": "Hirving Lozano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2018-jes_s_gallardo",
+      "identityId": "P-80088",
+      "squadNumber": 23,
+      "name": "Jesús Gallardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

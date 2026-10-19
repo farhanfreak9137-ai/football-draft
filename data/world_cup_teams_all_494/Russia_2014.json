@@ -1,0 +1,516 @@
+{
+  "teamName": "Russia",
+  "teamCode": "RUS",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "russia-2014-igor_akinfeev",
+      "identityId": "P-95453",
+      "squadNumber": 1,
+      "name": "Igor Akinfeev",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-aleksei_kozlov",
+      "identityId": "P-21554",
+      "squadNumber": 2,
+      "name": "Aleksei Kozlov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-2014-georgi_shchennikov",
+      "identityId": "P-83934",
+      "squadNumber": 3,
+      "name": "Georgi Shchennikov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-sergei_ignashevich",
+      "identityId": "P-79763",
+      "squadNumber": 4,
+      "name": "Sergei Ignashevich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-andrei_semyonov",
+      "identityId": "P-36787",
+      "squadNumber": 5,
+      "name": "Andrei Semyonov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-maksim_kanunnikov",
+      "identityId": "P-12197",
+      "squadNumber": 6,
+      "name": "Maksim Kanunnikov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-2014-igor_denisov",
+      "identityId": "P-76640",
+      "squadNumber": 7,
+      "name": "Igor Denisov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Russia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "russia-2014-denis_glushakov",
+      "identityId": "P-30808",
+      "squadNumber": 8,
+      "name": "Denis Glushakov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-aleksandr_kokorin",
+      "identityId": "P-67113",
+      "squadNumber": 9,
+      "name": "Aleksandr Kokorin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "russia-2014-alan_dzagoev",
+      "identityId": "P-69896",
+      "squadNumber": 10,
+      "name": "Alan Dzagoev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Russia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "russia-2014-aleksandr_kerzhakov",
+      "identityId": "P-89971",
+      "squadNumber": 11,
+      "name": "Aleksandr Kerzhakov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "russia-2014-yuri_lodygin",
+      "identityId": "P-03044",
+      "squadNumber": 12,
+      "name": "Yuri Lodygin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-vladimir_granat",
+      "identityId": "P-11462",
+      "squadNumber": 13,
+      "name": "Vladimir Granat",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-vasili_berezutski",
+      "identityId": "P-31094",
+      "squadNumber": 14,
+      "name": "Vasili Berezutski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-pavel_mogilevets",
+      "identityId": "P-01665",
+      "squadNumber": 15,
+      "name": "Pavel Mogilevets",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-sergey_ryzhikov",
+      "identityId": "P-85559",
+      "squadNumber": 16,
+      "name": "Sergey Ryzhikov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-oleg_shatov",
+      "identityId": "P-27894",
+      "squadNumber": 17,
+      "name": "Oleg Shatov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-yuri_zhirkov",
+      "identityId": "P-51786",
+      "squadNumber": 18,
+      "name": "Yuri Zhirkov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-2014-aleksandr_samedov",
+      "identityId": "P-06356",
+      "squadNumber": 19,
+      "name": "Aleksandr Samedov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-viktor_fayzulin",
+      "identityId": "P-08275",
+      "squadNumber": 20,
+      "name": "Viktor Fayzulin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2014-aleksei_ionov",
+      "identityId": "P-73380",
+      "squadNumber": 21,
+      "name": "Aleksei Ionov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Russia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "russia-2014-andrey_yeshchenko",
+      "identityId": "P-98872",
+      "squadNumber": 22,
+      "name": "Andrey Yeshchenko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-2014-dmitri_kombarov",
+      "identityId": "P-63644",
+      "squadNumber": 23,
+      "name": "Dmitri Kombarov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

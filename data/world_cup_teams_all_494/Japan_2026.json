@@ -1,0 +1,484 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JAP",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "japan-2026-zion_suzuki",
+      "identityId": "identity-2026-zion_suzuki",
+      "squadNumber": 1,
+      "name": "Zion Suzuki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-takehiro_tomiyasu",
+      "identityId": "identity-2026-takehiro_tomiyasu",
+      "squadNumber": 16,
+      "name": "Takehiro Tomiyasu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Japan. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "japan-2026-ko_itakura",
+      "identityId": "identity-2026-ko_itakura",
+      "squadNumber": 4,
+      "name": "Ko Itakura",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-shogo_taniguchi",
+      "identityId": "identity-2026-shogo_taniguchi",
+      "squadNumber": 3,
+      "name": "Shogo Taniguchi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-koki_machida",
+      "identityId": "identity-2026-koki_machida",
+      "squadNumber": 22,
+      "name": "Koki Machida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-wataru_endo",
+      "identityId": "identity-2026-wataru_endo",
+      "squadNumber": 6,
+      "name": "Wataru Endo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Captain & Premier League Destroyer"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Captain & Premier League Destroyer",
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Japan. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "japan-2026-hidemasa_morita",
+      "identityId": "identity-2026-hidemasa_morita",
+      "squadNumber": 5,
+      "name": "Hidemasa Morita",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-takefusa_kubo",
+      "identityId": "identity-2026-takefusa_kubo",
+      "squadNumber": 20,
+      "name": "Takefusa Kubo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Japan. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "japan-2026-takumi_minamino",
+      "identityId": "identity-2026-takumi_minamino",
+      "squadNumber": 8,
+      "name": "Takumi Minamino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-kaoru_mitoma",
+      "identityId": "identity-2026-kaoru_mitoma",
+      "squadNumber": 7,
+      "name": "Kaoru Mitoma",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Japan. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "japan-2026-ayase_ueda",
+      "identityId": "identity-2026-ayase_ueda",
+      "squadNumber": 9,
+      "name": "Ayase Ueda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Japan. Regular starting lineup selection."
+    },
+    {
+      "id": "japan-2026-keisuke_osako",
+      "identityId": "identity-2026-keisuke_osako",
+      "squadNumber": 12,
+      "name": "Keisuke Osako",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Japan. National squad reserve depth."
+    },
+    {
+      "id": "japan-2026-kosei_tani",
+      "identityId": "identity-2026-kosei_tani",
+      "squadNumber": 23,
+      "name": "Kosei Tani",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR for 2026 World Cup form with Japan. National squad reserve depth."
+    },
+    {
+      "id": "japan-2026-yukinari_sugawara",
+      "identityId": "identity-2026-yukinari_sugawara",
+      "squadNumber": 2,
+      "name": "Yukinari Sugawara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-hiroki_ito",
+      "identityId": "identity-2026-hiroki_ito",
+      "squadNumber": 19,
+      "name": "Hiroki Ito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-daiki_hashioka",
+      "identityId": "identity-2026-daiki_hashioka",
+      "squadNumber": 21,
+      "name": "Daiki Hashioka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-ao_tanaka",
+      "identityId": "identity-2026-ao_tanaka",
+      "squadNumber": 14,
+      "name": "Ao Tanaka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-reo_hatate",
+      "identityId": "identity-2026-reo_hatate",
+      "squadNumber": 17,
+      "name": "Reo Hatate",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-ritsu_doan",
+      "identityId": "identity-2026-ritsu_doan",
+      "squadNumber": 15,
+      "name": "Ritsu Doan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "RM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-keito_nakamura",
+      "identityId": "identity-2026-keito_nakamura",
+      "squadNumber": 13,
+      "name": "Keito Nakamura",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-daizen_maeda",
+      "identityId": "identity-2026-daizen_maeda",
+      "squadNumber": 11,
+      "name": "Daizen Maeda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-takuma_asano",
+      "identityId": "identity-2026-takuma_asano",
+      "squadNumber": 18,
+      "name": "Takuma Asano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Japan. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "japan-2026-koki_ogawa",
+      "identityId": "identity-2026-koki_ogawa",
+      "squadNumber": 24,
+      "name": "Koki Ogawa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Japan. National squad reserve depth."
+    }
+  ]
+}

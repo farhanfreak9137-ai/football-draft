@@ -1,0 +1,509 @@
+{
+  "teamName": "Iran",
+  "teamCode": "IRA",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 23,
+  "averageOvr": 78,
+  "players": [
+    {
+      "id": "iran-2026-mehdi_taremi",
+      "identityId": "identity-2026-mehdi_taremi",
+      "squadNumber": 1,
+      "name": "Mehdi Taremi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Prolific Asian Goalscorer & Serie A Champion"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Prolific Asian Goalscorer & Serie A Champion",
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Iran. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "iran-2026-sardar_azmoun",
+      "identityId": "identity-2026-sardar_azmoun",
+      "squadNumber": 2,
+      "name": "Sardar Azmoun",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Iran. Regular starting lineup selection."
+    },
+    {
+      "id": "iran-2026-alireza_jahanbakhsh",
+      "identityId": "identity-2026-alireza_jahanbakhsh",
+      "squadNumber": 3,
+      "name": "Alireza Jahanbakhsh",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Iran. Regular starting lineup selection."
+    },
+    {
+      "id": "iran-2026-saman_ghoddos",
+      "identityId": "identity-2026-saman_ghoddos",
+      "squadNumber": 4,
+      "name": "Saman Ghoddos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Iran. Regular starting lineup selection."
+    },
+    {
+      "id": "iran-2026-milad_mohammadi",
+      "identityId": "identity-2026-milad_mohammadi",
+      "squadNumber": 5,
+      "name": "Milad Mohammadi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. Regular starting lineup selection."
+    },
+    {
+      "id": "iran-2026-alireza_beiranvand",
+      "identityId": "identity-2026-alireza_beiranvand",
+      "squadNumber": 6,
+      "name": "Alireza Beiranvand",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Iran. Regular starting lineup selection."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_7",
+      "identityId": "identity-2026-iran_squad_member_7",
+      "squadNumber": 7,
+      "name": "Iran Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_8",
+      "identityId": "identity-2026-iran_squad_member_8",
+      "squadNumber": 8,
+      "name": "Iran Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_9",
+      "identityId": "identity-2026-iran_squad_member_9",
+      "squadNumber": 9,
+      "name": "Iran Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_10",
+      "identityId": "identity-2026-iran_squad_member_10",
+      "squadNumber": 10,
+      "name": "Iran Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_11",
+      "identityId": "identity-2026-iran_squad_member_11",
+      "squadNumber": 11,
+      "name": "Iran Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_12",
+      "identityId": "identity-2026-iran_squad_member_12",
+      "squadNumber": 12,
+      "name": "Iran Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_13",
+      "identityId": "identity-2026-iran_squad_member_13",
+      "squadNumber": 13,
+      "name": "Iran Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_14",
+      "identityId": "identity-2026-iran_squad_member_14",
+      "squadNumber": 14,
+      "name": "Iran Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_15",
+      "identityId": "identity-2026-iran_squad_member_15",
+      "squadNumber": 15,
+      "name": "Iran Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_16",
+      "identityId": "identity-2026-iran_squad_member_16",
+      "squadNumber": 16,
+      "name": "Iran Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_17",
+      "identityId": "identity-2026-iran_squad_member_17",
+      "squadNumber": 17,
+      "name": "Iran Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_18",
+      "identityId": "identity-2026-iran_squad_member_18",
+      "squadNumber": 18,
+      "name": "Iran Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_19",
+      "identityId": "identity-2026-iran_squad_member_19",
+      "squadNumber": 19,
+      "name": "Iran Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_20",
+      "identityId": "identity-2026-iran_squad_member_20",
+      "squadNumber": 20,
+      "name": "Iran Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_21",
+      "identityId": "identity-2026-iran_squad_member_21",
+      "squadNumber": 21,
+      "name": "Iran Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_22",
+      "identityId": "identity-2026-iran_squad_member_22",
+      "squadNumber": 22,
+      "name": "Iran Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    },
+    {
+      "id": "iran-2026-iran_squad_member_23",
+      "identityId": "identity-2026-iran_squad_member_23",
+      "squadNumber": 23,
+      "name": "Iran Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Iran. National squad reserve depth."
+    }
+  ]
+}

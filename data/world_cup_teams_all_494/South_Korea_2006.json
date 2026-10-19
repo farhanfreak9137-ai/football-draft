@@ -1,0 +1,516 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "south_korea-2006-woon-jae_lee",
+      "identityId": "P-95122",
+      "squadNumber": 1,
+      "name": "Woon-jae Lee",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2006-young-chul_kim",
+      "identityId": "P-94594",
+      "squadNumber": 2,
+      "name": "Young-chul Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2006-dong-jin_kim",
+      "identityId": "P-61550",
+      "squadNumber": 3,
+      "name": "Dong-jin Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2006-jin-cheul_choi",
+      "identityId": "P-07865",
+      "squadNumber": 4,
+      "name": "Jin-cheul Choi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2006-nam-il_kim",
+      "identityId": "P-51785",
+      "squadNumber": 5,
+      "name": "Nam-il Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2006-jin-kyu_kim",
+      "identityId": "P-76780",
+      "squadNumber": 6,
+      "name": "Jin-kyu Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2006-ji-sung_park",
+      "identityId": "P-25724",
+      "squadNumber": 7,
+      "name": "Ji-sung Park",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2006-do-heon_kim",
+      "identityId": "P-65040",
+      "squadNumber": 8,
+      "name": "Do-heon Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2006-jung-hwan_ahn",
+      "identityId": "P-26616",
+      "squadNumber": 9,
+      "name": "Jung-hwan Ahn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for South Korea (Group Stage). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2006-chu-young_park",
+      "identityId": "P-06608",
+      "squadNumber": 10,
+      "name": "Chu-young Park",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2006-ki-hyeon_seol",
+      "identityId": "P-56626",
+      "squadNumber": 11,
+      "name": "Ki-hyeon Seol",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for South Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-2006-young-pyo_lee",
+      "identityId": "P-46519",
+      "squadNumber": 12,
+      "name": "Young-pyo Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2006-eul-yong_lee",
+      "identityId": "P-60562",
+      "squadNumber": 13,
+      "name": "Eul-yong Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2006-chun-soo_lee",
+      "identityId": "P-22338",
+      "squadNumber": 14,
+      "name": "Chun-soo Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2006-ji-hoon_baek",
+      "identityId": "P-89943",
+      "squadNumber": 15,
+      "name": "Ji-hoon Baek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2006-kyung-ho_chung",
+      "identityId": "P-04977",
+      "squadNumber": 16,
+      "name": "Kyung-ho Chung",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2006-ho_lee",
+      "identityId": "P-92775",
+      "squadNumber": 17,
+      "name": "Ho Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2006-sang-sik_kim",
+      "identityId": "P-56299",
+      "squadNumber": 18,
+      "name": "Sang-sik Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for South Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-2006-jae-jin_cho",
+      "identityId": "P-20248",
+      "squadNumber": 19,
+      "name": "Jae-jin Cho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2006-yong-dae_kim",
+      "identityId": "P-50318",
+      "squadNumber": 20,
+      "name": "Yong-dae Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2006-young-kwang_kim",
+      "identityId": "P-08539",
+      "squadNumber": 21,
+      "name": "Young-kwang Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2006-chong-gug_song",
+      "identityId": "P-83544",
+      "squadNumber": 22,
+      "name": "Chong-gug Song",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2006-won-hee_cho",
+      "identityId": "P-55485",
+      "squadNumber": 23,
+      "name": "Won-hee Cho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    }
+  ]
+}

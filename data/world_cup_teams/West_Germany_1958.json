@@ -1,0 +1,498 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "west_germany-1958-fritz_herkenrath",
+      "identityId": "P-66256",
+      "squadNumber": 1,
+      "name": "Fritz Herkenrath",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-herbert_erhardt",
+      "identityId": "P-34121",
+      "squadNumber": 2,
+      "name": "Herbert Erhardt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-erich_juskowiak",
+      "identityId": "P-34271",
+      "squadNumber": 3,
+      "name": "Erich Juskowiak",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-horst_eckel",
+      "identityId": "P-61483",
+      "squadNumber": 4,
+      "name": "Horst Eckel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-heinz_wewers",
+      "identityId": "P-05971",
+      "squadNumber": 5,
+      "name": "Heinz Wewers",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-horst_szymaniak",
+      "identityId": "P-55225",
+      "squadNumber": 6,
+      "name": "Horst Szymaniak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-georg_stollenwerk",
+      "identityId": "P-02292",
+      "squadNumber": 7,
+      "name": "Georg Stollenwerk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-helmut_rahn",
+      "identityId": "P-08136",
+      "squadNumber": 8,
+      "name": "Helmut Rahn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Tournament standout and starting pillar. Scored 6 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "west_germany-1958-fritz_walter",
+      "identityId": "P-09973",
+      "squadNumber": 9,
+      "name": "Fritz Walter",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-aki_schmidt",
+      "identityId": "P-96191",
+      "squadNumber": 10,
+      "name": "Aki Schmidt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1958-hans_sch_fer",
+      "identityId": "P-63184",
+      "squadNumber": 11,
+      "name": "Hans Schäfer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1958-uwe_seeler",
+      "identityId": "P-64138",
+      "squadNumber": 12,
+      "name": "Uwe Seeler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1958-bernhard_klodt",
+      "identityId": "P-33698",
+      "squadNumber": 13,
+      "name": "Bernhard Klodt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-hans_cieslarczyk",
+      "identityId": "P-93539",
+      "squadNumber": 14,
+      "name": "Hans Cieslarczyk",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1958 World Cup performance for West Germany (Fourth Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1958-alfred_kelbassa",
+      "identityId": "P-11664",
+      "squadNumber": 15,
+      "name": "Alfred Kelbassa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-hans_sturm",
+      "identityId": "P-06103",
+      "squadNumber": 16,
+      "name": "Hans Sturm",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-karl-heinz_schnellinger",
+      "identityId": "P-93072",
+      "squadNumber": 17,
+      "name": "Karl-Heinz Schnellinger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-rudi_hoffmann",
+      "identityId": "P-30065",
+      "squadNumber": 18,
+      "name": "Rudi Hoffmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-wolfgang_peters",
+      "identityId": "P-48102",
+      "squadNumber": 19,
+      "name": "Wolfgang Peters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-hermann_nuber",
+      "identityId": "P-45615",
+      "squadNumber": 20,
+      "name": "Hermann Nuber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-g_nter_sawitzki",
+      "identityId": "P-24558",
+      "squadNumber": 21,
+      "name": "Günter Sawitzki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1958-heinz_kwiatkowski",
+      "identityId": "P-15476",
+      "squadNumber": 22,
+      "name": "Heinz Kwiatkowski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for West Germany (Fourth Place). Squad reserve member."
+    }
+  ]
+}

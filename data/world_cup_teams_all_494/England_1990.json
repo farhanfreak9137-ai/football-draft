@@ -1,0 +1,496 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "england-1990-peter_shilton",
+      "identityId": "P-20640",
+      "squadNumber": 1,
+      "name": "Peter Shilton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "england-1990-gary_stevens",
+      "identityId": "P-23718",
+      "squadNumber": 2,
+      "name": "Gary Stevens",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for England (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-1990-stuart_pearce",
+      "identityId": "P-67307",
+      "squadNumber": 3,
+      "name": "Stuart Pearce",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "england-1990-neil_webb",
+      "identityId": "P-17303",
+      "squadNumber": 4,
+      "name": "Neil Webb",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for England (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-1990-des_walker",
+      "identityId": "P-55650",
+      "squadNumber": 5,
+      "name": "Des Walker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "england-1990-terry_butcher",
+      "identityId": "P-49962",
+      "squadNumber": 6,
+      "name": "Terry Butcher",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-1990-bryan_robson",
+      "identityId": "P-02675",
+      "squadNumber": 7,
+      "name": "Bryan Robson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for England (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-1990-chris_waddle",
+      "identityId": "P-19351",
+      "squadNumber": 8,
+      "name": "Chris Waddle",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "england-1990-peter_beardsley",
+      "identityId": "P-18335",
+      "squadNumber": 9,
+      "name": "Peter Beardsley",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1990-gary_lineker",
+      "identityId": "P-36651",
+      "squadNumber": 10,
+      "name": "Gary Lineker",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 7 match(es). Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "england-1990-john_barnes",
+      "identityId": "P-38921",
+      "squadNumber": 11,
+      "name": "John Barnes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-1990-paul_parker",
+      "identityId": "P-96960",
+      "squadNumber": 12,
+      "name": "Paul Parker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "england-1990-chris_woods",
+      "identityId": "P-81883",
+      "squadNumber": 13,
+      "name": "Chris Woods",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for England (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "england-1990-mark_wright",
+      "identityId": "P-68510",
+      "squadNumber": 14,
+      "name": "Mark Wright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1990-tony_dorigo",
+      "identityId": "P-10265",
+      "squadNumber": 15,
+      "name": "Tony Dorigo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1990-steve_mcmahon",
+      "identityId": "P-27404",
+      "squadNumber": 16,
+      "name": "Steve McMahon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-1990-david_platt",
+      "identityId": "P-34450",
+      "squadNumber": 17,
+      "name": "David Platt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "england-1990-steve_hodge",
+      "identityId": "P-78807",
+      "squadNumber": 18,
+      "name": "Steve Hodge",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for England (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "england-1990-paul_gascoigne",
+      "identityId": "P-06127",
+      "squadNumber": 19,
+      "name": "Paul Gascoigne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for England (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "england-1990-trevor_steven",
+      "identityId": "P-76340",
+      "squadNumber": 20,
+      "name": "Trevor Steven",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1990-steve_bull",
+      "identityId": "P-00081",
+      "squadNumber": 21,
+      "name": "Steve Bull",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for England (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-1990-david_seaman",
+      "identityId": "P-13285",
+      "squadNumber": 22,
+      "name": "David Seaman",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for England (Fourth Place). Squad reserve member."
+    }
+  ]
+}

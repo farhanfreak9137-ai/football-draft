@@ -1,0 +1,513 @@
+{
+  "teamName": "Tunisia",
+  "teamCode": "TUN",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "tunisia-2006-ali_boumnijel",
+      "identityId": "P-52641",
+      "squadNumber": 1,
+      "name": "Ali Boumnijel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2006-karim_essediri",
+      "identityId": "P-31347",
+      "squadNumber": 2,
+      "name": "Karim Essediri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2006-karim_haggui",
+      "identityId": "P-72448",
+      "squadNumber": 3,
+      "name": "Karim Haggui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2006-alaeddine_yahia",
+      "identityId": "P-96363",
+      "squadNumber": 4,
+      "name": "Alaeddine Yahia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2006-ziad_jaziri",
+      "identityId": "P-00640",
+      "squadNumber": 5,
+      "name": "Ziad Jaziri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2006-hatem_trabelsi",
+      "identityId": "P-82870",
+      "squadNumber": 6,
+      "name": "Hatem Trabelsi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2006-haykel_guemamdia",
+      "identityId": "P-33293",
+      "squadNumber": 7,
+      "name": "Haykel Guemamdia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2006-mehdi_nafti",
+      "identityId": "P-69034",
+      "squadNumber": 8,
+      "name": "Mehdi Nafti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2006-yassine_chikhaoui",
+      "identityId": "P-27618",
+      "squadNumber": 9,
+      "name": "Yassine Chikhaoui",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2006-kaies_ghodhbane",
+      "identityId": "P-41620",
+      "squadNumber": 10,
+      "name": "Kaies Ghodhbane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "tunisia-2006-francileudo_santos",
+      "identityId": "P-09041",
+      "squadNumber": 11,
+      "name": "Francileudo Santos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2006-jawhar_mnari",
+      "identityId": "P-61850",
+      "squadNumber": 12,
+      "name": "Jawhar Mnari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2006-riadh_bouazizi",
+      "identityId": "P-89154",
+      "squadNumber": 13,
+      "name": "Riadh Bouazizi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2006-adel_chedli",
+      "identityId": "P-63068",
+      "squadNumber": 14,
+      "name": "Adel Chedli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2006-radhi_ja_di",
+      "identityId": "P-76769",
+      "squadNumber": 15,
+      "name": "Radhi Jaïdi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2006-adel_nefzi",
+      "identityId": "P-66577",
+      "squadNumber": 16,
+      "name": "Adel Nefzi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2006-chaouki_ben_saada",
+      "identityId": "P-54768",
+      "squadNumber": 17,
+      "name": "Chaouki Ben Saada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2006-david_jemmali",
+      "identityId": "P-69430",
+      "squadNumber": 18,
+      "name": "David Jemmali",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2006-anis_ayari",
+      "identityId": "P-40581",
+      "squadNumber": 19,
+      "name": "Anis Ayari",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2006-hamed_namouchi",
+      "identityId": "P-61670",
+      "squadNumber": 20,
+      "name": "Hamed Namouchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2006-karim_saidi",
+      "identityId": "P-08678",
+      "squadNumber": 21,
+      "name": "Karim Saidi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2006-hamdi_kasraoui",
+      "identityId": "P-79202",
+      "squadNumber": 22,
+      "name": "Hamdi Kasraoui",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2006-sofiane_melliti",
+      "identityId": "P-91602",
+      "squadNumber": 23,
+      "name": "Sofiane Melliti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    }
+  ]
+}

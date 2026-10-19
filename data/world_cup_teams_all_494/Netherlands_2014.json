@@ -1,0 +1,518 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "netherlands-2014-jasper_cillessen",
+      "identityId": "P-68395",
+      "squadNumber": 1,
+      "name": "Jasper Cillessen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-2014-ron_vlaar",
+      "identityId": "P-21798",
+      "squadNumber": 2,
+      "name": "Ron Vlaar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-2014-stefan_de_vrij",
+      "identityId": "P-70280",
+      "squadNumber": 3,
+      "name": "Stefan de Vrij",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-bruno_martins_indi",
+      "identityId": "P-69329",
+      "squadNumber": 4,
+      "name": "Bruno Martins Indi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2014-daley_blind",
+      "identityId": "P-39861",
+      "squadNumber": 5,
+      "name": "Daley Blind",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-nigel_de_jong",
+      "identityId": "P-53668",
+      "squadNumber": 6,
+      "name": "Nigel de Jong",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2014-daryl_janmaat",
+      "identityId": "P-21790",
+      "squadNumber": 7,
+      "name": "Daryl Janmaat",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2014-jonathan_de_guzm_n",
+      "identityId": "P-93667",
+      "squadNumber": 8,
+      "name": "Jonathan de Guzmán",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2014-robin_van_persie",
+      "identityId": "P-99934",
+      "squadNumber": 9,
+      "name": "Robin van Persie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 6 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-wesley_sneijder",
+      "identityId": "P-51336",
+      "squadNumber": 10,
+      "name": "Wesley Sneijder",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-arjen_robben",
+      "identityId": "P-23705",
+      "squadNumber": 11,
+      "name": "Arjen Robben",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Bronze Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2014 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 93 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 7 match(es). Scored 3 goal(s). Honors: Bronze Ball."
+    },
+    {
+      "id": "netherlands-2014-paul_verhaegh",
+      "identityId": "P-26380",
+      "squadNumber": 12,
+      "name": "Paul Verhaegh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Netherlands (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2014-jo_l_veltman",
+      "identityId": "P-91472",
+      "squadNumber": 13,
+      "name": "Joël Veltman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Netherlands (Third Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "netherlands-2014-terence_kongolo",
+      "identityId": "P-70414",
+      "squadNumber": 14,
+      "name": "Terence Kongolo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Netherlands (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2014-dirk_kuyt",
+      "identityId": "P-33312",
+      "squadNumber": 15,
+      "name": "Dirk Kuyt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2014-jordy_clasie",
+      "identityId": "P-27533",
+      "squadNumber": 16,
+      "name": "Jordy Clasie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Netherlands (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2014-jeremain_lens",
+      "identityId": "P-62029",
+      "squadNumber": 17,
+      "name": "Jeremain Lens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Netherlands (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2014-leroy_fer",
+      "identityId": "P-20877",
+      "squadNumber": 18,
+      "name": "Leroy Fer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Netherlands (Third Place). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-klaas-jan_huntelaar",
+      "identityId": "P-64344",
+      "squadNumber": 19,
+      "name": "Klaas-Jan Huntelaar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Netherlands (Third Place). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-georginio_wijnaldum",
+      "identityId": "P-85698",
+      "squadNumber": 20,
+      "name": "Georginio Wijnaldum",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Netherlands (Third Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-memphis_depay",
+      "identityId": "P-27540",
+      "squadNumber": 21,
+      "name": "Memphis Depay",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Netherlands (Third Place). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-2014-michel_vorm",
+      "identityId": "P-32095",
+      "squadNumber": 22,
+      "name": "Michel Vorm",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Netherlands (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2014-tim_krul",
+      "identityId": "P-42745",
+      "squadNumber": 23,
+      "name": "Tim Krul",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Netherlands (Third Place). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

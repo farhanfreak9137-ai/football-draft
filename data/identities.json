@@ -1,0 +1,3090 @@
+[
+  {
+    "id": "pele",
+    "name": "Edson Arantes do Nascimento (Pelé)",
+    "commonName": "Pelé",
+    "nationality": "Brazil",
+    "birthYear": 1940,
+    "canonicalPosition": "CF"
+  },
+  {
+    "id": "jairzinho",
+    "name": "Jair Ventura Filho (Jairzinho)",
+    "commonName": "Jairzinho",
+    "nationality": "Brazil",
+    "birthYear": 1944,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "tostao",
+    "name": "Eduardo Gonçalves de Andrade (Tostão)",
+    "commonName": "Tostão",
+    "nationality": "Brazil",
+    "birthYear": 1947,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "rivelino",
+    "name": "Roberto Rivelino",
+    "commonName": "Rivelino",
+    "nationality": "Brazil",
+    "birthYear": 1946,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "gerson",
+    "name": "Gérson de Oliveira Nunes",
+    "commonName": "Gérson",
+    "nationality": "Brazil",
+    "birthYear": 1941,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "clodoaldo",
+    "name": "Clodoaldo Tavares de Santana",
+    "commonName": "Clodoaldo",
+    "nationality": "Brazil",
+    "birthYear": 1949,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "carlos-alberto",
+    "name": "Carlos Alberto Torres",
+    "commonName": "Carlos Alberto",
+    "nationality": "Brazil",
+    "birthYear": 1944,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "brito",
+    "name": "Hércules de Brito Ruas",
+    "commonName": "Brito",
+    "nationality": "Brazil",
+    "birthYear": 1939,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "piazza",
+    "name": "Wilson da Silva Piazza",
+    "commonName": "Piazza",
+    "nationality": "Brazil",
+    "birthYear": 1943,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "everaldo",
+    "name": "Everaldo Marques da Silva",
+    "commonName": "Everaldo",
+    "nationality": "Brazil",
+    "birthYear": 1944,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "felix",
+    "name": "Félix Miéli Venerando",
+    "commonName": "Félix",
+    "nationality": "Brazil",
+    "birthYear": 1937,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "paulo-cesar",
+    "name": "Paulo César Lima",
+    "commonName": "Paulo César Caju",
+    "nationality": "Brazil",
+    "birthYear": 1949,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "johan-cruyff",
+    "name": "Johan Cruyff",
+    "commonName": "Johan Cruyff",
+    "nationality": "Netherlands",
+    "birthYear": 1947,
+    "canonicalPosition": "CF"
+  },
+  {
+    "id": "johan-neeskens",
+    "name": "Johan Neeskens",
+    "commonName": "Johan Neeskens",
+    "nationality": "Netherlands",
+    "birthYear": 1951,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "johnny-rep",
+    "name": "Johnny Rep",
+    "commonName": "Johnny Rep",
+    "nationality": "Netherlands",
+    "birthYear": 1951,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "rob-rensenbrink",
+    "name": "Rob Rensenbrink",
+    "commonName": "Rob Rensenbrink",
+    "nationality": "Netherlands",
+    "birthYear": 1947,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "wim-van-hanegem",
+    "name": "Wim van Hanegem",
+    "commonName": "Wim van Hanegem",
+    "nationality": "Netherlands",
+    "birthYear": 1944,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "arie-haan",
+    "name": "Arie Haan",
+    "commonName": "Arie Haan",
+    "nationality": "Netherlands",
+    "birthYear": 1948,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "wim-suurbier",
+    "name": "Wim Suurbier",
+    "commonName": "Wim Suurbier",
+    "nationality": "Netherlands",
+    "birthYear": 1945,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "ruud-krol",
+    "name": "Ruud Krol",
+    "commonName": "Ruud Krol",
+    "nationality": "Netherlands",
+    "birthYear": 1949,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "wim-rijnbergen",
+    "name": "Wim Rijsbergen",
+    "commonName": "Wim Rijsbergen",
+    "nationality": "Netherlands",
+    "birthYear": 1952,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "ari-haan-cb",
+    "name": "Arie Haan (CB)",
+    "commonName": "Arie Haan",
+    "nationality": "Netherlands",
+    "birthYear": 1948,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "jan-jongbloed",
+    "name": "Jan Jongbloed",
+    "commonName": "Jan Jongbloed",
+    "nationality": "Netherlands",
+    "birthYear": 1940,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "franz-beckenbauer",
+    "name": "Franz Beckenbauer",
+    "commonName": "Franz Beckenbauer",
+    "nationality": "Germany",
+    "birthYear": 1945,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "gerd-mueller",
+    "name": "Gerd Müller",
+    "commonName": "Gerd Müller",
+    "nationality": "Germany",
+    "birthYear": 1945,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "sepp-maier",
+    "name": "Sepp Maier",
+    "commonName": "Sepp Maier",
+    "nationality": "Germany",
+    "birthYear": 1944,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "paul-breitner",
+    "name": "Paul Breitner",
+    "commonName": "Paul Breitner",
+    "nationality": "Germany",
+    "birthYear": 1951,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "uli-hoeness",
+    "name": "Uli Hoeneß",
+    "commonName": "Uli Hoeneß",
+    "nationality": "Germany",
+    "birthYear": 1952,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "berti-vogts",
+    "name": "Berti Vogts",
+    "commonName": "Berti Vogts",
+    "nationality": "Germany",
+    "birthYear": 1946,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "georg-schwarzenbeck",
+    "name": "Georg Schwarzenbeck",
+    "commonName": "Katsche Schwarzenbeck",
+    "nationality": "Germany",
+    "birthYear": 1948,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "wolfgang-overath",
+    "name": "Wolfgang Overath",
+    "commonName": "Wolfgang Overath",
+    "nationality": "Germany",
+    "birthYear": 1943,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "rainer-bonhof",
+    "name": "Rainer Bonhof",
+    "commonName": "Rainer Bonhof",
+    "nationality": "Germany",
+    "birthYear": 1952,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "bernd-hoelzenbein",
+    "name": "Bernd Hölzenbein",
+    "commonName": "Bernd Hölzenbein",
+    "nationality": "Germany",
+    "birthYear": 1946,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "juergen-grabowski",
+    "name": "Jürgen Grabowski",
+    "commonName": "Jürgen Grabowski",
+    "nationality": "Germany",
+    "birthYear": 1944,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "diego-maradona",
+    "name": "Diego Armando Maradona",
+    "commonName": "Diego Maradona",
+    "nationality": "Argentina",
+    "birthYear": 1960,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "jorge-valdano",
+    "name": "Jorge Valdano",
+    "commonName": "Jorge Valdano",
+    "nationality": "Argentina",
+    "birthYear": 1955,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "jorge-burruchaga",
+    "name": "Jorge Burruchaga",
+    "commonName": "Jorge Burruchaga",
+    "nationality": "Argentina",
+    "birthYear": 1962,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "sergio-batista",
+    "name": "Sergio Batista",
+    "commonName": "Sergio Batista",
+    "nationality": "Argentina",
+    "birthYear": 1962,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "hector-enrique",
+    "name": "Héctor Enrique",
+    "commonName": "Héctor Enrique",
+    "nationality": "Argentina",
+    "birthYear": 1962,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "ricardo-giusti",
+    "name": "Ricardo Giusti",
+    "commonName": "Ricardo Giusti",
+    "nationality": "Argentina",
+    "birthYear": 1956,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "julio-olarticoechea",
+    "name": "Julio Olarticoechea",
+    "commonName": "Julio Olarticoechea",
+    "nationality": "Argentina",
+    "birthYear": 1958,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "oscar-ruggeri",
+    "name": "Oscar Ruggeri",
+    "commonName": "Oscar Ruggeri",
+    "nationality": "Argentina",
+    "birthYear": 1962,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "jose-luis-brown",
+    "name": "José Luis Brown",
+    "commonName": "José Luis Brown",
+    "nationality": "Argentina",
+    "birthYear": 1956,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "jose-luis-cuciuffo",
+    "name": "José Luis Cuciuffo",
+    "commonName": "José Luis Cuciuffo",
+    "nationality": "Argentina",
+    "birthYear": 1961,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "nery-pumpido",
+    "name": "Nery Pumpido",
+    "commonName": "Nery Pumpido",
+    "nationality": "Argentina",
+    "birthYear": 1957,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "michel-platini",
+    "name": "Michel Platini",
+    "commonName": "Michel Platini",
+    "nationality": "France",
+    "birthYear": 1955,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "alain-giresse",
+    "name": "Alain Giresse",
+    "commonName": "Alain Giresse",
+    "nationality": "France",
+    "birthYear": 1952,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "jean-tigana",
+    "name": "Jean Tigana",
+    "commonName": "Jean Tigana",
+    "nationality": "France",
+    "birthYear": 1955,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "luis-fernandez",
+    "name": "Luis Fernández",
+    "commonName": "Luis Fernández",
+    "nationality": "France",
+    "birthYear": 1959,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "bruno-bellone",
+    "name": "Bruno Bellone",
+    "commonName": "Bruno Bellone",
+    "nationality": "France",
+    "birthYear": 1962,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "bernard-lacombe",
+    "name": "Bernard Lacombe",
+    "commonName": "Bernard Lacombe",
+    "nationality": "France",
+    "birthYear": 1952,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "manuel-amoros",
+    "name": "Manuel Amoros",
+    "commonName": "Manuel Amoros",
+    "nationality": "France",
+    "birthYear": 1962,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "maxime-bossis",
+    "name": "Maxime Bossis",
+    "commonName": "Maxime Bossis",
+    "nationality": "France",
+    "birthYear": 1955,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "patrik-battiston",
+    "name": "Patrick Battiston",
+    "commonName": "Patrick Battiston",
+    "nationality": "France",
+    "birthYear": 1957,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "yvon-le-roux",
+    "name": "Yvon Le Roux",
+    "commonName": "Yvon Le Roux",
+    "nationality": "France",
+    "birthYear": 1960,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "joel-bats",
+    "name": "Joël Bats",
+    "commonName": "Joël Bats",
+    "nationality": "France",
+    "birthYear": 1957,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "paolo-rossi",
+    "name": "Paolo Rossi",
+    "commonName": "Paolo Rossi",
+    "nationality": "Italy",
+    "birthYear": 1956,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "dino-zoff",
+    "name": "Dino Zoff",
+    "commonName": "Dino Zoff",
+    "nationality": "Italy",
+    "birthYear": 1942,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "gaetano-scirea",
+    "name": "Gaetano Scirea",
+    "commonName": "Gaetano Scirea",
+    "nationality": "Italy",
+    "birthYear": 1953,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "claudio-gentile",
+    "name": "Claudio Gentile",
+    "commonName": "Claudio Gentile",
+    "nationality": "Italy",
+    "birthYear": 1953,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "antonio-cabrini",
+    "name": "Antonio Cabrini",
+    "commonName": "Antonio Cabrini",
+    "nationality": "Italy",
+    "birthYear": 1957,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "fulvio-collovati",
+    "name": "Fulvio Collovati",
+    "commonName": "Fulvio Collovati",
+    "nationality": "Italy",
+    "birthYear": 1957,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "marco-tardelli",
+    "name": "Marco Tardelli",
+    "commonName": "Marco Tardelli",
+    "nationality": "Italy",
+    "birthYear": 1954,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "gabriele-oriali",
+    "name": "Gabriele Oriali",
+    "commonName": "Gabriele Oriali",
+    "nationality": "Italy",
+    "birthYear": 1952,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "giancarlo-antognoni",
+    "name": "Giancarlo Antognoni",
+    "commonName": "Giancarlo Antognoni",
+    "nationality": "Italy",
+    "birthYear": 1954,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "bruno-conti",
+    "name": "Bruno Conti",
+    "commonName": "Bruno Conti",
+    "nationality": "Italy",
+    "birthYear": 1955,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "francesco-graziani",
+    "name": "Francesco Graziani",
+    "commonName": "Ciccio Graziani",
+    "nationality": "Italy",
+    "birthYear": 1952,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "andres-iniesta",
+    "name": "Andrés Iniesta Luján",
+    "commonName": "Andrés Iniesta",
+    "nationality": "Spain",
+    "birthYear": 1984,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "xavi-hernandez",
+    "name": "Xavier Hernández Creus",
+    "commonName": "Xavi",
+    "nationality": "Spain",
+    "birthYear": 1980,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "iker-casillas",
+    "name": "Iker Casillas Fernández",
+    "commonName": "Iker Casillas",
+    "nationality": "Spain",
+    "birthYear": 1981,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "carles-puyol",
+    "name": "Carles Puyol Saforcada",
+    "commonName": "Carles Puyol",
+    "nationality": "Spain",
+    "birthYear": 1978,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "gerard-pique",
+    "name": "Gerard Piqué Bernabeu",
+    "commonName": "Gerard Piqué",
+    "nationality": "Spain",
+    "birthYear": 1987,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "sergio-ramos",
+    "name": "Sergio Ramos García",
+    "commonName": "Sergio Ramos",
+    "nationality": "Spain",
+    "birthYear": 1986,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "joan-capdevila",
+    "name": "Joan Capdevila Méndez",
+    "commonName": "Joan Capdevila",
+    "nationality": "Spain",
+    "birthYear": 1978,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "sergio-busquets",
+    "name": "Sergio Busquets Burgos",
+    "commonName": "Sergio Busquets",
+    "nationality": "Spain",
+    "birthYear": 1988,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "xabi-alonso",
+    "name": "Xabier Alonso Olano",
+    "commonName": "Xabi Alonso",
+    "nationality": "Spain",
+    "birthYear": 1981,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "david-villa",
+    "name": "David Villa Sánchez",
+    "commonName": "David Villa",
+    "nationality": "Spain",
+    "birthYear": 1981,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "pedro-rodriguez",
+    "name": "Pedro Eliezer Rodríguez Ledesma",
+    "commonName": "Pedro",
+    "nationality": "Spain",
+    "birthYear": 1987,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "fernando-torres",
+    "name": "Fernando José Torres Sanz",
+    "commonName": "Fernando Torres",
+    "nationality": "Spain",
+    "birthYear": 1984,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "ronaldo-nazario",
+    "name": "Ronaldo Luís Nazário de Lima",
+    "commonName": "Ronaldo",
+    "nationality": "Brazil",
+    "birthYear": 1976,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "rivaldo",
+    "name": "Rivaldo Vítor Borba Ferreira",
+    "commonName": "Rivaldo",
+    "nationality": "Brazil",
+    "birthYear": 1972,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "ronaldinho",
+    "name": "Ronaldo de Assis Moreira (Ronaldinho)",
+    "commonName": "Ronaldinho",
+    "nationality": "Brazil",
+    "birthYear": 1980,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "cafu",
+    "name": "Marcos Evangelista de Morais (Cafu)",
+    "commonName": "Cafu",
+    "nationality": "Brazil",
+    "birthYear": 1970,
+    "canonicalPosition": "RWB"
+  },
+  {
+    "id": "roberto-carlos",
+    "name": "Roberto Carlos da Silva Rocha",
+    "commonName": "Roberto Carlos",
+    "nationality": "Brazil",
+    "birthYear": 1973,
+    "canonicalPosition": "LWB"
+  },
+  {
+    "id": "lucio",
+    "name": "Lucimar Ferreira da Silva (Lúcio)",
+    "commonName": "Lúcio",
+    "nationality": "Brazil",
+    "birthYear": 1978,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "edmilson",
+    "name": "José Edmílson Gomes de Moraes",
+    "commonName": "Edmílson",
+    "nationality": "Brazil",
+    "birthYear": 1976,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "roque-junior",
+    "name": "José Vítor Roque Júnior",
+    "commonName": "Roque Júnior",
+    "nationality": "Brazil",
+    "birthYear": 1976,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "gilberto-silva",
+    "name": "Gilberto Aparecido da Silva",
+    "commonName": "Gilberto Silva",
+    "nationality": "Brazil",
+    "birthYear": 1976,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "kleberson",
+    "name": "José Kléberson Pereira",
+    "commonName": "Kléberson",
+    "nationality": "Brazil",
+    "birthYear": 1979,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "marcos",
+    "name": "Marcos Roberto Silveira Reis",
+    "commonName": "Marcos",
+    "nationality": "Brazil",
+    "birthYear": 1973,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "zinedine-zidane",
+    "name": "Zinedine Yazid Zidane",
+    "commonName": "Zinedine Zidane",
+    "nationality": "France",
+    "birthYear": 1972,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "thierry-henry",
+    "name": "Thierry Daniel Henry",
+    "commonName": "Thierry Henry",
+    "nationality": "France",
+    "birthYear": 1977,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "didier-deschamps",
+    "name": "Didier Claude Deschamps",
+    "commonName": "Didier Deschamps",
+    "nationality": "France",
+    "birthYear": 1968,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "marcel-desailly",
+    "name": "Marcel Desailly",
+    "commonName": "Marcel Desailly",
+    "nationality": "France",
+    "birthYear": 1968,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "laurent-blanc",
+    "name": "Laurent Robert Blanc",
+    "commonName": "Laurent Blanc",
+    "nationality": "France",
+    "birthYear": 1965,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "lilian-thuram",
+    "name": "Lilian Thuram",
+    "commonName": "Lilian Thuram",
+    "nationality": "France",
+    "birthYear": 1972,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "bixente-lizarazu",
+    "name": "Bixente Lizarazu",
+    "commonName": "Bixente Lizarazu",
+    "nationality": "France",
+    "birthYear": 1969,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "emmanuel-petit",
+    "name": "Emmanuel Petit",
+    "commonName": "Emmanuel Petit",
+    "nationality": "France",
+    "birthYear": 1970,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "christian-karembeu",
+    "name": "Christian Karembeu",
+    "commonName": "Christian Karembeu",
+    "nationality": "France",
+    "birthYear": 1970,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "yousef-djorkaeff",
+    "name": "Youri Djorkaeff",
+    "commonName": "Youri Djorkaeff",
+    "nationality": "France",
+    "birthYear": 1968,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "stephane-guivarch",
+    "name": "Stéphane Guivarc'h",
+    "commonName": "Stéphane Guivarc'h",
+    "nationality": "France",
+    "birthYear": 1970,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "fabien-barthez",
+    "name": "Fabien Alain Barthez",
+    "commonName": "Fabien Barthez",
+    "nationality": "France",
+    "birthYear": 1971,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "lothar-matthaeus",
+    "name": "Lothar Herbert Matthäus",
+    "commonName": "Lothar Matthäus",
+    "nationality": "Germany",
+    "birthYear": 1961,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "juergen-klinsmann",
+    "name": "Jürgen Klinsmann",
+    "commonName": "Jürgen Klinsmann",
+    "nationality": "Germany",
+    "birthYear": 1964,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "rudi-voeller",
+    "name": "Rudolf Völler",
+    "commonName": "Rudi Völler",
+    "nationality": "Germany",
+    "birthYear": 1960,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "andreas-brehme",
+    "name": "Andreas Brehme",
+    "commonName": "Andreas Brehme",
+    "nationality": "Germany",
+    "birthYear": 1960,
+    "canonicalPosition": "LWB"
+  },
+  {
+    "id": "thomas-haessler",
+    "name": "Thomas Häßler",
+    "commonName": "Thomas Häßler",
+    "nationality": "Germany",
+    "birthYear": 1966,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "stefan-reuter",
+    "name": "Stefan Reuter",
+    "commonName": "Stefan Reuter",
+    "nationality": "Germany",
+    "birthYear": 1966,
+    "canonicalPosition": "RWB"
+  },
+  {
+    "id": "guido-buchwald",
+    "name": "Guido Buchwald",
+    "commonName": "Guido Buchwald",
+    "nationality": "Germany",
+    "birthYear": 1961,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "klaus-augenthaler",
+    "name": "Klaus Augenthaler",
+    "commonName": "Klaus Augenthaler",
+    "nationality": "Germany",
+    "birthYear": 1957,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "juergen-kohler",
+    "name": "Jürgen Kohler",
+    "commonName": "Jürgen Kohler",
+    "nationality": "Germany",
+    "birthYear": 1965,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "pierre-littbarski",
+    "name": "Pierre Littbarski",
+    "commonName": "Pierre Littbarski",
+    "nationality": "Germany",
+    "birthYear": 1960,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "bodo-illgner",
+    "name": "Bodo Illgner",
+    "commonName": "Bodo Illgner",
+    "nationality": "Germany",
+    "birthYear": 1967,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "fabio-cannavaro",
+    "name": "Fabio Cannavaro",
+    "commonName": "Fabio Cannavaro",
+    "nationality": "Italy",
+    "birthYear": 1973,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "gianluigi-buffon",
+    "name": "Gianluigi Buffon",
+    "commonName": "Gianluigi Buffon",
+    "nationality": "Italy",
+    "birthYear": 1978,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "andrea-pirlo",
+    "name": "Andrea Pirlo",
+    "commonName": "Andrea Pirlo",
+    "nationality": "Italy",
+    "birthYear": 1979,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "gennaro-gattuso",
+    "name": "Gennaro Ivan Gattuso",
+    "commonName": "Gennaro Gattuso",
+    "nationality": "Italy",
+    "birthYear": 1978,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "francesco-totti",
+    "name": "Francesco Totti",
+    "commonName": "Francesco Totti",
+    "nationality": "Italy",
+    "birthYear": 1976,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "alessandro-del-piero",
+    "name": "Alessandro Del Piero",
+    "commonName": "Alessandro Del Piero",
+    "nationality": "Italy",
+    "birthYear": 1974,
+    "canonicalPosition": "SS"
+  },
+  {
+    "id": "luca-toni",
+    "name": "Luca Toni",
+    "commonName": "Luca Toni",
+    "nationality": "Italy",
+    "birthYear": 1977,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "gianluca-zambrotta",
+    "name": "Gianluca Zambrotta",
+    "commonName": "Gianluca Zambrotta",
+    "nationality": "Italy",
+    "birthYear": 1977,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "fabio-grosso",
+    "name": "Fabio Grosso",
+    "commonName": "Fabio Grosso",
+    "nationality": "Italy",
+    "birthYear": 1977,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "marco-materazzi",
+    "name": "Marco Materazzi",
+    "commonName": "Marco Materazzi",
+    "nationality": "Italy",
+    "birthYear": 1973,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "mauro-camoranesi",
+    "name": "Mauro Germán Camoranesi",
+    "commonName": "Mauro Camoranesi",
+    "nationality": "Italy",
+    "birthYear": 1976,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "zico",
+    "name": "Arthur Antunes Coimbra (Zico)",
+    "commonName": "Zico",
+    "nationality": "Brazil",
+    "birthYear": 1953,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "socrates",
+    "name": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira",
+    "commonName": "Sócrates",
+    "nationality": "Brazil",
+    "birthYear": 1954,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "falcao",
+    "name": "Paulo Roberto Falcão",
+    "commonName": "Falcão",
+    "nationality": "Brazil",
+    "birthYear": 1953,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "toninho-cerezo",
+    "name": "Antônio Carlos Cerezo",
+    "commonName": "Toninho Cerezo",
+    "nationality": "Brazil",
+    "birthYear": 1955,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "junior",
+    "name": "Leovegildo Lins da Gama Júnior",
+    "commonName": "Júnior",
+    "nationality": "Brazil",
+    "birthYear": 1954,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "leandro",
+    "name": "José Leandro Ferreira",
+    "commonName": "Leandro",
+    "nationality": "Brazil",
+    "birthYear": 1959,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "oscar-bernardi",
+    "name": "José Oscar Bernardi",
+    "commonName": "Oscar",
+    "nationality": "Brazil",
+    "birthYear": 1954,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "luizinho",
+    "name": "Luiz Carlos Ferreira (Luizinho)",
+    "commonName": "Luizinho",
+    "nationality": "Brazil",
+    "birthYear": 1958,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "eder-aleixo",
+    "name": "Éder Aleixo de Assis",
+    "commonName": "Éder",
+    "nationality": "Brazil",
+    "birthYear": 1957,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "serginho-chulapa",
+    "name": "Sérgio Bernardino (Serginho Chulapa)",
+    "commonName": "Serginho Chulapa",
+    "nationality": "Brazil",
+    "birthYear": 1953,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "waldir-peres",
+    "name": "Waldir Peres de Arruda",
+    "commonName": "Waldir Peres",
+    "nationality": "Brazil",
+    "birthYear": 1951,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "bobby-charlton",
+    "name": "Sir Robert Charlton",
+    "commonName": "Bobby Charlton",
+    "nationality": "England",
+    "birthYear": 1937,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "bobby-moore",
+    "name": "Robert Frederick Chelsea Moore",
+    "commonName": "Bobby Moore",
+    "nationality": "England",
+    "birthYear": 1941,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "gordon-banks",
+    "name": "Gordon Banks",
+    "commonName": "Gordon Banks",
+    "nationality": "England",
+    "birthYear": 1937,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "geoff-hurst",
+    "name": "Sir Geoffrey Charles Hurst",
+    "commonName": "Geoff Hurst",
+    "nationality": "England",
+    "birthYear": 1941,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "roger-hunt",
+    "name": "Roger Hunt",
+    "commonName": "Roger Hunt",
+    "nationality": "England",
+    "birthYear": 1938,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "martin-peters",
+    "name": "Martin Stanford Peters",
+    "commonName": "Martin Peters",
+    "nationality": "England",
+    "birthYear": 1943,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "alan-ball",
+    "name": "Alan James Ball",
+    "commonName": "Alan Ball",
+    "nationality": "England",
+    "birthYear": 1945,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "nobby-stiles",
+    "name": "Norbert Peter Stiles",
+    "commonName": "Nobby Stiles",
+    "nationality": "England",
+    "birthYear": 1942,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "ray-wilson",
+    "name": "Ramon Wilson",
+    "commonName": "Ray Wilson",
+    "nationality": "England",
+    "birthYear": 1934,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "george-cohen",
+    "name": "George Reginald Cohen",
+    "commonName": "George Cohen",
+    "nationality": "England",
+    "birthYear": 1939,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "jack-charlton",
+    "name": "John Charlton",
+    "commonName": "Jack Charlton",
+    "nationality": "England",
+    "birthYear": 1935,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "lionel-messi",
+    "name": "Lionel Andrés Messi",
+    "commonName": "Lionel Messi",
+    "nationality": "Argentina",
+    "birthYear": 1987,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "angel-di-maria",
+    "name": "Ángel Fabián Di María",
+    "commonName": "Ángel Di María",
+    "nationality": "Argentina",
+    "birthYear": 1988,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "julian-alvarez",
+    "name": "Julián Álvarez",
+    "commonName": "Julián Álvarez",
+    "nationality": "Argentina",
+    "birthYear": 2000,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "rodrigo-de-paul",
+    "name": "Rodrigo Javier De Paul",
+    "commonName": "Rodrigo De Paul",
+    "nationality": "Argentina",
+    "birthYear": 1994,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "alexis-mac-allister",
+    "name": "Alexis Mac Allister",
+    "commonName": "Alexis Mac Allister",
+    "nationality": "Argentina",
+    "birthYear": 1998,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "enzo-fernandez",
+    "name": "Enzo Jeremías Fernández",
+    "commonName": "Enzo Fernández",
+    "nationality": "Argentina",
+    "birthYear": 2001,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "nahuel-molina",
+    "name": "Nahuel Molina Lucero",
+    "commonName": "Nahuel Molina",
+    "nationality": "Argentina",
+    "birthYear": 1998,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "cristian-romero",
+    "name": "Cristian Gabriel Romero",
+    "commonName": "Cristian Romero",
+    "nationality": "Argentina",
+    "birthYear": 1998,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "nicolas-otamendi",
+    "name": "Nicolás Hernán Gonzalo Otamendi",
+    "commonName": "Nicolás Otamendi",
+    "nationality": "Argentina",
+    "birthYear": 1988,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "nicolas-tagliafico",
+    "name": "Nicolás Alejandro Tagliafico",
+    "commonName": "Nicolás Tagliafico",
+    "nationality": "Argentina",
+    "birthYear": 1992,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "emiliano-martinez",
+    "name": "Damián Emiliano Martínez",
+    "commonName": "Emiliano Martínez",
+    "nationality": "Argentina",
+    "birthYear": 1992,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "manuel-neuer",
+    "name": "Manuel Peter Neuer",
+    "commonName": "Manuel Neuer",
+    "nationality": "Germany",
+    "birthYear": 1986,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "philipp-lahm",
+    "name": "Philipp Lahm",
+    "commonName": "Philipp Lahm",
+    "nationality": "Germany",
+    "birthYear": 1983,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "thomas-mueller",
+    "name": "Thomas Müller",
+    "commonName": "Thomas Müller",
+    "nationality": "Germany",
+    "birthYear": 1989,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "toni-kroos",
+    "name": "Toni Kroos",
+    "commonName": "Toni Kroos",
+    "nationality": "Germany",
+    "birthYear": 1990,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "bastian-schweinsteiger",
+    "name": "Bastian Schweinsteiger",
+    "commonName": "Bastian Schweinsteiger",
+    "nationality": "Germany",
+    "birthYear": 1984,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "mats-hummels",
+    "name": "Mats Julian Hummels",
+    "commonName": "Mats Hummels",
+    "nationality": "Germany",
+    "birthYear": 1988,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "jerome-boateng",
+    "name": "Jérôme Agyenim Boateng",
+    "commonName": "Jérôme Boateng",
+    "nationality": "Germany",
+    "birthYear": 1988,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "benedikt-hoewedes",
+    "name": "Benedikt Höwedes",
+    "commonName": "Benedikt Höwedes",
+    "nationality": "Germany",
+    "birthYear": 1988,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "sami-khedira",
+    "name": "Sami Khedira",
+    "commonName": "Sami Khedira",
+    "nationality": "Germany",
+    "birthYear": 1987,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "mesut-oezil",
+    "name": "Mesut Özil",
+    "commonName": "Mesut Özil",
+    "nationality": "Germany",
+    "birthYear": 1988,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "miroslav-klose",
+    "name": "Miroslav Josef Klose",
+    "commonName": "Miroslav Klose",
+    "nationality": "Germany",
+    "birthYear": 1978,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "mario-goetze",
+    "name": "Mario Götze",
+    "commonName": "Mario Götze",
+    "nationality": "Germany",
+    "birthYear": 1992,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "peter-schmeichel",
+    "name": "Peter Bolesław Schmeichel",
+    "commonName": "Peter Schmeichel",
+    "nationality": "Denmark",
+    "birthYear": 1963,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "brian-laudrup",
+    "name": "Brian Laudrup",
+    "commonName": "Brian Laudrup",
+    "nationality": "Denmark",
+    "birthYear": 1969,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "flemming-povlsen",
+    "name": "Flemming Søgaard Povlsen",
+    "commonName": "Flemming Povlsen",
+    "nationality": "Denmark",
+    "birthYear": 1966,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "john-jensen",
+    "name": "John Jensen",
+    "commonName": "John Faxe Jensen",
+    "nationality": "Denmark",
+    "birthYear": 1965,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "kim-vilfort",
+    "name": "Kim Vilfort",
+    "commonName": "Kim Vilfort",
+    "nationality": "Denmark",
+    "birthYear": 1962,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "henrik-larsen",
+    "name": "Henrik Larsen",
+    "commonName": "Henrik Larsen",
+    "nationality": "Denmark",
+    "birthYear": 1966,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "lars-olsen",
+    "name": "Lars Christian Olsen",
+    "commonName": "Lars Olsen",
+    "nationality": "Denmark",
+    "birthYear": 1961,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "torben-piechnik",
+    "name": "Torben Piechnik",
+    "commonName": "Torben Piechnik",
+    "nationality": "Denmark",
+    "birthYear": 1963,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "kent-nielsen",
+    "name": "Kent Nielsen",
+    "commonName": "Kent Nielsen",
+    "nationality": "Denmark",
+    "birthYear": 1961,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "john-sivebaek",
+    "name": "John Sivebæk",
+    "commonName": "John Sivebæk",
+    "nationality": "Denmark",
+    "birthYear": 1961,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "kim-christofte",
+    "name": "Kim Christofte",
+    "commonName": "Kim Christofte",
+    "nationality": "Denmark",
+    "birthYear": 1960,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "theodoros-zagorakis",
+    "name": "Theodoros Zagorakis",
+    "commonName": "Theodoros Zagorakis",
+    "nationality": "Greece",
+    "birthYear": 1971,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "angelos-charisteas",
+    "name": "Angelos Charisteas",
+    "commonName": "Angelos Charisteas",
+    "nationality": "Greece",
+    "birthYear": 1980,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "giourkas-seitaridis",
+    "name": "Georgios Seitaridis",
+    "commonName": "Giourkas Seitaridis",
+    "nationality": "Greece",
+    "birthYear": 1981,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "traianos-dellas",
+    "name": "Traianos Dellas",
+    "commonName": "Traianos Dellas",
+    "nationality": "Greece",
+    "birthYear": 1976,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "michalis-kapsis",
+    "name": "Michalis Kapsis",
+    "commonName": "Michalis Kapsis",
+    "nationality": "Greece",
+    "birthYear": 1973,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "panagiotis-fyssas",
+    "name": "Panagiotis Fyssas",
+    "commonName": "Takis Fyssas",
+    "nationality": "Greece",
+    "birthYear": 1973,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "kostas-katsouranis",
+    "name": "Konstantinos Katsouranis",
+    "commonName": "Kostas Katsouranis",
+    "nationality": "Greece",
+    "birthYear": 1979,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "angelos-basinas",
+    "name": "Angelos Basinas",
+    "commonName": "Angelos Basinas",
+    "nationality": "Greece",
+    "birthYear": 1976,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "giorgos-karagounis",
+    "name": "Georgios Karagounis",
+    "commonName": "Giorgos Karagounis",
+    "nationality": "Greece",
+    "birthYear": 1977,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "zisis-vryzas",
+    "name": "Zisis Vryzas",
+    "commonName": "Zisis Vryzas",
+    "nationality": "Greece",
+    "birthYear": 1973,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "antonios-nikopolidis",
+    "name": "Antonios Nikopolidis",
+    "commonName": "Antonios Nikopolidis",
+    "nationality": "Greece",
+    "birthYear": 1971,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "luka-modric",
+    "name": "Luka Modrić",
+    "commonName": "Luka Modrić",
+    "nationality": "Croatia",
+    "birthYear": 1985,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "ivan-rakitic",
+    "name": "Ivan Rakitić",
+    "commonName": "Ivan Rakitić",
+    "nationality": "Croatia",
+    "birthYear": 1988,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "mario-mandzukic",
+    "name": "Mario Mandžukić",
+    "commonName": "Mario Mandžukić",
+    "nationality": "Croatia",
+    "birthYear": 1986,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "ivan-perisic",
+    "name": "Ivan Perišić",
+    "commonName": "Ivan Perišić",
+    "nationality": "Croatia",
+    "birthYear": 1989,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "ante-rebic",
+    "name": "Ante Rebić",
+    "commonName": "Ante Rebić",
+    "nationality": "Croatia",
+    "birthYear": 1993,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "marcelo-brozovic",
+    "name": "Marcelo Brozović",
+    "commonName": "Marcelo Brozović",
+    "nationality": "Croatia",
+    "birthYear": 1992,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "sime-vrsaljko",
+    "name": "Šime Vrsaljko",
+    "commonName": "Šime Vrsaljko",
+    "nationality": "Croatia",
+    "birthYear": 1992,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "domagoj-vida",
+    "name": "Domagoj Vida",
+    "commonName": "Domagoj Vida",
+    "nationality": "Croatia",
+    "birthYear": 1989,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "dejan-lovren",
+    "name": "Dejan Lovren",
+    "commonName": "Dejan Lovren",
+    "nationality": "Croatia",
+    "birthYear": 1989,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "ivan-strinic",
+    "name": "Ivan Strinić",
+    "commonName": "Ivan Strinić",
+    "nationality": "Croatia",
+    "birthYear": 1987,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "danijel-subasic",
+    "name": "Danijel Subašić",
+    "commonName": "Danijel Subašić",
+    "nationality": "Croatia",
+    "birthYear": 1984,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "cristiano-ronaldo",
+    "name": "Cristiano Ronaldo dos Santos Aveiro",
+    "commonName": "Cristiano Ronaldo",
+    "nationality": "Portugal",
+    "birthYear": 1985,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "nani",
+    "name": "Luís Carlos Almeida da Cunha (Nani)",
+    "commonName": "Nani",
+    "nationality": "Portugal",
+    "birthYear": 1986,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "renato-sanches",
+    "name": "Renato Júnior Luz Sanches",
+    "commonName": "Renato Sanches",
+    "nationality": "Portugal",
+    "birthYear": 1997,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "joao-moutinho",
+    "name": "João Filipe Iria Santos Moutinho",
+    "commonName": "João Moutinho",
+    "nationality": "Portugal",
+    "birthYear": 1986,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "william-carvalho",
+    "name": "William Silva de Carvalho",
+    "commonName": "William Carvalho",
+    "nationality": "Portugal",
+    "birthYear": 1992,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "joao-mario",
+    "name": "João Mário Naval da Costa Eduardo",
+    "commonName": "João Mário",
+    "nationality": "Portugal",
+    "birthYear": 1993,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "raphael-guerreiro",
+    "name": "Raphaël Adelino José Guerreiro",
+    "commonName": "Raphaël Guerreiro",
+    "nationality": "Portugal",
+    "birthYear": 1993,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "pepe",
+    "name": "Képler Laveran de Lima Ferreira (Pepe)",
+    "commonName": "Pepe",
+    "nationality": "Portugal",
+    "birthYear": 1983,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "jose-fonte",
+    "name": "José Miguel da Rocha Fonte",
+    "commonName": "José Fonte",
+    "nationality": "Portugal",
+    "birthYear": 1983,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "cedric-soares",
+    "name": "Cédric Ricardo Alves Soares",
+    "commonName": "Cédric Soares",
+    "nationality": "Portugal",
+    "birthYear": 1991,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "rui-patricio",
+    "name": "Rui Pedro dos Santos Patrício",
+    "commonName": "Rui Patrício",
+    "nationality": "Portugal",
+    "birthYear": 1988,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "eder-lopes",
+    "name": "Éderzito António Macedo Lopes (Éder)",
+    "commonName": "Éder",
+    "nationality": "Portugal",
+    "birthYear": 1987,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "obdulio-varela",
+    "name": "Obdulio Jacinto Muiños Varela",
+    "commonName": "Obdulio Varela",
+    "nationality": "Uruguay",
+    "birthYear": 1917,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "alcides-ghiggia",
+    "name": "Alcides Edgardo Ghiggia",
+    "commonName": "Alcides Ghiggia",
+    "nationality": "Uruguay",
+    "birthYear": 1926,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "juan-schiaffino",
+    "name": "Juan Alberto Schiaffino Villano",
+    "commonName": "Juan Schiaffino",
+    "nationality": "Uruguay",
+    "birthYear": 1925,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "oscar-miguez",
+    "name": "Óscar Omar Míguez Antón",
+    "commonName": "Óscar Míguez",
+    "nationality": "Uruguay",
+    "birthYear": 1927,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "ruben-moran",
+    "name": "Rubén Morán",
+    "commonName": "Rubén Morán",
+    "nationality": "Uruguay",
+    "birthYear": 1930,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "julio-perez",
+    "name": "Julio Gervasio Pérez Gutiérrez",
+    "commonName": "Julio Pérez",
+    "nationality": "Uruguay",
+    "birthYear": 1926,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "victor-rodriguez-andrade",
+    "name": "Víctor Pablo Rodríguez Andrade",
+    "commonName": "Rodríguez Andrade",
+    "nationality": "Uruguay",
+    "birthYear": 1927,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "matias-gonzalez",
+    "name": "Matías González",
+    "commonName": "Matías González",
+    "nationality": "Uruguay",
+    "birthYear": 1925,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "eusebio-tejera",
+    "name": "Eusebio Ramón Tejera Kirkerup",
+    "commonName": "Eusebio Tejera",
+    "nationality": "Uruguay",
+    "birthYear": 1922,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "schubert-gambetta",
+    "name": "Schubert Gambetta Saint Léon",
+    "commonName": "Schubert Gambetta",
+    "nationality": "Uruguay",
+    "birthYear": 1920,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "roque-maspoli",
+    "name": "Roque Gastón Máspoli Arispe",
+    "commonName": "Roque Máspoli",
+    "nationality": "Uruguay",
+    "birthYear": 1917,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "alfredo-di-stefano",
+    "name": "Alfredo Stéfano Di Stéfano Laulhé",
+    "commonName": "Alfredo Di Stéfano",
+    "nationality": "Spain",
+    "birthYear": 1926,
+    "canonicalPosition": "CF"
+  },
+  {
+    "id": "ferenc-puskas",
+    "name": "Ferenc Puskás Biró",
+    "commonName": "Ferenc Puskás",
+    "nationality": "Hungary",
+    "birthYear": 1927,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "francisco-gento",
+    "name": "Francisco Gento López",
+    "commonName": "Paco Gento",
+    "nationality": "Spain",
+    "birthYear": 1933,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "jose-santamaria",
+    "name": "José Emilio Santamaría Iglesias",
+    "commonName": "José Santamaría",
+    "nationality": "Uruguay",
+    "birthYear": 1929,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "luis-del-sol",
+    "name": "Luis del Sol Cascajares",
+    "commonName": "Luis del Sol",
+    "nationality": "Spain",
+    "birthYear": 1935,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "jose-maria-vidal",
+    "name": "José María Vidal Bravo",
+    "commonName": "José María Vidal",
+    "nationality": "Spain",
+    "birthYear": 1935,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "marquitos",
+    "name": "Marcos Alonso Imaz (Marquitos)",
+    "commonName": "Marquitos",
+    "nationality": "Spain",
+    "birthYear": 1933,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "pachin",
+    "name": "Enrique Pérez Díaz (Pachín)",
+    "commonName": "Pachín",
+    "nationality": "Spain",
+    "birthYear": 1938,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "rogelio-dominguez",
+    "name": "Rogelio Antonio Domínguez López",
+    "commonName": "Rogelio Domínguez",
+    "nationality": "Argentina",
+    "birthYear": 1931,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "canario",
+    "name": "Darcy Silveira dos Santos (Canário)",
+    "commonName": "Canário",
+    "nationality": "Brazil",
+    "birthYear": 1934,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "piet-keizer",
+    "name": "Petrus Johannes Keizer",
+    "commonName": "Piet Keizer",
+    "nationality": "Netherlands",
+    "birthYear": 1943,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "gerrie-muhren",
+    "name": "Gerardus Demphina Muhren",
+    "commonName": "Gerrie Mühren",
+    "nationality": "Netherlands",
+    "birthYear": 1946,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "horst-blankenburg",
+    "name": "Horst Blankenburg",
+    "commonName": "Horst Blankenburg",
+    "nationality": "Germany",
+    "birthYear": 1947,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "barry-hulshoff",
+    "name": "Bernardus Adriaan Hulshoff",
+    "commonName": "Barry Hulshoff",
+    "nationality": "Netherlands",
+    "birthYear": 1946,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "heinz-stuy",
+    "name": "Heinz Stuy",
+    "commonName": "Heinz Stuy",
+    "nationality": "Netherlands",
+    "birthYear": 1945,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "sjaak-swart",
+    "name": "Jesaia Swart",
+    "commonName": "Sjaak Swart",
+    "nationality": "Netherlands",
+    "birthYear": 1938,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "kevin-keegan",
+    "name": "Kevin Keegan",
+    "commonName": "Kevin Keegan",
+    "nationality": "England",
+    "birthYear": 1951,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "ray-clemence",
+    "name": "Raymond Neal Clemence",
+    "commonName": "Ray Clemence",
+    "nationality": "England",
+    "birthYear": 1948,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "phil-neal",
+    "name": "Philip George Neal",
+    "commonName": "Phil Neal",
+    "nationality": "England",
+    "birthYear": 1951,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "emlyn-hughes",
+    "name": "Emlyn Walter Hughes",
+    "commonName": "Emlyn Hughes",
+    "nationality": "England",
+    "birthYear": 1947,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "tommy-smith",
+    "name": "Thomas Smith",
+    "commonName": "Tommy Smith",
+    "nationality": "England",
+    "birthYear": 1945,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "joey-jones",
+    "name": "Joseph Patrick Jones",
+    "commonName": "Joey Jones",
+    "nationality": "Wales",
+    "birthYear": 1955,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "ian-callaghan",
+    "name": "Ian Robert Callaghan",
+    "commonName": "Ian Callaghan",
+    "nationality": "England",
+    "birthYear": 1942,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "terry-mcdermott",
+    "name": "Terence McDermott",
+    "commonName": "Terry McDermott",
+    "nationality": "England",
+    "birthYear": 1951,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "ray-kennedy",
+    "name": "Raymond Kennedy",
+    "commonName": "Ray Kennedy",
+    "nationality": "England",
+    "birthYear": 1951,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "steve-heighway",
+    "name": "Stephen Derek Heighway",
+    "commonName": "Steve Heighway",
+    "nationality": "Republic of Ireland",
+    "birthYear": 1947,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "marco-van-basten",
+    "name": "Marcel van Basten",
+    "commonName": "Marco van Basten",
+    "nationality": "Netherlands",
+    "birthYear": 1964,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "ruud-gullit",
+    "name": "Rudi Dil Gullit",
+    "commonName": "Ruud Gullit",
+    "nationality": "Netherlands",
+    "birthYear": 1962,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "frank-rijkaard",
+    "name": "Franklin Edmundo Rijkaard",
+    "commonName": "Frank Rijkaard",
+    "nationality": "Netherlands",
+    "birthYear": 1962,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "franco-baresi",
+    "name": "Franco Baresi",
+    "commonName": "Franco Baresi",
+    "nationality": "Italy",
+    "birthYear": 1960,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "paolo-maldini",
+    "name": "Paolo Cesare Maldini",
+    "commonName": "Paolo Maldini",
+    "nationality": "Italy",
+    "birthYear": 1968,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "alessandro-costacurta",
+    "name": "Alessandro Costacurta",
+    "commonName": "Alessandro Costacurta",
+    "nationality": "Italy",
+    "birthYear": 1966,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "mauro-tassotti",
+    "name": "Mauro Tassotti",
+    "commonName": "Mauro Tassotti",
+    "nationality": "Italy",
+    "birthYear": 1960,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "carlo-ancelotti",
+    "name": "Carlo Ancelotti",
+    "commonName": "Carlo Ancelotti",
+    "nationality": "Italy",
+    "birthYear": 1959,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "angelo-colombo",
+    "name": "Angelo Colombo",
+    "commonName": "Angelo Colombo",
+    "nationality": "Italy",
+    "birthYear": 1961,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "roberto-donadoni",
+    "name": "Roberto Donadoni",
+    "commonName": "Roberto Donadoni",
+    "nationality": "Italy",
+    "birthYear": 1963,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "giovanni-galli",
+    "name": "Giovanni Galli",
+    "commonName": "Giovanni Galli",
+    "nationality": "Italy",
+    "birthYear": 1958,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "ronald-koeman",
+    "name": "Ronald Koeman",
+    "commonName": "Ronald Koeman",
+    "nationality": "Netherlands",
+    "birthYear": 1963,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "michael-laudrup",
+    "name": "Michael Laudrup",
+    "commonName": "Michael Laudrup",
+    "nationality": "Denmark",
+    "birthYear": 1964,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "hristo-stoichkov",
+    "name": "Hristo Stoichkov",
+    "commonName": "Hristo Stoichkov",
+    "nationality": "Bulgaria",
+    "birthYear": 1966,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "pep-guardiola",
+    "name": "Josep Guardiola Sala",
+    "commonName": "Pep Guardiola",
+    "nationality": "Spain",
+    "birthYear": 1971,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "jose-mari-bakero",
+    "name": "José María Bakero Escudero",
+    "commonName": "José Mari Bakero",
+    "nationality": "Spain",
+    "birthYear": 1963,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "txiki-begiristain",
+    "name": "Aitor Begiristain Mujika",
+    "commonName": "Txiki Begiristain",
+    "nationality": "Spain",
+    "birthYear": 1964,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "eusebio-sacristan",
+    "name": "Eusebio Sacristán Mena",
+    "commonName": "Eusebio Sacristán",
+    "nationality": "Spain",
+    "birthYear": 1964,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "albert-ferrer",
+    "name": "Albert Ferrer Llopis",
+    "commonName": "Chapi Ferrer",
+    "nationality": "Spain",
+    "birthYear": 1970,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "juan-carlos",
+    "name": "Juan Carlos Rodríguez Moreno",
+    "commonName": "Juan Carlos",
+    "nationality": "Spain",
+    "birthYear": 1965,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "nando-munoz",
+    "name": "Fernando Muñoz García (Nando)",
+    "commonName": "Nando",
+    "nationality": "Spain",
+    "birthYear": 1967,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "andoni-zubizarreta",
+    "name": "Andoni Zubizarreta Urreta",
+    "commonName": "Andoni Zubizarreta",
+    "nationality": "Spain",
+    "birthYear": 1961,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "gianluca-vialli",
+    "name": "Gianluca Vialli",
+    "commonName": "Gianluca Vialli",
+    "nationality": "Italy",
+    "birthYear": 1964,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "fabrizio-ravanelli",
+    "name": "Fabrizio Ravanelli",
+    "commonName": "Fabrizio Ravanelli",
+    "nationality": "Italy",
+    "birthYear": 1968,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "antonio-conte",
+    "name": "Antonio Conte",
+    "commonName": "Antonio Conte",
+    "nationality": "Italy",
+    "birthYear": 1969,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "paulo-sousa",
+    "name": "Paulo Manuel Carvalho de Sousa",
+    "commonName": "Paulo Sousa",
+    "nationality": "Portugal",
+    "birthYear": 1970,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "ciro-ferrara",
+    "name": "Ciro Ferrara",
+    "commonName": "Ciro Ferrara",
+    "nationality": "Italy",
+    "birthYear": 1967,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "pietro-vierchowod",
+    "name": "Pietro Vierchowod",
+    "commonName": "Pietro Vierchowod",
+    "nationality": "Italy",
+    "birthYear": 1959,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "moreno-torricelli",
+    "name": "Moreno Torricelli",
+    "commonName": "Moreno Torricelli",
+    "nationality": "Italy",
+    "birthYear": 1970,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "gianluca-pessotto",
+    "name": "Gianluca Pessotto",
+    "commonName": "Gianluca Pessotto",
+    "nationality": "Italy",
+    "birthYear": 1970,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "angelo-peruzzi",
+    "name": "Angelo Peruzzi",
+    "commonName": "Angelo Peruzzi",
+    "nationality": "Italy",
+    "birthYear": 1970,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "roy-keane",
+    "name": "Roy Maurice Keane",
+    "commonName": "Roy Keane",
+    "nationality": "Republic of Ireland",
+    "birthYear": 1971,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "david-beckham",
+    "name": "David Robert Joseph Beckham",
+    "commonName": "David Beckham",
+    "nationality": "England",
+    "birthYear": 1975,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "ryan-giggs",
+    "name": "Ryan Joseph Giggs",
+    "commonName": "Ryan Giggs",
+    "nationality": "Wales",
+    "birthYear": 1973,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "paul-scholes",
+    "name": "Paul Scholes",
+    "commonName": "Paul Scholes",
+    "nationality": "England",
+    "birthYear": 1974,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "dwight-yorke",
+    "name": "Dwight Eversley Yorke",
+    "commonName": "Dwight Yorke",
+    "nationality": "Trinidad and Tobago",
+    "birthYear": 1971,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "andy-cole",
+    "name": "Andrew Alexander Cole",
+    "commonName": "Andy Cole",
+    "nationality": "England",
+    "birthYear": 1971,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "gary-neville",
+    "name": "Gary Alexander Neville",
+    "commonName": "Gary Neville",
+    "nationality": "England",
+    "birthYear": 1975,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "denis-irwin",
+    "name": "Denis Joseph Irwin",
+    "commonName": "Denis Irwin",
+    "nationality": "Republic of Ireland",
+    "birthYear": 1965,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "jaap-stam",
+    "name": "Jakob Stam",
+    "commonName": "Jaap Stam",
+    "nationality": "Netherlands",
+    "birthYear": 1972,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "ronny-johnsen",
+    "name": "Jean Ronny Johnsen",
+    "commonName": "Ronny Johnsen",
+    "nationality": "Norway",
+    "birthYear": 1969,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "ole-gunnar-solskjaer",
+    "name": "Ole Gunnar Solskjær",
+    "commonName": "Ole Gunnar Solskjær",
+    "nationality": "Norway",
+    "birthYear": 1973,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "teddy-sheringham",
+    "name": "Edward Paul Sheringham",
+    "commonName": "Teddy Sheringham",
+    "nationality": "England",
+    "birthYear": 1966,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "raul-gonzalez",
+    "name": "Raúl González Blanco",
+    "commonName": "Raúl",
+    "nationality": "Spain",
+    "birthYear": 1977,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "luis-figo",
+    "name": "Luís Filipe Madeira Caeiro Figo",
+    "commonName": "Luís Figo",
+    "nationality": "Portugal",
+    "birthYear": 1972,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "fernando-morientes",
+    "name": "Fernando Morientes Sánchez",
+    "commonName": "Fernando Morientes",
+    "nationality": "Spain",
+    "birthYear": 1976,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "claude-makelele",
+    "name": "Claude Makélélé Sinda",
+    "commonName": "Claude Makélélé",
+    "nationality": "France",
+    "birthYear": 1973,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "fernando-hierro",
+    "name": "Fernando Ruiz Hierro",
+    "commonName": "Fernando Hierro",
+    "nationality": "Spain",
+    "birthYear": 1968,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "michel-salgado",
+    "name": "Miguel Ángel Salgado Fernández",
+    "commonName": "Míchel Salgado",
+    "nationality": "Spain",
+    "birthYear": 1975,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "ivan-helguera",
+    "name": "Iván Helguera Bujía",
+    "commonName": "Iván Helguera",
+    "nationality": "Spain",
+    "birthYear": 1975,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "cesar-sanchez",
+    "name": "César Sánchez Domínguez",
+    "commonName": "César Sánchez",
+    "nationality": "Spain",
+    "birthYear": 1971,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "santiago-solari",
+    "name": "Santiago Hernán Solari Poggio",
+    "commonName": "Santiago Solari",
+    "nationality": "Argentina",
+    "birthYear": 1976,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "dennis-bergkamp",
+    "name": "Dennis Nicolaas Maria Bergkamp",
+    "commonName": "Dennis Bergkamp",
+    "nationality": "Netherlands",
+    "birthYear": 1969,
+    "canonicalPosition": "CF"
+  },
+  {
+    "id": "patrick-vieira",
+    "name": "Patrick Vieira",
+    "commonName": "Patrick Vieira",
+    "nationality": "France",
+    "birthYear": 1976,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "robert-pires",
+    "name": "Robert Emmanuel Pires",
+    "commonName": "Robert Pires",
+    "nationality": "France",
+    "birthYear": 1973,
+    "canonicalPosition": "LM"
+  },
+  {
+    "id": "freddie-ljungberg",
+    "name": "Karl Fredrik Ljungberg",
+    "commonName": "Freddie Ljungberg",
+    "nationality": "Sweden",
+    "birthYear": 1977,
+    "canonicalPosition": "RM"
+  },
+  {
+    "id": "sol-campbell",
+    "name": "Sulzeer Jeremiah Campbell",
+    "commonName": "Sol Campbell",
+    "nationality": "England",
+    "birthYear": 1974,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "kolo-toure",
+    "name": "Kolo Abib Touré",
+    "commonName": "Kolo Touré",
+    "nationality": "Ivory Coast",
+    "birthYear": 1981,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "ashley-cole",
+    "name": "Ashley Cole",
+    "commonName": "Ashley Cole",
+    "nationality": "England",
+    "birthYear": 1980,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "lauren-etame-mayer",
+    "name": "Laureano Bisan-Etame Mayer (Lauren)",
+    "commonName": "Lauren",
+    "nationality": "Cameroon",
+    "birthYear": 1977,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "jens-lehmann",
+    "name": "Jens Gerhard Lehmann",
+    "commonName": "Jens Lehmann",
+    "nationality": "Germany",
+    "birthYear": 1969,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "kaka",
+    "name": "Ricardo Izecson dos Santos Leite (Kaká)",
+    "commonName": "Kaká",
+    "nationality": "Brazil",
+    "birthYear": 1982,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "clarence-seedorf",
+    "name": "Clarence Clyde Seedorf",
+    "commonName": "Clarence Seedorf",
+    "nationality": "Netherlands",
+    "birthYear": 1976,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "filippo-inzaghi",
+    "name": "Filippo Inzaghi",
+    "commonName": "Filippo Inzaghi",
+    "nationality": "Italy",
+    "birthYear": 1973,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "massimo-ambrosini",
+    "name": "Massimo Ambrosini",
+    "commonName": "Massimo Ambrosini",
+    "nationality": "Italy",
+    "birthYear": 1977,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "alessandro-nesta",
+    "name": "Alessandro Nesta",
+    "commonName": "Alessandro Nesta",
+    "nationality": "Italy",
+    "birthYear": 1976,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "marek-jankulovski",
+    "name": "Marek Jankulovski",
+    "commonName": "Marek Jankulovski",
+    "nationality": "Czech Republic",
+    "birthYear": 1977,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "massimo-oddo",
+    "name": "Massimo Oddo",
+    "commonName": "Massimo Oddo",
+    "nationality": "Italy",
+    "birthYear": 1976,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "dida",
+    "name": "Nélson de Jesus Silva (Dida)",
+    "commonName": "Dida",
+    "nationality": "Brazil",
+    "birthYear": 1973,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "wayne-rooney",
+    "name": "Wayne Mark Rooney",
+    "commonName": "Wayne Rooney",
+    "nationality": "England",
+    "birthYear": 1985,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "carlos-tevez",
+    "name": "Carlos Alberto Tevez",
+    "commonName": "Carlos Tevez",
+    "nationality": "Argentina",
+    "birthYear": 1984,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "michael-carrick",
+    "name": "Michael Carrick",
+    "commonName": "Michael Carrick",
+    "nationality": "England",
+    "birthYear": 1981,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "rio-ferdinand",
+    "name": "Rio Gavin Ferdinand",
+    "commonName": "Rio Ferdinand",
+    "nationality": "England",
+    "birthYear": 1978,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "nemanja-vidic",
+    "name": "Nemanja Vidić",
+    "commonName": "Nemanja Vidić",
+    "nationality": "Serbia",
+    "birthYear": 1981,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "patrice-evra",
+    "name": "Patrice Latyr Evra",
+    "commonName": "Patrice Evra",
+    "nationality": "France",
+    "birthYear": 1981,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "wes-brown",
+    "name": "Wesley Michael Brown",
+    "commonName": "Wes Brown",
+    "nationality": "England",
+    "birthYear": 1979,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "edwin-van-der-sar",
+    "name": "Edwin van der Sar",
+    "commonName": "Edwin van der Sar",
+    "nationality": "Netherlands",
+    "birthYear": 1970,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "samuel-etoo",
+    "name": "Samuel Eto'o Fils",
+    "commonName": "Samuel Eto'o",
+    "nationality": "Cameroon",
+    "birthYear": 1981,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "dani-alves",
+    "name": "Daniel Alves da Silva",
+    "commonName": "Dani Alves",
+    "nationality": "Brazil",
+    "birthYear": 1983,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "eric-abidal",
+    "name": "Éric Sylvain Abidal",
+    "commonName": "Éric Abidal",
+    "nationality": "France",
+    "birthYear": 1979,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "yaya-toure",
+    "name": "Gnégnéri Yaya Touré",
+    "commonName": "Yaya Touré",
+    "nationality": "Ivory Coast",
+    "birthYear": 1983,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "victor-valdes",
+    "name": "Víctor Valdés Arribas",
+    "commonName": "Víctor Valdés",
+    "nationality": "Spain",
+    "birthYear": 1982,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "diego-milito",
+    "name": "Diego Alberto Milito",
+    "commonName": "Diego Milito",
+    "nationality": "Argentina",
+    "birthYear": 1979,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "wesley-sneijder",
+    "name": "Wesley Sneijder",
+    "commonName": "Wesley Sneijder",
+    "nationality": "Netherlands",
+    "birthYear": 1984,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "goran-pandev",
+    "name": "Goran Pandev",
+    "commonName": "Goran Pandev",
+    "nationality": "North Macedonia",
+    "birthYear": 1983,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "javier-zanetti",
+    "name": "Javier Adelmar Zanetti",
+    "commonName": "Javier Zanetti",
+    "nationality": "Argentina",
+    "birthYear": 1973,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "esteban-cambiasso",
+    "name": "Esteban Matías Cambiasso Deleau",
+    "commonName": "Esteban Cambiasso",
+    "nationality": "Argentina",
+    "birthYear": 1980,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "walter-samuel",
+    "name": "Walter Adrián Samuel",
+    "commonName": "Walter Samuel",
+    "nationality": "Argentina",
+    "birthYear": 1978,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "maicon",
+    "name": "Maicon Douglas Sisenando",
+    "commonName": "Maicon",
+    "nationality": "Brazil",
+    "birthYear": 1981,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "julio-cesar",
+    "name": "Júlio César Soares de Espíndola",
+    "commonName": "Júlio César",
+    "nationality": "Brazil",
+    "birthYear": 1979,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "christian-chivu",
+    "name": "Cristian Eugen Chivu",
+    "commonName": "Cristian Chivu",
+    "nationality": "Romania",
+    "birthYear": 1980,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "franck-ribery",
+    "name": "Franck Henry Pierre Ribéry",
+    "commonName": "Franck Ribéry",
+    "nationality": "France",
+    "birthYear": 1983,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "arjen-robben",
+    "name": "Arjen Robben",
+    "commonName": "Arjen Robben",
+    "nationality": "Netherlands",
+    "birthYear": 1984,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "mario-mandzukic-club",
+    "name": "Mario Mandžukić",
+    "commonName": "Mario Mandžukić",
+    "nationality": "Croatia",
+    "birthYear": 1986,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "javi-martinez",
+    "name": "Javier Martínez Aginaga",
+    "commonName": "Javi Martínez",
+    "nationality": "Spain",
+    "birthYear": 1988,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "david-alaba",
+    "name": "David Olatukunbo Alaba",
+    "commonName": "David Alaba",
+    "nationality": "Austria",
+    "birthYear": 1992,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "dante-bonfim",
+    "name": "Dante Bonfim Costa Santos",
+    "commonName": "Dante",
+    "nationality": "Brazil",
+    "birthYear": 1983,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "gareth-bale",
+    "name": "Gareth Frank Bale",
+    "commonName": "Gareth Bale",
+    "nationality": "Wales",
+    "birthYear": 1989,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "karim-benzema",
+    "name": "Karim Mostafa Benzema",
+    "commonName": "Karim Benzema",
+    "nationality": "France",
+    "birthYear": 1987,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "marcelo-vieira",
+    "name": "Marcelo Vieira da Silva Júnior",
+    "commonName": "Marcelo",
+    "nationality": "Brazil",
+    "birthYear": 1988,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "dani-carvajal",
+    "name": "Daniel Carvajal Ramos",
+    "commonName": "Dani Carvajal",
+    "nationality": "Spain",
+    "birthYear": 1992,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "fabio-coentrao",
+    "name": "Fábio Alexandre da Silva Coentrão",
+    "commonName": "Fábio Coentrão",
+    "nationality": "Portugal",
+    "birthYear": 1988,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "luis-suarez",
+    "name": "Luis Alberto Suárez Díaz",
+    "commonName": "Luis Suárez",
+    "nationality": "Uruguay",
+    "birthYear": 1987,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "neymar-jr",
+    "name": "Neymar da Silva Santos Júnior",
+    "commonName": "Neymar Jr",
+    "nationality": "Brazil",
+    "birthYear": 1992,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "javier-mascherano",
+    "name": "Javier Alejandro Mascherano",
+    "commonName": "Javier Mascherano",
+    "nationality": "Argentina",
+    "birthYear": 1984,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "jordi-alba",
+    "name": "Jordi Alba Ramos",
+    "commonName": "Jordi Alba",
+    "nationality": "Spain",
+    "birthYear": 1989,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "marc-andre-ter-stegen",
+    "name": "Marc-André ter Stegen",
+    "commonName": "Marc-André ter Stegen",
+    "nationality": "Germany",
+    "birthYear": 1992,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "casemiro",
+    "name": "Carlos Henrique Casimiro",
+    "commonName": "Casemiro",
+    "nationality": "Brazil",
+    "birthYear": 1992,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "isco-alarcon",
+    "name": "Francisco Román Alarcón Suárez (Isco)",
+    "commonName": "Isco",
+    "nationality": "Spain",
+    "birthYear": 1992,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "keylor-navas",
+    "name": "Keilor Antonio Navas Gamboa",
+    "commonName": "Keylor Navas",
+    "nationality": "Costa Rica",
+    "birthYear": 1986,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "raphael-varane",
+    "name": "Raphaël Xavier Varane",
+    "commonName": "Raphaël Varane",
+    "nationality": "France",
+    "birthYear": 1993,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "mohamed-salah",
+    "name": "Mohamed Salah Hamed Mahrous Ghaly",
+    "commonName": "Mohamed Salah",
+    "nationality": "Egypt",
+    "birthYear": 1992,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "sadio-mane",
+    "name": "Sadio Mané",
+    "commonName": "Sadio Mané",
+    "nationality": "Senegal",
+    "birthYear": 1992,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "roberto-firmino",
+    "name": "Roberto Firmino Barbosa de Oliveira",
+    "commonName": "Roberto Firmino",
+    "nationality": "Brazil",
+    "birthYear": 1991,
+    "canonicalPosition": "CF"
+  },
+  {
+    "id": "virgil-van-dijk",
+    "name": "Virgil van Dijk",
+    "commonName": "Virgil van Dijk",
+    "nationality": "Netherlands",
+    "birthYear": 1991,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "alisson-becker",
+    "name": "Alisson Ramsés Becker",
+    "commonName": "Alisson Becker",
+    "nationality": "Brazil",
+    "birthYear": 1992,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "jordan-henderson",
+    "name": "Jordan Brian Henderson",
+    "commonName": "Jordan Henderson",
+    "nationality": "England",
+    "birthYear": 1990,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "fabinho-tavares",
+    "name": "Fábio Henrique Tavares (Fabinho)",
+    "commonName": "Fabinho",
+    "nationality": "Brazil",
+    "birthYear": 1993,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "georginio-wijnaldum",
+    "name": "Georginio Gregion Emile Wijnaldum",
+    "commonName": "Gini Wijnaldum",
+    "nationality": "Netherlands",
+    "birthYear": 1990,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "trent-alexander-arnold",
+    "name": "Trent John Alexander-Arnold",
+    "commonName": "Trent Alexander-Arnold",
+    "nationality": "England",
+    "birthYear": 1998,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "andrew-robertson",
+    "name": "Andrew Henry Robertson",
+    "commonName": "Andy Robertson",
+    "nationality": "Scotland",
+    "birthYear": 1994,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "joel-matip",
+    "name": "Job Joël André Matip",
+    "commonName": "Joël Matip",
+    "nationality": "Cameroon",
+    "birthYear": 1991,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "erling-haaland",
+    "name": "Erling Braut Haaland",
+    "commonName": "Erling Haaland",
+    "nationality": "Norway",
+    "birthYear": 2000,
+    "canonicalPosition": "ST"
+  },
+  {
+    "id": "kevin-de-bruyne",
+    "name": "Kevin De Bruyne",
+    "commonName": "Kevin De Bruyne",
+    "nationality": "Belgium",
+    "birthYear": 1991,
+    "canonicalPosition": "CAM"
+  },
+  {
+    "id": "bernardo-silva",
+    "name": "Bernardo Mota Veiga de Carvalho e Silva",
+    "commonName": "Bernardo Silva",
+    "nationality": "Portugal",
+    "birthYear": 1994,
+    "canonicalPosition": "RW"
+  },
+  {
+    "id": "jack-grealish",
+    "name": "Jack Peter Grealish",
+    "commonName": "Jack Grealish",
+    "nationality": "England",
+    "birthYear": 1995,
+    "canonicalPosition": "LW"
+  },
+  {
+    "id": "ilkay-guendogan",
+    "name": "İlkay Gündoğan",
+    "commonName": "İlkay Gündoğan",
+    "nationality": "Germany",
+    "birthYear": 1990,
+    "canonicalPosition": "CM"
+  },
+  {
+    "id": "rodri-hernandez",
+    "name": "Rodrigo Hernández Cascante (Rodri)",
+    "commonName": "Rodri",
+    "nationality": "Spain",
+    "birthYear": 1996,
+    "canonicalPosition": "CDM"
+  },
+  {
+    "id": "john-stones",
+    "name": "John Stones",
+    "commonName": "John Stones",
+    "nationality": "England",
+    "birthYear": 1994,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "ruben-dias",
+    "name": "Rúben dos Santos Gato Alves Dias",
+    "commonName": "Rúben Dias",
+    "nationality": "Portugal",
+    "birthYear": 1997,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "manuel-akanji",
+    "name": "Manuel Obafemi Akanji",
+    "commonName": "Manuel Akanji",
+    "nationality": "Switzerland",
+    "birthYear": 1995,
+    "canonicalPosition": "CB"
+  },
+  {
+    "id": "kyle-walker",
+    "name": "Kyle Andrew Walker",
+    "commonName": "Kyle Walker",
+    "nationality": "England",
+    "birthYear": 1990,
+    "canonicalPosition": "RB"
+  },
+  {
+    "id": "nathan-ake",
+    "name": "Nathan Benjamin Aké",
+    "commonName": "Nathan Aké",
+    "nationality": "Netherlands",
+    "birthYear": 1995,
+    "canonicalPosition": "LB"
+  },
+  {
+    "id": "ederson-moraes",
+    "name": "Ederson Santana de Moraes",
+    "commonName": "Ederson",
+    "nationality": "Brazil",
+    "birthYear": 1993,
+    "canonicalPosition": "GK"
+  },
+  {
+    "id": "wim-jansen",
+    "name": "Wim Jansen",
+    "commonName": "Wim Jansen",
+    "nationality": "International",
+    "birthYear": 1980,
+    "canonicalPosition": "CDM"
+  }
+]

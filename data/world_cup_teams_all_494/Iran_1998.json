@@ -1,0 +1,494 @@
+{
+  "teamName": "Iran",
+  "teamCode": "IRN",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iran-1998-ahmad_reza_abedzadeh",
+      "identityId": "P-56772",
+      "squadNumber": 1,
+      "name": "Ahmad Reza Abedzadeh",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-1998-mehdi_mahdavikia",
+      "identityId": "P-93633",
+      "squadNumber": 2,
+      "name": "Mehdi Mahdavikia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-1998-naeim_saadavi",
+      "identityId": "P-36676",
+      "squadNumber": 3,
+      "name": "Naeim Saadavi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iran-1998-mohammad_khakpour",
+      "identityId": "P-52257",
+      "squadNumber": 4,
+      "name": "Mohammad Khakpour",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-afshin_peyrovani",
+      "identityId": "P-91754",
+      "squadNumber": 5,
+      "name": "Afshin Peyrovani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iran-1998-karim_bagheri",
+      "identityId": "P-72482",
+      "squadNumber": 6,
+      "name": "Karim Bagheri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-alireza_mansourian",
+      "identityId": "P-62874",
+      "squadNumber": 7,
+      "name": "Alireza Mansourian",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Iran (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "iran-1998-sirous_dinmohammadi",
+      "identityId": "P-44661",
+      "squadNumber": 8,
+      "name": "Sirous Dinmohammadi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Iran (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iran-1998-hamid_estili",
+      "identityId": "P-78085",
+      "squadNumber": 9,
+      "name": "Hamid Estili",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-1998-ali_daei",
+      "identityId": "P-38371",
+      "squadNumber": 10,
+      "name": "Ali Daei",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-khodadad_azizi",
+      "identityId": "P-25470",
+      "squadNumber": 11,
+      "name": "Khodadad Azizi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-nima_nakisa",
+      "identityId": "P-68937",
+      "squadNumber": 12,
+      "name": "Nima Nakisa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-1998-ali_latifi",
+      "identityId": "P-54946",
+      "squadNumber": 13,
+      "name": "Ali Latifi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1998-nader_mohammadkhani",
+      "identityId": "P-31741",
+      "squadNumber": 14,
+      "name": "Nader Mohammadkhani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-ali_akbar_ostad-asadi",
+      "identityId": "P-55250",
+      "squadNumber": 15,
+      "name": "Ali Akbar Ostad-Asadi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1998-reza_shahroudi",
+      "identityId": "P-92960",
+      "squadNumber": 16,
+      "name": "Reza Shahroudi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1998-javad_zarincheh",
+      "identityId": "P-65077",
+      "squadNumber": 17,
+      "name": "Javad Zarincheh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-sattar_hamedani",
+      "identityId": "P-90057",
+      "squadNumber": 18,
+      "name": "Sattar Hamedani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1998-behnam_seraj",
+      "identityId": "P-11493",
+      "squadNumber": 19,
+      "name": "Behnam Seraj",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-1998-mehdi_pashazadeh",
+      "identityId": "P-06693",
+      "squadNumber": 20,
+      "name": "Mehdi Pashazadeh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-mehrdad_minavand",
+      "identityId": "P-32369",
+      "squadNumber": 21,
+      "name": "Mehrdad Minavand",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-1998-parviz_boroumand",
+      "identityId": "P-00315",
+      "squadNumber": 22,
+      "name": "Parviz Boroumand",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Iran (Group Stage). Squad reserve member."
+    }
+  ]
+}

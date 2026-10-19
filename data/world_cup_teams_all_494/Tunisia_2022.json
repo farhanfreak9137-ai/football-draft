@@ -1,0 +1,577 @@
+{
+  "teamName": "Tunisia",
+  "teamCode": "TUN",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "tunisia-2022-aymen_mathlouthi",
+      "identityId": "P-25989",
+      "squadNumber": 1,
+      "name": "Aymen Mathlouthi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2022-bilel_ifa",
+      "identityId": "P-22128",
+      "squadNumber": 2,
+      "name": "Bilel Ifa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2022-montassar_talbi",
+      "identityId": "P-73455",
+      "squadNumber": 3,
+      "name": "Montassar Talbi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2022-yassine_meriah",
+      "identityId": "P-81706",
+      "squadNumber": 4,
+      "name": "Yassine Meriah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2022-nader_ghandri",
+      "identityId": "P-68161",
+      "squadNumber": 5,
+      "name": "Nader Ghandri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2022-dylan_bronn",
+      "identityId": "P-11879",
+      "squadNumber": 6,
+      "name": "Dylan Bronn",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2022-youssef_msakni",
+      "identityId": "P-25741",
+      "squadNumber": 7,
+      "name": "Youssef Msakni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2022-hannibal_mejbri",
+      "identityId": "P-48887",
+      "squadNumber": 8,
+      "name": "Hannibal Mejbri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2022-issam_jebali",
+      "identityId": "P-11346",
+      "squadNumber": 9,
+      "name": "Issam Jebali",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2022-wahbi_khazri",
+      "identityId": "P-42223",
+      "squadNumber": 10,
+      "name": "Wahbi Khazri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "tunisia-2022-taha_yassine_khenissi",
+      "identityId": "P-21865",
+      "squadNumber": 11,
+      "name": "Taha Yassine Khenissi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "tunisia-2022-ali_ma_loul",
+      "identityId": "P-38981",
+      "squadNumber": 12,
+      "name": "Ali Maâloul",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2022-ferjani_sassi",
+      "identityId": "P-90867",
+      "squadNumber": 13,
+      "name": "Ferjani Sassi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "tunisia-2022-a_ssa_la_douni",
+      "identityId": "P-29063",
+      "squadNumber": 14,
+      "name": "Aïssa Laïdouni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2022-mohamed_ali_ben_romdhane",
+      "identityId": "P-42575",
+      "squadNumber": 15,
+      "name": "Mohamed Ali Ben Romdhane",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2022-aymen_dahmen",
+      "identityId": "P-32803",
+      "squadNumber": 16,
+      "name": "Aymen Dahmen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2022-ellyes_skhiri",
+      "identityId": "P-47815",
+      "squadNumber": 17,
+      "name": "Ellyes Skhiri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "tunisia-2022-ghailene_chaalali",
+      "identityId": "P-09569",
+      "squadNumber": 18,
+      "name": "Ghailene Chaalali",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "tunisia-2022-seifeddine_jaziri",
+      "identityId": "P-82056",
+      "squadNumber": 19,
+      "name": "Seifeddine Jaziri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2022-mohamed_dr_ger",
+      "identityId": "P-49094",
+      "squadNumber": 20,
+      "name": "Mohamed Dräger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2022-wajdi_kechrida",
+      "identityId": "P-27079",
+      "squadNumber": 21,
+      "name": "Wajdi Kechrida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2022-bechir_ben_sa_d",
+      "identityId": "P-82657",
+      "squadNumber": 22,
+      "name": "Bechir Ben Saïd",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "tunisia-2022-na_m_sliti",
+      "identityId": "P-69793",
+      "squadNumber": 23,
+      "name": "Naïm Sliti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "tunisia-2022-ali_abdi",
+      "identityId": "P-64924",
+      "squadNumber": 24,
+      "name": "Ali Abdi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2022-anis_ben_slimane",
+      "identityId": "P-45680",
+      "squadNumber": 25,
+      "name": "Anis Ben Slimane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "tunisia-2022-mouez_hassen",
+      "identityId": "P-57303",
+      "squadNumber": 26,
+      "name": "Mouez Hassen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Tunisia (Group Stage). Squad reserve member."
+    }
+  ]
+}

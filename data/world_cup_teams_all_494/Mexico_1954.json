@@ -1,0 +1,499 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "mexico-1954-antonio_carbajal",
+      "identityId": "P-69496",
+      "squadNumber": 1,
+      "name": "Antonio Carbajal",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-narciso_l_pez",
+      "identityId": "P-88284",
+      "squadNumber": 2,
+      "name": "Narciso López",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-jorge_romo",
+      "identityId": "P-84868",
+      "squadNumber": 3,
+      "name": "Jorge Romo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-saturnino_mart_nez",
+      "identityId": "P-07090",
+      "squadNumber": 4,
+      "name": "Saturnino Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-ra_l_c_rdenas",
+      "identityId": "P-53255",
+      "squadNumber": 5,
+      "name": "Raúl Cárdenas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-rafael_valos",
+      "identityId": "P-20318",
+      "squadNumber": 6,
+      "name": "Rafael Ávalos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-alfredo_torres",
+      "identityId": "P-11635",
+      "squadNumber": 7,
+      "name": "Alfredo Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-jos_naranjo",
+      "identityId": "P-44601",
+      "squadNumber": 8,
+      "name": "José Naranjo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-jos_luis_lamadrid",
+      "identityId": "P-53183",
+      "squadNumber": 9,
+      "name": "José Luis Lamadrid",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1954-tom_s_balc_zar",
+      "identityId": "P-66576",
+      "squadNumber": 10,
+      "name": "Tomás Balcázar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1954-ra_l_arellano",
+      "identityId": "P-12041",
+      "squadNumber": 11,
+      "name": "Raúl Arellano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1954-salvador_mota",
+      "identityId": "P-87406",
+      "squadNumber": 12,
+      "name": "Salvador Mota",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-sergio_bravo",
+      "identityId": "P-15310",
+      "squadNumber": 13,
+      "name": "Sergio Bravo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-juan_g_mez",
+      "identityId": "P-84531",
+      "squadNumber": 14,
+      "name": "Juan Gómez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-carlos_blanco",
+      "identityId": "P-54240",
+      "squadNumber": 15,
+      "name": "Carlos Blanco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-pedro_n_jera",
+      "identityId": "P-46575",
+      "squadNumber": 16,
+      "name": "Pedro Nájera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-carlos_septi_n",
+      "identityId": "P-65280",
+      "squadNumber": 17,
+      "name": "Carlos Septién",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-carlos_carus",
+      "identityId": "P-81432",
+      "squadNumber": 18,
+      "name": "Carlos Carus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-moises_jinich",
+      "identityId": "P-97314",
+      "squadNumber": 19,
+      "name": "Moises Jinich",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-jos_antonio_roca",
+      "identityId": "P-92882",
+      "squadNumber": 20,
+      "name": "José Antonio Roca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-mario_ochoa",
+      "identityId": "P-98520",
+      "squadNumber": 21,
+      "name": "Mario Ochoa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1954-ranulfo_cort_s",
+      "identityId": "P-45918",
+      "squadNumber": 22,
+      "name": "Ranulfo Cortés",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    }
+  ]
+}

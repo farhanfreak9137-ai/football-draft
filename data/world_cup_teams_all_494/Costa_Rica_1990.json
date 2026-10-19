@@ -1,0 +1,491 @@
+{
+  "teamName": "Costa Rica",
+  "teamCode": "CRI",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "costa_rica-1990-luis_gabelo_conejo",
+      "identityId": "P-62978",
+      "squadNumber": 1,
+      "name": "Luis Gabelo Conejo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-vladimir_quesada",
+      "identityId": "P-65985",
+      "squadNumber": 2,
+      "name": "Vladimir Quesada",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-1990-r_ger_flores",
+      "identityId": "P-59912",
+      "squadNumber": 3,
+      "name": "Róger Flores",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-1990-r_nald_gonz_lez_brenes",
+      "identityId": "P-74237",
+      "squadNumber": 4,
+      "name": "Rónald González Brenes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-1990-marvin_obando",
+      "identityId": "P-50080",
+      "squadNumber": 5,
+      "name": "Marvin Obando",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-1990-jos_carlos_chaves",
+      "identityId": "P-78926",
+      "squadNumber": 6,
+      "name": "José Carlos Chaves",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-hern_n_medford",
+      "identityId": "P-02273",
+      "squadNumber": 7,
+      "name": "Hernán Medford",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-1990-germ_n_chavarr_a",
+      "identityId": "P-13444",
+      "squadNumber": 8,
+      "name": "Germán Chavarría",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-alexandre_guimar_es",
+      "identityId": "P-35501",
+      "squadNumber": 9,
+      "name": "Alexandre Guimarães",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "costa_rica-1990-oscar_ram_rez",
+      "identityId": "P-27437",
+      "squadNumber": 10,
+      "name": "Oscar Ramírez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-claudio_jara",
+      "identityId": "P-01259",
+      "squadNumber": 11,
+      "name": "Claudio Jara",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-r_ger_g_mez",
+      "identityId": "P-16382",
+      "squadNumber": 12,
+      "name": "Róger Gómez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-miguel_davis",
+      "identityId": "P-64783",
+      "squadNumber": 13,
+      "name": "Miguel Davis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-1990-juan_cayasso",
+      "identityId": "P-18941",
+      "squadNumber": 14,
+      "name": "Juan Cayasso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-1990-r_nald_mar_n",
+      "identityId": "P-49136",
+      "squadNumber": 15,
+      "name": "Rónald Marín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-1990-jos_jaikel",
+      "identityId": "P-73174",
+      "squadNumber": 16,
+      "name": "José Jaikel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-1990-roy_myers",
+      "identityId": "P-87653",
+      "squadNumber": 17,
+      "name": "Roy Myers",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-1990-geovanny_jara",
+      "identityId": "P-73643",
+      "squadNumber": 18,
+      "name": "Geovanny Jara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-1990-h_ctor_marchena",
+      "identityId": "P-37790",
+      "squadNumber": 19,
+      "name": "Héctor Marchena",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-mauricio_montero",
+      "identityId": "P-48788",
+      "squadNumber": 20,
+      "name": "Mauricio Montero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-1990-hermidio_barrantes",
+      "identityId": "P-81990",
+      "squadNumber": 21,
+      "name": "Hermidio Barrantes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-1990-miguel_segura",
+      "identityId": "P-39680",
+      "squadNumber": 22,
+      "name": "Miguel Segura",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Costa Rica (Round of 16). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "CHE",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "switzerland-2018-yann_sommer",
+      "identityId": "P-63312",
+      "squadNumber": 1,
+      "name": "Yann Sommer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2018-stephan_lichtsteiner",
+      "identityId": "P-09988",
+      "squadNumber": 2,
+      "name": "Stephan Lichtsteiner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2018-fran_ois_moubandje",
+      "identityId": "P-67914",
+      "squadNumber": 3,
+      "name": "François Moubandje",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2018-nico_elvedi",
+      "identityId": "P-19193",
+      "squadNumber": 4,
+      "name": "Nico Elvedi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2018-manuel_akanji",
+      "identityId": "P-23925",
+      "squadNumber": 5,
+      "name": "Manuel Akanji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2018-michael_lang",
+      "identityId": "P-95507",
+      "squadNumber": 6,
+      "name": "Michael Lang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2018-breel_embolo",
+      "identityId": "P-19075",
+      "squadNumber": 7,
+      "name": "Breel Embolo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2018-remo_freuler",
+      "identityId": "P-68060",
+      "squadNumber": 8,
+      "name": "Remo Freuler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2018-haris_seferovic",
+      "identityId": "P-07180",
+      "squadNumber": 9,
+      "name": "Haris Seferovic",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2018-granit_xhaka",
+      "identityId": "P-77224",
+      "squadNumber": 10,
+      "name": "Granit Xhaka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2018-valon_behrami",
+      "identityId": "P-54713",
+      "squadNumber": 11,
+      "name": "Valon Behrami",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2018-yvon_mvogo",
+      "identityId": "P-01729",
+      "squadNumber": 12,
+      "name": "Yvon Mvogo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2018-ricardo_rodr_guez",
+      "identityId": "P-43367",
+      "squadNumber": 13,
+      "name": "Ricardo Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2018-steven_zuber",
+      "identityId": "P-71840",
+      "squadNumber": 14,
+      "name": "Steven Zuber",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2018-blerim_d_emaili",
+      "identityId": "P-35818",
+      "squadNumber": 15,
+      "name": "Blerim Džemaili",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2018-g_lson_fernandes",
+      "identityId": "P-77553",
+      "squadNumber": 16,
+      "name": "Gélson Fernandes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2018-denis_zakaria",
+      "identityId": "P-83560",
+      "squadNumber": 17,
+      "name": "Denis Zakaria",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2018-mario_gavranovi_",
+      "identityId": "P-36686",
+      "squadNumber": 18,
+      "name": "Mario Gavranović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2018-josip_drmi_",
+      "identityId": "P-07453",
+      "squadNumber": 19,
+      "name": "Josip Drmić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2018-johan_djourou",
+      "identityId": "P-25758",
+      "squadNumber": 20,
+      "name": "Johan Djourou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2018-roman_b_rki",
+      "identityId": "P-90361",
+      "squadNumber": 21,
+      "name": "Roman Bürki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2018-fabian_sch_r",
+      "identityId": "P-25131",
+      "squadNumber": 22,
+      "name": "Fabian Schär",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2018-xherdan_shaqiri",
+      "identityId": "P-39460",
+      "squadNumber": 23,
+      "name": "Xherdan Shaqiri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    }
+  ]
+}

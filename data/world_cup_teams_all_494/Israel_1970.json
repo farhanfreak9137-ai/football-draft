@@ -1,0 +1,497 @@
+{
+  "teamName": "Israel",
+  "teamCode": "ISR",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "israel-1970-yitzchak_vissoker",
+      "identityId": "P-09393",
+      "squadNumber": 1,
+      "name": "Yitzchak Vissoker",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-shraga_bar",
+      "identityId": "P-08449",
+      "squadNumber": 2,
+      "name": "Shraga Bar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Israel (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "israel-1970-menachem_bello",
+      "identityId": "P-92635",
+      "squadNumber": 3,
+      "name": "Menachem Bello",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Israel (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "israel-1970-david_primo",
+      "identityId": "P-87631",
+      "squadNumber": 4,
+      "name": "David Primo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-zvi_rosen",
+      "identityId": "P-78005",
+      "squadNumber": 5,
+      "name": "Zvi Rosen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-shmuel_rosenthal",
+      "identityId": "P-94998",
+      "squadNumber": 6,
+      "name": "Shmuel Rosenthal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-itzhak_shum",
+      "identityId": "P-95383",
+      "squadNumber": 7,
+      "name": "Itzhak Shum",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-giora_spiegel",
+      "identityId": "P-62232",
+      "squadNumber": 8,
+      "name": "Giora Spiegel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-yehoshua_feigenbaum",
+      "identityId": "P-95869",
+      "squadNumber": 9,
+      "name": "Yehoshua Feigenbaum",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-mordechai_spiegler",
+      "identityId": "P-77834",
+      "squadNumber": 10,
+      "name": "Mordechai Spiegler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "israel-1970-george_borba",
+      "identityId": "P-22729",
+      "squadNumber": 11,
+      "name": "George Borba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "israel-1970-yishaayahu_schwager",
+      "identityId": "P-10922",
+      "squadNumber": 12,
+      "name": "Yisha'ayahu Schwager",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Israel (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "israel-1970-yechezekel_chazom",
+      "identityId": "P-14437",
+      "squadNumber": 13,
+      "name": "Yechezekel Chazom",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "israel-1970-danny_shmulevich-rom",
+      "identityId": "P-37385",
+      "squadNumber": 14,
+      "name": "Danny Shmulevich-Rom",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Israel (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "israel-1970-rachamim_talbi",
+      "identityId": "P-86314",
+      "squadNumber": 15,
+      "name": "Rachamim Talbi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Israel (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "israel-1970-yochanan_vollach",
+      "identityId": "P-60216",
+      "squadNumber": 16,
+      "name": "Yochanan Vollach",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Israel (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "israel-1970-eli_ben_rimoz",
+      "identityId": "P-75509",
+      "squadNumber": 17,
+      "name": "Eli Ben Rimoz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "israel-1970-moshe_romano",
+      "identityId": "P-43630",
+      "squadNumber": 18,
+      "name": "Moshe Romano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "israel-1970-roni_shuruk",
+      "identityId": "P-91215",
+      "squadNumber": 19,
+      "name": "Roni Shuruk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1970 World Cup performance for Israel (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "israel-1970-david_karako",
+      "identityId": "P-39275",
+      "squadNumber": 20,
+      "name": "David Karako",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "israel-1970-yechiel_hameiri",
+      "identityId": "P-18748",
+      "squadNumber": 21,
+      "name": "Yechiel Hameiri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "israel-1970-yair_nossovsky",
+      "identityId": "P-66373",
+      "squadNumber": 22,
+      "name": "Yair Nossovsky",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Israel (Group Stage). Squad reserve member."
+    }
+  ]
+}

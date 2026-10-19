@@ -1,0 +1,515 @@
+{
+  "teamName": "Ukraine",
+  "teamCode": "UKR",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "ukraine-2006-oleksandr_shovkovskyi",
+      "identityId": "P-91649",
+      "squadNumber": 1,
+      "name": "Oleksandr Shovkovskyi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ukraine-2006-andriy_nesmachniy",
+      "identityId": "P-17420",
+      "squadNumber": 2,
+      "name": "Andriy Nesmachniy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ukraine-2006-oleksandr_yatsenko",
+      "identityId": "P-96896",
+      "squadNumber": 3,
+      "name": "Oleksandr Yatsenko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ukraine-2006-anatoliy_tymoshchuk",
+      "identityId": "P-60675",
+      "squadNumber": 4,
+      "name": "Anatoliy Tymoshchuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ukraine-2006-volodymyr_yezerskiy",
+      "identityId": "P-35676",
+      "squadNumber": 5,
+      "name": "Volodymyr Yezerskiy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ukraine-2006-andriy_rusol",
+      "identityId": "P-07368",
+      "squadNumber": 6,
+      "name": "Andriy Rusol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ukraine-2006-andriy_shevchenko",
+      "identityId": "P-86650",
+      "squadNumber": 7,
+      "name": "Andriy Shevchenko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ukraine-2006-oleh_shelayev",
+      "identityId": "P-56584",
+      "squadNumber": 8,
+      "name": "Oleh Shelayev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ukraine-2006-oleh_husyev",
+      "identityId": "P-82307",
+      "squadNumber": 9,
+      "name": "Oleh Husyev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ukraine-2006-andriy_voronin",
+      "identityId": "P-99083",
+      "squadNumber": 10,
+      "name": "Andriy Voronin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ukraine-2006-serhii_rebrov",
+      "identityId": "P-56553",
+      "squadNumber": 11,
+      "name": "Serhii Rebrov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ukraine-2006-andriy_pyatov",
+      "identityId": "P-37090",
+      "squadNumber": 12,
+      "name": "Andriy Pyatov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ukraine-2006-dmytro_chyhrynskyi",
+      "identityId": "P-32374",
+      "squadNumber": 13,
+      "name": "Dmytro Chyhrynskyi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ukraine-2006-andriy_husin",
+      "identityId": "P-47335",
+      "squadNumber": 14,
+      "name": "Andriy Husin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ukraine-2006-artem_milevskyi",
+      "identityId": "P-69073",
+      "squadNumber": 15,
+      "name": "Artem Milevskyi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ukraine-2006-andriy_vorobey",
+      "identityId": "P-58919",
+      "squadNumber": 16,
+      "name": "Andriy Vorobey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ukraine-2006-vladyslav_vashchuk",
+      "identityId": "P-27508",
+      "squadNumber": 17,
+      "name": "Vladyslav Vashchuk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ukraine-2006-serhiy_nazarenko",
+      "identityId": "P-60032",
+      "squadNumber": 18,
+      "name": "Serhiy Nazarenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ukraine-2006-maksym_kalynychenko",
+      "identityId": "P-98387",
+      "squadNumber": 19,
+      "name": "Maksym Kalynychenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ukraine-2006-oleksiy_byelik",
+      "identityId": "P-55388",
+      "squadNumber": 20,
+      "name": "Oleksiy Byelik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ukraine-2006-ruslan_rotan",
+      "identityId": "P-67256",
+      "squadNumber": 21,
+      "name": "Ruslan Rotan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ukraine-2006-vyacheslav_sviderskyi",
+      "identityId": "P-18200",
+      "squadNumber": 22,
+      "name": "Vyacheslav Sviderskyi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ukraine-2006-bohdan_shust",
+      "identityId": "P-96162",
+      "squadNumber": 23,
+      "name": "Bohdan Shust",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Ukraine (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

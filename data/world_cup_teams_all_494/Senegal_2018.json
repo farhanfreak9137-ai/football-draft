@@ -1,0 +1,518 @@
+{
+  "teamName": "Senegal",
+  "teamCode": "SEN",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "senegal-2018-abdoulaye_diallo",
+      "identityId": "P-44035",
+      "squadNumber": 1,
+      "name": "Abdoulaye Diallo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Senegal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "senegal-2018-adama_mbengue",
+      "identityId": "P-93828",
+      "squadNumber": 2,
+      "name": "Adama Mbengue",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Senegal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "senegal-2018-kalidou_koulibaly",
+      "identityId": "P-47321",
+      "squadNumber": 3,
+      "name": "Kalidou Koulibaly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2018-kara_mbodji",
+      "identityId": "P-29883",
+      "squadNumber": 4,
+      "name": "Kara Mbodji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Senegal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "senegal-2018-idrissa_gueye",
+      "identityId": "P-40621",
+      "squadNumber": 5,
+      "name": "Idrissa Gueye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2018-salif_san_",
+      "identityId": "P-91655",
+      "squadNumber": 6,
+      "name": "Salif Sané",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2018-moussa_sow",
+      "identityId": "P-38799",
+      "squadNumber": 7,
+      "name": "Moussa Sow",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Senegal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "senegal-2018-cheikhou_kouyat_",
+      "identityId": "P-55140",
+      "squadNumber": 8,
+      "name": "Cheikhou Kouyaté",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2018-mame_biram_diouf",
+      "identityId": "P-29136",
+      "squadNumber": 9,
+      "name": "Mame Biram Diouf",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2018-sadio_man_",
+      "identityId": "P-79299",
+      "squadNumber": 10,
+      "name": "Sadio Mané",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2018-cheikh_ndoye",
+      "identityId": "P-51960",
+      "squadNumber": 11,
+      "name": "Cheikh N'Doye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Senegal (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "senegal-2018-youssouf_sabaly",
+      "identityId": "P-55298",
+      "squadNumber": 12,
+      "name": "Youssouf Sabaly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2018-alfred_ndiaye",
+      "identityId": "P-12707",
+      "squadNumber": 13,
+      "name": "Alfred N'Diaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "senegal-2018-moussa_konat_",
+      "identityId": "P-94596",
+      "squadNumber": 14,
+      "name": "Moussa Konaté",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Senegal (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "senegal-2018-diafra_sakho",
+      "identityId": "P-22102",
+      "squadNumber": 15,
+      "name": "Diafra Sakho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Senegal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "senegal-2018-khadim_ndiaye",
+      "identityId": "P-17986",
+      "squadNumber": 16,
+      "name": "Khadim N'Diaye",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2018-badou_ndiaye",
+      "identityId": "P-15988",
+      "squadNumber": 17,
+      "name": "Badou Ndiaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2018-isma_la_sarr",
+      "identityId": "P-37935",
+      "squadNumber": 18,
+      "name": "Ismaïla Sarr",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "senegal-2018-mbaye_niang",
+      "identityId": "P-23774",
+      "squadNumber": 19,
+      "name": "M'Baye Niang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Senegal (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2018-keita_bald_",
+      "identityId": "P-44044",
+      "squadNumber": 20,
+      "name": "Keita Baldé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2018-lamine_gassama",
+      "identityId": "P-35711",
+      "squadNumber": 21,
+      "name": "Lamine Gassama",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2018-moussa_wagu_",
+      "identityId": "P-57411",
+      "squadNumber": 22,
+      "name": "Moussa Wagué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Senegal (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2018-alfred_gomis",
+      "identityId": "P-53694",
+      "squadNumber": 23,
+      "name": "Alfred Gomis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Senegal (Group Stage). Squad reserve member."
+    }
+  ]
+}

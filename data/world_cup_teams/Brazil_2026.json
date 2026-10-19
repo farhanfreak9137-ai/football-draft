@@ -1,0 +1,482 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "brazil-2026-alisson",
+      "identityId": "identity-2026-alisson",
+      "squadNumber": 1,
+      "name": "Alisson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Brazil. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "brazil-2026-danilo",
+      "identityId": "identity-2026-danilo",
+      "squadNumber": 2,
+      "name": "Danilo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-_der_milit_o",
+      "identityId": "identity-2026-_der_milit_o",
+      "squadNumber": 3,
+      "name": "Éder Militão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-marquinhos",
+      "identityId": "identity-2026-marquinhos",
+      "squadNumber": 4,
+      "name": "Marquinhos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-wendell",
+      "identityId": "identity-2026-wendell",
+      "squadNumber": 6,
+      "name": "Wendell",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-bruno_guimar_es",
+      "identityId": "identity-2026-bruno_guimar_es",
+      "squadNumber": 5,
+      "name": "Bruno Guimarães",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-lucas_paquet_",
+      "identityId": "identity-2026-lucas_paquet_",
+      "squadNumber": 8,
+      "name": "Lucas Paquetá",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "CM"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-raphinha",
+      "identityId": "identity-2026-raphinha",
+      "squadNumber": 11,
+      "name": "Raphinha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-rodrygo",
+      "identityId": "identity-2026-rodrygo",
+      "squadNumber": 10,
+      "name": "Rodrygo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Brazil. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "brazil-2026-vin_cius_j_nior",
+      "identityId": "identity-2026-vin_cius_j_nior",
+      "squadNumber": 7,
+      "name": "Vinícius Júnior",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Champions League Champion & World Best Forward"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Champions League Champion & World Best Forward",
+      "ratingRationale": "Rated 94 OVR for 2026 World Cup form with Brazil. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "brazil-2026-endrick",
+      "identityId": "identity-2026-endrick",
+      "squadNumber": 9,
+      "name": "Endrick",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Brazil. Regular starting lineup selection."
+    },
+    {
+      "id": "brazil-2026-bento",
+      "identityId": "identity-2026-bento",
+      "squadNumber": 12,
+      "name": "Bento",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Brazil. National squad reserve depth."
+    },
+    {
+      "id": "brazil-2026-rafael",
+      "identityId": "identity-2026-rafael",
+      "squadNumber": 23,
+      "name": "Rafael",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Brazil. National squad reserve depth."
+    },
+    {
+      "id": "brazil-2026-yan_couto",
+      "identityId": "identity-2026-yan_couto",
+      "squadNumber": 13,
+      "name": "Yan Couto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-gabriel_magalh_es",
+      "identityId": "identity-2026-gabriel_magalh_es",
+      "squadNumber": 14,
+      "name": "Gabriel Magalhães",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-bremer",
+      "identityId": "identity-2026-bremer",
+      "squadNumber": 15,
+      "name": "Bremer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-guilherme_arana",
+      "identityId": "identity-2026-guilherme_arana",
+      "squadNumber": 16,
+      "name": "Guilherme Arana",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-douglas_luiz",
+      "identityId": "identity-2026-douglas_luiz",
+      "squadNumber": 17,
+      "name": "Douglas Luiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-_derson",
+      "identityId": "identity-2026-_derson",
+      "squadNumber": 18,
+      "name": "Éderson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-andreas_pereira",
+      "identityId": "identity-2026-andreas_pereira",
+      "squadNumber": 19,
+      "name": "Andreas Pereira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-savinho",
+      "identityId": "identity-2026-savinho",
+      "squadNumber": 20,
+      "name": "Savinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-evanilson",
+      "identityId": "identity-2026-evanilson",
+      "squadNumber": 21,
+      "name": "Evanilson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "brazil-2026-gabriel_martinelli",
+      "identityId": "identity-2026-gabriel_martinelli",
+      "squadNumber": 22,
+      "name": "Gabriel Martinelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Brazil. Frequent tactical rotation contributor."
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "netherlands-1974-ruud_geels",
+      "identityId": "P-76357",
+      "squadNumber": 1,
+      "name": "Ruud Geels",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1974-arie_haan",
+      "identityId": "P-01582",
+      "squadNumber": 2,
+      "name": "Arie Haan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1974-willem_van_hanegem",
+      "identityId": "P-65100",
+      "squadNumber": 3,
+      "name": "Willem van Hanegem",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1974-kees_van_ierssel",
+      "identityId": "P-29733",
+      "squadNumber": 4,
+      "name": "Kees van Ierssel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1974-rinus_isra_l",
+      "identityId": "P-74745",
+      "squadNumber": 5,
+      "name": "Rinus Israël",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "netherlands-1974-wim_jansen",
+      "identityId": "P-89311",
+      "squadNumber": 6,
+      "name": "Wim Jansen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1974-theo_de_jong",
+      "identityId": "P-43188",
+      "squadNumber": 7,
+      "name": "Theo de Jong",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1974-jan_jongbloed",
+      "identityId": "P-12372",
+      "squadNumber": 8,
+      "name": "Jan Jongbloed",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1974-piet_keizer",
+      "identityId": "P-84295",
+      "squadNumber": 9,
+      "name": "Piet Keizer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1974-ren_van_de_kerkhof",
+      "identityId": "P-25337",
+      "squadNumber": 10,
+      "name": "René van de Kerkhof",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-1974-willy_van_de_kerkhof",
+      "identityId": "P-48712",
+      "squadNumber": 11,
+      "name": "Willy van de Kerkhof",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1974-ruud_krol",
+      "identityId": "P-31830",
+      "squadNumber": 12,
+      "name": "Ruud Krol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1974-johan_neeskens",
+      "identityId": "P-16991",
+      "squadNumber": 13,
+      "name": "Johan Neeskens",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 95 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "netherlands-1974-johan_cruyff",
+      "identityId": "P-50564",
+      "squadNumber": 14,
+      "name": "Johan Cruyff",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 97,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1974 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 97 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 3 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "netherlands-1974-rob_rensenbrink",
+      "identityId": "P-63266",
+      "squadNumber": 15,
+      "name": "Rob Rensenbrink",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1974-johnny_rep",
+      "identityId": "P-89554",
+      "squadNumber": 16,
+      "name": "Johnny Rep",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "netherlands-1974-wim_rijsbergen",
+      "identityId": "P-48827",
+      "squadNumber": 17,
+      "name": "Wim Rijsbergen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1974-piet_schrijvers",
+      "identityId": "P-35622",
+      "squadNumber": 18,
+      "name": "Piet Schrijvers",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1974-pleun_strik",
+      "identityId": "P-00036",
+      "squadNumber": 19,
+      "name": "Pleun Strik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1974-wim_suurbier",
+      "identityId": "P-45370",
+      "squadNumber": 20,
+      "name": "Wim Suurbier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-1974-eddy_treijtel",
+      "identityId": "P-89818",
+      "squadNumber": 21,
+      "name": "Eddy Treijtel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1974-harry_vos",
+      "identityId": "P-44945",
+      "squadNumber": 22,
+      "name": "Harry Vos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    }
+  ]
+}

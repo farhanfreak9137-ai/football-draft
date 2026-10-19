@@ -1,0 +1,513 @@
+{
+  "teamName": "Greece",
+  "teamCode": "GRC",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "greece-2014-orestis_karnezis",
+      "identityId": "P-01064",
+      "squadNumber": 1,
+      "name": "Orestis Karnezis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "greece-2014-giannis_maniatis",
+      "identityId": "P-96319",
+      "squadNumber": 2,
+      "name": "Giannis Maniatis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "greece-2014-giorgos_tzavellas",
+      "identityId": "P-64835",
+      "squadNumber": 3,
+      "name": "Giorgos Tzavellas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Greece (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "greece-2014-kostas_manolas",
+      "identityId": "P-23816",
+      "squadNumber": 4,
+      "name": "Kostas Manolas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "greece-2014-vangelis_moras",
+      "identityId": "P-47188",
+      "squadNumber": 5,
+      "name": "Vangelis Moras",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Greece (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "greece-2014-alexandros_tziolis",
+      "identityId": "P-10140",
+      "squadNumber": 6,
+      "name": "Alexandros Tziolis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Greece (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "greece-2014-georgios_samaras",
+      "identityId": "P-58348",
+      "squadNumber": 7,
+      "name": "Georgios Samaras",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "greece-2014-panagiotis_kone",
+      "identityId": "P-91614",
+      "squadNumber": 8,
+      "name": "Panagiotis Kone",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2014-kostas_mitroglou",
+      "identityId": "P-97050",
+      "squadNumber": 9,
+      "name": "Kostas Mitroglou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-2014-giorgos_karagounis",
+      "identityId": "P-17698",
+      "squadNumber": 10,
+      "name": "Giorgos Karagounis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2014-loukas_vyntra",
+      "identityId": "P-28140",
+      "squadNumber": 11,
+      "name": "Loukas Vyntra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Greece (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "greece-2014-panagiotis_glykos",
+      "identityId": "P-34712",
+      "squadNumber": 12,
+      "name": "Panagiotis Glykos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Greece (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "greece-2014-stefanos_kapino",
+      "identityId": "P-83726",
+      "squadNumber": 13,
+      "name": "Stefanos Kapino",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Greece (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "greece-2014-dimitris_salpingidis",
+      "identityId": "P-75292",
+      "squadNumber": 14,
+      "name": "Dimitris Salpingidis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "greece-2014-vasilis_torosidis",
+      "identityId": "P-05210",
+      "squadNumber": 15,
+      "name": "Vasilis Torosidis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "greece-2014-lazaros_christodoulopoulos",
+      "identityId": "P-68693",
+      "squadNumber": 16,
+      "name": "Lazaros Christodoulopoulos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2014-theofanis_gekas",
+      "identityId": "P-56893",
+      "squadNumber": 17,
+      "name": "Theofanis Gekas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-2014-giannis_fetfatzidis",
+      "identityId": "P-64903",
+      "squadNumber": 18,
+      "name": "Giannis Fetfatzidis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "greece-2014-sokratis_papastathopoulos",
+      "identityId": "P-11436",
+      "squadNumber": 19,
+      "name": "Sokratis Papastathopoulos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "greece-2014-jos_holebas",
+      "identityId": "P-59823",
+      "squadNumber": 20,
+      "name": "José Holebas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Greece (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "greece-2014-kostas_katsouranis",
+      "identityId": "P-52378",
+      "squadNumber": 21,
+      "name": "Kostas Katsouranis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "greece-2014-andreas_samaris",
+      "identityId": "P-30845",
+      "squadNumber": 22,
+      "name": "Andreas Samaris",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Greece (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "greece-2014-panagiotis_tachtsidis",
+      "identityId": "P-89305",
+      "squadNumber": 23,
+      "name": "Panagiotis Tachtsidis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Greece (Round of 16). Squad reserve member."
+    }
+  ]
+}

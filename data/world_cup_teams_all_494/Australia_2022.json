@@ -1,0 +1,582 @@
+{
+  "teamName": "Australia",
+  "teamCode": "AUS",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "australia-2022-mathew_ryan",
+      "identityId": "P-10244",
+      "squadNumber": 1,
+      "name": "Mathew Ryan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-milo_degenek",
+      "identityId": "P-59727",
+      "squadNumber": 2,
+      "name": "Miloš Degenek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Australia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "australia-2022-nathaniel_atkinson",
+      "identityId": "P-09062",
+      "squadNumber": 3,
+      "name": "Nathaniel Atkinson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Australia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2022-kye_rowles",
+      "identityId": "P-88273",
+      "squadNumber": 4,
+      "name": "Kye Rowles",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-fran_kara_i_",
+      "identityId": "P-24134",
+      "squadNumber": 5,
+      "name": "Fran Karačić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Australia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2022-marco_tilio",
+      "identityId": "P-34915",
+      "squadNumber": 6,
+      "name": "Marco Tilio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Australia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "australia-2022-mathew_leckie",
+      "identityId": "P-35837",
+      "squadNumber": 7,
+      "name": "Mathew Leckie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "australia-2022-bailey_wright",
+      "identityId": "P-97422",
+      "squadNumber": 8,
+      "name": "Bailey Wright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Australia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "australia-2022-jamie_maclaren",
+      "identityId": "P-20087",
+      "squadNumber": 9,
+      "name": "Jamie Maclaren",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Australia (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "australia-2022-ajdin_hrustic",
+      "identityId": "P-82945",
+      "squadNumber": 10,
+      "name": "Ajdin Hrustic",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Australia (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "australia-2022-awer_mabil",
+      "identityId": "P-61979",
+      "squadNumber": 11,
+      "name": "Awer Mabil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Australia (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "australia-2022-andrew_redmayne",
+      "identityId": "P-30596",
+      "squadNumber": 12,
+      "name": "Andrew Redmayne",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Australia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "australia-2022-aaron_mooy",
+      "identityId": "P-95847",
+      "squadNumber": 13,
+      "name": "Aaron Mooy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-riley_mcgree",
+      "identityId": "P-51406",
+      "squadNumber": 14,
+      "name": "Riley McGree",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-mitchell_duke",
+      "identityId": "P-91029",
+      "squadNumber": 15,
+      "name": "Mitchell Duke",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "australia-2022-aziz_behich",
+      "identityId": "P-51118",
+      "squadNumber": 16,
+      "name": "Aziz Behich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-cameron_devlin",
+      "identityId": "P-64249",
+      "squadNumber": 17,
+      "name": "Cameron Devlin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Australia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "australia-2022-danny_vukovic",
+      "identityId": "P-11675",
+      "squadNumber": 18,
+      "name": "Danny Vukovic",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Australia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "australia-2022-harry_souttar",
+      "identityId": "P-89217",
+      "squadNumber": 19,
+      "name": "Harry Souttar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-thomas_deng",
+      "identityId": "P-68599",
+      "squadNumber": 20,
+      "name": "Thomas Deng",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Australia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "australia-2022-garang_kuol",
+      "identityId": "P-05864",
+      "squadNumber": 21,
+      "name": "Garang Kuol",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Australia (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "australia-2022-jackson_irvine",
+      "identityId": "P-34822",
+      "squadNumber": 22,
+      "name": "Jackson Irvine",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "australia-2022-craig_goodwin",
+      "identityId": "P-82010",
+      "squadNumber": 23,
+      "name": "Craig Goodwin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Australia (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "australia-2022-joel_king",
+      "identityId": "P-53409",
+      "squadNumber": 24,
+      "name": "Joel King",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Australia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "australia-2022-jason_cummings",
+      "identityId": "P-67089",
+      "squadNumber": 25,
+      "name": "Jason Cummings",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Australia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "australia-2022-keanu_baccus",
+      "identityId": "P-27035",
+      "squadNumber": 26,
+      "name": "Keanu Baccus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Australia (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

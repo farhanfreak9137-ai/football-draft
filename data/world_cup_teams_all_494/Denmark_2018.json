@@ -1,0 +1,518 @@
+{
+  "teamName": "Denmark",
+  "teamCode": "DNK",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "denmark-2018-kasper_schmeichel",
+      "identityId": "P-58755",
+      "squadNumber": 1,
+      "name": "Kasper Schmeichel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2018-michael_krohn-dehli",
+      "identityId": "P-71525",
+      "squadNumber": 2,
+      "name": "Michael Krohn-Dehli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2018-jannik_vestergaard",
+      "identityId": "P-03748",
+      "squadNumber": 3,
+      "name": "Jannik Vestergaard",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2018-simon_kj_r",
+      "identityId": "P-14988",
+      "squadNumber": 4,
+      "name": "Simon Kjær",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2018-jonas_knudsen",
+      "identityId": "P-09856",
+      "squadNumber": 5,
+      "name": "Jonas Knudsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2018-andreas_christensen",
+      "identityId": "P-18923",
+      "squadNumber": 6,
+      "name": "Andreas Christensen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2018-william_kvist",
+      "identityId": "P-93951",
+      "squadNumber": 7,
+      "name": "William Kvist",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2018-thomas_delaney",
+      "identityId": "P-57615",
+      "squadNumber": 8,
+      "name": "Thomas Delaney",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2018-nicolai_j_rgensen",
+      "identityId": "P-67216",
+      "squadNumber": 9,
+      "name": "Nicolai Jørgensen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2018-christian_eriksen",
+      "identityId": "P-50104",
+      "squadNumber": 10,
+      "name": "Christian Eriksen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2018-martin_braithwaite",
+      "identityId": "P-85579",
+      "squadNumber": 11,
+      "name": "Martin Braithwaite",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2018-kasper_dolberg",
+      "identityId": "P-72592",
+      "squadNumber": 12,
+      "name": "Kasper Dolberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2018-mathias_j_rgensen",
+      "identityId": "P-61976",
+      "squadNumber": 13,
+      "name": "Mathias Jørgensen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2018-henrik_dalsgaard",
+      "identityId": "P-44386",
+      "squadNumber": 14,
+      "name": "Henrik Dalsgaard",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-2018-viktor_fischer",
+      "identityId": "P-65946",
+      "squadNumber": 15,
+      "name": "Viktor Fischer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2018-jonas_l_ssl",
+      "identityId": "P-28357",
+      "squadNumber": 16,
+      "name": "Jonas Lössl",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2018-jens_stryger_larsen",
+      "identityId": "P-11588",
+      "squadNumber": 17,
+      "name": "Jens Stryger Larsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2018-lukas_lerager",
+      "identityId": "P-79590",
+      "squadNumber": 18,
+      "name": "Lukas Lerager",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2018-lasse_sch_ne",
+      "identityId": "P-60880",
+      "squadNumber": 19,
+      "name": "Lasse Schöne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2018-yussuf_poulsen",
+      "identityId": "P-08442",
+      "squadNumber": 20,
+      "name": "Yussuf Poulsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2018-andreas_cornelius",
+      "identityId": "P-29053",
+      "squadNumber": 21,
+      "name": "Andreas Cornelius",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2018-frederik_r_nnow",
+      "identityId": "P-35930",
+      "squadNumber": 22,
+      "name": "Frederik Rønnow",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-2018-pione_sisto",
+      "identityId": "P-18907",
+      "squadNumber": 23,
+      "name": "Pione Sisto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    }
+  ]
+}

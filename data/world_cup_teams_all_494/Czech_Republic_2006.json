@@ -1,0 +1,519 @@
+{
+  "teamName": "Czech Republic",
+  "teamCode": "CZE",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "czech_republic-2006-petr_ech",
+      "identityId": "P-53062",
+      "squadNumber": 1,
+      "name": "Petr Čech",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-zden_k_grygera",
+      "identityId": "P-86056",
+      "squadNumber": 2,
+      "name": "Zdeněk Grygera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-pavel_mare_",
+      "identityId": "P-26250",
+      "squadNumber": 3,
+      "name": "Pavel Mareš",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czech_republic-2006-tom_gal_sek",
+      "identityId": "P-69743",
+      "squadNumber": 4,
+      "name": "Tomáš Galásek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czech_republic-2006-radoslav_kov_",
+      "identityId": "P-23972",
+      "squadNumber": 5,
+      "name": "Radoslav Kováč",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czech_republic-2006-marek_jankulovski",
+      "identityId": "P-35103",
+      "squadNumber": 6,
+      "name": "Marek Jankulovski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-libor_sionko",
+      "identityId": "P-40666",
+      "squadNumber": 7,
+      "name": "Libor Sionko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "czech_republic-2006-karel_poborsk_",
+      "identityId": "P-56023",
+      "squadNumber": 8,
+      "name": "Karel Poborský",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-jan_koller",
+      "identityId": "P-81477",
+      "squadNumber": 9,
+      "name": "Jan Koller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "czech_republic-2006-tom_rosick_",
+      "identityId": "P-29090",
+      "squadNumber": 10,
+      "name": "Tomáš Rosický",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "czech_republic-2006-pavel_nedv_d",
+      "identityId": "P-64760",
+      "squadNumber": 11,
+      "name": "Pavel Nedvěd",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-vratislav_lokvenc",
+      "identityId": "P-36056",
+      "squadNumber": 12,
+      "name": "Vratislav Lokvenc",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czech_republic-2006-martin_jir_nek",
+      "identityId": "P-46512",
+      "squadNumber": 13,
+      "name": "Martin Jiránek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czech_republic-2006-david_jarol_m",
+      "identityId": "P-04349",
+      "squadNumber": 14,
+      "name": "David Jarolím",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "czech_republic-2006-milan_baro_",
+      "identityId": "P-14907",
+      "squadNumber": 15,
+      "name": "Milan Baroš",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czech_republic-2006-jarom_r_bla_ek",
+      "identityId": "P-44775",
+      "squadNumber": 16,
+      "name": "Jaromír Blažek",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czech_republic-2006-ji_tajner",
+      "identityId": "P-65749",
+      "squadNumber": 17,
+      "name": "Jiří Štajner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "czech_republic-2006-marek_heinz",
+      "identityId": "P-21701",
+      "squadNumber": 18,
+      "name": "Marek Heinz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "czech_republic-2006-jan_pol_k",
+      "identityId": "P-30878",
+      "squadNumber": 19,
+      "name": "Jan Polák",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czech_republic-2006-jaroslav_pla_il",
+      "identityId": "P-65590",
+      "squadNumber": 20,
+      "name": "Jaroslav Plašil",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-tom_ujfalu_i",
+      "identityId": "P-91280",
+      "squadNumber": 21,
+      "name": "Tomáš Ujfaluši",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czech_republic-2006-david_rozehnal",
+      "identityId": "P-54533",
+      "squadNumber": 22,
+      "name": "David Rozehnal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czech_republic-2006-anton_n_kinsk_",
+      "identityId": "P-07338",
+      "squadNumber": 23,
+      "name": "Antonín Kinský",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Czech Republic (Group Stage). Squad reserve member."
+    }
+  ]
+}

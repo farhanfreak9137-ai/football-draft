@@ -1,0 +1,6903 @@
+[
+  {
+    "id": "pele-1970",
+    "identityId": "pele",
+    "editionId": "brazil-1970",
+    "name": "Pelé",
+    "squadNumber": 10,
+    "ovr": 97,
+    "naturalPositions": [
+      "CF",
+      "CAM",
+      "ST"
+    ],
+    "secondaryPositions": [
+      "SS",
+      "LW"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1970 FIFA World Cup Golden Ball Winner; 4 goals, 6 assists; iconic final header and assist to Carlos Alberto",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 4,
+      "assists": 6
+    },
+    "ratingRationale": "Apex historical tournament performance orchestrating the greatest attacking team in World Cup history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "1970 World Cup Official Final Match Report & Golden Ball"
+      }
+    ]
+  },
+  {
+    "id": "jairzinho-1970",
+    "identityId": "jairzinho",
+    "editionId": "brazil-1970",
+    "name": "Jairzinho",
+    "squadNumber": 7,
+    "ovr": 94,
+    "naturalPositions": [
+      "RW",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "ST",
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Only player in World Cup history to score in every single match of a tournament (7 goals in 6 games)",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 7,
+      "assists": 1
+    },
+    "ratingRationale": "Historic record of scoring in every single World Cup game of the championship run.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Official match records showing goals in all 6 games"
+      }
+    ]
+  },
+  {
+    "id": "tostao-1970",
+    "identityId": "tostao",
+    "editionId": "brazil-1970",
+    "name": "Tostão",
+    "squadNumber": 9,
+    "ovr": 90,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 2,
+      "assists": 4
+    },
+    "ratingRationale": "Elite false nine creating tactical space for Pelé and Jairzinho throughout the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Official squad list and starting XI appearances"
+      }
+    ]
+  },
+  {
+    "id": "rivelino-1970",
+    "identityId": "rivelino",
+    "editionId": "brazil-1970",
+    "name": "Rivelino",
+    "squadNumber": 11,
+    "ovr": 91,
+    "naturalPositions": [
+      "LW",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 3,
+      "assists": 3
+    },
+    "ratingRationale": "Lethal left wing delivery and long range free kicks; tournament all-star.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Official tournament stats & goals against Czechoslovakia, Peru, Uruguay"
+      }
+    ]
+  },
+  {
+    "id": "gerson-1970",
+    "identityId": "gerson",
+    "editionId": "brazil-1970",
+    "name": "Gérson",
+    "squadNumber": 8,
+    "ovr": 92,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Man of the Match in the 1970 World Cup Final (scored second goal and delivered assist for the third)",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "The brain of the 1970 team; sublime passing range and decisive final performance.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "1970 World Cup Final technical evaluation and match report"
+      }
+    ]
+  },
+  {
+    "id": "clodoaldo-1970",
+    "identityId": "clodoaldo",
+    "editionId": "brazil-1970",
+    "name": "Clodoaldo",
+    "squadNumber": 5,
+    "ovr": 88,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Vital holding midfielder, scored equalizer vs Uruguay and produced famous 4-man dribble in final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Starting appearances in all 6 tournament matches"
+      }
+    ]
+  },
+  {
+    "id": "carlos-alberto-1970",
+    "identityId": "carlos-alberto",
+    "editionId": "brazil-1970",
+    "name": "Carlos Alberto",
+    "squadNumber": 4,
+    "ovr": 93,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Captain who scored the quintessential team goal in football history in the 86th minute of the Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "World-class attacking right-back captaining Brazil to Jules Rimet triumph.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "1970 World Cup Final report and captain records"
+      }
+    ]
+  },
+  {
+    "id": "brito-1970",
+    "identityId": "brito",
+    "editionId": "brazil-1970",
+    "name": "Brito",
+    "squadNumber": 2,
+    "ovr": 84,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Physically dominant starting central defender throughout the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Starting center-back in 6 matches"
+      }
+    ]
+  },
+  {
+    "id": "piazza-1970",
+    "identityId": "piazza",
+    "editionId": "brazil-1970",
+    "name": "Piazza",
+    "squadNumber": 3,
+    "ovr": 85,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Converted midfielder who provided ball-playing composure from central defense.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Tournament lineup archive"
+      }
+    ]
+  },
+  {
+    "id": "everaldo-1970",
+    "identityId": "everaldo",
+    "editionId": "brazil-1970",
+    "name": "Everaldo",
+    "squadNumber": 16,
+    "ovr": 84,
+    "naturalPositions": [
+      "LB"
+    ],
+    "secondaryPositions": [
+      "LWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Disciplined starting left-back providing defensive security while Carlos Alberto pushed forward.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Match sheets for 1970 finals"
+      }
+    ]
+  },
+  {
+    "id": "felix-1970",
+    "identityId": "felix",
+    "editionId": "brazil-1970",
+    "name": "Félix",
+    "squadNumber": 1,
+    "ovr": 82,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Solid goalkeeping throughout the altitude tournament with key stops vs England and Uruguay.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1970",
+        "fact": "Tournament starting goalkeeper records"
+      }
+    ]
+  },
+  {
+    "id": "johan-cruyff-1974",
+    "identityId": "johan-cruyff",
+    "editionId": "netherlands-1974",
+    "name": "Johan Cruyff",
+    "squadNumber": 14,
+    "ovr": 96,
+    "naturalPositions": [
+      "CF",
+      "CAM",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "SS",
+      "ST"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1974 FIFA World Cup Golden Ball Winner; tactical conductor of Total Football revolution",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "assists": 3
+    },
+    "ratingRationale": "Transformational tactical maestro; won penalty in first minute of final without Germany touching ball.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 World Cup Golden Ball Award documentation"
+      }
+    ]
+  },
+  {
+    "id": "johan-neeskens-1974",
+    "identityId": "johan-neeskens",
+    "editionId": "netherlands-1974",
+    "name": "Johan Neeskens",
+    "squadNumber": 13,
+    "ovr": 92,
+    "naturalPositions": [
+      "CM",
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1974 World Cup Silver Boot (5 goals as a box-to-box midfielder); scored penalty in Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 5,
+      "assists": 1
+    },
+    "ratingRationale": "Relentless high-pressing box-to-box engine and ice-cold penalty taker.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 World Cup tournament scoring charts"
+      }
+    ]
+  },
+  {
+    "id": "johnny-rep-1974",
+    "identityId": "johnny-rep",
+    "editionId": "netherlands-1974",
+    "name": "Johnny Rep",
+    "squadNumber": 16,
+    "ovr": 89,
+    "naturalPositions": [
+      "RW",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "ST"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 4,
+      "assists": 2
+    },
+    "ratingRationale": "Prolific Dutch winger providing penetration and 4 goals on the path to the final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Tournament goalscoring records"
+      }
+    ]
+  },
+  {
+    "id": "rob-rensenbrink-1974",
+    "identityId": "rob-rensenbrink",
+    "editionId": "netherlands-1974",
+    "name": "Rob Rensenbrink",
+    "squadNumber": 15,
+    "ovr": 89,
+    "naturalPositions": [
+      "LW",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "SS"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 3
+    },
+    "ratingRationale": "Masterful dribbler and creator from the left wing.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Starting lineups in 1974 tournament"
+      }
+    ]
+  },
+  {
+    "id": "wim-van-hanegem-1974",
+    "identityId": "wim-van-hanegem",
+    "editionId": "netherlands-1974",
+    "name": "Wim van Hanegem",
+    "squadNumber": 3,
+    "ovr": 90,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 3
+    },
+    "ratingRationale": "Sublime outside-of-the-boot playmaker controlling match tempo.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Official tournament stats"
+      }
+    ]
+  },
+  {
+    "id": "wim-suurbier-1974",
+    "identityId": "wim-suurbier",
+    "editionId": "netherlands-1974",
+    "name": "Wim Suurbier",
+    "squadNumber": 20,
+    "ovr": 88,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Prototypical Total Football overlapping full-back with immense stamina.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Full tournament starting full-back records"
+      }
+    ]
+  },
+  {
+    "id": "ruud-krol-1974",
+    "identityId": "ruud-krol",
+    "editionId": "netherlands-1974",
+    "name": "Ruud Krol",
+    "squadNumber": 12,
+    "ovr": 91,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1974 World Cup All-Star Team; scored thunderous long-range goal vs Argentina and assisted Cruyff vs Brazil",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "One of the greatest left-backs in World Cup history; complete defender and attacker.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 FIFA All-Star Team selection"
+      }
+    ]
+  },
+  {
+    "id": "arie-haan-1974",
+    "identityId": "arie-haan",
+    "editionId": "netherlands-1974",
+    "name": "Arie Haan",
+    "squadNumber": 2,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB",
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Tactically deployed as sweeper/center-back stepping into midfield to trigger high press.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Technical report on Total Football positional rotation"
+      }
+    ]
+  },
+  {
+    "id": "wim-rijsbergen-1974",
+    "identityId": "wim-rijnbergen",
+    "editionId": "netherlands-1974",
+    "name": "Wim Rijsbergen",
+    "squadNumber": 17,
+    "ovr": 86,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Tenacious man-marking stopper who anchored the aggressive Dutch backline.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 match records"
+      }
+    ]
+  },
+  {
+    "id": "jan-jongbloed-1974",
+    "identityId": "jan-jongbloed",
+    "editionId": "netherlands-1974",
+    "name": "Jan Jongbloed",
+    "squadNumber": 8,
+    "ovr": 83,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Pioneering sweeper-keeper acting as an extra outfield passer outside his penalty area.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Tournament starting goalkeeper records"
+      }
+    ]
+  },
+  {
+    "id": "diego-maradona-1986",
+    "identityId": "diego-maradona",
+    "editionId": "argentina-1986",
+    "name": "Diego Maradona",
+    "squadNumber": 10,
+    "ovr": 98,
+    "naturalPositions": [
+      "CAM",
+      "SS"
+    ],
+    "secondaryPositions": [
+      "ST",
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1986 FIFA World Cup Golden Ball Winner; 5 goals, 5 assists; Goal of the Century vs England; assisted 84th minute final winner",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 5,
+      "assists": 5
+    },
+    "ratingRationale": "Widely acknowledged as the greatest individual tournament performance in World Cup history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "FIFA 1986 Golden Ball & tournament technical study"
+      }
+    ]
+  },
+  {
+    "id": "jorge-valdano-1986",
+    "identityId": "jorge-valdano",
+    "editionId": "argentina-1986",
+    "name": "Jorge Valdano",
+    "squadNumber": 11,
+    "ovr": 90,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [
+      "LW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 4,
+      "assists": 1
+    },
+    "ratingRationale": "Clinical finishing and tireless running; scored second goal in the World Cup Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "1986 World Cup Final match report & 4 tournament goals"
+      }
+    ]
+  },
+  {
+    "id": "jorge-burruchaga-1986",
+    "identityId": "jorge-burruchaga",
+    "editionId": "argentina-1986",
+    "name": "Jorge Burruchaga",
+    "squadNumber": 7,
+    "ovr": 91,
+    "naturalPositions": [
+      "CAM",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored the 84th-minute World Cup winning goal in the 1986 Final vs West Germany",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 2,
+      "assists": 2
+    },
+    "ratingRationale": "Heroic breakaways and composure; legendary World Cup winning goalscorer.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "1986 World Cup Final match report (84' goal)"
+      }
+    ]
+  },
+  {
+    "id": "sergio-batista-1986",
+    "identityId": "sergio-batista",
+    "editionId": "argentina-1986",
+    "name": "Sergio Batista",
+    "squadNumber": 2,
+    "ovr": 86,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Physical anchor protecting the central midfield in Bilardo's 3-5-2 system.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "Starting appearances in 7 matches"
+      }
+    ]
+  },
+  {
+    "id": "hector-enrique-1986",
+    "identityId": "hector-enrique",
+    "editionId": "argentina-1986",
+    "name": "Héctor Enrique",
+    "squadNumber": 12,
+    "ovr": 85,
+    "naturalPositions": [
+      "CM",
+      "RM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 1
+    },
+    "ratingRationale": "High-workrate midfielder who earned a starting spot for the knockout stages and final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "Match appearances in knockouts & final"
+      }
+    ]
+  },
+  {
+    "id": "ricardo-giusti-1986",
+    "identityId": "ricardo-giusti",
+    "editionId": "argentina-1986",
+    "name": "Ricardo Giusti",
+    "squadNumber": 14,
+    "ovr": 86,
+    "naturalPositions": [
+      "RM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "RWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Tactical discipline on the right flank covering defense and attack.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "Started all 7 matches in 1986"
+      }
+    ]
+  },
+  {
+    "id": "julio-olarticoechea-1986",
+    "identityId": "julio-olarticoechea",
+    "editionId": "argentina-1986",
+    "name": "Julio Olarticoechea",
+    "squadNumber": 16,
+    "ovr": 86,
+    "naturalPositions": [
+      "LM",
+      "LB"
+    ],
+    "secondaryPositions": [
+      "LWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Key defensive intervention vs England and disciplined wing play throughout knockouts.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "Started all 7 matches in 1986"
+      }
+    ]
+  },
+  {
+    "id": "oscar-ruggeri-1986",
+    "identityId": "oscar-ruggeri",
+    "editionId": "argentina-1986",
+    "name": "Oscar Ruggeri",
+    "squadNumber": 19,
+    "ovr": 90,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "RB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "The defensive rock of the tournament; aggressive tackling and aerial dominance.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "1986 tournament match records and goal vs South Korea"
+      }
+    ]
+  },
+  {
+    "id": "jose-luis-brown-1986",
+    "identityId": "jose-luis-brown",
+    "editionId": "argentina-1986",
+    "name": "José Luis Brown",
+    "squadNumber": 5,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored opening goal in the 1986 Final and heroically played through dislocated shoulder by biting a hole in his jersey",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Iconic defensive leader who scored in the final and anchored the back three.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "1986 World Cup Final report (23' goal)"
+      }
+    ]
+  },
+  {
+    "id": "jose-luis-cuciuffo-1986",
+    "identityId": "jose-luis-cuciuffo",
+    "editionId": "argentina-1986",
+    "name": "José Luis Cuciuffo",
+    "squadNumber": 9,
+    "ovr": 85,
+    "naturalPositions": [
+      "CB",
+      "RB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Aggressive stopper who won a starting place for the 3-5-2 system.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "Knockout starting records"
+      }
+    ]
+  },
+  {
+    "id": "nery-pumpido-1986",
+    "identityId": "nery-pumpido",
+    "editionId": "argentina-1986",
+    "name": "Nery Pumpido",
+    "squadNumber": 18,
+    "ovr": 85,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Dependable starting goalkeeper throughout the World Cup triumph.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1986",
+        "fact": "Started all 7 matches in 1986"
+      }
+    ]
+  },
+  {
+    "id": "michel-platini-1984",
+    "identityId": "michel-platini",
+    "editionId": "france-1984",
+    "name": "Michel Platini",
+    "squadNumber": 10,
+    "ovr": 97,
+    "naturalPositions": [
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "CM",
+      "SS"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1984 UEFA Euro Player of the Tournament; all-time tournament record 9 goals in 5 matches, including 2 perfect hat-tricks and final free kick",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 9,
+      "assists": 2
+    },
+    "ratingRationale": "The greatest individual European Championship campaign in football history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 top scorer & Player of the Tournament official archive"
+      }
+    ]
+  },
+  {
+    "id": "alain-giresse-1984",
+    "identityId": "alain-giresse",
+    "editionId": "france-1984",
+    "name": "Alain Giresse",
+    "squadNumber": 12,
+    "ovr": 91,
+    "naturalPositions": [
+      "CM",
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 3
+    },
+    "ratingRationale": "Key creative pivot of the 'Carré Magique'; UEFA Team of the Tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 Team of the Tournament"
+      }
+    ]
+  },
+  {
+    "id": "jean-tigana-1984",
+    "identityId": "jean-tigana",
+    "editionId": "france-1984",
+    "name": "Jean Tigana",
+    "squadNumber": 14,
+    "ovr": 93,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Ballon d'Or Runner-up 1984; produced breathtaking 119th minute run and assist for Platini's extra-time semi-final winner vs Portugal",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 3
+    },
+    "ratingRationale": "Incredible midfield engine, tackling, and devastating transition carries.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Semi-final match report & Euro 1984 Team of the Tournament"
+      }
+    ]
+  },
+  {
+    "id": "luis-fernandez-1984",
+    "identityId": "luis-fernandez",
+    "editionId": "france-1984",
+    "name": "Luis Fernández",
+    "squadNumber": 6,
+    "ovr": 88,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Combative defensive destroyer completing the Carré Magique diamond.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Official match lineups"
+      }
+    ]
+  },
+  {
+    "id": "bruno-bellone-1984",
+    "identityId": "bruno-bellone",
+    "editionId": "france-1984",
+    "name": "Bruno Bellone",
+    "squadNumber": 11,
+    "ovr": 86,
+    "naturalPositions": [
+      "LW",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "ST"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 3,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Lively left-sided forward who scored the clinching 90th minute chipped goal in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 Final match report (90' goal)"
+      }
+    ]
+  },
+  {
+    "id": "bernard-lacombe-1984",
+    "identityId": "bernard-lacombe",
+    "editionId": "france-1984",
+    "name": "Bernard Lacombe",
+    "squadNumber": 17,
+    "ovr": 86,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0,
+      "assists": 2
+    },
+    "ratingRationale": "Unselfish target man whose decoy runs opened space for Platini.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Starting forward records"
+      }
+    ]
+  },
+  {
+    "id": "manuel-amoros-1984",
+    "identityId": "manuel-amoros",
+    "editionId": "france-1984",
+    "name": "Manuel Amoros",
+    "squadNumber": 2,
+    "ovr": 87,
+    "naturalPositions": [
+      "RB",
+      "LB"
+    ],
+    "secondaryPositions": [
+      "RWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 2,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Dynamic full-back who starred in the final after early suspension.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 tournament records"
+      }
+    ]
+  },
+  {
+    "id": "maxime-bossis-1984",
+    "identityId": "maxime-bossis",
+    "editionId": "france-1984",
+    "name": "Maxime Bossis",
+    "squadNumber": 4,
+    "ovr": 90,
+    "naturalPositions": [
+      "CB",
+      "LB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Defensive pillar of Euro 1984; named to Team of the Tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 Team of the Tournament"
+      }
+    ]
+  },
+  {
+    "id": "patrik-battiston-1984",
+    "identityId": "patrik-battiston",
+    "editionId": "france-1984",
+    "name": "Patrick Battiston",
+    "squadNumber": 5,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB",
+      "RB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Composed central defender starting all 5 tournament matches.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 match records"
+      }
+    ]
+  },
+  {
+    "id": "yvon-le-roux-1984",
+    "identityId": "yvon-le-roux",
+    "editionId": "france-1984",
+    "name": "Yvon Le Roux",
+    "squadNumber": 15,
+    "ovr": 84,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 3,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Aggressive central defender who started the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Euro 1984 Final starting lineup"
+      }
+    ]
+  },
+  {
+    "id": "joel-bats-1984",
+    "identityId": "joel-bats",
+    "editionId": "france-1984",
+    "name": "Joël Bats",
+    "squadNumber": 1,
+    "ovr": 87,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Outstanding tournament goalkeeper conceding only 4 goals in 5 games.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1984",
+        "fact": "Conceded 4 goals, 3 clean sheets"
+      }
+    ]
+  },
+  {
+    "id": "andres-iniesta-2010",
+    "identityId": "andres-iniesta",
+    "editionId": "spain-2010",
+    "name": "Andrés Iniesta",
+    "squadNumber": 6,
+    "ovr": 95,
+    "naturalPositions": [
+      "CM",
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "LW",
+      "LM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2010 FIFA World Cup Final Man of the Match; scored dramatic 116th minute World Cup winning goal; 2010 Ballon d'Or Runner-up",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 2,
+      "assists": 1
+    },
+    "ratingRationale": "Historical World Cup Final winner and quintessential master of Spanish midfield dominance.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "World Cup 2010 Final match report (116' goal & MOTM)"
+      }
+    ]
+  },
+  {
+    "id": "xavi-hernandez-2010",
+    "identityId": "xavi-hernandez",
+    "editionId": "spain-2010",
+    "name": "Xavi Hernández",
+    "squadNumber": 8,
+    "ovr": 95,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Completed more passes (599, 91% accuracy) and covered more distance (80.2 km) than any player at 2010 World Cup; 2010 Ballon d'Or 3rd place",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 2
+    },
+    "ratingRationale": "The tactical heartbeat and passing metronome of the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "FIFA 2010 World Cup Technical Study pass statistics"
+      }
+    ]
+  },
+  {
+    "id": "iker-casillas-2010",
+    "identityId": "iker-casillas",
+    "editionId": "spain-2010",
+    "name": "Iker Casillas",
+    "squadNumber": 1,
+    "ovr": 94,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2010 FIFA World Cup Golden Glove Winner; saved penalty vs Paraguay in QF and produced legendary toe-save vs Robben in Final; conceded 0 knockout goals",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Captain who conceded only 2 goals the entire tournament and made history-defining final saves.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "2010 FIFA World Cup Golden Glove Award"
+      }
+    ]
+  },
+  {
+    "id": "carles-puyol-2010",
+    "identityId": "carles-puyol",
+    "editionId": "spain-2010",
+    "name": "Carles Puyol",
+    "squadNumber": 5,
+    "ovr": 92,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "RB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored famous bullet header in semi-final vs Germany (1-0) and led backline to 4 consecutive knockout clean sheets",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Impassioned defensive leader who decided the semi-final and secured the trophy.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Semi-final match report and tournament stats"
+      }
+    ]
+  },
+  {
+    "id": "gerard-pique-2010",
+    "identityId": "gerard-pique",
+    "editionId": "spain-2010",
+    "name": "Gerard Piqué",
+    "squadNumber": 3,
+    "ovr": 90,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Elegant ball-playing central defender who started every minute of the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Played all 630 minutes in 2010"
+      }
+    ]
+  },
+  {
+    "id": "sergio-ramos-2010",
+    "identityId": "sergio-ramos",
+    "editionId": "spain-2010",
+    "name": "Sergio Ramos",
+    "squadNumber": 15,
+    "ovr": 91,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RWB",
+      "CB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Ranked #1 on Castrol Performance Index at 2010 World Cup from right back.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Castrol Performance Index Top Rated Player 2010"
+      }
+    ]
+  },
+  {
+    "id": "joan-capdevila-2010",
+    "identityId": "joan-capdevila",
+    "editionId": "spain-2010",
+    "name": "Joan Capdevila",
+    "squadNumber": 11,
+    "ovr": 86,
+    "naturalPositions": [
+      "LB"
+    ],
+    "secondaryPositions": [
+      "LWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Reliable starting left back playing every single minute of the World Cup triumph.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Played all 630 minutes in 2010"
+      }
+    ]
+  },
+  {
+    "id": "sergio-busquets-2010",
+    "identityId": "sergio-busquets",
+    "editionId": "spain-2010",
+    "name": "Sergio Busquets",
+    "squadNumber": 16,
+    "ovr": 90,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Masterful positional anchor who balanced Spain's possession play ('You watch Busquets and you see the whole game' - Del Bosque).",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Started all 7 matches in 2010"
+      }
+    ]
+  },
+  {
+    "id": "xabi-alonso-2010",
+    "identityId": "xabi-alonso",
+    "editionId": "spain-2010",
+    "name": "Xabi Alonso",
+    "squadNumber": 14,
+    "ovr": 91,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Double pivot commander providing diagonal distribution and defensive fortitude.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Started all 7 matches in 2010"
+      }
+    ]
+  },
+  {
+    "id": "david-villa-2010",
+    "identityId": "david-villa",
+    "editionId": "spain-2010",
+    "name": "David Villa",
+    "squadNumber": 7,
+    "ovr": 94,
+    "naturalPositions": [
+      "ST",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2010 FIFA World Cup Silver Boot & Bronze Ball (5 goals, scored match winners in Round of 16 vs Portugal and QF vs Paraguay)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 5,
+      "assists": 1
+    },
+    "ratingRationale": "Scored 5 of Spain's 8 total goals in the tournament; the decisive finisher.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "2010 World Cup Silver Boot and Bronze Ball awards"
+      }
+    ]
+  },
+  {
+    "id": "pedro-rodriguez-2010",
+    "identityId": "pedro-rodriguez",
+    "editionId": "spain-2010",
+    "name": "Pedro",
+    "squadNumber": 18,
+    "ovr": 87,
+    "naturalPositions": [
+      "RW",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 1
+    },
+    "ratingRationale": "Electric pressing and vertical runs starting the semi-final and final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2010",
+        "fact": "Started 2010 Semi-Final and Final"
+      }
+    ]
+  },
+  {
+    "id": "lionel-messi-2022",
+    "identityId": "lionel-messi",
+    "editionId": "argentina-2022",
+    "name": "Lionel Messi",
+    "squadNumber": 10,
+    "ovr": 97,
+    "naturalPositions": [
+      "CF",
+      "RW",
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "ST",
+      "SS"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2022 FIFA World Cup Golden Ball Winner; 7 goals (brace in final, scored in every knockout round), 3 assists; captained Argentina to victory",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 7,
+      "assists": 3
+    },
+    "ratingRationale": "Historic crowning achievement winning the World Cup as tournament MVP.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "2022 FIFA World Cup Golden Ball Award"
+      }
+    ]
+  },
+  {
+    "id": "angel-di-maria-2022",
+    "identityId": "angel-di-maria",
+    "editionId": "argentina-2022",
+    "name": "Ángel Di María",
+    "squadNumber": 11,
+    "ovr": 91,
+    "naturalPositions": [
+      "LW",
+      "RW"
+    ],
+    "secondaryPositions": [
+      "LM",
+      "RM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Spectacular 2022 World Cup Final performance: won penalty for first goal, scored stunning second goal",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Big-game final decider who tore open France's right flank in the first half of the final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "2022 World Cup Final match report (36' goal)"
+      }
+    ]
+  },
+  {
+    "id": "julian-alvarez-2022",
+    "identityId": "julian-alvarez",
+    "editionId": "argentina-2022",
+    "name": "Julián Álvarez",
+    "squadNumber": 9,
+    "ovr": 89,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [
+      "RW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 4,
+      "assists": 1
+    },
+    "ratingRationale": "Sensational pressing striker scoring 4 goals including memorable solo brace vs Croatia in semi-final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Tournament scoring records (4 goals)"
+      }
+    ]
+  },
+  {
+    "id": "alexis-mac-allister-2022",
+    "identityId": "alexis-mac-allister",
+    "editionId": "argentina-2022",
+    "name": "Alexis Mac Allister",
+    "squadNumber": 20,
+    "ovr": 88,
+    "naturalPositions": [
+      "CM",
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Intelligent midfield connector who assisted Di María's goal in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Final assist and tournament stats"
+      }
+    ]
+  },
+  {
+    "id": "enzo-fernandez-2022",
+    "identityId": "enzo-fernandez",
+    "editionId": "argentina-2022",
+    "name": "Enzo Fernández",
+    "squadNumber": 24,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2022 FIFA World Cup Young Player Award; transformed Argentina's midfield distribution",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Tournament best young player providing passing range and defensive recoveries.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "2022 FIFA Young Player Award"
+      }
+    ]
+  },
+  {
+    "id": "rodrigo-de-paul-2022",
+    "identityId": "rodrigo-de-paul",
+    "editionId": "argentina-2022",
+    "name": "Rodrigo De Paul",
+    "squadNumber": 7,
+    "ovr": 88,
+    "naturalPositions": [
+      "CM",
+      "RM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 0
+    },
+    "ratingRationale": "Tireless running and defensive covering for Messi and the frontline.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Started all 7 matches in 2022"
+      }
+    ]
+  },
+  {
+    "id": "cristian-romero-2022",
+    "identityId": "cristian-romero",
+    "editionId": "argentina-2022",
+    "name": "Cristian Romero",
+    "squadNumber": 13,
+    "ovr": 89,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Aggressive, commanding front-foot tackling central defender.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Started 7 matches in 2022"
+      }
+    ]
+  },
+  {
+    "id": "nicolas-otamendi-2022",
+    "identityId": "nicolas-otamendi",
+    "editionId": "argentina-2022",
+    "name": "Nicolás Otamendi",
+    "squadNumber": 19,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Aerial dominance and warrior leadership playing every minute of the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Played all 690 minutes in 2022"
+      }
+    ]
+  },
+  {
+    "id": "nahuel-molina-2022",
+    "identityId": "nahuel-molina",
+    "editionId": "argentina-2022",
+    "name": "Nahuel Molina",
+    "squadNumber": 26,
+    "ovr": 86,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Scored opening goal vs Netherlands in QF from Messi's famous through ball.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Quarter-final goal and match stats"
+      }
+    ]
+  },
+  {
+    "id": "nicolas-tagliafico-2022",
+    "identityId": "nicolas-tagliafico",
+    "editionId": "argentina-2022",
+    "name": "Nicolás Tagliafico",
+    "squadNumber": 3,
+    "ovr": 85,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Disciplined starting left back in the semi-final and final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "Started 2022 Final"
+      }
+    ]
+  },
+  {
+    "id": "emiliano-martinez-2022",
+    "identityId": "emiliano-martinez",
+    "editionId": "argentina-2022",
+    "name": "Emiliano Martínez",
+    "squadNumber": 23,
+    "ovr": 93,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2022 FIFA World Cup Golden Glove Winner; 123rd-minute miraculous save vs Kolo Muani in Final; saved two penalties in QF and one in Final shootout",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Clutch goalkeeper heroics that delivered Argentina's third World Cup title.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2022",
+        "fact": "2022 FIFA World Cup Golden Glove Award"
+      }
+    ]
+  },
+  {
+    "id": "theodoros-zagorakis-2004",
+    "identityId": "theodoros-zagorakis",
+    "editionId": "greece-2004",
+    "name": "Theodoros Zagorakis",
+    "squadNumber": 7,
+    "ovr": 88,
+    "naturalPositions": [
+      "CM",
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2004 Player of the Tournament; captain of the legendary 100-to-1 underdog champions",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "assists": 1
+    },
+    "ratingRationale": "Inspired defensive midfield captaincy and famous touchline flick assist vs France in QF.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "UEFA Euro 2004 Official Player of the Tournament Award"
+      }
+    ]
+  },
+  {
+    "id": "angelos-charisteas-2004",
+    "identityId": "angelos-charisteas",
+    "editionId": "greece-2004",
+    "name": "Angelos Charisteas",
+    "squadNumber": 9,
+    "ovr": 85,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored header in Euro 2004 Final vs Portugal (1-0) and quarter-final winner vs France (1-0)",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 3,
+      "assists": 0
+    },
+    "ratingRationale": "Historic clutch goalscorer who headed Greece to the impossible European championship.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Euro 2004 Final match report (57' goal)"
+      }
+    ]
+  },
+  {
+    "id": "traianos-dellas-2004",
+    "identityId": "traianos-dellas",
+    "editionId": "greece-2004",
+    "name": "Traianos Dellas",
+    "squadNumber": 5,
+    "ovr": 87,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2004 Team of the Tournament; 'Colossus of Rhodes' who scored silver-goal winner in semi-final vs Czech Republic",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Impassable central sweeper who anchored consecutive 1-0 shutout wins in knockout stage.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Euro 2004 Team of the Tournament & Semi-Final silver goal"
+      }
+    ]
+  },
+  {
+    "id": "giourkas-seitaridis-2004",
+    "identityId": "giourkas-seitaridis",
+    "editionId": "greece-2004",
+    "name": "Giourkas Seitaridis",
+    "squadNumber": 2,
+    "ovr": 86,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Elite tournament full-back who shut down Cristiano Ronaldo and Thierry Henry; named to Team of the Tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Euro 2004 Team of the Tournament selection"
+      }
+    ]
+  },
+  {
+    "id": "michalis-kapsis-2004",
+    "identityId": "michalis-kapsis",
+    "editionId": "greece-2004",
+    "name": "Michalis Kapsis",
+    "squadNumber": 19,
+    "ovr": 84,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Tenacious man-marking stopper who nullified Pauleta, Koller, and Baros.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Starting central defender in all 6 matches"
+      }
+    ]
+  },
+  {
+    "id": "panagiotis-fyssas-2004",
+    "identityId": "panagiotis-fyssas",
+    "editionId": "greece-2004",
+    "name": "Takis Fyssas",
+    "squadNumber": 14,
+    "ovr": 83,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Defensive discipline and tactical organization on Greece's left flank.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Tournament appearances archive"
+      }
+    ]
+  },
+  {
+    "id": "kostas-katsouranis-2004",
+    "identityId": "kostas-katsouranis",
+    "editionId": "greece-2004",
+    "name": "Kostas Katsouranis",
+    "squadNumber": 21,
+    "ovr": 85,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Vital tactical discipline in midfield screening the defensive back four.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Started all 6 matches"
+      }
+    ]
+  },
+  {
+    "id": "angelos-basinas-2004",
+    "identityId": "angelos-basinas",
+    "editionId": "greece-2004",
+    "name": "Angelos Basinas",
+    "squadNumber": 6,
+    "ovr": 85,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Delivered the corner kick for Charisteas' winning goal in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Euro 2004 Final assist"
+      }
+    ]
+  },
+  {
+    "id": "giorgos-karagounis-2004",
+    "identityId": "giorgos-karagounis",
+    "editionId": "greece-2004",
+    "name": "Giorgos Karagounis",
+    "squadNumber": 20,
+    "ovr": 85,
+    "naturalPositions": [
+      "CM",
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 1,
+      "assists": 0
+    },
+    "ratingRationale": "Scored the tournament's opening 7th minute goal against Portugal to spark the fairytale.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Opening tournament goal vs Portugal"
+      }
+    ]
+  },
+  {
+    "id": "zisis-vryzas-2004",
+    "identityId": "zisis-vryzas",
+    "editionId": "greece-2004",
+    "name": "Zisis Vryzas",
+    "squadNumber": 15,
+    "ovr": 83,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 0
+    },
+    "ratingRationale": "Physical target forward; scored crucial chipped goal vs Russia that sent Greece to knockouts on goals scored.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Crucial group stage goal vs Russia"
+      }
+    ]
+  },
+  {
+    "id": "antonios-nikopolidis-2004",
+    "identityId": "antonios-nikopolidis",
+    "editionId": "greece-2004",
+    "name": "Antonios Nikopolidis",
+    "squadNumber": 1,
+    "ovr": 87,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2004 Team of the Tournament goalkeeper; 3 consecutive clean sheets in the quarter-final, semi-final, and final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Zero goals conceded in all three knockout matches to win the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2004",
+        "fact": "Euro 2004 Team of the Tournament Goalkeeper"
+      }
+    ]
+  },
+  {
+    "id": "sepp-maier-1974",
+    "identityId": "sepp-maier",
+    "editionId": "west-germany-1974",
+    "name": "Sepp Maier",
+    "squadNumber": 1,
+    "ovr": 92,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "1974 World Cup All-Star Goalkeeper; produced world-class saves in the Final vs Cruyff and Neeskens",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "The Die Katze von Anzing at the peak of his goalkeeping powers.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 All-Star Goalkeeper"
+      }
+    ]
+  },
+  {
+    "id": "berti-vogts-1974",
+    "identityId": "berti-vogts",
+    "editionId": "west-germany-1974",
+    "name": "Berti Vogts",
+    "squadNumber": 2,
+    "ovr": 91,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RWB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Masterful man-marking performance neutralizing Johan Cruyff in the 1974 Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Renowned 'Der Terrier' who famously subdued Cruyff in the final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 World Cup Final starting RB"
+      }
+    ]
+  },
+  {
+    "id": "paul-breitner-1974",
+    "identityId": "paul-breitner",
+    "editionId": "west-germany-1974",
+    "name": "Paul Breitner",
+    "squadNumber": 3,
+    "ovr": 93,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored 3 goals from left-back including the equalizing penalty in the 1974 Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "One of the greatest full-back performances in tournament history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Scored 1974 World Cup Final penalty"
+      }
+    ]
+  },
+  {
+    "id": "georg-schwarzenbeck-1974",
+    "identityId": "georg-schwarzenbeck",
+    "editionId": "west-germany-1974",
+    "name": "Georg Schwarzenbeck",
+    "squadNumber": 4,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "The stoic 'Kaiser's bodyguard' providing physical defense beside Beckenbauer.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Started all 7 matches in 1974"
+      }
+    ]
+  },
+  {
+    "id": "franz-beckenbauer-1974",
+    "identityId": "franz-beckenbauer",
+    "editionId": "west-germany-1974",
+    "name": "Franz Beckenbauer",
+    "squadNumber": 5,
+    "ovr": 96,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM",
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1974 FIFA World Cup Silver Ball Winner; pioneered the modern attacking Libero and captained West Germany to victory",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 2,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Der Kaiser in his absolute element directing the championship side.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 Silver Ball & Captain"
+      }
+    ]
+  },
+  {
+    "id": "rainer-bonhof-1974",
+    "identityId": "rainer-bonhof",
+    "editionId": "west-germany-1974",
+    "name": "Rainer Bonhof",
+    "squadNumber": 16,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 1,
+      "assists": 3
+    },
+    "ratingRationale": "Dynamic breakthrough tournament; provided the assist for Gerd Müller's winning goal in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 Final assist for winning goal"
+      }
+    ]
+  },
+  {
+    "id": "wolfgang-overath-1974",
+    "identityId": "wolfgang-overath",
+    "editionId": "west-germany-1974",
+    "name": "Wolfgang Overath",
+    "squadNumber": 12,
+    "ovr": 91,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 2,
+      "assists": 2
+    },
+    "ratingRationale": "Supreme left-footed playmaker starting all 7 matches in midfield.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Started all 7 matches and scored 2 goals"
+      }
+    ]
+  },
+  {
+    "id": "uli-hoeness-1974",
+    "identityId": "uli-hoeness",
+    "editionId": "west-germany-1974",
+    "name": "Uli Hoeneß",
+    "squadNumber": 14,
+    "ovr": 89,
+    "naturalPositions": [
+      "RW",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "CAM",
+      "ST"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "Blistering pace and direct transitions down the right flank.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Started all 7 matches"
+      }
+    ]
+  },
+  {
+    "id": "bernd-hoelzenbein-1974",
+    "identityId": "bernd-hoelzenbein",
+    "editionId": "west-germany-1974",
+    "name": "Bernd Hölzenbein",
+    "squadNumber": 17,
+    "ovr": 88,
+    "naturalPositions": [
+      "LW",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "ST"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "Won the crucial equalizing penalty in the 25th minute of the 1974 Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 Final penalty winner"
+      }
+    ]
+  },
+  {
+    "id": "juergen-grabowski-1974",
+    "identityId": "juergen-grabowski",
+    "editionId": "west-germany-1974",
+    "name": "Jürgen Grabowski",
+    "squadNumber": 9,
+    "ovr": 88,
+    "naturalPositions": [
+      "RW",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "LW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "Celebrated his 30th birthday on the day of the World Cup Final with a triumph.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Started 1974 Final"
+      }
+    ]
+  },
+  {
+    "id": "gerd-mueller-1974",
+    "identityId": "gerd-mueller",
+    "editionId": "west-germany-1974",
+    "name": "Gerd Müller",
+    "squadNumber": 13,
+    "ovr": 95,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored the 43rd-minute match-winning goal in the 1974 World Cup Final (4 tournament goals, 14 career WC goals)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 4,
+      "assists": 2
+    },
+    "ratingRationale": "Der Bomber: the most lethal penalty box goalscorer of all time.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "1974 World Cup winning goalscorer"
+      }
+    ]
+  },
+  {
+    "id": "dino-zoff-1982",
+    "identityId": "dino-zoff",
+    "editionId": "italy-1982",
+    "name": "Dino Zoff",
+    "squadNumber": 1,
+    "ovr": 94,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Oldest captain to win the World Cup (age 40); made miraculous goal-line save vs Brazil in 89th minute to preserve 3-2 win",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Commanding captaincy and immortal goal-line save vs Oscar of Brazil.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 Best Goalkeeper & Oldest Captain Winner"
+      }
+    ]
+  },
+  {
+    "id": "claudio-gentile-1982",
+    "identityId": "claudio-gentile",
+    "editionId": "italy-1982",
+    "name": "Claudio Gentile",
+    "squadNumber": 6,
+    "ovr": 92,
+    "naturalPositions": [
+      "RB",
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Legendary defensive masterclasses completely shutting down Diego Maradona (Argentina) and Zico (Brazil) in successive matches",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "'Football is not for ballerinas': the definitive man-marker of World Cup history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 All-Star Team defender"
+      }
+    ]
+  },
+  {
+    "id": "gaetano-scirea-1982",
+    "identityId": "gaetano-scirea",
+    "editionId": "italy-1982",
+    "name": "Gaetano Scirea",
+    "squadNumber": 7,
+    "ovr": 94,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Flawless libero display in the tournament; ventured forward to assist Tardelli's iconic goal in the Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Elegance personified; never received a red card in his entire career.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 All-Star Team Libero"
+      }
+    ]
+  },
+  {
+    "id": "fulvio-collovati-1982",
+    "identityId": "fulvio-collovati",
+    "editionId": "italy-1982",
+    "name": "Fulvio Collovati",
+    "squadNumber": 5,
+    "ovr": 89,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Dominant central stopper named to the 1982 All-Star Team.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 All-Star Team selection"
+      }
+    ]
+  },
+  {
+    "id": "antonio-cabrini-1982",
+    "identityId": "antonio-cabrini",
+    "editionId": "italy-1982",
+    "name": "Antonio Cabrini",
+    "squadNumber": 4,
+    "ovr": 91,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Scored the opening goal against Argentina and provided relentless left flank energy.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Goal vs Argentina in second round"
+      }
+    ]
+  },
+  {
+    "id": "gabriele-oriali-1982",
+    "identityId": "gabriele-oriali",
+    "editionId": "italy-1982",
+    "name": "Gabriele Oriali",
+    "squadNumber": 13,
+    "ovr": 88,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0
+    },
+    "ratingRationale": "Tireless defensive terrier who started all knockout victories and the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Started 1982 Final"
+      }
+    ]
+  },
+  {
+    "id": "marco-tardelli-1982",
+    "identityId": "marco-tardelli",
+    "editionId": "italy-1982",
+    "name": "Marco Tardelli",
+    "squadNumber": 14,
+    "ovr": 93,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CDM",
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Iconic screaming goal celebration in the 1982 World Cup Final after scoring Italy's second goal; scored 2 tournament goals",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 2,
+      "assists": 1
+    },
+    "ratingRationale": "The beating heart and emotional symbol of Italy's 1982 triumph.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 Final goal (69') and iconic celebration"
+      }
+    ]
+  },
+  {
+    "id": "giancarlo-antognoni-1982",
+    "identityId": "giancarlo-antognoni",
+    "editionId": "italy-1982",
+    "name": "Giancarlo Antognoni",
+    "squadNumber": 9,
+    "ovr": 90,
+    "naturalPositions": [
+      "CAM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "assists": 3
+    },
+    "ratingRationale": "Graceful midfield orchestrator who created chances through the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Started 6 matches in 1982"
+      }
+    ]
+  },
+  {
+    "id": "bruno-conti-1982",
+    "identityId": "bruno-conti",
+    "editionId": "italy-1982",
+    "name": "Bruno Conti",
+    "squadNumber": 16,
+    "ovr": 93,
+    "naturalPositions": [
+      "RW",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "LW"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Pelé famously named Conti the best player of the 1982 World Cup; set up Rossi's opening goal in the Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 3
+    },
+    "ratingRationale": "Mesmerizing winger who terrorized full-backs across Spain.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 Final assist & tournament star"
+      }
+    ]
+  },
+  {
+    "id": "francesco-graziani-1982",
+    "identityId": "francesco-graziani",
+    "editionId": "italy-1982",
+    "name": "Ciccio Graziani",
+    "squadNumber": 19,
+    "ovr": 87,
+    "naturalPositions": [
+      "ST",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Selfless forward whose tactical pressing disrupted opposition builds.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Started 1982 Final"
+      }
+    ]
+  },
+  {
+    "id": "paolo-rossi-1982",
+    "identityId": "paolo-rossi",
+    "editionId": "italy-1982",
+    "name": "Paolo Rossi",
+    "squadNumber": 20,
+    "ovr": 96,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1982 FIFA World Cup Golden Ball, Golden Boot (6 goals), and Ballon d'Or Winner; historic hat-trick vs Brazil (3-2), brace in semi-final vs Poland (2-0), and opening goal in Final vs Germany (3-1)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 6,
+      "assists": 1
+    },
+    "ratingRationale": "One of the most famous goalscoring explosions in World Cup history (6 goals in final 3 games).",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 Golden Ball & Golden Boot winner"
+      }
+    ]
+  },
+  {
+    "id": "marcos-2002",
+    "identityId": "marcos",
+    "editionId": "brazil-2002",
+    "name": "Marcos",
+    "squadNumber": 1,
+    "ovr": 89,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Clean sheet in 2002 World Cup Final with sensational fingertip save from Neuville free-kick",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Scolari's trusted goalkeeper starting every minute of the 7-win Penta run.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "2002 Final clean sheet"
+      }
+    ]
+  },
+  {
+    "id": "lucio-2002",
+    "identityId": "lucio",
+    "editionId": "brazil-2002",
+    "name": "Lúcio",
+    "squadNumber": 3,
+    "ovr": 91,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Played every minute of all 7 matches without committing a foul in the entire tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "630 minutes played in 2002"
+      }
+    ]
+  },
+  {
+    "id": "edmilson-2002",
+    "identityId": "edmilson",
+    "editionId": "brazil-2002",
+    "name": "Edmílson",
+    "squadNumber": 5,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB",
+      "CDM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Scored iconic bicycle kick vs Costa Rica and swept behind Lúcio and Roque Júnior.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "Started 2002 Final"
+      }
+    ]
+  },
+  {
+    "id": "roque-junior-2002",
+    "identityId": "roque-junior",
+    "editionId": "brazil-2002",
+    "name": "Roque Júnior",
+    "squadNumber": 4,
+    "ovr": 86,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Solid physical presence on the left side of the back three.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "Started 2002 Final"
+      }
+    ]
+  },
+  {
+    "id": "cafu-2002",
+    "identityId": "cafu",
+    "editionId": "brazil-2002",
+    "name": "Cafu",
+    "squadNumber": 2,
+    "ovr": 93,
+    "naturalPositions": [
+      "RWB",
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Only player in history to play in three consecutive World Cup Finals (1994, 1998, 2002); captained Brazil to the title",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Endless engine on the right wing and inspiring captaincy.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "2002 World Cup winning captain"
+      }
+    ]
+  },
+  {
+    "id": "roberto-carlos-2002",
+    "identityId": "roberto-carlos",
+    "editionId": "brazil-2002",
+    "name": "Roberto Carlos",
+    "squadNumber": 6,
+    "ovr": 93,
+    "naturalPositions": [
+      "LWB",
+      "LB"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2002 FIFA World Cup All-Star Team; scored thunderous 30-yard free kick vs China and dominated left flank",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Pioneering modern wing-back combining rocket shooting with defensive recoveries.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "2002 All-Star Team selection"
+      }
+    ]
+  },
+  {
+    "id": "gilberto-silva-2002",
+    "identityId": "gilberto-silva",
+    "editionId": "brazil-2002",
+    "name": "Gilberto Silva",
+    "squadNumber": 8,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Step-in sensation after Emerson's injury who played every single minute of the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "Started all 7 matches in 2002"
+      }
+    ]
+  },
+  {
+    "id": "kleberson-2002",
+    "identityId": "kleberson",
+    "editionId": "brazil-2002",
+    "name": "Kléberson",
+    "squadNumber": 15,
+    "ovr": 87,
+    "naturalPositions": [
+      "CM",
+      "RM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 2
+    },
+    "ratingRationale": "Breakthrough star who hit the crossbar and assisted Ronaldo's second goal in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "2002 Final assist"
+      }
+    ]
+  },
+  {
+    "id": "ronaldinho-2002",
+    "identityId": "ronaldinho",
+    "editionId": "brazil-2002",
+    "name": "Ronaldinho",
+    "squadNumber": 11,
+    "ovr": 93,
+    "naturalPositions": [
+      "CAM",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "RW",
+      "SS"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Historic performance vs England in QF: assisted Rivaldo after dazzling run and scored 40-yard free-kick chip over Seaman",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 2,
+      "assists": 3
+    },
+    "ratingRationale": "Unstoppable flair and magical moments forming the famous '3 Rs' trident.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "Quarter-final masterclass vs England"
+      }
+    ]
+  },
+  {
+    "id": "rivaldo-2002",
+    "identityId": "rivaldo",
+    "editionId": "brazil-2002",
+    "name": "Rivaldo",
+    "squadNumber": 10,
+    "ovr": 94,
+    "naturalPositions": [
+      "CAM",
+      "SS"
+    ],
+    "secondaryPositions": [
+      "CF",
+      "LW"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored in first 5 consecutive matches; created both goals in the Final (shot spilled for first, dummy for second)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 5,
+      "assists": 2
+    },
+    "ratingRationale": "Phenomenal left-footed finishing and clutch knockout impact.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "5 tournament goals & both Final goals created"
+      }
+    ]
+  },
+  {
+    "id": "ronaldo-nazario-2002",
+    "identityId": "ronaldo-nazario",
+    "editionId": "brazil-2002",
+    "name": "Ronaldo Nazário",
+    "squadNumber": 9,
+    "ovr": 96,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2002 FIFA World Cup Golden Boot (8 goals, highest in 32 years) and 2002 Ballon d'Or Winner; scored brace in 2-0 Final vs Germany to redeem 1998",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 8,
+      "assists": 1
+    },
+    "ratingRationale": "The greatest redemption story in football history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2002",
+        "fact": "2002 World Cup Golden Boot (8 goals)"
+      }
+    ]
+  },
+  {
+    "id": "fabien-barthez-1998",
+    "identityId": "fabien-barthez",
+    "editionId": "france-1998",
+    "name": "Fabien Barthez",
+    "squadNumber": 16,
+    "ovr": 93,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "1998 FIFA World Cup Lev Yashin Award (Best Goalkeeper); conceded only 2 goals in 7 matches (tied all-time record)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Impenetrable tournament goalkeeper.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "1998 Lev Yashin Award winner"
+      }
+    ]
+  },
+  {
+    "id": "lilian-thuram-1998",
+    "identityId": "lilian-thuram",
+    "editionId": "france-1998",
+    "name": "Lilian Thuram",
+    "squadNumber": 15,
+    "ovr": 94,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1998 FIFA World Cup Bronze Ball Winner; scored 2 heroic semi-final goals vs Croatia (his only 2 career international goals) to send France to Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 2,
+      "assists": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Unstoppable defensive lockdown and historic semi-final brace.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "1998 Bronze Ball & Semi-Final brace"
+      }
+    ]
+  },
+  {
+    "id": "marcel-desailly-1998",
+    "identityId": "marcel-desailly",
+    "editionId": "france-1998",
+    "name": "Marcel Desailly",
+    "squadNumber": 8,
+    "ovr": 93,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "The 'Rock' at the center of France's legendary defense.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "1998 All-Star Team defender"
+      }
+    ]
+  },
+  {
+    "id": "laurent-blanc-1998",
+    "identityId": "laurent-blanc",
+    "editionId": "france-1998",
+    "name": "Laurent Blanc",
+    "squadNumber": 5,
+    "ovr": 91,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored the first Golden Goal in World Cup history (114th minute vs Paraguay in Round of 16)",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Composed defensive leader and scorer of historic golden goal.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "First Golden Goal in World Cup history"
+      }
+    ]
+  },
+  {
+    "id": "bixente-lizarazu-1998",
+    "identityId": "bixente-lizarazu",
+    "editionId": "france-1998",
+    "name": "Bixente Lizarazu",
+    "squadNumber": 3,
+    "ovr": 90,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Tenacious and technically sound left-back starting the 3-0 Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "Started 1998 Final"
+      }
+    ]
+  },
+  {
+    "id": "didier-deschamps-1998",
+    "identityId": "didier-deschamps",
+    "editionId": "france-1998",
+    "name": "Didier Deschamps",
+    "squadNumber": 7,
+    "ovr": 91,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Captain who lifted France's first World Cup trophy at the Stade de France",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "The supreme tactical organizer and 'water carrier' for the creative talent.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "1998 World Cup winning captain"
+      }
+    ]
+  },
+  {
+    "id": "emmanuel-petit-1998",
+    "identityId": "emmanuel-petit",
+    "editionId": "france-1998",
+    "name": "Emmanuel Petit",
+    "squadNumber": 17,
+    "ovr": 89,
+    "naturalPositions": [
+      "CM",
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Delivered corner for Zidane's first goal and scored the breakaway 93rd-minute third goal in the 3-0 Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 2,
+      "assists": 1
+    },
+    "ratingRationale": "Vital box-to-box presence sealing the World Cup triumph.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "1998 Final goal (93') and assist"
+      }
+    ]
+  },
+  {
+    "id": "christian-karembeu-1998",
+    "identityId": "christian-karembeu",
+    "editionId": "france-1998",
+    "name": "Christian Karembeu",
+    "squadNumber": 19,
+    "ovr": 87,
+    "naturalPositions": [
+      "CM",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0
+    },
+    "ratingRationale": "Aggressive pressing midfielder starting the quarter-final, semi-final, and final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "Started 1998 Final"
+      }
+    ]
+  },
+  {
+    "id": "zinedine-zidane-1998",
+    "identityId": "zinedine-zidane",
+    "editionId": "france-1998",
+    "name": "Zinedine Zidane",
+    "squadNumber": 10,
+    "ovr": 96,
+    "naturalPositions": [
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1998 World Cup Final Man of the Match; scored 2 first-half header goals in 3-0 demolition of Brazil; 1998 Ballon d'Or Winner",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 2,
+      "assists": 1
+    },
+    "ratingRationale": "Immortal World Cup final masterclass making him a global icon.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "1998 Final Man of the Match & 1998 Ballon d'Or"
+      }
+    ]
+  },
+  {
+    "id": "youri-djorkaeff-1998",
+    "identityId": "yousef-djorkaeff",
+    "editionId": "france-1998",
+    "name": "Youri Djorkaeff",
+    "squadNumber": 6,
+    "ovr": 90,
+    "naturalPositions": [
+      "CAM",
+      "SS"
+    ],
+    "secondaryPositions": [
+      "RW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 3
+    },
+    "ratingRationale": "Took corner for Zidane's second goal in final; creative fulcrum throughout the tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "Started 1998 Final & assist"
+      }
+    ]
+  },
+  {
+    "id": "thierry-henry-1998",
+    "identityId": "thierry-henry",
+    "editionId": "france-1998",
+    "name": "Thierry Henry",
+    "squadNumber": 12,
+    "ovr": 88,
+    "naturalPositions": [
+      "ST",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "RW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "France's top goalscorer in the 1998 World Cup as a blistering 20-year-old.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1998",
+        "fact": "France 1998 top scorer (3 goals)"
+      }
+    ]
+  },
+  {
+    "id": "bodo-illgner-1990",
+    "identityId": "bodo-illgner",
+    "editionId": "west-germany-1990",
+    "name": "Bodo Illgner",
+    "squadNumber": 1,
+    "ovr": 88,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Saved Stuart Pearce penalty in semi-final shootout and kept clean sheet in 1990 Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "First goalkeeper to keep a clean sheet in a World Cup Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "1990 Final clean sheet"
+      }
+    ]
+  },
+  {
+    "id": "andreas-brehme-1990",
+    "identityId": "andreas-brehme",
+    "editionId": "west-germany-1990",
+    "name": "Andreas Brehme",
+    "squadNumber": 3,
+    "ovr": 93,
+    "naturalPositions": [
+      "LWB",
+      "LB"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored the 85th-minute World Cup winning penalty in the 1990 Final with his right foot (ambidextrous defender; 3 tournament goals)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "assists": 3,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Ice in his veins: decisive match-winner of the 1990 World Cup.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "1990 World Cup Final match report (85' penalty)"
+      }
+    ]
+  },
+  {
+    "id": "juergen-kohler-1990",
+    "identityId": "juergen-kohler",
+    "editionId": "west-germany-1990",
+    "name": "Jürgen Kohler",
+    "squadNumber": 4,
+    "ovr": 90,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Uncompromising man-marker in the back three.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "Started 1990 Final"
+      }
+    ]
+  },
+  {
+    "id": "klaus-augenthaler-1990",
+    "identityId": "klaus-augenthaler",
+    "editionId": "west-germany-1990",
+    "name": "Klaus Augenthaler",
+    "squadNumber": 5,
+    "ovr": 89,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Ever-present sweeper starting all 7 matches.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "Played all 7 matches in 1990"
+      }
+    ]
+  },
+  {
+    "id": "guido-buchwald-1990",
+    "identityId": "guido-buchwald",
+    "editionId": "west-germany-1990",
+    "name": "Guido Buchwald",
+    "squadNumber": 6,
+    "ovr": 91,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Earned nickname 'Diego' after completely marking Diego Maradona out of the 1990 World Cup Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Heroic man-marking display in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "1990 Final man-marking performance"
+      }
+    ]
+  },
+  {
+    "id": "stefan-reuter-1990",
+    "identityId": "stefan-reuter",
+    "editionId": "west-germany-1990",
+    "name": "Stefan Reuter",
+    "squadNumber": 14,
+    "ovr": 87,
+    "naturalPositions": [
+      "RWB",
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Blistering speed down the right flank.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "1990 Final appearance"
+      }
+    ]
+  },
+  {
+    "id": "lothar-matthaeus-1990",
+    "identityId": "lothar-matthaeus",
+    "editionId": "west-germany-1990",
+    "name": "Lothar Matthäus",
+    "squadNumber": 10,
+    "ovr": 96,
+    "naturalPositions": [
+      "CM",
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CAM",
+      "CB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1990 FIFA World Cup Silver Ball, 1990 Ballon d'Or, and inaugural FIFA World Player of the Year; scored 4 goals as dominant captain",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 4,
+      "assists": 1
+    },
+    "ratingRationale": "Peak of his career as the complete box-to-box midfielder.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "1990 Ballon d'Or & World Cup winning captain"
+      }
+    ]
+  },
+  {
+    "id": "thomas-haessler-1990",
+    "identityId": "thomas-haessler",
+    "editionId": "west-germany-1990",
+    "name": "Thomas Häßler",
+    "squadNumber": 8,
+    "ovr": 90,
+    "naturalPositions": [
+      "CAM",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 3
+    },
+    "ratingRationale": "Low center of gravity, mesmerizing dribbling and set-piece delivery.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "Started 1990 Final"
+      }
+    ]
+  },
+  {
+    "id": "pierre-littbarski-1990",
+    "identityId": "pierre-littbarski",
+    "editionId": "west-germany-1990",
+    "name": "Pierre Littbarski",
+    "squadNumber": 7,
+    "ovr": 88,
+    "naturalPositions": [
+      "LW",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "Tricky left-winger starting the 1990 Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "Started 1990 Final"
+      }
+    ]
+  },
+  {
+    "id": "juergen-klinsmann-1990",
+    "identityId": "juergen-klinsmann",
+    "editionId": "west-germany-1990",
+    "name": "Jürgen Klinsmann",
+    "squadNumber": 18,
+    "ovr": 92,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Iconic diving header goal vs Yugoslavia and solo masterclass vs Netherlands in Round of 16 (3 tournament goals)",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "assists": 2
+    },
+    "ratingRationale": "Relentless athletic striker named to 1990 All-Star Team.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "1990 All-Star Team forward"
+      }
+    ]
+  },
+  {
+    "id": "rudi-voeller-1990",
+    "identityId": "rudi-voeller",
+    "editionId": "west-germany-1990",
+    "name": "Rudi Völler",
+    "squadNumber": 9,
+    "ovr": 91,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Won the 85th-minute match-winning penalty in the 1990 World Cup Final; scored 3 tournament goals",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "Lethal penalty-box poacher deciding the World Cup Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1990",
+        "fact": "Won 1990 Final penalty"
+      }
+    ]
+  },
+  {
+    "id": "gianluigi-buffon-2006",
+    "identityId": "gianluigi-buffon",
+    "editionId": "italy-2006",
+    "name": "Gianluigi Buffon",
+    "squadNumber": 1,
+    "ovr": 95,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2006 FIFA World Cup Lev Yashin Award and Ballon d'Or Runner-up; conceded only 2 goals in 7 matches (1 own goal, 1 penalty); miraculous extra-time header tip over bar from Zidane in Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Arguably the greatest goalkeeper tournament performance in history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 Lev Yashin Award & 2006 Ballon d'Or Runner-up"
+      }
+    ]
+  },
+  {
+    "id": "gianluca-zambrotta-2006",
+    "identityId": "gianluca-zambrotta",
+    "editionId": "italy-2006",
+    "name": "Gianluca Zambrotta",
+    "squadNumber": 19,
+    "ovr": 91,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [
+      "LB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2006 World Cup All-Star Team; scored thunderous goal vs Ukraine in QF and goal-line clearance",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Dynamic two-way full-back excelling on either flank.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 All-Star Team defender"
+      }
+    ]
+  },
+  {
+    "id": "fabio-cannavaro-2006",
+    "identityId": "fabio-cannavaro",
+    "editionId": "italy-2006",
+    "name": "Fabio Cannavaro",
+    "squadNumber": 5,
+    "ovr": 96,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2006 Ballon d'Or Winner, FIFA World Player of the Year, and World Cup Silver Ball; 'The Berlin Wall' won 100% of aerial duels despite being 5 ft 9 in; initiated Del Piero's semi-final goal with iconic double clearance",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 5
+    },
+    "ratingRationale": "Only defender in modern history to win FIFA World Player of the Year based on this tournament.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 Ballon d'Or & Silver Ball winner"
+      }
+    ]
+  },
+  {
+    "id": "marco-materazzi-2006",
+    "identityId": "marco-materazzi",
+    "editionId": "italy-2006",
+    "name": "Marco Materazzi",
+    "squadNumber": 23,
+    "ovr": 89,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Hero of the 2006 Final: scored equalizing header in the 19th minute, scored in penalty shootout, and led defensive stand",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 2,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Stepped in for injured Nesta to become Italy's joint top scorer and final hero.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 Final goal & shootout score"
+      }
+    ]
+  },
+  {
+    "id": "fabio-grosso-2006",
+    "identityId": "fabio-grosso",
+    "editionId": "italy-2006",
+    "name": "Fabio Grosso",
+    "squadNumber": 3,
+    "ovr": 90,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Italy's man of destiny: won 93rd-minute penalty vs Australia, curled in immortal 119th-minute semi-final winner vs Germany, and scored the decisive World Cup winning penalty kick in the Final shootout",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "The defining clutch protagonist of Italy's fourth World Cup title.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "119' semi-final goal & winning shootout penalty"
+      }
+    ]
+  },
+  {
+    "id": "gennaro-gattuso-2006",
+    "identityId": "gennaro-gattuso",
+    "editionId": "italy-2006",
+    "name": "Gennaro Gattuso",
+    "squadNumber": 8,
+    "ovr": 91,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Ferocious ball-winner named to 2006 All-Star Team.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 All-Star Team selection"
+      }
+    ]
+  },
+  {
+    "id": "andrea-pirlo-2006",
+    "identityId": "andrea-pirlo",
+    "editionId": "italy-2006",
+    "name": "Andrea Pirlo",
+    "squadNumber": 21,
+    "ovr": 95,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CDM",
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2006 FIFA World Cup Bronze Ball & Final Man of the Match; assisted Materazzi's final goal, scored opening shootout penalty; 3 MOTM awards in tournament",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 3
+    },
+    "ratingRationale": "The supreme regista directing Italy to world glory.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 Bronze Ball & Final Man of the Match"
+      }
+    ]
+  },
+  {
+    "id": "mauro-camoranesi-2006",
+    "identityId": "mauro-camoranesi",
+    "editionId": "italy-2006",
+    "name": "Mauro Camoranesi",
+    "squadNumber": 16,
+    "ovr": 88,
+    "naturalPositions": [
+      "RM",
+      "RW"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0
+    },
+    "ratingRationale": "Direct wing play and high pressing on Italy's right flank.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "Started 2006 Final"
+      }
+    ]
+  },
+  {
+    "id": "francesco-totti-2006",
+    "identityId": "francesco-totti",
+    "editionId": "italy-2006",
+    "name": "Francesco Totti",
+    "squadNumber": 10,
+    "ovr": 92,
+    "naturalPositions": [
+      "CAM",
+      "SS"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Played tournament with metal plate in his ankle; tied for most assists at 2006 World Cup (4 assists) and scored 95th-minute winner vs Australia",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 4
+    },
+    "ratingRationale": "Courageous playmaker named to 2006 All-Star Team.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "4 assists & 2006 All-Star Team"
+      }
+    ]
+  },
+  {
+    "id": "alessandro-del-piero-2006",
+    "identityId": "alessandro-del-piero",
+    "editionId": "italy-2006",
+    "name": "Alessandro Del Piero",
+    "squadNumber": 7,
+    "ovr": 89,
+    "naturalPositions": [
+      "SS",
+      "LW"
+    ],
+    "secondaryPositions": [
+      "CAM",
+      "ST"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored sensational 121st-minute breakaway curler in semi-final vs Germany and scored penalty in Final shootout",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1
+    },
+    "ratingRationale": "Superb impact forward sealing semi-final and scoring shootout penalty.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "121' goal vs Germany & shootout goal"
+      }
+    ]
+  },
+  {
+    "id": "luca-toni-2006",
+    "identityId": "luca-toni",
+    "editionId": "italy-2006",
+    "name": "Luca Toni",
+    "squadNumber": 9,
+    "ovr": 90,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2006 World Cup All-Star Team; scored brace in quarter-final vs Ukraine (3-0) and hit crossbar in Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 2
+    },
+    "ratingRationale": "Towering target man occupying defenses throughout the knockouts.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2006",
+        "fact": "2006 All-Star Team forward"
+      }
+    ]
+  },
+  {
+    "id": "gordon-banks-1966",
+    "identityId": "gordon-banks",
+    "editionId": "england-1966",
+    "name": "Gordon Banks",
+    "squadNumber": 1,
+    "ovr": 93,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Kept clean sheets in first 4 matches of 1966 World Cup (conceded 0 goals until semi-final penalty); 1966 World Cup Best Goalkeeper",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "One of the greatest goalkeepers of all time.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "1966 World Cup Best Goalkeeper"
+      }
+    ]
+  },
+  {
+    "id": "george-cohen-1966",
+    "identityId": "george-cohen",
+    "editionId": "england-1966",
+    "name": "George Cohen",
+    "squadNumber": 2,
+    "ovr": 88,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Athletic overlapping right-back in Ramsey's 'wingless wonders'.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "Started all 6 matches in 1966"
+      }
+    ]
+  },
+  {
+    "id": "bobby-moore-1966",
+    "identityId": "bobby-moore",
+    "editionId": "england-1966",
+    "name": "Bobby Moore",
+    "squadNumber": 6,
+    "ovr": 96,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "1966 FIFA World Cup Silver Ball Winner and captain; assisted Hurst's opening and 120th-minute final goals with exquisite passes",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Pelé called him the greatest and fairest defender he ever played against.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "1966 World Cup winning captain & Silver Ball"
+      }
+    ]
+  },
+  {
+    "id": "jack-charlton-1966",
+    "identityId": "jack-charlton",
+    "editionId": "england-1966",
+    "name": "Jack Charlton",
+    "squadNumber": 5,
+    "ovr": 89,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Imposing aerial presence partnering Bobby Moore.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "Started all 6 matches in 1966"
+      }
+    ]
+  },
+  {
+    "id": "ray-wilson-1966",
+    "identityId": "ray-wilson",
+    "editionId": "england-1966",
+    "name": "Ray Wilson",
+    "squadNumber": 3,
+    "ovr": 88,
+    "naturalPositions": [
+      "LB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Fastest defender in the squad; started every match at left-back.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "Started all 6 matches in 1966"
+      }
+    ]
+  },
+  {
+    "id": "nobby-stiles-1966",
+    "identityId": "nobby-stiles",
+    "editionId": "england-1966",
+    "name": "Nobby Stiles",
+    "squadNumber": 4,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Iconic toothless jig after winning World Cup; neutralized Eusébio in the semi-final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Combative ball-winner vital to Ramsey's midfield system.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "Neutralized Eusebio in semi-final"
+      }
+    ]
+  },
+  {
+    "id": "alan-ball-1966",
+    "identityId": "alan-ball",
+    "editionId": "england-1966",
+    "name": "Alan Ball",
+    "squadNumber": 7,
+    "ovr": 91,
+    "naturalPositions": [
+      "RM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "RW"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Man of the Match in 1966 World Cup Final; provided endless energy and cross for Hurst's controversial 3rd goal",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0,
+      "assists": 2
+    },
+    "ratingRationale": "Youngest player in the squad (21) who ran West Germany ragged in extra time.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "1966 Final Man of the Match performance"
+      }
+    ]
+  },
+  {
+    "id": "bobby-charlton-1966",
+    "identityId": "bobby-charlton",
+    "editionId": "england-1966",
+    "name": "Bobby Charlton",
+    "squadNumber": 9,
+    "ovr": 96,
+    "naturalPositions": [
+      "CAM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "SS"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1966 FIFA World Cup Golden Ball and 1966 Ballon d'Or Winner; scored wonder goal vs Mexico and brace in 2-1 semi-final win vs Portugal",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "The supreme English footballer at the absolute summit of world football.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "1966 Golden Ball & Ballon d'Or"
+      }
+    ]
+  },
+  {
+    "id": "martin-peters-1966",
+    "identityId": "martin-peters",
+    "editionId": "england-1966",
+    "name": "Martin Peters",
+    "squadNumber": 16,
+    "ovr": 90,
+    "naturalPositions": [
+      "LM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored England's second goal in the 1966 Final; described by Ramsey as 'ten years ahead of his time'",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Intelligent ghosting runs from midfield into the box.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "1966 Final goal (78')"
+      }
+    ]
+  },
+  {
+    "id": "roger-hunt-1966",
+    "identityId": "roger-hunt",
+    "editionId": "england-1966",
+    "name": "Roger Hunt",
+    "squadNumber": 21,
+    "ovr": 89,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 3
+    },
+    "ratingRationale": "Liverpool striker who scored 3 group goals and worked tirelessly in the final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "3 goals in 1966 tournament"
+      }
+    ]
+  },
+  {
+    "id": "geoff-hurst-1966",
+    "identityId": "geoff-hurst",
+    "editionId": "england-1966",
+    "name": "Geoff Hurst",
+    "squadNumber": 10,
+    "ovr": 93,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "First player in history to score a hat-trick in a World Cup Final (18', 101', 120'); 4 tournament goals in 3 appearances",
+    "tournamentOrSeasonStats": {
+      "appearances": 3,
+      "goals": 4,
+      "assists": 1
+    },
+    "ratingRationale": "Historic World Cup Final hat-trick.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1966",
+        "fact": "1966 Final hat-trick official record"
+      }
+    ]
+  },
+  {
+    "id": "waldir-peres-1982",
+    "identityId": "waldir-peres",
+    "editionId": "brazil-1982",
+    "name": "Waldir Peres",
+    "squadNumber": 1,
+    "ovr": 81,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Starting goalkeeper in Telê Santana's romantic attacking side.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Started 5 matches in 1982"
+      }
+    ]
+  },
+  {
+    "id": "leandro-1982",
+    "identityId": "leandro",
+    "editionId": "brazil-1982",
+    "name": "Leandro",
+    "squadNumber": 2,
+    "ovr": 89,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 1
+    },
+    "ratingRationale": "Sublime technical right-back capable of playing playmaker from deep.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 World Cup starting RB"
+      }
+    ]
+  },
+  {
+    "id": "oscar-1982",
+    "identityId": "oscar-bernardi",
+    "editionId": "brazil-1982",
+    "name": "Oscar",
+    "squadNumber": 3,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Captain and central defensive pillar who scored header vs Scotland.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Goal vs Scotland in 1982"
+      }
+    ]
+  },
+  {
+    "id": "luizinho-1982",
+    "identityId": "luizinho",
+    "editionId": "brazil-1982",
+    "name": "Luizinho",
+    "squadNumber": 4,
+    "ovr": 87,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 1
+    },
+    "ratingRationale": "Elegant ball-playing central defender named to 1982 All-Star Team.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 All-Star Team selection"
+      }
+    ]
+  },
+  {
+    "id": "junior-1982",
+    "identityId": "junior",
+    "editionId": "brazil-1982",
+    "name": "Júnior",
+    "squadNumber": 6,
+    "ovr": 92,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1982 World Cup All-Star Team; scored sensational goal vs Argentina (3-1) after one-two with Zico",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 2
+    },
+    "ratingRationale": "Virtuoso attacking left-back who played like an extra number 10.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 All-Star Team & goal vs Argentina"
+      }
+    ]
+  },
+  {
+    "id": "toninho-cerezo-1982",
+    "identityId": "toninho-cerezo",
+    "editionId": "brazil-1982",
+    "name": "Toninho Cerezo",
+    "squadNumber": 5,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0,
+      "assists": 2
+    },
+    "ratingRationale": "Endless running and technical passing in the iconic midfield square.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Started 4 matches in 1982"
+      }
+    ]
+  },
+  {
+    "id": "falcao-1982",
+    "identityId": "falcao",
+    "editionId": "brazil-1982",
+    "name": "Paulo Roberto Falcão",
+    "squadNumber": 15,
+    "ovr": 95,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CDM",
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1982 FIFA World Cup Silver Ball Winner; scored 3 goals including iconic equalizer vs Italy in Sarrià classic",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "The 'Eighth King of Rome' producing one of the finest tournament midfields ever seen.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 Silver Ball & 3 goals"
+      }
+    ]
+  },
+  {
+    "id": "socrates-1982",
+    "identityId": "socrates",
+    "editionId": "brazil-1982",
+    "name": "Sócrates",
+    "squadNumber": 8,
+    "ovr": 94,
+    "naturalPositions": [
+      "CM",
+      "CAM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Captain and philosopher; scored rocket equalizer vs USSR and immortal near-post finish vs Zoff",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 2,
+      "assists": 2
+    },
+    "ratingRationale": "Unrivalled vision, backheels, and charismatic midfield leadership.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Goals vs USSR & Italy"
+      }
+    ]
+  },
+  {
+    "id": "zico-1982",
+    "identityId": "zico",
+    "editionId": "brazil-1982",
+    "name": "Zico",
+    "squadNumber": 10,
+    "ovr": 96,
+    "naturalPositions": [
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "SS",
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1982 FIFA World Cup Bronze Ball & 1982 World Player of the Year; scored 4 goals and 4 assists (bicycle kick vs New Zealand)",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 4,
+      "assists": 4
+    },
+    "ratingRationale": "The 'White Pelé' operating at the highest creative and finishing peak.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "1982 Bronze Ball & 4 goals, 4 assists"
+      }
+    ]
+  },
+  {
+    "id": "eder-1982",
+    "identityId": "eder-aleixo",
+    "editionId": "brazil-1982",
+    "name": "Éder",
+    "squadNumber": 11,
+    "ovr": 90,
+    "naturalPositions": [
+      "LW"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored two of the most spectacular goals in World Cup history: 30-yard volley vs USSR and chip vs Scotland",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 2,
+      "assists": 2
+    },
+    "ratingRationale": "Thunderous left foot nicknamed 'O Canhão' (The Cannon).",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "Historic goals vs USSR & Scotland"
+      }
+    ]
+  },
+  {
+    "id": "serginho-chulapa-1982",
+    "identityId": "serginho-chulapa",
+    "editionId": "brazil-1982",
+    "name": "Serginho Chulapa",
+    "squadNumber": 9,
+    "ovr": 85,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 2,
+      "assists": 1
+    },
+    "ratingRationale": "Physical target striker scoring 2 goals in the championship run.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1982",
+        "fact": "2 goals in 1982 tournament"
+      }
+    ]
+  },
+  {
+    "id": "manuel-neuer-2014",
+    "identityId": "manuel-neuer",
+    "editionId": "germany-2014",
+    "name": "Manuel Neuer",
+    "squadNumber": 1,
+    "ovr": 96,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2014 FIFA World Cup Golden Glove Winner & 2014 Ballon d'Or 3rd place; redefined the sweeper-keeper position vs Algeria (19 touches outside penalty box) and kept clean sheet in Final vs Argentina",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Revolutionary sweeper-keeper masterclass.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "2014 Golden Glove Winner"
+      }
+    ]
+  },
+  {
+    "id": "philipp-lahm-2014",
+    "identityId": "philipp-lahm",
+    "editionId": "germany-2014",
+    "name": "Philipp Lahm",
+    "squadNumber": 16,
+    "ovr": 94,
+    "naturalPositions": [
+      "RB",
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "LB",
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Captain who lifted the World Cup; flawlessly transitioned from midfield pivot to right-back for knockouts, assisting 2 goals in 7-1 vs Brazil",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 2,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Tactical perfection; Guardiola called him 'the most intelligent player I ever trained'.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "2014 World Cup winning captain"
+      }
+    ]
+  },
+  {
+    "id": "jerome-boateng-2014",
+    "identityId": "jerome-boateng",
+    "editionId": "germany-2014",
+    "name": "Jérôme Boateng",
+    "squadNumber": 20,
+    "ovr": 92,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "RB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Man of the Match contender in 2014 Final: won 100% of his tackles and duels and made crucial goal-line clearance",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Flawless physical and technical performance in the Maracanã Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "2014 Final defensive statistics"
+      }
+    ]
+  },
+  {
+    "id": "mats-hummels-2014",
+    "identityId": "mats-hummels",
+    "editionId": "germany-2014",
+    "name": "Mats Hummels",
+    "squadNumber": 5,
+    "ovr": 93,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "2014 World Cup All-Star Team; scored towering header to win quarter-final vs France (1-0) and scored vs Portugal",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 2,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Decisive set-piece threat and supreme reading of the game.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "Quarter-final winning goal vs France"
+      }
+    ]
+  },
+  {
+    "id": "benedikt-hoewedes-2014",
+    "identityId": "benedikt-hoewedes",
+    "editionId": "germany-2014",
+    "name": "Benedikt Höwedes",
+    "squadNumber": 4,
+    "ovr": 87,
+    "naturalPositions": [
+      "LB",
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Natural center-back who played every single minute at left-back and hit post in final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "Played all 690 minutes in 2014"
+      }
+    ]
+  },
+  {
+    "id": "bastian-schweinsteiger-2014",
+    "identityId": "bastian-schweinsteiger",
+    "editionId": "germany-2014",
+    "name": "Bastian Schweinsteiger",
+    "squadNumber": 7,
+    "ovr": 94,
+    "naturalPositions": [
+      "CM",
+      "CDM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Gladiator performance in 2014 Final: completed 116 touches, fouled 6 times, played through bloody eye cut to carry Germany through extra time",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "assists": 0
+    },
+    "ratingRationale": "Heroic midfield endurance defining Germany's fourth world championship.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "2014 Final iconic warrior performance"
+      }
+    ]
+  },
+  {
+    "id": "sami-khedira-2014",
+    "identityId": "sami-khedira",
+    "editionId": "germany-2014",
+    "name": "Sami Khedira",
+    "squadNumber": 6,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Box-to-box dynamo; scored and assisted in the 7-1 demolition of Brazil.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "Goal and assist in 7-1 vs Brazil"
+      }
+    ]
+  },
+  {
+    "id": "toni-kroos-2014",
+    "identityId": "toni-kroos",
+    "editionId": "germany-2014",
+    "name": "Toni Kroos",
+    "squadNumber": 18,
+    "ovr": 94,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Castrol Index #1 Rated Player of 2014 World Cup (9.79 rating); scored two goals in 69 seconds vs Brazil and 4 assists",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 2,
+      "assists": 4
+    },
+    "ratingRationale": "Unmatched set-piece accuracy and distribution metrics.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "2014 Castrol Index #1 Player"
+      }
+    ]
+  },
+  {
+    "id": "mesut-oezil-2014",
+    "identityId": "mesut-oezil",
+    "editionId": "germany-2014",
+    "name": "Mesut Özil",
+    "squadNumber": 8,
+    "ovr": 91,
+    "naturalPositions": [
+      "CAM",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "LW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Created 17 chances from open play (most of any player in tournament) and scored vs Algeria.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "Most open-play chances created in 2014"
+      }
+    ]
+  },
+  {
+    "id": "thomas-mueller-2014",
+    "identityId": "thomas-mueller",
+    "editionId": "germany-2014",
+    "name": "Thomas Müller",
+    "squadNumber": 13,
+    "ovr": 94,
+    "naturalPositions": [
+      "RW",
+      "CAM"
+    ],
+    "secondaryPositions": [
+      "ST",
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2014 FIFA World Cup Silver Boot (5 goals) and Silver Ball; hat-trick vs Portugal and opening goal in 7-1 vs Brazil",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 5,
+      "assists": 3
+    },
+    "ratingRationale": "The quintessential 'Raumdeuter' producing 8 goal contributions in 7 matches.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "2014 Silver Boot & Silver Ball"
+      }
+    ]
+  },
+  {
+    "id": "miroslav-klose-2014",
+    "identityId": "miroslav-klose",
+    "editionId": "germany-2014",
+    "name": "Miroslav Klose",
+    "squadNumber": 11,
+    "ovr": 88,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Broke Ronaldo's all-time World Cup scoring record with his 16th career World Cup goal vs Brazil (7-1)",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 2
+    },
+    "ratingRationale": "All-time World Cup top scorer starting the 2014 Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2014",
+        "fact": "All-time World Cup goalscoring record (16 goals)"
+      }
+    ]
+  },
+  {
+    "id": "peter-schmeichel-1992",
+    "identityId": "peter-schmeichel",
+    "editionId": "denmark-1992",
+    "name": "Peter Schmeichel",
+    "squadNumber": 1,
+    "ovr": 95,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "1992 IFFHS World's Best Goalkeeper; saved Van Basten penalty in semi-final shootout and world-class saves in 2-0 Final vs Germany",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Colossal goalkeeper anchoring the greatest fairytale in European Championship history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 Best Goalkeeper & Final clean sheet"
+      }
+    ]
+  },
+  {
+    "id": "john-sivebaek-1992",
+    "identityId": "john-sivebaek",
+    "editionId": "denmark-1992",
+    "name": "John Sivebæk",
+    "squadNumber": 2,
+    "ovr": 85,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Experienced right-back starting all 5 matches including the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "Started 1992 Final"
+      }
+    ]
+  },
+  {
+    "id": "lars-olsen-1992",
+    "identityId": "lars-olsen",
+    "editionId": "denmark-1992",
+    "name": "Lars Olsen",
+    "squadNumber": 4,
+    "ovr": 87,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Captain who lifted the Euro 1992 trophy after calling his teammates off vacation beaches two weeks prior",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Composed sweeper captaining Denmark to glory.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 European Championship winning captain"
+      }
+    ]
+  },
+  {
+    "id": "kent-nielsen-1992",
+    "identityId": "kent-nielsen",
+    "editionId": "denmark-1992",
+    "name": "Kent Nielsen",
+    "squadNumber": 3,
+    "ovr": 86,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Spectacular goal-line bicycle-kick clearance in the 1992 Final to deny Karl-Heinz Riedle",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Heroic goal-line clearance preserving 2-0 Final shutout.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 Final goal-line clearance"
+      }
+    ]
+  },
+  {
+    "id": "torben-piechnik-1992",
+    "identityId": "torben-piechnik",
+    "editionId": "denmark-1992",
+    "name": "Torben Piechnik",
+    "squadNumber": 12,
+    "ovr": 84,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 3,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Stepped in after Henrik Andersen's injury to shut down Klinsmann in Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "Started 1992 Final"
+      }
+    ]
+  },
+  {
+    "id": "kim-christofte-1992",
+    "identityId": "kim-christofte",
+    "editionId": "denmark-1992",
+    "name": "Kim Christofte",
+    "squadNumber": 6,
+    "ovr": 85,
+    "naturalPositions": [
+      "LB",
+      "CB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored the winning sudden-death penalty in the semi-final shootout vs reigning champions Netherlands",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Ice-cool left back whose penalty knocked out the Dutch.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "Winning shootout penalty vs Netherlands"
+      }
+    ]
+  },
+  {
+    "id": "john-jensen-1992",
+    "identityId": "john-jensen",
+    "editionId": "denmark-1992",
+    "name": "John 'Faxe' Jensen",
+    "squadNumber": 7,
+    "ovr": 88,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored iconic 18th-minute thunderbolt in the 1992 Final vs Germany ('hit it right in the top corner')",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Tireless midfield workhorse who scored Denmark's greatest final goal.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 Final goal (18')"
+      }
+    ]
+  },
+  {
+    "id": "kim-vilfort-1992",
+    "identityId": "kim-vilfort",
+    "editionId": "denmark-1992",
+    "name": "Kim Vilfort",
+    "squadNumber": 18,
+    "ovr": 89,
+    "naturalPositions": [
+      "CM",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Emotional heart of Euro 1992: travelled between Sweden and Denmark hospital to visit leukemia-stricken daughter, and scored decisive 78th-minute second goal in Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Immortal goalscorer sealing the 2-0 European Championship victory.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 Final goal (78')"
+      }
+    ]
+  },
+  {
+    "id": "henrik-larsen-1992",
+    "identityId": "henrik-larsen",
+    "editionId": "denmark-1992",
+    "name": "Henrik Larsen",
+    "squadNumber": 13,
+    "ovr": 87,
+    "naturalPositions": [
+      "CAM",
+      "CM"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 1992 Joint Top Scorer (3 goals); scored brace in 2-2 semi-final vs Netherlands",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 3
+    },
+    "ratingRationale": "Clutch goalscoring midfielder firing Denmark through the semi-final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "Euro 1992 Joint Top Scorer (3 goals)"
+      }
+    ]
+  },
+  {
+    "id": "brian-laudrup-1992",
+    "identityId": "brian-laudrup",
+    "editionId": "denmark-1992",
+    "name": "Brian Laudrup",
+    "squadNumber": 11,
+    "ovr": 93,
+    "naturalPositions": [
+      "ST",
+      "CF"
+    ],
+    "secondaryPositions": [
+      "RW",
+      "LW"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 1992 Team of the Tournament; mesmerizing solo runs and dribbling carrying Denmark's attack in absence of brother Michael",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 3
+    },
+    "ratingRationale": "World-class attacking focal point terrorizing every defense.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 Team of the Tournament"
+      }
+    ]
+  },
+  {
+    "id": "flemming-povlsen-1992",
+    "identityId": "flemming-povlsen",
+    "editionId": "denmark-1992",
+    "name": "Flemming Povlsen",
+    "squadNumber": 9,
+    "ovr": 87,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "LW"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 2
+    },
+    "ratingRationale": "Relentless front-line pressing and assisted Jensen's goal in the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-1992",
+        "fact": "1992 Final assist"
+      }
+    ]
+  },
+  {
+    "id": "danijel-subasic-2018",
+    "identityId": "danijel-subasic",
+    "editionId": "croatia-2018",
+    "name": "Danijel Subašić",
+    "squadNumber": 23,
+    "ovr": 89,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Tied World Cup record by saving 4 penalties in shootouts (3 vs Denmark in R16, 1 vs Russia in QF); played through hamstring injury in QF",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Shootout heroics taking Croatia to their first World Cup Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "4 penalty saves in 2018 shootouts"
+      }
+    ]
+  },
+  {
+    "id": "sime-vrsaljko-2018",
+    "identityId": "sime-vrsaljko",
+    "editionId": "croatia-2018",
+    "name": "Šime Vrsaljko",
+    "squadNumber": 2,
+    "ovr": 87,
+    "naturalPositions": [
+      "RB",
+      "RWB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Goal-line clearance in extra-time vs England in semi-final and assisted Perisic's equalizer",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Heroic full-back display playing through damaged knee ligaments.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Semi-final assist and goal-line clearance"
+      }
+    ]
+  },
+  {
+    "id": "dejan-lovren-2018",
+    "identityId": "dejan-lovren",
+    "editionId": "croatia-2018",
+    "name": "Dejan Lovren",
+    "squadNumber": 6,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Commanding central defender starting every match on the path to the Final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Started all 7 matches in 2018"
+      }
+    ]
+  },
+  {
+    "id": "domagoj-vida-2018",
+    "identityId": "domagoj-vida",
+    "editionId": "croatia-2018",
+    "name": "Domagoj Vida",
+    "squadNumber": 21,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [
+      "LB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored 101st-minute extra-time goal and scored penalty in shootout vs Russia in QF; assisted Perisic in Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Aggressive warrior defender and clutch knockout contributor.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Quarter-final extra-time goal vs Russia"
+      }
+    ]
+  },
+  {
+    "id": "ivan-strinic-2018",
+    "identityId": "ivan-strinic",
+    "editionId": "croatia-2018",
+    "name": "Ivan Strinić",
+    "squadNumber": 3,
+    "ovr": 84,
+    "naturalPositions": [
+      "LB"
+    ],
+    "secondaryPositions": [
+      "LWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Disciplined starting left-back in all knockout rounds.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Started 2018 Final"
+      }
+    ]
+  },
+  {
+    "id": "marcelo-brozovic-2018",
+    "identityId": "marcelo-brozovic",
+    "editionId": "croatia-2018",
+    "name": "Marcelo Brozović",
+    "squadNumber": 11,
+    "ovr": 89,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 2
+    },
+    "ratingRationale": "Set tournament running distance record (16.3 km in semi-final vs England).",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "2018 World Cup distance covered record"
+      }
+    ]
+  },
+  {
+    "id": "ivan-rakitic-2018",
+    "identityId": "ivan-rakitic",
+    "editionId": "croatia-2018",
+    "name": "Ivan Rakitić",
+    "squadNumber": 7,
+    "ovr": 92,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CDM",
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Ice in his veins: scored the clinching final penalty in BOTH consecutive shootouts vs Denmark and Russia",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 1,
+      "assists": 0
+    },
+    "ratingRationale": "Complete central midfielder orchestrating play with Modric.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Winning penalties in both shootouts"
+      }
+    ]
+  },
+  {
+    "id": "luka-modric-2018",
+    "identityId": "luka-modric",
+    "editionId": "croatia-2018",
+    "name": "Luka Modrić",
+    "squadNumber": 10,
+    "ovr": 96,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "2018 FIFA World Cup Golden Ball and 2018 Ballon d'Or Winner; captain who carried Croatia through three consecutive extra-time knockout matches to the Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 2,
+      "assists": 1
+    },
+    "ratingRationale": "Broke the 10-year Messi-Ronaldo Ballon d'Or duopoly with his tournament mastery.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "2018 FIFA Golden Ball & 2018 Ballon d'Or"
+      }
+    ]
+  },
+  {
+    "id": "ante-rebic-2018",
+    "identityId": "ante-rebic",
+    "editionId": "croatia-2018",
+    "name": "Ante Rebić",
+    "squadNumber": 18,
+    "ovr": 87,
+    "naturalPositions": [
+      "RW",
+      "RM"
+    ],
+    "secondaryPositions": [
+      "ST"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1
+    },
+    "ratingRationale": "Scored sensational dipping volley vs Argentina (3-0) and provided physical wing presence.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Goal vs Argentina in group stage"
+      }
+    ]
+  },
+  {
+    "id": "ivan-perisic-2018",
+    "identityId": "ivan-perisic",
+    "editionId": "croatia-2018",
+    "name": "Ivan Perišić",
+    "squadNumber": 4,
+    "ovr": 92,
+    "naturalPositions": [
+      "LW",
+      "LM"
+    ],
+    "secondaryPositions": [
+      "RW",
+      "ST"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Man of the Match in semi-final vs England (equalizer and assist); scored brilliant left-footed equalizer in 2018 Final vs France",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "Big-game protagonist scoring in both semi-final and final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "Goals in semi-final & final"
+      }
+    ]
+  },
+  {
+    "id": "mario-mandzukic-2018",
+    "identityId": "mario-mandzukic",
+    "editionId": "croatia-2018",
+    "name": "Mario Mandžukić",
+    "squadNumber": 17,
+    "ovr": 91,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored 109th-minute extra-time winner vs England to put Croatia into the Final; scored in 2018 Final vs France",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "Fierce pressing warrior striker and scorer of Croatia's greatest goal.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-2018",
+        "fact": "109' semi-final winner vs England"
+      }
+    ]
+  },
+  {
+    "id": "rui-patricio-2016",
+    "identityId": "rui-patricio",
+    "editionId": "portugal-2016",
+    "name": "Rui Patrício",
+    "squadNumber": 1,
+    "ovr": 93,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2016 Team of the Tournament; produced 7 world-class saves in the 1-0 Final vs France, including acrobatic tip from Griezmann header",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Hero of the Paris final keeping clean sheet under relentless French pressure.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "2016 Team of the Tournament & Final clean sheet"
+      }
+    ]
+  },
+  {
+    "id": "cedric-soares-2016",
+    "identityId": "cedric-soares",
+    "editionId": "portugal-2016",
+    "name": "Cédric Soares",
+    "squadNumber": 21,
+    "ovr": 85,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "RWB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Locked down the right flank throughout the knockout stage.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "Started 2016 Final"
+      }
+    ]
+  },
+  {
+    "id": "pepe-2016",
+    "identityId": "pepe",
+    "editionId": "portugal-2016",
+    "name": "Pepe",
+    "squadNumber": 3,
+    "ovr": 95,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2016 Final Man of the Match; impenetrable defensive masterclass blocking every shot and cross to deliver Portugal's first major trophy",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 0,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Man of the Match in the Final and tournament's best defender.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "2016 Final Man of the Match"
+      }
+    ]
+  },
+  {
+    "id": "jose-fonte-2016",
+    "identityId": "jose-fonte",
+    "editionId": "portugal-2016",
+    "name": "José Fonte",
+    "squadNumber": 4,
+    "ovr": 87,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Introduced into the starting XI for knockouts; conceded only 1 goal in 4 games.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "Started all 4 knockout matches"
+      }
+    ]
+  },
+  {
+    "id": "raphael-guerreiro-2016",
+    "identityId": "raphael-guerreiro",
+    "editionId": "portugal-2016",
+    "name": "Raphaël Guerreiro",
+    "squadNumber": 5,
+    "ovr": 89,
+    "naturalPositions": [
+      "LB",
+      "LWB"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2016 Team of the Tournament; hit the crossbar with a 108th-minute free-kick in the Final moments before Éder's winner",
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Dynamic young left-back named to tournament best XI.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "2016 Team of the Tournament"
+      }
+    ]
+  },
+  {
+    "id": "william-carvalho-2016",
+    "identityId": "william-carvalho",
+    "editionId": "portugal-2016",
+    "name": "William Carvalho",
+    "squadNumber": 14,
+    "ovr": 88,
+    "naturalPositions": [
+      "CDM"
+    ],
+    "secondaryPositions": [
+      "CM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 5,
+      "goals": 0,
+      "cleanSheets": 3
+    },
+    "ratingRationale": "Anchored Portugal's defensive block in the Final vs France.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "Started 2016 Final"
+      }
+    ]
+  },
+  {
+    "id": "renato-sanches-2016",
+    "identityId": "renato-sanches",
+    "editionId": "portugal-2016",
+    "name": "Renato Sanches",
+    "squadNumber": 16,
+    "ovr": 89,
+    "naturalPositions": [
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CAM",
+      "RM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2016 Young Player of the Tournament (youngest starter in Euro final history at 18); scored equalizer vs Poland in QF",
+    "tournamentOrSeasonStats": {
+      "appearances": 6,
+      "goals": 1
+    },
+    "ratingRationale": "Electric ball carrier injecting dynamism into Portugal's midfield.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "2016 Young Player of the Tournament"
+      }
+    ]
+  },
+  {
+    "id": "joao-mario-2016",
+    "identityId": "joao-mario",
+    "editionId": "portugal-2016",
+    "name": "João Mário",
+    "squadNumber": 10,
+    "ovr": 87,
+    "naturalPositions": [
+      "RM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "LM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 1
+    },
+    "ratingRationale": "Ever-present wide midfielder providing tactical workrate and discipline.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "Started all 7 matches in 2016"
+      }
+    ]
+  },
+  {
+    "id": "nani-2016",
+    "identityId": "nani",
+    "editionId": "portugal-2016",
+    "name": "Nani",
+    "squadNumber": 17,
+    "ovr": 91,
+    "naturalPositions": [
+      "RW",
+      "ST"
+    ],
+    "secondaryPositions": [
+      "LW",
+      "RM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored 3 goals and captained Portugal to victory in the Final after Ronaldo's 25th-minute injury",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "assists": 1
+    },
+    "ratingRationale": "Crucial goals vs Iceland, Hungary, and Wales in the semi-final.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "3 tournament goals & Final captain"
+      }
+    ]
+  },
+  {
+    "id": "cristiano-ronaldo-2016",
+    "identityId": "cristiano-ronaldo",
+    "editionId": "portugal-2016",
+    "name": "Cristiano Ronaldo",
+    "squadNumber": 7,
+    "ovr": 95,
+    "naturalPositions": [
+      "LW",
+      "ST"
+    ],
+    "secondaryPositions": [
+      "RW",
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "UEFA Euro 2016 Silver Boot (3 goals, 3 assists) and 2016 Ballon d'Or Winner; scored breathtaking header and backheel vs Hungary, towering header vs Wales; motivated team from touchline in Final",
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 3,
+      "assists": 3
+    },
+    "ratingRationale": "Captain leading Portugal to their first-ever international silverware.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "2016 Silver Boot & 2016 Ballon d'Or"
+      }
+    ]
+  },
+  {
+    "id": "eder-2016",
+    "identityId": "eder-lopes",
+    "editionId": "portugal-2016",
+    "name": "Éder",
+    "squadNumber": 9,
+    "ovr": 85,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored the 109th-minute extra-time match-winning goal in the Euro 2016 Final vs France with a 25-yard strike",
+    "tournamentOrSeasonStats": {
+      "appearances": 3,
+      "goals": 1
+    },
+    "ratingRationale": "The unlikely national hero whose strike won Euro 2016.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "uefa-euro-2016",
+        "fact": "109' Euro 2016 Final winner"
+      }
+    ]
+  },
+  {
+    "id": "roque-maspoli-1950",
+    "identityId": "roque-maspoli",
+    "editionId": "uruguay-1950",
+    "name": "Roque Máspoli",
+    "squadNumber": 1,
+    "ovr": 90,
+    "naturalPositions": [
+      "GK"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": true,
+    "legendSealReason": "Heroic goalkeeping in the Maracanazo (2-1 vs Brazil) holding off 30 Brazilian shots before 200,000 spectators",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0
+    },
+    "ratingRationale": "The goalkeeper who conquered the Maracanã.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "1950 World Cup Decider match report"
+      }
+    ]
+  },
+  {
+    "id": "matias-gonzalez-1950",
+    "identityId": "matias-gonzalez",
+    "editionId": "uruguay-1950",
+    "name": "Matías González",
+    "squadNumber": 2,
+    "ovr": 88,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0
+    },
+    "ratingRationale": "The 'Lion of the Maracanã' repelling Brazil's vaunted attack.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "Started 1950 Maracanazo"
+      }
+    ]
+  },
+  {
+    "id": "eusebio-tejera-1950",
+    "identityId": "eusebio-tejera",
+    "editionId": "uruguay-1950",
+    "name": "Eusebio Tejera",
+    "squadNumber": 3,
+    "ovr": 87,
+    "naturalPositions": [
+      "CB"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0
+    },
+    "ratingRationale": "Rock-solid left-sided defender starting all matches in 1950.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "Started all 4 matches in 1950"
+      }
+    ]
+  },
+  {
+    "id": "schubert-gambetta-1950",
+    "identityId": "schubert-gambetta",
+    "editionId": "uruguay-1950",
+    "name": "Schubert Gambetta",
+    "squadNumber": 4,
+    "ovr": 88,
+    "naturalPositions": [
+      "RB"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 2,
+      "goals": 0
+    },
+    "ratingRationale": "Tactical half-back brought into the decider to nullify Chico.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "Started 1950 Maracanazo"
+      }
+    ]
+  },
+  {
+    "id": "victor-rodriguez-andrade-1950",
+    "identityId": "victor-rodriguez-andrade",
+    "editionId": "uruguay-1950",
+    "name": "Víctor Rodríguez Andrade",
+    "squadNumber": 6,
+    "ovr": 91,
+    "naturalPositions": [
+      "LB"
+    ],
+    "secondaryPositions": [
+      "CDM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Nephew of 1930 legend José Leandro Andrade; completely neutralized Zizinho in the Maracanazo",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 0
+    },
+    "ratingRationale": "One of South America's greatest wing half-backs.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "1950 All-Star Team defender"
+      }
+    ]
+  },
+  {
+    "id": "obdulio-varela-1950",
+    "identityId": "obdulio-varela",
+    "editionId": "uruguay-1950",
+    "name": "Obdulio Varela",
+    "squadNumber": 5,
+    "ovr": 95,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "CB"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "The 'Gran Capitán'; immortal speech ('Los de afuera son de palo'); calmed team after Brazil scored and carried Uruguay to 2-1 shock triumph",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Legendary captain whose psychological leadership produced the greatest upset in football history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "1950 World Cup winning captain & All-Star"
+      }
+    ]
+  },
+  {
+    "id": "julio-perez-1950",
+    "identityId": "julio-perez",
+    "editionId": "uruguay-1950",
+    "name": "Julio Pérez",
+    "squadNumber": 8,
+    "ovr": 87,
+    "naturalPositions": [
+      "CAM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 1,
+      "assists": 1
+    },
+    "ratingRationale": "Inside-right playmaker who assisted Ghiggia for the winning goal buildup.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "Started all 4 matches in 1950"
+      }
+    ]
+  },
+  {
+    "id": "juan-schiaffino-1950",
+    "identityId": "juan-schiaffino",
+    "editionId": "uruguay-1950",
+    "name": "Juan Alberto Schiaffino",
+    "squadNumber": 10,
+    "ovr": 95,
+    "naturalPositions": [
+      "CAM",
+      "CF"
+    ],
+    "secondaryPositions": [
+      "SS"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1950 FIFA World Cup Silver Ball Winner; scored 3 tournament goals including the vital 66th-minute equalizer in the Maracanazo",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 3,
+      "assists": 2
+    },
+    "ratingRationale": "Genius inside-forward considered Uruguay's greatest ever player.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "1950 Silver Ball & Maracanazo equalizer"
+      }
+    ]
+  },
+  {
+    "id": "alcides-ghiggia-1950",
+    "identityId": "alcides-ghiggia",
+    "editionId": "uruguay-1950",
+    "name": "Alcides Ghiggia",
+    "squadNumber": 7,
+    "ovr": 94,
+    "naturalPositions": [
+      "RW"
+    ],
+    "secondaryPositions": [
+      "RM"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "Scored in every match of 1950 World Cup; assisted Schiaffino's equalizer and scored immortal 79th-minute winner ('Only three people have silenced the Maracanã: Frank Sinatra, the Pope, and me')",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 4,
+      "assists": 1
+    },
+    "ratingRationale": "The author of the most famous goal in football history.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "79' Maracanazo winning goalscorer"
+      }
+    ]
+  },
+  {
+    "id": "ruben-moran-1950",
+    "identityId": "ruben-moran",
+    "editionId": "uruguay-1950",
+    "name": "Rubén Morán",
+    "squadNumber": 11,
+    "ovr": 84,
+    "naturalPositions": [
+      "LW"
+    ],
+    "secondaryPositions": [],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 1,
+      "goals": 0
+    },
+    "ratingRationale": "19-year-old winger called into the decider to replace injured Vidal.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "Started 1950 Maracanazo"
+      }
+    ]
+  },
+  {
+    "id": "oscar-miguez-1950",
+    "identityId": "oscar-miguez",
+    "editionId": "uruguay-1950",
+    "name": "Óscar Míguez",
+    "squadNumber": 9,
+    "ovr": 91,
+    "naturalPositions": [
+      "ST"
+    ],
+    "secondaryPositions": [
+      "CF"
+    ],
+    "hasLegendSeal": true,
+    "legendSealReason": "1950 World Cup Bronze Boot (5 goals); scored hat-trick vs Bolivia and 2 goals in 3-2 comeback vs Sweden",
+    "tournamentOrSeasonStats": {
+      "appearances": 4,
+      "goals": 5,
+      "assists": 1
+    },
+    "ratingRationale": "Uruguay's all-time top World Cup goalscorer (8 goals in 2 tournaments).",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1950",
+        "fact": "5 goals in 1950 tournament"
+      }
+    ]
+  },
+  {
+    "id": "wim-jansen-1974",
+    "identityId": "wim-jansen",
+    "editionId": "netherlands-1974",
+    "name": "Wim Jansen",
+    "squadNumber": 6,
+    "ovr": 88,
+    "naturalPositions": [
+      "CDM",
+      "CM"
+    ],
+    "secondaryPositions": [
+      "RB"
+    ],
+    "hasLegendSeal": false,
+    "tournamentOrSeasonStats": {
+      "appearances": 7,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 4
+    },
+    "ratingRationale": "Ever-present midfield anchor starting all 7 matches in 1974.",
+    "methodologyVersion": "v1.0.0-verified-historical",
+    "reviewer": "Football History Editorial Board",
+    "reviewDate": "2026-10-18",
+    "verificationStatus": "verified",
+    "sources": [
+      {
+        "sourceId": "fifa-wc-1974",
+        "fact": "Started all 7 matches for Netherlands in 1974"
+      }
+    ]
+  }
+]

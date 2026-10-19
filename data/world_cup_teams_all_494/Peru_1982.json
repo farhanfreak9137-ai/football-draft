@@ -1,0 +1,493 @@
+{
+  "teamName": "Peru",
+  "teamCode": "PER",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "peru-1982-eusebio_acasuzo",
+      "identityId": "P-13103",
+      "squadNumber": 1,
+      "name": "Eusebio Acasuzo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-jaime_duarte",
+      "identityId": "P-32834",
+      "squadNumber": 2,
+      "name": "Jaime Duarte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-salvador_salguero",
+      "identityId": "P-60966",
+      "squadNumber": 3,
+      "name": "Salvador Salguero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-hugo_gastulo",
+      "identityId": "P-56412",
+      "squadNumber": 4,
+      "name": "Hugo Gastulo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-germ_n_legu_a",
+      "identityId": "P-85374",
+      "squadNumber": 5,
+      "name": "Germán Leguía",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Peru (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1982-jos_vel_squez",
+      "identityId": "P-72529",
+      "squadNumber": 6,
+      "name": "José Velásquez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-ger_nimo_barbadillo",
+      "identityId": "P-16659",
+      "squadNumber": 7,
+      "name": "Gerónimo Barbadillo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Peru (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "peru-1982-c_sar_cueto",
+      "identityId": "P-23639",
+      "squadNumber": 8,
+      "name": "César Cueto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-julio_c_sar_uribe",
+      "identityId": "P-23072",
+      "squadNumber": 9,
+      "name": "Julio César Uribe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Peru (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1982-te_filo_cubillas",
+      "identityId": "P-96979",
+      "squadNumber": 10,
+      "name": "Teófilo Cubillas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-carlos_juan_oblitas",
+      "identityId": "P-50099",
+      "squadNumber": 11,
+      "name": "Carlos Juan Oblitas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-jos_gonz_lez",
+      "identityId": "P-51887",
+      "squadNumber": 12,
+      "name": "José González",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-oscar_arizaga",
+      "identityId": "P-39268",
+      "squadNumber": 13,
+      "name": "Oscar Arizaga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-miguel_guti_rrez",
+      "identityId": "P-64384",
+      "squadNumber": 14,
+      "name": "Miguel Gutiérrez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-rub_n_toribio_d_az",
+      "identityId": "P-93346",
+      "squadNumber": 15,
+      "name": "Rubén Toribio Díaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-1982-jorge_olaechea",
+      "identityId": "P-55653",
+      "squadNumber": 16,
+      "name": "Jorge Olaechea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-franco_navarro",
+      "identityId": "P-96784",
+      "squadNumber": 17,
+      "name": "Franco Navarro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-eduardo_mal_squez",
+      "identityId": "P-12095",
+      "squadNumber": 18,
+      "name": "Eduardo Malásquez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-guillermo_la_rosa",
+      "identityId": "P-42136",
+      "squadNumber": 19,
+      "name": "Guillermo La Rosa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Peru (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-1982-percy_rojas",
+      "identityId": "P-94008",
+      "squadNumber": 20,
+      "name": "Percy Rojas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "peru-1982-ram_n_quiroga",
+      "identityId": "P-07978",
+      "squadNumber": 21,
+      "name": "Ramón Quiroga",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Peru (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1982-luis_reyna",
+      "identityId": "P-79702",
+      "squadNumber": 22,
+      "name": "Luis Reyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Peru (Group Stage). Squad reserve member."
+    }
+  ]
+}

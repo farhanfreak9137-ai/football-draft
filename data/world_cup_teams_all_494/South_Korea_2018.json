@@ -1,0 +1,511 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "south_korea-2018-seung-gyu_kim",
+      "identityId": "P-42523",
+      "squadNumber": 1,
+      "name": "Seung-gyu Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2018-yong_lee",
+      "identityId": "P-64718",
+      "squadNumber": 2,
+      "name": "Yong Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2018-seung-hyun_jung",
+      "identityId": "P-51199",
+      "squadNumber": 3,
+      "name": "Seung-hyun Jung",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2018-ban-suk_oh",
+      "identityId": "P-26051",
+      "squadNumber": 4,
+      "name": "Ban-suk Oh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2018-young-sun_yun",
+      "identityId": "P-18598",
+      "squadNumber": 5,
+      "name": "Young-sun Yun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-joo-ho_park",
+      "identityId": "P-16489",
+      "squadNumber": 6,
+      "name": "Joo-ho Park",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-heung-min_son",
+      "identityId": "P-77335",
+      "squadNumber": 7,
+      "name": "Heung-min Son",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "south_korea-2018-se-jong_ju",
+      "identityId": "P-09338",
+      "squadNumber": 8,
+      "name": "Se-jong Ju",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-shin-wook_kim",
+      "identityId": "P-15736",
+      "squadNumber": 9,
+      "name": "Shin-wook Kim",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-seung-woo_lee",
+      "identityId": "P-02947",
+      "squadNumber": 10,
+      "name": "Seung-woo Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for South Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "south_korea-2018-hee-chan_hwang",
+      "identityId": "P-58692",
+      "squadNumber": 11,
+      "name": "Hee-chan Hwang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2018-min-woo_kim",
+      "identityId": "P-02609",
+      "squadNumber": 12,
+      "name": "Min-woo Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-ja-cheol_koo",
+      "identityId": "P-47440",
+      "squadNumber": 13,
+      "name": "Ja-cheol Koo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2018-chul_hong",
+      "identityId": "P-91889",
+      "squadNumber": 14,
+      "name": "Chul Hong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-woo-young_jung",
+      "identityId": "P-64292",
+      "squadNumber": 15,
+      "name": "Woo-young Jung",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2018-sung-yueng_ki",
+      "identityId": "P-48433",
+      "squadNumber": 16,
+      "name": "Sung-yueng Ki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2018-jae-sung_lee",
+      "identityId": "P-93920",
+      "squadNumber": 17,
+      "name": "Jae-sung Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2018-seon-min_moon",
+      "identityId": "P-34018",
+      "squadNumber": 18,
+      "name": "Seon-min Moon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for South Korea (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2018-young-gwon_kim",
+      "identityId": "P-07259",
+      "squadNumber": 19,
+      "name": "Young-gwon Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2018-hyun-soo_jang",
+      "identityId": "P-37612",
+      "squadNumber": 20,
+      "name": "Hyun-soo Jang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2018-jin-hyeon_kim",
+      "identityId": "P-29757",
+      "squadNumber": 21,
+      "name": "Jin-hyeon Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for South Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2018-yo-han_go",
+      "identityId": "P-26566",
+      "squadNumber": 22,
+      "name": "Yo-han Go",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for South Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2018-hyeon-woo_jo",
+      "identityId": "P-04157",
+      "squadNumber": 23,
+      "name": "Hyeon-woo Jo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for South Korea (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

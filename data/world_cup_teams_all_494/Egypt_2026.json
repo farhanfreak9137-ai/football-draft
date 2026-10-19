@@ -1,0 +1,512 @@
+{
+  "teamName": "Egypt",
+  "teamCode": "EGY",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "egypt-2026-mohamed_salah",
+      "identityId": "identity-2026-mohamed_salah",
+      "squadNumber": 1,
+      "name": "Mohamed Salah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "African Legend & Premier League Champion"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "African Legend & Premier League Champion",
+      "ratingRationale": "Rated 91 OVR for 2026 World Cup form with Egypt. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "egypt-2026-omar_marmoush",
+      "identityId": "identity-2026-omar_marmoush",
+      "squadNumber": 2,
+      "name": "Omar Marmoush",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Egypt. Regular starting lineup selection."
+    },
+    {
+      "id": "egypt-2026-tr_z_guet",
+      "identityId": "identity-2026-tr_z_guet",
+      "squadNumber": 3,
+      "name": "Trézéguet",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Egypt. Regular starting lineup selection."
+    },
+    {
+      "id": "egypt-2026-mostafa_mohamed",
+      "identityId": "identity-2026-mostafa_mohamed",
+      "squadNumber": 4,
+      "name": "Mostafa Mohamed",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Egypt. Regular starting lineup selection."
+    },
+    {
+      "id": "egypt-2026-mohamed_elneny",
+      "identityId": "identity-2026-mohamed_elneny",
+      "squadNumber": 5,
+      "name": "Mohamed Elneny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. Regular starting lineup selection."
+    },
+    {
+      "id": "egypt-2026-mohamed_el_shenawy",
+      "identityId": "identity-2026-mohamed_el_shenawy",
+      "squadNumber": 6,
+      "name": "Mohamed El Shenawy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Egypt. Regular starting lineup selection."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_7",
+      "identityId": "identity-2026-egypt_squad_member_7",
+      "squadNumber": 7,
+      "name": "Egypt Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_8",
+      "identityId": "identity-2026-egypt_squad_member_8",
+      "squadNumber": 8,
+      "name": "Egypt Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_9",
+      "identityId": "identity-2026-egypt_squad_member_9",
+      "squadNumber": 9,
+      "name": "Egypt Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_10",
+      "identityId": "identity-2026-egypt_squad_member_10",
+      "squadNumber": 10,
+      "name": "Egypt Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_11",
+      "identityId": "identity-2026-egypt_squad_member_11",
+      "squadNumber": 11,
+      "name": "Egypt Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_12",
+      "identityId": "identity-2026-egypt_squad_member_12",
+      "squadNumber": 12,
+      "name": "Egypt Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_13",
+      "identityId": "identity-2026-egypt_squad_member_13",
+      "squadNumber": 13,
+      "name": "Egypt Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_14",
+      "identityId": "identity-2026-egypt_squad_member_14",
+      "squadNumber": 14,
+      "name": "Egypt Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_15",
+      "identityId": "identity-2026-egypt_squad_member_15",
+      "squadNumber": 15,
+      "name": "Egypt Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_16",
+      "identityId": "identity-2026-egypt_squad_member_16",
+      "squadNumber": 16,
+      "name": "Egypt Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_17",
+      "identityId": "identity-2026-egypt_squad_member_17",
+      "squadNumber": 17,
+      "name": "Egypt Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_18",
+      "identityId": "identity-2026-egypt_squad_member_18",
+      "squadNumber": 18,
+      "name": "Egypt Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_19",
+      "identityId": "identity-2026-egypt_squad_member_19",
+      "squadNumber": 19,
+      "name": "Egypt Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_20",
+      "identityId": "identity-2026-egypt_squad_member_20",
+      "squadNumber": 20,
+      "name": "Egypt Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_21",
+      "identityId": "identity-2026-egypt_squad_member_21",
+      "squadNumber": 21,
+      "name": "Egypt Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_22",
+      "identityId": "identity-2026-egypt_squad_member_22",
+      "squadNumber": 22,
+      "name": "Egypt Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    },
+    {
+      "id": "egypt-2026-egypt_squad_member_23",
+      "identityId": "identity-2026-egypt_squad_member_23",
+      "squadNumber": 23,
+      "name": "Egypt Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Egypt. National squad reserve depth."
+    }
+  ]
+}

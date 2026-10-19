@@ -1,0 +1,499 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "PRT",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "portugal-1966-am_rico",
+      "identityId": "P-44487",
+      "squadNumber": 1,
+      "name": "Américo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-joaquim_carvalho",
+      "identityId": "P-67001",
+      "squadNumber": 2,
+      "name": "Joaquim Carvalho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-jos_pereira",
+      "identityId": "P-91257",
+      "squadNumber": 3,
+      "name": "José Pereira",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-vicente",
+      "identityId": "P-53884",
+      "squadNumber": 4,
+      "name": "Vicente",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-germano",
+      "identityId": "P-44233",
+      "squadNumber": 5,
+      "name": "Germano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-fernando_peres",
+      "identityId": "P-70918",
+      "squadNumber": 6,
+      "name": "Fernando Peres",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-ernesto_figueiredo",
+      "identityId": "P-13304",
+      "squadNumber": 7,
+      "name": "Ernesto Figueiredo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-jo_o_louren_o",
+      "identityId": "P-74248",
+      "squadNumber": 8,
+      "name": "João Lourenço",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-hil_rio",
+      "identityId": "P-39642",
+      "squadNumber": 9,
+      "name": "Hilário",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-m_rio_coluna",
+      "identityId": "P-03493",
+      "squadNumber": 10,
+      "name": "Mário Coluna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "portugal-1966-ant_nio_sim_es",
+      "identityId": "P-60225",
+      "squadNumber": 11,
+      "name": "António Simões",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1966 World Cup performance for Portugal (Third Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-1966-jos_augusto",
+      "identityId": "P-67663",
+      "squadNumber": 12,
+      "name": "José Augusto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for Portugal (Third Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "portugal-1966-eus_bio",
+      "identityId": "P-74747",
+      "squadNumber": 13,
+      "name": "Eusébio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 97,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 9,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1966 FIFA World Cup Golden Boot Winner (9 Goals)",
+      "ratingRationale": "Rated 97 OVR based on 1966 World Cup performance for Portugal (Third Place). Tournament standout and starting pillar. Scored 9 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "portugal-1966-fernando_cruz",
+      "identityId": "P-64664",
+      "squadNumber": 14,
+      "name": "Fernando Cruz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-manuel_duarte",
+      "identityId": "P-79162",
+      "squadNumber": 15,
+      "name": "Manuel Duarte",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-jaime_gra_a",
+      "identityId": "P-44642",
+      "squadNumber": 16,
+      "name": "Jaime Graça",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-jo_o_morais",
+      "identityId": "P-36538",
+      "squadNumber": 17,
+      "name": "João Morais",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-jos_torres",
+      "identityId": "P-68398",
+      "squadNumber": 18,
+      "name": "José Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for Portugal (Third Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "portugal-1966-cust_dio_pinto",
+      "identityId": "P-24730",
+      "squadNumber": 19,
+      "name": "Custódio Pinto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-alexandre_baptista",
+      "identityId": "P-58433",
+      "squadNumber": 20,
+      "name": "Alexandre Baptista",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-jos_carlos",
+      "identityId": "P-09642",
+      "squadNumber": 21,
+      "name": "José Carlos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    },
+    {
+      "id": "portugal-1966-alberto_festa",
+      "identityId": "P-60146",
+      "squadNumber": 22,
+      "name": "Alberto Festa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Portugal (Third Place). Squad reserve member."
+    }
+  ]
+}

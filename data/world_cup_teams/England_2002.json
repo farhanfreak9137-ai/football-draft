@@ -1,0 +1,515 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "england-2002-david_seaman",
+      "identityId": "P-13285",
+      "squadNumber": 1,
+      "name": "David Seaman",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2002-danny_mills",
+      "identityId": "P-68164",
+      "squadNumber": 2,
+      "name": "Danny Mills",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2002-ashley_cole",
+      "identityId": "P-16557",
+      "squadNumber": 3,
+      "name": "Ashley Cole",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2002-trevor_sinclair",
+      "identityId": "P-53590",
+      "squadNumber": 4,
+      "name": "Trevor Sinclair",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2002-rio_ferdinand",
+      "identityId": "P-01249",
+      "squadNumber": 5,
+      "name": "Rio Ferdinand",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2002-sol_campbell",
+      "identityId": "P-97840",
+      "squadNumber": 6,
+      "name": "Sol Campbell",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2002-david_beckham",
+      "identityId": "P-81049",
+      "squadNumber": 7,
+      "name": "David Beckham",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2002-paul_scholes",
+      "identityId": "P-63916",
+      "squadNumber": 8,
+      "name": "Paul Scholes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2002-robbie_fowler",
+      "identityId": "P-10663",
+      "squadNumber": 9,
+      "name": "Robbie Fowler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-2002-michael_owen",
+      "identityId": "P-51130",
+      "squadNumber": 10,
+      "name": "Michael Owen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "england-2002-emile_heskey",
+      "identityId": "P-08307",
+      "squadNumber": 11,
+      "name": "Emile Heskey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2002-wes_brown",
+      "identityId": "P-55244",
+      "squadNumber": 12,
+      "name": "Wes Brown",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2002-nigel_martyn",
+      "identityId": "P-93674",
+      "squadNumber": 13,
+      "name": "Nigel Martyn",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2002-wayne_bridge",
+      "identityId": "P-91486",
+      "squadNumber": 14,
+      "name": "Wayne Bridge",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-2002-martin_keown",
+      "identityId": "P-90384",
+      "squadNumber": 15,
+      "name": "Martin Keown",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2002-gareth_southgate",
+      "identityId": "P-79943",
+      "squadNumber": 16,
+      "name": "Gareth Southgate",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2002-teddy_sheringham",
+      "identityId": "P-94825",
+      "squadNumber": 17,
+      "name": "Teddy Sheringham",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "england-2002-owen_hargreaves",
+      "identityId": "P-61216",
+      "squadNumber": 18,
+      "name": "Owen Hargreaves",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2002-joe_cole",
+      "identityId": "P-37933",
+      "squadNumber": 19,
+      "name": "Joe Cole",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-2002-darius_vassell",
+      "identityId": "P-00447",
+      "squadNumber": 20,
+      "name": "Darius Vassell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2002-nicky_butt",
+      "identityId": "P-03723",
+      "squadNumber": 21,
+      "name": "Nicky Butt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-2002-david_james",
+      "identityId": "P-59324",
+      "squadNumber": 22,
+      "name": "David James",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2002-kieron_dyer",
+      "identityId": "P-34406",
+      "squadNumber": 23,
+      "name": "Kieron Dyer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for England (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    }
+  ]
+}

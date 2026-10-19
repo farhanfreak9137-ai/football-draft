@@ -1,0 +1,494 @@
+{
+  "teamName": "East Germany",
+  "teamCode": "DDR",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "east_germany-1974-j_rgen_croy",
+      "identityId": "P-79032",
+      "squadNumber": 1,
+      "name": "Jürgen Croy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "east_germany-1974-lothar_kurbjuweit",
+      "identityId": "P-55761",
+      "squadNumber": 2,
+      "name": "Lothar Kurbjuweit",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "east_germany-1974-bernd_bransch",
+      "identityId": "P-18468",
+      "squadNumber": 3,
+      "name": "Bernd Bransch",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "east_germany-1974-konrad_weise",
+      "identityId": "P-72348",
+      "squadNumber": 4,
+      "name": "Konrad Weise",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "east_germany-1974-joachim_fritsche",
+      "identityId": "P-88482",
+      "squadNumber": 5,
+      "name": "Joachim Fritsche",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for East Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "east_germany-1974-r_diger_schnuphase",
+      "identityId": "P-34021",
+      "squadNumber": 6,
+      "name": "Rüdiger Schnuphase",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for East Germany (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "east_germany-1974-j_rgen_pommerenke",
+      "identityId": "P-24093",
+      "squadNumber": 7,
+      "name": "Jürgen Pommerenke",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "east_germany-1974-wolfram_l_we",
+      "identityId": "P-08298",
+      "squadNumber": 8,
+      "name": "Wolfram Löwe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "east_germany-1974-peter_ducke",
+      "identityId": "P-62195",
+      "squadNumber": 9,
+      "name": "Peter Ducke",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for East Germany (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "east_germany-1974-hans-j_rgen_kreische",
+      "identityId": "P-87788",
+      "squadNumber": 10,
+      "name": "Hans-Jürgen Kreische",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for East Germany (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "east_germany-1974-joachim_streich",
+      "identityId": "P-91963",
+      "squadNumber": 11,
+      "name": "Joachim Streich",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "east_germany-1974-siegmar_w_tzlich",
+      "identityId": "P-57266",
+      "squadNumber": 12,
+      "name": "Siegmar Wätzlich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "east_germany-1974-reinhard_lauck",
+      "identityId": "P-73521",
+      "squadNumber": 13,
+      "name": "Reinhard Lauck",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "east_germany-1974-j_rgen_sparwasser",
+      "identityId": "P-27040",
+      "squadNumber": 14,
+      "name": "Jürgen Sparwasser",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "east_germany-1974-eberhard_vogel",
+      "identityId": "P-53970",
+      "squadNumber": 15,
+      "name": "Eberhard Vogel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for East Germany (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "east_germany-1974-harald_irmscher",
+      "identityId": "P-46189",
+      "squadNumber": 16,
+      "name": "Harald Irmscher",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "east_germany-1974-erich_hamann",
+      "identityId": "P-73193",
+      "squadNumber": 17,
+      "name": "Erich Hamann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for East Germany (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "east_germany-1974-gerd_kische",
+      "identityId": "P-12102",
+      "squadNumber": 18,
+      "name": "Gerd Kische",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "east_germany-1974-wolfgang_seguin",
+      "identityId": "P-04924",
+      "squadNumber": 19,
+      "name": "Wolfgang Seguin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for East Germany (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "east_germany-1974-martin_hoffmann",
+      "identityId": "P-57624",
+      "squadNumber": 20,
+      "name": "Martin Hoffmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for East Germany (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "east_germany-1974-wolfgang_blochwitz",
+      "identityId": "P-54611",
+      "squadNumber": 21,
+      "name": "Wolfgang Blochwitz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for East Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "east_germany-1974-werner_friese",
+      "identityId": "P-01760",
+      "squadNumber": 22,
+      "name": "Werner Friese",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for East Germany (Round of 16). Squad reserve member."
+    }
+  ]
+}

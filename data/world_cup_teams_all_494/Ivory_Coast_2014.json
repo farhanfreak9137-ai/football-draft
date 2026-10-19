@@ -1,0 +1,518 @@
+{
+  "teamName": "Ivory Coast",
+  "teamCode": "CIV",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "ivory_coast-2014-boubacar_barry",
+      "identityId": "P-30753",
+      "squadNumber": 1,
+      "name": "Boubacar Barry",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-ousmane_viera",
+      "identityId": "P-65804",
+      "squadNumber": 2,
+      "name": "Ousmane Viera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2014-arthur_boka",
+      "identityId": "P-08544",
+      "squadNumber": 3,
+      "name": "Arthur Boka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-kolo_tour_",
+      "identityId": "P-25398",
+      "squadNumber": 4,
+      "name": "Kolo Touré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2014-didier_zokora",
+      "identityId": "P-48968",
+      "squadNumber": 5,
+      "name": "Didier Zokora",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2014-mathis_bolly",
+      "identityId": "P-23169",
+      "squadNumber": 6,
+      "name": "Mathis Bolly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2014-jean-daniel_akpa_akpro",
+      "identityId": "P-42905",
+      "squadNumber": 7,
+      "name": "Jean-Daniel Akpa Akpro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2014-salomon_kalou",
+      "identityId": "P-31976",
+      "squadNumber": 8,
+      "name": "Salomon Kalou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ivory_coast-2014-cheick_tiot_",
+      "identityId": "P-19801",
+      "squadNumber": 9,
+      "name": "Cheick Tioté",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-gervinho",
+      "identityId": "P-33586",
+      "squadNumber": 10,
+      "name": "Gervinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2014-didier_drogba",
+      "identityId": "P-99466",
+      "squadNumber": 11,
+      "name": "Didier Drogba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2014-wilfried_bony",
+      "identityId": "P-84532",
+      "squadNumber": 12,
+      "name": "Wilfried Bony",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "ivory_coast-2014-didier_ya_konan",
+      "identityId": "P-20974",
+      "squadNumber": 13,
+      "name": "Didier Ya Konan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2014-isma_l_diomand_",
+      "identityId": "P-07076",
+      "squadNumber": 14,
+      "name": "Ismaël Diomandé",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2014-max_gradel",
+      "identityId": "P-10731",
+      "squadNumber": 15,
+      "name": "Max Gradel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ivory_coast-2014-sylvain_gbohouo",
+      "identityId": "P-25845",
+      "squadNumber": 16,
+      "name": "Sylvain Gbohouo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ivory_coast-2014-serge_aurier",
+      "identityId": "P-43440",
+      "squadNumber": 17,
+      "name": "Serge Aurier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-constant_djakpa",
+      "identityId": "P-75959",
+      "squadNumber": 18,
+      "name": "Constant Djakpa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2014-yaya_tour_",
+      "identityId": "P-44934",
+      "squadNumber": 19,
+      "name": "Yaya Touré",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-serey_di_",
+      "identityId": "P-54100",
+      "squadNumber": 20,
+      "name": "Serey Dié",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-giovanni_sio",
+      "identityId": "P-33115",
+      "squadNumber": 21,
+      "name": "Giovanni Sio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ivory_coast-2014-sol_bamba",
+      "identityId": "P-55416",
+      "squadNumber": 22,
+      "name": "Sol Bamba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ivory_coast-2014-sayouba_mand_",
+      "identityId": "P-89713",
+      "squadNumber": 23,
+      "name": "Sayouba Mandé",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Ivory Coast (Group Stage). Squad reserve member."
+    }
+  ]
+}

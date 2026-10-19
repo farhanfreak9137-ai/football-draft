@@ -1,0 +1,516 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "united_states-2014-tim_howard",
+      "identityId": "P-50522",
+      "squadNumber": 1,
+      "name": "Tim Howard",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2014-deandre_yedlin",
+      "identityId": "P-95273",
+      "squadNumber": 2,
+      "name": "DeAndre Yedlin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for United States (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "united_states-2014-omar_gonzalez",
+      "identityId": "P-20244",
+      "squadNumber": 3,
+      "name": "Omar Gonzalez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for United States (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2014-michael_bradley",
+      "identityId": "P-97258",
+      "squadNumber": 4,
+      "name": "Michael Bradley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2014-matt_besler",
+      "identityId": "P-95009",
+      "squadNumber": 5,
+      "name": "Matt Besler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2014-john_brooks",
+      "identityId": "P-41262",
+      "squadNumber": 6,
+      "name": "John Brooks",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for United States (Round of 16). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2014-damarcus_beasley",
+      "identityId": "P-91976",
+      "squadNumber": 7,
+      "name": "DaMarcus Beasley",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2014-clint_dempsey",
+      "identityId": "P-18672",
+      "squadNumber": 8,
+      "name": "Clint Dempsey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "united_states-2014-aron_j_hannsson",
+      "identityId": "P-01169",
+      "squadNumber": 9,
+      "name": "Aron Jóhannsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for United States (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-2014-mix_diskerud",
+      "identityId": "P-24300",
+      "squadNumber": 10,
+      "name": "Mix Diskerud",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2014-alejandro_bedoya",
+      "identityId": "P-09053",
+      "squadNumber": 11,
+      "name": "Alejandro Bedoya",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2014-brad_guzan",
+      "identityId": "P-58476",
+      "squadNumber": 12,
+      "name": "Brad Guzan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2014-jermaine_jones",
+      "identityId": "P-10072",
+      "squadNumber": 13,
+      "name": "Jermaine Jones",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2014-brad_davis",
+      "identityId": "P-41052",
+      "squadNumber": 14,
+      "name": "Brad Davis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2014-kyle_beckerman",
+      "identityId": "P-45750",
+      "squadNumber": 15,
+      "name": "Kyle Beckerman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2014-julian_green",
+      "identityId": "P-91438",
+      "squadNumber": 16,
+      "name": "Julian Green",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for United States (Round of 16). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2014-jozy_altidore",
+      "identityId": "P-07475",
+      "squadNumber": 17,
+      "name": "Jozy Altidore",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2014-chris_wondolowski",
+      "identityId": "P-78024",
+      "squadNumber": 18,
+      "name": "Chris Wondolowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2014-graham_zusi",
+      "identityId": "P-51653",
+      "squadNumber": 19,
+      "name": "Graham Zusi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2014-geoff_cameron",
+      "identityId": "P-31173",
+      "squadNumber": 20,
+      "name": "Geoff Cameron",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2014-timothy_chandler",
+      "identityId": "P-98378",
+      "squadNumber": 21,
+      "name": "Timothy Chandler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2014-nick_rimando",
+      "identityId": "P-78113",
+      "squadNumber": 22,
+      "name": "Nick Rimando",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2014-fabian_johnson",
+      "identityId": "P-71933",
+      "squadNumber": 23,
+      "name": "Fabian Johnson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

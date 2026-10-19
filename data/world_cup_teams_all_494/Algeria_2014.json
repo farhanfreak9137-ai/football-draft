@@ -1,0 +1,517 @@
+{
+  "teamName": "Algeria",
+  "teamCode": "DZA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "algeria-2014-c_dric_si_mohamed",
+      "identityId": "P-96937",
+      "squadNumber": 1,
+      "name": "Cédric Si Mohamed",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Algeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "algeria-2014-madjid_bougherra",
+      "identityId": "P-21116",
+      "squadNumber": 2,
+      "name": "Madjid Bougherra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-faouzi_ghoulam",
+      "identityId": "P-55717",
+      "squadNumber": 3,
+      "name": "Faouzi Ghoulam",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-essa_d_belkalem",
+      "identityId": "P-41251",
+      "squadNumber": 4,
+      "name": "Essaïd Belkalem",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-rafik_halliche",
+      "identityId": "P-19453",
+      "squadNumber": 5,
+      "name": "Rafik Halliche",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "algeria-2014-djamel_mesbah",
+      "identityId": "P-09059",
+      "squadNumber": 6,
+      "name": "Djamel Mesbah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-hassan_yebda",
+      "identityId": "P-70560",
+      "squadNumber": 7,
+      "name": "Hassan Yebda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Algeria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "algeria-2014-mehdi_lacen",
+      "identityId": "P-23484",
+      "squadNumber": 8,
+      "name": "Mehdi Lacen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "algeria-2014-nabil_ghilas",
+      "identityId": "P-31598",
+      "squadNumber": 9,
+      "name": "Nabil Ghilas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Algeria (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "algeria-2014-sofiane_feghouli",
+      "identityId": "P-12165",
+      "squadNumber": 10,
+      "name": "Sofiane Feghouli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "algeria-2014-yacine_brahimi",
+      "identityId": "P-24983",
+      "squadNumber": 11,
+      "name": "Yacine Brahimi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "algeria-2014-carl_medjani",
+      "identityId": "P-21704",
+      "squadNumber": 12,
+      "name": "Carl Medjani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "algeria-2014-islam_slimani",
+      "identityId": "P-59199",
+      "squadNumber": 13,
+      "name": "Islam Slimani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "algeria-2014-nabil_bentaleb",
+      "identityId": "P-96340",
+      "squadNumber": 14,
+      "name": "Nabil Bentaleb",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "algeria-2014-hillal_soudani",
+      "identityId": "P-63360",
+      "squadNumber": 15,
+      "name": "Hillal Soudani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-mohamed_zemmamouche",
+      "identityId": "P-52593",
+      "squadNumber": 16,
+      "name": "Mohamed Zemmamouche",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Algeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "algeria-2014-liassine_cadamuro-benta_ba",
+      "identityId": "P-98016",
+      "squadNumber": 17,
+      "name": "Liassine Cadamuro-Bentaïba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Algeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "algeria-2014-abdelmoumene_djabou",
+      "identityId": "P-59147",
+      "squadNumber": 18,
+      "name": "Abdelmoumene Djabou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "algeria-2014-saphir_ta_der",
+      "identityId": "P-83421",
+      "squadNumber": 19,
+      "name": "Saphir Taïder",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-a_ssa_mandi",
+      "identityId": "P-58383",
+      "squadNumber": 20,
+      "name": "Aïssa Mandi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "algeria-2014-riyad_mahrez",
+      "identityId": "P-91590",
+      "squadNumber": 21,
+      "name": "Riyad Mahrez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "algeria-2014-mehdi_mostefa",
+      "identityId": "P-09673",
+      "squadNumber": 22,
+      "name": "Mehdi Mostefa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Algeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "algeria-2014-ra_s_mbolhi",
+      "identityId": "P-00596",
+      "squadNumber": 23,
+      "name": "Raïs M'Bolhi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Algeria (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

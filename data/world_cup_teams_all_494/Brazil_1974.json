@@ -1,0 +1,495 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "brazil-1974-le_o",
+      "identityId": "P-06015",
+      "squadNumber": 1,
+      "name": "Leão",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1974-lu_s_pereira",
+      "identityId": "P-87744",
+      "squadNumber": 2,
+      "name": "Luís Pereira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-1974-marinho_peres",
+      "identityId": "P-89772",
+      "squadNumber": 3,
+      "name": "Marinho Peres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1974-z_maria",
+      "identityId": "P-72683",
+      "squadNumber": 4,
+      "name": "Zé Maria",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-1974-piazza",
+      "identityId": "P-02965",
+      "squadNumber": 5,
+      "name": "Piazza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-1974-marinho_chagas",
+      "identityId": "P-81415",
+      "squadNumber": 6,
+      "name": "Marinho Chagas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-1974-jairzinho",
+      "identityId": "P-77430",
+      "squadNumber": 7,
+      "name": "Jairzinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1974-leivinha",
+      "identityId": "P-50358",
+      "squadNumber": 8,
+      "name": "Leivinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-1974-c_sar",
+      "identityId": "P-73846",
+      "squadNumber": 9,
+      "name": "César",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "brazil-1974-rivellino",
+      "identityId": "P-85778",
+      "squadNumber": 10,
+      "name": "Rivellino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "brazil-1974-caju",
+      "identityId": "P-65181",
+      "squadNumber": 11,
+      "name": "Caju",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1974-renato",
+      "identityId": "P-60490",
+      "squadNumber": 12,
+      "name": "Renato",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "brazil-1974-valdomiro",
+      "identityId": "P-89117",
+      "squadNumber": 13,
+      "name": "Valdomiro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1974-nelinho",
+      "identityId": "P-48382",
+      "squadNumber": 14,
+      "name": "Nelinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-1974-alfredo",
+      "identityId": "P-06277",
+      "squadNumber": 15,
+      "name": "Alfredo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1974-marco_ant_nio",
+      "identityId": "P-15663",
+      "squadNumber": 16,
+      "name": "Marco Antônio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "brazil-1974-carpegiani",
+      "identityId": "P-07188",
+      "squadNumber": 17,
+      "name": "Carpegiani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1974-ademir_da_guia",
+      "identityId": "P-41064",
+      "squadNumber": 18,
+      "name": "Ademir da Guia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1974-mirandinha",
+      "identityId": "P-01779",
+      "squadNumber": 19,
+      "name": "Mirandinha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1974-edu",
+      "identityId": "P-49805",
+      "squadNumber": 20,
+      "name": "Edu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1974-dirceu",
+      "identityId": "P-89519",
+      "squadNumber": 21,
+      "name": "Dirceu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-1974-waldir_peres",
+      "identityId": "P-60866",
+      "squadNumber": 22,
+      "name": "Waldir Peres",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Brazil (Fourth Place). Squad reserve member."
+    }
+  ]
+}

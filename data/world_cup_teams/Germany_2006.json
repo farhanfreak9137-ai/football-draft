@@ -1,0 +1,520 @@
+{
+  "teamName": "Germany",
+  "teamCode": "DEU",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "germany-2006-jens_lehmann",
+      "identityId": "P-98511",
+      "squadNumber": 1,
+      "name": "Jens Lehmann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2006-marcell_jansen",
+      "identityId": "P-50326",
+      "squadNumber": 2,
+      "name": "Marcell Jansen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2006-arne_friedrich",
+      "identityId": "P-43481",
+      "squadNumber": 3,
+      "name": "Arne Friedrich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2006-robert_huth",
+      "identityId": "P-27557",
+      "squadNumber": 4,
+      "name": "Robert Huth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2006-sebastian_kehl",
+      "identityId": "P-51287",
+      "squadNumber": 5,
+      "name": "Sebastian Kehl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Germany (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2006-jens_nowotny",
+      "identityId": "P-94304",
+      "squadNumber": 6,
+      "name": "Jens Nowotny",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2006-bastian_schweinsteiger",
+      "identityId": "P-43400",
+      "squadNumber": 7,
+      "name": "Bastian Schweinsteiger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "germany-2006-torsten_frings",
+      "identityId": "P-35264",
+      "squadNumber": 8,
+      "name": "Torsten Frings",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2006-mike_hanke",
+      "identityId": "P-27261",
+      "squadNumber": 9,
+      "name": "Mike Hanke",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Germany (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2006-oliver_neuville",
+      "identityId": "P-55504",
+      "squadNumber": 10,
+      "name": "Oliver Neuville",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 7,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Germany (Third Place). Substitute rotation option (7 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2006-miroslav_klose",
+      "identityId": "P-27787",
+      "squadNumber": 11,
+      "name": "Miroslav Klose",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2006 FIFA World Cup Golden Boot Winner (5 Goals)",
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "germany-2006-oliver_kahn",
+      "identityId": "P-33751",
+      "squadNumber": 12,
+      "name": "Oliver Kahn",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2006-michael_ballack",
+      "identityId": "P-84003",
+      "squadNumber": 13,
+      "name": "Michael Ballack",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-2006-gerald_asamoah",
+      "identityId": "P-25543",
+      "squadNumber": 14,
+      "name": "Gerald Asamoah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Germany (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2006-thomas_hitzlsperger",
+      "identityId": "P-73973",
+      "squadNumber": 15,
+      "name": "Thomas Hitzlsperger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Germany (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2006-philipp_lahm",
+      "identityId": "P-18599",
+      "squadNumber": 16,
+      "name": "Philipp Lahm",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2006-per_mertesacker",
+      "identityId": "P-02328",
+      "squadNumber": 17,
+      "name": "Per Mertesacker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2006-tim_borowski",
+      "identityId": "P-08154",
+      "squadNumber": 18,
+      "name": "Tim Borowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Germany (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2006-bernd_schneider",
+      "identityId": "P-32136",
+      "squadNumber": 19,
+      "name": "Bernd Schneider",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2006-lukas_podolski",
+      "identityId": "P-36287",
+      "squadNumber": 20,
+      "name": "Lukas Podolski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es). Scored 3 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "germany-2006-christoph_metzelder",
+      "identityId": "P-04065",
+      "squadNumber": 21,
+      "name": "Christoph Metzelder",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2006-david_odonkor",
+      "identityId": "P-24324",
+      "squadNumber": 22,
+      "name": "David Odonkor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Germany (Third Place). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "germany-2006-timo_hildebrand",
+      "identityId": "P-30693",
+      "squadNumber": 23,
+      "name": "Timo Hildebrand",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Germany (Third Place). Squad reserve member."
+    }
+  ]
+}

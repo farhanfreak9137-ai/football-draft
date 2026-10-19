@@ -1,0 +1,514 @@
+{
+  "teamName": "North Korea",
+  "teamCode": "PRK",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "north_korea-2010-myong-guk_ri",
+      "identityId": "P-08689",
+      "squadNumber": 1,
+      "name": "Myong-guk Ri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-jong-hyok_cha",
+      "identityId": "P-44308",
+      "squadNumber": 2,
+      "name": "Jong-hyok Cha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-jun-il_ri",
+      "identityId": "P-66310",
+      "squadNumber": 3,
+      "name": "Jun-il Ri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-nam-chol_pak",
+      "identityId": "P-56547",
+      "squadNumber": 4,
+      "name": "Nam-chol Pak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-kwang-chon_ri",
+      "identityId": "P-72474",
+      "squadNumber": 5,
+      "name": "Kwang-chon Ri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-kum-il_kim",
+      "identityId": "P-08049",
+      "squadNumber": 6,
+      "name": "Kum-il Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for North Korea (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "north_korea-2010-chol-hyok_an",
+      "identityId": "P-84945",
+      "squadNumber": 7,
+      "name": "Chol-hyok An",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-yun-nam_ji",
+      "identityId": "P-01454",
+      "squadNumber": 8,
+      "name": "Yun-nam Ji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "north_korea-2010-tae-se_jong",
+      "identityId": "P-04397",
+      "squadNumber": 9,
+      "name": "Tae-se Jong",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-yong-jo_hong",
+      "identityId": "P-57041",
+      "squadNumber": 10,
+      "name": "Yong-jo Hong",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-in-guk_mun",
+      "identityId": "P-91408",
+      "squadNumber": 11,
+      "name": "In-guk Mun",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-kum-chol_choe",
+      "identityId": "P-92121",
+      "squadNumber": 12,
+      "name": "Kum-chol Choe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for North Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "north_korea-2010-chol-jin_pak",
+      "identityId": "P-35746",
+      "squadNumber": 13,
+      "name": "Chol-jin Pak",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-nam-chol_pak",
+      "identityId": "P-47780",
+      "squadNumber": 14,
+      "name": "Nam-Chol Pak",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-yong-jun_kim",
+      "identityId": "P-02525",
+      "squadNumber": 15,
+      "name": "Yong-jun Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for North Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "north_korea-2010-song-chol_nam",
+      "identityId": "P-98982",
+      "squadNumber": 16,
+      "name": "Song-chol Nam",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for North Korea (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "north_korea-2010-yong-hak_an",
+      "identityId": "P-16478",
+      "squadNumber": 17,
+      "name": "Yong-hak An",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for North Korea (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "north_korea-2010-myong-gil_kim",
+      "identityId": "P-42392",
+      "squadNumber": 18,
+      "name": "Myong-gil Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-chol-myong_ri",
+      "identityId": "P-40949",
+      "squadNumber": 19,
+      "name": "Chol-myong Ri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-myong-won_kim",
+      "identityId": "P-80634",
+      "squadNumber": 20,
+      "name": "Myong-won Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-kwang-hyok_ri",
+      "identityId": "P-79720",
+      "squadNumber": 21,
+      "name": "Kwang-hyok Ri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-kyong-il_kim",
+      "identityId": "P-49251",
+      "squadNumber": 22,
+      "name": "Kyong-il Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "north_korea-2010-il-gwan_jong",
+      "identityId": "P-79551",
+      "squadNumber": 23,
+      "name": "Il-gwan Jong",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for North Korea (Group Stage). Squad reserve member."
+    }
+  ]
+}

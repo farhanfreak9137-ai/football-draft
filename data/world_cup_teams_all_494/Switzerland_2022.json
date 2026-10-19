@@ -1,0 +1,576 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "CHE",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "switzerland-2022-yann_sommer",
+      "identityId": "P-63312",
+      "squadNumber": 1,
+      "name": "Yann Sommer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2022-edimilson_fernandes",
+      "identityId": "P-29932",
+      "squadNumber": 2,
+      "name": "Edimilson Fernandes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2022-silvan_widmer",
+      "identityId": "P-38927",
+      "squadNumber": 3,
+      "name": "Silvan Widmer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2022-nico_elvedi",
+      "identityId": "P-19193",
+      "squadNumber": 4,
+      "name": "Nico Elvedi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2022-manuel_akanji",
+      "identityId": "P-23925",
+      "squadNumber": 5,
+      "name": "Manuel Akanji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2022-denis_zakaria",
+      "identityId": "P-83560",
+      "squadNumber": 6,
+      "name": "Denis Zakaria",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2022-breel_embolo",
+      "identityId": "P-19075",
+      "squadNumber": 7,
+      "name": "Breel Embolo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "switzerland-2022-remo_freuler",
+      "identityId": "P-68060",
+      "squadNumber": 8,
+      "name": "Remo Freuler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2022-haris_seferovic",
+      "identityId": "P-07180",
+      "squadNumber": 9,
+      "name": "Haris Seferovic",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "switzerland-2022-granit_xhaka",
+      "identityId": "P-77224",
+      "squadNumber": 10,
+      "name": "Granit Xhaka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2022-renato_steffen",
+      "identityId": "P-20482",
+      "squadNumber": 11,
+      "name": "Renato Steffen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2022-jonas_omlin",
+      "identityId": "P-75926",
+      "squadNumber": 12,
+      "name": "Jonas Omlin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2022-ricardo_rodr_guez",
+      "identityId": "P-43367",
+      "squadNumber": 13,
+      "name": "Ricardo Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2022-michel_aebischer",
+      "identityId": "P-32222",
+      "squadNumber": 14,
+      "name": "Michel Aebischer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2022-djibril_sow",
+      "identityId": "P-11878",
+      "squadNumber": 15,
+      "name": "Djibril Sow",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2022-christian_fassnacht",
+      "identityId": "P-71875",
+      "squadNumber": 16,
+      "name": "Christian Fassnacht",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2022-ruben_vargas",
+      "identityId": "P-85823",
+      "squadNumber": 17,
+      "name": "Ruben Vargas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "switzerland-2022-eray_c_mert",
+      "identityId": "P-56868",
+      "squadNumber": 18,
+      "name": "Eray Cömert",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2022-noah_okafor",
+      "identityId": "P-85577",
+      "squadNumber": 19,
+      "name": "Noah Okafor",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "switzerland-2022-fabian_frei",
+      "identityId": "P-00244",
+      "squadNumber": 20,
+      "name": "Fabian Frei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2022-gregor_kobel",
+      "identityId": "P-06076",
+      "squadNumber": 21,
+      "name": "Gregor Kobel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2022-fabian_sch_r",
+      "identityId": "P-25131",
+      "squadNumber": 22,
+      "name": "Fabian Schär",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2022-xherdan_shaqiri",
+      "identityId": "P-39460",
+      "squadNumber": 23,
+      "name": "Xherdan Shaqiri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2022-philipp_k_hn",
+      "identityId": "P-38800",
+      "squadNumber": 24,
+      "name": "Philipp Köhn",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2022-fabian_rieder",
+      "identityId": "P-25593",
+      "squadNumber": 25,
+      "name": "Fabian Rieder",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2022-ardon_jashari",
+      "identityId": "P-17496",
+      "squadNumber": 26,
+      "name": "Ardon Jashari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Switzerland (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

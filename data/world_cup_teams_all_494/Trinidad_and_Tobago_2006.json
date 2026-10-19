@@ -1,0 +1,522 @@
+{
+  "teamName": "Trinidad and Tobago",
+  "teamCode": "TTO",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "trinidad_and_tobago-2006-shaka_hislop",
+      "identityId": "P-09117",
+      "squadNumber": 1,
+      "name": "Shaka Hislop",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-ian_cox",
+      "identityId": "P-57974",
+      "squadNumber": 2,
+      "name": "Ian Cox",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-avery_john",
+      "identityId": "P-86728",
+      "squadNumber": 3,
+      "name": "Avery John",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-marvin_andrews",
+      "identityId": "P-77807",
+      "squadNumber": 4,
+      "name": "Marvin Andrews",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-brent_sancho",
+      "identityId": "P-52480",
+      "squadNumber": 5,
+      "name": "Brent Sancho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-dennis_lawrence",
+      "identityId": "P-49762",
+      "squadNumber": 6,
+      "name": "Dennis Lawrence",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-chris_birchall",
+      "identityId": "P-05918",
+      "squadNumber": 7,
+      "name": "Chris Birchall",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-cyd_gray",
+      "identityId": "P-40120",
+      "squadNumber": 8,
+      "name": "Cyd Gray",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-aurtis_whitley",
+      "identityId": "P-77687",
+      "squadNumber": 9,
+      "name": "Aurtis Whitley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-russell_latapy",
+      "identityId": "P-61974",
+      "squadNumber": 10,
+      "name": "Russell Latapy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-carlos_edwards",
+      "identityId": "P-52850",
+      "squadNumber": 11,
+      "name": "Carlos Edwards",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-collin_samuel",
+      "identityId": "P-56282",
+      "squadNumber": 12,
+      "name": "Collin Samuel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-cornell_glen",
+      "identityId": "P-78050",
+      "squadNumber": 13,
+      "name": "Cornell Glen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-stern_john",
+      "identityId": "P-88830",
+      "squadNumber": 14,
+      "name": "Stern John",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-kenwyne_jones",
+      "identityId": "P-33665",
+      "squadNumber": 15,
+      "name": "Kenwyne Jones",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-evans_wise",
+      "identityId": "P-03524",
+      "squadNumber": 16,
+      "name": "Evans Wise",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-david_atiba_charles",
+      "identityId": "P-23065",
+      "squadNumber": 17,
+      "name": "David Atiba Charles",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-densill_theobald",
+      "identityId": "P-22492",
+      "squadNumber": 18,
+      "name": "Densill Theobald",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-dwight_yorke",
+      "identityId": "P-94201",
+      "squadNumber": 19,
+      "name": "Dwight Yorke",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-jason_scotland",
+      "identityId": "P-62644",
+      "squadNumber": 20,
+      "name": "Jason Scotland",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-kelvin_jack",
+      "identityId": "P-74150",
+      "squadNumber": 21,
+      "name": "Kelvin Jack",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-clayton_ince",
+      "identityId": "P-34430",
+      "squadNumber": 22,
+      "name": "Clayton Ince",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "trinidad_and_tobago-2006-anthony_wolfe",
+      "identityId": "P-26454",
+      "squadNumber": 23,
+      "name": "Anthony Wolfe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Trinidad and Tobago (Group Stage). Squad reserve member."
+    }
+  ]
+}

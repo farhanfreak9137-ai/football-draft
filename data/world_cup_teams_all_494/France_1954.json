@@ -1,0 +1,500 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "france-1954-fran_ois_remetter",
+      "identityId": "P-15615",
+      "squadNumber": 1,
+      "name": "François Remetter",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-c_sar_ruminski",
+      "identityId": "P-06049",
+      "squadNumber": 2,
+      "name": "César Ruminski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-claude_abbes",
+      "identityId": "P-02042",
+      "squadNumber": 3,
+      "name": "Claude Abbes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-lazare_gianessi",
+      "identityId": "P-46888",
+      "squadNumber": 4,
+      "name": "Lazare Gianessi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-jacques_grimonpon",
+      "identityId": "P-06319",
+      "squadNumber": 5,
+      "name": "Jacques Grimonpon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-raymond_kaelbel",
+      "identityId": "P-76532",
+      "squadNumber": 6,
+      "name": "Raymond Kaelbel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-roger_marche",
+      "identityId": "P-77459",
+      "squadNumber": 7,
+      "name": "Roger Marche",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-guillaume_bieganski",
+      "identityId": "P-39411",
+      "squadNumber": 8,
+      "name": "Guillaume Bieganski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-antoine_cuissard",
+      "identityId": "P-38451",
+      "squadNumber": 9,
+      "name": "Antoine Cuissard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-robert_jonquet",
+      "identityId": "P-37808",
+      "squadNumber": 10,
+      "name": "Robert Jonquet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-xerc_s_louis",
+      "identityId": "P-75698",
+      "squadNumber": 11,
+      "name": "Xercès Louis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1954-jean-jacques_marcel",
+      "identityId": "P-47282",
+      "squadNumber": 12,
+      "name": "Jean-Jacques Marcel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-abderrahmane_mahjoub",
+      "identityId": "P-79631",
+      "squadNumber": 13,
+      "name": "Abderrahmane Mahjoub",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-armand_penverne",
+      "identityId": "P-66325",
+      "squadNumber": 14,
+      "name": "Armand Penverne",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-abdelaziz_ben_tifour",
+      "identityId": "P-02848",
+      "squadNumber": 15,
+      "name": "Abdelaziz Ben Tifour",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-ren_dereuddre",
+      "identityId": "P-21077",
+      "squadNumber": 16,
+      "name": "René Dereuddre",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-l_on_glovacki",
+      "identityId": "P-16064",
+      "squadNumber": 17,
+      "name": "Léon Glovacki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-raymond_kopa",
+      "identityId": "P-94605",
+      "squadNumber": 18,
+      "name": "Raymond Kopa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1954-michel_leblond",
+      "identityId": "P-42108",
+      "squadNumber": 19,
+      "name": "Michel Leblond",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-ernest_schultz",
+      "identityId": "P-10730",
+      "squadNumber": 20,
+      "name": "Ernest Schultz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-andr_strappe",
+      "identityId": "P-53023",
+      "squadNumber": 21,
+      "name": "André Strappe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1954-jean_vincent",
+      "identityId": "P-78417",
+      "squadNumber": 22,
+      "name": "Jean Vincent",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for France (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    }
+  ]
+}

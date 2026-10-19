@@ -1,0 +1,516 @@
+{
+  "teamName": "Angola",
+  "teamCode": "AGO",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "angola-2006-jo_o_ricardo",
+      "identityId": "P-24930",
+      "squadNumber": 1,
+      "name": "João Ricardo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-marco_airosa",
+      "identityId": "P-66972",
+      "squadNumber": 2,
+      "name": "Marco Airosa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Angola (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "angola-2006-jamba",
+      "identityId": "P-61845",
+      "squadNumber": 3,
+      "name": "Jamba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-lebo_lebo",
+      "identityId": "P-06457",
+      "squadNumber": 4,
+      "name": "Lebo Lebo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Angola (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "angola-2006-kali",
+      "identityId": "P-44205",
+      "squadNumber": 5,
+      "name": "Kali",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-miloy",
+      "identityId": "P-45235",
+      "squadNumber": 6,
+      "name": "Miloy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Angola (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "angola-2006-paulo_figueiredo",
+      "identityId": "P-14307",
+      "squadNumber": 7,
+      "name": "Paulo Figueiredo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-andr_macanga",
+      "identityId": "P-88171",
+      "squadNumber": 8,
+      "name": "André Macanga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Angola (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "angola-2006-mantorras",
+      "identityId": "P-86226",
+      "squadNumber": 9,
+      "name": "Mantorras",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Angola (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "angola-2006-akw_",
+      "identityId": "P-07482",
+      "squadNumber": 10,
+      "name": "Akwá",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-mateus",
+      "identityId": "P-22865",
+      "squadNumber": 11,
+      "name": "Mateus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-lam_",
+      "identityId": "P-04803",
+      "squadNumber": 12,
+      "name": "Lamá",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Angola (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "angola-2006-edson_nobre",
+      "identityId": "P-13744",
+      "squadNumber": 13,
+      "name": "Edson Nobre",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Angola (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "angola-2006-mendon_a",
+      "identityId": "P-74131",
+      "squadNumber": 14,
+      "name": "Mendonça",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-rui_marques",
+      "identityId": "P-40794",
+      "squadNumber": 15,
+      "name": "Rui Marques",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Angola (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "angola-2006-fl_vio",
+      "identityId": "P-78483",
+      "squadNumber": 16,
+      "name": "Flávio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Angola (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "angola-2006-z_kalanga",
+      "identityId": "P-95366",
+      "squadNumber": 17,
+      "name": "Zé Kalanga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-love",
+      "identityId": "P-30892",
+      "squadNumber": 18,
+      "name": "Love",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Angola (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "angola-2006-titi_buengo",
+      "identityId": "P-31166",
+      "squadNumber": 19,
+      "name": "Titi Buengo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Angola (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "angola-2006-loc_",
+      "identityId": "P-03457",
+      "squadNumber": 20,
+      "name": "Locó",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-delgado",
+      "identityId": "P-75104",
+      "squadNumber": 21,
+      "name": "Delgado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Angola (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "angola-2006-m_rio_hip_lito",
+      "identityId": "P-24893",
+      "squadNumber": 22,
+      "name": "Mário Hipólito",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Angola (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "angola-2006-marco_abreu",
+      "identityId": "P-91786",
+      "squadNumber": 23,
+      "name": "Marco Abreu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Angola (Group Stage). Squad reserve member."
+    }
+  ]
+}

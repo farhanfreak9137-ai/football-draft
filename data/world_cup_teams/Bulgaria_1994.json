@@ -1,0 +1,504 @@
+{
+  "teamName": "Bulgaria",
+  "teamCode": "BGR",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "bulgaria-1994-borislav_mihaylov",
+      "identityId": "P-94024",
+      "squadNumber": 1,
+      "name": "Borislav Mihaylov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-emil_kremenliev",
+      "identityId": "P-88510",
+      "squadNumber": 2,
+      "name": "Emil Kremenliev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-trifon_ivanov",
+      "identityId": "P-47670",
+      "squadNumber": 3,
+      "name": "Trifon Ivanov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-tsanko_tsvetanov",
+      "identityId": "P-06964",
+      "squadNumber": 4,
+      "name": "Tsanko Tsvetanov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-petar_hubchev",
+      "identityId": "P-07517",
+      "squadNumber": 5,
+      "name": "Petar Hubchev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-zlatko_yankov",
+      "identityId": "P-56496",
+      "squadNumber": 6,
+      "name": "Zlatko Yankov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-emil_kostadinov",
+      "identityId": "P-23633",
+      "squadNumber": 7,
+      "name": "Emil Kostadinov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-hristo_stoichkov",
+      "identityId": "P-81648",
+      "squadNumber": 8,
+      "name": "Hristo Stoichkov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Bronze Ball",
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1994 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 93 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 7 match(es). Scored 6 goal(s). Honors: Bronze Ball, Golden Boot."
+    },
+    {
+      "id": "bulgaria-1994-yordan_letchkov",
+      "identityId": "P-19567",
+      "squadNumber": 9,
+      "name": "Yordan Letchkov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "bulgaria-1994-nasko_sirakov",
+      "identityId": "P-05061",
+      "squadNumber": 10,
+      "name": "Nasko Sirakov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bulgaria-1994-daniel_borimirov",
+      "identityId": "P-40793",
+      "squadNumber": 11,
+      "name": "Daniel Borimirov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "bulgaria-1994-plamen_nikolov",
+      "identityId": "P-31099",
+      "squadNumber": 12,
+      "name": "Plamen Nikolov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bulgaria-1994-ivaylo_yordanov",
+      "identityId": "P-99271",
+      "squadNumber": 13,
+      "name": "Ivaylo Yordanov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1994-boncho_genchev",
+      "identityId": "P-67920",
+      "squadNumber": 14,
+      "name": "Boncho Genchev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "bulgaria-1994-nikolay_iliev",
+      "identityId": "P-40749",
+      "squadNumber": 15,
+      "name": "Nikolay Iliev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1994-iliyan_kiryakov",
+      "identityId": "P-48990",
+      "squadNumber": 16,
+      "name": "Iliyan Kiryakov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-petar_mihtarski",
+      "identityId": "P-24215",
+      "squadNumber": 17,
+      "name": "Petar Mihtarski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bulgaria-1994-petar_aleksandrov",
+      "identityId": "P-96679",
+      "squadNumber": 18,
+      "name": "Petar Aleksandrov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1994-georgi_georgiev",
+      "identityId": "P-36178",
+      "squadNumber": 19,
+      "name": "Georgi Georgiev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1994-krasimir_balakov",
+      "identityId": "P-22562",
+      "squadNumber": 20,
+      "name": "Krasimir Balakov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "bulgaria-1994-velko_yotov",
+      "identityId": "P-51016",
+      "squadNumber": 21,
+      "name": "Velko Yotov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1994-ivaylo_andonov",
+      "identityId": "P-33264",
+      "squadNumber": 22,
+      "name": "Ivaylo Andonov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Bulgaria (Fourth Place). Squad reserve member."
+    }
+  ]
+}

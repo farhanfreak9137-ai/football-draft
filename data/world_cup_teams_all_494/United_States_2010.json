@@ -1,0 +1,518 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "united_states-2010-tim_howard",
+      "identityId": "P-50522",
+      "squadNumber": 1,
+      "name": "Tim Howard",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2010-jonathan_spector",
+      "identityId": "P-71113",
+      "squadNumber": 2,
+      "name": "Jonathan Spector",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2010-carlos_bocanegra",
+      "identityId": "P-12548",
+      "squadNumber": 3,
+      "name": "Carlos Bocanegra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2010-michael_bradley",
+      "identityId": "P-97258",
+      "squadNumber": 4,
+      "name": "Michael Bradley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2010-oguchi_onyewu",
+      "identityId": "P-87765",
+      "squadNumber": 5,
+      "name": "Oguchi Onyewu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for United States (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2010-steve_cherundolo",
+      "identityId": "P-77238",
+      "squadNumber": 6,
+      "name": "Steve Cherundolo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2010-damarcus_beasley",
+      "identityId": "P-91976",
+      "squadNumber": 7,
+      "name": "DaMarcus Beasley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for United States (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-2010-clint_dempsey",
+      "identityId": "P-18672",
+      "squadNumber": 8,
+      "name": "Clint Dempsey",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2010-herculez_gomez",
+      "identityId": "P-72039",
+      "squadNumber": 9,
+      "name": "Herculez Gomez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2010-landon_donovan",
+      "identityId": "P-05728",
+      "squadNumber": 10,
+      "name": "Landon Donovan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "united_states-2010-stuart_holden",
+      "identityId": "P-88370",
+      "squadNumber": 11,
+      "name": "Stuart Holden",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for United States (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "united_states-2010-jonathan_bornstein",
+      "identityId": "P-56817",
+      "squadNumber": 12,
+      "name": "Jonathan Bornstein",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for United States (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2010-ricardo_clark",
+      "identityId": "P-64198",
+      "squadNumber": 13,
+      "name": "Ricardo Clark",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for United States (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2010-edson_buddle",
+      "identityId": "P-15091",
+      "squadNumber": 14,
+      "name": "Edson Buddle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2010-jay_demerit",
+      "identityId": "P-78640",
+      "squadNumber": 15,
+      "name": "Jay DeMerit",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2010-jos_francisco_torres",
+      "identityId": "P-55538",
+      "squadNumber": 16,
+      "name": "José Francisco Torres",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2010-jozy_altidore",
+      "identityId": "P-07475",
+      "squadNumber": 17,
+      "name": "Jozy Altidore",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2010-brad_guzan",
+      "identityId": "P-58476",
+      "squadNumber": 18,
+      "name": "Brad Guzan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2010-maurice_edu",
+      "identityId": "P-48341",
+      "squadNumber": 19,
+      "name": "Maurice Edu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2010-robbie_findley",
+      "identityId": "P-36179",
+      "squadNumber": 20,
+      "name": "Robbie Findley",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2010-clarence_goodson",
+      "identityId": "P-01212",
+      "squadNumber": 21,
+      "name": "Clarence Goodson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2010-benny_feilhaber",
+      "identityId": "P-09461",
+      "squadNumber": 22,
+      "name": "Benny Feilhaber",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for United States (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "united_states-2010-marcus_hahnemann",
+      "identityId": "P-92673",
+      "squadNumber": 23,
+      "name": "Marcus Hahnemann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for United States (Round of 16). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "uruguay-1970-ladislao_mazurkiewicz",
+      "identityId": "P-53140",
+      "squadNumber": 1,
+      "name": "Ladislao Mazurkiewicz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "uruguay-1970-atilio_ancheta",
+      "identityId": "P-47978",
+      "squadNumber": 2,
+      "name": "Atilio Ancheta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "uruguay-1970-roberto_matosas",
+      "identityId": "P-83747",
+      "squadNumber": 3,
+      "name": "Roberto Matosas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "uruguay-1970-luis_ubi_a",
+      "identityId": "P-63224",
+      "squadNumber": 4,
+      "name": "Luis Ubiña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "uruguay-1970-julio_montero_castillo",
+      "identityId": "P-83931",
+      "squadNumber": 5,
+      "name": "Julio Montero Castillo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "uruguay-1970-juan_mujica",
+      "identityId": "P-50162",
+      "squadNumber": 6,
+      "name": "Juan Mujica",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1970-luis_cubilla",
+      "identityId": "P-81929",
+      "squadNumber": 7,
+      "name": "Luis Cubilla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1970-pedro_rocha",
+      "identityId": "P-47892",
+      "squadNumber": 8,
+      "name": "Pedro Rocha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1970-v_ctor_esp_rrago",
+      "identityId": "P-99710",
+      "squadNumber": 9,
+      "name": "Víctor Espárrago",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1970-ildo_maneiro",
+      "identityId": "P-40429",
+      "squadNumber": 10,
+      "name": "Ildo Maneiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1970-julio_morales",
+      "identityId": "P-93811",
+      "squadNumber": 11,
+      "name": "Julio Morales",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1970-h_ctor_santos",
+      "identityId": "P-51832",
+      "squadNumber": 12,
+      "name": "Héctor Santos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1970-rodolfo_sandoval",
+      "identityId": "P-90366",
+      "squadNumber": 13,
+      "name": "Rodolfo Sandoval",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-1970-francisco_c_mera",
+      "identityId": "P-58801",
+      "squadNumber": 14,
+      "name": "Francisco Cámera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1970-dagoberto_fontes",
+      "identityId": "P-48169",
+      "squadNumber": 15,
+      "name": "Dagoberto Fontes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1970-omar_caetano",
+      "identityId": "P-30744",
+      "squadNumber": 16,
+      "name": "Omar Caetano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1970-r_ben_bare_o",
+      "identityId": "P-51410",
+      "squadNumber": 17,
+      "name": "Rúben Bareño",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1970-alberto_g_mez",
+      "identityId": "P-95376",
+      "squadNumber": 18,
+      "name": "Alberto Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-1970-oscar_zubia",
+      "identityId": "P-02662",
+      "squadNumber": 19,
+      "name": "Oscar Zubia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1970-julio_c_sar_cort_s",
+      "identityId": "P-82186",
+      "squadNumber": 20,
+      "name": "Julio César Cortés",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "uruguay-1970-julio_losada",
+      "identityId": "P-08424",
+      "squadNumber": 21,
+      "name": "Julio Losada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1970-walter_corbo",
+      "identityId": "P-81455",
+      "squadNumber": 22,
+      "name": "Walter Corbo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    }
+  ]
+}

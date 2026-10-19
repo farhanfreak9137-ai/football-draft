@@ -1,0 +1,515 @@
+{
+  "teamName": "Australia",
+  "teamCode": "AUS",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "australia-2018-mathew_ryan",
+      "identityId": "P-10244",
+      "squadNumber": 1,
+      "name": "Mathew Ryan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-milo_degenek",
+      "identityId": "P-59727",
+      "squadNumber": 2,
+      "name": "Miloš Degenek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-james_meredith",
+      "identityId": "P-61767",
+      "squadNumber": 3,
+      "name": "James Meredith",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-tim_cahill",
+      "identityId": "P-44926",
+      "squadNumber": 4,
+      "name": "Tim Cahill",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Australia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "australia-2018-mark_milligan",
+      "identityId": "P-36196",
+      "squadNumber": 5,
+      "name": "Mark Milligan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-matthew_jurman",
+      "identityId": "P-58540",
+      "squadNumber": 6,
+      "name": "Matthew Jurman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-mathew_leckie",
+      "identityId": "P-35837",
+      "squadNumber": 7,
+      "name": "Mathew Leckie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-massimo_luongo",
+      "identityId": "P-33434",
+      "squadNumber": 8,
+      "name": "Massimo Luongo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-tomi_juric",
+      "identityId": "P-61256",
+      "squadNumber": 9,
+      "name": "Tomi Juric",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2018-robbie_kruse",
+      "identityId": "P-45528",
+      "squadNumber": 10,
+      "name": "Robbie Kruse",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-andrew_nabbout",
+      "identityId": "P-91329",
+      "squadNumber": 11,
+      "name": "Andrew Nabbout",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "australia-2018-brad_jones",
+      "identityId": "P-84536",
+      "squadNumber": 12,
+      "name": "Brad Jones",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-aaron_mooy",
+      "identityId": "P-95847",
+      "squadNumber": 13,
+      "name": "Aaron Mooy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-jamie_maclaren",
+      "identityId": "P-20087",
+      "squadNumber": 14,
+      "name": "Jamie Maclaren",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-mile_jedinak",
+      "identityId": "P-37275",
+      "squadNumber": 15,
+      "name": "Mile Jedinak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "australia-2018-aziz_behich",
+      "identityId": "P-51118",
+      "squadNumber": 16,
+      "name": "Aziz Behich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-daniel_arzani",
+      "identityId": "P-10167",
+      "squadNumber": 17,
+      "name": "Daniel Arzani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Australia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "australia-2018-danny_vukovic",
+      "identityId": "P-11675",
+      "squadNumber": 18,
+      "name": "Danny Vukovic",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-josh_risdon",
+      "identityId": "P-87852",
+      "squadNumber": 19,
+      "name": "Josh Risdon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-trent_sainsbury",
+      "identityId": "P-83849",
+      "squadNumber": 20,
+      "name": "Trent Sainsbury",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2018-dimitri_petratos",
+      "identityId": "P-83198",
+      "squadNumber": 21,
+      "name": "Dimitri Petratos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2018-jackson_irvine",
+      "identityId": "P-34822",
+      "squadNumber": 22,
+      "name": "Jackson Irvine",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Australia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "australia-2018-tom_rogic",
+      "identityId": "P-45548",
+      "squadNumber": 23,
+      "name": "Tom Rogic",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

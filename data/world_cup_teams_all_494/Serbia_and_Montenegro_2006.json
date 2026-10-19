@@ -1,0 +1,518 @@
+{
+  "teamName": "Serbia and Montenegro",
+  "teamCode": "SCG",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "serbia_and_montenegro-2006-dragoslav_jevri_",
+      "identityId": "P-34336",
+      "squadNumber": 1,
+      "name": "Dragoslav Jevrić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-ivan_ergi_",
+      "identityId": "P-41907",
+      "squadNumber": 2,
+      "name": "Ivan Ergić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-ivica_dragutinovi_",
+      "identityId": "P-50226",
+      "squadNumber": 3,
+      "name": "Ivica Dragutinović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-igor_duljaj",
+      "identityId": "P-08415",
+      "squadNumber": 4,
+      "name": "Igor Duljaj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-nemanja_vidi_",
+      "identityId": "P-68901",
+      "squadNumber": 5,
+      "name": "Nemanja Vidić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-goran_gavran_i_",
+      "identityId": "P-41962",
+      "squadNumber": 6,
+      "name": "Goran Gavrančić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-ognjen_koroman",
+      "identityId": "P-50012",
+      "squadNumber": 7,
+      "name": "Ognjen Koroman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-mateja_ke_man",
+      "identityId": "P-37893",
+      "squadNumber": 8,
+      "name": "Mateja Kežman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-savo_milo_evi_",
+      "identityId": "P-48250",
+      "squadNumber": 9,
+      "name": "Savo Milošević",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-dejan_stankovi_",
+      "identityId": "P-22793",
+      "squadNumber": 10,
+      "name": "Dejan Stanković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-predrag_or_evi_",
+      "identityId": "P-33481",
+      "squadNumber": 11,
+      "name": "Predrag Đorđević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-oliver_kova_evi_",
+      "identityId": "P-48430",
+      "squadNumber": 12,
+      "name": "Oliver Kovačević",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-du_an_basta",
+      "identityId": "P-58429",
+      "squadNumber": 13,
+      "name": "Dušan Basta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-nenad_or_evi_",
+      "identityId": "P-64659",
+      "squadNumber": 14,
+      "name": "Nenad Đorđević",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-milan_dudi_",
+      "identityId": "P-79645",
+      "squadNumber": 15,
+      "name": "Milan Dudić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-du_an_petkovi_",
+      "identityId": "P-08113",
+      "squadNumber": 16,
+      "name": "Dušan Petković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-albert_na_",
+      "identityId": "P-85128",
+      "squadNumber": 17,
+      "name": "Albert Nađ",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-zvonimir_vuki_",
+      "identityId": "P-25611",
+      "squadNumber": 18,
+      "name": "Zvonimir Vukić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-nikola_igi_",
+      "identityId": "P-18094",
+      "squadNumber": 19,
+      "name": "Nikola Žigić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-mladen_krstaji_",
+      "identityId": "P-55456",
+      "squadNumber": 20,
+      "name": "Mladen Krstajić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-danijel_ljuboja",
+      "identityId": "P-87039",
+      "squadNumber": 21,
+      "name": "Danijel Ljuboja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-sa_a_ili_",
+      "identityId": "P-05783",
+      "squadNumber": 22,
+      "name": "Saša Ilić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia_and_montenegro-2006-vladimir_stojkovi_",
+      "identityId": "P-46403",
+      "squadNumber": 23,
+      "name": "Vladimir Stojković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Serbia and Montenegro (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "teamName": "Nigeria",
+  "teamCode": "NGA",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "nigeria-1998-peter_rufai",
+      "identityId": "P-75277",
+      "squadNumber": 1,
+      "name": "Peter Rufai",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1998-mobi_oparaku",
+      "identityId": "P-01364",
+      "squadNumber": 2,
+      "name": "Mobi Oparaku",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1998-celestine_babayaro",
+      "identityId": "P-91148",
+      "squadNumber": 3,
+      "name": "Celestine Babayaro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-1998-nwankwo_kanu",
+      "identityId": "P-91516",
+      "squadNumber": 4,
+      "name": "Nwankwo Kanu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-1998-uche_okechukwu",
+      "identityId": "P-74808",
+      "squadNumber": 5,
+      "name": "Uche Okechukwu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-1998-taribo_west",
+      "identityId": "P-79669",
+      "squadNumber": 6,
+      "name": "Taribo West",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1998-finidi_george",
+      "identityId": "P-54287",
+      "squadNumber": 7,
+      "name": "Finidi George",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-1998-mutiu_adepoju",
+      "identityId": "P-56969",
+      "squadNumber": 8,
+      "name": "Mutiu Adepoju",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1998-rashidi_yekini",
+      "identityId": "P-98228",
+      "squadNumber": 9,
+      "name": "Rashidi Yekini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1998-jay-jay_okocha",
+      "identityId": "P-83122",
+      "squadNumber": 10,
+      "name": "Jay-Jay Okocha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-1998-garba_lawal",
+      "identityId": "P-76542",
+      "squadNumber": 11,
+      "name": "Garba Lawal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1998-willy_okpara",
+      "identityId": "P-79585",
+      "squadNumber": 12,
+      "name": "Willy Okpara",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-1998-tijani_babangida",
+      "identityId": "P-02360",
+      "squadNumber": 13,
+      "name": "Tijani Babangida",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1998-daniel_amokachi",
+      "identityId": "P-84893",
+      "squadNumber": 14,
+      "name": "Daniel Amokachi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1998-sunday_oliseh",
+      "identityId": "P-41790",
+      "squadNumber": 15,
+      "name": "Sunday Oliseh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1998-uche_okafor",
+      "identityId": "P-34180",
+      "squadNumber": 16,
+      "name": "Uche Okafor",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1998-augustine_eguavoen",
+      "identityId": "P-39450",
+      "squadNumber": 17,
+      "name": "Augustine Eguavoen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1998-wilson_oruma",
+      "identityId": "P-89782",
+      "squadNumber": 18,
+      "name": "Wilson Oruma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1998-benedict_iroha",
+      "identityId": "P-72134",
+      "squadNumber": 19,
+      "name": "Benedict Iroha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1998-victor_ikpeba",
+      "identityId": "P-25715",
+      "squadNumber": 20,
+      "name": "Victor Ikpeba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1998-godwin_okpara",
+      "identityId": "P-71220",
+      "squadNumber": 21,
+      "name": "Godwin Okpara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "nigeria-1998-abiodun_baruwa",
+      "identityId": "P-35031",
+      "squadNumber": 22,
+      "name": "Abiodun Baruwa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    }
+  ]
+}

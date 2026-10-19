@@ -1,0 +1,515 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "brazil-2018-alisson",
+      "identityId": "P-21531",
+      "squadNumber": 1,
+      "name": "Alisson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2018-thiago_silva",
+      "identityId": "P-32798",
+      "squadNumber": 2,
+      "name": "Thiago Silva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2018-miranda",
+      "identityId": "P-84301",
+      "squadNumber": 3,
+      "name": "Miranda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2018-pedro_geromel",
+      "identityId": "P-77556",
+      "squadNumber": 4,
+      "name": "Pedro Geromel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2018-casemiro",
+      "identityId": "P-02305",
+      "squadNumber": 5,
+      "name": "Casemiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2018-filipe_lu_s",
+      "identityId": "P-65498",
+      "squadNumber": 6,
+      "name": "Filipe Luís",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2018-douglas_costa",
+      "identityId": "P-17082",
+      "squadNumber": 7,
+      "name": "Douglas Costa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-2018-renato_augusto",
+      "identityId": "P-49997",
+      "squadNumber": 8,
+      "name": "Renato Augusto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2018-gabriel_jesus",
+      "identityId": "P-92004",
+      "squadNumber": 9,
+      "name": "Gabriel Jesus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2018-neymar",
+      "identityId": "P-87008",
+      "squadNumber": 10,
+      "name": "Neymar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2018-philippe_coutinho",
+      "identityId": "P-37171",
+      "squadNumber": 11,
+      "name": "Philippe Coutinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2018-marcelo",
+      "identityId": "P-70650",
+      "squadNumber": 12,
+      "name": "Marcelo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2018-marquinhos",
+      "identityId": "P-76060",
+      "squadNumber": 13,
+      "name": "Marquinhos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2018-danilo",
+      "identityId": "P-40137",
+      "squadNumber": 14,
+      "name": "Danilo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2018-paulinho",
+      "identityId": "P-54013",
+      "squadNumber": 15,
+      "name": "Paulinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2018-c_ssio",
+      "identityId": "P-66815",
+      "squadNumber": 16,
+      "name": "Cássio",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2018-fernandinho",
+      "identityId": "P-41758",
+      "squadNumber": 17,
+      "name": "Fernandinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2018-fred",
+      "identityId": "P-74941",
+      "squadNumber": 18,
+      "name": "Fred",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2018-willian",
+      "identityId": "P-62621",
+      "squadNumber": 19,
+      "name": "Willian",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2018-roberto_firmino",
+      "identityId": "P-37877",
+      "squadNumber": 20,
+      "name": "Roberto Firmino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2018-taison",
+      "identityId": "P-87266",
+      "squadNumber": 21,
+      "name": "Taison",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-2018-fagner",
+      "identityId": "P-97493",
+      "squadNumber": 22,
+      "name": "Fagner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2018-ederson",
+      "identityId": "P-89248",
+      "squadNumber": 23,
+      "name": "Ederson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

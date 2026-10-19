@@ -1,0 +1,495 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "netherlands-1994-ed_de_goey",
+      "identityId": "P-15829",
+      "squadNumber": 1,
+      "name": "Ed de Goey",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-1994-frank_de_boer",
+      "identityId": "P-32212",
+      "squadNumber": 2,
+      "name": "Frank de Boer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1994-frank_rijkaard",
+      "identityId": "P-92391",
+      "squadNumber": 3,
+      "name": "Frank Rijkaard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1994-ronald_koeman",
+      "identityId": "P-72919",
+      "squadNumber": 4,
+      "name": "Ronald Koeman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-1994-rob_witschge",
+      "identityId": "P-51357",
+      "squadNumber": 5,
+      "name": "Rob Witschge",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-1994-jan_wouters",
+      "identityId": "P-50869",
+      "squadNumber": 6,
+      "name": "Jan Wouters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1994-marc_overmars",
+      "identityId": "P-33834",
+      "squadNumber": 7,
+      "name": "Marc Overmars",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 4 match(es). Honors: Best Young Player."
+    },
+    {
+      "id": "netherlands-1994-wim_jonk",
+      "identityId": "P-27957",
+      "squadNumber": 8,
+      "name": "Wim Jonk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-1994-ronald_de_boer",
+      "identityId": "P-92804",
+      "squadNumber": 9,
+      "name": "Ronald de Boer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-1994-dennis_bergkamp",
+      "identityId": "P-22409",
+      "squadNumber": 10,
+      "name": "Dennis Bergkamp",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "netherlands-1994-bryan_roy",
+      "identityId": "P-03942",
+      "squadNumber": 11,
+      "name": "Bryan Roy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1994-john_bosman",
+      "identityId": "P-04823",
+      "squadNumber": 12,
+      "name": "John Bosman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1994-edwin_van_der_sar",
+      "identityId": "P-26572",
+      "squadNumber": 13,
+      "name": "Edwin van der Sar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1994-ulrich_van_gobbel",
+      "identityId": "P-49163",
+      "squadNumber": 14,
+      "name": "Ulrich van Gobbel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-1994-danny_blind",
+      "identityId": "P-29008",
+      "squadNumber": 15,
+      "name": "Danny Blind",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1994-arthur_numan",
+      "identityId": "P-92458",
+      "squadNumber": 16,
+      "name": "Arthur Numan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-1994-gaston_taument",
+      "identityId": "P-20827",
+      "squadNumber": 17,
+      "name": "Gaston Taument",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1994-stan_valckx",
+      "identityId": "P-61116",
+      "squadNumber": 18,
+      "name": "Stan Valckx",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-1994-peter_van_vossen",
+      "identityId": "P-99166",
+      "squadNumber": 19,
+      "name": "Peter van Vossen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-1994-aron_winter",
+      "identityId": "P-42249",
+      "squadNumber": 20,
+      "name": "Aron Winter",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-1994-john_de_wolf",
+      "identityId": "P-25693",
+      "squadNumber": 21,
+      "name": "John de Wolf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "netherlands-1994-theo_snelders",
+      "identityId": "P-22351",
+      "squadNumber": 22,
+      "name": "Theo Snelders",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Netherlands (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

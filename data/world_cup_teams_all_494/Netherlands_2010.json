@@ -1,0 +1,518 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "netherlands-2010-maarten_stekelenburg",
+      "identityId": "P-36850",
+      "squadNumber": 1,
+      "name": "Maarten Stekelenburg",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-2010-gregory_van_der_wiel",
+      "identityId": "P-20084",
+      "squadNumber": 2,
+      "name": "Gregory van der Wiel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "netherlands-2010-john_heitinga",
+      "identityId": "P-28832",
+      "squadNumber": 3,
+      "name": "John Heitinga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-2010-joris_mathijsen",
+      "identityId": "P-40197",
+      "squadNumber": 4,
+      "name": "Joris Mathijsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "netherlands-2010-giovanni_van_bronckhorst",
+      "identityId": "P-21832",
+      "squadNumber": 5,
+      "name": "Giovanni van Bronckhorst",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2010-mark_van_bommel",
+      "identityId": "P-69700",
+      "squadNumber": 6,
+      "name": "Mark van Bommel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "netherlands-2010-dirk_kuyt",
+      "identityId": "P-33312",
+      "squadNumber": 7,
+      "name": "Dirk Kuyt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2010-nigel_de_jong",
+      "identityId": "P-53668",
+      "squadNumber": 8,
+      "name": "Nigel de Jong",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "netherlands-2010-robin_van_persie",
+      "identityId": "P-99934",
+      "squadNumber": 9,
+      "name": "Robin van Persie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2010-wesley_sneijder",
+      "identityId": "P-51336",
+      "squadNumber": 10,
+      "name": "Wesley Sneijder",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Ball",
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2010 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 95 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Silver Ball, Bronze Boot."
+    },
+    {
+      "id": "netherlands-2010-arjen_robben",
+      "identityId": "P-23705",
+      "squadNumber": 11,
+      "name": "Arjen Robben",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "netherlands-2010-khalid_boulahrouz",
+      "identityId": "P-46895",
+      "squadNumber": 12,
+      "name": "Khalid Boulahrouz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-2010-andr_ooijer",
+      "identityId": "P-96131",
+      "squadNumber": 13,
+      "name": "André Ooijer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2010-demy_de_zeeuw",
+      "identityId": "P-93449",
+      "squadNumber": 14,
+      "name": "Demy de Zeeuw",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2010-edson_braafheid",
+      "identityId": "P-63744",
+      "squadNumber": 15,
+      "name": "Edson Braafheid",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2010-michel_vorm",
+      "identityId": "P-32095",
+      "squadNumber": 16,
+      "name": "Michel Vorm",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2010-eljero_elia",
+      "identityId": "P-12995",
+      "squadNumber": 17,
+      "name": "Eljero Elia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 6,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Substitute rotation option (6 sub app)."
+    },
+    {
+      "id": "netherlands-2010-stijn_schaars",
+      "identityId": "P-03298",
+      "squadNumber": 18,
+      "name": "Stijn Schaars",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2010-ryan_babel",
+      "identityId": "P-17967",
+      "squadNumber": 19,
+      "name": "Ryan Babel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2010-ibrahim_afellay",
+      "identityId": "P-81141",
+      "squadNumber": 20,
+      "name": "Ibrahim Afellay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "netherlands-2010-klaas-jan_huntelaar",
+      "identityId": "P-64344",
+      "squadNumber": 21,
+      "name": "Klaas-Jan Huntelaar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2010-sander_boschker",
+      "identityId": "P-66870",
+      "squadNumber": 22,
+      "name": "Sander Boschker",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2010-rafael_van_der_vaart",
+      "identityId": "P-68125",
+      "squadNumber": 23,
+      "name": "Rafael van der Vaart",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Netherlands (Runners-up). Main pillar starting 3 match(es)."
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "teamName": "Costa Rica",
+  "teamCode": "CRI",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "costa_rica-2018-keylor_navas",
+      "identityId": "P-81392",
+      "squadNumber": 1,
+      "name": "Keylor Navas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-jhonny_acosta",
+      "identityId": "P-65320",
+      "squadNumber": 2,
+      "name": "Jhonny Acosta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-giancarlo_gonz_lez",
+      "identityId": "P-04808",
+      "squadNumber": 3,
+      "name": "Giancarlo González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-ian_smith",
+      "identityId": "P-63865",
+      "squadNumber": 4,
+      "name": "Ian Smith",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2018-celso_borges",
+      "identityId": "P-11767",
+      "squadNumber": 5,
+      "name": "Celso Borges",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-_scar_duarte",
+      "identityId": "P-97912",
+      "squadNumber": 6,
+      "name": "Óscar Duarte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2018-christian_bola_os",
+      "identityId": "P-57722",
+      "squadNumber": 7,
+      "name": "Christian Bolaños",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2018-bryan_oviedo",
+      "identityId": "P-10740",
+      "squadNumber": 8,
+      "name": "Bryan Oviedo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2018-daniel_colindres",
+      "identityId": "P-00781",
+      "squadNumber": 9,
+      "name": "Daniel Colindres",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2018-bryan_ruiz",
+      "identityId": "P-99590",
+      "squadNumber": 10,
+      "name": "Bryan Ruiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-johan_venegas",
+      "identityId": "P-58669",
+      "squadNumber": 11,
+      "name": "Johan Venegas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2018-joel_campbell",
+      "identityId": "P-70812",
+      "squadNumber": 12,
+      "name": "Joel Campbell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2018-rodney_wallace",
+      "identityId": "P-42644",
+      "squadNumber": 13,
+      "name": "Rodney Wallace",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2018-randall_azofeifa",
+      "identityId": "P-07614",
+      "squadNumber": 14,
+      "name": "Randall Azofeifa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2018-francisco_calvo",
+      "identityId": "P-71100",
+      "squadNumber": 15,
+      "name": "Francisco Calvo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2018-cristian_gamboa",
+      "identityId": "P-26483",
+      "squadNumber": 16,
+      "name": "Cristian Gamboa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-yeltsin_tejeda",
+      "identityId": "P-24978",
+      "squadNumber": 17,
+      "name": "Yeltsin Tejeda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2018-patrick_pemberton",
+      "identityId": "P-88896",
+      "squadNumber": 18,
+      "name": "Patrick Pemberton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2018-kendall_waston",
+      "identityId": "P-37984",
+      "squadNumber": 19,
+      "name": "Kendall Waston",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2018-david_guzm_n",
+      "identityId": "P-33347",
+      "squadNumber": 20,
+      "name": "David Guzmán",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2018-marco_ure_a",
+      "identityId": "P-11307",
+      "squadNumber": 21,
+      "name": "Marco Ureña",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2018-kenner_guti_rrez",
+      "identityId": "P-71751",
+      "squadNumber": 22,
+      "name": "Kenner Gutiérrez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2018-leonel_moreira",
+      "identityId": "P-92476",
+      "squadNumber": 23,
+      "name": "Leonel Moreira",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    }
+  ]
+}

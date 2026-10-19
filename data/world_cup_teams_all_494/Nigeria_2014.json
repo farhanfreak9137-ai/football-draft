@@ -1,0 +1,517 @@
+{
+  "teamName": "Nigeria",
+  "teamCode": "NGA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "nigeria-2014-vincent_enyeama",
+      "identityId": "P-39249",
+      "squadNumber": 1,
+      "name": "Vincent Enyeama",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-joseph_yobo",
+      "identityId": "P-64104",
+      "squadNumber": 2,
+      "name": "Joseph Yobo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2014-ejike_uzoenyi",
+      "identityId": "P-28119",
+      "squadNumber": 3,
+      "name": "Ejike Uzoenyi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "nigeria-2014-reuben_gabriel",
+      "identityId": "P-94823",
+      "squadNumber": 4,
+      "name": "Reuben Gabriel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "nigeria-2014-efe_ambrose",
+      "identityId": "P-22192",
+      "squadNumber": 5,
+      "name": "Efe Ambrose",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-azubuike_egwuekwe",
+      "identityId": "P-40374",
+      "squadNumber": 6,
+      "name": "Azubuike Egwuekwe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2014-ahmed_musa",
+      "identityId": "P-19591",
+      "squadNumber": 7,
+      "name": "Ahmed Musa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "nigeria-2014-peter_odemwingie",
+      "identityId": "P-70006",
+      "squadNumber": 8,
+      "name": "Peter Odemwingie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-2014-emmanuel_emenike",
+      "identityId": "P-95567",
+      "squadNumber": 9,
+      "name": "Emmanuel Emenike",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-john_obi_mikel",
+      "identityId": "P-01164",
+      "squadNumber": 10,
+      "name": "John Obi Mikel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-victor_moses",
+      "identityId": "P-26900",
+      "squadNumber": 11,
+      "name": "Victor Moses",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2014-kunle_odunlami",
+      "identityId": "P-37901",
+      "squadNumber": 12,
+      "name": "Kunle Odunlami",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2014-juwon_oshaniwa",
+      "identityId": "P-79048",
+      "squadNumber": 13,
+      "name": "Juwon Oshaniwa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-godfrey_oboabona",
+      "identityId": "P-14952",
+      "squadNumber": 14,
+      "name": "Godfrey Oboabona",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2014-ramon_azeez",
+      "identityId": "P-78347",
+      "squadNumber": 15,
+      "name": "Ramon Azeez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2014-austin_ejide",
+      "identityId": "P-47983",
+      "squadNumber": 16,
+      "name": "Austin Ejide",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2014-ogenyi_onazi",
+      "identityId": "P-94774",
+      "squadNumber": 17,
+      "name": "Ogenyi Onazi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-michael_babatunde",
+      "identityId": "P-66596",
+      "squadNumber": 18,
+      "name": "Michael Babatunde",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2014-uche_nwofor",
+      "identityId": "P-97867",
+      "squadNumber": 19,
+      "name": "Uche Nwofor",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "nigeria-2014-michael_uchebo",
+      "identityId": "P-15097",
+      "squadNumber": 20,
+      "name": "Michael Uchebo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "nigeria-2014-chigozie_agbim",
+      "identityId": "P-53035",
+      "squadNumber": 21,
+      "name": "Chigozie Agbim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2014-kenneth_omeruo",
+      "identityId": "P-98806",
+      "squadNumber": 22,
+      "name": "Kenneth Omeruo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-2014-shola_ameobi",
+      "identityId": "P-03886",
+      "squadNumber": 23,
+      "name": "Shola Ameobi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Nigeria (Round of 16). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

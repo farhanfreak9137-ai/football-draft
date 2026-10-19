@@ -1,0 +1,497 @@
+{
+  "teamName": "Jamaica",
+  "teamCode": "JAM",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "jamaica-1998-warren_barrett",
+      "identityId": "P-65816",
+      "squadNumber": 1,
+      "name": "Warren Barrett",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "jamaica-1998-stephen_malcolm",
+      "identityId": "P-06565",
+      "squadNumber": 2,
+      "name": "Stephen Malcolm",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "jamaica-1998-chris_dawes",
+      "identityId": "P-61134",
+      "squadNumber": 3,
+      "name": "Chris Dawes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "jamaica-1998-linval_dixon",
+      "identityId": "P-40167",
+      "squadNumber": 4,
+      "name": "Linval Dixon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "jamaica-1998-ian_goodison",
+      "identityId": "P-51917",
+      "squadNumber": 5,
+      "name": "Ian Goodison",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "jamaica-1998-fitzroy_simpson",
+      "identityId": "P-62344",
+      "squadNumber": 6,
+      "name": "Fitzroy Simpson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "jamaica-1998-peter_cargill",
+      "identityId": "P-49195",
+      "squadNumber": 7,
+      "name": "Peter Cargill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "jamaica-1998-marcus_gayle",
+      "identityId": "P-44917",
+      "squadNumber": 8,
+      "name": "Marcus Gayle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "jamaica-1998-andy_williams",
+      "identityId": "P-45682",
+      "squadNumber": 9,
+      "name": "Andy Williams",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "jamaica-1998-walter_boyd",
+      "identityId": "P-97544",
+      "squadNumber": 10,
+      "name": "Walter Boyd",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "jamaica-1998-theodore_whitmore",
+      "identityId": "P-19136",
+      "squadNumber": 11,
+      "name": "Theodore Whitmore",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "jamaica-1998-dean_sewell",
+      "identityId": "P-93008",
+      "squadNumber": 12,
+      "name": "Dean Sewell",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "jamaica-1998-aaron_lawrence",
+      "identityId": "P-98909",
+      "squadNumber": 13,
+      "name": "Aaron Lawrence",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "jamaica-1998-donovan_ricketts",
+      "identityId": "P-99080",
+      "squadNumber": 14,
+      "name": "Donovan Ricketts",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "jamaica-1998-ricardo_gardner",
+      "identityId": "P-79750",
+      "squadNumber": 15,
+      "name": "Ricardo Gardner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "jamaica-1998-robbie_earle",
+      "identityId": "P-16421",
+      "squadNumber": 16,
+      "name": "Robbie Earle",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "jamaica-1998-onandi_lowe",
+      "identityId": "P-89092",
+      "squadNumber": 17,
+      "name": "Onandi Lowe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "jamaica-1998-deon_burton",
+      "identityId": "P-36985",
+      "squadNumber": 18,
+      "name": "Deon Burton",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "jamaica-1998-frank_sinclair",
+      "identityId": "P-99905",
+      "squadNumber": 19,
+      "name": "Frank Sinclair",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "jamaica-1998-darryl_powell",
+      "identityId": "P-41974",
+      "squadNumber": 20,
+      "name": "Darryl Powell",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "jamaica-1998-durrant_brown",
+      "identityId": "P-27847",
+      "squadNumber": 21,
+      "name": "Durrant Brown",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "jamaica-1998-paul_hall",
+      "identityId": "P-15931",
+      "squadNumber": 22,
+      "name": "Paul Hall",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Jamaica (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

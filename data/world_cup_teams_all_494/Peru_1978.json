@@ -1,0 +1,495 @@
+{
+  "teamName": "Peru",
+  "teamCode": "PER",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "peru-1978-ottorino_sartor",
+      "identityId": "P-28179",
+      "squadNumber": 1,
+      "name": "Ottorino Sartor",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Peru (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "peru-1978-jaime_duarte",
+      "identityId": "P-32834",
+      "squadNumber": 2,
+      "name": "Jaime Duarte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "peru-1978-rodolfo_manzo",
+      "identityId": "P-32373",
+      "squadNumber": 3,
+      "name": "Rodolfo Manzo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "peru-1978-h_ctor_chumpitaz",
+      "identityId": "P-76522",
+      "squadNumber": 4,
+      "name": "Héctor Chumpitaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "peru-1978-rub_n_toribio_d_az",
+      "identityId": "P-93346",
+      "squadNumber": 5,
+      "name": "Rubén Toribio Díaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "peru-1978-jos_vel_squez",
+      "identityId": "P-72529",
+      "squadNumber": 6,
+      "name": "José Velásquez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-1978-juan_mu_ante",
+      "identityId": "P-91524",
+      "squadNumber": 7,
+      "name": "Juan Muñante",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "peru-1978-c_sar_cueto",
+      "identityId": "P-23639",
+      "squadNumber": 8,
+      "name": "César Cueto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-1978-percy_rojas",
+      "identityId": "P-94008",
+      "squadNumber": 9,
+      "name": "Percy Rojas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Peru (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "peru-1978-te_filo_cubillas",
+      "identityId": "P-96979",
+      "squadNumber": 10,
+      "name": "Teófilo Cubillas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "peru-1978-carlos_juan_oblitas",
+      "identityId": "P-50099",
+      "squadNumber": 11,
+      "name": "Carlos Juan Oblitas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "peru-1978-roberto_mosquera",
+      "identityId": "P-48921",
+      "squadNumber": 12,
+      "name": "Roberto Mosquera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Peru (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "peru-1978-juan_c_ceres",
+      "identityId": "P-03944",
+      "squadNumber": 13,
+      "name": "Juan Cáceres",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Peru (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "peru-1978-jos_navarro",
+      "identityId": "P-67187",
+      "squadNumber": 14,
+      "name": "José Navarro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Peru (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "peru-1978-germ_n_legu_a",
+      "identityId": "P-85374",
+      "squadNumber": 15,
+      "name": "Germán Leguía",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Peru (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "peru-1978-ra_l_gorriti",
+      "identityId": "P-44786",
+      "squadNumber": 16,
+      "name": "Raúl Gorriti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Peru (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "peru-1978-alfredo_quesada",
+      "identityId": "P-94706",
+      "squadNumber": 17,
+      "name": "Alfredo Quesada",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Peru (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1978-ernesto_labarthe",
+      "identityId": "P-62666",
+      "squadNumber": 18,
+      "name": "Ernesto Labarthe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Peru (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "peru-1978-guillermo_la_rosa",
+      "identityId": "P-42136",
+      "squadNumber": 19,
+      "name": "Guillermo La Rosa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "peru-1978-hugo_sotil",
+      "identityId": "P-49357",
+      "squadNumber": 20,
+      "name": "Hugo Sotil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Peru (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "peru-1978-ram_n_quiroga",
+      "identityId": "P-07978",
+      "squadNumber": 21,
+      "name": "Ramón Quiroga",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Peru (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "peru-1978-roberto_rojas",
+      "identityId": "P-28828",
+      "squadNumber": 22,
+      "name": "Roberto Rojas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Peru (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

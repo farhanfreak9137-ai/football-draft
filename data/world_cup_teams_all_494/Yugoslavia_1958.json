@@ -1,0 +1,496 @@
+{
+  "teamName": "Yugoslavia",
+  "teamCode": "YUG",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "yugoslavia-1958-vladimir_beara",
+      "identityId": "P-06291",
+      "squadNumber": 1,
+      "name": "Vladimir Beara",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-srboljub_krivoku_a",
+      "identityId": "P-68158",
+      "squadNumber": 2,
+      "name": "Srboljub Krivokuća",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-vasilije_ijakovi_",
+      "identityId": "P-76961",
+      "squadNumber": 3,
+      "name": "Vasilije Šijaković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-tomislav_crnkovi_",
+      "identityId": "P-67864",
+      "squadNumber": 4,
+      "name": "Tomislav Crnković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-novak_tomi_",
+      "identityId": "P-92425",
+      "squadNumber": 5,
+      "name": "Novak Tomić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-branko_zebec",
+      "identityId": "P-74352",
+      "squadNumber": 6,
+      "name": "Branko Zebec",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-milo_milutinovi_",
+      "identityId": "P-00042",
+      "squadNumber": 7,
+      "name": "Miloš Milutinović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-dobrosav_krsti_",
+      "identityId": "P-27264",
+      "squadNumber": 8,
+      "name": "Dobrosav Krstić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-vujadin_bo_kov",
+      "identityId": "P-81384",
+      "squadNumber": 9,
+      "name": "Vujadin Boškov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-ivan_antek",
+      "identityId": "P-71169",
+      "squadNumber": 10,
+      "name": "Ivan Šantek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-vladica_popovi_",
+      "identityId": "P-16586",
+      "squadNumber": 11,
+      "name": "Vladica Popović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "yugoslavia-1958-aleksandar_petakovi_",
+      "identityId": "P-85317",
+      "squadNumber": 12,
+      "name": "Aleksandar Petaković",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1958-todor_veselinovi_",
+      "identityId": "P-47783",
+      "squadNumber": 13,
+      "name": "Todor Veselinović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1958-milorad_milutinovi_",
+      "identityId": "P-52170",
+      "squadNumber": 14,
+      "name": "Milorad Milutinović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1958-dragoslav_ekularac",
+      "identityId": "P-15756",
+      "squadNumber": 15,
+      "name": "Dragoslav Šekularac",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1958-ilijas_pa_i_",
+      "identityId": "P-32217",
+      "squadNumber": 16,
+      "name": "Ilijas Pašić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1958-zdravko_rajkov",
+      "identityId": "P-24259",
+      "squadNumber": 17,
+      "name": "Zdravko Rajkov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1958-luka_lipo_inovi_",
+      "identityId": "P-17091",
+      "squadNumber": 18,
+      "name": "Luka Lipošinović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1958-radivoje_ognjanovi_",
+      "identityId": "P-47145",
+      "squadNumber": 19,
+      "name": "Radivoje Ognjanović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1958-gordan_irovi_",
+      "identityId": "P-10089",
+      "squadNumber": 20,
+      "name": "Gordan Irović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1958-nikola_radovi_",
+      "identityId": "P-44453",
+      "squadNumber": 21,
+      "name": "Nikola Radović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1958-dra_an_jerkovi_",
+      "identityId": "P-55024",
+      "squadNumber": 22,
+      "name": "Dražan Jerković",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Yugoslavia (Group Stage). Squad reserve member."
+    }
+  ]
+}

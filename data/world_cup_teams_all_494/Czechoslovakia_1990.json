@@ -1,0 +1,500 @@
+{
+  "teamName": "Czechoslovakia",
+  "teamCode": "CSK",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "czechoslovakia-1990-jan_stejskal",
+      "identityId": "P-76459",
+      "squadNumber": 1,
+      "name": "Jan Stejskal",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-j_lius_bielik",
+      "identityId": "P-20237",
+      "squadNumber": 2,
+      "name": "Július Bielik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "czechoslovakia-1990-miroslav_kadlec",
+      "identityId": "P-40265",
+      "squadNumber": 3,
+      "name": "Miroslav Kadlec",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-ivan_ha_ek",
+      "identityId": "P-73737",
+      "squadNumber": 4,
+      "name": "Ivan Hašek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1990-j_n_kocian",
+      "identityId": "P-57995",
+      "squadNumber": 5,
+      "name": "Ján Kocian",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-franti_ek_straka",
+      "identityId": "P-20647",
+      "squadNumber": 6,
+      "name": "František Straka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-michal_b_lek",
+      "identityId": "P-08239",
+      "squadNumber": 7,
+      "name": "Michal Bílek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1990-jozef_chovanec",
+      "identityId": "P-52500",
+      "squadNumber": 8,
+      "name": "Jozef Chovanec",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-lubo_kub_k",
+      "identityId": "P-16313",
+      "squadNumber": 9,
+      "name": "Luboš Kubík",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1990-tom_skuhrav_",
+      "identityId": "P-71260",
+      "squadNumber": 10,
+      "name": "Tomáš Skuhravý",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "czechoslovakia-1990-_ubom_r_morav_k",
+      "identityId": "P-85306",
+      "squadNumber": 11,
+      "name": "Ľubomír Moravčík",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-peter_fieber",
+      "identityId": "P-17800",
+      "squadNumber": 12,
+      "name": "Peter Fieber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1990-ji_n_mec",
+      "identityId": "P-82871",
+      "squadNumber": 13,
+      "name": "Jiří Němec",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1990-vladim_r_weiss",
+      "identityId": "P-78227",
+      "squadNumber": 14,
+      "name": "Vladimír Weiss",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1990-vladim_r_kinier",
+      "identityId": "P-28182",
+      "squadNumber": 15,
+      "name": "Vladimír Kinier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1990-viliam_h_rav_",
+      "identityId": "P-58445",
+      "squadNumber": 16,
+      "name": "Viliam Hýravý",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1990-ivo_knofl_ek",
+      "identityId": "P-65434",
+      "squadNumber": 17,
+      "name": "Ivo Knoflíček",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1990-milan_luhov_",
+      "identityId": "P-99987",
+      "squadNumber": 18,
+      "name": "Milan Luhový",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1990-stanislav_griga",
+      "identityId": "P-71732",
+      "squadNumber": 19,
+      "name": "Stanislav Griga",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "czechoslovakia-1990-v_clav_n_me_ek",
+      "identityId": "P-48690",
+      "squadNumber": 20,
+      "name": "Václav Němeček",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1990-lud_k_miklo_ko",
+      "identityId": "P-22231",
+      "squadNumber": 21,
+      "name": "Luděk Mikloško",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1990-peter_pal_ch",
+      "identityId": "P-14432",
+      "squadNumber": 22,
+      "name": "Peter Palúch",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Czechoslovakia (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

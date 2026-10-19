@@ -1,0 +1,494 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "uruguay-1974-ladislao_mazurkiewicz",
+      "identityId": "P-53140",
+      "squadNumber": 1,
+      "name": "Ladislao Mazurkiewicz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-baudilio_j_uregui",
+      "identityId": "P-50198",
+      "squadNumber": 2,
+      "name": "Baudilio Jáuregui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-juan_carlos_masnik",
+      "identityId": "P-32274",
+      "squadNumber": 3,
+      "name": "Juan Carlos Masnik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1974-pablo_forl_n",
+      "identityId": "P-34358",
+      "squadNumber": 4,
+      "name": "Pablo Forlán",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-julio_montero_castillo",
+      "identityId": "P-83931",
+      "squadNumber": 5,
+      "name": "Julio Montero Castillo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1974-ricardo_pavoni",
+      "identityId": "P-46047",
+      "squadNumber": 6,
+      "name": "Ricardo Pavoni",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1974-luis_cubilla",
+      "identityId": "P-81929",
+      "squadNumber": 7,
+      "name": "Luis Cubilla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-1974-v_ctor_esp_rrago",
+      "identityId": "P-99710",
+      "squadNumber": 8,
+      "name": "Víctor Espárrago",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-fernando_morena",
+      "identityId": "P-36986",
+      "squadNumber": 9,
+      "name": "Fernando Morena",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-pedro_rocha",
+      "identityId": "P-47892",
+      "squadNumber": 10,
+      "name": "Pedro Rocha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-rub_n_corbo",
+      "identityId": "P-61660",
+      "squadNumber": 11,
+      "name": "Rubén Corbo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1974-h_ctor_santos",
+      "identityId": "P-51832",
+      "squadNumber": 12,
+      "name": "Héctor Santos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1974-gustavo_de_simone",
+      "identityId": "P-62134",
+      "squadNumber": 13,
+      "name": "Gustavo de Simone",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1974-luis_garisto",
+      "identityId": "P-13110",
+      "squadNumber": 14,
+      "name": "Luis Garisto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1974-mario_gonz_lez",
+      "identityId": "P-32102",
+      "squadNumber": 15,
+      "name": "Mario González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1974-alberto_cardaccio",
+      "identityId": "P-35067",
+      "squadNumber": 16,
+      "name": "Alberto Cardaccio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-1974-julio_c_sar_jim_nez",
+      "identityId": "P-85474",
+      "squadNumber": 17,
+      "name": "Julio César Jiménez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1974-walter_mantegazza",
+      "identityId": "P-11707",
+      "squadNumber": 18,
+      "name": "Walter Mantegazza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-1974-denis_milar",
+      "identityId": "P-82387",
+      "squadNumber": 19,
+      "name": "Denis Milar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-1974-juan_silva",
+      "identityId": "P-85775",
+      "squadNumber": 20,
+      "name": "Juan Silva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1974-jos_g_mez",
+      "identityId": "P-19953",
+      "squadNumber": 21,
+      "name": "José Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1974-gustavo_fern_ndez",
+      "identityId": "P-85729",
+      "squadNumber": 22,
+      "name": "Gustavo Fernández",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    }
+  ]
+}

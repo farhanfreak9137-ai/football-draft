@@ -1,0 +1,494 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "belgium-1970-christian_piot",
+      "identityId": "P-92631",
+      "squadNumber": 1,
+      "name": "Christian Piot",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-georges_heylens",
+      "identityId": "P-23037",
+      "squadNumber": 2,
+      "name": "Georges Heylens",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-jean_thissen",
+      "identityId": "P-98745",
+      "squadNumber": 3,
+      "name": "Jean Thissen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-nicolas_dewalque",
+      "identityId": "P-23879",
+      "squadNumber": 4,
+      "name": "Nicolas Dewalque",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-l_on_jeck",
+      "identityId": "P-77985",
+      "squadNumber": 5,
+      "name": "Léon Jeck",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1970-jean_dockx",
+      "identityId": "P-74479",
+      "squadNumber": 6,
+      "name": "Jean Dockx",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-l_on_semmeling",
+      "identityId": "P-67478",
+      "squadNumber": 7,
+      "name": "Léon Semmeling",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-wilfried_van_moer",
+      "identityId": "P-47829",
+      "squadNumber": 8,
+      "name": "Wilfried Van Moer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "belgium-1970-johan_devrindt",
+      "identityId": "P-89771",
+      "squadNumber": 9,
+      "name": "Johan Devrindt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1970-paul_van_himst",
+      "identityId": "P-94646",
+      "squadNumber": 10,
+      "name": "Paul Van Himst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-wilfried_puis",
+      "identityId": "P-67309",
+      "squadNumber": 11,
+      "name": "Wilfried Puis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Belgium (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "belgium-1970-jean-marie_trappeniers",
+      "identityId": "P-69901",
+      "squadNumber": 12,
+      "name": "Jean-Marie Trappeniers",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-jacques_beurlet",
+      "identityId": "P-47589",
+      "squadNumber": 13,
+      "name": "Jacques Beurlet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-maurice_martens",
+      "identityId": "P-43522",
+      "squadNumber": 14,
+      "name": "Maurice Martens",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-erwin_vandendaele",
+      "identityId": "P-43168",
+      "squadNumber": 15,
+      "name": "Erwin Vandendaele",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-odilon_polleunis",
+      "identityId": "P-42364",
+      "squadNumber": 16,
+      "name": "Odilon Polleunis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Belgium (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1970-jan_verheyen",
+      "identityId": "P-13390",
+      "squadNumber": 17,
+      "name": "Jan Verheyen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-raoul_lambert",
+      "identityId": "P-59854",
+      "squadNumber": 18,
+      "name": "Raoul Lambert",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Belgium (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "belgium-1970-pierre_carteus",
+      "identityId": "P-69323",
+      "squadNumber": 19,
+      "name": "Pierre Carteus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-alfons_peeters",
+      "identityId": "P-69996",
+      "squadNumber": 20,
+      "name": "Alfons Peeters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-frans_janssens",
+      "identityId": "P-77729",
+      "squadNumber": 21,
+      "name": "Frans Janssens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "belgium-1970-jacques_duquesne",
+      "identityId": "P-62963",
+      "squadNumber": 22,
+      "name": "Jacques Duquesne",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Belgium (Group Stage). Squad reserve member."
+    }
+  ]
+}

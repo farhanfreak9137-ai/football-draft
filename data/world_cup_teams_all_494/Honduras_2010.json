@@ -1,0 +1,516 @@
+{
+  "teamName": "Honduras",
+  "teamCode": "HND",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "honduras-2010-ricardo_canales",
+      "identityId": "P-14138",
+      "squadNumber": 1,
+      "name": "Ricardo Canales",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2010-osman_ch_vez",
+      "identityId": "P-53363",
+      "squadNumber": 2,
+      "name": "Osman Chávez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2010-maynor_figueroa",
+      "identityId": "P-31125",
+      "squadNumber": 3,
+      "name": "Maynor Figueroa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2010-johnny_palacios",
+      "identityId": "P-23032",
+      "squadNumber": 4,
+      "name": "Johnny Palacios",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2010-v_ctor_bern_rdez",
+      "identityId": "P-82662",
+      "squadNumber": 5,
+      "name": "Víctor Bernárdez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-hendry_thomas",
+      "identityId": "P-45221",
+      "squadNumber": 6,
+      "name": "Hendry Thomas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-ram_n_n_ez",
+      "identityId": "P-50967",
+      "squadNumber": 7,
+      "name": "Ramón Núñez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2010-wilson_palacios",
+      "identityId": "P-15185",
+      "squadNumber": 8,
+      "name": "Wilson Palacios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2010-carlos_pav_n",
+      "identityId": "P-59301",
+      "squadNumber": 9,
+      "name": "Carlos Pavón",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-jerry_palacios",
+      "identityId": "P-73160",
+      "squadNumber": 10,
+      "name": "Jerry Palacios",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-david_suazo",
+      "identityId": "P-54804",
+      "squadNumber": 11,
+      "name": "David Suazo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2010-georgie_welcome",
+      "identityId": "P-91430",
+      "squadNumber": 12,
+      "name": "Georgie Welcome",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Honduras (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "honduras-2010-roger_espinoza",
+      "identityId": "P-53060",
+      "squadNumber": 13,
+      "name": "Roger Espinoza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2010-boniek_garc_a",
+      "identityId": "P-93922",
+      "squadNumber": 14,
+      "name": "Boniek García",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2010-walter_mart_nez",
+      "identityId": "P-88160",
+      "squadNumber": 15,
+      "name": "Walter Martínez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-mauricio_sabill_n",
+      "identityId": "P-71236",
+      "squadNumber": 16,
+      "name": "Mauricio Sabillón",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-_dgar_lvarez",
+      "identityId": "P-97689",
+      "squadNumber": 17,
+      "name": "Édgar Álvarez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2010-noel_valladares",
+      "identityId": "P-93059",
+      "squadNumber": 18,
+      "name": "Noel Valladares",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2010-danilo_turcios",
+      "identityId": "P-06476",
+      "squadNumber": 19,
+      "name": "Danilo Turcios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2010-amado_guevara",
+      "identityId": "P-04726",
+      "squadNumber": 20,
+      "name": "Amado Guevara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2010-emilio_izaguirre",
+      "identityId": "P-57482",
+      "squadNumber": 21,
+      "name": "Emilio Izaguirre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2010-donis_escober",
+      "identityId": "P-81025",
+      "squadNumber": 22,
+      "name": "Donis Escober",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2010-sergio_mendoza",
+      "identityId": "P-07624",
+      "squadNumber": 23,
+      "name": "Sergio Mendoza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "teamName": "Colombia",
+  "teamCode": "COL",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "colombia-1998-_scar_c_rdoba",
+      "identityId": "P-24621",
+      "squadNumber": 1,
+      "name": "Óscar Córdoba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1998-iv_n_c_rdoba",
+      "identityId": "P-09175",
+      "squadNumber": 2,
+      "name": "Iván Córdoba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1998-ever_palacios",
+      "identityId": "P-00848",
+      "squadNumber": 3,
+      "name": "Ever Palacios",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-jos_santa",
+      "identityId": "P-21571",
+      "squadNumber": 4,
+      "name": "José Santa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-1998-jorge_berm_dez",
+      "identityId": "P-71020",
+      "squadNumber": 5,
+      "name": "Jorge Bermúdez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-mauricio_serna",
+      "identityId": "P-80178",
+      "squadNumber": 6,
+      "name": "Mauricio Serna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-antony_de_vila",
+      "identityId": "P-23692",
+      "squadNumber": 7,
+      "name": "Antony de Ávila",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-1998-john_harold_lozano",
+      "identityId": "P-19743",
+      "squadNumber": 8,
+      "name": "John Harold Lozano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-adolfo_valencia",
+      "identityId": "P-55994",
+      "squadNumber": 9,
+      "name": "Adolfo Valencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1998-carlos_valderrama",
+      "identityId": "P-49600",
+      "squadNumber": 10,
+      "name": "Carlos Valderrama",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-faustino_asprilla",
+      "identityId": "P-10444",
+      "squadNumber": 11,
+      "name": "Faustino Asprilla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1998-miguel_calero",
+      "identityId": "P-18252",
+      "squadNumber": 12,
+      "name": "Miguel Calero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1998-w_lmer_cabrera",
+      "identityId": "P-13552",
+      "squadNumber": 13,
+      "name": "Wílmer Cabrera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-jorge_bola_o",
+      "identityId": "P-77800",
+      "squadNumber": 14,
+      "name": "Jorge Bolaño",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Colombia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-1998-v_ctor_aristiz_bal",
+      "identityId": "P-76247",
+      "squadNumber": 15,
+      "name": "Víctor Aristizábal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1998-luis_antonio_moreno",
+      "identityId": "P-75570",
+      "squadNumber": 16,
+      "name": "Luis Antonio Moreno",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-1998-andr_s_estrada",
+      "identityId": "P-00522",
+      "squadNumber": 17,
+      "name": "Andrés Estrada",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1998-john_wilmar_p_rez",
+      "identityId": "P-51932",
+      "squadNumber": 18,
+      "name": "John Wilmar Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Colombia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "colombia-1998-freddy_rinc_n",
+      "identityId": "P-69504",
+      "squadNumber": 19,
+      "name": "Freddy Rincón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-1998-h_milton_ricard",
+      "identityId": "P-30514",
+      "squadNumber": 20,
+      "name": "Hámilton Ricard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Colombia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-1998-l_ider_preciado",
+      "identityId": "P-64415",
+      "squadNumber": 21,
+      "name": "Léider Preciado",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Colombia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-1998-faryd_mondrag_n",
+      "identityId": "P-02080",
+      "squadNumber": 22,
+      "name": "Faryd Mondragón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Colombia (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

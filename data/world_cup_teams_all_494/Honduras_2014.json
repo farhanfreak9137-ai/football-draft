@@ -1,0 +1,513 @@
+{
+  "teamName": "Honduras",
+  "teamCode": "HND",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "honduras-2014-luis_l_pez",
+      "identityId": "P-19564",
+      "squadNumber": 1,
+      "name": "Luis López",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2014-osman_ch_vez",
+      "identityId": "P-53363",
+      "squadNumber": 2,
+      "name": "Osman Chávez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Honduras (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "honduras-2014-maynor_figueroa",
+      "identityId": "P-31125",
+      "squadNumber": 3,
+      "name": "Maynor Figueroa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2014-juan_pablo_montes",
+      "identityId": "P-74155",
+      "squadNumber": 4,
+      "name": "Juan Pablo Montes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2014-v_ctor_bern_rdez",
+      "identityId": "P-82662",
+      "squadNumber": 5,
+      "name": "Víctor Bernárdez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2014-juan_carlos_garc_a",
+      "identityId": "P-33029",
+      "squadNumber": 6,
+      "name": "Juan Carlos García",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2014-emilio_izaguirre",
+      "identityId": "P-57482",
+      "squadNumber": 7,
+      "name": "Emilio Izaguirre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2014-wilson_palacios",
+      "identityId": "P-15185",
+      "squadNumber": 8,
+      "name": "Wilson Palacios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2014-jerry_palacios",
+      "identityId": "P-73160",
+      "squadNumber": 9,
+      "name": "Jerry Palacios",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Honduras (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "honduras-2014-mario_mart_nez",
+      "identityId": "P-05369",
+      "squadNumber": 10,
+      "name": "Mario Martínez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Honduras (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "honduras-2014-jerry_bengtson",
+      "identityId": "P-67290",
+      "squadNumber": 11,
+      "name": "Jerry Bengtson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2014-edder_delgado",
+      "identityId": "P-93287",
+      "squadNumber": 12,
+      "name": "Edder Delgado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2014-carlo_costly",
+      "identityId": "P-38682",
+      "squadNumber": 13,
+      "name": "Carlo Costly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "honduras-2014-boniek_garc_a",
+      "identityId": "P-93922",
+      "squadNumber": 14,
+      "name": "Boniek García",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2014-roger_espinoza",
+      "identityId": "P-53060",
+      "squadNumber": 15,
+      "name": "Roger Espinoza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2014-rony_mart_nez",
+      "identityId": "P-86511",
+      "squadNumber": 16,
+      "name": "Rony Martínez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2014-andy_najar",
+      "identityId": "P-34878",
+      "squadNumber": 17,
+      "name": "Andy Najar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "honduras-2014-noel_valladares",
+      "identityId": "P-93059",
+      "squadNumber": 18,
+      "name": "Noel Valladares",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2014-luis_garrido",
+      "identityId": "P-29674",
+      "squadNumber": 19,
+      "name": "Luis Garrido",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2014-jorge_claros",
+      "identityId": "P-30748",
+      "squadNumber": 20,
+      "name": "Jorge Claros",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Honduras (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "honduras-2014-brayan_beckeles",
+      "identityId": "P-64512",
+      "squadNumber": 21,
+      "name": "Brayan Beckeles",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Honduras (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "honduras-2014-donis_escober",
+      "identityId": "P-81025",
+      "squadNumber": 22,
+      "name": "Donis Escober",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Honduras (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "honduras-2014-marvin_ch_vez",
+      "identityId": "P-36601",
+      "squadNumber": 23,
+      "name": "Marvin Chávez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Honduras (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

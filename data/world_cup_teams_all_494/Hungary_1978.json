@@ -1,0 +1,492 @@
+{
+  "teamName": "Hungary",
+  "teamCode": "HUN",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "hungary-1978-s_ndor_gujd_r",
+      "identityId": "P-64266",
+      "squadNumber": 1,
+      "name": "Sándor Gujdár",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1978-p_ter_t_r_k",
+      "identityId": "P-56063",
+      "squadNumber": 2,
+      "name": "Péter Török",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1978-istv_n_kocsis",
+      "identityId": "P-99164",
+      "squadNumber": 3,
+      "name": "István Kocsis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1978-j_zsef_t_th",
+      "identityId": "P-42012",
+      "squadNumber": 4,
+      "name": "József Tóth",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1978-s_ndor_zombori",
+      "identityId": "P-12183",
+      "squadNumber": 5,
+      "name": "Sándor Zombori",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1978-zolt_n_kereki",
+      "identityId": "P-36123",
+      "squadNumber": 6,
+      "name": "Zoltán Kereki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1978-l_szl_fazekas",
+      "identityId": "P-99185",
+      "squadNumber": 7,
+      "name": "László Fazekas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1978-tibor_nyilasi",
+      "identityId": "P-34326",
+      "squadNumber": 8,
+      "name": "Tibor Nyilasi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1978-andr_s_t_r_csik",
+      "identityId": "P-86777",
+      "squadNumber": 9,
+      "name": "András Törőcsik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1978-s_ndor_pint_r",
+      "identityId": "P-45243",
+      "squadNumber": 10,
+      "name": "Sándor Pintér",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1978-b_la_v_rady",
+      "identityId": "P-13770",
+      "squadNumber": 11,
+      "name": "Béla Várady",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1978-gy_z_martos",
+      "identityId": "P-70353",
+      "squadNumber": 12,
+      "name": "Győző Martos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1978-k_roly_csap_",
+      "identityId": "P-17566",
+      "squadNumber": 13,
+      "name": "Károly Csapó",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1978-l_szl_b_lint",
+      "identityId": "P-53099",
+      "squadNumber": 14,
+      "name": "László Bálint",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1978-tibor_rab",
+      "identityId": "P-02094",
+      "squadNumber": 15,
+      "name": "Tibor Rab",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1978-istv_n_hal_sz",
+      "identityId": "P-88526",
+      "squadNumber": 16,
+      "name": "István Halász",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Hungary (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "hungary-1978-l_szl_pusztai",
+      "identityId": "P-77765",
+      "squadNumber": 17,
+      "name": "László Pusztai",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1978-l_szl_nagy",
+      "identityId": "P-15153",
+      "squadNumber": 18,
+      "name": "László Nagy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1978-andr_s_t_th",
+      "identityId": "P-05262",
+      "squadNumber": 19,
+      "name": "András Tóth",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1978 World Cup performance for Hungary (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1978-ferenc_f_l_p",
+      "identityId": "P-72757",
+      "squadNumber": 20,
+      "name": "Ferenc Fülöp",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1978-ferenc_m_sz_ros",
+      "identityId": "P-67438",
+      "squadNumber": 21,
+      "name": "Ferenc Mészáros",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1978-l_szl_kov_cs",
+      "identityId": "P-53278",
+      "squadNumber": 22,
+      "name": "László Kovács",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    }
+  ]
+}

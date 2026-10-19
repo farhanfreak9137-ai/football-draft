@@ -1,0 +1,585 @@
+{
+  "teamName": "Denmark",
+  "teamCode": "DNK",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "denmark-2022-kasper_schmeichel",
+      "identityId": "P-58755",
+      "squadNumber": 1,
+      "name": "Kasper Schmeichel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2022-joachim_andersen",
+      "identityId": "P-43705",
+      "squadNumber": 2,
+      "name": "Joachim Andersen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2022-victor_nelsson",
+      "identityId": "P-49454",
+      "squadNumber": 3,
+      "name": "Victor Nelsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-simon_kj_r",
+      "identityId": "P-14988",
+      "squadNumber": 4,
+      "name": "Simon Kjær",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-joakim_m_hle",
+      "identityId": "P-39995",
+      "squadNumber": 5,
+      "name": "Joakim Mæhle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2022-andreas_christensen",
+      "identityId": "P-18923",
+      "squadNumber": 6,
+      "name": "Andreas Christensen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2022-mathias_jensen",
+      "identityId": "P-26593",
+      "squadNumber": 7,
+      "name": "Mathias Jensen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-thomas_delaney",
+      "identityId": "P-57615",
+      "squadNumber": 8,
+      "name": "Thomas Delaney",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-martin_braithwaite",
+      "identityId": "P-85579",
+      "squadNumber": 9,
+      "name": "Martin Braithwaite",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-christian_eriksen",
+      "identityId": "P-50104",
+      "squadNumber": 10,
+      "name": "Christian Eriksen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2022-andreas_skov_olsen",
+      "identityId": "P-82313",
+      "squadNumber": 11,
+      "name": "Andreas Skov Olsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2022-kasper_dolberg",
+      "identityId": "P-72592",
+      "squadNumber": 12,
+      "name": "Kasper Dolberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-rasmus_kristensen",
+      "identityId": "P-82877",
+      "squadNumber": 13,
+      "name": "Rasmus Kristensen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2022-mikkel_damsgaard",
+      "identityId": "P-57782",
+      "squadNumber": 14,
+      "name": "Mikkel Damsgaard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-christian_n_rgaard",
+      "identityId": "P-56182",
+      "squadNumber": 15,
+      "name": "Christian Nørgaard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Denmark (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2022-oliver_christensen",
+      "identityId": "P-07304",
+      "squadNumber": 16,
+      "name": "Oliver Christensen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2022-jens_stryger_larsen",
+      "identityId": "P-11588",
+      "squadNumber": 17,
+      "name": "Jens Stryger Larsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2022-daniel_wass",
+      "identityId": "P-93781",
+      "squadNumber": 18,
+      "name": "Daniel Wass",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2022-jonas_wind",
+      "identityId": "P-59609",
+      "squadNumber": 19,
+      "name": "Jonas Wind",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2022-yussuf_poulsen",
+      "identityId": "P-08442",
+      "squadNumber": 20,
+      "name": "Yussuf Poulsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2022-andreas_cornelius",
+      "identityId": "P-29053",
+      "squadNumber": 21,
+      "name": "Andreas Cornelius",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2022-frederik_r_nnow",
+      "identityId": "P-35930",
+      "squadNumber": 22,
+      "name": "Frederik Rønnow",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2022-pierre-emile_h_jbjerg",
+      "identityId": "P-98199",
+      "squadNumber": 23,
+      "name": "Pierre-Emile Højbjerg",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2022-robert_skov",
+      "identityId": "P-76468",
+      "squadNumber": 24,
+      "name": "Robert Skov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Denmark (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2022-jesper_lindstr_m",
+      "identityId": "P-70516",
+      "squadNumber": 25,
+      "name": "Jesper Lindstrøm",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Denmark (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2022-alexander_bah",
+      "identityId": "P-92135",
+      "squadNumber": 26,
+      "name": "Alexander Bah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Denmark (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

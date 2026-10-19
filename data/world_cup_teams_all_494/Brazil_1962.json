@@ -1,0 +1,503 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 89,
+  "players": [
+    {
+      "id": "brazil-1962-gilmar",
+      "identityId": "P-07056",
+      "squadNumber": 1,
+      "name": "Gilmar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-djalma_santos",
+      "identityId": "P-52002",
+      "squadNumber": 2,
+      "name": "Djalma Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-mauro_ramos",
+      "identityId": "P-34782",
+      "squadNumber": 3,
+      "name": "Mauro Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-zito",
+      "identityId": "P-82525",
+      "squadNumber": 4,
+      "name": "Zito",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1962-z_zimo",
+      "identityId": "P-39031",
+      "squadNumber": 5,
+      "name": "Zózimo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-n_lton_santos",
+      "identityId": "P-75955",
+      "squadNumber": 6,
+      "name": "Nílton Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-garrincha",
+      "identityId": "P-46080",
+      "squadNumber": 7,
+      "name": "Garrincha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Golden Boot",
+        "Golden Ball & Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1962 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1962 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Golden Boot, Golden Ball & Boot."
+    },
+    {
+      "id": "brazil-1962-didi",
+      "identityId": "P-76740",
+      "squadNumber": 8,
+      "name": "Didi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-coutinho",
+      "identityId": "P-87810",
+      "squadNumber": 9,
+      "name": "Coutinho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-pel_",
+      "identityId": "P-38906",
+      "squadNumber": 10,
+      "name": "Pelé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1962-pepe",
+      "identityId": "P-54379",
+      "squadNumber": 11,
+      "name": "Pepe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "brazil-1962-jair_marinho",
+      "identityId": "P-17125",
+      "squadNumber": 12,
+      "name": "Jair Marinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-hilderaldo_bellini",
+      "identityId": "P-70724",
+      "squadNumber": 13,
+      "name": "Hilderaldo Bellini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-jurandir",
+      "identityId": "P-76352",
+      "squadNumber": 14,
+      "name": "Jurandir",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-altair",
+      "identityId": "P-58585",
+      "squadNumber": 15,
+      "name": "Altair",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-zequinha",
+      "identityId": "P-89643",
+      "squadNumber": 16,
+      "name": "Zequinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-meng_lvio",
+      "identityId": "P-21480",
+      "squadNumber": 17,
+      "name": "Mengálvio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-jair_da_costa",
+      "identityId": "P-13437",
+      "squadNumber": 18,
+      "name": "Jair da Costa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-1962-vav_",
+      "identityId": "P-45310",
+      "squadNumber": 19,
+      "name": "Vavá",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1962 FIFA World Cup Golden Boot Winner (4 Goals)",
+      "ratingRationale": "Rated 96 OVR based on 1962 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "brazil-1962-amarildo",
+      "identityId": "P-96621",
+      "squadNumber": 20,
+      "name": "Amarildo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1962 World Cup performance for Brazil (Champions). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "brazil-1962-m_rio_zagallo",
+      "identityId": "P-38164",
+      "squadNumber": 21,
+      "name": "Mário Zagallo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1962 World Cup performance for Brazil (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1962-carlos_jos_castilho",
+      "identityId": "P-86570",
+      "squadNumber": 22,
+      "name": "Carlos José Castilho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1962 World Cup performance for Brazil (Champions). Squad reserve member."
+    }
+  ]
+}

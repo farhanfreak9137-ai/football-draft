@@ -1,0 +1,541 @@
+{
+  "teamName": "Colombia",
+  "teamCode": "COL",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "colombia-2026-camilo_vargas",
+      "identityId": "identity-2026-camilo_vargas",
+      "squadNumber": 12,
+      "name": "Camilo Vargas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-daniel_mu_oz",
+      "identityId": "identity-2026-daniel_mu_oz",
+      "squadNumber": 21,
+      "name": "Daniel Muñoz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "RWB"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-davinson_s_nchez",
+      "identityId": "identity-2026-davinson_s_nchez",
+      "squadNumber": 23,
+      "name": "Davinson Sánchez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-jhon_lucum_",
+      "identityId": "identity-2026-jhon_lucum_",
+      "squadNumber": 3,
+      "name": "Jhon Lucumí",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-johan_mojica",
+      "identityId": "identity-2026-johan_mojica",
+      "squadNumber": 17,
+      "name": "Johan Mojica",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-jefferson_lerma",
+      "identityId": "identity-2026-jefferson_lerma",
+      "squadNumber": 16,
+      "name": "Jefferson Lerma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-richard_r_os",
+      "identityId": "identity-2026-richard_r_os",
+      "squadNumber": 6,
+      "name": "Richard Ríos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "RM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-james_rodr_guez",
+      "identityId": "identity-2026-james_rodr_guez",
+      "squadNumber": 10,
+      "name": "James Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Copa América 2024 Player of the Tournament & Golden Boot Legend"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Copa América 2024 Player of the Tournament & Golden Boot Legend",
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Colombia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "colombia-2026-jhon_arias",
+      "identityId": "identity-2026-jhon_arias",
+      "squadNumber": 11,
+      "name": "Jhon Arias",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-jhon_c_rdoba",
+      "identityId": "identity-2026-jhon_c_rdoba",
+      "squadNumber": 24,
+      "name": "Jhon Córdoba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Colombia. Regular starting lineup selection."
+    },
+    {
+      "id": "colombia-2026-luis_d_az",
+      "identityId": "identity-2026-luis_d_az",
+      "squadNumber": 7,
+      "name": "Luis Díaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Colombia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "colombia-2026-david_ospina",
+      "identityId": "identity-2026-david_ospina",
+      "squadNumber": 1,
+      "name": "David Ospina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Colombia. National squad reserve depth."
+    },
+    {
+      "id": "colombia-2026-_lvaro_montero",
+      "identityId": "identity-2026-_lvaro_montero",
+      "squadNumber": 25,
+      "name": "Álvaro Montero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Colombia. National squad reserve depth."
+    },
+    {
+      "id": "colombia-2026-carlos_cuesta",
+      "identityId": "identity-2026-carlos_cuesta",
+      "squadNumber": 2,
+      "name": "Carlos Cuesta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-santiago_arias",
+      "identityId": "identity-2026-santiago_arias",
+      "squadNumber": 4,
+      "name": "Santiago Arias",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-yerry_mina",
+      "identityId": "identity-2026-yerry_mina",
+      "squadNumber": 13,
+      "name": "Yerry Mina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-deiver_machado",
+      "identityId": "identity-2026-deiver_machado",
+      "squadNumber": 26,
+      "name": "Deiver Machado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-kevin_casta_o",
+      "identityId": "identity-2026-kevin_casta_o",
+      "squadNumber": 5,
+      "name": "Kevin Castaño",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-jorge_carrascal",
+      "identityId": "identity-2026-jorge_carrascal",
+      "squadNumber": 8,
+      "name": "Jorge Carrascal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-mateus_uribe",
+      "identityId": "identity-2026-mateus_uribe",
+      "squadNumber": 15,
+      "name": "Mateus Uribe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-juan_fernando_quintero",
+      "identityId": "identity-2026-juan_fernando_quintero",
+      "squadNumber": 20,
+      "name": "Juan Fernando Quintero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-y_ser_asprilla",
+      "identityId": "identity-2026-y_ser_asprilla",
+      "squadNumber": 22,
+      "name": "Yáser Asprilla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Colombia. National squad reserve depth."
+    },
+    {
+      "id": "colombia-2026-miguel_borja",
+      "identityId": "identity-2026-miguel_borja",
+      "squadNumber": 9,
+      "name": "Miguel Borja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-jhon_dur_n",
+      "identityId": "identity-2026-jhon_dur_n",
+      "squadNumber": 14,
+      "name": "Jhon Durán",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-luis_sinisterra",
+      "identityId": "identity-2026-luis_sinisterra",
+      "squadNumber": 18,
+      "name": "Luis Sinisterra",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "colombia-2026-rafael_santos_borr_",
+      "identityId": "identity-2026-rafael_santos_borr_",
+      "squadNumber": 19,
+      "name": "Rafael Santos Borré",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Colombia. Frequent tactical rotation contributor."
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "mexico-2006-oswaldo_s_nchez",
+      "identityId": "P-92932",
+      "squadNumber": 1,
+      "name": "Oswaldo Sánchez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2006-claudio_su_rez",
+      "identityId": "P-78308",
+      "squadNumber": 2,
+      "name": "Claudio Suárez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2006-carlos_salcido",
+      "identityId": "P-97434",
+      "squadNumber": 3,
+      "name": "Carlos Salcido",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2006-rafael_m_rquez",
+      "identityId": "P-44763",
+      "squadNumber": 4,
+      "name": "Rafael Márquez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2006-ricardo_osorio",
+      "identityId": "P-98486",
+      "squadNumber": 5,
+      "name": "Ricardo Osorio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2006-gerardo_torrado",
+      "identityId": "P-89297",
+      "squadNumber": 6,
+      "name": "Gerardo Torrado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-2006-sinha",
+      "identityId": "P-30651",
+      "squadNumber": 7,
+      "name": "Sinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2006-p_vel_pardo",
+      "identityId": "P-34636",
+      "squadNumber": 8,
+      "name": "Pável Pardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2006-jared_borgetti",
+      "identityId": "P-81643",
+      "squadNumber": 9,
+      "name": "Jared Borgetti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-2006-guillermo_franco",
+      "identityId": "P-73255",
+      "squadNumber": 10,
+      "name": "Guillermo Franco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "mexico-2006-ram_n_morales",
+      "identityId": "P-98036",
+      "squadNumber": 11,
+      "name": "Ramón Morales",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2006-jos_de_jes_s_corona",
+      "identityId": "P-05120",
+      "squadNumber": 12,
+      "name": "José de Jesús Corona",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2006-guillermo_ochoa",
+      "identityId": "P-80826",
+      "squadNumber": 13,
+      "name": "Guillermo Ochoa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2006-gonzalo_pineda",
+      "identityId": "P-10860",
+      "squadNumber": 14,
+      "name": "Gonzalo Pineda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "mexico-2006-jos_antonio_castro",
+      "identityId": "P-86098",
+      "squadNumber": 15,
+      "name": "José Antonio Castro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2006-mario_m_ndez",
+      "identityId": "P-77467",
+      "squadNumber": 16,
+      "name": "Mario Méndez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "mexico-2006-francisco_fonseca",
+      "identityId": "P-89438",
+      "squadNumber": 17,
+      "name": "Francisco Fonseca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-2006-andr_s_guardado",
+      "identityId": "P-40312",
+      "squadNumber": 18,
+      "name": "Andrés Guardado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2006-omar_bravo",
+      "identityId": "P-34977",
+      "squadNumber": 19,
+      "name": "Omar Bravo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Mexico (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "mexico-2006-rafael_garc_a",
+      "identityId": "P-87592",
+      "squadNumber": 20,
+      "name": "Rafael García",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Mexico (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "mexico-2006-jes_s_arellano",
+      "identityId": "P-92547",
+      "squadNumber": 21,
+      "name": "Jesús Arellano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Mexico (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "mexico-2006-francisco_javier_rodr_guez",
+      "identityId": "P-11191",
+      "squadNumber": 22,
+      "name": "Francisco Javier Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "mexico-2006-luis_ernesto_p_rez",
+      "identityId": "P-17445",
+      "squadNumber": 23,
+      "name": "Luis Ernesto Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Mexico (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

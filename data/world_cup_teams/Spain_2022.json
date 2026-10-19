@@ -1,0 +1,583 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "spain-2022-robert_s_nchez",
+      "identityId": "P-92513",
+      "squadNumber": 1,
+      "name": "Robert Sánchez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2022-c_sar_azpilicueta",
+      "identityId": "P-60716",
+      "squadNumber": 2,
+      "name": "César Azpilicueta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2022-eric_garc_a",
+      "identityId": "P-37420",
+      "squadNumber": 3,
+      "name": "Eric García",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2022-pau_torres",
+      "identityId": "P-16333",
+      "squadNumber": 4,
+      "name": "Pau Torres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2022-sergio_busquets",
+      "identityId": "P-28010",
+      "squadNumber": 5,
+      "name": "Sergio Busquets",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2022-marcos_llorente",
+      "identityId": "P-86871",
+      "squadNumber": 6,
+      "name": "Marcos Llorente",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2022-_lvaro_morata",
+      "identityId": "P-29274",
+      "squadNumber": 7,
+      "name": "Álvaro Morata",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts). Scored 3 goal(s)."
+    },
+    {
+      "id": "spain-2022-koke",
+      "identityId": "P-37294",
+      "squadNumber": 8,
+      "name": "Koke",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Spain (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "spain-2022-gavi",
+      "identityId": "P-88433",
+      "squadNumber": 9,
+      "name": "Gavi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2022-marco_asensio",
+      "identityId": "P-09400",
+      "squadNumber": 10,
+      "name": "Marco Asensio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2022-ferran_torres",
+      "identityId": "P-31301",
+      "squadNumber": 11,
+      "name": "Ferran Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "spain-2022-nico_williams",
+      "identityId": "P-68218",
+      "squadNumber": 12,
+      "name": "Nico Williams",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2022-david_raya",
+      "identityId": "P-33433",
+      "squadNumber": 13,
+      "name": "David Raya",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2022-alejandro_balde",
+      "identityId": "P-49008",
+      "squadNumber": 14,
+      "name": "Alejandro Balde",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2022-hugo_guillam_n",
+      "identityId": "P-87958",
+      "squadNumber": 15,
+      "name": "Hugo Guillamón",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2022-rodri",
+      "identityId": "P-62341",
+      "squadNumber": 16,
+      "name": "Rodri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2022-yeremy_pino",
+      "identityId": "P-46898",
+      "squadNumber": 17,
+      "name": "Yeremy Pino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2022-jordi_alba",
+      "identityId": "P-01416",
+      "squadNumber": 18,
+      "name": "Jordi Alba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2022-carlos_soler",
+      "identityId": "P-30405",
+      "squadNumber": 19,
+      "name": "Carlos Soler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Spain (Round of 16). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2022-dani_carvajal",
+      "identityId": "P-71071",
+      "squadNumber": 20,
+      "name": "Dani Carvajal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2022-dani_olmo",
+      "identityId": "P-40007",
+      "squadNumber": 21,
+      "name": "Dani Olmo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2022-pablo_sarabia",
+      "identityId": "P-81427",
+      "squadNumber": 22,
+      "name": "Pablo Sarabia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Spain (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-2022-unai_sim_n",
+      "identityId": "P-94271",
+      "squadNumber": 23,
+      "name": "Unai Simón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2022-aymeric_laporte",
+      "identityId": "P-99025",
+      "squadNumber": 24,
+      "name": "Aymeric Laporte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2022-ansu_fati",
+      "identityId": "P-33854",
+      "squadNumber": 25,
+      "name": "Ansu Fati",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Spain (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "spain-2022-pedri",
+      "identityId": "P-24897",
+      "squadNumber": 26,
+      "name": "Pedri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

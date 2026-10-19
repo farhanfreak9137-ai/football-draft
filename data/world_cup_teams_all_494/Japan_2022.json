@@ -1,0 +1,586 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "japan-2022-eiji_kawashima",
+      "identityId": "P-53272",
+      "squadNumber": 1,
+      "name": "Eiji Kawashima",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2022-miki_yamane",
+      "identityId": "P-45981",
+      "squadNumber": 2,
+      "name": "Miki Yamane",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2022-shogo_taniguchi",
+      "identityId": "P-77382",
+      "squadNumber": 3,
+      "name": "Shogo Taniguchi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2022-ko_itakura",
+      "identityId": "P-35225",
+      "squadNumber": 4,
+      "name": "Ko Itakura",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2022-yuto_nagatomo",
+      "identityId": "P-26303",
+      "squadNumber": 5,
+      "name": "Yuto Nagatomo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2022-wataru_endo",
+      "identityId": "P-53282",
+      "squadNumber": 6,
+      "name": "Wataru Endo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2022-gaku_shibasaki",
+      "identityId": "P-99817",
+      "squadNumber": 7,
+      "name": "Gaku Shibasaki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2022-ritsu_d_an",
+      "identityId": "P-58907",
+      "squadNumber": 8,
+      "name": "Ritsu Dōan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "japan-2022-kaoru_mitoma",
+      "identityId": "P-22633",
+      "squadNumber": 9,
+      "name": "Kaoru Mitoma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Japan (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "japan-2022-takumi_minamino",
+      "identityId": "P-05559",
+      "squadNumber": 10,
+      "name": "Takumi Minamino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Japan (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "japan-2022-takefusa_kubo",
+      "identityId": "P-39942",
+      "squadNumber": 11,
+      "name": "Takefusa Kubo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2022-sh_ichi_gonda",
+      "identityId": "P-66906",
+      "squadNumber": 12,
+      "name": "Shūichi Gonda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2022-hidemasa_morita",
+      "identityId": "P-75751",
+      "squadNumber": 13,
+      "name": "Hidemasa Morita",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2022-junya_ito",
+      "identityId": "P-86909",
+      "squadNumber": 14,
+      "name": "Junya Ito",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2022-daichi_kamada",
+      "identityId": "P-62952",
+      "squadNumber": 15,
+      "name": "Daichi Kamada",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2022-takehiro_tomiyasu",
+      "identityId": "P-68429",
+      "squadNumber": 16,
+      "name": "Takehiro Tomiyasu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2022-ao_tanaka",
+      "identityId": "P-82447",
+      "squadNumber": 17,
+      "name": "Ao Tanaka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2022-takuma_asano",
+      "identityId": "P-46913",
+      "squadNumber": 18,
+      "name": "Takuma Asano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Japan (Round of 16). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2022-hiroki_sakai",
+      "identityId": "P-56398",
+      "squadNumber": 19,
+      "name": "Hiroki Sakai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2022-shuto_machino",
+      "identityId": "P-44328",
+      "squadNumber": 20,
+      "name": "Shuto Machino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2022-ayase_ueda",
+      "identityId": "P-57586",
+      "squadNumber": 21,
+      "name": "Ayase Ueda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2022-maya_yoshida",
+      "identityId": "P-89321",
+      "squadNumber": 22,
+      "name": "Maya Yoshida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2022-daniel_schmidt",
+      "identityId": "P-77827",
+      "squadNumber": 23,
+      "name": "Daniel Schmidt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2022-yuki_soma",
+      "identityId": "P-64056",
+      "squadNumber": 24,
+      "name": "Yuki Soma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Japan (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2022-daizen_maeda",
+      "identityId": "P-30206",
+      "squadNumber": 25,
+      "name": "Daizen Maeda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Japan (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2022-hiroki_ito",
+      "identityId": "P-41902",
+      "squadNumber": 26,
+      "name": "Hiroki Ito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "teamName": "Denmark",
+  "teamCode": "DNK",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "denmark-2010-thomas_s_rensen",
+      "identityId": "P-00212",
+      "squadNumber": 1,
+      "name": "Thomas Sørensen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2010-christian_poulsen",
+      "identityId": "P-46718",
+      "squadNumber": 2,
+      "name": "Christian Poulsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2010-simon_kj_r",
+      "identityId": "P-14988",
+      "squadNumber": 3,
+      "name": "Simon Kjær",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Denmark (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2010-daniel_agger",
+      "identityId": "P-52264",
+      "squadNumber": 4,
+      "name": "Daniel Agger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2010-william_kvist",
+      "identityId": "P-93951",
+      "squadNumber": 5,
+      "name": "William Kvist",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2010-lars_jacobsen",
+      "identityId": "P-13831",
+      "squadNumber": 6,
+      "name": "Lars Jacobsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2010-daniel_jensen",
+      "identityId": "P-18657",
+      "squadNumber": 7,
+      "name": "Daniel Jensen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Denmark (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2010-jesper_gr_nkj_r",
+      "identityId": "P-63778",
+      "squadNumber": 8,
+      "name": "Jesper Grønkjær",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2010-jon_dahl_tomasson",
+      "identityId": "P-50534",
+      "squadNumber": 9,
+      "name": "Jon Dahl Tomasson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Denmark (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2010-martin_j_rgensen",
+      "identityId": "P-68055",
+      "squadNumber": 10,
+      "name": "Martin Jørgensen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2010-nicklas_bendtner",
+      "identityId": "P-38862",
+      "squadNumber": 11,
+      "name": "Nicklas Bendtner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2010-thomas_kahlenberg",
+      "identityId": "P-47232",
+      "squadNumber": 12,
+      "name": "Thomas Kahlenberg",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Denmark (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-2010-per_kr_ldrup",
+      "identityId": "P-83625",
+      "squadNumber": 13,
+      "name": "Per Krøldrup",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2010-jakob_poulsen",
+      "identityId": "P-67264",
+      "squadNumber": 14,
+      "name": "Jakob Poulsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Denmark (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "denmark-2010-simon_poulsen",
+      "identityId": "P-89870",
+      "squadNumber": 15,
+      "name": "Simon Poulsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-2010-stephan_andersen",
+      "identityId": "P-83165",
+      "squadNumber": 16,
+      "name": "Stephan Andersen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2010-mikkel_beckmann",
+      "identityId": "P-45005",
+      "squadNumber": 17,
+      "name": "Mikkel Beckmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Denmark (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2010-s_ren_larsen",
+      "identityId": "P-05707",
+      "squadNumber": 18,
+      "name": "Søren Larsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Denmark (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-2010-dennis_rommedahl",
+      "identityId": "P-80170",
+      "squadNumber": 19,
+      "name": "Dennis Rommedahl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Denmark (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-2010-thomas_enevoldsen",
+      "identityId": "P-41303",
+      "squadNumber": 20,
+      "name": "Thomas Enevoldsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Denmark (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-2010-christian_eriksen",
+      "identityId": "P-50104",
+      "squadNumber": 21,
+      "name": "Christian Eriksen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Denmark (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "denmark-2010-jesper_christiansen",
+      "identityId": "P-21988",
+      "squadNumber": 22,
+      "name": "Jesper Christiansen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "denmark-2010-patrick_mtiliga",
+      "identityId": "P-23395",
+      "squadNumber": 23,
+      "name": "Patrick Mtiliga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Denmark (Group Stage). Squad reserve member."
+    }
+  ]
+}

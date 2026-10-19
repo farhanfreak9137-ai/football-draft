@@ -1,0 +1,519 @@
+{
+  "teamName": "Germany",
+  "teamCode": "DEU",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "germany-2010-manuel_neuer",
+      "identityId": "P-19408",
+      "squadNumber": 1,
+      "name": "Manuel Neuer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2010-marcell_jansen",
+      "identityId": "P-50326",
+      "squadNumber": 2,
+      "name": "Marcell Jansen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2010-arne_friedrich",
+      "identityId": "P-43481",
+      "squadNumber": 3,
+      "name": "Arne Friedrich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2010-dennis_aogo",
+      "identityId": "P-04201",
+      "squadNumber": 4,
+      "name": "Dennis Aogo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2010-serdar_tasci",
+      "identityId": "P-03879",
+      "squadNumber": 5,
+      "name": "Serdar Tasci",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Germany (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2010-sami_khedira",
+      "identityId": "P-13029",
+      "squadNumber": 6,
+      "name": "Sami Khedira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2010-bastian_schweinsteiger",
+      "identityId": "P-43400",
+      "squadNumber": 7,
+      "name": "Bastian Schweinsteiger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2010-mesut_zil",
+      "identityId": "P-12818",
+      "squadNumber": 8,
+      "name": "Mesut Özil",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2010-stefan_kie_ling",
+      "identityId": "P-88148",
+      "squadNumber": 9,
+      "name": "Stefan Kießling",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Germany (Third Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "germany-2010-lukas_podolski",
+      "identityId": "P-36287",
+      "squadNumber": 10,
+      "name": "Lukas Podolski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "germany-2010-miroslav_klose",
+      "identityId": "P-27787",
+      "squadNumber": 11,
+      "name": "Miroslav Klose",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 5 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "germany-2010-tim_wiese",
+      "identityId": "P-68199",
+      "squadNumber": 12,
+      "name": "Tim Wiese",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Germany (Third Place). Squad reserve member."
+    },
+    {
+      "id": "germany-2010-thomas_m_ller",
+      "identityId": "P-28154",
+      "squadNumber": 13,
+      "name": "Thomas Müller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Golden Boot",
+        "Best Young Player"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2010 FIFA World Cup Golden Boot Winner (5 Goals)",
+      "ratingRationale": "Rated 94 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es). Scored 5 goal(s). Honors: Golden Boot, Best Young Player."
+    },
+    {
+      "id": "germany-2010-holger_badstuber",
+      "identityId": "P-47255",
+      "squadNumber": 14,
+      "name": "Holger Badstuber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Germany (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2010-piotr_trochowski",
+      "identityId": "P-47324",
+      "squadNumber": 15,
+      "name": "Piotr Trochowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2010-philipp_lahm",
+      "identityId": "P-18599",
+      "squadNumber": 16,
+      "name": "Philipp Lahm",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2010-per_mertesacker",
+      "identityId": "P-02328",
+      "squadNumber": 17,
+      "name": "Per Mertesacker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2010-toni_kroos",
+      "identityId": "P-39356",
+      "squadNumber": 18,
+      "name": "Toni Kroos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Germany (Third Place). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "germany-2010-cacau",
+      "identityId": "P-10713",
+      "squadNumber": 19,
+      "name": "Cacau",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Germany (Third Place). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2010-j_r_me_boateng",
+      "identityId": "P-04224",
+      "squadNumber": 20,
+      "name": "Jérôme Boateng",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Germany (Third Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-2010-marko_marin",
+      "identityId": "P-97093",
+      "squadNumber": 21,
+      "name": "Marko Marin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Germany (Third Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "germany-2010-hans-j_rg_butt",
+      "identityId": "P-05630",
+      "squadNumber": 22,
+      "name": "Hans-Jörg Butt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Germany (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2010-mario_g_mez",
+      "identityId": "P-78594",
+      "squadNumber": 23,
+      "name": "Mario Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Germany (Third Place). Substitute rotation option (4 sub app)."
+    }
+  ]
+}

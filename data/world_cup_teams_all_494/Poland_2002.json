@@ -1,0 +1,516 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "poland-2002-jerzy_dudek",
+      "identityId": "P-59886",
+      "squadNumber": 1,
+      "name": "Jerzy Dudek",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2002-tomasz_k_os",
+      "identityId": "P-99558",
+      "squadNumber": 2,
+      "name": "Tomasz Kłos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-jacek_zieli_ski",
+      "identityId": "P-66681",
+      "squadNumber": 3,
+      "name": "Jacek Zieliński",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-micha_ew_akow",
+      "identityId": "P-15578",
+      "squadNumber": 4,
+      "name": "Michał Żewłakow",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2002-tomasz_rz_sa",
+      "identityId": "P-20085",
+      "squadNumber": 5,
+      "name": "Tomasz Rząsa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2002-tomasz_hajto",
+      "identityId": "P-53829",
+      "squadNumber": 6,
+      "name": "Tomasz Hajto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2002-piotr_wierczewski",
+      "identityId": "P-34709",
+      "squadNumber": 7,
+      "name": "Piotr Świerczewski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2002-cezary_kucharski",
+      "identityId": "P-93812",
+      "squadNumber": 8,
+      "name": "Cezary Kucharski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-pawe_krysza_owicz",
+      "identityId": "P-69995",
+      "squadNumber": 9,
+      "name": "Paweł Kryszałowicz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-2002-rados_aw_ka_u_ny",
+      "identityId": "P-29986",
+      "squadNumber": 10,
+      "name": "Radosław Kałużny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2002-emmanuel_olisadebe",
+      "identityId": "P-75230",
+      "squadNumber": 11,
+      "name": "Emmanuel Olisadebe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-2002-rados_aw_majdan",
+      "identityId": "P-13151",
+      "squadNumber": 12,
+      "name": "Radosław Majdan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-arkadiusz_g_owacki",
+      "identityId": "P-37701",
+      "squadNumber": 13,
+      "name": "Arkadiusz Głowacki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-marcin_ew_akow",
+      "identityId": "P-03927",
+      "squadNumber": 14,
+      "name": "Marcin Żewłakow",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Poland (Group Stage). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-2002-tomasz_wa_doch",
+      "identityId": "P-68907",
+      "squadNumber": 15,
+      "name": "Tomasz Wałdoch",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2002-maciej_murawski",
+      "identityId": "P-68833",
+      "squadNumber": 16,
+      "name": "Maciej Murawski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-arkadiusz_b_k",
+      "identityId": "P-90321",
+      "squadNumber": 17,
+      "name": "Arkadiusz Bąk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2002-jacek_krzyn_wek",
+      "identityId": "P-49007",
+      "squadNumber": 18,
+      "name": "Jacek Krzynówek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2002-maciej_urawski",
+      "identityId": "P-07088",
+      "squadNumber": 19,
+      "name": "Maciej Żurawski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2002-jacek_b_k",
+      "identityId": "P-46873",
+      "squadNumber": 20,
+      "name": "Jacek Bąk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2002-marek_ko_mi_ski",
+      "identityId": "P-06017",
+      "squadNumber": 21,
+      "name": "Marek Koźmiński",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2002-adam_matysek",
+      "identityId": "P-01018",
+      "squadNumber": 22,
+      "name": "Adam Matysek",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2002-pawe_sibik",
+      "identityId": "P-09579",
+      "squadNumber": 23,
+      "name": "Paweł Sibik",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

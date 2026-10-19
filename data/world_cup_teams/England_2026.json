@@ -1,0 +1,551 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 26,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "england-2026-jordan_pickford",
+      "identityId": "identity-2026-jordan_pickford",
+      "squadNumber": 1,
+      "name": "Jordan Pickford",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with England. Regular starting lineup selection."
+    },
+    {
+      "id": "england-2026-kyle_walker",
+      "identityId": "identity-2026-kyle_walker",
+      "squadNumber": 2,
+      "name": "Kyle Walker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with England. Regular starting lineup selection."
+    },
+    {
+      "id": "england-2026-john_stones",
+      "identityId": "identity-2026-john_stones",
+      "squadNumber": 5,
+      "name": "John Stones",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with England. Regular starting lineup selection."
+    },
+    {
+      "id": "england-2026-marc_gu_hi",
+      "identityId": "identity-2026-marc_gu_hi",
+      "squadNumber": 6,
+      "name": "Marc Guéhi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with England. Regular starting lineup selection."
+    },
+    {
+      "id": "england-2026-kieran_trippier",
+      "identityId": "identity-2026-kieran_trippier",
+      "squadNumber": 12,
+      "name": "Kieran Trippier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with England. Regular starting lineup selection."
+    },
+    {
+      "id": "england-2026-declan_rice",
+      "identityId": "identity-2026-declan_rice",
+      "squadNumber": 4,
+      "name": "Declan Rice",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with England. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "england-2026-kobbie_mainoo",
+      "identityId": "identity-2026-kobbie_mainoo",
+      "squadNumber": 26,
+      "name": "Kobbie Mainoo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with England. Regular starting lineup selection."
+    },
+    {
+      "id": "england-2026-bukayo_saka",
+      "identityId": "identity-2026-bukayo_saka",
+      "squadNumber": 7,
+      "name": "Bukayo Saka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "RM",
+        "LWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with England. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "england-2026-jude_bellingham",
+      "identityId": "identity-2026-jude_bellingham",
+      "squadNumber": 10,
+      "name": "Jude Bellingham",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "CM"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Champions League Champion & Generational Superstar"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Champions League Champion & Generational Superstar",
+      "ratingRationale": "Rated 93 OVR for 2026 World Cup form with England. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "england-2026-phil_foden",
+      "identityId": "identity-2026-phil_foden",
+      "squadNumber": 11,
+      "name": "Phil Foden",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with England. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "england-2026-harry_kane",
+      "identityId": "identity-2026-harry_kane",
+      "squadNumber": 9,
+      "name": "Harry Kane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "England All-Time Top Scorer & Golden Boot Winner"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "England All-Time Top Scorer & Golden Boot Winner",
+      "ratingRationale": "Rated 91 OVR for 2026 World Cup form with England. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "england-2026-aaron_ramsdale",
+      "identityId": "identity-2026-aaron_ramsdale",
+      "squadNumber": 13,
+      "name": "Aaron Ramsdale",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with England. National squad reserve depth."
+    },
+    {
+      "id": "england-2026-dean_henderson",
+      "identityId": "identity-2026-dean_henderson",
+      "squadNumber": 23,
+      "name": "Dean Henderson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with England. National squad reserve depth."
+    },
+    {
+      "id": "england-2026-luke_shaw",
+      "identityId": "identity-2026-luke_shaw",
+      "squadNumber": 3,
+      "name": "Luke Shaw",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-ezri_konsa",
+      "identityId": "identity-2026-ezri_konsa",
+      "squadNumber": 14,
+      "name": "Ezri Konsa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-lewis_dunk",
+      "identityId": "identity-2026-lewis_dunk",
+      "squadNumber": 15,
+      "name": "Lewis Dunk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-conor_gallagher",
+      "identityId": "identity-2026-conor_gallagher",
+      "squadNumber": 16,
+      "name": "Conor Gallagher",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-trent_alexander-arnold",
+      "identityId": "identity-2026-trent_alexander-arnold",
+      "squadNumber": 8,
+      "name": "Trent Alexander-Arnold",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CM"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-ivan_toney",
+      "identityId": "identity-2026-ivan_toney",
+      "squadNumber": 17,
+      "name": "Ivan Toney",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-anthony_gordon",
+      "identityId": "identity-2026-anthony_gordon",
+      "squadNumber": 18,
+      "name": "Anthony Gordon",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-ollie_watkins",
+      "identityId": "identity-2026-ollie_watkins",
+      "squadNumber": 19,
+      "name": "Ollie Watkins",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-jarrod_bowen",
+      "identityId": "identity-2026-jarrod_bowen",
+      "squadNumber": 20,
+      "name": "Jarrod Bowen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-eberechi_eze",
+      "identityId": "identity-2026-eberechi_eze",
+      "squadNumber": 21,
+      "name": "Eberechi Eze",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-joe_gomez",
+      "identityId": "identity-2026-joe_gomez",
+      "squadNumber": 22,
+      "name": "Joe Gomez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "LB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-cole_palmer",
+      "identityId": "identity-2026-cole_palmer",
+      "squadNumber": 24,
+      "name": "Cole Palmer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with England. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "england-2026-adam_wharton",
+      "identityId": "identity-2026-adam_wharton",
+      "squadNumber": 25,
+      "name": "Adam Wharton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with England. National squad reserve depth."
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "france-1986-jo_l_bats",
+      "identityId": "P-51570",
+      "squadNumber": 1,
+      "name": "Joël Bats",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-1986-manuel_amoros",
+      "identityId": "P-69834",
+      "squadNumber": 2,
+      "name": "Manuel Amoros",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1986-william_ayache",
+      "identityId": "P-29650",
+      "squadNumber": 3,
+      "name": "William Ayache",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-1986-patrick_battiston",
+      "identityId": "P-12738",
+      "squadNumber": 4,
+      "name": "Patrick Battiston",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "france-1986-michel_bibard",
+      "identityId": "P-27495",
+      "squadNumber": 5,
+      "name": "Michel Bibard",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1986-maxime_bossis",
+      "identityId": "P-03719",
+      "squadNumber": 6,
+      "name": "Maxime Bossis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-1986-yvon_le_roux",
+      "identityId": "P-94723",
+      "squadNumber": 7,
+      "name": "Yvon Le Roux",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1986-thierry_tusseau",
+      "identityId": "P-52595",
+      "squadNumber": 8,
+      "name": "Thierry Tusseau",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1986-luis_fern_ndez",
+      "identityId": "P-00643",
+      "squadNumber": 9,
+      "name": "Luis Fernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1986-michel_platini",
+      "identityId": "P-08939",
+      "squadNumber": 10,
+      "name": "Michel Platini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "france-1986-jean-marc_ferreri",
+      "identityId": "P-80821",
+      "squadNumber": 11,
+      "name": "Jean-Marc Ferreri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1986-alain_giresse",
+      "identityId": "P-79617",
+      "squadNumber": 12,
+      "name": "Alain Giresse",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-1986-bernard_genghini",
+      "identityId": "P-05511",
+      "squadNumber": 13,
+      "name": "Bernard Genghini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1986-jean_tigana",
+      "identityId": "P-76592",
+      "squadNumber": 14,
+      "name": "Jean Tigana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1986-philippe_vercruysse",
+      "identityId": "P-93959",
+      "squadNumber": 15,
+      "name": "Philippe Vercruysse",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-1986-bruno_bellone",
+      "identityId": "P-12716",
+      "squadNumber": 16,
+      "name": "Bruno Bellone",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-1986-jean-pierre_papin",
+      "identityId": "P-31235",
+      "squadNumber": 17,
+      "name": "Jean-Pierre Papin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "france-1986-dominique_rocheteau",
+      "identityId": "P-99991",
+      "squadNumber": 18,
+      "name": "Dominique Rocheteau",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1986-yannick_stopyra",
+      "identityId": "P-22982",
+      "squadNumber": 19,
+      "name": "Yannick Stopyra",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for France (Third Place). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "france-1986-daniel_xuereb",
+      "identityId": "P-88945",
+      "squadNumber": 20,
+      "name": "Daniel Xuereb",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for France (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-1986-philippe_bergeroo",
+      "identityId": "P-51538",
+      "squadNumber": 21,
+      "name": "Philippe Bergeroo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1986 World Cup performance for France (Third Place). Squad reserve member."
+    },
+    {
+      "id": "france-1986-albert_rust",
+      "identityId": "P-87726",
+      "squadNumber": 22,
+      "name": "Albert Rust",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for France (Third Place). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

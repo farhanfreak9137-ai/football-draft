@@ -1,0 +1,515 @@
+{
+  "teamName": "Saudi Arabia",
+  "teamCode": "SAU",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "saudi_arabia-2002-mohamed_al-deayea",
+      "identityId": "P-12996",
+      "squadNumber": 1,
+      "name": "Mohamed Al-Deayea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2002-mohammed_al-jahani",
+      "identityId": "P-55518",
+      "squadNumber": 2,
+      "name": "Mohammed Al-Jahani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-redha_tukar",
+      "identityId": "P-90725",
+      "squadNumber": 3,
+      "name": "Redha Tukar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2002-abdullah_sulaiman_zubromawi",
+      "identityId": "P-50171",
+      "squadNumber": 4,
+      "name": "Abdullah Sulaiman Zubromawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2002-mohsin_al-harthi",
+      "identityId": "P-16522",
+      "squadNumber": 5,
+      "name": "Mohsin Al-Harthi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2002-fouzi_al-shehri",
+      "identityId": "P-48349",
+      "squadNumber": 6,
+      "name": "Fouzi Al-Shehri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-ibrahim_al-shahrani",
+      "identityId": "P-92151",
+      "squadNumber": 7,
+      "name": "Ibrahim Al-Shahrani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-mohammed_noor",
+      "identityId": "P-90435",
+      "squadNumber": 8,
+      "name": "Mohammed Noor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-sami_al-jaber",
+      "identityId": "P-88041",
+      "squadNumber": 9,
+      "name": "Sami Al-Jaber",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-mohammad_al-shalhoub",
+      "identityId": "P-11262",
+      "squadNumber": 10,
+      "name": "Mohammad Al-Shalhoub",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2002-obeid_al-dosari",
+      "identityId": "P-85019",
+      "squadNumber": 11,
+      "name": "Obeid Al-Dosari",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-ahmed_al-dokhi",
+      "identityId": "P-53448",
+      "squadNumber": 12,
+      "name": "Ahmed Al-Dokhi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-hussein_abdulghani",
+      "identityId": "P-77199",
+      "squadNumber": 13,
+      "name": "Hussein Abdulghani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2002-abdulaziz_al-khathran",
+      "identityId": "P-76946",
+      "squadNumber": 14,
+      "name": "Abdulaziz Al-Khathran",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-abdullah_al-jumaan",
+      "identityId": "P-26868",
+      "squadNumber": 15,
+      "name": "Abdullah Al-Jumaan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2002-khamis_al-dosari",
+      "identityId": "P-17941",
+      "squadNumber": 16,
+      "name": "Khamis Al-Dosari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-abdullah_al-waked",
+      "identityId": "P-75813",
+      "squadNumber": 17,
+      "name": "Abdullah Al-Waked",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-nawaf_al-temyat",
+      "identityId": "P-20886",
+      "squadNumber": 18,
+      "name": "Nawaf Al-Temyat",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2002-omar_al-ghamdi",
+      "identityId": "P-00585",
+      "squadNumber": 19,
+      "name": "Omar Al-Ghamdi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2002-al_hasan_al-yami",
+      "identityId": "P-00683",
+      "squadNumber": 20,
+      "name": "Al Hasan Al-Yami",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2002-mabrouk_zaid",
+      "identityId": "P-99270",
+      "squadNumber": 21,
+      "name": "Mabrouk Zaid",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2002-mohammed_al-khojali",
+      "identityId": "P-29107",
+      "squadNumber": 22,
+      "name": "Mohammed Al-Khojali",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2002-mansour_al-thagafi",
+      "identityId": "P-12568",
+      "squadNumber": 23,
+      "name": "Mansour Al-Thagafi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    }
+  ]
+}

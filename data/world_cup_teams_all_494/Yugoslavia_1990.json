@@ -1,0 +1,495 @@
+{
+  "teamName": "Yugoslavia",
+  "teamCode": "YUG",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "yugoslavia-1990-tomislav_ivkovi_",
+      "identityId": "P-94391",
+      "squadNumber": 1,
+      "name": "Tomislav Ivković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-vujadin_stanojkovi_",
+      "identityId": "P-63160",
+      "squadNumber": 2,
+      "name": "Vujadin Stanojković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1990-predrag_spasi_",
+      "identityId": "P-71342",
+      "squadNumber": 3,
+      "name": "Predrag Spasić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-zoran_vuli_",
+      "identityId": "P-09094",
+      "squadNumber": 4,
+      "name": "Zoran Vulić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1990-faruk_had_ibegi_",
+      "identityId": "P-85893",
+      "squadNumber": 5,
+      "name": "Faruk Hadžibegić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-davor_jozi_",
+      "identityId": "P-01298",
+      "squadNumber": 6,
+      "name": "Davor Jozić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1990-dragoljub_brnovi_",
+      "identityId": "P-71107",
+      "squadNumber": 7,
+      "name": "Dragoljub Brnović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-safet_su_i_",
+      "identityId": "P-74361",
+      "squadNumber": 8,
+      "name": "Safet Sušić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1990-darko_pan_ev",
+      "identityId": "P-31892",
+      "squadNumber": 9,
+      "name": "Darko Pančev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1990-dragan_stojkovi_",
+      "identityId": "P-93318",
+      "squadNumber": 10,
+      "name": "Dragan Stojković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1990-zlatko_vujovi_",
+      "identityId": "P-83693",
+      "squadNumber": 11,
+      "name": "Zlatko Vujović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-fahrudin_omerovi_",
+      "identityId": "P-34572",
+      "squadNumber": 12,
+      "name": "Fahrudin Omerović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1990-sre_ko_katanec",
+      "identityId": "P-54317",
+      "squadNumber": 13,
+      "name": "Srečko Katanec",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-alen_bok_i_",
+      "identityId": "P-50470",
+      "squadNumber": 14,
+      "name": "Alen Bokšić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1990-robert_prosine_ki",
+      "identityId": "P-62861",
+      "squadNumber": 15,
+      "name": "Robert Prosinečki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "yugoslavia-1990-refik_abanad_ovi_",
+      "identityId": "P-48922",
+      "squadNumber": 16,
+      "name": "Refik Šabanadžović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "yugoslavia-1990-robert_jarni",
+      "identityId": "P-26414",
+      "squadNumber": 17,
+      "name": "Robert Jarni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "yugoslavia-1990-mirsad_balji_",
+      "identityId": "P-00153",
+      "squadNumber": 18,
+      "name": "Mirsad Baljić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1990-dejan_savi_evi_",
+      "identityId": "P-18303",
+      "squadNumber": 19,
+      "name": "Dejan Savićević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1990-davor_uker",
+      "identityId": "P-58374",
+      "squadNumber": 20,
+      "name": "Davor Šuker",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1990-andrej_panadi_",
+      "identityId": "P-93042",
+      "squadNumber": 21,
+      "name": "Andrej Panadić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1990-dragoje_lekovi_",
+      "identityId": "P-39053",
+      "squadNumber": 22,
+      "name": "Dragoje Leković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1990 World Cup performance for Yugoslavia (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

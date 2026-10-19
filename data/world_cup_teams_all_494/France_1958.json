@@ -1,0 +1,501 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "france-1958-claude_abbes",
+      "identityId": "P-02042",
+      "squadNumber": 1,
+      "name": "Claude Abbes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-dominique_colonna",
+      "identityId": "P-56360",
+      "squadNumber": 2,
+      "name": "Dominique Colonna",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-fran_ois_remetter",
+      "identityId": "P-15615",
+      "squadNumber": 3,
+      "name": "François Remetter",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-raymond_kaelbel",
+      "identityId": "P-76532",
+      "squadNumber": 4,
+      "name": "Raymond Kaelbel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-andr_lerond",
+      "identityId": "P-23507",
+      "squadNumber": 5,
+      "name": "André Lerond",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-roger_marche",
+      "identityId": "P-77459",
+      "squadNumber": 6,
+      "name": "Roger Marche",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-robert_mouynet",
+      "identityId": "P-94935",
+      "squadNumber": 7,
+      "name": "Robert Mouynet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-bernard_chiarelli",
+      "identityId": "P-92981",
+      "squadNumber": 8,
+      "name": "Bernard Chiarelli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-kazimir_hnatow",
+      "identityId": "P-81510",
+      "squadNumber": 9,
+      "name": "Kazimir Hnatow",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-robert_jonquet",
+      "identityId": "P-37808",
+      "squadNumber": 10,
+      "name": "Robert Jonquet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-maurice_lafont",
+      "identityId": "P-63080",
+      "squadNumber": 11,
+      "name": "Maurice Lafont",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1958-jean-jacques_marcel",
+      "identityId": "P-47282",
+      "squadNumber": 12,
+      "name": "Jean-Jacques Marcel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for France (Third Place). Squad reserve member."
+    },
+    {
+      "id": "france-1958-armand_penverne",
+      "identityId": "P-66325",
+      "squadNumber": 13,
+      "name": "Armand Penverne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for France (Third Place). Squad reserve member."
+    },
+    {
+      "id": "france-1958-raymond_bellot",
+      "identityId": "P-48323",
+      "squadNumber": 14,
+      "name": "Raymond Bellot",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for France (Third Place). Squad reserve member."
+    },
+    {
+      "id": "france-1958-st_phane_bruey",
+      "identityId": "P-02130",
+      "squadNumber": 15,
+      "name": "Stéphane Bruey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for France (Third Place). Squad reserve member."
+    },
+    {
+      "id": "france-1958-yvon_douis",
+      "identityId": "P-08451",
+      "squadNumber": 16,
+      "name": "Yvon Douis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1958-just_fontaine",
+      "identityId": "P-77939",
+      "squadNumber": 17,
+      "name": "Just Fontaine",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 13,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1958 FIFA World Cup Golden Boot Winner (13 Goals)",
+      "ratingRationale": "Rated 98 OVR based on 1958 World Cup performance for France (Third Place). Tournament standout and starting pillar. Scored 13 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "france-1958-raymond_kopa",
+      "identityId": "P-94605",
+      "squadNumber": 18,
+      "name": "Raymond Kopa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1958 World Cup performance for France (Third Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "france-1958-c_lestin_oliver",
+      "identityId": "P-86268",
+      "squadNumber": 19,
+      "name": "Célestin Oliver",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for France (Third Place). Squad reserve member."
+    },
+    {
+      "id": "france-1958-roger_piantoni",
+      "identityId": "P-38969",
+      "squadNumber": 20,
+      "name": "Roger Piantoni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1958 World Cup performance for France (Third Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "france-1958-jean_vincent",
+      "identityId": "P-78417",
+      "squadNumber": 21,
+      "name": "Jean Vincent",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1958 World Cup performance for France (Third Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1958-maryan_wisnieski",
+      "identityId": "P-75977",
+      "squadNumber": 22,
+      "name": "Maryan Wisnieski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1958 World Cup performance for France (Third Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    }
+  ]
+}

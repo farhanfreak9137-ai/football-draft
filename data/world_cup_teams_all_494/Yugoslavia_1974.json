@@ -1,0 +1,493 @@
+{
+  "teamName": "Yugoslavia",
+  "teamCode": "YUG",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "yugoslavia-1974-enver_mari_",
+      "identityId": "P-84648",
+      "squadNumber": 1,
+      "name": "Enver Marić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "yugoslavia-1974-ivan_buljan",
+      "identityId": "P-47694",
+      "squadNumber": 2,
+      "name": "Ivan Buljan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "yugoslavia-1974-enver_had_iabdi_",
+      "identityId": "P-00262",
+      "squadNumber": 3,
+      "name": "Enver Hadžiabdić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "yugoslavia-1974-dra_en_mu_ini_",
+      "identityId": "P-02400",
+      "squadNumber": 4,
+      "name": "Dražen Mužinić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "yugoslavia-1974-josip_katalinski",
+      "identityId": "P-20553",
+      "squadNumber": 5,
+      "name": "Josip Katalinski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-vladislav_bogi_evi_",
+      "identityId": "P-29556",
+      "squadNumber": 6,
+      "name": "Vladislav Bogićević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-ilija_petkovi_",
+      "identityId": "P-46434",
+      "squadNumber": 7,
+      "name": "Ilija Petković",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-branko_oblak",
+      "identityId": "P-26214",
+      "squadNumber": 8,
+      "name": "Branko Oblak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-ivica_urjak",
+      "identityId": "P-28747",
+      "squadNumber": 9,
+      "name": "Ivica Šurjak",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-jovan_a_imovi_",
+      "identityId": "P-67954",
+      "squadNumber": 10,
+      "name": "Jovan Aćimović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "yugoslavia-1974-dragan_d_aji_",
+      "identityId": "P-88088",
+      "squadNumber": 11,
+      "name": "Dragan Džajić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-jurica_jerkovi_",
+      "identityId": "P-27514",
+      "squadNumber": 12,
+      "name": "Jurica Jerković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1974-miroslav_pavlovi_",
+      "identityId": "P-62762",
+      "squadNumber": 13,
+      "name": "Miroslav Pavlović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1974-luka_peruzovi_",
+      "identityId": "P-19642",
+      "squadNumber": 14,
+      "name": "Luka Peruzović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "yugoslavia-1974-kiril_doj_inovski",
+      "identityId": "P-60845",
+      "squadNumber": 15,
+      "name": "Kiril Dojčinovski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1974-franjo_vladi_",
+      "identityId": "P-52104",
+      "squadNumber": 16,
+      "name": "Franjo Vladić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1974-danilo_popivoda",
+      "identityId": "P-23309",
+      "squadNumber": 17,
+      "name": "Danilo Popivoda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1974-stanislav_karasi",
+      "identityId": "P-80725",
+      "squadNumber": 18,
+      "name": "Stanislav Karasi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-du_an_bajevi_",
+      "identityId": "P-74389",
+      "squadNumber": 19,
+      "name": "Dušan Bajević",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "yugoslavia-1974-vladimir_petrovi_",
+      "identityId": "P-43672",
+      "squadNumber": 20,
+      "name": "Vladimir Petrović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "yugoslavia-1974-ognjen_petrovi_",
+      "identityId": "P-18421",
+      "squadNumber": 21,
+      "name": "Ognjen Petrović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "yugoslavia-1974-rizah_me_kovi_",
+      "identityId": "P-20595",
+      "squadNumber": 22,
+      "name": "Rizah Mešković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Yugoslavia (Round of 16). Squad reserve member."
+    }
+  ]
+}

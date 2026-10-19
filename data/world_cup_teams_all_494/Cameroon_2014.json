@@ -1,0 +1,519 @@
+{
+  "teamName": "Cameroon",
+  "teamCode": "CMR",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "cameroon-2014-lo_c_feudjou",
+      "identityId": "P-36230",
+      "squadNumber": 1,
+      "name": "Loïc Feudjou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2014-beno_t_assou-ekotto",
+      "identityId": "P-44116",
+      "squadNumber": 2,
+      "name": "Benoît Assou-Ekotto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2014-nicolas_nkoulou",
+      "identityId": "P-93209",
+      "squadNumber": 3,
+      "name": "Nicolas Nkoulou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2014-c_dric_djeugou_",
+      "identityId": "P-75443",
+      "squadNumber": 4,
+      "name": "Cédric Djeugoué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2014-dany_nounkeu",
+      "identityId": "P-89372",
+      "squadNumber": 5,
+      "name": "Dany Nounkeu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "cameroon-2014-alex_song",
+      "identityId": "P-99407",
+      "squadNumber": 6,
+      "name": "Alex Song",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2014-landry_ngu_mo",
+      "identityId": "P-88732",
+      "squadNumber": 7,
+      "name": "Landry N'Guémo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2014-benjamin_moukandjo",
+      "identityId": "P-65896",
+      "squadNumber": 8,
+      "name": "Benjamin Moukandjo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2014-samuel_etoo",
+      "identityId": "P-61703",
+      "squadNumber": 9,
+      "name": "Samuel Eto'o",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2014-vincent_aboubakar",
+      "identityId": "P-53452",
+      "squadNumber": 10,
+      "name": "Vincent Aboubakar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2014-jean_makoun",
+      "identityId": "P-67012",
+      "squadNumber": 11,
+      "name": "Jean Makoun",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "cameroon-2014-henri_bedimo",
+      "identityId": "P-97635",
+      "squadNumber": 12,
+      "name": "Henri Bedimo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2014-eric_maxim_choupo-moting",
+      "identityId": "P-06117",
+      "squadNumber": 13,
+      "name": "Eric Maxim Choupo-Moting",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2014-aur_lien_chedjou",
+      "identityId": "P-86625",
+      "squadNumber": 14,
+      "name": "Aurélien Chedjou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "cameroon-2014-pierre_web_",
+      "identityId": "P-10830",
+      "squadNumber": 15,
+      "name": "Pierre Webó",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "cameroon-2014-charles_itandje",
+      "identityId": "P-28726",
+      "squadNumber": 16,
+      "name": "Charles Itandje",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2014-st_phane_mbia",
+      "identityId": "P-48783",
+      "squadNumber": 17,
+      "name": "Stéphane Mbia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2014-eyong_enoh",
+      "identityId": "P-48455",
+      "squadNumber": 18,
+      "name": "Eyong Enoh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "cameroon-2014-fabrice_olinga",
+      "identityId": "P-81999",
+      "squadNumber": 19,
+      "name": "Fabrice Olinga",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "cameroon-2014-edgar_salli",
+      "identityId": "P-72737",
+      "squadNumber": 20,
+      "name": "Edgar Salli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "cameroon-2014-jo_l_matip",
+      "identityId": "P-47974",
+      "squadNumber": 21,
+      "name": "Joël Matip",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "cameroon-2014-allan_nyom",
+      "identityId": "P-05805",
+      "squadNumber": 22,
+      "name": "Allan Nyom",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "cameroon-2014-sammy_ndjock",
+      "identityId": "P-44581",
+      "squadNumber": 23,
+      "name": "Sammy Ndjock",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Cameroon (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "poland-1978-jan_tomaszewski",
+      "identityId": "P-06667",
+      "squadNumber": 1,
+      "name": "Jan Tomaszewski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1978-w_odzimierz_mazur",
+      "identityId": "P-60895",
+      "squadNumber": 2,
+      "name": "Włodzimierz Mazur",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-1978-henryk_maculewicz",
+      "identityId": "P-56499",
+      "squadNumber": 3,
+      "name": "Henryk Maculewicz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "poland-1978-antoni_szymanowski",
+      "identityId": "P-89521",
+      "squadNumber": 4,
+      "name": "Antoni Szymanowski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "poland-1978-adam_nawa_ka",
+      "identityId": "P-42824",
+      "squadNumber": 5,
+      "name": "Adam Nawałka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "poland-1978-jerzy_gorgo_",
+      "identityId": "P-95634",
+      "squadNumber": 6,
+      "name": "Jerzy Gorgoń",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "poland-1978-andrzej_iwan",
+      "identityId": "P-18317",
+      "squadNumber": 7,
+      "name": "Andrzej Iwan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1978-henryk_kasperczak",
+      "identityId": "P-97548",
+      "squadNumber": 8,
+      "name": "Henryk Kasperczak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1978-w_adys_aw_muda",
+      "identityId": "P-48883",
+      "squadNumber": 9,
+      "name": "Władysław Żmuda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "poland-1978-wojciech_rudy",
+      "identityId": "P-32819",
+      "squadNumber": 10,
+      "name": "Wojciech Rudy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1978-bohdan_masztaler",
+      "identityId": "P-37521",
+      "squadNumber": 11,
+      "name": "Bohdan Masztaler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-1978-kazimierz_deyna",
+      "identityId": "P-29548",
+      "squadNumber": 12,
+      "name": "Kazimierz Deyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-1978-janusz_kupcewicz",
+      "identityId": "P-15890",
+      "squadNumber": 13,
+      "name": "Janusz Kupcewicz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1978-miros_aw_justek",
+      "identityId": "P-99151",
+      "squadNumber": 14,
+      "name": "Mirosław Justek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1978-marek_kusto",
+      "identityId": "P-69383",
+      "squadNumber": 15,
+      "name": "Marek Kusto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1978-grzegorz_lato",
+      "identityId": "P-21597",
+      "squadNumber": 16,
+      "name": "Grzegorz Lato",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "poland-1978-andrzej_szarmach",
+      "identityId": "P-92867",
+      "squadNumber": 17,
+      "name": "Andrzej Szarmach",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-1978-zbigniew_boniek",
+      "identityId": "P-03652",
+      "squadNumber": 18,
+      "name": "Zbigniew Boniek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "poland-1978-w_odzimierz_luba_ski",
+      "identityId": "P-67962",
+      "squadNumber": 19,
+      "name": "Włodzimierz Lubański",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Poland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-1978-roman_w_jcicki",
+      "identityId": "P-22126",
+      "squadNumber": 20,
+      "name": "Roman Wójcicki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-1978-zygmunt_kukla",
+      "identityId": "P-09868",
+      "squadNumber": 21,
+      "name": "Zygmunt Kukla",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Poland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-1978-zdzis_aw_kostrzewa",
+      "identityId": "P-19443",
+      "squadNumber": 22,
+      "name": "Zdzisław Kostrzewa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for Poland (Round of 16). Squad reserve member."
+    }
+  ]
+}

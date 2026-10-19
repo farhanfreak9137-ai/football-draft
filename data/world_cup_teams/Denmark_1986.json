@@ -1,0 +1,501 @@
+{
+  "teamName": "Denmark",
+  "teamCode": "DNK",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "denmark-1986-troels_rasmussen",
+      "identityId": "P-06115",
+      "squadNumber": 1,
+      "name": "Troels Rasmussen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "denmark-1986-john_siveb_k",
+      "identityId": "P-46140",
+      "squadNumber": 2,
+      "name": "John Sivebæk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-1986-s_ren_busk",
+      "identityId": "P-94731",
+      "squadNumber": 3,
+      "name": "Søren Busk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-1986-morten_olsen",
+      "identityId": "P-40610",
+      "squadNumber": 4,
+      "name": "Morten Olsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-1986-ivan_nielsen",
+      "identityId": "P-62631",
+      "squadNumber": 5,
+      "name": "Ivan Nielsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1986-s_ren_lerby",
+      "identityId": "P-92595",
+      "squadNumber": 6,
+      "name": "Søren Lerby",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1986-jan_m_lby",
+      "identityId": "P-49069",
+      "squadNumber": 7,
+      "name": "Jan Mølby",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Denmark (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-1986-jesper_olsen",
+      "identityId": "P-21213",
+      "squadNumber": 8,
+      "name": "Jesper Olsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "denmark-1986-klaus_berggreen",
+      "identityId": "P-77330",
+      "squadNumber": 9,
+      "name": "Klaus Berggreen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1986-preben_elkj_r",
+      "identityId": "P-36502",
+      "squadNumber": 10,
+      "name": "Preben Elkjær",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1986 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s). Honors: Bronze Ball."
+    },
+    {
+      "id": "denmark-1986-michael_laudrup",
+      "identityId": "P-56788",
+      "squadNumber": 11,
+      "name": "Michael Laudrup",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1986-jens_j_rn_bertelsen",
+      "identityId": "P-53824",
+      "squadNumber": 12,
+      "name": "Jens Jørn Bertelsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1986-per_frimann",
+      "identityId": "P-48513",
+      "squadNumber": 13,
+      "name": "Per Frimann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-1986-allan_simonsen",
+      "identityId": "P-07140",
+      "squadNumber": 14,
+      "name": "Allan Simonsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Denmark (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-1986-frank_arnesen",
+      "identityId": "P-00445",
+      "squadNumber": 15,
+      "name": "Frank Arnesen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1986-ole_qvist",
+      "identityId": "P-17302",
+      "squadNumber": 16,
+      "name": "Ole Qvist",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-1986-kent_nielsen",
+      "identityId": "P-58408",
+      "squadNumber": 17,
+      "name": "Kent Nielsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-1986-flemming_christensen",
+      "identityId": "P-60480",
+      "squadNumber": 18,
+      "name": "Flemming Christensen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-1986-john_eriksen",
+      "identityId": "P-92292",
+      "squadNumber": 19,
+      "name": "John Eriksen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1986 World Cup performance for Denmark (Round of 16). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1986-jan_bartram",
+      "identityId": "P-98689",
+      "squadNumber": 20,
+      "name": "Jan Bartram",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Denmark (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "denmark-1986-henrik_andersen",
+      "identityId": "P-04488",
+      "squadNumber": 21,
+      "name": "Henrik Andersen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Denmark (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1986-lars_h_gh",
+      "identityId": "P-83507",
+      "squadNumber": 22,
+      "name": "Lars Høgh",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Denmark (Round of 16). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

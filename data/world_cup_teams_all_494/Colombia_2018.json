@@ -1,0 +1,516 @@
+{
+  "teamName": "Colombia",
+  "teamCode": "COL",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "colombia-2018-david_ospina",
+      "identityId": "P-94838",
+      "squadNumber": 1,
+      "name": "David Ospina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2018-cristi_n_zapata",
+      "identityId": "P-78745",
+      "squadNumber": 2,
+      "name": "Cristián Zapata",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Colombia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-2018-_scar_murillo",
+      "identityId": "P-26542",
+      "squadNumber": 3,
+      "name": "Óscar Murillo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2018-santiago_arias",
+      "identityId": "P-01505",
+      "squadNumber": 4,
+      "name": "Santiago Arias",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2018-wilmar_barrios",
+      "identityId": "P-17988",
+      "squadNumber": 5,
+      "name": "Wilmar Barrios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-2018-carlos_s_nchez",
+      "identityId": "P-66228",
+      "squadNumber": 6,
+      "name": "Carlos Sánchez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-2018-carlos_bacca",
+      "identityId": "P-12476",
+      "squadNumber": 7,
+      "name": "Carlos Bacca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Colombia (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "colombia-2018-abel_aguilar",
+      "identityId": "P-76705",
+      "squadNumber": 8,
+      "name": "Abel Aguilar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2018-radamel_falcao",
+      "identityId": "P-74655",
+      "squadNumber": 9,
+      "name": "Radamel Falcao",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2018-james_rodr_guez",
+      "identityId": "P-89392",
+      "squadNumber": 10,
+      "name": "James Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-2018-juan_cuadrado",
+      "identityId": "P-83216",
+      "squadNumber": 11,
+      "name": "Juan Cuadrado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2018-camilo_vargas",
+      "identityId": "P-27327",
+      "squadNumber": 12,
+      "name": "Camilo Vargas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Colombia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "colombia-2018-yerry_mina",
+      "identityId": "P-43196",
+      "squadNumber": 13,
+      "name": "Yerry Mina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "colombia-2018-luis_muriel",
+      "identityId": "P-16245",
+      "squadNumber": 14,
+      "name": "Luis Muriel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Colombia (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "colombia-2018-mateus_uribe",
+      "identityId": "P-07807",
+      "squadNumber": 15,
+      "name": "Mateus Uribe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2018-jefferson_lerma",
+      "identityId": "P-61424",
+      "squadNumber": 16,
+      "name": "Jefferson Lerma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-2018-johan_mojica",
+      "identityId": "P-07796",
+      "squadNumber": 17,
+      "name": "Johan Mojica",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2018-farid_d_az",
+      "identityId": "P-37614",
+      "squadNumber": 18,
+      "name": "Farid Díaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Colombia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "colombia-2018-miguel_borja",
+      "identityId": "P-59950",
+      "squadNumber": 19,
+      "name": "Miguel Borja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Colombia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-2018-juan_fernando_quintero",
+      "identityId": "P-14499",
+      "squadNumber": 20,
+      "name": "Juan Fernando Quintero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2018-jos_izquierdo",
+      "identityId": "P-75090",
+      "squadNumber": 21,
+      "name": "José Izquierdo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Colombia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2018-jos_fernando_cuadrado",
+      "identityId": "P-29212",
+      "squadNumber": 22,
+      "name": "José Fernando Cuadrado",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Colombia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "colombia-2018-davinson_s_nchez",
+      "identityId": "P-38594",
+      "squadNumber": 23,
+      "name": "Davinson Sánchez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Colombia (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

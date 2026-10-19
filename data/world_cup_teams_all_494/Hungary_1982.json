@@ -1,0 +1,492 @@
+{
+  "teamName": "Hungary",
+  "teamCode": "HUN",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "hungary-1982-ferenc_m_sz_ros",
+      "identityId": "P-67438",
+      "squadNumber": 1,
+      "name": "Ferenc Mészáros",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1982-gy_z_martos",
+      "identityId": "P-70353",
+      "squadNumber": 2,
+      "name": "Győző Martos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1982-l_szl_b_lint",
+      "identityId": "P-53099",
+      "squadNumber": 3,
+      "name": "László Bálint",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1982-j_zsef_t_th",
+      "identityId": "P-42012",
+      "squadNumber": 4,
+      "name": "József Tóth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1982-s_ndor_m_ller",
+      "identityId": "P-77109",
+      "squadNumber": 5,
+      "name": "Sándor Müller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1982-imre_garaba",
+      "identityId": "P-45821",
+      "squadNumber": 6,
+      "name": "Imre Garaba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "hungary-1982-l_szl_fazekas",
+      "identityId": "P-99185",
+      "squadNumber": 7,
+      "name": "László Fazekas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "hungary-1982-tibor_nyilasi",
+      "identityId": "P-34326",
+      "squadNumber": 8,
+      "name": "Tibor Nyilasi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "hungary-1982-andr_s_t_r_csik",
+      "identityId": "P-86777",
+      "squadNumber": 9,
+      "name": "András Törőcsik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1982-l_szl_kiss",
+      "identityId": "P-53791",
+      "squadNumber": 10,
+      "name": "László Kiss",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts). Scored 3 goal(s)."
+    },
+    {
+      "id": "hungary-1982-g_bor_p_l_skei",
+      "identityId": "P-60461",
+      "squadNumber": 11,
+      "name": "Gábor Pölöskei",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Hungary (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "hungary-1982-l_z_r_szentes",
+      "identityId": "P-34354",
+      "squadNumber": 12,
+      "name": "Lázár Szentes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1982 World Cup performance for Hungary (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1982-tibor_rab",
+      "identityId": "P-02094",
+      "squadNumber": 13,
+      "name": "Tibor Rab",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1982-s_ndor_sallai",
+      "identityId": "P-65801",
+      "squadNumber": 14,
+      "name": "Sándor Sallai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "hungary-1982-b_la_bodonyi",
+      "identityId": "P-46674",
+      "squadNumber": 15,
+      "name": "Béla Bodonyi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1982-ferenc_csongr_di",
+      "identityId": "P-69257",
+      "squadNumber": 16,
+      "name": "Ferenc Csongrádi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Hungary (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "hungary-1982-k_roly_csap_",
+      "identityId": "P-17566",
+      "squadNumber": 17,
+      "name": "Károly Csapó",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1982-attila_kerekes",
+      "identityId": "P-53311",
+      "squadNumber": 18,
+      "name": "Attila Kerekes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "hungary-1982-j_zsef_varga",
+      "identityId": "P-51494",
+      "squadNumber": 19,
+      "name": "József Varga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Hungary (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1982-j_zsef_csuhay",
+      "identityId": "P-00795",
+      "squadNumber": 20,
+      "name": "József Csuhay",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1982-b_la_katzirz",
+      "identityId": "P-86176",
+      "squadNumber": 21,
+      "name": "Béla Katzirz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1982-imre_kiss",
+      "identityId": "P-55970",
+      "squadNumber": 22,
+      "name": "Imre Kiss",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    }
+  ]
+}

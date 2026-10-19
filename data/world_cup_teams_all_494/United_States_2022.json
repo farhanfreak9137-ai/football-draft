@@ -1,0 +1,581 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "united_states-2022-matt_turner",
+      "identityId": "P-48903",
+      "squadNumber": 1,
+      "name": "Matt Turner",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-sergi_o_dest",
+      "identityId": "P-89452",
+      "squadNumber": 2,
+      "name": "Sergiño Dest",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-walker_zimmerman",
+      "identityId": "P-57029",
+      "squadNumber": 3,
+      "name": "Walker Zimmerman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2022-tyler_adams",
+      "identityId": "P-14151",
+      "squadNumber": 4,
+      "name": "Tyler Adams",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-antonee_robinson",
+      "identityId": "P-70867",
+      "squadNumber": 5,
+      "name": "Antonee Robinson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-yunus_musah",
+      "identityId": "P-59571",
+      "squadNumber": 6,
+      "name": "Yunus Musah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-giovanni_reyna",
+      "identityId": "P-85878",
+      "squadNumber": 7,
+      "name": "Giovanni Reyna",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2022-weston_mckennie",
+      "identityId": "P-68952",
+      "squadNumber": 8,
+      "name": "Weston McKennie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-jes_s_ferreira",
+      "identityId": "P-34132",
+      "squadNumber": 9,
+      "name": "Jesús Ferreira",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2022-christian_pulisic",
+      "identityId": "P-11737",
+      "squadNumber": 10,
+      "name": "Christian Pulisic",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2022-brenden_aaronson",
+      "identityId": "P-03484",
+      "squadNumber": 11,
+      "name": "Brenden Aaronson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for United States (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "united_states-2022-ethan_horvath",
+      "identityId": "P-01792",
+      "squadNumber": 12,
+      "name": "Ethan Horvath",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2022-tim_ream",
+      "identityId": "P-26367",
+      "squadNumber": 13,
+      "name": "Tim Ream",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2022-luca_de_la_torre",
+      "identityId": "P-74007",
+      "squadNumber": 14,
+      "name": "Luca de la Torre",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2022-aaron_long",
+      "identityId": "P-75522",
+      "squadNumber": 15,
+      "name": "Aaron Long",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2022-jordan_morris",
+      "identityId": "P-77402",
+      "squadNumber": 16,
+      "name": "Jordan Morris",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2022-cristian_roldan",
+      "identityId": "P-35320",
+      "squadNumber": 17,
+      "name": "Cristian Roldan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2022-shaq_moore",
+      "identityId": "P-48265",
+      "squadNumber": 18,
+      "name": "Shaq Moore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2022-haji_wright",
+      "identityId": "P-68131",
+      "squadNumber": 19,
+      "name": "Haji Wright",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2022-cameron_carter-vickers",
+      "identityId": "P-25925",
+      "squadNumber": 20,
+      "name": "Cameron Carter-Vickers",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2022-timothy_weah",
+      "identityId": "P-30252",
+      "squadNumber": 21,
+      "name": "Timothy Weah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2022-deandre_yedlin",
+      "identityId": "P-95273",
+      "squadNumber": 22,
+      "name": "DeAndre Yedlin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2022-kellyn_acosta",
+      "identityId": "P-86410",
+      "squadNumber": 23,
+      "name": "Kellyn Acosta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for United States (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2022-josh_sargent",
+      "identityId": "P-94647",
+      "squadNumber": 24,
+      "name": "Josh Sargent",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for United States (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2022-sean_johnson",
+      "identityId": "P-38940",
+      "squadNumber": 25,
+      "name": "Sean Johnson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-2022-joe_scally",
+      "identityId": "P-80838",
+      "squadNumber": 26,
+      "name": "Joe Scally",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for United States (Round of 16). Squad reserve member."
+    }
+  ]
+}

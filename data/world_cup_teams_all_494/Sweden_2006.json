@@ -1,0 +1,517 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "sweden-2006-andreas_isaksson",
+      "identityId": "P-47401",
+      "squadNumber": 1,
+      "name": "Andreas Isaksson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-2006-mikael_nilsson",
+      "identityId": "P-75070",
+      "squadNumber": 2,
+      "name": "Mikael Nilsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-2006-olof_mellberg",
+      "identityId": "P-06256",
+      "squadNumber": 3,
+      "name": "Olof Mellberg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2006-teddy_lu_i_",
+      "identityId": "P-30568",
+      "squadNumber": 4,
+      "name": "Teddy Lučić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2006-erik_edman",
+      "identityId": "P-35312",
+      "squadNumber": 5,
+      "name": "Erik Edman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2006-tobias_linderoth",
+      "identityId": "P-05583",
+      "squadNumber": 6,
+      "name": "Tobias Linderoth",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2006-niclas_alexandersson",
+      "identityId": "P-42808",
+      "squadNumber": 7,
+      "name": "Niclas Alexandersson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2006-anders_svensson",
+      "identityId": "P-85432",
+      "squadNumber": 8,
+      "name": "Anders Svensson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Sweden (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-2006-freddie_ljungberg",
+      "identityId": "P-84022",
+      "squadNumber": 9,
+      "name": "Freddie Ljungberg",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-2006-zlatan_ibrahimovi_",
+      "identityId": "P-80105",
+      "squadNumber": 10,
+      "name": "Zlatan Ibrahimović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-2006-henrik_larsson",
+      "identityId": "P-42895",
+      "squadNumber": 11,
+      "name": "Henrik Larsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-2006-john_alvb_ge",
+      "identityId": "P-02115",
+      "squadNumber": 12,
+      "name": "John Alvbåge",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-2006-petter_hansson",
+      "identityId": "P-20273",
+      "squadNumber": 13,
+      "name": "Petter Hansson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Sweden (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-2006-fredrik_stenman",
+      "identityId": "P-19165",
+      "squadNumber": 14,
+      "name": "Fredrik Stenman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-2006-karl_svensson",
+      "identityId": "P-44340",
+      "squadNumber": 15,
+      "name": "Karl Svensson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-2006-kim_k_llstr_m",
+      "identityId": "P-73608",
+      "squadNumber": 16,
+      "name": "Kim Källström",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Sweden (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-2006-johan_elmander",
+      "identityId": "P-79017",
+      "squadNumber": 17,
+      "name": "Johan Elmander",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Sweden (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "sweden-2006-mattias_jonson",
+      "identityId": "P-20557",
+      "squadNumber": 18,
+      "name": "Mattias Jonson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Sweden (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-2006-daniel_andersson",
+      "identityId": "P-62207",
+      "squadNumber": 19,
+      "name": "Daniel Andersson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Sweden (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-2006-marcus_allb_ck",
+      "identityId": "P-45212",
+      "squadNumber": 20,
+      "name": "Marcus Allbäck",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Sweden (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-2006-christian_wilhelmsson",
+      "identityId": "P-65907",
+      "squadNumber": 21,
+      "name": "Christian Wilhelmsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Sweden (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-2006-markus_rosenberg",
+      "identityId": "P-07148",
+      "squadNumber": 22,
+      "name": "Markus Rosenberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-2006-rami_shaaban",
+      "identityId": "P-95996",
+      "squadNumber": 23,
+      "name": "Rami Shaaban",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Sweden (Round of 16). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

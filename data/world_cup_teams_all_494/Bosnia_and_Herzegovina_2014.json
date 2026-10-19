@@ -1,0 +1,512 @@
+{
+  "teamName": "Bosnia and Herzegovina",
+  "teamCode": "BIH",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "bosnia_and_herzegovina-2014-asmir_begovi_",
+      "identityId": "P-80138",
+      "squadNumber": 1,
+      "name": "Asmir Begović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-avdija_vr_ajevi_",
+      "identityId": "P-35118",
+      "squadNumber": 2,
+      "name": "Avdija Vršajević",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-ermin_bi_ak_i_",
+      "identityId": "P-66286",
+      "squadNumber": 3,
+      "name": "Ermin Bičakčić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-emir_spahi_",
+      "identityId": "P-68768",
+      "squadNumber": 4,
+      "name": "Emir Spahić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-sead_kola_inac",
+      "identityId": "P-96934",
+      "squadNumber": 5,
+      "name": "Sead Kolašinac",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-ognjen_vranje_",
+      "identityId": "P-52464",
+      "squadNumber": 6,
+      "name": "Ognjen Vranješ",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-muhamed_be_i_",
+      "identityId": "P-74144",
+      "squadNumber": 7,
+      "name": "Muhamed Bešić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-miralem_pjani_",
+      "identityId": "P-19478",
+      "squadNumber": 8,
+      "name": "Miralem Pjanić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-vedad_ibi_evi_",
+      "identityId": "P-43723",
+      "squadNumber": 9,
+      "name": "Vedad Ibišević",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-zvjezdan_misimovi_",
+      "identityId": "P-75995",
+      "squadNumber": 10,
+      "name": "Zvjezdan Misimović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-edin_d_eko",
+      "identityId": "P-31839",
+      "squadNumber": 11,
+      "name": "Edin Džeko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-jasmin_fejzi_",
+      "identityId": "P-76271",
+      "squadNumber": 12,
+      "name": "Jasmin Fejzić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-mensur_mujd_a",
+      "identityId": "P-63525",
+      "squadNumber": 13,
+      "name": "Mensur Mujdža",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-tino-sven_su_i_",
+      "identityId": "P-85929",
+      "squadNumber": 14,
+      "name": "Tino-Sven Sušić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-toni_unji_",
+      "identityId": "P-19073",
+      "squadNumber": 15,
+      "name": "Toni Šunjić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-senad_luli_",
+      "identityId": "P-74278",
+      "squadNumber": 16,
+      "name": "Senad Lulić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-senijad_ibri_i_",
+      "identityId": "P-64096",
+      "squadNumber": 17,
+      "name": "Senijad Ibričić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-haris_medunjanin",
+      "identityId": "P-34727",
+      "squadNumber": 18,
+      "name": "Haris Medunjanin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-edin_vi_a",
+      "identityId": "P-55809",
+      "squadNumber": 19,
+      "name": "Edin Višća",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-izet_hajrovi_",
+      "identityId": "P-03146",
+      "squadNumber": 20,
+      "name": "Izet Hajrović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-anel_had_i_",
+      "identityId": "P-15457",
+      "squadNumber": 21,
+      "name": "Anel Hadžić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-asmir_avduki_",
+      "identityId": "P-78276",
+      "squadNumber": 22,
+      "name": "Asmir Avdukić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bosnia_and_herzegovina-2014-sejad_salihovi_",
+      "identityId": "P-94434",
+      "squadNumber": 23,
+      "name": "Sejad Salihović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Bosnia and Herzegovina (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "teamName": "Iraq",
+  "teamCode": "IRQ",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iraq-1986-raad_hammoudi",
+      "identityId": "P-20424",
+      "squadNumber": 1,
+      "name": "Raad Hammoudi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iraq-1986-maad_ibrahim",
+      "identityId": "P-20549",
+      "squadNumber": 2,
+      "name": "Maad Ibrahim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iraq-1986-khalil_allawi",
+      "identityId": "P-08949",
+      "squadNumber": 3,
+      "name": "Khalil Allawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Iraq (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iraq-1986-nadhim_shaker",
+      "identityId": "P-62944",
+      "squadNumber": 4,
+      "name": "Nadhim Shaker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Iraq (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iraq-1986-samir_shaker",
+      "identityId": "P-15649",
+      "squadNumber": 5,
+      "name": "Samir Shaker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iraq-1986-ali_hussein_shihab",
+      "identityId": "P-10707",
+      "squadNumber": 6,
+      "name": "Ali Hussein Shihab",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Iraq (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iraq-1986-haris_mohammed",
+      "identityId": "P-97678",
+      "squadNumber": 7,
+      "name": "Haris Mohammed",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iraq-1986-ahmed_radhi",
+      "identityId": "P-37600",
+      "squadNumber": 8,
+      "name": "Ahmed Radhi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Iraq (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "iraq-1986-karim_saddam",
+      "identityId": "P-34556",
+      "squadNumber": 9,
+      "name": "Karim Saddam",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iraq-1986-hussein_saeed",
+      "identityId": "P-54079",
+      "squadNumber": 10,
+      "name": "Hussein Saeed",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iraq-1986-rahim_hameed",
+      "identityId": "P-88871",
+      "squadNumber": 11,
+      "name": "Rahim Hameed",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Iraq (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "iraq-1986-jamal_ali",
+      "identityId": "P-32244",
+      "squadNumber": 12,
+      "name": "Jamal Ali",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Iraq (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iraq-1986-karim_allawi",
+      "identityId": "P-56076",
+      "squadNumber": 13,
+      "name": "Karim Allawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Iraq (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iraq-1986-basil_gorgis",
+      "identityId": "P-76810",
+      "squadNumber": 14,
+      "name": "Basil Gorgis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iraq-1986-natiq_hashim",
+      "identityId": "P-72587",
+      "squadNumber": 15,
+      "name": "Natiq Hashim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Iraq (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iraq-1986-shaker_mahmoud",
+      "identityId": "P-29742",
+      "squadNumber": 16,
+      "name": "Shaker Mahmoud",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Iraq (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "iraq-1986-anad_abid",
+      "identityId": "P-00685",
+      "squadNumber": 17,
+      "name": "Anad Abid",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iraq-1986-ismail_mohammed_sharif",
+      "identityId": "P-22174",
+      "squadNumber": 18,
+      "name": "Ismail Mohammed Sharif",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Iraq (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iraq-1986-basim_qasim",
+      "identityId": "P-57174",
+      "squadNumber": 19,
+      "name": "Basim Qasim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iraq-1986-fatah_nsaief",
+      "identityId": "P-33838",
+      "squadNumber": 20,
+      "name": "Fatah Nsaief",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Iraq (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iraq-1986-ahmad_jassim",
+      "identityId": "P-34985",
+      "squadNumber": 21,
+      "name": "Ahmad Jassim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Iraq (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iraq-1986-ghanim_oraibi",
+      "identityId": "P-42180",
+      "squadNumber": 22,
+      "name": "Ghanim Oraibi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Iraq (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "teamName": "Serbia",
+  "teamCode": "SRB",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "serbia-2018-vladimir_stojkovi_",
+      "identityId": "P-46403",
+      "squadNumber": 1,
+      "name": "Vladimir Stojković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2018-antonio_rukavina",
+      "identityId": "P-39341",
+      "squadNumber": 2,
+      "name": "Antonio Rukavina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2018-du_ko_to_i_",
+      "identityId": "P-54492",
+      "squadNumber": 3,
+      "name": "Duško Tošić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2018-luka_milivojevi_",
+      "identityId": "P-44932",
+      "squadNumber": 4,
+      "name": "Luka Milivojević",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2018-uro_spaji_",
+      "identityId": "P-75924",
+      "squadNumber": 5,
+      "name": "Uroš Spajić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2018-branislav_ivanovi_",
+      "identityId": "P-95482",
+      "squadNumber": 6,
+      "name": "Branislav Ivanović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2018-andrija_ivkovi_",
+      "identityId": "P-58363",
+      "squadNumber": 7,
+      "name": "Andrija Živković",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2018-aleksandar_prijovi_",
+      "identityId": "P-40618",
+      "squadNumber": 8,
+      "name": "Aleksandar Prijović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2018-aleksandar_mitrovi_",
+      "identityId": "P-85696",
+      "squadNumber": 9,
+      "name": "Aleksandar Mitrović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2018-du_an_tadi_",
+      "identityId": "P-33390",
+      "squadNumber": 10,
+      "name": "Dušan Tadić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2018-aleksandar_kolarov",
+      "identityId": "P-33059",
+      "squadNumber": 11,
+      "name": "Aleksandar Kolarov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "serbia-2018-predrag_rajkovi_",
+      "identityId": "P-35773",
+      "squadNumber": 12,
+      "name": "Predrag Rajković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2018-milo_veljkovi_",
+      "identityId": "P-30283",
+      "squadNumber": 13,
+      "name": "Miloš Veljković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "serbia-2018-milan_rodi_",
+      "identityId": "P-12935",
+      "squadNumber": 14,
+      "name": "Milan Rodić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2018-nikola_milenkovi_",
+      "identityId": "P-57535",
+      "squadNumber": 15,
+      "name": "Nikola Milenković",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2018-marko_gruji_",
+      "identityId": "P-89573",
+      "squadNumber": 16,
+      "name": "Marko Grujić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "serbia-2018-filip_kosti_",
+      "identityId": "P-80738",
+      "squadNumber": 17,
+      "name": "Filip Kostić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2018-nemanja_radonji_",
+      "identityId": "P-79900",
+      "squadNumber": 18,
+      "name": "Nemanja Radonjić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Serbia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "serbia-2018-luka_jovi_",
+      "identityId": "P-62033",
+      "squadNumber": 19,
+      "name": "Luka Jović",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Serbia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "serbia-2018-sergej_milinkovi_-savi_",
+      "identityId": "P-27744",
+      "squadNumber": 20,
+      "name": "Sergej Milinković-Savić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2018-nemanja_mati_",
+      "identityId": "P-66184",
+      "squadNumber": 21,
+      "name": "Nemanja Matić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Serbia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "serbia-2018-adem_ljaji_",
+      "identityId": "P-45505",
+      "squadNumber": 22,
+      "name": "Adem Ljajić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Serbia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "serbia-2018-marko_dmitrovi_",
+      "identityId": "P-72770",
+      "squadNumber": 23,
+      "name": "Marko Dmitrović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Serbia (Group Stage). Squad reserve member."
+    }
+  ]
+}

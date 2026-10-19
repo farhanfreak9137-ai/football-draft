@@ -1,0 +1,497 @@
+{
+  "teamName": "Morocco",
+  "teamCode": "MAR",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "morocco-1994-khalil_azmi",
+      "identityId": "P-74924",
+      "squadNumber": 1,
+      "name": "Khalil Azmi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1994-nacer_abdellah",
+      "identityId": "P-61342",
+      "squadNumber": 2,
+      "name": "Nacer Abdellah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1994-abdelkrim_el_hadrioui",
+      "identityId": "P-19991",
+      "squadNumber": 3,
+      "name": "Abdelkrim El Hadrioui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1994-tahar_el_khalej",
+      "identityId": "P-82124",
+      "squadNumber": 4,
+      "name": "Tahar El Khalej",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1994-smahi_triki",
+      "identityId": "P-77110",
+      "squadNumber": 5,
+      "name": "Smahi Triki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1994-noureddine_naybet",
+      "identityId": "P-96824",
+      "squadNumber": 6,
+      "name": "Noureddine Naybet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1994-mustapha_hadji",
+      "identityId": "P-45896",
+      "squadNumber": 7,
+      "name": "Mustapha Hadji",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1994-rachid_azzouzi",
+      "identityId": "P-84885",
+      "squadNumber": 8,
+      "name": "Rachid Azzouzi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1994-mohammed_chaouch",
+      "identityId": "P-09278",
+      "squadNumber": 9,
+      "name": "Mohammed Chaouch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-1994-mustafa_el_haddaoui",
+      "identityId": "P-37917",
+      "squadNumber": 10,
+      "name": "Mustafa El Haddaoui",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1994-rachid_daoudi",
+      "identityId": "P-08730",
+      "squadNumber": 11,
+      "name": "Rachid Daoudi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1994-said_dghay",
+      "identityId": "P-58464",
+      "squadNumber": 12,
+      "name": "Said Dghay",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1994-ahmed_bahja",
+      "identityId": "P-61219",
+      "squadNumber": 13,
+      "name": "Ahmed Bahja",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "morocco-1994-ahmed_masbahi",
+      "identityId": "P-39021",
+      "squadNumber": 14,
+      "name": "Ahmed Masbahi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1994-el_arbi_hababi_hababi",
+      "identityId": "P-48036",
+      "squadNumber": 15,
+      "name": "El Arbi Hababi Hababi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Morocco (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "morocco-1994-hassan_nader",
+      "identityId": "P-89133",
+      "squadNumber": 16,
+      "name": "Hassan Nader",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "morocco-1994-abdeslam_laghrissi",
+      "identityId": "P-33746",
+      "squadNumber": 17,
+      "name": "Abdeslam Laghrissi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Morocco (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "morocco-1994-rachid_neqrouz",
+      "identityId": "P-36579",
+      "squadNumber": 18,
+      "name": "Rachid Neqrouz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1994-abdelmajid_bouyboud",
+      "identityId": "P-91608",
+      "squadNumber": 19,
+      "name": "Abdelmajid Bouyboud",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1994-hassan_kachloul",
+      "identityId": "P-96488",
+      "squadNumber": 20,
+      "name": "Hassan Kachloul",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Morocco (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "morocco-1994-mohamed_samadi",
+      "identityId": "P-16451",
+      "squadNumber": 21,
+      "name": "Mohamed Samadi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "morocco-1994-zakaria_alaoui",
+      "identityId": "P-62567",
+      "squadNumber": 22,
+      "name": "Zakaria Alaoui",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Morocco (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

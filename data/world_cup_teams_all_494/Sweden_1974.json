@@ -1,0 +1,491 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "sweden-1974-ronnie_hellstr_m",
+      "identityId": "P-43209",
+      "squadNumber": 1,
+      "name": "Ronnie Hellström",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "sweden-1974-jan_olsson",
+      "identityId": "P-96792",
+      "squadNumber": 2,
+      "name": "Jan Olsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-1974-kent_karlsson",
+      "identityId": "P-37942",
+      "squadNumber": 3,
+      "name": "Kent Karlsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "sweden-1974-bj_rn_nordqvist",
+      "identityId": "P-29454",
+      "squadNumber": 4,
+      "name": "Björn Nordqvist",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-1974-bj_rn_andersson",
+      "identityId": "P-90911",
+      "squadNumber": 5,
+      "name": "Björn Andersson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-1974-ove_grahn",
+      "identityId": "P-37575",
+      "squadNumber": 6,
+      "name": "Ove Grahn",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "sweden-1974-bo_larsson",
+      "identityId": "P-86931",
+      "squadNumber": 7,
+      "name": "Bo Larsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-1974-conny_torstensson",
+      "identityId": "P-52989",
+      "squadNumber": 8,
+      "name": "Conny Torstensson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1974-ove_kindvall",
+      "identityId": "P-73517",
+      "squadNumber": 9,
+      "name": "Ove Kindvall",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Sweden (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1974-ralf_edstr_m",
+      "identityId": "P-39318",
+      "squadNumber": 10,
+      "name": "Ralf Edström",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 6 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "sweden-1974-roland_sandberg",
+      "identityId": "P-94413",
+      "squadNumber": 11,
+      "name": "Roland Sandberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "sweden-1974-sven-gunnar_larsson",
+      "identityId": "P-12397",
+      "squadNumber": 12,
+      "name": "Sven-Gunnar Larsson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-1974-roland_grip",
+      "identityId": "P-82719",
+      "squadNumber": 13,
+      "name": "Roland Grip",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Sweden (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1974-staffan_tapper",
+      "identityId": "P-88425",
+      "squadNumber": 14,
+      "name": "Staffan Tapper",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Sweden (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-1974-benno_magnusson",
+      "identityId": "P-02323",
+      "squadNumber": 15,
+      "name": "Benno Magnusson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Sweden (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1974-inge_ejderstedt",
+      "identityId": "P-71589",
+      "squadNumber": 16,
+      "name": "Inge Ejderstedt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Sweden (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1974-g_ran_hagberg",
+      "identityId": "P-16755",
+      "squadNumber": 17,
+      "name": "Göran Hagberg",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-1974-j_rgen_augustsson",
+      "identityId": "P-33030",
+      "squadNumber": 18,
+      "name": "Jörgen Augustsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Sweden (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1974-claes_cronqvist",
+      "identityId": "P-20172",
+      "squadNumber": 19,
+      "name": "Claes Cronqvist",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-1974-sven_lindman",
+      "identityId": "P-12173",
+      "squadNumber": 20,
+      "name": "Sven Lindman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Sweden (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "sweden-1974-_rjan_persson",
+      "identityId": "P-61494",
+      "squadNumber": 21,
+      "name": "Örjan Persson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Sweden (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1974-thomas_ahlstr_m",
+      "identityId": "P-30429",
+      "squadNumber": 22,
+      "name": "Thomas Ahlström",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Sweden (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

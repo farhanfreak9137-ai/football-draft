@@ -1,0 +1,489 @@
+{
+  "teamName": "New Zealand",
+  "teamCode": "NZL",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "new_zealand-1982-richard_wilson",
+      "identityId": "P-14752",
+      "squadNumber": 1,
+      "name": "Richard Wilson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-glenn_dods",
+      "identityId": "P-98380",
+      "squadNumber": 2,
+      "name": "Glenn Dods",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "new_zealand-1982-ricki_herbert",
+      "identityId": "P-35886",
+      "squadNumber": 3,
+      "name": "Ricki Herbert",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "new_zealand-1982-brian_turner",
+      "identityId": "P-39611",
+      "squadNumber": 4,
+      "name": "Brian Turner",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "new_zealand-1982-dave_bright",
+      "identityId": "P-80000",
+      "squadNumber": 5,
+      "name": "Dave Bright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-bobby_almond",
+      "identityId": "P-84240",
+      "squadNumber": 6,
+      "name": "Bobby Almond",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "new_zealand-1982-wynton_rufer",
+      "identityId": "P-38027",
+      "squadNumber": 7,
+      "name": "Wynton Rufer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "new_zealand-1982-duncan_cole",
+      "identityId": "P-88108",
+      "squadNumber": 8,
+      "name": "Duncan Cole",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "new_zealand-1982-steve_wooddin",
+      "identityId": "P-50194",
+      "squadNumber": 9,
+      "name": "Steve Wooddin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "new_zealand-1982-steve_sumner",
+      "identityId": "P-23450",
+      "squadNumber": 10,
+      "name": "Steve Sumner",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "new_zealand-1982-sam_malcolmson",
+      "identityId": "P-30806",
+      "squadNumber": 11,
+      "name": "Sam Malcolmson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "new_zealand-1982-keith_mackay",
+      "identityId": "P-39675",
+      "squadNumber": 12,
+      "name": "Keith MacKay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "new_zealand-1982-kenny_cresswell",
+      "identityId": "P-53388",
+      "squadNumber": 13,
+      "name": "Kenny Cresswell",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "new_zealand-1982-adrian_elrick",
+      "identityId": "P-15562",
+      "squadNumber": 14,
+      "name": "Adrian Elrick",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "new_zealand-1982-john_hill",
+      "identityId": "P-98571",
+      "squadNumber": 15,
+      "name": "John Hill",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "new_zealand-1982-glen_adam",
+      "identityId": "P-21395",
+      "squadNumber": 16,
+      "name": "Glen Adam",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-allan_boath",
+      "identityId": "P-81343",
+      "squadNumber": 17,
+      "name": "Allan Boath",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "new_zealand-1982-peter_simonsen",
+      "identityId": "P-72373",
+      "squadNumber": 18,
+      "name": "Peter Simonsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-billy_mcclure",
+      "identityId": "P-69712",
+      "squadNumber": 19,
+      "name": "Billy McClure",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-grant_turner",
+      "identityId": "P-44600",
+      "squadNumber": 20,
+      "name": "Grant Turner",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-barry_pickering",
+      "identityId": "P-69864",
+      "squadNumber": 21,
+      "name": "Barry Pickering",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "new_zealand-1982-frank_van_hattum",
+      "identityId": "P-46351",
+      "squadNumber": 22,
+      "name": "Frank van Hattum",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for New Zealand (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

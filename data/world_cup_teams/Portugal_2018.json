@@ -1,0 +1,516 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "PRT",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "portugal-2018-rui_patr_cio",
+      "identityId": "P-72028",
+      "squadNumber": 1,
+      "name": "Rui Patrício",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2018-bruno_alves",
+      "identityId": "P-76960",
+      "squadNumber": 2,
+      "name": "Bruno Alves",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2018-pepe",
+      "identityId": "P-81972",
+      "squadNumber": 3,
+      "name": "Pepe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2018-manuel_fernandes",
+      "identityId": "P-99900",
+      "squadNumber": 4,
+      "name": "Manuel Fernandes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Portugal (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2018-rapha_l_guerreiro",
+      "identityId": "P-67578",
+      "squadNumber": 5,
+      "name": "Raphaël Guerreiro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2018-jos_fonte",
+      "identityId": "P-18665",
+      "squadNumber": 6,
+      "name": "José Fonte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2018-cristiano_ronaldo",
+      "identityId": "P-70442",
+      "squadNumber": 7,
+      "name": "Cristiano Ronaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "portugal-2018-jo_o_moutinho",
+      "identityId": "P-89743",
+      "squadNumber": 8,
+      "name": "João Moutinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2018-andr_silva",
+      "identityId": "P-33280",
+      "squadNumber": 9,
+      "name": "André Silva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2018-jo_o_m_rio",
+      "identityId": "P-31133",
+      "squadNumber": 10,
+      "name": "João Mário",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2018-bernardo_silva",
+      "identityId": "P-34205",
+      "squadNumber": 11,
+      "name": "Bernardo Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2018-anthony_lopes",
+      "identityId": "P-93586",
+      "squadNumber": 12,
+      "name": "Anthony Lopes",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2018-r_ben_dias",
+      "identityId": "P-10712",
+      "squadNumber": 13,
+      "name": "Rúben Dias",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2018-william_carvalho",
+      "identityId": "P-44689",
+      "squadNumber": 14,
+      "name": "William Carvalho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "portugal-2018-ricardo_pereira",
+      "identityId": "P-35081",
+      "squadNumber": 15,
+      "name": "Ricardo Pereira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2018-bruno_fernandes",
+      "identityId": "P-39584",
+      "squadNumber": 16,
+      "name": "Bruno Fernandes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2018-gon_alo_guedes",
+      "identityId": "P-65199",
+      "squadNumber": 17,
+      "name": "Gonçalo Guedes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2018-gelson_martins",
+      "identityId": "P-63951",
+      "squadNumber": 18,
+      "name": "Gelson Martins",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Portugal (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2018-m_rio_rui",
+      "identityId": "P-00521",
+      "squadNumber": 19,
+      "name": "Mário Rui",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2018-ricardo_quaresma",
+      "identityId": "P-95670",
+      "squadNumber": 20,
+      "name": "Ricardo Quaresma",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Portugal (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2018-c_dric",
+      "identityId": "P-46272",
+      "squadNumber": 21,
+      "name": "Cédric",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Portugal (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2018-beto",
+      "identityId": "P-27059",
+      "squadNumber": 22,
+      "name": "Beto",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Portugal (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "portugal-2018-adrien_silva",
+      "identityId": "P-72710",
+      "squadNumber": 23,
+      "name": "Adrien Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Portugal (Round of 16). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

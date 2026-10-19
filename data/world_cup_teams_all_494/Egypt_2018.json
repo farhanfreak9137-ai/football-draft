@@ -1,0 +1,514 @@
+{
+  "teamName": "Egypt",
+  "teamCode": "EGY",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "egypt-2018-essam_el_hadary",
+      "identityId": "P-32448",
+      "squadNumber": 1,
+      "name": "Essam El Hadary",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Egypt (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "egypt-2018-ali_gabr",
+      "identityId": "P-83293",
+      "squadNumber": 2,
+      "name": "Ali Gabr",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-ahmed_elmohamady",
+      "identityId": "P-49004",
+      "squadNumber": 3,
+      "name": "Ahmed Elmohamady",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-omar_gaber",
+      "identityId": "P-13030",
+      "squadNumber": 4,
+      "name": "Omar Gaber",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-sam_morsy",
+      "identityId": "P-50801",
+      "squadNumber": 5,
+      "name": "Sam Morsy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Egypt (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "egypt-2018-ahmed_hegazi",
+      "identityId": "P-81689",
+      "squadNumber": 6,
+      "name": "Ahmed Hegazi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-ahmed_fathy",
+      "identityId": "P-44093",
+      "squadNumber": 7,
+      "name": "Ahmed Fathy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-tarek_hamed",
+      "identityId": "P-77754",
+      "squadNumber": 8,
+      "name": "Tarek Hamed",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-marwan_mohsen",
+      "identityId": "P-37703",
+      "squadNumber": 9,
+      "name": "Marwan Mohsen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-mohamed_salah",
+      "identityId": "P-75890",
+      "squadNumber": 10,
+      "name": "Mohamed Salah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Egypt (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "egypt-2018-kahraba",
+      "identityId": "P-24653",
+      "squadNumber": 11,
+      "name": "Kahraba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Egypt (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "egypt-2018-ayman_ashraf",
+      "identityId": "P-02028",
+      "squadNumber": 12,
+      "name": "Ayman Ashraf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-mohamed_abdel_shafy",
+      "identityId": "P-29161",
+      "squadNumber": 13,
+      "name": "Mohamed Abdel Shafy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-ramadan_sobhi",
+      "identityId": "P-91291",
+      "squadNumber": 14,
+      "name": "Ramadan Sobhi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Egypt (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "egypt-2018-mahmoud_hamdy",
+      "identityId": "P-41789",
+      "squadNumber": 15,
+      "name": "Mahmoud Hamdy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-sherif_ekramy",
+      "identityId": "P-49027",
+      "squadNumber": 16,
+      "name": "Sherif Ekramy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-mohamed_elneny",
+      "identityId": "P-60871",
+      "squadNumber": 17,
+      "name": "Mohamed Elneny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-shikabala",
+      "identityId": "P-96547",
+      "squadNumber": 18,
+      "name": "Shikabala",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-abdallah_el_said",
+      "identityId": "P-74320",
+      "squadNumber": 19,
+      "name": "Abdallah El Said",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-saad_samir",
+      "identityId": "P-08628",
+      "squadNumber": 20,
+      "name": "Saad Samir",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Egypt (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "egypt-2018-tr_z_guet",
+      "identityId": "P-82223",
+      "squadNumber": 21,
+      "name": "Trézéguet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Egypt (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "egypt-2018-amr_warda",
+      "identityId": "P-99805",
+      "squadNumber": 22,
+      "name": "Amr Warda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Egypt (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "egypt-2018-mohamed_el_shenawy",
+      "identityId": "P-86080",
+      "squadNumber": 23,
+      "name": "Mohamed El Shenawy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Egypt (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

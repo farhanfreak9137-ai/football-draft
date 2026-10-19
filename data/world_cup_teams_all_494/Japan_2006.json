@@ -1,0 +1,516 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "japan-2006-seigo_narazaki",
+      "identityId": "P-24251",
+      "squadNumber": 1,
+      "name": "Seigo Narazaki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2006-teruyuki_moniwa",
+      "identityId": "P-65411",
+      "squadNumber": 2,
+      "name": "Teruyuki Moniwa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2006-y_ichi_komano",
+      "identityId": "P-46091",
+      "squadNumber": 3,
+      "name": "Yūichi Komano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2006-yasuhito_end_",
+      "identityId": "P-61292",
+      "squadNumber": 4,
+      "name": "Yasuhito Endō",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2006-tsuneyasu_miyamoto",
+      "identityId": "P-11915",
+      "squadNumber": 5,
+      "name": "Tsuneyasu Miyamoto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-k_ji_nakata",
+      "identityId": "P-95259",
+      "squadNumber": 6,
+      "name": "Kōji Nakata",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2006-hidetoshi_nakata",
+      "identityId": "P-09349",
+      "squadNumber": 7,
+      "name": "Hidetoshi Nakata",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2006-mitsuo_ogasawara",
+      "identityId": "P-12376",
+      "squadNumber": 8,
+      "name": "Mitsuo Ogasawara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-naohiro_takahara",
+      "identityId": "P-56897",
+      "squadNumber": 9,
+      "name": "Naohiro Takahara",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-shunsuke_nakamura",
+      "identityId": "P-77277",
+      "squadNumber": 10,
+      "name": "Shunsuke Nakamura",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2006 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2006-seiichiro_maki",
+      "identityId": "P-17506",
+      "squadNumber": 11,
+      "name": "Seiichiro Maki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2006-yoichi_doi",
+      "identityId": "P-40995",
+      "squadNumber": 12,
+      "name": "Yoichi Doi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2006-atsushi_yanagisawa",
+      "identityId": "P-35882",
+      "squadNumber": 13,
+      "name": "Atsushi Yanagisawa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-alessandro_santos",
+      "identityId": "P-42311",
+      "squadNumber": 14,
+      "name": "Alessandro Santos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2006-takashi_fukunishi",
+      "identityId": "P-89292",
+      "squadNumber": 15,
+      "name": "Takashi Fukunishi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-masashi_oguro",
+      "identityId": "P-10636",
+      "squadNumber": 16,
+      "name": "Masashi Oguro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Japan (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "japan-2006-junichi_inamoto",
+      "identityId": "P-46807",
+      "squadNumber": 17,
+      "name": "Junichi Inamoto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2006-shinji_ono",
+      "identityId": "P-04785",
+      "squadNumber": 18,
+      "name": "Shinji Ono",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2006-keisuke_tsuboi",
+      "identityId": "P-99888",
+      "squadNumber": 19,
+      "name": "Keisuke Tsuboi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-keiji_tamada",
+      "identityId": "P-15134",
+      "squadNumber": 20,
+      "name": "Keiji Tamada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2006-akira_kaji",
+      "identityId": "P-87604",
+      "squadNumber": 21,
+      "name": "Akira Kaji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2006-yuji_nakazawa",
+      "identityId": "P-90430",
+      "squadNumber": 22,
+      "name": "Yuji Nakazawa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2006-yoshikatsu_kawaguchi",
+      "identityId": "P-54298",
+      "squadNumber": 23,
+      "name": "Yoshikatsu Kawaguchi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

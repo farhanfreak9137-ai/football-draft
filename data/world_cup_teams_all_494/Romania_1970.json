@@ -1,0 +1,494 @@
+{
+  "teamName": "Romania",
+  "teamCode": "ROU",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "romania-1970-necula_r_ducanu",
+      "identityId": "P-04931",
+      "squadNumber": 1,
+      "name": "Necula Răducanu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1970 World Cup performance for Romania (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "romania-1970-lajos_s_tm_reanu",
+      "identityId": "P-35798",
+      "squadNumber": 2,
+      "name": "Lajos Sătmăreanu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-nicolae_lupescu",
+      "identityId": "P-53044",
+      "squadNumber": 3,
+      "name": "Nicolae Lupescu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-mihai_mocanu",
+      "identityId": "P-61942",
+      "squadNumber": 4,
+      "name": "Mihai Mocanu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-cornel_dinu",
+      "identityId": "P-98936",
+      "squadNumber": 5,
+      "name": "Cornel Dinu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-dan_coe",
+      "identityId": "P-65622",
+      "squadNumber": 6,
+      "name": "Dan Coe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-emerich_dembrovschi",
+      "identityId": "P-02403",
+      "squadNumber": 7,
+      "name": "Emerich Dembrovschi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "romania-1970-nicolae_dobrin",
+      "identityId": "P-75663",
+      "squadNumber": 8,
+      "name": "Nicolae Dobrin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-florea_dumitrache",
+      "identityId": "P-51434",
+      "squadNumber": 9,
+      "name": "Florea Dumitrache",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "romania-1970-radu_nunweiller",
+      "identityId": "P-41601",
+      "squadNumber": 10,
+      "name": "Radu Nunweiller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-mircea_lucescu",
+      "identityId": "P-09236",
+      "squadNumber": 11,
+      "name": "Mircea Lucescu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-mihai_iv_ncescu",
+      "identityId": "P-52148",
+      "squadNumber": 12,
+      "name": "Mihai Ivăncescu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-augustin_deleanu",
+      "identityId": "P-37721",
+      "squadNumber": 13,
+      "name": "Augustin Deleanu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-vasile_gergely",
+      "identityId": "P-03154",
+      "squadNumber": 14,
+      "name": "Vasile Gergely",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1970 World Cup performance for Romania (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "romania-1970-ion_dumitru",
+      "identityId": "P-26224",
+      "squadNumber": 15,
+      "name": "Ion Dumitru",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-alexandru_neagu",
+      "identityId": "P-50489",
+      "squadNumber": 16,
+      "name": "Alexandru Neagu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Romania (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "romania-1970-gheorghe_t_taru",
+      "identityId": "P-21011",
+      "squadNumber": 17,
+      "name": "Gheorghe Tătaru",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Romania (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "romania-1970-marin_tufan",
+      "identityId": "P-76074",
+      "squadNumber": 18,
+      "name": "Marin Tufan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-flavius_domide",
+      "identityId": "P-80696",
+      "squadNumber": 19,
+      "name": "Flavius Domide",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-nicolae_pescaru",
+      "identityId": "P-15758",
+      "squadNumber": 20,
+      "name": "Nicolae Pescaru",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "romania-1970-stere_adamache",
+      "identityId": "P-26945",
+      "squadNumber": 21,
+      "name": "Stere Adamache",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Romania (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "romania-1970-gheorghe_gornea",
+      "identityId": "P-73129",
+      "squadNumber": 22,
+      "name": "Gheorghe Gornea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Romania (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "brazil-1986-carlos",
+      "identityId": "P-43781",
+      "squadNumber": 1,
+      "name": "Carlos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1986-_dson",
+      "identityId": "P-33125",
+      "squadNumber": 2,
+      "name": "Édson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-1986-oscar",
+      "identityId": "P-69644",
+      "squadNumber": 3,
+      "name": "Oscar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-1986-edinho",
+      "identityId": "P-12950",
+      "squadNumber": 4,
+      "name": "Edinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1986-falc_o",
+      "identityId": "P-35736",
+      "squadNumber": 5,
+      "name": "Falcão",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-1986-j_nior",
+      "identityId": "P-83096",
+      "squadNumber": 6,
+      "name": "Júnior",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1986-m_ller",
+      "identityId": "P-60969",
+      "squadNumber": 7,
+      "name": "Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-1986-casagrande",
+      "identityId": "P-19190",
+      "squadNumber": 8,
+      "name": "Casagrande",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-1986-careca",
+      "identityId": "P-90635",
+      "squadNumber": 9,
+      "name": "Careca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "brazil-1986-zico",
+      "identityId": "P-37483",
+      "squadNumber": 10,
+      "name": "Zico",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "brazil-1986-edivaldo",
+      "identityId": "P-30573",
+      "squadNumber": 11,
+      "name": "Edivaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-1986-paulo_v_tor",
+      "identityId": "P-34958",
+      "squadNumber": 12,
+      "name": "Paulo Vítor",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-1986-josimar",
+      "identityId": "P-79755",
+      "squadNumber": 13,
+      "name": "Josimar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1986-j_lio_c_sar",
+      "identityId": "P-05820",
+      "squadNumber": 14,
+      "name": "Júlio César",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1986-alem_o",
+      "identityId": "P-76896",
+      "squadNumber": 15,
+      "name": "Alemão",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1986-mauro_galv_o",
+      "identityId": "P-06573",
+      "squadNumber": 16,
+      "name": "Mauro Galvão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-1986-branco",
+      "identityId": "P-90842",
+      "squadNumber": 17,
+      "name": "Branco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1986-s_crates",
+      "identityId": "P-78605",
+      "squadNumber": 18,
+      "name": "Sócrates",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1986-elzo",
+      "identityId": "P-50408",
+      "squadNumber": 19,
+      "name": "Elzo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1986-paulo_silas",
+      "identityId": "P-12049",
+      "squadNumber": 20,
+      "name": "Paulo Silas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-1986-valdo",
+      "identityId": "P-10596",
+      "squadNumber": 21,
+      "name": "Valdo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "brazil-1986-le_o",
+      "identityId": "P-06015",
+      "squadNumber": 22,
+      "name": "Leão",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1986 World Cup performance for Brazil (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

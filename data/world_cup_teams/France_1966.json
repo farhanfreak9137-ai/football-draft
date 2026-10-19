@@ -1,0 +1,493 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "france-1966-marcel_aubour",
+      "identityId": "P-03644",
+      "squadNumber": 1,
+      "name": "Marcel Aubour",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-marcel_artelesa",
+      "identityId": "P-15235",
+      "squadNumber": 2,
+      "name": "Marcel Artelesa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-edmond_baraffe",
+      "identityId": "P-43085",
+      "squadNumber": 3,
+      "name": "Edmond Baraffe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-joseph_bonnel",
+      "identityId": "P-90417",
+      "squadNumber": 4,
+      "name": "Joseph Bonnel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-bernard_bosquier",
+      "identityId": "P-53136",
+      "squadNumber": 5,
+      "name": "Bernard Bosquier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-robert_budzynski",
+      "identityId": "P-94477",
+      "squadNumber": 6,
+      "name": "Robert Budzynski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-andr_chorda",
+      "identityId": "P-08286",
+      "squadNumber": 7,
+      "name": "André Chorda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-nestor_combin",
+      "identityId": "P-98706",
+      "squadNumber": 8,
+      "name": "Nestor Combin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-didier_cou_cou",
+      "identityId": "P-57925",
+      "squadNumber": 9,
+      "name": "Didier Couécou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-h_ctor_de_bourgoing",
+      "identityId": "P-39420",
+      "squadNumber": 10,
+      "name": "Héctor De Bourgoing",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1966-gabriel_de_michele",
+      "identityId": "P-20709",
+      "squadNumber": 11,
+      "name": "Gabriel De Michele",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "france-1966-jean_djorkaeff",
+      "identityId": "P-86721",
+      "squadNumber": 12,
+      "name": "Jean Djorkaeff",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-philippe_gondet",
+      "identityId": "P-93859",
+      "squadNumber": 13,
+      "name": "Philippe Gondet",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-g_rard_hausser",
+      "identityId": "P-05248",
+      "squadNumber": 14,
+      "name": "Gérard Hausser",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for France (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "france-1966-yves_herbet",
+      "identityId": "P-59228",
+      "squadNumber": 15,
+      "name": "Yves Herbet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-robert_herbin",
+      "identityId": "P-77479",
+      "squadNumber": 16,
+      "name": "Robert Herbin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-lucien_muller",
+      "identityId": "P-41229",
+      "squadNumber": 17,
+      "name": "Lucien Muller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-jean-claude_piumi",
+      "identityId": "P-17245",
+      "squadNumber": 18,
+      "name": "Jean-Claude Piumi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-laurent_robuschi",
+      "identityId": "P-03840",
+      "squadNumber": 19,
+      "name": "Laurent Robuschi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-jacques_simon",
+      "identityId": "P-94089",
+      "squadNumber": 20,
+      "name": "Jacques Simon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-georges_carnus",
+      "identityId": "P-95105",
+      "squadNumber": 21,
+      "name": "Georges Carnus",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-1966-johnny_schuth",
+      "identityId": "P-46980",
+      "squadNumber": 22,
+      "name": "Johnny Schuth",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for France (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "teamName": "Turkey",
+  "teamCode": "TUR",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "turkey-2026-hakan_alhano_lu",
+      "identityId": "identity-2026-hakan_alhano_lu",
+      "squadNumber": 1,
+      "name": "Hakan Çalhanoğlu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Serie A Champion & Midfield Master"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Serie A Champion & Midfield Master",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Turkey. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "turkey-2026-arda_g_ler",
+      "identityId": "identity-2026-arda_g_ler",
+      "squadNumber": 2,
+      "name": "Arda Güler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Turkey. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "turkey-2026-kenan_y_ld_z",
+      "identityId": "identity-2026-kenan_y_ld_z",
+      "squadNumber": 3,
+      "name": "Kenan Yıldız",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Turkey. Regular starting lineup selection."
+    },
+    {
+      "id": "turkey-2026-ferdi_kad_o_lu",
+      "identityId": "identity-2026-ferdi_kad_o_lu",
+      "squadNumber": 4,
+      "name": "Ferdi Kadıoğlu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Turkey. Regular starting lineup selection."
+    },
+    {
+      "id": "turkey-2026-bar_alper_y_lmaz",
+      "identityId": "identity-2026-bar_alper_y_lmaz",
+      "squadNumber": 5,
+      "name": "Barış Alper Yılmaz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Turkey. Regular starting lineup selection."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_6",
+      "identityId": "identity-2026-turkey_squad_member_6",
+      "squadNumber": 6,
+      "name": "Turkey Squad Member #6",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_7",
+      "identityId": "identity-2026-turkey_squad_member_7",
+      "squadNumber": 7,
+      "name": "Turkey Squad Member #7",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_8",
+      "identityId": "identity-2026-turkey_squad_member_8",
+      "squadNumber": 8,
+      "name": "Turkey Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_9",
+      "identityId": "identity-2026-turkey_squad_member_9",
+      "squadNumber": 9,
+      "name": "Turkey Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_10",
+      "identityId": "identity-2026-turkey_squad_member_10",
+      "squadNumber": 10,
+      "name": "Turkey Squad Member #10",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_11",
+      "identityId": "identity-2026-turkey_squad_member_11",
+      "squadNumber": 11,
+      "name": "Turkey Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_12",
+      "identityId": "identity-2026-turkey_squad_member_12",
+      "squadNumber": 12,
+      "name": "Turkey Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_13",
+      "identityId": "identity-2026-turkey_squad_member_13",
+      "squadNumber": 13,
+      "name": "Turkey Squad Member #13",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_14",
+      "identityId": "identity-2026-turkey_squad_member_14",
+      "squadNumber": 14,
+      "name": "Turkey Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_15",
+      "identityId": "identity-2026-turkey_squad_member_15",
+      "squadNumber": 15,
+      "name": "Turkey Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_16",
+      "identityId": "identity-2026-turkey_squad_member_16",
+      "squadNumber": 16,
+      "name": "Turkey Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_17",
+      "identityId": "identity-2026-turkey_squad_member_17",
+      "squadNumber": 17,
+      "name": "Turkey Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_18",
+      "identityId": "identity-2026-turkey_squad_member_18",
+      "squadNumber": 18,
+      "name": "Turkey Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_19",
+      "identityId": "identity-2026-turkey_squad_member_19",
+      "squadNumber": 19,
+      "name": "Turkey Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_20",
+      "identityId": "identity-2026-turkey_squad_member_20",
+      "squadNumber": 20,
+      "name": "Turkey Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_21",
+      "identityId": "identity-2026-turkey_squad_member_21",
+      "squadNumber": 21,
+      "name": "Turkey Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_22",
+      "identityId": "identity-2026-turkey_squad_member_22",
+      "squadNumber": 22,
+      "name": "Turkey Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    },
+    {
+      "id": "turkey-2026-turkey_squad_member_23",
+      "identityId": "identity-2026-turkey_squad_member_23",
+      "squadNumber": 23,
+      "name": "Turkey Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Turkey. National squad reserve depth."
+    }
+  ]
+}

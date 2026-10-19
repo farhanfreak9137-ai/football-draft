@@ -1,0 +1,516 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "argentina-2006-roberto_abbondanzieri",
+      "identityId": "P-86290",
+      "squadNumber": 1,
+      "name": "Roberto Abbondanzieri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-2006-roberto_ayala",
+      "identityId": "P-83403",
+      "squadNumber": 2,
+      "name": "Roberto Ayala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2006-juan_pablo_sor_n",
+      "identityId": "P-60914",
+      "squadNumber": 3,
+      "name": "Juan Pablo Sorín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2006-fabricio_coloccini",
+      "identityId": "P-78133",
+      "squadNumber": 4,
+      "name": "Fabricio Coloccini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2006-esteban_cambiasso",
+      "identityId": "P-66229",
+      "squadNumber": 5,
+      "name": "Esteban Cambiasso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2006-gabriel_heinze",
+      "identityId": "P-64352",
+      "squadNumber": 6,
+      "name": "Gabriel Heinze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2006-javier_saviola",
+      "identityId": "P-38901",
+      "squadNumber": 7,
+      "name": "Javier Saviola",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2006-javier_mascherano",
+      "identityId": "P-77063",
+      "squadNumber": 8,
+      "name": "Javier Mascherano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-2006-hern_n_crespo",
+      "identityId": "P-19888",
+      "squadNumber": 9,
+      "name": "Hernán Crespo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es). Scored 3 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "argentina-2006-juan_rom_n_riquelme",
+      "identityId": "P-85199",
+      "squadNumber": 10,
+      "name": "Juan Román Riquelme",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-2006-carlos_tevez",
+      "identityId": "P-29080",
+      "squadNumber": 11,
+      "name": "Carlos Tevez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2006-leo_franco",
+      "identityId": "P-27047",
+      "squadNumber": 12,
+      "name": "Leo Franco",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2006-lionel_scaloni",
+      "identityId": "P-73619",
+      "squadNumber": 13,
+      "name": "Lionel Scaloni",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2006-rodrigo_palacio",
+      "identityId": "P-27419",
+      "squadNumber": 14,
+      "name": "Rodrigo Palacio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2006-gabriel_milito",
+      "identityId": "P-91357",
+      "squadNumber": 15,
+      "name": "Gabriel Milito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2006-pablo_aimar",
+      "identityId": "P-25906",
+      "squadNumber": 16,
+      "name": "Pablo Aimar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "argentina-2006-leandro_cufr_",
+      "identityId": "P-16541",
+      "squadNumber": 17,
+      "name": "Leandro Cufré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2006-maxi_rodr_guez",
+      "identityId": "P-33570",
+      "squadNumber": 18,
+      "name": "Maxi Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "argentina-2006-lionel_messi",
+      "identityId": "P-14758",
+      "squadNumber": 19,
+      "name": "Lionel Messi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2006-julio_cruz",
+      "identityId": "P-38198",
+      "squadNumber": 20,
+      "name": "Julio Cruz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-2006-nicol_s_burdisso",
+      "identityId": "P-56532",
+      "squadNumber": 21,
+      "name": "Nicolás Burdisso",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2006-lucho_gonz_lez",
+      "identityId": "P-48161",
+      "squadNumber": 22,
+      "name": "Lucho González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2006-_scar_ustari",
+      "identityId": "P-66580",
+      "squadNumber": 23,
+      "name": "Óscar Ustari",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

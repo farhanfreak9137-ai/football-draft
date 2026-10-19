@@ -1,0 +1,517 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "CHE",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "switzerland-2010-diego_benaglio",
+      "identityId": "P-46325",
+      "squadNumber": 1,
+      "name": "Diego Benaglio",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-stephan_lichtsteiner",
+      "identityId": "P-09988",
+      "squadNumber": 2,
+      "name": "Stephan Lichtsteiner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-ludovic_magnin",
+      "identityId": "P-82814",
+      "squadNumber": 3,
+      "name": "Ludovic Magnin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2010-philippe_senderos",
+      "identityId": "P-94161",
+      "squadNumber": 4,
+      "name": "Philippe Senderos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2010-steve_von_bergen",
+      "identityId": "P-62393",
+      "squadNumber": 5,
+      "name": "Steve von Bergen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2010-benjamin_huggel",
+      "identityId": "P-24458",
+      "squadNumber": 6,
+      "name": "Benjamin Huggel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-tranquillo_barnetta",
+      "identityId": "P-97143",
+      "squadNumber": 7,
+      "name": "Tranquillo Barnetta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2010-g_khan_inler",
+      "identityId": "P-09596",
+      "squadNumber": 8,
+      "name": "Gökhan Inler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-alexander_frei",
+      "identityId": "P-61684",
+      "squadNumber": 9,
+      "name": "Alexander Frei",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2010-blaise_nkufo",
+      "identityId": "P-27813",
+      "squadNumber": 10,
+      "name": "Blaise Nkufo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-valon_behrami",
+      "identityId": "P-54713",
+      "squadNumber": 11,
+      "name": "Valon Behrami",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "switzerland-2010-marco_w_lfli",
+      "identityId": "P-75487",
+      "squadNumber": 12,
+      "name": "Marco Wölfli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2010-st_phane_grichting",
+      "identityId": "P-49127",
+      "squadNumber": 13,
+      "name": "Stéphane Grichting",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-marco_padalino",
+      "identityId": "P-71652",
+      "squadNumber": 14,
+      "name": "Marco Padalino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2010-hakan_yakin",
+      "identityId": "P-59636",
+      "squadNumber": 15,
+      "name": "Hakan Yakin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "switzerland-2010-g_lson_fernandes",
+      "identityId": "P-77553",
+      "squadNumber": 16,
+      "name": "Gélson Fernandes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-2010-reto_ziegler",
+      "identityId": "P-09704",
+      "squadNumber": 17,
+      "name": "Reto Ziegler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "switzerland-2010-albert_bunjaku",
+      "identityId": "P-04767",
+      "squadNumber": 18,
+      "name": "Albert Bunjaku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2010-eren_derdiyok",
+      "identityId": "P-84535",
+      "squadNumber": 19,
+      "name": "Eren Derdiyok",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "switzerland-2010-pirmin_schwegler",
+      "identityId": "P-31553",
+      "squadNumber": 20,
+      "name": "Pirmin Schwegler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2010-johnny_leoni",
+      "identityId": "P-29799",
+      "squadNumber": 21,
+      "name": "Johnny Leoni",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-2010-mario_eggimann",
+      "identityId": "P-31548",
+      "squadNumber": 22,
+      "name": "Mario Eggimann",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "switzerland-2010-xherdan_shaqiri",
+      "identityId": "P-39460",
+      "squadNumber": 23,
+      "name": "Xherdan Shaqiri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Switzerland (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

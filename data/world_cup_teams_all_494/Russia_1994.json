@@ -1,0 +1,499 @@
+{
+  "teamName": "Russia",
+  "teamCode": "RUS",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 78,
+  "players": [
+    {
+      "id": "russia-1994-stanislav_cherchesov",
+      "identityId": "P-82210",
+      "squadNumber": 1,
+      "name": "Stanislav Cherchesov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-dmitri_kuznetsov",
+      "identityId": "P-82492",
+      "squadNumber": 2,
+      "name": "Dmitri Kuznetsov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-sergei_gorlukovich",
+      "identityId": "P-06372",
+      "squadNumber": 3,
+      "name": "Sergei Gorlukovich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-dmitri_galiamin",
+      "identityId": "P-95639",
+      "squadNumber": 4,
+      "name": "Dmitri Galiamin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Russia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "russia-1994-yuri_nikiforov",
+      "identityId": "P-70700",
+      "squadNumber": 5,
+      "name": "Yuri Nikiforov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-1994-vladislav_ternavsky",
+      "identityId": "P-66957",
+      "squadNumber": 6,
+      "name": "Vladislav Ternavsky",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-andrey_pyatnitsky",
+      "identityId": "P-08785",
+      "squadNumber": 7,
+      "name": "Andrey Pyatnitsky",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-dmitri_popov",
+      "identityId": "P-46886",
+      "squadNumber": 8,
+      "name": "Dmitri Popov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-oleg_salenko",
+      "identityId": "P-73354",
+      "squadNumber": 9,
+      "name": "Oleg Salenko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 6,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1994 FIFA World Cup Golden Boot Winner (6 Goals)",
+      "ratingRationale": "Rated 94 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts). Scored 6 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "russia-1994-valeri_karpin",
+      "identityId": "P-48249",
+      "squadNumber": 10,
+      "name": "Valeri Karpin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-vladimir_beschastnykh",
+      "identityId": "P-76498",
+      "squadNumber": 11,
+      "name": "Vladimir Beschastnykh",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Russia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "russia-1994-omari_tetradze",
+      "identityId": "P-01806",
+      "squadNumber": 12,
+      "name": "Omari Tetradze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-aleksandr_borodyuk",
+      "identityId": "P-99207",
+      "squadNumber": 13,
+      "name": "Aleksandr Borodyuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-igor_korneev",
+      "identityId": "P-88486",
+      "squadNumber": 14,
+      "name": "Igor Korneev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-dmitri_radchenko",
+      "identityId": "P-42532",
+      "squadNumber": 15,
+      "name": "Dmitri Radchenko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "russia-1994-dmitri_kharine",
+      "identityId": "P-54805",
+      "squadNumber": 16,
+      "name": "Dmitri Kharine",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-ilya_tsymbalar",
+      "identityId": "P-65049",
+      "squadNumber": 17,
+      "name": "Ilya Tsymbalar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-viktor_onopko",
+      "identityId": "P-83394",
+      "squadNumber": 18,
+      "name": "Viktor Onopko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-1994-aleksandr_mostovoi",
+      "identityId": "P-76220",
+      "squadNumber": 19,
+      "name": "Aleksandr Mostovoi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-igor_lediakhov",
+      "identityId": "P-93191",
+      "squadNumber": 20,
+      "name": "Igor Lediakhov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-1994-dmitri_khlestov",
+      "identityId": "P-69635",
+      "squadNumber": 21,
+      "name": "Dmitri Khlestov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Russia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-1994-sergei_yuran",
+      "identityId": "P-46493",
+      "squadNumber": 22,
+      "name": "Sergei Yuran",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Russia (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "teamName": "Northern Ireland",
+  "teamCode": "NIR",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "northern_ireland-1982-pat_jennings",
+      "identityId": "P-55794",
+      "squadNumber": 1,
+      "name": "Pat Jennings",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-jimmy_nicholl",
+      "identityId": "P-53798",
+      "squadNumber": 2,
+      "name": "Jimmy Nicholl",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-mal_donaghy",
+      "identityId": "P-40771",
+      "squadNumber": 3,
+      "name": "Mal Donaghy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-david_mccreery",
+      "identityId": "P-99050",
+      "squadNumber": 4,
+      "name": "David McCreery",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-chris_nicholl",
+      "identityId": "P-52771",
+      "squadNumber": 5,
+      "name": "Chris Nicholl",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-john_oneill",
+      "identityId": "P-62565",
+      "squadNumber": 6,
+      "name": "John O'Neill",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "northern_ireland-1982-noel_brotherston",
+      "identityId": "P-05529",
+      "squadNumber": 7,
+      "name": "Noel Brotherston",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "northern_ireland-1982-martin_oneill",
+      "identityId": "P-85997",
+      "squadNumber": 8,
+      "name": "Martin O'Neill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-gerry_armstrong",
+      "identityId": "P-96985",
+      "squadNumber": 9,
+      "name": "Gerry Armstrong",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "northern_ireland-1982-sammy_mcilroy",
+      "identityId": "P-32829",
+      "squadNumber": 10,
+      "name": "Sammy McIlroy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-billy_hamilton",
+      "identityId": "P-76882",
+      "squadNumber": 11,
+      "name": "Billy Hamilton",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "northern_ireland-1982-john_mcclelland",
+      "identityId": "P-76981",
+      "squadNumber": 12,
+      "name": "John McClelland",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-sammy_nelson",
+      "identityId": "P-65462",
+      "squadNumber": 13,
+      "name": "Sammy Nelson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "northern_ireland-1982-tommy_cassidy",
+      "identityId": "P-13942",
+      "squadNumber": 14,
+      "name": "Tommy Cassidy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "northern_ireland-1982-tommy_finney",
+      "identityId": "P-39792",
+      "squadNumber": 15,
+      "name": "Tommy Finney",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1982-norman_whiteside",
+      "identityId": "P-62599",
+      "squadNumber": 16,
+      "name": "Norman Whiteside",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "northern_ireland-1982-jim_platt",
+      "identityId": "P-04514",
+      "squadNumber": 17,
+      "name": "Jim Platt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "northern_ireland-1982-johnny_jameson",
+      "identityId": "P-50213",
+      "squadNumber": 18,
+      "name": "Johnny Jameson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1982-felix_healy",
+      "identityId": "P-59982",
+      "squadNumber": 19,
+      "name": "Felix Healy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "northern_ireland-1982-jim_cleary",
+      "identityId": "P-05291",
+      "squadNumber": 20,
+      "name": "Jim Cleary",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1982-bobby_campbell",
+      "identityId": "P-36137",
+      "squadNumber": 21,
+      "name": "Bobby Campbell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1982-george_dunlop",
+      "identityId": "P-00796",
+      "squadNumber": 22,
+      "name": "George Dunlop",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Northern Ireland (Round of 16). Squad reserve member."
+    }
+  ]
+}

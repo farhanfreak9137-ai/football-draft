@@ -1,0 +1,496 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "mexico-1958-antonio_carbajal",
+      "identityId": "P-69496",
+      "squadNumber": 1,
+      "name": "Antonio Carbajal",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-jes_s_del_muro",
+      "identityId": "P-75144",
+      "squadNumber": 2,
+      "name": "Jesús del Muro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-jorge_romo",
+      "identityId": "P-84868",
+      "squadNumber": 3,
+      "name": "Jorge Romo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-jos_villegas",
+      "identityId": "P-56205",
+      "squadNumber": 4,
+      "name": "José Villegas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-alfonso_portugal",
+      "identityId": "P-41805",
+      "squadNumber": 5,
+      "name": "Alfonso Portugal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-francisco_flores",
+      "identityId": "P-70829",
+      "squadNumber": 6,
+      "name": "Francisco Flores",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-alfredo_hern_ndez",
+      "identityId": "P-82053",
+      "squadNumber": 7,
+      "name": "Alfredo Hernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-salvador_reyes",
+      "identityId": "P-92848",
+      "squadNumber": 8,
+      "name": "Salvador Reyes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-carlos_calder_n_de_la_barca",
+      "identityId": "P-90775",
+      "squadNumber": 9,
+      "name": "Carlos Calderón de la Barca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-crescencio_guti_rrez",
+      "identityId": "P-53579",
+      "squadNumber": 10,
+      "name": "Crescencio Gutiérrez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-enrique_sesma",
+      "identityId": "P-45721",
+      "squadNumber": 11,
+      "name": "Enrique Sesma",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1958-manuel_camacho",
+      "identityId": "P-97290",
+      "squadNumber": 12,
+      "name": "Manuel Camacho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-jaime_g_mez",
+      "identityId": "P-21324",
+      "squadNumber": 13,
+      "name": "Jaime Gómez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-miguel_guti_rrez",
+      "identityId": "P-01211",
+      "squadNumber": 14,
+      "name": "Miguel Gutiérrez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-guillermo_sep_lveda",
+      "identityId": "P-63904",
+      "squadNumber": 15,
+      "name": "Guillermo Sepúlveda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-jos_antonio_roca",
+      "identityId": "P-92882",
+      "squadNumber": 16,
+      "name": "José Antonio Roca",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-ra_l_c_rdenas",
+      "identityId": "P-53255",
+      "squadNumber": 17,
+      "name": "Raúl Cárdenas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-jaime_salazar",
+      "identityId": "P-96660",
+      "squadNumber": 18,
+      "name": "Jaime Salazar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-jaime_belmonte",
+      "identityId": "P-10223",
+      "squadNumber": 19,
+      "name": "Jaime Belmonte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1958-carlos_blanco",
+      "identityId": "P-54240",
+      "squadNumber": 20,
+      "name": "Carlos Blanco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-ligorio_l_pez",
+      "identityId": "P-91558",
+      "squadNumber": 21,
+      "name": "Ligorio López",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1958-carlos_gonz_lez",
+      "identityId": "P-95498",
+      "squadNumber": 22,
+      "name": "Carlos González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    }
+  ]
+}

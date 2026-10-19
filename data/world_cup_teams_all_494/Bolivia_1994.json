@@ -1,0 +1,492 @@
+{
+  "teamName": "Bolivia",
+  "teamCode": "BOL",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "bolivia-1994-carlos_trucco",
+      "identityId": "P-83061",
+      "squadNumber": 1,
+      "name": "Carlos Trucco",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-juan_manuel_pe_a",
+      "identityId": "P-06645",
+      "squadNumber": 2,
+      "name": "Juan Manuel Peña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bolivia-1994-marco_sandy",
+      "identityId": "P-47593",
+      "squadNumber": 3,
+      "name": "Marco Sandy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-miguel_rimba",
+      "identityId": "P-49642",
+      "squadNumber": 4,
+      "name": "Miguel Rimba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-gustavo_quinteros",
+      "identityId": "P-74977",
+      "squadNumber": 5,
+      "name": "Gustavo Quinteros",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bolivia-1994-carlos_borja",
+      "identityId": "P-92800",
+      "squadNumber": 6,
+      "name": "Carlos Borja",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-mario_pinedo",
+      "identityId": "P-44632",
+      "squadNumber": 7,
+      "name": "Mario Pinedo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1994-jos_milton_melgar",
+      "identityId": "P-59235",
+      "squadNumber": 8,
+      "name": "José Milton Melgar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-_lvaro_pe_a",
+      "identityId": "P-20960",
+      "squadNumber": 9,
+      "name": "Álvaro Peña",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bolivia-1994-marco_etcheverry",
+      "identityId": "P-22812",
+      "squadNumber": 10,
+      "name": "Marco Etcheverry",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bolivia-1994-jaime_moreno",
+      "identityId": "P-11058",
+      "squadNumber": 11,
+      "name": "Jaime Moreno",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "bolivia-1994-dar_o_rojas",
+      "identityId": "P-23356",
+      "squadNumber": 12,
+      "name": "Darío Rojas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1994-modesto_soruco",
+      "identityId": "P-70512",
+      "squadNumber": 13,
+      "name": "Modesto Soruco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bolivia-1994-mauricio_ramos",
+      "identityId": "P-09423",
+      "squadNumber": 14,
+      "name": "Mauricio Ramos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bolivia-1994-vladimir_soria",
+      "identityId": "P-61814",
+      "squadNumber": 15,
+      "name": "Vladimir Soria",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-luis_cristaldo",
+      "identityId": "P-26034",
+      "squadNumber": 16,
+      "name": "Luis Cristaldo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bolivia-1994-_scar_s_nchez",
+      "identityId": "P-77469",
+      "squadNumber": 17,
+      "name": "Óscar Sánchez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1994-william_ramallo",
+      "identityId": "P-97920",
+      "squadNumber": 18,
+      "name": "William Ramallo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bolivia-1994-marcelo_torrico",
+      "identityId": "P-66585",
+      "squadNumber": 19,
+      "name": "Marcelo Torrico",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "bolivia-1994-ramiro_castillo",
+      "identityId": "P-90575",
+      "squadNumber": 20,
+      "name": "Ramiro Castillo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bolivia-1994-erwin_s_nchez",
+      "identityId": "P-09978",
+      "squadNumber": 21,
+      "name": "Erwin Sánchez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bolivia-1994-julio_c_sar_baldivieso",
+      "identityId": "P-84079",
+      "squadNumber": 22,
+      "name": "Julio César Baldivieso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Bolivia (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

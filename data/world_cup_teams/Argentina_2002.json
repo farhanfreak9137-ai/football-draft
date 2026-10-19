@@ -1,0 +1,515 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "argentina-2002-germ_n_burgos",
+      "identityId": "P-56385",
+      "squadNumber": 1,
+      "name": "Germán Burgos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-2002-roberto_ayala",
+      "identityId": "P-83403",
+      "squadNumber": 2,
+      "name": "Roberto Ayala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-2002-juan_pablo_sor_n",
+      "identityId": "P-60914",
+      "squadNumber": 3,
+      "name": "Juan Pablo Sorín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2002-mauricio_pochettino",
+      "identityId": "P-31684",
+      "squadNumber": 4,
+      "name": "Mauricio Pochettino",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2002-mat_as_almeyda",
+      "identityId": "P-88203",
+      "squadNumber": 5,
+      "name": "Matías Almeyda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2002-walter_samuel",
+      "identityId": "P-76131",
+      "squadNumber": 6,
+      "name": "Walter Samuel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2002-claudio_l_pez",
+      "identityId": "P-60203",
+      "squadNumber": 7,
+      "name": "Claudio López",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2002-javier_zanetti",
+      "identityId": "P-53716",
+      "squadNumber": 8,
+      "name": "Javier Zanetti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2002-gabriel_batistuta",
+      "identityId": "P-84542",
+      "squadNumber": 9,
+      "name": "Gabriel Batistuta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2002-ariel_ortega",
+      "identityId": "P-00065",
+      "squadNumber": 10,
+      "name": "Ariel Ortega",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2002-juan_sebasti_n_ver_n",
+      "identityId": "P-62209",
+      "squadNumber": 11,
+      "name": "Juan Sebastián Verón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2002-pablo_cavallero",
+      "identityId": "P-60052",
+      "squadNumber": 12,
+      "name": "Pablo Cavallero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Argentina (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2002-diego_placente",
+      "identityId": "P-02174",
+      "squadNumber": 13,
+      "name": "Diego Placente",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2002-diego_simeone",
+      "identityId": "P-06370",
+      "squadNumber": 14,
+      "name": "Diego Simeone",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2002-claudio_husa_n",
+      "identityId": "P-26200",
+      "squadNumber": 15,
+      "name": "Claudio Husaín",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-2002-pablo_aimar",
+      "identityId": "P-25906",
+      "squadNumber": 16,
+      "name": "Pablo Aimar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2002-gustavo_l_pez",
+      "identityId": "P-45985",
+      "squadNumber": 17,
+      "name": "Gustavo López",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-2002-kily_gonz_lez",
+      "identityId": "P-11130",
+      "squadNumber": 18,
+      "name": "Kily González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2002-hern_n_crespo",
+      "identityId": "P-19888",
+      "squadNumber": 19,
+      "name": "Hernán Crespo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Argentina (Group Stage). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2002-marcelo_gallardo",
+      "identityId": "P-94002",
+      "squadNumber": 20,
+      "name": "Marcelo Gallardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-2002-claudio_caniggia",
+      "identityId": "P-35873",
+      "squadNumber": 21,
+      "name": "Claudio Caniggia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-2002-jos_chamot",
+      "identityId": "P-28816",
+      "squadNumber": 22,
+      "name": "José Chamot",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Argentina (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2002-roberto_bonano",
+      "identityId": "P-12056",
+      "squadNumber": 23,
+      "name": "Roberto Bonano",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    }
+  ]
+}

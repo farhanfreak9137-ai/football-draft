@@ -1,0 +1,495 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "united_states-1994-tony_meola",
+      "identityId": "P-43736",
+      "squadNumber": 1,
+      "name": "Tony Meola",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-1994-mike_lapper",
+      "identityId": "P-76583",
+      "squadNumber": 2,
+      "name": "Mike Lapper",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-mike_burns",
+      "identityId": "P-06020",
+      "squadNumber": 3,
+      "name": "Mike Burns",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-cle_kooiman",
+      "identityId": "P-17037",
+      "squadNumber": 4,
+      "name": "Cle Kooiman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1994-thomas_dooley",
+      "identityId": "P-08863",
+      "squadNumber": 5,
+      "name": "Thomas Dooley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-1994-john_harkes",
+      "identityId": "P-14008",
+      "squadNumber": 6,
+      "name": "John Harkes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-1994-hugo_p_rez",
+      "identityId": "P-85613",
+      "squadNumber": 7,
+      "name": "Hugo Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1994-earnie_stewart",
+      "identityId": "P-96178",
+      "squadNumber": 8,
+      "name": "Earnie Stewart",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1994-tab_ramos",
+      "identityId": "P-07720",
+      "squadNumber": 9,
+      "name": "Tab Ramos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-1994-roy_wegerle",
+      "identityId": "P-69356",
+      "squadNumber": 10,
+      "name": "Roy Wegerle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for United States (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "united_states-1994-eric_wynalda",
+      "identityId": "P-67232",
+      "squadNumber": 11,
+      "name": "Eric Wynalda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1994-juergen_sommer",
+      "identityId": "P-83591",
+      "squadNumber": 12,
+      "name": "Juergen Sommer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-cobi_jones",
+      "identityId": "P-49258",
+      "squadNumber": 13,
+      "name": "Cobi Jones",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for United States (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-1994-frank_klopas",
+      "identityId": "P-77685",
+      "squadNumber": 14,
+      "name": "Frank Klopas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-joe-max_moore",
+      "identityId": "P-86464",
+      "squadNumber": 15,
+      "name": "Joe-Max Moore",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-mike_sorber",
+      "identityId": "P-09412",
+      "squadNumber": 16,
+      "name": "Mike Sorber",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-1994-marcelo_balboa",
+      "identityId": "P-12470",
+      "squadNumber": 17,
+      "name": "Marcelo Balboa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-1994-brad_friedel",
+      "identityId": "P-76191",
+      "squadNumber": 18,
+      "name": "Brad Friedel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-claudio_reyna",
+      "identityId": "P-97459",
+      "squadNumber": 19,
+      "name": "Claudio Reyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for United States (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "united_states-1994-paul_caligiuri",
+      "identityId": "P-82723",
+      "squadNumber": 20,
+      "name": "Paul Caligiuri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-1994-fernando_clavijo",
+      "identityId": "P-34393",
+      "squadNumber": 21,
+      "name": "Fernando Clavijo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-1994-alexi_lalas",
+      "identityId": "P-79863",
+      "squadNumber": 22,
+      "name": "Alexi Lalas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for United States (Round of 16). Main pillar starting 4 match(es)."
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "teamName": "Australia",
+  "teamCode": "AUS",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "australia-2014-mathew_ryan",
+      "identityId": "P-10244",
+      "squadNumber": 1,
+      "name": "Mathew Ryan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2014-ivan_franjic",
+      "identityId": "P-12111",
+      "squadNumber": 2,
+      "name": "Ivan Franjic",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2014-jason_davidson",
+      "identityId": "P-05392",
+      "squadNumber": 3,
+      "name": "Jason Davidson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2014-tim_cahill",
+      "identityId": "P-44926",
+      "squadNumber": 4,
+      "name": "Tim Cahill",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "australia-2014-mark_milligan",
+      "identityId": "P-36196",
+      "squadNumber": 5,
+      "name": "Mark Milligan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2014-matthew_spiranovic",
+      "identityId": "P-77068",
+      "squadNumber": 6,
+      "name": "Matthew Spiranovic",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2014-mathew_leckie",
+      "identityId": "P-35837",
+      "squadNumber": 7,
+      "name": "Mathew Leckie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2014-bailey_wright",
+      "identityId": "P-97422",
+      "squadNumber": 8,
+      "name": "Bailey Wright",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2014-adam_taggart",
+      "identityId": "P-81067",
+      "squadNumber": 9,
+      "name": "Adam Taggart",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2014-ben_halloran",
+      "identityId": "P-65381",
+      "squadNumber": 10,
+      "name": "Ben Halloran",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Australia (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "australia-2014-tommy_oar",
+      "identityId": "P-84412",
+      "squadNumber": 11,
+      "name": "Tommy Oar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2014-mitchell_langerak",
+      "identityId": "P-15064",
+      "squadNumber": 12,
+      "name": "Mitchell Langerak",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2014-oliver_bozanic",
+      "identityId": "P-52319",
+      "squadNumber": 13,
+      "name": "Oliver Bozanic",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2014-james_troisi",
+      "identityId": "P-09100",
+      "squadNumber": 14,
+      "name": "James Troisi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Australia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "australia-2014-mile_jedinak",
+      "identityId": "P-37275",
+      "squadNumber": 15,
+      "name": "Mile Jedinak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "australia-2014-james_holland",
+      "identityId": "P-77996",
+      "squadNumber": 16,
+      "name": "James Holland",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2014-matt_mckay",
+      "identityId": "P-93567",
+      "squadNumber": 17,
+      "name": "Matt McKay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "australia-2014-eugene_galekovic",
+      "identityId": "P-07864",
+      "squadNumber": 18,
+      "name": "Eugene Galekovic",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2014-ryan_mcgowan",
+      "identityId": "P-95590",
+      "squadNumber": 19,
+      "name": "Ryan McGowan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "australia-2014-dario_vido_i_",
+      "identityId": "P-73512",
+      "squadNumber": 20,
+      "name": "Dario Vidošić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2014-massimo_luongo",
+      "identityId": "P-33434",
+      "squadNumber": 21,
+      "name": "Massimo Luongo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2014-alex_wilkinson",
+      "identityId": "P-60159",
+      "squadNumber": 22,
+      "name": "Alex Wilkinson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2014-mark_bresciano",
+      "identityId": "P-84486",
+      "squadNumber": 23,
+      "name": "Mark Bresciano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "teamName": "Cape Verde",
+  "teamCode": "CPV",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Underdogs (Tubarões Azuis)",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "cape_verde-2026-vozinha",
+      "identityId": "identity-2026-vozinha",
+      "squadNumber": 1,
+      "name": "Vozinha",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Veteran National Goalkeeper & 70+ Caps"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Cape Verde. Long-serving national team goalkeeper."
+    },
+    {
+      "id": "cape_verde-2026-steven_moreira",
+      "identityId": "identity-2026-steven_moreira",
+      "squadNumber": 2,
+      "name": "Steven Moreira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB",
+        "CB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "MLS Cup Champion & Best XI Defender"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Cape Verde. Standout MLS Cup champion right back."
+    },
+    {
+      "id": "cape_verde-2026-roberto_pico_lopes",
+      "identityId": "identity-2026-roberto_pico_lopes",
+      "squadNumber": 3,
+      "name": "Roberto \"Pico\" Lopes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Cape Verde. Defensive rock and team leader."
+    },
+    {
+      "id": "cape_verde-2026-logan_costa",
+      "identityId": "identity-2026-logan_costa",
+      "squadNumber": 4,
+      "name": "Logan Costa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "La Liga Star Defender (Villarreal)"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "High-Level European Top-5 League Standout Center-Back",
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Cape Verde. Top-flight Spanish La Liga anchor."
+    },
+    {
+      "id": "cape_verde-2026-stopira",
+      "identityId": "identity-2026-stopira",
+      "squadNumber": 5,
+      "name": "Stopira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [
+        "Cape Verde Icon & Former Captain"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Cape Verde. Respected veteran captain and squad leader."
+    },
+    {
+      "id": "cape_verde-2026-joao_paulo_fernandes",
+      "identityId": "identity-2026-joao_paulo_fernandes",
+      "squadNumber": 6,
+      "name": "João Paulo Fernandes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB",
+        "LM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Cape Verde. Dynamic starting left back."
+    },
+    {
+      "id": "cape_verde-2026-kevin_pina",
+      "identityId": "identity-2026-kevin_pina",
+      "squadNumber": 7,
+      "name": "Kevin Pina",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "AFCON 2024 Breakthrough Midfielder"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Cape Verde. Dominant physical holding midfielder."
+    },
+    {
+      "id": "cape_verde-2026-jamiro_monteiro",
+      "identityId": "identity-2026-jamiro_monteiro",
+      "squadNumber": 8,
+      "name": "Jamiro Monteiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Cape Verde Midfield Architect"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Cape Verde. Creative tempo controller and playmaker."
+    },
+    {
+      "id": "cape_verde-2026-bebe",
+      "identityId": "identity-2026-bebe",
+      "squadNumber": 9,
+      "name": "Bebé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [
+        "AFCON 40-Yard Free Kick Legend & Cult Hero"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Legendary Free-Kick Specialist & Cape Verde National Talisman",
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Cape Verde. Match-winner with world-class long-range shooting."
+    },
+    {
+      "id": "cape_verde-2026-ryan_mendes",
+      "identityId": "identity-2026-ryan_mendes",
+      "squadNumber": 10,
+      "name": "Ryan Mendes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST",
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [
+        "All-Time Caps & Goals Record Holder",
+        "National Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Cape Verde All-Time Greatest Player & National Icon",
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Cape Verde. Undisputed team captain and talismanic forward."
+    },
+    {
+      "id": "cape_verde-2026-jovane_cabral",
+      "identityId": "identity-2026-jovane_cabral",
+      "squadNumber": 11,
+      "name": "Jovane Cabral",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Cape Verde. Direct dribbler with explosive acceleration."
+    },
+    {
+      "id": "cape_verde-2026-dylan_silva",
+      "identityId": "identity-2026-dylan_silva",
+      "squadNumber": 12,
+      "name": "Dylan Silva",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Cape Verde. Reserve goalkeeper."
+    },
+    {
+      "id": "cape_verde-2026-marcio_rosa",
+      "identityId": "identity-2026-marcio_rosa",
+      "squadNumber": 13,
+      "name": "Márcio Rosa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Cape Verde. Reserve goalkeeper."
+    },
+    {
+      "id": "cape_verde-2026-diney_borges",
+      "identityId": "identity-2026-diney_borges",
+      "squadNumber": 14,
+      "name": "Diney Borges",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Cape Verde. Experienced backup center-back."
+    },
+    {
+      "id": "cape_verde-2026-deroy_duarte",
+      "identityId": "identity-2026-deroy_duarte",
+      "squadNumber": 15,
+      "name": "Deroy Duarte",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Cape Verde. High-workrate box-to-box midfielder."
+    },
+    {
+      "id": "cape_verde-2026-patrick_andrade",
+      "identityId": "identity-2026-patrick_andrade",
+      "squadNumber": 16,
+      "name": "Patrick Andrade",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Cape Verde. European competition veteran."
+    },
+    {
+      "id": "cape_verde-2026-kenny_rocha_santos",
+      "identityId": "identity-2026-kenny_rocha_santos",
+      "squadNumber": 17,
+      "name": "Kenny Rocha Santos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Cape Verde. Technically gifted creative midfielder."
+    },
+    {
+      "id": "cape_verde-2026-laros_duarte",
+      "identityId": "identity-2026-laros_duarte",
+      "squadNumber": 18,
+      "name": "Laros Duarte",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Cape Verde. Energetic attacking midfield option."
+    },
+    {
+      "id": "cape_verde-2026-cuca",
+      "identityId": "identity-2026-cuca",
+      "squadNumber": 19,
+      "name": "Cuca",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Cape Verde. Combative squad midfielder."
+    },
+    {
+      "id": "cape_verde-2026-garry_rodrigues",
+      "identityId": "identity-2026-garry_rodrigues",
+      "squadNumber": 20,
+      "name": "Garry Rodrigues",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [
+        "Super League Veteran & Title Winner"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Cape Verde. Experienced European winger."
+    },
+    {
+      "id": "cape_verde-2026-helio_varela",
+      "identityId": "identity-2026-helio_varela",
+      "squadNumber": 21,
+      "name": "Hélio Varela",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Cape Verde. Fast direct young winger."
+    },
+    {
+      "id": "cape_verde-2026-bryan_teixeira",
+      "identityId": "identity-2026-bryan_teixeira",
+      "squadNumber": 22,
+      "name": "Bryan Teixeira",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Cape Verde. Physical center-forward option."
+    },
+    {
+      "id": "cape_verde-2026-gilson_benchimol",
+      "identityId": "identity-2026-gilson_benchimol",
+      "squadNumber": 23,
+      "name": "Gilson Benchimol",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Cape Verde. Promising target striker."
+    }
+  ]
+}

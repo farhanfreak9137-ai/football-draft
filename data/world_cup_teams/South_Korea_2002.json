@@ -1,0 +1,518 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "south_korea-2002-woon-jae_lee",
+      "identityId": "P-95122",
+      "squadNumber": 1,
+      "name": "Woon-jae Lee",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "south_korea-2002-young-min_hyun",
+      "identityId": "P-26659",
+      "squadNumber": 2,
+      "name": "Young-min Hyun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2002-sung-yong_choi",
+      "identityId": "P-17666",
+      "squadNumber": 3,
+      "name": "Sung-yong Choi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2002-jin-cheul_choi",
+      "identityId": "P-07865",
+      "squadNumber": 4,
+      "name": "Jin-cheul Choi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "south_korea-2002-nam-il_kim",
+      "identityId": "P-51785",
+      "squadNumber": 5,
+      "name": "Nam-il Kim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "south_korea-2002-sang-chul_yoo",
+      "identityId": "P-75255",
+      "squadNumber": 6,
+      "name": "Sang-chul Yoo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-tae-young_kim",
+      "identityId": "P-96267",
+      "squadNumber": 7,
+      "name": "Tae-young Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "south_korea-2002-tae-uk_choi",
+      "identityId": "P-37114",
+      "squadNumber": 8,
+      "name": "Tae-uk Choi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2002-ki-hyeon_seol",
+      "identityId": "P-56626",
+      "squadNumber": 9,
+      "name": "Ki-hyeon Seol",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-young-pyo_lee",
+      "identityId": "P-46519",
+      "squadNumber": 10,
+      "name": "Young-pyo Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "south_korea-2002-yong-soo_choi",
+      "identityId": "P-72495",
+      "squadNumber": 11,
+      "name": "Yong-soo Choi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2002-byung-ji_kim",
+      "identityId": "P-84722",
+      "squadNumber": 12,
+      "name": "Byung-ji Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2002-eul-yong_lee",
+      "identityId": "P-60562",
+      "squadNumber": 13,
+      "name": "Eul-yong Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-chun-soo_lee",
+      "identityId": "P-22338",
+      "squadNumber": 14,
+      "name": "Chun-soo Lee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "south_korea-2002-min-sung_lee",
+      "identityId": "P-66219",
+      "squadNumber": 15,
+      "name": "Min-sung Lee",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2002-du-ri_cha",
+      "identityId": "P-39884",
+      "squadNumber": 16,
+      "name": "Du-ri Cha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2002-jong-hwan_yoon",
+      "identityId": "P-68095",
+      "squadNumber": 17,
+      "name": "Jong-hwan Yoon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2002-sun-hong_hwang",
+      "identityId": "P-15222",
+      "squadNumber": 18,
+      "name": "Sun-hong Hwang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-jung-hwan_ahn",
+      "identityId": "P-26616",
+      "squadNumber": 19,
+      "name": "Jung-hwan Ahn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 3,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-myung-bo_hong",
+      "identityId": "P-55097",
+      "squadNumber": 20,
+      "name": "Myung-bo Hong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Bronze Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2002 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 7 match(es). Honors: Bronze Ball."
+    },
+    {
+      "id": "south_korea-2002-ji-sung_park",
+      "identityId": "P-25724",
+      "squadNumber": 21,
+      "name": "Ji-sung Park",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-chong-gug_song",
+      "identityId": "P-83544",
+      "squadNumber": 22,
+      "name": "Chong-gug Song",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2002-eun-sung_choi",
+      "identityId": "P-42690",
+      "squadNumber": 23,
+      "name": "Eun-sung Choi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for South Korea (Fourth Place). Squad reserve member."
+    }
+  ]
+}

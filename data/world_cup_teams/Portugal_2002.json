@@ -1,0 +1,517 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "PRT",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "portugal-2002-v_tor_ba_a",
+      "identityId": "P-16675",
+      "squadNumber": 1,
+      "name": "Vítor Baía",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-jorge_costa",
+      "identityId": "P-73722",
+      "squadNumber": 2,
+      "name": "Jorge Costa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-abel_xavier",
+      "identityId": "P-39199",
+      "squadNumber": 3,
+      "name": "Abel Xavier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Portugal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2002-marco_caneira",
+      "identityId": "P-48643",
+      "squadNumber": 4,
+      "name": "Marco Caneira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2002-fernando_couto",
+      "identityId": "P-23927",
+      "squadNumber": 5,
+      "name": "Fernando Couto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-paulo_sousa",
+      "identityId": "P-70308",
+      "squadNumber": 6,
+      "name": "Paulo Sousa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2002-lu_s_figo",
+      "identityId": "P-57496",
+      "squadNumber": 7,
+      "name": "Luís Figo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-jo_o_pinto",
+      "identityId": "P-70698",
+      "squadNumber": 8,
+      "name": "João Pinto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-pauleta",
+      "identityId": "P-57982",
+      "squadNumber": 9,
+      "name": "Pauleta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "portugal-2002-rui_costa",
+      "identityId": "P-62808",
+      "squadNumber": 10,
+      "name": "Rui Costa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2002-s_rgio_concei_o",
+      "identityId": "P-88800",
+      "squadNumber": 11,
+      "name": "Sérgio Conceição",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-hugo_viana",
+      "identityId": "P-83823",
+      "squadNumber": 12,
+      "name": "Hugo Viana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2002-jorge_andrade",
+      "identityId": "P-82191",
+      "squadNumber": 13,
+      "name": "Jorge Andrade",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Portugal (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "portugal-2002-pedro_barbosa",
+      "identityId": "P-06162",
+      "squadNumber": 14,
+      "name": "Pedro Barbosa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2002-n_lson_pereira",
+      "identityId": "P-67041",
+      "squadNumber": 15,
+      "name": "Nélson Pereira",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2002-ricardo",
+      "identityId": "P-45712",
+      "squadNumber": 16,
+      "name": "Ricardo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2002-paulo_bento",
+      "identityId": "P-91925",
+      "squadNumber": 17,
+      "name": "Paulo Bento",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2002-nuno_frechaut",
+      "identityId": "P-11424",
+      "squadNumber": 18,
+      "name": "Nuno Frechaut",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2002-capucho",
+      "identityId": "P-07559",
+      "squadNumber": 19,
+      "name": "Capucho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Portugal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2002-petit",
+      "identityId": "P-92307",
+      "squadNumber": 20,
+      "name": "Petit",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2002-nuno_gomes",
+      "identityId": "P-57631",
+      "squadNumber": 21,
+      "name": "Nuno Gomes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Portugal (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "portugal-2002-beto",
+      "identityId": "P-37140",
+      "squadNumber": 22,
+      "name": "Beto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2002 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2002-rui_jorge",
+      "identityId": "P-61068",
+      "squadNumber": 23,
+      "name": "Rui Jorge",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

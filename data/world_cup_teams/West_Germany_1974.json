@@ -1,0 +1,503 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "west_germany-1974-sepp_maier",
+      "identityId": "P-14080",
+      "squadNumber": 1,
+      "name": "Sepp Maier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1974 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 94 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "west_germany-1974-berti_vogts",
+      "identityId": "P-69695",
+      "squadNumber": 2,
+      "name": "Berti Vogts",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1974-paul_breitner",
+      "identityId": "P-48686",
+      "squadNumber": 3,
+      "name": "Paul Breitner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1974-hans-georg_schwarzenbeck",
+      "identityId": "P-66174",
+      "squadNumber": 4,
+      "name": "Hans-Georg Schwarzenbeck",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1974-franz_beckenbauer",
+      "identityId": "P-72864",
+      "squadNumber": 5,
+      "name": "Franz Beckenbauer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Champion Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1974 World Cup Champion Captain & Der Kaiser",
+      "ratingRationale": "Rated 96 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Honors: Champion Captain."
+    },
+    {
+      "id": "west_germany-1974-horst-dieter_h_ttges",
+      "identityId": "P-28162",
+      "squadNumber": 6,
+      "name": "Horst-Dieter Höttges",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1974 World Cup performance for West Germany (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "west_germany-1974-herbert_wimmer",
+      "identityId": "P-89257",
+      "squadNumber": 7,
+      "name": "Herbert Wimmer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for West Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1974-bernhard_cullmann",
+      "identityId": "P-44313",
+      "squadNumber": 8,
+      "name": "Bernhard Cullmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1974-j_rgen_grabowski",
+      "identityId": "P-48733",
+      "squadNumber": 9,
+      "name": "Jürgen Grabowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1974-g_nter_netzer",
+      "identityId": "P-66405",
+      "squadNumber": 10,
+      "name": "Günter Netzer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1974 World Cup performance for West Germany (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "west_germany-1974-jupp_heynckes",
+      "identityId": "P-79006",
+      "squadNumber": 11,
+      "name": "Jupp Heynckes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for West Germany (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1974-wolfgang_overath",
+      "identityId": "P-60896",
+      "squadNumber": 12,
+      "name": "Wolfgang Overath",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1974-gerd_m_ller",
+      "identityId": "P-72441",
+      "squadNumber": 13,
+      "name": "Gerd Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Winning Goalscorer"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1974 World Cup Winning Goalscorer in Final",
+      "ratingRationale": "Rated 96 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Scored 4 goal(s). Honors: Winning Goalscorer."
+    },
+    {
+      "id": "west_germany-1974-uli_hoene_",
+      "identityId": "P-92173",
+      "squadNumber": 14,
+      "name": "Uli Hoeneß",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1974-heinz_flohe",
+      "identityId": "P-15681",
+      "squadNumber": 15,
+      "name": "Heinz Flohe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for West Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1974-rainer_bonhof",
+      "identityId": "P-41102",
+      "squadNumber": 16,
+      "name": "Rainer Bonhof",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1974-bernd_h_lzenbein",
+      "identityId": "P-35602",
+      "squadNumber": 17,
+      "name": "Bernd Hölzenbein",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1974 World Cup performance for West Germany (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1974-dieter_herzog",
+      "identityId": "P-89218",
+      "squadNumber": 18,
+      "name": "Dieter Herzog",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1974 World Cup performance for West Germany (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1974-jupp_kapellmann",
+      "identityId": "P-25938",
+      "squadNumber": 19,
+      "name": "Jupp Kapellmann",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1974-helmut_kremers",
+      "identityId": "P-48661",
+      "squadNumber": 20,
+      "name": "Helmut Kremers",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1974-norbert_nigbur",
+      "identityId": "P-07141",
+      "squadNumber": 21,
+      "name": "Norbert Nigbur",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1974-wolfgang_kleff",
+      "identityId": "P-44327",
+      "squadNumber": 22,
+      "name": "Wolfgang Kleff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for West Germany (Champions). Squad reserve member."
+    }
+  ]
+}

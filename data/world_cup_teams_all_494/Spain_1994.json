@@ -1,0 +1,492 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "spain-1994-andoni_zubizarreta",
+      "identityId": "P-63214",
+      "squadNumber": 1,
+      "name": "Andoni Zubizarreta",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1994-albert_ferrer",
+      "identityId": "P-59647",
+      "squadNumber": 2,
+      "name": "Albert Ferrer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "spain-1994-jorge_otero",
+      "identityId": "P-20256",
+      "squadNumber": 3,
+      "name": "Jorge Otero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1994-paco_camarasa",
+      "identityId": "P-80697",
+      "squadNumber": 4,
+      "name": "Paco Camarasa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1994-abelardo",
+      "identityId": "P-24945",
+      "squadNumber": 5,
+      "name": "Abelardo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "spain-1994-fernando_hierro",
+      "identityId": "P-35246",
+      "squadNumber": 6,
+      "name": "Fernando Hierro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1994-andoni_goikoetxea",
+      "identityId": "P-00619",
+      "squadNumber": 7,
+      "name": "Andoni Goikoetxea",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "spain-1994-julen_guerrero",
+      "identityId": "P-60964",
+      "squadNumber": 8,
+      "name": "Julen Guerrero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1994-josep_guardiola",
+      "identityId": "P-78385",
+      "squadNumber": 9,
+      "name": "Josep Guardiola",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1994-jos_mar_a_bakero",
+      "identityId": "P-44411",
+      "squadNumber": 10,
+      "name": "José María Bakero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1994-txiki_begiristain",
+      "identityId": "P-23403",
+      "squadNumber": 11,
+      "name": "Txiki Begiristain",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1994-sergi",
+      "identityId": "P-96053",
+      "squadNumber": 12,
+      "name": "Sergi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "spain-1994-santiago_ca_izares",
+      "identityId": "P-16059",
+      "squadNumber": 13,
+      "name": "Santiago Cañizares",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1994-juanele",
+      "identityId": "P-18572",
+      "squadNumber": 14,
+      "name": "Juanele",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "spain-1994-jos_luis_caminero",
+      "identityId": "P-97666",
+      "squadNumber": 15,
+      "name": "José Luis Caminero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "spain-1994-felipe_mi_ambres",
+      "identityId": "P-97482",
+      "squadNumber": 16,
+      "name": "Felipe Miñambres",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1994-voro",
+      "identityId": "P-74638",
+      "squadNumber": 17,
+      "name": "Voro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1994-rafael_alkorta",
+      "identityId": "P-76590",
+      "squadNumber": 18,
+      "name": "Rafael Alkorta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1994-julio_salinas",
+      "identityId": "P-18314",
+      "squadNumber": 19,
+      "name": "Julio Salinas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1994-miguel_ngel_nadal",
+      "identityId": "P-03307",
+      "squadNumber": 20,
+      "name": "Miguel Ángel Nadal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1994-luis_enrique",
+      "identityId": "P-38878",
+      "squadNumber": 21,
+      "name": "Luis Enrique",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1994-julen_lopetegui",
+      "identityId": "P-60604",
+      "squadNumber": 22,
+      "name": "Julen Lopetegui",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1994 World Cup performance for Spain (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

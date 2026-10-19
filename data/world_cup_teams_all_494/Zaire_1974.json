@@ -1,0 +1,497 @@
+{
+  "teamName": "Zaire",
+  "teamCode": "COD",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "zaire-1974-kazadi_mwamba",
+      "identityId": "P-49497",
+      "squadNumber": 1,
+      "name": "Kazadi Mwamba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-mwepu_ilunga",
+      "identityId": "P-99200",
+      "squadNumber": 2,
+      "name": "Mwepu Ilunga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-mwanza_mukombo",
+      "identityId": "P-44782",
+      "squadNumber": 3,
+      "name": "Mwanza Mukombo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-bwanga_tshimen",
+      "identityId": "P-68390",
+      "squadNumber": 4,
+      "name": "Bwanga Tshimen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-lobilo_boba",
+      "identityId": "P-69624",
+      "squadNumber": 5,
+      "name": "Lobilo Boba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-kilasu_massamba",
+      "identityId": "P-01597",
+      "squadNumber": 6,
+      "name": "Kilasu Massamba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "zaire-1974-martin_kamunda_tshinabu",
+      "identityId": "P-92929",
+      "squadNumber": 7,
+      "name": "Martin Kamunda Tshinabu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "zaire-1974-mana_mamuwene",
+      "identityId": "P-57731",
+      "squadNumber": 8,
+      "name": "Mana Mamuwene",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-jean_kembo_uba-kembo",
+      "identityId": "P-87506",
+      "squadNumber": 9,
+      "name": "Jean Kembo Uba-Kembo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "zaire-1974-kidumu_mantantu",
+      "identityId": "P-49087",
+      "squadNumber": 10,
+      "name": "Kidumu Mantantu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Zaire (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "zaire-1974-kabasu_babo",
+      "identityId": "P-67711",
+      "squadNumber": 11,
+      "name": "Kabasu Babo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Zaire (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "zaire-1974-tubilandu_ndimbi",
+      "identityId": "P-71914",
+      "squadNumber": 12,
+      "name": "Tubilandu Ndimbi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Zaire (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "zaire-1974-ndaye_mulamba",
+      "identityId": "P-88955",
+      "squadNumber": 13,
+      "name": "Ndaye Mulamba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "zaire-1974-mayanga_maku",
+      "identityId": "P-27837",
+      "squadNumber": 14,
+      "name": "Mayanga Maku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "zaire-1974-kibonge_mafu",
+      "identityId": "P-38620",
+      "squadNumber": 15,
+      "name": "Kibonge Mafu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "zaire-1974-mwape_mialo",
+      "identityId": "P-00739",
+      "squadNumber": 16,
+      "name": "Mwape Mialo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Zaire (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "zaire-1974-kafula_ngoie",
+      "identityId": "P-71906",
+      "squadNumber": 17,
+      "name": "Kafula Ngoie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Zaire (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "zaire-1974-mavuba_mafuila",
+      "identityId": "P-20897",
+      "squadNumber": 18,
+      "name": "Mavuba Mafuila",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Zaire (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "zaire-1974-mbungu_ekofa",
+      "identityId": "P-28534",
+      "squadNumber": 19,
+      "name": "Mbungu Ekofa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Zaire (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "zaire-1974-jean_kalala_ntumba",
+      "identityId": "P-56615",
+      "squadNumber": 20,
+      "name": "Jean Kalala N'Tumba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "zaire-1974-kakoko_etepe",
+      "identityId": "P-11236",
+      "squadNumber": 21,
+      "name": "Kakoko Etepe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Zaire (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "zaire-1974-kalambay_otepa",
+      "identityId": "P-10863",
+      "squadNumber": 22,
+      "name": "Kalambay Otepa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Zaire (Group Stage). Squad reserve member."
+    }
+  ]
+}

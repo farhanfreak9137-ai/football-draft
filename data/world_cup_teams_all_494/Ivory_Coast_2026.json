@@ -1,0 +1,510 @@
+{
+  "teamName": "Ivory Coast",
+  "teamCode": "IVO",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "ivory_coast-2026-franck_kessi_",
+      "identityId": "identity-2026-franck_kessi_",
+      "squadNumber": 1,
+      "name": "Franck Kessié",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "AFCON 2024 Champion & Midfield General"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "AFCON 2024 Champion & Midfield General",
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Ivory Coast. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "ivory_coast-2026-simon_adingra",
+      "identityId": "identity-2026-simon_adingra",
+      "squadNumber": 2,
+      "name": "Simon Adingra",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "AFCON 2024 Final MVP"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "AFCON 2024 Final MVP",
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Ivory Coast. Regular starting lineup selection."
+    },
+    {
+      "id": "ivory_coast-2026-s_bastien_haller",
+      "identityId": "identity-2026-s_bastien_haller",
+      "squadNumber": 3,
+      "name": "Sébastien Haller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Ivory Coast. Regular starting lineup selection."
+    },
+    {
+      "id": "ivory_coast-2026-evan_ndicka",
+      "identityId": "identity-2026-evan_ndicka",
+      "squadNumber": 4,
+      "name": "Evan Ndicka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Ivory Coast. Regular starting lineup selection."
+    },
+    {
+      "id": "ivory_coast-2026-seko_fofana",
+      "identityId": "identity-2026-seko_fofana",
+      "squadNumber": 5,
+      "name": "Seko Fofana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Ivory Coast. Regular starting lineup selection."
+    },
+    {
+      "id": "ivory_coast-2026-odilon_kossounou",
+      "identityId": "identity-2026-odilon_kossounou",
+      "squadNumber": 6,
+      "name": "Odilon Kossounou",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Ivory Coast. Regular starting lineup selection."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_7",
+      "identityId": "identity-2026-ivory_coast_squad_member_7",
+      "squadNumber": 7,
+      "name": "Ivory Coast Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_8",
+      "identityId": "identity-2026-ivory_coast_squad_member_8",
+      "squadNumber": 8,
+      "name": "Ivory Coast Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_9",
+      "identityId": "identity-2026-ivory_coast_squad_member_9",
+      "squadNumber": 9,
+      "name": "Ivory Coast Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_10",
+      "identityId": "identity-2026-ivory_coast_squad_member_10",
+      "squadNumber": 10,
+      "name": "Ivory Coast Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_11",
+      "identityId": "identity-2026-ivory_coast_squad_member_11",
+      "squadNumber": 11,
+      "name": "Ivory Coast Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_12",
+      "identityId": "identity-2026-ivory_coast_squad_member_12",
+      "squadNumber": 12,
+      "name": "Ivory Coast Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_13",
+      "identityId": "identity-2026-ivory_coast_squad_member_13",
+      "squadNumber": 13,
+      "name": "Ivory Coast Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_14",
+      "identityId": "identity-2026-ivory_coast_squad_member_14",
+      "squadNumber": 14,
+      "name": "Ivory Coast Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_15",
+      "identityId": "identity-2026-ivory_coast_squad_member_15",
+      "squadNumber": 15,
+      "name": "Ivory Coast Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_16",
+      "identityId": "identity-2026-ivory_coast_squad_member_16",
+      "squadNumber": 16,
+      "name": "Ivory Coast Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_17",
+      "identityId": "identity-2026-ivory_coast_squad_member_17",
+      "squadNumber": 17,
+      "name": "Ivory Coast Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_18",
+      "identityId": "identity-2026-ivory_coast_squad_member_18",
+      "squadNumber": 18,
+      "name": "Ivory Coast Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_19",
+      "identityId": "identity-2026-ivory_coast_squad_member_19",
+      "squadNumber": 19,
+      "name": "Ivory Coast Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_20",
+      "identityId": "identity-2026-ivory_coast_squad_member_20",
+      "squadNumber": 20,
+      "name": "Ivory Coast Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_21",
+      "identityId": "identity-2026-ivory_coast_squad_member_21",
+      "squadNumber": 21,
+      "name": "Ivory Coast Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_22",
+      "identityId": "identity-2026-ivory_coast_squad_member_22",
+      "squadNumber": 22,
+      "name": "Ivory Coast Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    },
+    {
+      "id": "ivory_coast-2026-ivory_coast_squad_member_23",
+      "identityId": "identity-2026-ivory_coast_squad_member_23",
+      "squadNumber": 23,
+      "name": "Ivory Coast Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ivory Coast. National squad reserve depth."
+    }
+  ]
+}

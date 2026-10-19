@@ -1,0 +1,496 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "japan-1998-nobuyuki_kojima",
+      "identityId": "P-02366",
+      "squadNumber": 1,
+      "name": "Nobuyuki Kojima",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-1998-akira_narahashi",
+      "identityId": "P-45752",
+      "squadNumber": 2,
+      "name": "Akira Narahashi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-naoki_soma",
+      "identityId": "P-61672",
+      "squadNumber": 3,
+      "name": "Naoki Soma",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-masami_ihara",
+      "identityId": "P-29629",
+      "squadNumber": 4,
+      "name": "Masami Ihara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-norio_omura",
+      "identityId": "P-43163",
+      "squadNumber": 5,
+      "name": "Norio Omura",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-1998-motohiro_yamaguchi",
+      "identityId": "P-03376",
+      "squadNumber": 6,
+      "name": "Motohiro Yamaguchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-teruyoshi_ito",
+      "identityId": "P-23890",
+      "squadNumber": 7,
+      "name": "Teruyoshi Ito",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-1998-hidetoshi_nakata",
+      "identityId": "P-09349",
+      "squadNumber": 8,
+      "name": "Hidetoshi Nakata",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-masashi_nakayama",
+      "identityId": "P-84762",
+      "squadNumber": 9,
+      "name": "Masashi Nakayama",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-1998-hiroshi_nanami",
+      "identityId": "P-33594",
+      "squadNumber": 10,
+      "name": "Hiroshi Nanami",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-shinji_ono",
+      "identityId": "P-04785",
+      "squadNumber": 11,
+      "name": "Shinji Ono",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-1998-wagner_lopes",
+      "identityId": "P-58318",
+      "squadNumber": 12,
+      "name": "Wagner Lopes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Japan (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "japan-1998-toshihiro_hattori",
+      "identityId": "P-64961",
+      "squadNumber": 13,
+      "name": "Toshihiro Hattori",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-1998-masayuki_okano",
+      "identityId": "P-07585",
+      "squadNumber": 14,
+      "name": "Masayuki Okano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-1998-hiroaki_morishima",
+      "identityId": "P-17348",
+      "squadNumber": 15,
+      "name": "Hiroaki Morishima",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-1998-toshihide_saito",
+      "identityId": "P-10510",
+      "squadNumber": 16,
+      "name": "Toshihide Saito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-1998-yutaka_akita",
+      "identityId": "P-34956",
+      "squadNumber": 17,
+      "name": "Yutaka Akita",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-shoji_jo",
+      "identityId": "P-55311",
+      "squadNumber": 18,
+      "name": "Shoji Jo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-eisuke_nakanishi",
+      "identityId": "P-36022",
+      "squadNumber": 19,
+      "name": "Eisuke Nakanishi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-1998-yoshikatsu_kawaguchi",
+      "identityId": "P-54298",
+      "squadNumber": 20,
+      "name": "Yoshikatsu Kawaguchi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-1998-seigo_narazaki",
+      "identityId": "P-24251",
+      "squadNumber": 21,
+      "name": "Seigo Narazaki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-1998-takashi_hirano",
+      "identityId": "P-99803",
+      "squadNumber": 22,
+      "name": "Takashi Hirano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Japan (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

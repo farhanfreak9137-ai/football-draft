@@ -1,0 +1,517 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "england-2010-david_james",
+      "identityId": "P-59324",
+      "squadNumber": 1,
+      "name": "David James",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2010-glen_johnson",
+      "identityId": "P-43764",
+      "squadNumber": 2,
+      "name": "Glen Johnson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-2010-ashley_cole",
+      "identityId": "P-16557",
+      "squadNumber": 3,
+      "name": "Ashley Cole",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-2010-steven_gerrard",
+      "identityId": "P-62157",
+      "squadNumber": 4,
+      "name": "Steven Gerrard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2010-michael_dawson",
+      "identityId": "P-06000",
+      "squadNumber": 5,
+      "name": "Michael Dawson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-2010-john_terry",
+      "identityId": "P-71420",
+      "squadNumber": 6,
+      "name": "John Terry",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-2010-aaron_lennon",
+      "identityId": "P-64864",
+      "squadNumber": 7,
+      "name": "Aaron Lennon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2010-frank_lampard",
+      "identityId": "P-65534",
+      "squadNumber": 8,
+      "name": "Frank Lampard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-2010-peter_crouch",
+      "identityId": "P-77532",
+      "squadNumber": 9,
+      "name": "Peter Crouch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for England (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-2010-wayne_rooney",
+      "identityId": "P-99967",
+      "squadNumber": 10,
+      "name": "Wayne Rooney",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "england-2010-joe_cole",
+      "identityId": "P-37933",
+      "squadNumber": 11,
+      "name": "Joe Cole",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for England (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-2010-robert_green",
+      "identityId": "P-84201",
+      "squadNumber": 12,
+      "name": "Robert Green",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2010-stephen_warnock",
+      "identityId": "P-44282",
+      "squadNumber": 13,
+      "name": "Stephen Warnock",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-2010-gareth_barry",
+      "identityId": "P-69235",
+      "squadNumber": 14,
+      "name": "Gareth Barry",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2010-matthew_upson",
+      "identityId": "P-41152",
+      "squadNumber": 15,
+      "name": "Matthew Upson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2010-james_milner",
+      "identityId": "P-95616",
+      "squadNumber": 16,
+      "name": "James Milner",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for England (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2010-shaun_wright-phillips",
+      "identityId": "P-48335",
+      "squadNumber": 17,
+      "name": "Shaun Wright-Phillips",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for England (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "england-2010-jamie_carragher",
+      "identityId": "P-50944",
+      "squadNumber": 18,
+      "name": "Jamie Carragher",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2010-jermain_defoe",
+      "identityId": "P-42890",
+      "squadNumber": 19,
+      "name": "Jermain Defoe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2010-ledley_king",
+      "identityId": "P-16073",
+      "squadNumber": 20,
+      "name": "Ledley King",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2010-emile_heskey",
+      "identityId": "P-08307",
+      "squadNumber": 21,
+      "name": "Emile Heskey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for England (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2010-michael_carrick",
+      "identityId": "P-50718",
+      "squadNumber": 22,
+      "name": "Michael Carrick",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for England (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "england-2010-joe_hart",
+      "identityId": "P-64443",
+      "squadNumber": 23,
+      "name": "Joe Hart",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for England (Round of 16). Squad reserve member."
+    }
+  ]
+}

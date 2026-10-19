@@ -1,0 +1,516 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "japan-2014-eiji_kawashima",
+      "identityId": "P-53272",
+      "squadNumber": 1,
+      "name": "Eiji Kawashima",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2014-atsuto_uchida",
+      "identityId": "P-35179",
+      "squadNumber": 2,
+      "name": "Atsuto Uchida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2014-g_toku_sakai",
+      "identityId": "P-62769",
+      "squadNumber": 3,
+      "name": "Gōtoku Sakai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2014-keisuke_honda",
+      "identityId": "P-33175",
+      "squadNumber": 4,
+      "name": "Keisuke Honda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2014-yuto_nagatomo",
+      "identityId": "P-26303",
+      "squadNumber": 5,
+      "name": "Yuto Nagatomo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2014-masato_morishige",
+      "identityId": "P-27263",
+      "squadNumber": 6,
+      "name": "Masato Morishige",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2014-yasuhito_end_",
+      "identityId": "P-61292",
+      "squadNumber": 7,
+      "name": "Yasuhito Endō",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Japan (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "japan-2014-hiroshi_kiyotake",
+      "identityId": "P-42018",
+      "squadNumber": 8,
+      "name": "Hiroshi Kiyotake",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Japan (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2014-shinji_okazaki",
+      "identityId": "P-84807",
+      "squadNumber": 9,
+      "name": "Shinji Okazaki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2014-shinji_kagawa",
+      "identityId": "P-36964",
+      "squadNumber": 10,
+      "name": "Shinji Kagawa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2014-yoichiro_kakitani",
+      "identityId": "P-75667",
+      "squadNumber": 11,
+      "name": "Yoichiro Kakitani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Japan (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "japan-2014-shusaku_nishikawa",
+      "identityId": "P-28762",
+      "squadNumber": 12,
+      "name": "Shusaku Nishikawa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2014-yoshito_kubo",
+      "identityId": "P-90491",
+      "squadNumber": 13,
+      "name": "Yoshito Ōkubo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2014-toshihiro_aoyama",
+      "identityId": "P-70237",
+      "squadNumber": 14,
+      "name": "Toshihiro Aoyama",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "japan-2014-yasuyuki_konno",
+      "identityId": "P-85824",
+      "squadNumber": 15,
+      "name": "Yasuyuki Konno",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2014-hotaru_yamaguchi",
+      "identityId": "P-41027",
+      "squadNumber": 16,
+      "name": "Hotaru Yamaguchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2014-makoto_hasebe",
+      "identityId": "P-91793",
+      "squadNumber": 17,
+      "name": "Makoto Hasebe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2014-yuya_osako",
+      "identityId": "P-23371",
+      "squadNumber": 18,
+      "name": "Yuya Osako",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Japan (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "japan-2014-masahiko_inoha",
+      "identityId": "P-81377",
+      "squadNumber": 19,
+      "name": "Masahiko Inoha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2014-manabu_sait_",
+      "identityId": "P-53076",
+      "squadNumber": 20,
+      "name": "Manabu Saitō",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2014-hiroki_sakai",
+      "identityId": "P-56398",
+      "squadNumber": 21,
+      "name": "Hiroki Sakai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Japan (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "japan-2014-maya_yoshida",
+      "identityId": "P-89321",
+      "squadNumber": 22,
+      "name": "Maya Yoshida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Japan (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "japan-2014-sh_ichi_gonda",
+      "identityId": "P-66906",
+      "squadNumber": 23,
+      "name": "Shūichi Gonda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Japan (Group Stage). Squad reserve member."
+    }
+  ]
+}

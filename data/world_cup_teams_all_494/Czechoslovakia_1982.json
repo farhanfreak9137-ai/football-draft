@@ -1,0 +1,494 @@
+{
+  "teamName": "Czechoslovakia",
+  "teamCode": "CSK",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "czechoslovakia-1982-stanislav_seman",
+      "identityId": "P-10247",
+      "squadNumber": 1,
+      "name": "Stanislav Seman",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-franti_ek_jakubec",
+      "identityId": "P-58761",
+      "squadNumber": 2,
+      "name": "František Jakubec",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1982-jan_fiala",
+      "identityId": "P-53399",
+      "squadNumber": 3,
+      "name": "Jan Fiala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1982-ladislav_jurkemik",
+      "identityId": "P-28511",
+      "squadNumber": 4,
+      "name": "Ladislav Jurkemik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-jozef_barmo_",
+      "identityId": "P-55121",
+      "squadNumber": 5,
+      "name": "Jozef Barmoš",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1982-rostislav_voj_ek",
+      "identityId": "P-62199",
+      "squadNumber": 6,
+      "name": "Rostislav Vojáček",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-j_n_koz_k",
+      "identityId": "P-40071",
+      "squadNumber": 7,
+      "name": "Ján Kozák",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1982-anton_n_panenka",
+      "identityId": "P-19209",
+      "squadNumber": 8,
+      "name": "Antonín Panenka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1982-ladislav_v_zek",
+      "identityId": "P-95927",
+      "squadNumber": 9,
+      "name": "Ladislav Vízek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1982-tom_k_",
+      "identityId": "P-59697",
+      "squadNumber": 10,
+      "name": "Tomáš Kříž",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-zden_k_nehoda",
+      "identityId": "P-12019",
+      "squadNumber": 11,
+      "name": "Zdeněk Nehoda",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1982-p_emysl_bi_ovsk_",
+      "identityId": "P-95371",
+      "squadNumber": 12,
+      "name": "Přemysl Bičovský",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-jan_berger",
+      "identityId": "P-26352",
+      "squadNumber": 13,
+      "name": "Jan Berger",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-libor_radimec",
+      "identityId": "P-20020",
+      "squadNumber": 14,
+      "name": "Libor Radimec",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-jozef_kuku_ka",
+      "identityId": "P-49134",
+      "squadNumber": 15,
+      "name": "Jozef Kukučka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-pavel_chaloupka",
+      "identityId": "P-54028",
+      "squadNumber": 16,
+      "name": "Pavel Chaloupka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-franti_ek_tambachr",
+      "identityId": "P-61860",
+      "squadNumber": 17,
+      "name": "František Štambachr",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-petr_jane_ka",
+      "identityId": "P-69858",
+      "squadNumber": 18,
+      "name": "Petr Janečka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1982-mari_n_masn_",
+      "identityId": "P-81007",
+      "squadNumber": 19,
+      "name": "Marián Masný",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "czechoslovakia-1982-vlastimil_petr_ela",
+      "identityId": "P-60697",
+      "squadNumber": 20,
+      "name": "Vlastimil Petržela",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "czechoslovakia-1982-zden_k_hru_ka",
+      "identityId": "P-41194",
+      "squadNumber": 21,
+      "name": "Zdeněk Hruška",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1982-karel_strom_k",
+      "identityId": "P-51677",
+      "squadNumber": 22,
+      "name": "Karel Stromšík",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

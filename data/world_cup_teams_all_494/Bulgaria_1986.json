@@ -1,0 +1,502 @@
+{
+  "teamName": "Bulgaria",
+  "teamCode": "BGR",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "bulgaria-1986-borislav_mihaylov",
+      "identityId": "P-94024",
+      "squadNumber": 1,
+      "name": "Borislav Mihaylov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-nasko_sirakov",
+      "identityId": "P-05061",
+      "squadNumber": 2,
+      "name": "Nasko Sirakov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bulgaria-1986-nikolay_arabov",
+      "identityId": "P-86608",
+      "squadNumber": 3,
+      "name": "Nikolay Arabov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-petar_petrov",
+      "identityId": "P-28606",
+      "squadNumber": 4,
+      "name": "Petar Petrov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-georgi_dimitrov",
+      "identityId": "P-25752",
+      "squadNumber": 5,
+      "name": "Georgi Dimitrov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-andrey_zhelyazkov",
+      "identityId": "P-73764",
+      "squadNumber": 6,
+      "name": "Andrey Zhelyazkov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1986-bozhidar_iskrenov",
+      "identityId": "P-99064",
+      "squadNumber": 7,
+      "name": "Bozhidar Iskrenov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bulgaria-1986-ayan_sadakov",
+      "identityId": "P-09476",
+      "squadNumber": 8,
+      "name": "Ayan Sadakov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-stoycho_mladenov",
+      "identityId": "P-91932",
+      "squadNumber": 9,
+      "name": "Stoycho Mladenov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-zhivko_gospodinov",
+      "identityId": "P-32755",
+      "squadNumber": 10,
+      "name": "Zhivko Gospodinov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-plamen_getov",
+      "identityId": "P-76141",
+      "squadNumber": 11,
+      "name": "Plamen Getov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "bulgaria-1986-radoslav_zdravkov",
+      "identityId": "P-32447",
+      "squadNumber": 12,
+      "name": "Radoslav Zdravkov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "bulgaria-1986-aleksandar_markov",
+      "identityId": "P-62546",
+      "squadNumber": 13,
+      "name": "Aleksandar Markov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bulgaria-1986-plamen_markov",
+      "identityId": "P-07363",
+      "squadNumber": 14,
+      "name": "Plamen Markov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1986-georgi_yordanov",
+      "identityId": "P-48970",
+      "squadNumber": 15,
+      "name": "Georgi Yordanov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "bulgaria-1986-vasil_dragolov",
+      "identityId": "P-33225",
+      "squadNumber": 16,
+      "name": "Vasil Dragolov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1986-hristo_kolev",
+      "identityId": "P-84561",
+      "squadNumber": 17,
+      "name": "Hristo Kolev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1986-boycho_velichkov",
+      "identityId": "P-25143",
+      "squadNumber": 18,
+      "name": "Boycho Velichkov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "bulgaria-1986-atanas_pashev",
+      "identityId": "P-19526",
+      "squadNumber": 19,
+      "name": "Atanas Pashev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1986-kostadin_kostadinov",
+      "identityId": "P-08726",
+      "squadNumber": 20,
+      "name": "Kostadin Kostadinov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "bulgaria-1986-iliya_dyakov",
+      "identityId": "P-33846",
+      "squadNumber": 21,
+      "name": "Iliya Dyakov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "bulgaria-1986-iliya_valov",
+      "identityId": "P-52146",
+      "squadNumber": 22,
+      "name": "Iliya Valov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Bulgaria (Round of 16). Squad reserve member."
+    }
+  ]
+}

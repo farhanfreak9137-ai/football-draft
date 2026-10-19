@@ -1,0 +1,581 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "poland-2022-wojciech_szcz_sny",
+      "identityId": "P-31606",
+      "squadNumber": 1,
+      "name": "Wojciech Szczęsny",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-2022-matty_cash",
+      "identityId": "P-17099",
+      "squadNumber": 2,
+      "name": "Matty Cash",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-2022-artur_j_drzejczyk",
+      "identityId": "P-61813",
+      "squadNumber": 3,
+      "name": "Artur Jędrzejczyk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2022-mateusz_wieteska",
+      "identityId": "P-76995",
+      "squadNumber": 4,
+      "name": "Mateusz Wieteska",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-2022-jan_bednarek",
+      "identityId": "P-10172",
+      "squadNumber": 5,
+      "name": "Jan Bednarek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2022-krystian_bielik",
+      "identityId": "P-14593",
+      "squadNumber": 6,
+      "name": "Krystian Bielik",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Poland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2022-arkadiusz_milik",
+      "identityId": "P-12381",
+      "squadNumber": 7,
+      "name": "Arkadiusz Milik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2022-damian_szyma_ski",
+      "identityId": "P-44699",
+      "squadNumber": 8,
+      "name": "Damian Szymański",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2022-robert_lewandowski",
+      "identityId": "P-00549",
+      "squadNumber": 9,
+      "name": "Robert Lewandowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "poland-2022-grzegorz_krychowiak",
+      "identityId": "P-45449",
+      "squadNumber": 10,
+      "name": "Grzegorz Krychowiak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-2022-kamil_grosicki",
+      "identityId": "P-64261",
+      "squadNumber": 11,
+      "name": "Kamil Grosicki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2022-_ukasz_skorupski",
+      "identityId": "P-17943",
+      "squadNumber": 12,
+      "name": "Łukasz Skorupski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-2022-jakub_kami_ski",
+      "identityId": "P-83610",
+      "squadNumber": 13,
+      "name": "Jakub Kamiński",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Poland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2022-jakub_kiwior",
+      "identityId": "P-44780",
+      "squadNumber": 14,
+      "name": "Jakub Kiwior",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-2022-kamil_glik",
+      "identityId": "P-29046",
+      "squadNumber": 15,
+      "name": "Kamil Glik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-2022-karol_widerski",
+      "identityId": "P-85630",
+      "squadNumber": 16,
+      "name": "Karol Świderski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2022-szymon_urkowski",
+      "identityId": "P-31085",
+      "squadNumber": 17,
+      "name": "Szymon Żurkowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-2022-bartosz_bereszy_ski",
+      "identityId": "P-42160",
+      "squadNumber": 18,
+      "name": "Bartosz Bereszyński",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "poland-2022-sebastian_szyma_ski",
+      "identityId": "P-65512",
+      "squadNumber": 19,
+      "name": "Sebastian Szymański",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Poland (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2022-piotr_zieli_ski",
+      "identityId": "P-32165",
+      "squadNumber": 20,
+      "name": "Piotr Zieliński",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-2022-nicola_zalewski",
+      "identityId": "P-40498",
+      "squadNumber": 21,
+      "name": "Nicola Zalewski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Poland (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2022-kamil_grabara",
+      "identityId": "P-90913",
+      "squadNumber": 22,
+      "name": "Kamil Grabara",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-2022-krzysztof_pi_tek",
+      "identityId": "P-11013",
+      "squadNumber": 23,
+      "name": "Krzysztof Piątek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Poland (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "poland-2022-przemys_aw_frankowski",
+      "identityId": "P-23437",
+      "squadNumber": 24,
+      "name": "Przemysław Frankowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Poland (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2022-robert_gumny",
+      "identityId": "P-42168",
+      "squadNumber": 25,
+      "name": "Robert Gumny",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for Poland (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "poland-2022-micha_sk_ra_",
+      "identityId": "P-02071",
+      "squadNumber": 26,
+      "name": "Michał Skóraś",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Poland (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

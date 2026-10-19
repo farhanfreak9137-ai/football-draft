@@ -1,0 +1,579 @@
+{
+  "teamName": "Costa Rica",
+  "teamCode": "CRI",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "costa_rica-2022-keylor_navas",
+      "identityId": "P-81392",
+      "squadNumber": 1,
+      "name": "Keylor Navas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2022-daniel_chac_n",
+      "identityId": "P-57150",
+      "squadNumber": 2,
+      "name": "Daniel Chacón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2022-juan_pablo_vargas",
+      "identityId": "P-65777",
+      "squadNumber": 3,
+      "name": "Juan Pablo Vargas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2022-keysher_fuller",
+      "identityId": "P-80986",
+      "squadNumber": 4,
+      "name": "Keysher Fuller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2022-celso_borges",
+      "identityId": "P-11767",
+      "squadNumber": 5,
+      "name": "Celso Borges",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2022-_scar_duarte",
+      "identityId": "P-97912",
+      "squadNumber": 6,
+      "name": "Óscar Duarte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2022-anthony_contreras",
+      "identityId": "P-02556",
+      "squadNumber": 7,
+      "name": "Anthony Contreras",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2022-bryan_oviedo",
+      "identityId": "P-10740",
+      "squadNumber": 8,
+      "name": "Bryan Oviedo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2022-jewison_bennette",
+      "identityId": "P-09889",
+      "squadNumber": 9,
+      "name": "Jewison Bennette",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2022-bryan_ruiz",
+      "identityId": "P-99590",
+      "squadNumber": 10,
+      "name": "Bryan Ruiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2022-johan_venegas",
+      "identityId": "P-58669",
+      "squadNumber": 11,
+      "name": "Johan Venegas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2022-joel_campbell",
+      "identityId": "P-70812",
+      "squadNumber": 12,
+      "name": "Joel Campbell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "costa_rica-2022-gerson_torres",
+      "identityId": "P-12179",
+      "squadNumber": 13,
+      "name": "Gerson Torres",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2022-youstin_salas",
+      "identityId": "P-32622",
+      "squadNumber": 14,
+      "name": "Youstin Salas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2022-francisco_calvo",
+      "identityId": "P-71100",
+      "squadNumber": 15,
+      "name": "Francisco Calvo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2022-carlos_mart_nez",
+      "identityId": "P-39281",
+      "squadNumber": 16,
+      "name": "Carlos Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2022-yeltsin_tejeda",
+      "identityId": "P-24978",
+      "squadNumber": 17,
+      "name": "Yeltsin Tejeda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2022-esteban_alvarado",
+      "identityId": "P-03616",
+      "squadNumber": 18,
+      "name": "Esteban Alvarado",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2022-kendall_waston",
+      "identityId": "P-37984",
+      "squadNumber": 19,
+      "name": "Kendall Waston",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "costa_rica-2022-brandon_aguilera",
+      "identityId": "P-44957",
+      "squadNumber": 20,
+      "name": "Brandon Aguilera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2022-douglas_l_pez",
+      "identityId": "P-01994",
+      "squadNumber": 21,
+      "name": "Douglas López",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2022-r_nald_matarrita",
+      "identityId": "P-37189",
+      "squadNumber": 22,
+      "name": "Rónald Matarrita",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2022-patrick_sequeira",
+      "identityId": "P-81142",
+      "squadNumber": 23,
+      "name": "Patrick Sequeira",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2022-roan_wilson",
+      "identityId": "P-23993",
+      "squadNumber": 24,
+      "name": "Roan Wilson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2022-anthony_hern_ndez",
+      "identityId": "P-14872",
+      "squadNumber": 25,
+      "name": "Anthony Hernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2022-_lvaro_zamora",
+      "identityId": "P-22631",
+      "squadNumber": 26,
+      "name": "Álvaro Zamora",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Costa Rica (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

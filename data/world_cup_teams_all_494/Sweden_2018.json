@@ -1,0 +1,515 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "sweden-2018-robin_olsen",
+      "identityId": "P-26943",
+      "squadNumber": 1,
+      "name": "Robin Olsen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-2018-mikael_lustig",
+      "identityId": "P-29833",
+      "squadNumber": 2,
+      "name": "Mikael Lustig",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2018-victor_lindel_f",
+      "identityId": "P-31431",
+      "squadNumber": 3,
+      "name": "Victor Lindelöf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2018-andreas_granqvist",
+      "identityId": "P-34998",
+      "squadNumber": 4,
+      "name": "Andreas Granqvist",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "sweden-2018-martin_olsson",
+      "identityId": "P-90129",
+      "squadNumber": 5,
+      "name": "Martin Olsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "sweden-2018-ludwig_augustinsson",
+      "identityId": "P-30993",
+      "squadNumber": 6,
+      "name": "Ludwig Augustinsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-2018-sebastian_larsson",
+      "identityId": "P-74946",
+      "squadNumber": 7,
+      "name": "Sebastian Larsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "sweden-2018-albin_ekdal",
+      "identityId": "P-20019",
+      "squadNumber": 8,
+      "name": "Albin Ekdal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-2018-marcus_berg",
+      "identityId": "P-82967",
+      "squadNumber": 9,
+      "name": "Marcus Berg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-2018-emil_forsberg",
+      "identityId": "P-04686",
+      "squadNumber": 10,
+      "name": "Emil Forsberg",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-2018-john_guidetti",
+      "identityId": "P-89934",
+      "squadNumber": 11,
+      "name": "John Guidetti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "sweden-2018-karl-johan_johnsson",
+      "identityId": "P-46890",
+      "squadNumber": 12,
+      "name": "Karl-Johan Johnsson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "sweden-2018-gustav_svensson",
+      "identityId": "P-19366",
+      "squadNumber": 13,
+      "name": "Gustav Svensson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-2018-filip_helander",
+      "identityId": "P-42015",
+      "squadNumber": 14,
+      "name": "Filip Helander",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "sweden-2018-oscar_hiljemark",
+      "identityId": "P-15887",
+      "squadNumber": 15,
+      "name": "Oscar Hiljemark",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "sweden-2018-emil_krafth",
+      "identityId": "P-28801",
+      "squadNumber": 16,
+      "name": "Emil Krafth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-2018-viktor_claesson",
+      "identityId": "P-78477",
+      "squadNumber": 17,
+      "name": "Viktor Claesson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "sweden-2018-pontus_jansson",
+      "identityId": "P-46506",
+      "squadNumber": 18,
+      "name": "Pontus Jansson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-2018-marcus_rohd_n",
+      "identityId": "P-24357",
+      "squadNumber": 19,
+      "name": "Marcus Rohdén",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "sweden-2018-ola_toivonen",
+      "identityId": "P-10221",
+      "squadNumber": 20,
+      "name": "Ola Toivonen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-2018-jimmy_durmaz",
+      "identityId": "P-73907",
+      "squadNumber": 21,
+      "name": "Jimmy Durmaz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-2018-isaac_kiese_thelin",
+      "identityId": "P-08312",
+      "squadNumber": 22,
+      "name": "Isaac Kiese Thelin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "sweden-2018-kristoffer_nordfeldt",
+      "identityId": "P-08714",
+      "squadNumber": 23,
+      "name": "Kristoffer Nordfeldt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Sweden (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

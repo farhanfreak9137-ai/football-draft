@@ -1,0 +1,500 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "west_germany-1966-hans_tilkowski",
+      "identityId": "P-35661",
+      "squadNumber": 1,
+      "name": "Hans Tilkowski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1966-horst-dieter_h_ttges",
+      "identityId": "P-28162",
+      "squadNumber": 2,
+      "name": "Horst-Dieter Höttges",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1966-karl-heinz_schnellinger",
+      "identityId": "P-93072",
+      "squadNumber": 3,
+      "name": "Karl-Heinz Schnellinger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1966-franz_beckenbauer",
+      "identityId": "P-72864",
+      "squadNumber": 4,
+      "name": "Franz Beckenbauer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot",
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1966 World Cup performance for West Germany (Runners-up). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot, Best Young Player."
+    },
+    {
+      "id": "west_germany-1966-willi_schulz",
+      "identityId": "P-77426",
+      "squadNumber": 5,
+      "name": "Willi Schulz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1966-wolfgang_weber",
+      "identityId": "P-11099",
+      "squadNumber": 6,
+      "name": "Wolfgang Weber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1966-albert_br_lls",
+      "identityId": "P-12917",
+      "squadNumber": 7,
+      "name": "Albert Brülls",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "west_germany-1966-helmut_haller",
+      "identityId": "P-12272",
+      "squadNumber": 8,
+      "name": "Helmut Haller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 95 OVR based on 1966 World Cup performance for West Germany (Runners-up). Tournament standout and starting pillar. Scored 6 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "west_germany-1966-uwe_seeler",
+      "identityId": "P-64138",
+      "squadNumber": 9,
+      "name": "Uwe Seeler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for West Germany (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1966-sigfried_held",
+      "identityId": "P-86276",
+      "squadNumber": 10,
+      "name": "Sigfried Held",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1966-lothar_emmerich",
+      "identityId": "P-32446",
+      "squadNumber": 11,
+      "name": "Lothar Emmerich",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1966 World Cup performance for West Germany (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1966-wolfgang_overath",
+      "identityId": "P-60896",
+      "squadNumber": 12,
+      "name": "Wolfgang Overath",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-heinz_hornig",
+      "identityId": "P-05324",
+      "squadNumber": 13,
+      "name": "Heinz Hornig",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-friedel_lutz",
+      "identityId": "P-19519",
+      "squadNumber": 14,
+      "name": "Friedel Lutz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-bernd_patzke",
+      "identityId": "P-83141",
+      "squadNumber": 15,
+      "name": "Bernd Patzke",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-max_lorenz",
+      "identityId": "P-86015",
+      "squadNumber": 16,
+      "name": "Max Lorenz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-wolfgang_paul",
+      "identityId": "P-55399",
+      "squadNumber": 17,
+      "name": "Wolfgang Paul",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-klaus-dieter_sieloff",
+      "identityId": "P-50033",
+      "squadNumber": 18,
+      "name": "Klaus-Dieter Sieloff",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-werner_kr_mer",
+      "identityId": "P-71648",
+      "squadNumber": 19,
+      "name": "Werner Krämer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-j_rgen_grabowski",
+      "identityId": "P-48733",
+      "squadNumber": 20,
+      "name": "Jürgen Grabowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-g_nter_bernard",
+      "identityId": "P-85955",
+      "squadNumber": 21,
+      "name": "Günter Bernard",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1966-sepp_maier",
+      "identityId": "P-14080",
+      "squadNumber": 22,
+      "name": "Sepp Maier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1966 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    }
+  ]
+}

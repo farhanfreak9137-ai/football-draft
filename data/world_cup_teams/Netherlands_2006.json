@@ -1,0 +1,516 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NLD",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "netherlands-2006-edwin_van_der_sar",
+      "identityId": "P-26572",
+      "squadNumber": 1,
+      "name": "Edwin van der Sar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-2006-kew_jaliens",
+      "identityId": "P-81414",
+      "squadNumber": 2,
+      "name": "Kew Jaliens",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2006-khalid_boulahrouz",
+      "identityId": "P-46895",
+      "squadNumber": 3,
+      "name": "Khalid Boulahrouz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-2006-joris_mathijsen",
+      "identityId": "P-40197",
+      "squadNumber": 4,
+      "name": "Joris Mathijsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2006-giovanni_van_bronckhorst",
+      "identityId": "P-21832",
+      "squadNumber": 5,
+      "name": "Giovanni van Bronckhorst",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2006-denny_landzaat",
+      "identityId": "P-18113",
+      "squadNumber": 6,
+      "name": "Denny Landzaat",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "netherlands-2006-dirk_kuyt",
+      "identityId": "P-33312",
+      "squadNumber": 7,
+      "name": "Dirk Kuyt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-2006-phillip_cocu",
+      "identityId": "P-42224",
+      "squadNumber": 8,
+      "name": "Phillip Cocu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-2006-ruud_van_nistelrooy",
+      "identityId": "P-03013",
+      "squadNumber": 9,
+      "name": "Ruud van Nistelrooy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2006-rafael_van_der_vaart",
+      "identityId": "P-68125",
+      "squadNumber": 10,
+      "name": "Rafael van der Vaart",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2006-arjen_robben",
+      "identityId": "P-23705",
+      "squadNumber": 11,
+      "name": "Arjen Robben",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2006-jan_kromkamp",
+      "identityId": "P-65694",
+      "squadNumber": 12,
+      "name": "Jan Kromkamp",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2006-andr_ooijer",
+      "identityId": "P-96131",
+      "squadNumber": 13,
+      "name": "André Ooijer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-2006-john_heitinga",
+      "identityId": "P-28832",
+      "squadNumber": 14,
+      "name": "John Heitinga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "netherlands-2006-tim_de_cler",
+      "identityId": "P-13377",
+      "squadNumber": 15,
+      "name": "Tim de Cler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "netherlands-2006-hedwiges_maduro",
+      "identityId": "P-66598",
+      "squadNumber": 16,
+      "name": "Hedwiges Maduro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2006-robin_van_persie",
+      "identityId": "P-99934",
+      "squadNumber": 17,
+      "name": "Robin van Persie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "netherlands-2006-mark_van_bommel",
+      "identityId": "P-69700",
+      "squadNumber": 18,
+      "name": "Mark van Bommel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "netherlands-2006-jan_vennegoor_of_hesselink",
+      "identityId": "P-63856",
+      "squadNumber": 19,
+      "name": "Jan Vennegoor of Hesselink",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2006-wesley_sneijder",
+      "identityId": "P-51336",
+      "squadNumber": 20,
+      "name": "Wesley Sneijder",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "netherlands-2006-ryan_babel",
+      "identityId": "P-17967",
+      "squadNumber": 21,
+      "name": "Ryan Babel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "netherlands-2006-henk_timmer",
+      "identityId": "P-03558",
+      "squadNumber": 22,
+      "name": "Henk Timmer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "netherlands-2006-maarten_stekelenburg",
+      "identityId": "P-36850",
+      "squadNumber": 23,
+      "name": "Maarten Stekelenburg",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2006 World Cup performance for Netherlands (Round of 16). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "teamName": "Soviet Union",
+  "teamCode": "SUN",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "soviet_union-1970-leonid_shmuts",
+      "identityId": "P-99794",
+      "squadNumber": 1,
+      "name": "Leonid Shmuts",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1970-anzor_kavazashvili",
+      "identityId": "P-79597",
+      "squadNumber": 2,
+      "name": "Anzor Kavazashvili",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-valentin_afonin",
+      "identityId": "P-76618",
+      "squadNumber": 3,
+      "name": "Valentin Afonin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-revaz_dzodzuashvili",
+      "identityId": "P-70748",
+      "squadNumber": 4,
+      "name": "Revaz Dzodzuashvili",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-vladimir_kaplichny",
+      "identityId": "P-17002",
+      "squadNumber": 5,
+      "name": "Vladimir Kaplichny",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-evgeny_lovchev",
+      "identityId": "P-52906",
+      "squadNumber": 6,
+      "name": "Evgeny Lovchev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1970-gennady_logofet",
+      "identityId": "P-70408",
+      "squadNumber": 7,
+      "name": "Gennady Logofet",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1970-murtaz_khurtsilava",
+      "identityId": "P-90524",
+      "squadNumber": 8,
+      "name": "Murtaz Khurtsilava",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-albert_shesternyov",
+      "identityId": "P-28651",
+      "squadNumber": 9,
+      "name": "Albert Shesternyov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-valery_zykov",
+      "identityId": "P-97724",
+      "squadNumber": 10,
+      "name": "Valery Zykov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1970-kakhi_asatiani",
+      "identityId": "P-33189",
+      "squadNumber": 11,
+      "name": "Kakhi Asatiani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1970-nikolay_kiselyov",
+      "identityId": "P-79846",
+      "squadNumber": 12,
+      "name": "Nikolay Kiselyov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1970-lev_yashin",
+      "identityId": "P-09317",
+      "squadNumber": 13,
+      "name": "Lev Yashin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1970-vladimir_muntyan",
+      "identityId": "P-50044",
+      "squadNumber": 14,
+      "name": "Vladimir Muntyan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-viktor_serebryanikov",
+      "identityId": "P-60181",
+      "squadNumber": 15,
+      "name": "Viktor Serebryanikov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1970-anatoliy_byshovets",
+      "identityId": "P-02102",
+      "squadNumber": 16,
+      "name": "Anatoliy Byshovets",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "soviet_union-1970-gennady_yevriuzhikin",
+      "identityId": "P-72049",
+      "squadNumber": 17,
+      "name": "Gennady Yevriuzhikin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1970-slava_metreveli",
+      "identityId": "P-19936",
+      "squadNumber": 18,
+      "name": "Slava Metreveli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1970-givi_nodia",
+      "identityId": "P-43733",
+      "squadNumber": 19,
+      "name": "Givi Nodia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1970-anatoliy_puzach",
+      "identityId": "P-59828",
+      "squadNumber": 20,
+      "name": "Anatoliy Puzach",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "soviet_union-1970-vitaly_khmelnitsky",
+      "identityId": "P-98262",
+      "squadNumber": 21,
+      "name": "Vitaly Khmelnitsky",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1970-valeriy_porkujan",
+      "identityId": "P-53800",
+      "squadNumber": 22,
+      "name": "Valeriy Porkujan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Soviet Union (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

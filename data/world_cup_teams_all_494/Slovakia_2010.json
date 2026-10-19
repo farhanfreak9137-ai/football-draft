@@ -1,0 +1,517 @@
+{
+  "teamName": "Slovakia",
+  "teamCode": "SVK",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "slovakia-2010-j_n_mucha",
+      "identityId": "P-83904",
+      "squadNumber": 1,
+      "name": "Ján Mucha",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "slovakia-2010-peter_pekar_k",
+      "identityId": "P-55404",
+      "squadNumber": 2,
+      "name": "Peter Pekarík",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "slovakia-2010-martin_krtel",
+      "identityId": "P-57606",
+      "squadNumber": 3,
+      "name": "Martin Škrtel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "slovakia-2010-marek_ech",
+      "identityId": "P-51100",
+      "squadNumber": 4,
+      "name": "Marek Čech",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "slovakia-2010-radoslav_zabavn_k",
+      "identityId": "P-30935",
+      "squadNumber": 5,
+      "name": "Radoslav Zabavník",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "slovakia-2010-zdeno_trba",
+      "identityId": "P-37913",
+      "squadNumber": 6,
+      "name": "Zdeno Štrba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "slovakia-2010-vladim_r_weiss",
+      "identityId": "P-57948",
+      "squadNumber": 7,
+      "name": "Vladimír Weiss",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "slovakia-2010-j_n_koz_k",
+      "identityId": "P-26673",
+      "squadNumber": 8,
+      "name": "Ján Kozák",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "slovakia-2010-stanislav_est_k",
+      "identityId": "P-26852",
+      "squadNumber": 9,
+      "name": "Stanislav Šesták",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "slovakia-2010-marek_sapara",
+      "identityId": "P-81950",
+      "squadNumber": 10,
+      "name": "Marek Sapara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "slovakia-2010-r_bert_vittek",
+      "identityId": "P-14764",
+      "squadNumber": 11,
+      "name": "Róbert Vittek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "slovakia-2010-du_an_perni_",
+      "identityId": "P-24713",
+      "squadNumber": 12,
+      "name": "Dušan Perniš",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "slovakia-2010-filip_holo_ko",
+      "identityId": "P-18604",
+      "squadNumber": 13,
+      "name": "Filip Hološko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "slovakia-2010-martin_jakubko",
+      "identityId": "P-82522",
+      "squadNumber": 14,
+      "name": "Martin Jakubko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "slovakia-2010-miroslav_stoch",
+      "identityId": "P-78836",
+      "squadNumber": 15,
+      "name": "Miroslav Stoch",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "slovakia-2010-j_n_urica",
+      "identityId": "P-88680",
+      "squadNumber": 16,
+      "name": "Ján Ďurica",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "slovakia-2010-marek_ham_k",
+      "identityId": "P-73975",
+      "squadNumber": 17,
+      "name": "Marek Hamšík",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "slovakia-2010-erik_jendri_ek",
+      "identityId": "P-63023",
+      "squadNumber": 18,
+      "name": "Erik Jendrišek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "slovakia-2010-juraj_kucka",
+      "identityId": "P-18379",
+      "squadNumber": 19,
+      "name": "Juraj Kucka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "slovakia-2010-kamil_kop_nek",
+      "identityId": "P-40368",
+      "squadNumber": 20,
+      "name": "Kamil Kopúnek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "slovakia-2010-kornel_sal_ta",
+      "identityId": "P-75191",
+      "squadNumber": 21,
+      "name": "Kornel Saláta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "slovakia-2010-martin_petr_",
+      "identityId": "P-77979",
+      "squadNumber": 22,
+      "name": "Martin Petráš",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "slovakia-2010-du_an_kuciak",
+      "identityId": "P-55017",
+      "squadNumber": 23,
+      "name": "Dušan Kuciak",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Slovakia (Round of 16). Squad reserve member."
+    }
+  ]
+}

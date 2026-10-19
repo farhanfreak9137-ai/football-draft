@@ -1,0 +1,521 @@
+{
+  "teamName": "Iran",
+  "teamCode": "IRN",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "iran-2018-alireza_beiranvand",
+      "identityId": "P-20998",
+      "squadNumber": 1,
+      "name": "Alireza Beiranvand",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2018-mehdi_torabi",
+      "identityId": "P-04541",
+      "squadNumber": 2,
+      "name": "Mehdi Torabi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-ehsan_hajsafi",
+      "identityId": "P-75785",
+      "squadNumber": 3,
+      "name": "Ehsan Hajsafi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2018-rouzbeh_cheshmi",
+      "identityId": "P-98747",
+      "squadNumber": 4,
+      "name": "Rouzbeh Cheshmi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-2018-milad_mohammadi",
+      "identityId": "P-74098",
+      "squadNumber": 5,
+      "name": "Milad Mohammadi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Iran (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "iran-2018-saeid_ezatolahi",
+      "identityId": "P-95374",
+      "squadNumber": 6,
+      "name": "Saeid Ezatolahi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2018-masoud_shojaei",
+      "identityId": "P-00111",
+      "squadNumber": 7,
+      "name": "Masoud Shojaei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "iran-2018-morteza_pouraliganji",
+      "identityId": "P-29864",
+      "squadNumber": 8,
+      "name": "Morteza Pouraliganji",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2018-omid_ebrahimi",
+      "identityId": "P-60139",
+      "squadNumber": 9,
+      "name": "Omid Ebrahimi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2018-karim_ansarifard",
+      "identityId": "P-53957",
+      "squadNumber": 10,
+      "name": "Karim Ansarifard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "iran-2018-vahid_amiri",
+      "identityId": "P-24531",
+      "squadNumber": 11,
+      "name": "Vahid Amiri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2018-mohammad_rashid_mazaheri",
+      "identityId": "P-29185",
+      "squadNumber": 12,
+      "name": "Mohammad Rashid Mazaheri",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-mohammad_reza_khanzadeh",
+      "identityId": "P-26022",
+      "squadNumber": 13,
+      "name": "Mohammad Reza Khanzadeh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-saman_ghoddos",
+      "identityId": "P-87786",
+      "squadNumber": 14,
+      "name": "Saman Ghoddos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Iran (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "iran-2018-pejman_montazeri",
+      "identityId": "P-23272",
+      "squadNumber": 15,
+      "name": "Pejman Montazeri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-reza_ghoochannejhad",
+      "identityId": "P-85324",
+      "squadNumber": 16,
+      "name": "Reza Ghoochannejhad",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-mehdi_taremi",
+      "identityId": "P-85860",
+      "squadNumber": 17,
+      "name": "Mehdi Taremi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2018-alireza_jahanbakhsh",
+      "identityId": "P-98775",
+      "squadNumber": 18,
+      "name": "Alireza Jahanbakhsh",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2018-majid_hosseini",
+      "identityId": "P-15905",
+      "squadNumber": 19,
+      "name": "Majid Hosseini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Iran (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "iran-2018-sardar_azmoun",
+      "identityId": "P-09113",
+      "squadNumber": 20,
+      "name": "Sardar Azmoun",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "iran-2018-ashkan_dejagah",
+      "identityId": "P-84406",
+      "squadNumber": 21,
+      "name": "Ashkan Dejagah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-amir_abedzadeh",
+      "identityId": "P-80505",
+      "squadNumber": 22,
+      "name": "Amir Abedzadeh",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Iran (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "iran-2018-ramin_rezaeian",
+      "identityId": "P-47137",
+      "squadNumber": 23,
+      "name": "Ramin Rezaeian",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Iran (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

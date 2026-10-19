@@ -1,0 +1,498 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "uruguay-1954-roque_m_spoli",
+      "identityId": "P-38439",
+      "squadNumber": 1,
+      "name": "Roque Máspoli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1954-jos_santamar_a",
+      "identityId": "P-70798",
+      "squadNumber": 2,
+      "name": "José Santamaría",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1954-william_mart_nez",
+      "identityId": "P-12327",
+      "squadNumber": 3,
+      "name": "William Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1954-v_ctor_rodr_guez_andrade",
+      "identityId": "P-40941",
+      "squadNumber": 4,
+      "name": "Víctor Rodríguez Andrade",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1954-obdulio_varela",
+      "identityId": "P-65940",
+      "squadNumber": 5,
+      "name": "Obdulio Varela",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-roberto_leopardi",
+      "identityId": "P-57200",
+      "squadNumber": 6,
+      "name": "Roberto Leopardi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1954-julio_abbadie",
+      "identityId": "P-78277",
+      "squadNumber": 7,
+      "name": "Julio Abbadie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-juan_hohberg",
+      "identityId": "P-10601",
+      "squadNumber": 8,
+      "name": "Juan Hohberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-oscar_m_guez",
+      "identityId": "P-18523",
+      "squadNumber": 9,
+      "name": "Oscar Míguez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-juan_alberto_schiaffino",
+      "identityId": "P-38873",
+      "squadNumber": 10,
+      "name": "Juan Alberto Schiaffino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-carlos_borges",
+      "identityId": "P-90496",
+      "squadNumber": 11,
+      "name": "Carlos Borges",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-julio_maceiras",
+      "identityId": "P-83575",
+      "squadNumber": 12,
+      "name": "Julio Maceiras",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-mirto_davoine",
+      "identityId": "P-95472",
+      "squadNumber": 13,
+      "name": "Mirto Davoine",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-eusebio_tejera",
+      "identityId": "P-44446",
+      "squadNumber": 14,
+      "name": "Eusebio Tejera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-urbano_rivera",
+      "identityId": "P-74898",
+      "squadNumber": 15,
+      "name": "Urbano Rivera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-n_stor_carballo",
+      "identityId": "P-80644",
+      "squadNumber": 16,
+      "name": "Néstor Carballo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-luis_cruz",
+      "identityId": "P-92883",
+      "squadNumber": 17,
+      "name": "Luis Cruz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-rafael_souto",
+      "identityId": "P-93118",
+      "squadNumber": 18,
+      "name": "Rafael Souto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-javier_ambrois",
+      "identityId": "P-66683",
+      "squadNumber": 19,
+      "name": "Javier Ambrois",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1954-omar_m_ndez",
+      "identityId": "P-96652",
+      "squadNumber": 20,
+      "name": "Omar Méndez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-julio_p_rez",
+      "identityId": "P-84660",
+      "squadNumber": 21,
+      "name": "Julio Pérez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1954-luis_castro",
+      "identityId": "P-13223",
+      "squadNumber": 22,
+      "name": "Luis Castro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    }
+  ]
+}

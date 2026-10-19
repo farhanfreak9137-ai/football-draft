@@ -1,0 +1,516 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "poland-2006-artur_boruc",
+      "identityId": "P-32695",
+      "squadNumber": 1,
+      "name": "Artur Boruc",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-mariusz_jop",
+      "identityId": "P-63796",
+      "squadNumber": 2,
+      "name": "Mariusz Jop",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2006-seweryn_gancarczyk",
+      "identityId": "P-10771",
+      "squadNumber": 3,
+      "name": "Seweryn Gancarczyk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2006-marcin_baszczy_ski",
+      "identityId": "P-12680",
+      "squadNumber": 4,
+      "name": "Marcin Baszczyński",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-kamil_kosowski",
+      "identityId": "P-24493",
+      "squadNumber": 5,
+      "name": "Kamil Kosowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2006-jacek_b_k",
+      "identityId": "P-46873",
+      "squadNumber": 6,
+      "name": "Jacek Bąk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-rados_aw_sobolewski",
+      "identityId": "P-05425",
+      "squadNumber": 7,
+      "name": "Radosław Sobolewski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2006-jacek_krzyn_wek",
+      "identityId": "P-49007",
+      "squadNumber": 8,
+      "name": "Jacek Krzynówek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-maciej_urawski",
+      "identityId": "P-07088",
+      "squadNumber": 9,
+      "name": "Maciej Żurawski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-miros_aw_szymkowiak",
+      "identityId": "P-86811",
+      "squadNumber": 10,
+      "name": "Mirosław Szymkowiak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2006-grzegorz_rasiak",
+      "identityId": "P-21451",
+      "squadNumber": 11,
+      "name": "Grzegorz Rasiak",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2006-tomasz_kuszczak",
+      "identityId": "P-34895",
+      "squadNumber": 12,
+      "name": "Tomasz Kuszczak",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2006-sebastian_mila",
+      "identityId": "P-75168",
+      "squadNumber": 13,
+      "name": "Sebastian Mila",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2006-micha_ew_akow",
+      "identityId": "P-15578",
+      "squadNumber": 14,
+      "name": "Michał Żewłakow",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-euzebiusz_smolarek",
+      "identityId": "P-95900",
+      "squadNumber": 15,
+      "name": "Euzebiusz Smolarek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-arkadiusz_radomski",
+      "identityId": "P-52481",
+      "squadNumber": 16,
+      "name": "Arkadiusz Radomski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2006 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2006-dariusz_dudka",
+      "identityId": "P-02210",
+      "squadNumber": 17,
+      "name": "Dariusz Dudka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2006-mariusz_lewandowski",
+      "identityId": "P-97704",
+      "squadNumber": 18,
+      "name": "Mariusz Lewandowski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Poland (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "poland-2006-bartosz_bosacki",
+      "identityId": "P-37586",
+      "squadNumber": 19,
+      "name": "Bartosz Bosacki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2006 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "poland-2006-piotr_giza",
+      "identityId": "P-41668",
+      "squadNumber": 20,
+      "name": "Piotr Giza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2006-ireneusz_jele_",
+      "identityId": "P-13524",
+      "squadNumber": 21,
+      "name": "Ireneusz Jeleń",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2006 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2006-_ukasz_fabia_ski",
+      "identityId": "P-57476",
+      "squadNumber": 22,
+      "name": "Łukasz Fabiański",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2006 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2006-pawe_bro_ek",
+      "identityId": "P-67164",
+      "squadNumber": 23,
+      "name": "Paweł Brożek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2006 World Cup performance for Poland (Group Stage). Substitute rotation option (3 sub app)."
+    }
+  ]
+}

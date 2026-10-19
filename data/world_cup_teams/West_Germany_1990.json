@@ -1,0 +1,496 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "west_germany-1990-bodo_illgner",
+      "identityId": "P-59164",
+      "squadNumber": 1,
+      "name": "Bodo Illgner",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1990-stefan_reuter",
+      "identityId": "P-74629",
+      "squadNumber": 2,
+      "name": "Stefan Reuter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1990-andreas_brehme",
+      "identityId": "P-67713",
+      "squadNumber": 3,
+      "name": "Andreas Brehme",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1990-j_rgen_kohler",
+      "identityId": "P-83968",
+      "squadNumber": 4,
+      "name": "Jürgen Kohler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1990-klaus_augenthaler",
+      "identityId": "P-23204",
+      "squadNumber": 5,
+      "name": "Klaus Augenthaler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1990-guido_buchwald",
+      "identityId": "P-51921",
+      "squadNumber": 6,
+      "name": "Guido Buchwald",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1990-pierre_littbarski",
+      "identityId": "P-89975",
+      "squadNumber": 7,
+      "name": "Pierre Littbarski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1990-thomas_h_ler",
+      "identityId": "P-77552",
+      "squadNumber": 8,
+      "name": "Thomas Häßler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "west_germany-1990-rudi_v_ller",
+      "identityId": "P-04572",
+      "squadNumber": 9,
+      "name": "Rudi Völler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1990-lothar_matth_us",
+      "identityId": "P-49502",
+      "squadNumber": 10,
+      "name": "Lothar Matthäus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1990 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 96 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Scored 4 goal(s). Honors: Silver Ball."
+    },
+    {
+      "id": "west_germany-1990-frank_mill",
+      "identityId": "P-03526",
+      "squadNumber": 11,
+      "name": "Frank Mill",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1990-raimond_aumann",
+      "identityId": "P-70770",
+      "squadNumber": 12,
+      "name": "Raimond Aumann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1990-karl-heinz_riedle",
+      "identityId": "P-43380",
+      "squadNumber": 13,
+      "name": "Karl-Heinz Riedle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for West Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1990-thomas_berthold",
+      "identityId": "P-59388",
+      "squadNumber": 14,
+      "name": "Thomas Berthold",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1990-uwe_bein",
+      "identityId": "P-60022",
+      "squadNumber": 15,
+      "name": "Uwe Bein",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1990-paul_steiner",
+      "identityId": "P-25067",
+      "squadNumber": 16,
+      "name": "Paul Steiner",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1990-andreas_m_ller",
+      "identityId": "P-37963",
+      "squadNumber": 17,
+      "name": "Andreas Möller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1990 World Cup performance for West Germany (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "west_germany-1990-j_rgen_klinsmann",
+      "identityId": "P-91373",
+      "squadNumber": 18,
+      "name": "Jürgen Klinsmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1990 World Cup performance for West Germany (Champions). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1990-hans_pfl_gler",
+      "identityId": "P-55047",
+      "squadNumber": 19,
+      "name": "Hans Pflügler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for West Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1990-olaf_thon",
+      "identityId": "P-45408",
+      "squadNumber": 20,
+      "name": "Olaf Thon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1990 World Cup performance for West Germany (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1990-g_nter_hermann",
+      "identityId": "P-46363",
+      "squadNumber": 21,
+      "name": "Günter Hermann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for West Germany (Champions). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1990-andreas_k_pke",
+      "identityId": "P-45405",
+      "squadNumber": 22,
+      "name": "Andreas Köpke",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for West Germany (Champions). Squad reserve member."
+    }
+  ]
+}

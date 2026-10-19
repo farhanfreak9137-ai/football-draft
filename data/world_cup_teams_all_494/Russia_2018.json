@@ -1,0 +1,517 @@
+{
+  "teamName": "Russia",
+  "teamCode": "RUS",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "russia-2018-igor_akinfeev",
+      "identityId": "P-95453",
+      "squadNumber": 1,
+      "name": "Igor Akinfeev",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "russia-2018-m_rio_fernandes",
+      "identityId": "P-17872",
+      "squadNumber": 2,
+      "name": "Mário Fernandes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "russia-2018-ilya_kutepov",
+      "identityId": "P-82792",
+      "squadNumber": 3,
+      "name": "Ilya Kutepov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "russia-2018-sergei_ignashevich",
+      "identityId": "P-79763",
+      "squadNumber": 4,
+      "name": "Sergei Ignashevich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "russia-2018-andrei_semyonov",
+      "identityId": "P-36787",
+      "squadNumber": 5,
+      "name": "Andrei Semyonov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "russia-2018-denis_cheryshev",
+      "identityId": "P-43675",
+      "squadNumber": 6,
+      "name": "Denis Cheryshev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 3 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "russia-2018-daler_kuzyayev",
+      "identityId": "P-17415",
+      "squadNumber": 7,
+      "name": "Daler Kuzyayev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "russia-2018-yury_gazinsky",
+      "identityId": "P-20571",
+      "squadNumber": 8,
+      "name": "Yury Gazinsky",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "russia-2018-alan_dzagoev",
+      "identityId": "P-69896",
+      "squadNumber": 9,
+      "name": "Alan Dzagoev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-2018-fyodor_smolov",
+      "identityId": "P-18383",
+      "squadNumber": 10,
+      "name": "Fyodor Smolov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-2018-roman_zobnin",
+      "identityId": "P-05922",
+      "squadNumber": 11,
+      "name": "Roman Zobnin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "russia-2018-andrey_lunyov",
+      "identityId": "P-37265",
+      "squadNumber": 12,
+      "name": "Andrey Lunyov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "russia-2018-fyodor_kudryashov",
+      "identityId": "P-47851",
+      "squadNumber": 13,
+      "name": "Fyodor Kudryashov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2018-vladimir_granat",
+      "identityId": "P-11462",
+      "squadNumber": 14,
+      "name": "Vladimir Granat",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "russia-2018-aleksei_miranchuk",
+      "identityId": "P-11064",
+      "squadNumber": 15,
+      "name": "Aleksei Miranchuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "russia-2018-anton_miranchuk",
+      "identityId": "P-23559",
+      "squadNumber": 16,
+      "name": "Anton Miranchuk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "russia-2018-aleksandr_golovin",
+      "identityId": "P-22778",
+      "squadNumber": 17,
+      "name": "Aleksandr Golovin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "russia-2018-yuri_zhirkov",
+      "identityId": "P-51786",
+      "squadNumber": 18,
+      "name": "Yuri Zhirkov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "russia-2018-aleksandr_samedov",
+      "identityId": "P-06356",
+      "squadNumber": 19,
+      "name": "Aleksandr Samedov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "russia-2018-vladimir_gabulov",
+      "identityId": "P-33785",
+      "squadNumber": 20,
+      "name": "Vladimir Gabulov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "russia-2018-aleksandr_yerokhin",
+      "identityId": "P-20163",
+      "squadNumber": 21,
+      "name": "Aleksandr Yerokhin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "russia-2018-artem_dzyuba",
+      "identityId": "P-37840",
+      "squadNumber": 22,
+      "name": "Artem Dzyuba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "russia-2018-igor_smolnikov",
+      "identityId": "P-64597",
+      "squadNumber": 23,
+      "name": "Igor Smolnikov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2018 World Cup performance for Russia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

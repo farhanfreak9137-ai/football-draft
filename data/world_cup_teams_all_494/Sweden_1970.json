@@ -1,0 +1,497 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "sweden-1970-ronnie_hellstr_m",
+      "identityId": "P-43209",
+      "squadNumber": 1,
+      "name": "Ronnie Hellström",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1970-hans_selander",
+      "identityId": "P-84013",
+      "squadNumber": 2,
+      "name": "Hans Selander",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1970-kurt_axelsson",
+      "identityId": "P-15529",
+      "squadNumber": 3,
+      "name": "Kurt Axelsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1970-bj_rn_nordqvist",
+      "identityId": "P-29454",
+      "squadNumber": 4,
+      "name": "Björn Nordqvist",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1970-roland_grip",
+      "identityId": "P-82719",
+      "squadNumber": 5,
+      "name": "Roland Grip",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1970-tommy_svensson",
+      "identityId": "P-22223",
+      "squadNumber": 6,
+      "name": "Tommy Svensson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1970-bo_larsson",
+      "identityId": "P-86931",
+      "squadNumber": 7,
+      "name": "Bo Larsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1970-leif_eriksson",
+      "identityId": "P-61735",
+      "squadNumber": 8,
+      "name": "Leif Eriksson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1970-ove_kindvall",
+      "identityId": "P-73517",
+      "squadNumber": 9,
+      "name": "Ove Kindvall",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1970-ove_grahn",
+      "identityId": "P-37575",
+      "squadNumber": 10,
+      "name": "Ove Grahn",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1970-_rjan_persson",
+      "identityId": "P-61494",
+      "squadNumber": 11,
+      "name": "Örjan Persson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1970-sven-gunnar_larsson",
+      "identityId": "P-12397",
+      "squadNumber": 12,
+      "name": "Sven-Gunnar Larsson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1970-claes_cronqvist",
+      "identityId": "P-20172",
+      "squadNumber": 13,
+      "name": "Claes Cronqvist",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1970-krister_kristensson",
+      "identityId": "P-02986",
+      "squadNumber": 14,
+      "name": "Krister Kristensson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1970-leif_m_lberg",
+      "identityId": "P-71234",
+      "squadNumber": 15,
+      "name": "Leif Målberg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1970-tomas_nordahl",
+      "identityId": "P-63446",
+      "squadNumber": 16,
+      "name": "Tomas Nordahl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1970-ronney_pettersson",
+      "identityId": "P-37477",
+      "squadNumber": 17,
+      "name": "Ronney Pettersson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1970-tom_turesson",
+      "identityId": "P-00746",
+      "squadNumber": 18,
+      "name": "Tom Turesson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1970-g_ran_nicklasson",
+      "identityId": "P-05872",
+      "squadNumber": 19,
+      "name": "Göran Nicklasson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1970-jan_olsson",
+      "identityId": "P-48546",
+      "squadNumber": 20,
+      "name": "Jan Olsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1970-inge_ejderstedt",
+      "identityId": "P-71589",
+      "squadNumber": 21,
+      "name": "Inge Ejderstedt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1970 World Cup performance for Sweden (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-1970-sten_p_lsson",
+      "identityId": "P-31050",
+      "squadNumber": 22,
+      "name": "Sten Pålsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1970 World Cup performance for Sweden (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

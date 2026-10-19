@@ -1,0 +1,582 @@
+{
+  "teamName": "South Korea",
+  "teamCode": "KOR",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "south_korea-2022-seung-gyu_kim",
+      "identityId": "P-42523",
+      "squadNumber": 1,
+      "name": "Seung-gyu Kim",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2022-yoon_jong-gyu",
+      "identityId": "P-88529",
+      "squadNumber": 2,
+      "name": "Yoon Jong-gyu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2022-kim_jin-su",
+      "identityId": "P-82889",
+      "squadNumber": 3,
+      "name": "Kim Jin-su",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2022-kim_min-jae",
+      "identityId": "P-14360",
+      "squadNumber": 4,
+      "name": "Kim Min-jae",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2022-woo-young_jung",
+      "identityId": "P-64292",
+      "squadNumber": 5,
+      "name": "Woo-young Jung",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2022-hwang_in-beom",
+      "identityId": "P-67516",
+      "squadNumber": 6,
+      "name": "Hwang In-beom",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2022-heung-min_son",
+      "identityId": "P-77335",
+      "squadNumber": 7,
+      "name": "Heung-min Son",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2022-paik_seung-ho",
+      "identityId": "P-32599",
+      "squadNumber": 8,
+      "name": "Paik Seung-ho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2022 World Cup performance for South Korea (Round of 16). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2022-cho_gue-sung",
+      "identityId": "P-87169",
+      "squadNumber": 9,
+      "name": "Cho Gue-sung",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "south_korea-2022-jae-sung_lee",
+      "identityId": "P-93920",
+      "squadNumber": 10,
+      "name": "Jae-sung Lee",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "south_korea-2022-hee-chan_hwang",
+      "identityId": "P-58692",
+      "squadNumber": 11,
+      "name": "Hee-chan Hwang",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2022-song_bum-keun",
+      "identityId": "P-49090",
+      "squadNumber": 12,
+      "name": "Song Bum-keun",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2022-son_jun-ho",
+      "identityId": "P-61172",
+      "squadNumber": 13,
+      "name": "Son Jun-ho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for South Korea (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "south_korea-2022-chul_hong",
+      "identityId": "P-91889",
+      "squadNumber": 14,
+      "name": "Chul Hong",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for South Korea (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2022-kim_moon-hwan",
+      "identityId": "P-07233",
+      "squadNumber": 15,
+      "name": "Kim Moon-hwan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "south_korea-2022-hwang_ui-jo",
+      "identityId": "P-92710",
+      "squadNumber": 16,
+      "name": "Hwang Ui-jo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2022-na_sang-ho",
+      "identityId": "P-10357",
+      "squadNumber": 17,
+      "name": "Na Sang-ho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2022-lee_kang-in",
+      "identityId": "P-87514",
+      "squadNumber": 18,
+      "name": "Lee Kang-in",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2022-young-gwon_kim",
+      "identityId": "P-07259",
+      "squadNumber": 19,
+      "name": "Young-gwon Kim",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for South Korea (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "south_korea-2022-kwon_kyung-won",
+      "identityId": "P-57511",
+      "squadNumber": 20,
+      "name": "Kwon Kyung-won",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2022-hyeon-woo_jo",
+      "identityId": "P-04157",
+      "squadNumber": 21,
+      "name": "Hyeon-woo Jo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2022-kwon_chang-hoon",
+      "identityId": "P-88360",
+      "squadNumber": 22,
+      "name": "Kwon Chang-hoon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2022-kim_tae-hwan",
+      "identityId": "P-66969",
+      "squadNumber": 23,
+      "name": "Kim Tae-hwan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "south_korea-2022-cho_yu-min",
+      "identityId": "P-05917",
+      "squadNumber": 24,
+      "name": "Cho Yu-min",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for South Korea (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "south_korea-2022-jeong_woo-yeong",
+      "identityId": "P-94500",
+      "squadNumber": 25,
+      "name": "Jeong Woo-yeong",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for South Korea (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "south_korea-2022-song_min-kyu",
+      "identityId": "P-97485",
+      "squadNumber": 26,
+      "name": "Song Min-kyu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2022 World Cup performance for South Korea (Round of 16). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "italy-2010-gianluigi_buffon",
+      "identityId": "P-11392",
+      "squadNumber": 1,
+      "name": "Gianluigi Buffon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2010-christian_maggio",
+      "identityId": "P-11109",
+      "squadNumber": 2,
+      "name": "Christian Maggio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2010-domenico_criscito",
+      "identityId": "P-54694",
+      "squadNumber": 3,
+      "name": "Domenico Criscito",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2010-giorgio_chiellini",
+      "identityId": "P-92874",
+      "squadNumber": 4,
+      "name": "Giorgio Chiellini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2010-fabio_cannavaro",
+      "identityId": "P-88863",
+      "squadNumber": 5,
+      "name": "Fabio Cannavaro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2010-daniele_de_rossi",
+      "identityId": "P-65802",
+      "squadNumber": 6,
+      "name": "Daniele De Rossi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2010-simone_pepe",
+      "identityId": "P-47246",
+      "squadNumber": 7,
+      "name": "Simone Pepe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2010-gennaro_gattuso",
+      "identityId": "P-18164",
+      "squadNumber": 8,
+      "name": "Gennaro Gattuso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2010-vincenzo_iaquinta",
+      "identityId": "P-38599",
+      "squadNumber": 9,
+      "name": "Vincenzo Iaquinta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2010-antonio_di_natale",
+      "identityId": "P-75306",
+      "squadNumber": 10,
+      "name": "Antonio Di Natale",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2010-alberto_gilardino",
+      "identityId": "P-48645",
+      "squadNumber": 11,
+      "name": "Alberto Gilardino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2010-federico_marchetti",
+      "identityId": "P-30116",
+      "squadNumber": 12,
+      "name": "Federico Marchetti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2010-salvatore_bocchetti",
+      "identityId": "P-36764",
+      "squadNumber": 13,
+      "name": "Salvatore Bocchetti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-2010-morgan_de_sanctis",
+      "identityId": "P-19910",
+      "squadNumber": 14,
+      "name": "Morgan De Sanctis",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-2010-claudio_marchisio",
+      "identityId": "P-37848",
+      "squadNumber": 15,
+      "name": "Claudio Marchisio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2010-mauro_camoranesi",
+      "identityId": "P-22378",
+      "squadNumber": 16,
+      "name": "Mauro Camoranesi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Italy (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-2010-angelo_palombo",
+      "identityId": "P-06005",
+      "squadNumber": 17,
+      "name": "Angelo Palombo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-2010-fabio_quagliarella",
+      "identityId": "P-01045",
+      "squadNumber": 18,
+      "name": "Fabio Quagliarella",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2010-gianluca_zambrotta",
+      "identityId": "P-42227",
+      "squadNumber": 19,
+      "name": "Gianluca Zambrotta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2010-giampaolo_pazzini",
+      "identityId": "P-27627",
+      "squadNumber": 20,
+      "name": "Giampaolo Pazzini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2010-andrea_pirlo",
+      "identityId": "P-99537",
+      "squadNumber": 21,
+      "name": "Andrea Pirlo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2010-riccardo_montolivo",
+      "identityId": "P-37678",
+      "squadNumber": 22,
+      "name": "Riccardo Montolivo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2010-leonardo_bonucci",
+      "identityId": "P-57248",
+      "squadNumber": 23,
+      "name": "Leonardo Bonucci",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Italy (Group Stage). Squad reserve member."
+    }
+  ]
+}

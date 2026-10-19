@@ -1,0 +1,517 @@
+{
+  "teamName": "China",
+  "teamCode": "CHN",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "china-2002-qi_an",
+      "identityId": "P-31496",
+      "squadNumber": 1,
+      "name": "Qi An",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for China (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "china-2002-enhua_zhang",
+      "identityId": "P-77096",
+      "squadNumber": 2,
+      "name": "Enhua Zhang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for China (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "china-2002-pu_yang",
+      "identityId": "P-83943",
+      "squadNumber": 3,
+      "name": "Pu Yang",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "china-2002-chengying_wu",
+      "identityId": "P-29611",
+      "squadNumber": 4,
+      "name": "Chengying Wu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-zhiyi_fan",
+      "identityId": "P-24535",
+      "squadNumber": 5,
+      "name": "Zhiyi Fan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "china-2002-jiayi_shao",
+      "identityId": "P-37402",
+      "squadNumber": 6,
+      "name": "Jiayi Shao",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for China (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "china-2002-jihai_sun",
+      "identityId": "P-50519",
+      "squadNumber": 7,
+      "name": "Jihai Sun",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "china-2002-tie_li",
+      "identityId": "P-28870",
+      "squadNumber": 8,
+      "name": "Tie Li",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-mingyu_ma",
+      "identityId": "P-05235",
+      "squadNumber": 9,
+      "name": "Mingyu Ma",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "china-2002-haidong_hao",
+      "identityId": "P-27445",
+      "squadNumber": 10,
+      "name": "Haidong Hao",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-genwei_yu",
+      "identityId": "P-19411",
+      "squadNumber": 11,
+      "name": "Genwei Yu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for China (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "china-2002-maozhen_su",
+      "identityId": "P-05845",
+      "squadNumber": 12,
+      "name": "Maozhen Su",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for China (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "china-2002-yao_gao",
+      "identityId": "P-13701",
+      "squadNumber": 13,
+      "name": "Yao Gao",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for China (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "china-2002-weifeng_li",
+      "identityId": "P-12619",
+      "squadNumber": 14,
+      "name": "Weifeng Li",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-junzhe_zhao",
+      "identityId": "P-90061",
+      "squadNumber": 15,
+      "name": "Junzhe Zhao",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "china-2002-bo_qu",
+      "identityId": "P-57338",
+      "squadNumber": 16,
+      "name": "Bo Qu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for China (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "china-2002-wei_du",
+      "identityId": "P-60686",
+      "squadNumber": 17,
+      "name": "Wei Du",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "china-2002-xiaopeng_li",
+      "identityId": "P-71211",
+      "squadNumber": 18,
+      "name": "Xiaopeng Li",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-hong_qi",
+      "identityId": "P-68056",
+      "squadNumber": 19,
+      "name": "Hong Qi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "china-2002-chen_yang",
+      "identityId": "P-84550",
+      "squadNumber": 20,
+      "name": "Chen Yang",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for China (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "china-2002-yunlong_xu",
+      "identityId": "P-39905",
+      "squadNumber": 21,
+      "name": "Yunlong Xu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-jin_jiang",
+      "identityId": "P-02177",
+      "squadNumber": 22,
+      "name": "Jin Jiang",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for China (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "china-2002-chuliang_ou",
+      "identityId": "P-92129",
+      "squadNumber": 23,
+      "name": "Chuliang Ou",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for China (Group Stage). Squad reserve member."
+    }
+  ]
+}

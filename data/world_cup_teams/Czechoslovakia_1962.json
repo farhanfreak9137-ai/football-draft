@@ -1,0 +1,498 @@
+{
+  "teamName": "Czechoslovakia",
+  "teamCode": "CSK",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "czechoslovakia-1962-viliam_schrojf",
+      "identityId": "P-09155",
+      "squadNumber": 1,
+      "name": "Viliam Schrojf",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-jan_l_la",
+      "identityId": "P-10947",
+      "squadNumber": 2,
+      "name": "Jan Lála",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-j_n_popluh_r",
+      "identityId": "P-21516",
+      "squadNumber": 3,
+      "name": "Ján Popluhár",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-ladislav_nov_k",
+      "identityId": "P-77492",
+      "squadNumber": 4,
+      "name": "Ladislav Novák",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-svatopluk_pluskal",
+      "identityId": "P-21834",
+      "squadNumber": 5,
+      "name": "Svatopluk Pluskal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-josef_masopust",
+      "identityId": "P-37610",
+      "squadNumber": 6,
+      "name": "Josef Masopust",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1962-jozef_tibr_nyi",
+      "identityId": "P-53400",
+      "squadNumber": 7,
+      "name": "Jozef Štibrányi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1962-adolf_scherer",
+      "identityId": "P-82183",
+      "squadNumber": 8,
+      "name": "Adolf Scherer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1962-pavol_moln_r",
+      "identityId": "P-90655",
+      "squadNumber": 9,
+      "name": "Pavol Molnár",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-jozef_adamec",
+      "identityId": "P-34289",
+      "squadNumber": 10,
+      "name": "Jozef Adamec",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-josef_jel_nek",
+      "identityId": "P-26685",
+      "squadNumber": 11,
+      "name": "Josef Jelínek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "czechoslovakia-1962-ji_tich_",
+      "identityId": "P-46630",
+      "squadNumber": 12,
+      "name": "Jiří Tichý",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-franti_ek_schmucker",
+      "identityId": "P-63937",
+      "squadNumber": 13,
+      "name": "František Schmucker",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-v_clav_ma_ek",
+      "identityId": "P-88346",
+      "squadNumber": 14,
+      "name": "Václav Mašek",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1962-vladim_r_kos",
+      "identityId": "P-62981",
+      "squadNumber": 15,
+      "name": "Vladimír Kos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-titus_bubern_k",
+      "identityId": "P-55526",
+      "squadNumber": 16,
+      "name": "Titus Buberník",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-tom_posp_chal",
+      "identityId": "P-57430",
+      "squadNumber": 17,
+      "name": "Tomáš Pospíchal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-josef_kadraba",
+      "identityId": "P-90033",
+      "squadNumber": 18,
+      "name": "Josef Kadraba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1962-andrej_kva_k",
+      "identityId": "P-25708",
+      "squadNumber": 19,
+      "name": "Andrej Kvašňák",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-jaroslav_borovi_ka",
+      "identityId": "P-16445",
+      "squadNumber": 20,
+      "name": "Jaroslav Borovička",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-pavel_kouba",
+      "identityId": "P-69107",
+      "squadNumber": 21,
+      "name": "Pavel Kouba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1962-jozef_bomba",
+      "identityId": "P-22136",
+      "squadNumber": 22,
+      "name": "Jozef Bomba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1962 World Cup performance for Czechoslovakia (Runners-up). Squad reserve member."
+    }
+  ]
+}

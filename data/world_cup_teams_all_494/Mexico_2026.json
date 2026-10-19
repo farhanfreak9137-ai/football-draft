@@ -1,0 +1,492 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "mexico-2026-luis_malag_n",
+      "identityId": "identity-2026-luis_malag_n",
+      "squadNumber": 1,
+      "name": "Luis Malagón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-jorge_s_nchez",
+      "identityId": "identity-2026-jorge_s_nchez",
+      "squadNumber": 2,
+      "name": "Jorge Sánchez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-c_sar_montes",
+      "identityId": "identity-2026-c_sar_montes",
+      "squadNumber": 3,
+      "name": "César Montes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-edson_lvarez",
+      "identityId": "identity-2026-edson_lvarez",
+      "squadNumber": 4,
+      "name": "Edson Álvarez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CB"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "National Team Captain & Premier League Anchor"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "National Team Captain & Premier League Anchor",
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Mexico. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "mexico-2026-johan_v_squez",
+      "identityId": "identity-2026-johan_v_squez",
+      "squadNumber": 5,
+      "name": "Johan Vásquez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-gerardo_arteaga",
+      "identityId": "identity-2026-gerardo_arteaga",
+      "squadNumber": 6,
+      "name": "Gerardo Arteaga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 79,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-luis_romo",
+      "identityId": "identity-2026-luis_romo",
+      "squadNumber": 7,
+      "name": "Luis Romo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-carlos_rodr_guez",
+      "identityId": "identity-2026-carlos_rodr_guez",
+      "squadNumber": 8,
+      "name": "Carlos Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-santiago_gim_nez",
+      "identityId": "identity-2026-santiago_gim_nez",
+      "squadNumber": 9,
+      "name": "Santiago Giménez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Mexico. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "mexico-2026-alexis_vega",
+      "identityId": "identity-2026-alexis_vega",
+      "squadNumber": 10,
+      "name": "Alexis Vega",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-hirving_lozano",
+      "identityId": "identity-2026-hirving_lozano",
+      "squadNumber": 11,
+      "name": "Hirving Lozano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-julio_gonz_lez",
+      "identityId": "identity-2026-julio_gonz_lez",
+      "squadNumber": 12,
+      "name": "Julio González",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Mexico. National squad reserve depth."
+    },
+    {
+      "id": "mexico-2026-guillermo_ochoa",
+      "identityId": "identity-2026-guillermo_ochoa",
+      "squadNumber": 13,
+      "name": "Guillermo Ochoa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Mexico. National squad reserve depth."
+    },
+    {
+      "id": "mexico-2026-erick_s_nchez",
+      "identityId": "identity-2026-erick_s_nchez",
+      "squadNumber": 14,
+      "name": "Erick Sánchez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-uriel_antuna",
+      "identityId": "identity-2026-uriel_antuna",
+      "squadNumber": 15,
+      "name": "Uriel Antuna",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-juli_n_qui_ones",
+      "identityId": "identity-2026-juli_n_qui_ones",
+      "squadNumber": 16,
+      "name": "Julián Quiñones",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-orbel_n_pineda",
+      "identityId": "identity-2026-orbel_n_pineda",
+      "squadNumber": 17,
+      "name": "Orbelín Pineda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-luis_ch_vez",
+      "identityId": "identity-2026-luis_ch_vez",
+      "squadNumber": 18,
+      "name": "Luis Chávez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Mexico. Regular starting lineup selection."
+    },
+    {
+      "id": "mexico-2026-israel_reyes",
+      "identityId": "identity-2026-israel_reyes",
+      "squadNumber": 19,
+      "name": "Israel Reyes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-henry_mart_n",
+      "identityId": "identity-2026-henry_mart_n",
+      "squadNumber": 20,
+      "name": "Henry Martín",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-jes_s_orozco",
+      "identityId": "identity-2026-jes_s_orozco",
+      "squadNumber": 21,
+      "name": "Jesús Orozco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-marcel_ruiz",
+      "identityId": "identity-2026-marcel_ruiz",
+      "squadNumber": 22,
+      "name": "Marcel Ruiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "mexico-2026-ra_l_jim_nez",
+      "identityId": "identity-2026-ra_l_jim_nez",
+      "squadNumber": 23,
+      "name": "Raúl Jiménez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Mexico. Frequent tactical rotation contributor."
+    }
+  ]
+}

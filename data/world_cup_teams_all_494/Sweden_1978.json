@@ -1,0 +1,497 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "sweden-1978-ronnie_hellstr_m",
+      "identityId": "P-43209",
+      "squadNumber": 1,
+      "name": "Ronnie Hellström",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-hasse_borg",
+      "identityId": "P-59590",
+      "squadNumber": 2,
+      "name": "Hasse Borg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-roy_andersson",
+      "identityId": "P-60570",
+      "squadNumber": 3,
+      "name": "Roy Andersson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-bj_rn_nordqvist",
+      "identityId": "P-29454",
+      "squadNumber": 4,
+      "name": "Björn Nordqvist",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-ingemar_erlandsson",
+      "identityId": "P-52124",
+      "squadNumber": 5,
+      "name": "Ingemar Erlandsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-staffan_tapper",
+      "identityId": "P-88425",
+      "squadNumber": 6,
+      "name": "Staffan Tapper",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1978-anders_linderoth",
+      "identityId": "P-69553",
+      "squadNumber": 7,
+      "name": "Anders Linderoth",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1978-bo_larsson",
+      "identityId": "P-86931",
+      "squadNumber": 8,
+      "name": "Bo Larsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-lennart_larsson",
+      "identityId": "P-00891",
+      "squadNumber": 9,
+      "name": "Lennart Larsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1978-thomas_sj_berg",
+      "identityId": "P-61240",
+      "squadNumber": 10,
+      "name": "Thomas Sjöberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1978 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1978-benny_wendt",
+      "identityId": "P-03989",
+      "squadNumber": 11,
+      "name": "Benny Wendt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1978-g_ran_hagberg",
+      "identityId": "P-16755",
+      "squadNumber": 12,
+      "name": "Göran Hagberg",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-magnus_andersson",
+      "identityId": "P-65696",
+      "squadNumber": 13,
+      "name": "Magnus Andersson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-ronald_hman",
+      "identityId": "P-91705",
+      "squadNumber": 14,
+      "name": "Ronald Åhman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-torbj_rn_nilsson",
+      "identityId": "P-55852",
+      "squadNumber": 15,
+      "name": "Torbjörn Nilsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1978-conny_torstensson",
+      "identityId": "P-52989",
+      "squadNumber": 16,
+      "name": "Conny Torstensson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1978 World Cup performance for Sweden (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-1978-jan_m_ller",
+      "identityId": "P-91463",
+      "squadNumber": 17,
+      "name": "Jan Möller",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-olle_nordin",
+      "identityId": "P-06774",
+      "squadNumber": 18,
+      "name": "Olle Nordin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1978-kent_karlsson",
+      "identityId": "P-37942",
+      "squadNumber": 19,
+      "name": "Kent Karlsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-roland_andersson",
+      "identityId": "P-12765",
+      "squadNumber": 20,
+      "name": "Roland Andersson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-sanny_slund",
+      "identityId": "P-35750",
+      "squadNumber": 21,
+      "name": "Sanny Åslund",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1978 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1978-ralf_edstr_m",
+      "identityId": "P-39318",
+      "squadNumber": 22,
+      "name": "Ralf Edström",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

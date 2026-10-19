@@ -1,0 +1,516 @@
+{
+  "teamName": "Nigeria",
+  "teamCode": "NGA",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "nigeria-2010-vincent_enyeama",
+      "identityId": "P-39249",
+      "squadNumber": 1,
+      "name": "Vincent Enyeama",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2010-joseph_yobo",
+      "identityId": "P-64104",
+      "squadNumber": 2,
+      "name": "Joseph Yobo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2010-taye_taiwo",
+      "identityId": "P-51705",
+      "squadNumber": 3,
+      "name": "Taye Taiwo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2010-nwankwo_kanu",
+      "identityId": "P-91516",
+      "squadNumber": 4,
+      "name": "Nwankwo Kanu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2010-rabiu_afolabi",
+      "identityId": "P-55727",
+      "squadNumber": 5,
+      "name": "Rabiu Afolabi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2010-danny_shittu",
+      "identityId": "P-24770",
+      "squadNumber": 6,
+      "name": "Danny Shittu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2010-john_utaka",
+      "identityId": "P-64893",
+      "squadNumber": 7,
+      "name": "John Utaka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2010-yakubu",
+      "identityId": "P-98373",
+      "squadNumber": 8,
+      "name": "Yakubu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-2010-obafemi_martins",
+      "identityId": "P-52510",
+      "squadNumber": 9,
+      "name": "Obafemi Martins",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "nigeria-2010-brown_ideye",
+      "identityId": "P-39485",
+      "squadNumber": 10,
+      "name": "Brown Ideye",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2010-peter_odemwingie",
+      "identityId": "P-70006",
+      "squadNumber": 11,
+      "name": "Peter Odemwingie",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2010-kalu_uche",
+      "identityId": "P-98626",
+      "squadNumber": 12,
+      "name": "Kalu Uche",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "nigeria-2010-ayila_yussuf",
+      "identityId": "P-04333",
+      "squadNumber": 13,
+      "name": "Ayila Yussuf",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2010-sani_kaita",
+      "identityId": "P-34118",
+      "squadNumber": 14,
+      "name": "Sani Kaita",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2010-lukman_haruna",
+      "identityId": "P-98826",
+      "squadNumber": 15,
+      "name": "Lukman Haruna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2010-austin_ejide",
+      "identityId": "P-47983",
+      "squadNumber": 16,
+      "name": "Austin Ejide",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2010-chidi_odiah",
+      "identityId": "P-65327",
+      "squadNumber": 17,
+      "name": "Chidi Odiah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2010-victor_obinna",
+      "identityId": "P-04567",
+      "squadNumber": 18,
+      "name": "Victor Obinna",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-2010-chinedu_obasi",
+      "identityId": "P-62448",
+      "squadNumber": 19,
+      "name": "Chinedu Obasi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "nigeria-2010-dickson_etuhu",
+      "identityId": "P-96711",
+      "squadNumber": 20,
+      "name": "Dickson Etuhu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-2010-elderson_echi_jil_",
+      "identityId": "P-45065",
+      "squadNumber": 21,
+      "name": "Elderson Echiéjilé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "nigeria-2010-dele_adeleye",
+      "identityId": "P-42799",
+      "squadNumber": 22,
+      "name": "Dele Adeleye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "nigeria-2010-dele_aiyenugba",
+      "identityId": "P-73175",
+      "squadNumber": 23,
+      "name": "Dele Aiyenugba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Nigeria (Group Stage). Squad reserve member."
+    }
+  ]
+}

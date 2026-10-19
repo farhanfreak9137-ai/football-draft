@@ -1,0 +1,521 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URU",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 25,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "uruguay-2026-sergio_rochet",
+      "identityId": "identity-2026-sergio_rochet",
+      "squadNumber": 1,
+      "name": "Sergio Rochet",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-nahitan_n_ndez",
+      "identityId": "identity-2026-nahitan_n_ndez",
+      "squadNumber": 8,
+      "name": "Nahitan Nández",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-ronald_ara_jo",
+      "identityId": "identity-2026-ronald_ara_jo",
+      "squadNumber": 4,
+      "name": "Ronald Araújo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Uruguay. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "uruguay-2026-jos_mar_a_gim_nez",
+      "identityId": "identity-2026-jos_mar_a_gim_nez",
+      "squadNumber": 2,
+      "name": "José María Giménez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-math_as_olivera",
+      "identityId": "identity-2026-math_as_olivera",
+      "squadNumber": 16,
+      "name": "Mathías Olivera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-manuel_ugarte",
+      "identityId": "identity-2026-manuel_ugarte",
+      "squadNumber": 5,
+      "name": "Manuel Ugarte",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-federico_valverde",
+      "identityId": "identity-2026-federico_valverde",
+      "squadNumber": 15,
+      "name": "Federico Valverde",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Champions League Champion & National Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Champions League Champion & National Captain",
+      "ratingRationale": "Rated 90 OVR for 2026 World Cup form with Uruguay. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "uruguay-2026-nicol_s_de_la_cruz",
+      "identityId": "identity-2026-nicol_s_de_la_cruz",
+      "squadNumber": 7,
+      "name": "Nicolás de la Cruz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-facundo_pellistri",
+      "identityId": "identity-2026-facundo_pellistri",
+      "squadNumber": 11,
+      "name": "Facundo Pellistri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-darwin_n_ez",
+      "identityId": "identity-2026-darwin_n_ez",
+      "squadNumber": 19,
+      "name": "Darwin Núñez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Uruguay. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "uruguay-2026-maximiliano_ara_jo",
+      "identityId": "identity-2026-maximiliano_ara_jo",
+      "squadNumber": 20,
+      "name": "Maximiliano Araújo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "LM"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Uruguay. Regular starting lineup selection."
+    },
+    {
+      "id": "uruguay-2026-franco_israel",
+      "identityId": "identity-2026-franco_israel",
+      "squadNumber": 12,
+      "name": "Franco Israel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Uruguay. National squad reserve depth."
+    },
+    {
+      "id": "uruguay-2026-santiago_mele",
+      "identityId": "identity-2026-santiago_mele",
+      "squadNumber": 23,
+      "name": "Santiago Mele",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Uruguay. National squad reserve depth."
+    },
+    {
+      "id": "uruguay-2026-sebasti_n_c_ceres",
+      "identityId": "identity-2026-sebasti_n_c_ceres",
+      "squadNumber": 3,
+      "name": "Sebastián Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-mat_as_vi_a",
+      "identityId": "identity-2026-mat_as_vi_a",
+      "squadNumber": 17,
+      "name": "Matías Viña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-nicol_s_marichal",
+      "identityId": "identity-2026-nicol_s_marichal",
+      "squadNumber": 22,
+      "name": "Nicolás Marichal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-lucas_olaza",
+      "identityId": "identity-2026-lucas_olaza",
+      "squadNumber": 24,
+      "name": "Lucas Olaza",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-rodrigo_bentancur",
+      "identityId": "identity-2026-rodrigo_bentancur",
+      "squadNumber": 6,
+      "name": "Rodrigo Bentancur",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-giorgian_de_arrascaeta",
+      "identityId": "identity-2026-giorgian_de_arrascaeta",
+      "squadNumber": 10,
+      "name": "Giorgian de Arrascaeta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-emiliano_mart_nez",
+      "identityId": "identity-2026-emiliano_mart_nez",
+      "squadNumber": 21,
+      "name": "Emiliano Martínez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-luis_su_rez",
+      "identityId": "identity-2026-luis_su_rez",
+      "squadNumber": 9,
+      "name": "Luis Suárez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-agust_n_canobbio",
+      "identityId": "identity-2026-agust_n_canobbio",
+      "squadNumber": 14,
+      "name": "Agustín Canobbio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "RM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-brian_rodr_guez",
+      "identityId": "identity-2026-brian_rodr_guez",
+      "squadNumber": 18,
+      "name": "Brian Rodríguez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Uruguay. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "uruguay-2026-cristian_olivera",
+      "identityId": "identity-2026-cristian_olivera",
+      "squadNumber": 25,
+      "name": "Cristian Olivera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Uruguay. National squad reserve depth."
+    },
+    {
+      "id": "uruguay-2026-brian_ocampo",
+      "identityId": "identity-2026-brian_ocampo",
+      "squadNumber": 26,
+      "name": "Brian Ocampo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Uruguay. National squad reserve depth."
+    }
+  ]
+}

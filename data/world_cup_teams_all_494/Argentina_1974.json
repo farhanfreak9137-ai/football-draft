@@ -1,0 +1,496 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "argentina-1974-daniel_carnevali",
+      "identityId": "P-53390",
+      "squadNumber": 1,
+      "name": "Daniel Carnevali",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1974-rub_n_ayala",
+      "identityId": "P-30957",
+      "squadNumber": 2,
+      "name": "Rubén Ayala",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1974-carlos_babington",
+      "identityId": "P-33365",
+      "squadNumber": 3,
+      "name": "Carlos Babington",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1974-agust_n_balbuena",
+      "identityId": "P-26050",
+      "squadNumber": 4,
+      "name": "Agustín Balbuena",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1974-_ngel_bargas",
+      "identityId": "P-56518",
+      "squadNumber": 5,
+      "name": "Ángel Bargas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1974-miguel_ngel_brindisi",
+      "identityId": "P-79103",
+      "squadNumber": 6,
+      "name": "Miguel Ángel Brindisi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1974-jorge_carrascosa",
+      "identityId": "P-37370",
+      "squadNumber": 7,
+      "name": "Jorge Carrascosa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1974-enrique_chazarreta",
+      "identityId": "P-16804",
+      "squadNumber": 8,
+      "name": "Enrique Chazarreta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Argentina (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-1974-rub_n_glaria",
+      "identityId": "P-64046",
+      "squadNumber": 9,
+      "name": "Rubén Glaria",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1974-ram_n_heredia",
+      "identityId": "P-82218",
+      "squadNumber": 10,
+      "name": "Ramón Heredia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1974-ren_houseman",
+      "identityId": "P-04739",
+      "squadNumber": 11,
+      "name": "René Houseman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "argentina-1974-ubaldo_fillol",
+      "identityId": "P-25276",
+      "squadNumber": 12,
+      "name": "Ubaldo Fillol",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1974-mario_kempes",
+      "identityId": "P-35082",
+      "squadNumber": 13,
+      "name": "Mario Kempes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1974-roberto_perfumo",
+      "identityId": "P-94783",
+      "squadNumber": 14,
+      "name": "Roberto Perfumo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1974-aldo_poy",
+      "identityId": "P-49585",
+      "squadNumber": 15,
+      "name": "Aldo Poy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1974-francisco_s_",
+      "identityId": "P-16060",
+      "squadNumber": 16,
+      "name": "Francisco Sá",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1974-carlos_squeo",
+      "identityId": "P-63462",
+      "squadNumber": 17,
+      "name": "Carlos Squeo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1974-roberto_telch",
+      "identityId": "P-68438",
+      "squadNumber": 18,
+      "name": "Roberto Telch",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1974-n_stor_togneri",
+      "identityId": "P-39768",
+      "squadNumber": 19,
+      "name": "Néstor Togneri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1974-enrique_wolff",
+      "identityId": "P-90840",
+      "squadNumber": 20,
+      "name": "Enrique Wolff",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1974-miguel_ngel_santoro",
+      "identityId": "P-81341",
+      "squadNumber": 21,
+      "name": "Miguel Ángel Santoro",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1974 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1974-h_ctor_yazalde",
+      "identityId": "P-82033",
+      "squadNumber": 22,
+      "name": "Héctor Yazalde",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1974 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    }
+  ]
+}

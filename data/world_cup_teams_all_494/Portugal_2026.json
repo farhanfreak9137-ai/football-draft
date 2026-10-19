@@ -1,0 +1,545 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "POR",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "portugal-2026-diogo_costa",
+      "identityId": "identity-2026-diogo_costa",
+      "squadNumber": 22,
+      "name": "Diogo Costa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Portugal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "portugal-2026-jo_o_cancelo",
+      "identityId": "identity-2026-jo_o_cancelo",
+      "squadNumber": 20,
+      "name": "João Cancelo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "LB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Portugal. Regular starting lineup selection."
+    },
+    {
+      "id": "portugal-2026-r_ben_dias",
+      "identityId": "identity-2026-r_ben_dias",
+      "squadNumber": 4,
+      "name": "Rúben Dias",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Portugal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "portugal-2026-gon_alo_in_cio",
+      "identityId": "identity-2026-gon_alo_in_cio",
+      "squadNumber": 14,
+      "name": "Gonçalo Inácio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Portugal. Regular starting lineup selection."
+    },
+    {
+      "id": "portugal-2026-nuno_mendes",
+      "identityId": "identity-2026-nuno_mendes",
+      "squadNumber": 19,
+      "name": "Nuno Mendes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Portugal. Regular starting lineup selection."
+    },
+    {
+      "id": "portugal-2026-jo_o_palhinha",
+      "identityId": "identity-2026-jo_o_palhinha",
+      "squadNumber": 6,
+      "name": "João Palhinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Portugal. Regular starting lineup selection."
+    },
+    {
+      "id": "portugal-2026-bruno_fernandes",
+      "identityId": "identity-2026-bruno_fernandes",
+      "squadNumber": 8,
+      "name": "Bruno Fernandes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "CM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Portugal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "portugal-2026-bernardo_silva",
+      "identityId": "identity-2026-bernardo_silva",
+      "squadNumber": 10,
+      "name": "Bernardo Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Portugal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "portugal-2026-rafael_le_o",
+      "identityId": "identity-2026-rafael_le_o",
+      "squadNumber": 17,
+      "name": "Rafael Leão",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Portugal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "portugal-2026-cristiano_ronaldo",
+      "identityId": "identity-2026-cristiano_ronaldo",
+      "squadNumber": 7,
+      "name": "Cristiano Ronaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "All-Time International Goal Record Holder & Icon"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "All-Time International Goal Record Holder & Icon",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Portugal. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "portugal-2026-jo_o_f_lix",
+      "identityId": "identity-2026-jo_o_f_lix",
+      "squadNumber": 11,
+      "name": "João Félix",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Portugal. Regular starting lineup selection."
+    },
+    {
+      "id": "portugal-2026-rui_patr_cio",
+      "identityId": "identity-2026-rui_patr_cio",
+      "squadNumber": 1,
+      "name": "Rui Patrício",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Portugal. National squad reserve depth."
+    },
+    {
+      "id": "portugal-2026-jos_s_",
+      "identityId": "identity-2026-jos_s_",
+      "squadNumber": 12,
+      "name": "José Sá",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Portugal. National squad reserve depth."
+    },
+    {
+      "id": "portugal-2026-n_lson_semedo",
+      "identityId": "identity-2026-n_lson_semedo",
+      "squadNumber": 2,
+      "name": "Nélson Semedo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-pepe",
+      "identityId": "identity-2026-pepe",
+      "squadNumber": 3,
+      "name": "Pepe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-diogo_dalot",
+      "identityId": "identity-2026-diogo_dalot",
+      "squadNumber": 5,
+      "name": "Diogo Dalot",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-ant_nio_silva",
+      "identityId": "identity-2026-ant_nio_silva",
+      "squadNumber": 24,
+      "name": "António Silva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-danilo_pereira",
+      "identityId": "identity-2026-danilo_pereira",
+      "squadNumber": 13,
+      "name": "Danilo Pereira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-jo_o_neves",
+      "identityId": "identity-2026-jo_o_neves",
+      "squadNumber": 15,
+      "name": "João Neves",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-matheus_nunes",
+      "identityId": "identity-2026-matheus_nunes",
+      "squadNumber": 16,
+      "name": "Matheus Nunes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-r_ben_neves",
+      "identityId": "identity-2026-r_ben_neves",
+      "squadNumber": 18,
+      "name": "Rúben Neves",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-vitinha",
+      "identityId": "identity-2026-vitinha",
+      "squadNumber": 23,
+      "name": "Vitinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-gon_alo_ramos",
+      "identityId": "identity-2026-gon_alo_ramos",
+      "squadNumber": 9,
+      "name": "Gonçalo Ramos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-diogo_jota",
+      "identityId": "identity-2026-diogo_jota",
+      "squadNumber": 21,
+      "name": "Diogo Jota",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-pedro_neto",
+      "identityId": "identity-2026-pedro_neto",
+      "squadNumber": 25,
+      "name": "Pedro Neto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "portugal-2026-francisco_concei_o",
+      "identityId": "identity-2026-francisco_concei_o",
+      "squadNumber": 26,
+      "name": "Francisco Conceição",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Portugal. Frequent tactical rotation contributor."
+    }
+  ]
+}

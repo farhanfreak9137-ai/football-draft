@@ -1,0 +1,515 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "uruguay-2014-fernando_muslera",
+      "identityId": "P-10014",
+      "squadNumber": 1,
+      "name": "Fernando Muslera",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-2014-diego_lugano",
+      "identityId": "P-89878",
+      "squadNumber": 2,
+      "name": "Diego Lugano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2014-diego_god_n",
+      "identityId": "P-78440",
+      "squadNumber": 3,
+      "name": "Diego Godín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2014-jorge_fucile",
+      "identityId": "P-95196",
+      "squadNumber": 4,
+      "name": "Jorge Fucile",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-2014-walter_gargano",
+      "identityId": "P-78735",
+      "squadNumber": 5,
+      "name": "Walter Gargano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2014-_lvaro_pereira",
+      "identityId": "P-11075",
+      "squadNumber": 6,
+      "name": "Álvaro Pereira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2014-cristian_rodr_guez",
+      "identityId": "P-14180",
+      "squadNumber": 7,
+      "name": "Cristian Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-2014-abel_hern_ndez",
+      "identityId": "P-94155",
+      "squadNumber": 8,
+      "name": "Abel Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2014-luis_su_rez",
+      "identityId": "P-30486",
+      "squadNumber": 9,
+      "name": "Luis Suárez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "uruguay-2014-diego_forl_n",
+      "identityId": "P-86087",
+      "squadNumber": 10,
+      "name": "Diego Forlán",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2014-cristhian_stuani",
+      "identityId": "P-25776",
+      "squadNumber": 11,
+      "name": "Cristhian Stuani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2014-rodrigo_mu_oz",
+      "identityId": "P-18230",
+      "squadNumber": 12,
+      "name": "Rodrigo Muñoz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2014-jos_gim_nez",
+      "identityId": "P-65659",
+      "squadNumber": 13,
+      "name": "José Giménez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2014-nicol_s_lodeiro",
+      "identityId": "P-36662",
+      "squadNumber": 14,
+      "name": "Nicolás Lodeiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2014-diego_p_rez",
+      "identityId": "P-53254",
+      "squadNumber": 15,
+      "name": "Diego Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2014-maxi_pereira",
+      "identityId": "P-41944",
+      "squadNumber": 16,
+      "name": "Maxi Pereira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2014-egidio_ar_valo_r_os",
+      "identityId": "P-80668",
+      "squadNumber": 17,
+      "name": "Egidio Arévalo Ríos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-2014-gast_n_ram_rez",
+      "identityId": "P-79723",
+      "squadNumber": 18,
+      "name": "Gastón Ramírez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2014-sebasti_n_coates",
+      "identityId": "P-20051",
+      "squadNumber": 19,
+      "name": "Sebastián Coates",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-2014-_lvaro_gonz_lez",
+      "identityId": "P-21702",
+      "squadNumber": 20,
+      "name": "Álvaro González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2014-edinson_cavani",
+      "identityId": "P-59138",
+      "squadNumber": 21,
+      "name": "Edinson Cavani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2014-mart_n_c_ceres",
+      "identityId": "P-74058",
+      "squadNumber": 22,
+      "name": "Martín Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-2014-mart_n_silva",
+      "identityId": "P-59802",
+      "squadNumber": 23,
+      "name": "Martín Silva",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2014 World Cup performance for Uruguay (Round of 16). Squad reserve member."
+    }
+  ]
+}

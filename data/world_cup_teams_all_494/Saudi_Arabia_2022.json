@@ -1,0 +1,582 @@
+{
+  "teamName": "Saudi Arabia",
+  "teamCode": "SAU",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "saudi_arabia-2022-mohammed_al-rubaie",
+      "identityId": "P-06659",
+      "squadNumber": 1,
+      "name": "Mohammed Al-Rubaie",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2022-sultan_al-ghannam",
+      "identityId": "P-06789",
+      "squadNumber": 2,
+      "name": "Sultan Al-Ghannam",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-abdullah_madu",
+      "identityId": "P-20388",
+      "squadNumber": 3,
+      "name": "Abdullah Madu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2022-abdulelah_al-amri",
+      "identityId": "P-12335",
+      "squadNumber": 4,
+      "name": "Abdulelah Al-Amri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-ali_al-bulaihi",
+      "identityId": "P-87284",
+      "squadNumber": 5,
+      "name": "Ali Al-Bulaihi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2022-mohammed_al-breik",
+      "identityId": "P-94422",
+      "squadNumber": 6,
+      "name": "Mohammed Al-Breik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-salman_al-faraj",
+      "identityId": "P-93688",
+      "squadNumber": 7,
+      "name": "Salman Al-Faraj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-abdulellah_al-malki",
+      "identityId": "P-20216",
+      "squadNumber": 8,
+      "name": "Abdulellah Al-Malki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-firas_al-buraikan",
+      "identityId": "P-89845",
+      "squadNumber": 9,
+      "name": "Firas Al-Buraikan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2022-salem_al-dawsari",
+      "identityId": "P-70583",
+      "squadNumber": 10,
+      "name": "Salem Al-Dawsari",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-2022-saleh_al-shehri",
+      "identityId": "P-37308",
+      "squadNumber": 11,
+      "name": "Saleh Al-Shehri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-2022-saud_abdulhamid",
+      "identityId": "P-08125",
+      "squadNumber": 12,
+      "name": "Saud Abdulhamid",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2022-yasser_al-shahrani",
+      "identityId": "P-45457",
+      "squadNumber": 13,
+      "name": "Yasser Al-Shahrani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-abdullah_otayf",
+      "identityId": "P-99177",
+      "squadNumber": 14,
+      "name": "Abdullah Otayf",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2022-ali_al-hassan",
+      "identityId": "P-45413",
+      "squadNumber": 15,
+      "name": "Ali Al-Hassan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-sami_al-najei",
+      "identityId": "P-87569",
+      "squadNumber": 16,
+      "name": "Sami Al-Najei",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-hassan_al-tambakti",
+      "identityId": "P-93173",
+      "squadNumber": 17,
+      "name": "Hassan Al-Tambakti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-2022-nawaf_al-abed",
+      "identityId": "P-76864",
+      "squadNumber": 18,
+      "name": "Nawaf Al-Abed",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2022-hattan_bahebri",
+      "identityId": "P-84563",
+      "squadNumber": 19,
+      "name": "Hattan Bahebri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2022-abdulrahman_al-aboud",
+      "identityId": "P-45581",
+      "squadNumber": 20,
+      "name": "Abdulrahman Al-Aboud",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2022-mohammed_al-owais",
+      "identityId": "P-85438",
+      "squadNumber": 21,
+      "name": "Mohammed Al-Owais",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2022-nawaf_al-aqidi",
+      "identityId": "P-67035",
+      "squadNumber": 22,
+      "name": "Nawaf Al-Aqidi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-2022-mohamed_kanno",
+      "identityId": "P-91268",
+      "squadNumber": 23,
+      "name": "Mohamed Kanno",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-2022-nasser_al-dawsari",
+      "identityId": "P-10907",
+      "squadNumber": 24,
+      "name": "Nasser Al-Dawsari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2022-haitham_asiri",
+      "identityId": "P-40487",
+      "squadNumber": 25,
+      "name": "Haitham Asiri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-2022-riyadh_sharahili",
+      "identityId": "P-06750",
+      "squadNumber": 26,
+      "name": "Riyadh Sharahili",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

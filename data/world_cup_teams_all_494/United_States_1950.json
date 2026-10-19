@@ -1,0 +1,412 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 1950,
+  "tournament": "1950 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 18,
+  "averageOvr": 75,
+  "players": [
+    {
+      "id": "united_states-1950-robert_annis",
+      "identityId": "P-70389",
+      "squadNumber": 1,
+      "name": "Robert Annis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-walter_bahr",
+      "identityId": "P-43823",
+      "squadNumber": 2,
+      "name": "Walter Bahr",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-frank_borghi",
+      "identityId": "P-89288",
+      "squadNumber": 3,
+      "name": "Frank Borghi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-charlie_colombo",
+      "identityId": "P-06124",
+      "squadNumber": 4,
+      "name": "Charlie Colombo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-geoff_coombes",
+      "identityId": "P-81517",
+      "squadNumber": 5,
+      "name": "Geoff Coombes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-robert_craddock",
+      "identityId": "P-62878",
+      "squadNumber": 6,
+      "name": "Robert Craddock",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-nicholas_diorio",
+      "identityId": "P-26508",
+      "squadNumber": 7,
+      "name": "Nicholas DiOrio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-joe_gaetjens",
+      "identityId": "P-62622",
+      "squadNumber": 8,
+      "name": "Joe Gaetjens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1950-gino_gardassanich",
+      "identityId": "P-85649",
+      "squadNumber": 9,
+      "name": "Gino Gardassanich",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-harry_keough",
+      "identityId": "P-71673",
+      "squadNumber": 10,
+      "name": "Harry Keough",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "united_states-1950-joe_maca",
+      "identityId": "P-59276",
+      "squadNumber": 11,
+      "name": "Joe Maca",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1950-ed_mcilvenny",
+      "identityId": "P-46476",
+      "squadNumber": 12,
+      "name": "Ed McIlvenny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-1950-frank_moniz",
+      "identityId": "P-53883",
+      "squadNumber": 13,
+      "name": "Frank Moniz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-1950-gino_pariani",
+      "identityId": "P-88982",
+      "squadNumber": 14,
+      "name": "Gino Pariani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1950-ed_souza",
+      "identityId": "P-62843",
+      "squadNumber": 15,
+      "name": "Ed Souza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-1950-john_souza",
+      "identityId": "P-81717",
+      "squadNumber": 16,
+      "name": "John Souza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for United States (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "united_states-1950-frank_wallace",
+      "identityId": "P-37569",
+      "squadNumber": 17,
+      "name": "Frank Wallace",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for United States (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-1950-adam_wolanin",
+      "identityId": "P-87829",
+      "squadNumber": 18,
+      "name": "Adam Wolanin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for United States (Group Stage). Squad reserve member."
+    }
+  ]
+}

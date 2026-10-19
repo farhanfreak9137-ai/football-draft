@@ -1,0 +1,547 @@
+{
+  "teamName": "Croatia",
+  "teamCode": "CRO",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "croatia-2026-dominik_livakovi_",
+      "identityId": "identity-2026-dominik_livakovi_",
+      "squadNumber": 1,
+      "name": "Dominik Livaković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Croatia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "croatia-2026-josip_stani_i_",
+      "identityId": "identity-2026-josip_stani_i_",
+      "squadNumber": 2,
+      "name": "Josip Stanišić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-josip_utalo",
+      "identityId": "identity-2026-josip_utalo",
+      "squadNumber": 6,
+      "name": "Josip Šutalo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-jo_ko_gvardiol",
+      "identityId": "identity-2026-jo_ko_gvardiol",
+      "squadNumber": 4,
+      "name": "Joško Gvardiol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Croatia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "croatia-2026-borna_sosa",
+      "identityId": "identity-2026-borna_sosa",
+      "squadNumber": 3,
+      "name": "Borna Sosa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-marcelo_brozovi_",
+      "identityId": "identity-2026-marcelo_brozovi_",
+      "squadNumber": 11,
+      "name": "Marcelo Brozović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-luka_modri_",
+      "identityId": "identity-2026-luka_modri_",
+      "squadNumber": 10,
+      "name": "Luka Modrić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Ballon d'Or Winner & 6-Time Champions League Champion"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Ballon d'Or Winner & 6-Time Champions League Champion",
+      "ratingRationale": "Rated 90 OVR for 2026 World Cup form with Croatia. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "croatia-2026-mateo_kova_i_",
+      "identityId": "identity-2026-mateo_kova_i_",
+      "squadNumber": 8,
+      "name": "Mateo Kovačić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-lovro_majer",
+      "identityId": "identity-2026-lovro_majer",
+      "squadNumber": 7,
+      "name": "Lovro Majer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-andrej_kramari_",
+      "identityId": "identity-2026-andrej_kramari_",
+      "squadNumber": 9,
+      "name": "Andrej Kramarić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-ivan_peri_i_",
+      "identityId": "identity-2026-ivan_peri_i_",
+      "squadNumber": 14,
+      "name": "Ivan Perišić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "LWB"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Croatia. Regular starting lineup selection."
+    },
+    {
+      "id": "croatia-2026-nediljko_labrovi_",
+      "identityId": "identity-2026-nediljko_labrovi_",
+      "squadNumber": 12,
+      "name": "Nediljko Labrović",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Croatia. National squad reserve depth."
+    },
+    {
+      "id": "croatia-2026-ivica_ivu_i_",
+      "identityId": "identity-2026-ivica_ivu_i_",
+      "squadNumber": 23,
+      "name": "Ivica Ivušić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Croatia. National squad reserve depth."
+    },
+    {
+      "id": "croatia-2026-martin_erli_",
+      "identityId": "identity-2026-martin_erli_",
+      "squadNumber": 5,
+      "name": "Martin Erlić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-borna_bari_i_",
+      "identityId": "identity-2026-borna_bari_i_",
+      "squadNumber": 19,
+      "name": "Borna Barišić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-domagoj_vida",
+      "identityId": "identity-2026-domagoj_vida",
+      "squadNumber": 21,
+      "name": "Domagoj Vida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-josip_juranovi_",
+      "identityId": "identity-2026-josip_juranovi_",
+      "squadNumber": 22,
+      "name": "Josip Juranović",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-nikola_vla_i_",
+      "identityId": "identity-2026-nikola_vla_i_",
+      "squadNumber": 13,
+      "name": "Nikola Vlašić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-mario_pa_ali_",
+      "identityId": "identity-2026-mario_pa_ali_",
+      "squadNumber": 15,
+      "name": "Mario Pašalić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "SS"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-luka_su_i_",
+      "identityId": "identity-2026-luka_su_i_",
+      "squadNumber": 25,
+      "name": "Luka Sučić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-martin_baturina",
+      "identityId": "identity-2026-martin_baturina",
+      "squadNumber": 26,
+      "name": "Martin Baturina",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Croatia. National squad reserve depth."
+    },
+    {
+      "id": "croatia-2026-ante_budimir",
+      "identityId": "identity-2026-ante_budimir",
+      "squadNumber": 16,
+      "name": "Ante Budimir",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-bruno_petkovi_",
+      "identityId": "identity-2026-bruno_petkovi_",
+      "squadNumber": 17,
+      "name": "Bruno Petković",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-luka_ivanu_ec",
+      "identityId": "identity-2026-luka_ivanu_ec",
+      "squadNumber": 18,
+      "name": "Luka Ivanušec",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-marko_pjaca",
+      "identityId": "identity-2026-marko_pjaca",
+      "squadNumber": 20,
+      "name": "Marko Pjaca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Croatia. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "croatia-2026-marco_pa_ali_",
+      "identityId": "identity-2026-marco_pa_ali_",
+      "squadNumber": 24,
+      "name": "Marco Pašalić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Croatia. National squad reserve depth."
+    }
+  ]
+}

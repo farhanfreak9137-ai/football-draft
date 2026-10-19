@@ -1,0 +1,583 @@
+{
+  "teamName": "Ghana",
+  "teamCode": "GHA",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "ghana-2022-lawrence_ati-zigi",
+      "identityId": "P-51990",
+      "squadNumber": 1,
+      "name": "Lawrence Ati-Zigi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2022-tariq_lamptey",
+      "identityId": "P-12913",
+      "squadNumber": 2,
+      "name": "Tariq Lamptey",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2022-denis_odoi",
+      "identityId": "P-08359",
+      "squadNumber": 3,
+      "name": "Denis Odoi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ghana (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ghana-2022-mohammed_salisu",
+      "identityId": "P-50142",
+      "squadNumber": 4,
+      "name": "Mohammed Salisu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2022-thomas_partey",
+      "identityId": "P-07875",
+      "squadNumber": 5,
+      "name": "Thomas Partey",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2022-elisha_owusu",
+      "identityId": "P-70145",
+      "squadNumber": 6,
+      "name": "Elisha Owusu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2022-abdul_fatawu_issahaku",
+      "identityId": "P-62854",
+      "squadNumber": 7,
+      "name": "Abdul Fatawu Issahaku",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ghana (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ghana-2022-daniel-kofi_kyereh",
+      "identityId": "P-92252",
+      "squadNumber": 8,
+      "name": "Daniel-Kofi Kyereh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ghana (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "ghana-2022-jordan_ayew",
+      "identityId": "P-31765",
+      "squadNumber": 9,
+      "name": "Jordan Ayew",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ghana (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2022-andr_ayew",
+      "identityId": "P-01945",
+      "squadNumber": 10,
+      "name": "André Ayew",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2022-osman_bukari",
+      "identityId": "P-72363",
+      "squadNumber": 11,
+      "name": "Osman Bukari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Ghana (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2022-ibrahim_danlad",
+      "identityId": "P-16148",
+      "squadNumber": 12,
+      "name": "Ibrahim Danlad",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2022-daniel_afriyie",
+      "identityId": "P-13639",
+      "squadNumber": 13,
+      "name": "Daniel Afriyie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2022-gideon_mensah",
+      "identityId": "P-28517",
+      "squadNumber": 14,
+      "name": "Gideon Mensah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2022-joseph_aidoo",
+      "identityId": "P-09991",
+      "squadNumber": 15,
+      "name": "Joseph Aidoo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2022-abdul_manaf_nurudeen",
+      "identityId": "P-36638",
+      "squadNumber": 16,
+      "name": "Abdul Manaf Nurudeen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2022-baba_rahman",
+      "identityId": "P-94579",
+      "squadNumber": 17,
+      "name": "Baba Rahman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ghana (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2022-daniel_amartey",
+      "identityId": "P-82956",
+      "squadNumber": 18,
+      "name": "Daniel Amartey",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2022-i_aki_williams",
+      "identityId": "P-53967",
+      "squadNumber": 19,
+      "name": "Iñaki Williams",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2022-mohammed_kudus",
+      "identityId": "P-23821",
+      "squadNumber": 20,
+      "name": "Mohammed Kudus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "ghana-2022-salis_abdul_samed",
+      "identityId": "P-21820",
+      "squadNumber": 21,
+      "name": "Salis Abdul Samed",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ghana (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2022-kamaldeen_sulemana",
+      "identityId": "P-33325",
+      "squadNumber": 22,
+      "name": "Kamaldeen Sulemana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ghana (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ghana-2022-alexander_djiku",
+      "identityId": "P-59808",
+      "squadNumber": 23,
+      "name": "Alexander Djiku",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ghana (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2022-kamal_sowah",
+      "identityId": "P-20467",
+      "squadNumber": 24,
+      "name": "Kamal Sowah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ghana (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ghana-2022-antoine_semenyo",
+      "identityId": "P-14179",
+      "squadNumber": 25,
+      "name": "Antoine Semenyo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ghana (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ghana-2022-alidu_seidu",
+      "identityId": "P-36105",
+      "squadNumber": 26,
+      "name": "Alidu Seidu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ghana (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

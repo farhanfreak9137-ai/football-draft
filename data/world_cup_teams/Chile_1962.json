@@ -1,0 +1,496 @@
+{
+  "teamName": "Chile",
+  "teamCode": "CHL",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "chile-1962-misael_escuti",
+      "identityId": "P-00747",
+      "squadNumber": 1,
+      "name": "Misael Escuti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-luis_eyzaguirre",
+      "identityId": "P-15923",
+      "squadNumber": 2,
+      "name": "Luis Eyzaguirre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-ra_l_s_nchez",
+      "identityId": "P-53489",
+      "squadNumber": 3,
+      "name": "Raúl Sánchez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-sergio_navarro",
+      "identityId": "P-51334",
+      "squadNumber": 4,
+      "name": "Sergio Navarro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-carlos_contreras",
+      "identityId": "P-79148",
+      "squadNumber": 5,
+      "name": "Carlos Contreras",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-eladio_rojas",
+      "identityId": "P-65214",
+      "squadNumber": 6,
+      "name": "Eladio Rojas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1962 World Cup performance for Chile (Third Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "chile-1962-jaime_ram_rez",
+      "identityId": "P-98252",
+      "squadNumber": 7,
+      "name": "Jaime Ramírez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1962 World Cup performance for Chile (Third Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "chile-1962-jorge_toro",
+      "identityId": "P-01618",
+      "squadNumber": 8,
+      "name": "Jorge Toro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1962 World Cup performance for Chile (Third Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "chile-1962-honorino_landa",
+      "identityId": "P-87363",
+      "squadNumber": 9,
+      "name": "Honorino Landa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-alberto_fouilloux",
+      "identityId": "P-69887",
+      "squadNumber": 10,
+      "name": "Alberto Fouilloux",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1962 World Cup performance for Chile (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "chile-1962-leonel_s_nchez",
+      "identityId": "P-22224",
+      "squadNumber": 11,
+      "name": "Leonel Sánchez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1962 FIFA World Cup Golden Boot Winner (4 Goals)",
+      "ratingRationale": "Rated 94 OVR based on 1962 World Cup performance for Chile (Third Place). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "chile-1962-ad_n_godoy",
+      "identityId": "P-80104",
+      "squadNumber": 12,
+      "name": "Adán Godoy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-sergio_vald_s",
+      "identityId": "P-43288",
+      "squadNumber": 13,
+      "name": "Sergio Valdés",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-hugo_lepe",
+      "identityId": "P-36467",
+      "squadNumber": 14,
+      "name": "Hugo Lepe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-manuel_rodr_guez",
+      "identityId": "P-77566",
+      "squadNumber": 15,
+      "name": "Manuel Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-humberto_cruz",
+      "identityId": "P-23529",
+      "squadNumber": 16,
+      "name": "Humberto Cruz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-mario_ortiz",
+      "identityId": "P-58900",
+      "squadNumber": 17,
+      "name": "Mario Ortiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-mario_moreno",
+      "identityId": "P-97048",
+      "squadNumber": 18,
+      "name": "Mario Moreno",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-braulio_musso",
+      "identityId": "P-52647",
+      "squadNumber": 19,
+      "name": "Braulio Musso",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-carlos_campos",
+      "identityId": "P-42198",
+      "squadNumber": 20,
+      "name": "Carlos Campos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-armando_tobar",
+      "identityId": "P-04782",
+      "squadNumber": 21,
+      "name": "Armando Tobar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    },
+    {
+      "id": "chile-1962-manuel_astorga",
+      "identityId": "P-24782",
+      "squadNumber": 22,
+      "name": "Manuel Astorga",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Chile (Third Place). Squad reserve member."
+    }
+  ]
+}

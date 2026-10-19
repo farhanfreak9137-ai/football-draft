@@ -1,0 +1,500 @@
+{
+  "teamName": "Mexico",
+  "teamCode": "MEX",
+  "year": 1950,
+  "tournament": "1950 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "mexico-1950-jos_luis_borbolla",
+      "identityId": "P-28840",
+      "squadNumber": 1,
+      "name": "José Luis Borbolla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-antonio_carbajal",
+      "identityId": "P-69496",
+      "squadNumber": 2,
+      "name": "Antonio Carbajal",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-horacio_casar_n",
+      "identityId": "P-22131",
+      "squadNumber": 3,
+      "name": "Horacio Casarín",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1950-ra_l_c_rdoba",
+      "identityId": "P-51375",
+      "squadNumber": 4,
+      "name": "Raúl Córdoba",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-samuel_cuburu",
+      "identityId": "P-01521",
+      "squadNumber": 5,
+      "name": "Samuel Cuburu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-antonio_flores",
+      "identityId": "P-52046",
+      "squadNumber": 6,
+      "name": "Antonio Flores",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-gregorio_g_mez",
+      "identityId": "P-74225",
+      "squadNumber": 7,
+      "name": "Gregorio Gómez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-carlos_guevara",
+      "identityId": "P-25299",
+      "squadNumber": 8,
+      "name": "Carlos Guevara",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-manuel_guti_rrez",
+      "identityId": "P-78559",
+      "squadNumber": 9,
+      "name": "Manuel Gutiérrez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-francisco_hern_ndez",
+      "identityId": "P-10564",
+      "squadNumber": 10,
+      "name": "Francisco Hernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-alfonso_montemayor",
+      "identityId": "P-66344",
+      "squadNumber": 11,
+      "name": "Alfonso Montemayor",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "mexico-1950-jos_naranjo",
+      "identityId": "P-44601",
+      "squadNumber": 12,
+      "name": "José Naranjo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-leonardo_navarro",
+      "identityId": "P-78973",
+      "squadNumber": 13,
+      "name": "Leonardo Navarro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-mario_ochoa",
+      "identityId": "P-98520",
+      "squadNumber": 14,
+      "name": "Mario Ochoa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-h_ctor_ortiz",
+      "identityId": "P-36858",
+      "squadNumber": 15,
+      "name": "Héctor Ortiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Mexico (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "mexico-1950-mario_p_rez",
+      "identityId": "P-49495",
+      "squadNumber": 16,
+      "name": "Mario Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-max_prieto",
+      "identityId": "P-79398",
+      "squadNumber": 17,
+      "name": "Max Prieto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-jos_antonio_roca",
+      "identityId": "P-92882",
+      "squadNumber": 18,
+      "name": "José Antonio Roca",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-rodrigo_ruiz",
+      "identityId": "P-83784",
+      "squadNumber": 19,
+      "name": "Rodrigo Ruiz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-carlos_septi_n",
+      "identityId": "P-65280",
+      "squadNumber": 20,
+      "name": "Carlos Septién",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-jos_vel_zquez",
+      "identityId": "P-67199",
+      "squadNumber": 21,
+      "name": "José Velázquez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "mexico-1950-felipe_zetter",
+      "identityId": "P-55906",
+      "squadNumber": 22,
+      "name": "Felipe Zetter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1950 World Cup performance for Mexico (Group Stage). Squad reserve member."
+    }
+  ]
+}

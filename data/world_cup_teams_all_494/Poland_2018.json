@@ -1,0 +1,515 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "poland-2018-wojciech_szcz_sny",
+      "identityId": "P-31606",
+      "squadNumber": 1,
+      "name": "Wojciech Szczęsny",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-micha_pazdan",
+      "identityId": "P-70794",
+      "squadNumber": 2,
+      "name": "Michał Pazdan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-artur_j_drzejczyk",
+      "identityId": "P-61813",
+      "squadNumber": 3,
+      "name": "Artur Jędrzejczyk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-thiago_cionek",
+      "identityId": "P-40820",
+      "squadNumber": 4,
+      "name": "Thiago Cionek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-jan_bednarek",
+      "identityId": "P-10172",
+      "squadNumber": 5,
+      "name": "Jan Bednarek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-2018-jacek_g_ralski",
+      "identityId": "P-57157",
+      "squadNumber": 6,
+      "name": "Jacek Góralski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-arkadiusz_milik",
+      "identityId": "P-12381",
+      "squadNumber": 7,
+      "name": "Arkadiusz Milik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-karol_linetty",
+      "identityId": "P-64111",
+      "squadNumber": 8,
+      "name": "Karol Linetty",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2018-robert_lewandowski",
+      "identityId": "P-00549",
+      "squadNumber": 9,
+      "name": "Robert Lewandowski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2018-grzegorz_krychowiak",
+      "identityId": "P-45449",
+      "squadNumber": 10,
+      "name": "Grzegorz Krychowiak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-2018-kamil_grosicki",
+      "identityId": "P-64261",
+      "squadNumber": 11,
+      "name": "Kamil Grosicki",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-bartosz_bia_kowski",
+      "identityId": "P-40292",
+      "squadNumber": 12,
+      "name": "Bartosz Białkowski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Poland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "poland-2018-maciej_rybus",
+      "identityId": "P-19545",
+      "squadNumber": 13,
+      "name": "Maciej Rybus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-_ukasz_teodorczyk",
+      "identityId": "P-65144",
+      "squadNumber": 14,
+      "name": "Łukasz Teodorczyk",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Poland (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "poland-2018-kamil_glik",
+      "identityId": "P-29046",
+      "squadNumber": 15,
+      "name": "Kamil Glik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-jakub_b_aszczykowski",
+      "identityId": "P-57494",
+      "squadNumber": 16,
+      "name": "Jakub Błaszczykowski",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-s_awomir_peszko",
+      "identityId": "P-27417",
+      "squadNumber": 17,
+      "name": "Sławomir Peszko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Poland (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-2018-bartosz_bereszy_ski",
+      "identityId": "P-42160",
+      "squadNumber": 18,
+      "name": "Bartosz Bereszyński",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-piotr_zieli_ski",
+      "identityId": "P-32165",
+      "squadNumber": 19,
+      "name": "Piotr Zieliński",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Poland (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "poland-2018-_ukasz_piszczek",
+      "identityId": "P-32858",
+      "squadNumber": 20,
+      "name": "Łukasz Piszczek",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "poland-2018-rafa_kurzawa",
+      "identityId": "P-09584",
+      "squadNumber": 21,
+      "name": "Rafał Kurzawa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-_ukasz_fabia_ski",
+      "identityId": "P-57476",
+      "squadNumber": 22,
+      "name": "Łukasz Fabiański",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-2018-dawid_kownacki",
+      "identityId": "P-23468",
+      "squadNumber": 23,
+      "name": "Dawid Kownacki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Poland (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

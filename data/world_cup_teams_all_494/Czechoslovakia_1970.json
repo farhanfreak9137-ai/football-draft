@@ -1,0 +1,496 @@
+{
+  "teamName": "Czechoslovakia",
+  "teamCode": "CSK",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "czechoslovakia-1970-ivo_viktor",
+      "identityId": "P-15216",
+      "squadNumber": 1,
+      "name": "Ivo Viktor",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-karol_dobia_",
+      "identityId": "P-49133",
+      "squadNumber": 2,
+      "name": "Karol Dobiaš",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1970-v_clav_migas",
+      "identityId": "P-95896",
+      "squadNumber": 3,
+      "name": "Václav Migas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1970-vladim_r_hagara",
+      "identityId": "P-22118",
+      "squadNumber": 4,
+      "name": "Vladimír Hagara",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-alexander_horv_th",
+      "identityId": "P-88857",
+      "squadNumber": 5,
+      "name": "Alexander Horváth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-andrej_kva_k",
+      "identityId": "P-25708",
+      "squadNumber": 6,
+      "name": "Andrej Kvašňák",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-bohumil_vesel_",
+      "identityId": "P-37315",
+      "squadNumber": 7,
+      "name": "Bohumil Veselý",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-ladislav_petr_",
+      "identityId": "P-61272",
+      "squadNumber": 8,
+      "name": "Ladislav Petráš",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "czechoslovakia-1970-ladislav_kuna",
+      "identityId": "P-43628",
+      "squadNumber": 9,
+      "name": "Ladislav Kuna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1970-jozef_adamec",
+      "identityId": "P-34289",
+      "squadNumber": 10,
+      "name": "Jozef Adamec",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-karol_jokl",
+      "identityId": "P-31552",
+      "squadNumber": 11,
+      "name": "Karol Jokl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "czechoslovakia-1970-j_n_pivarn_k",
+      "identityId": "P-99091",
+      "squadNumber": 12,
+      "name": "Ján Pivarník",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1970-anton_fle_r",
+      "identityId": "P-21149",
+      "squadNumber": 13,
+      "name": "Anton Flešár",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1970-vladim_r_hrivn_k",
+      "identityId": "P-04640",
+      "squadNumber": 14,
+      "name": "Vladimír Hrivnák",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-j_n_zlocha",
+      "identityId": "P-43520",
+      "squadNumber": 15,
+      "name": "Ján Zlocha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-ivan_hrdli_ka",
+      "identityId": "P-48978",
+      "squadNumber": 16,
+      "name": "Ivan Hrdlička",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-jaroslav_poll_k",
+      "identityId": "P-46923",
+      "squadNumber": 17,
+      "name": "Jaroslav Pollák",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-franti_ek_vesel_",
+      "identityId": "P-33536",
+      "squadNumber": 18,
+      "name": "František Veselý",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-josef_jurkanin",
+      "identityId": "P-94047",
+      "squadNumber": 19,
+      "name": "Josef Jurkanin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "czechoslovakia-1970-milan_albrecht",
+      "identityId": "P-06647",
+      "squadNumber": 20,
+      "name": "Milan Albrecht",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "czechoslovakia-1970-j_n_apkovi_",
+      "identityId": "P-90487",
+      "squadNumber": 21,
+      "name": "Ján Čapkovič",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "czechoslovakia-1970-alexander_vencel",
+      "identityId": "P-17536",
+      "squadNumber": 22,
+      "name": "Alexander Vencel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1970 World Cup performance for Czechoslovakia (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

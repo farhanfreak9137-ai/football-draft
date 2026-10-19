@@ -1,0 +1,502 @@
+{
+  "teamName": "Hungary",
+  "teamCode": "HUN",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "hungary-1958-gyula_grosics",
+      "identityId": "P-81262",
+      "squadNumber": 1,
+      "name": "Gyula Grosics",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-s_ndor_m_trai",
+      "identityId": "P-61906",
+      "squadNumber": 2,
+      "name": "Sándor Mátrai",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-ferenc_sipos",
+      "identityId": "P-92656",
+      "squadNumber": 3,
+      "name": "Ferenc Sipos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-l_szl_s_rosi",
+      "identityId": "P-44813",
+      "squadNumber": 4,
+      "name": "László Sárosi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-j_zsef_bozsik",
+      "identityId": "P-70989",
+      "squadNumber": 5,
+      "name": "József Bozsik",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1958-p_l_berendy",
+      "identityId": "P-73769",
+      "squadNumber": 6,
+      "name": "Pál Berendy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-l_szl_budai",
+      "identityId": "P-29822",
+      "squadNumber": 7,
+      "name": "László Budai",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-lajos_tichy",
+      "identityId": "P-82971",
+      "squadNumber": 8,
+      "name": "Lajos Tichy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1958 World Cup performance for Hungary (Group Stage). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "hungary-1958-n_ndor_hidegkuti",
+      "identityId": "P-01173",
+      "squadNumber": 9,
+      "name": "Nándor Hidegkuti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-dezs_bundzs_k",
+      "identityId": "P-77346",
+      "squadNumber": 10,
+      "name": "Dezső Bundzsák",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1958-k_roly_s_ndor",
+      "identityId": "P-69885",
+      "squadNumber": 11,
+      "name": "Károly Sándor",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1958-b_la_k_rp_ti",
+      "identityId": "P-48019",
+      "squadNumber": 12,
+      "name": "Béla Kárpáti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-oszk_r_szigeti",
+      "identityId": "P-83705",
+      "squadNumber": 13,
+      "name": "Oszkár Szigeti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-ferenc_szojka",
+      "identityId": "P-44025",
+      "squadNumber": 14,
+      "name": "Ferenc Szojka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-antal_kot_sz",
+      "identityId": "P-78478",
+      "squadNumber": 15,
+      "name": "Antal Kotász",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-l_szl_lachos",
+      "identityId": "P-91386",
+      "squadNumber": 16,
+      "name": "László Lachos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-mih_ly_vasas",
+      "identityId": "P-99943",
+      "squadNumber": 17,
+      "name": "Mihály Vasas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-tivadar_monostori",
+      "identityId": "P-78197",
+      "squadNumber": 18,
+      "name": "Tivadar Monostori",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-zolt_n_friedmanszky",
+      "identityId": "P-78802",
+      "squadNumber": 19,
+      "name": "Zoltán Friedmanszky",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-j_zsef_bencsics",
+      "identityId": "P-47384",
+      "squadNumber": 20,
+      "name": "József Bencsics",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Hungary (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1958-m_t_fenyvesi",
+      "identityId": "P-36108",
+      "squadNumber": 21,
+      "name": "Máté Fenyvesi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "hungary-1958-istv_n_ilku",
+      "identityId": "P-01406",
+      "squadNumber": 22,
+      "name": "István Ilku",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Hungary (Group Stage). Squad reserve member."
+    }
+  ]
+}

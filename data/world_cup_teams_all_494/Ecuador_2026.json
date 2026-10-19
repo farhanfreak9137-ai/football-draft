@@ -1,0 +1,511 @@
+{
+  "teamName": "Ecuador",
+  "teamCode": "ECU",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "ecuador-2026-mois_s_caicedo",
+      "identityId": "identity-2026-mois_s_caicedo",
+      "squadNumber": 1,
+      "name": "Moisés Caicedo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Midfield Dynamo & National Anchor"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Midfield Dynamo & National Anchor",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Ecuador. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "ecuador-2026-piero_hincapi_",
+      "identityId": "identity-2026-piero_hincapi_",
+      "squadNumber": 2,
+      "name": "Piero Hincapié",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Ecuador. Regular starting lineup selection."
+    },
+    {
+      "id": "ecuador-2026-willian_pacho",
+      "identityId": "identity-2026-willian_pacho",
+      "squadNumber": 3,
+      "name": "Willian Pacho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Ecuador. Regular starting lineup selection."
+    },
+    {
+      "id": "ecuador-2026-pervis_estupi_n",
+      "identityId": "identity-2026-pervis_estupi_n",
+      "squadNumber": 4,
+      "name": "Pervis Estupiñán",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Ecuador. Regular starting lineup selection."
+    },
+    {
+      "id": "ecuador-2026-kendry_p_ez",
+      "identityId": "identity-2026-kendry_p_ez",
+      "squadNumber": 5,
+      "name": "Kendry Páez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Ecuador. Regular starting lineup selection."
+    },
+    {
+      "id": "ecuador-2026-enner_valencia",
+      "identityId": "identity-2026-enner_valencia",
+      "squadNumber": 6,
+      "name": "Enner Valencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 82,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Ecuador. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_7",
+      "identityId": "identity-2026-ecuador_squad_member_7",
+      "squadNumber": 7,
+      "name": "Ecuador Squad Member #7",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_8",
+      "identityId": "identity-2026-ecuador_squad_member_8",
+      "squadNumber": 8,
+      "name": "Ecuador Squad Member #8",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_9",
+      "identityId": "identity-2026-ecuador_squad_member_9",
+      "squadNumber": 9,
+      "name": "Ecuador Squad Member #9",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_10",
+      "identityId": "identity-2026-ecuador_squad_member_10",
+      "squadNumber": 10,
+      "name": "Ecuador Squad Member #10",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_11",
+      "identityId": "identity-2026-ecuador_squad_member_11",
+      "squadNumber": 11,
+      "name": "Ecuador Squad Member #11",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_12",
+      "identityId": "identity-2026-ecuador_squad_member_12",
+      "squadNumber": 12,
+      "name": "Ecuador Squad Member #12",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_13",
+      "identityId": "identity-2026-ecuador_squad_member_13",
+      "squadNumber": 13,
+      "name": "Ecuador Squad Member #13",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_14",
+      "identityId": "identity-2026-ecuador_squad_member_14",
+      "squadNumber": 14,
+      "name": "Ecuador Squad Member #14",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_15",
+      "identityId": "identity-2026-ecuador_squad_member_15",
+      "squadNumber": 15,
+      "name": "Ecuador Squad Member #15",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_16",
+      "identityId": "identity-2026-ecuador_squad_member_16",
+      "squadNumber": 16,
+      "name": "Ecuador Squad Member #16",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_17",
+      "identityId": "identity-2026-ecuador_squad_member_17",
+      "squadNumber": 17,
+      "name": "Ecuador Squad Member #17",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_18",
+      "identityId": "identity-2026-ecuador_squad_member_18",
+      "squadNumber": 18,
+      "name": "Ecuador Squad Member #18",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_19",
+      "identityId": "identity-2026-ecuador_squad_member_19",
+      "squadNumber": 19,
+      "name": "Ecuador Squad Member #19",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_20",
+      "identityId": "identity-2026-ecuador_squad_member_20",
+      "squadNumber": 20,
+      "name": "Ecuador Squad Member #20",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_21",
+      "identityId": "identity-2026-ecuador_squad_member_21",
+      "squadNumber": 21,
+      "name": "Ecuador Squad Member #21",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_22",
+      "identityId": "identity-2026-ecuador_squad_member_22",
+      "squadNumber": 22,
+      "name": "Ecuador Squad Member #22",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    },
+    {
+      "id": "ecuador-2026-ecuador_squad_member_23",
+      "identityId": "identity-2026-ecuador_squad_member_23",
+      "squadNumber": 23,
+      "name": "Ecuador Squad Member #23",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Ecuador. National squad reserve depth."
+    }
+  ]
+}

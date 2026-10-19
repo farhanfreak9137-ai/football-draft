@@ -1,0 +1,495 @@
+{
+  "teamName": "Switzerland",
+  "teamCode": "CHE",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "switzerland-1966-karl_elsener",
+      "identityId": "P-70926",
+      "squadNumber": 1,
+      "name": "Karl Elsener",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-willy_allemann",
+      "identityId": "P-71588",
+      "squadNumber": 2,
+      "name": "Willy Allemann",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-kurt_armbruster",
+      "identityId": "P-93161",
+      "squadNumber": 3,
+      "name": "Kurt Armbruster",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-heinz_b_ni",
+      "identityId": "P-20138",
+      "squadNumber": 4,
+      "name": "Heinz Bäni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-ren_brodmann",
+      "identityId": "P-81281",
+      "squadNumber": 5,
+      "name": "René Brodmann",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-richard_d_rr",
+      "identityId": "P-52416",
+      "squadNumber": 6,
+      "name": "Richard Dürr",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-hansruedi_f_hrer",
+      "identityId": "P-48137",
+      "squadNumber": 7,
+      "name": "Hansruedi Führer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-vittore_gottardi",
+      "identityId": "P-57315",
+      "squadNumber": 8,
+      "name": "Vittore Gottardi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-andr_grob_ty",
+      "identityId": "P-55057",
+      "squadNumber": 9,
+      "name": "André Grobéty",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-robert_hosp",
+      "identityId": "P-20997",
+      "squadNumber": 10,
+      "name": "Robert Hosp",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-k_bi_kuhn",
+      "identityId": "P-73866",
+      "squadNumber": 11,
+      "name": "Köbi Kuhn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "switzerland-1966-l_o_eichmann",
+      "identityId": "P-11454",
+      "squadNumber": 12,
+      "name": "Léo Eichmann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-fritz_k_nzli",
+      "identityId": "P-53124",
+      "squadNumber": 13,
+      "name": "Fritz Künzli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-werner_leimgruber",
+      "identityId": "P-69289",
+      "squadNumber": 14,
+      "name": "Werner Leimgruber",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-karl_odermatt",
+      "identityId": "P-70292",
+      "squadNumber": 15,
+      "name": "Karl Odermatt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-ren_-pierre_quentin",
+      "identityId": "P-42555",
+      "squadNumber": 16,
+      "name": "René-Pierre Quentin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Switzerland (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "switzerland-1966-jean-claude_schindelholz",
+      "identityId": "P-00836",
+      "squadNumber": 17,
+      "name": "Jean-Claude Schindelholz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-heinz_schneiter",
+      "identityId": "P-99095",
+      "squadNumber": 18,
+      "name": "Heinz Schneiter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-xavier_stierli",
+      "identityId": "P-01529",
+      "squadNumber": 19,
+      "name": "Xavier Stierli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-ely_tacchella",
+      "identityId": "P-95816",
+      "squadNumber": 20,
+      "name": "Ely Tacchella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-georges_vuilleumier",
+      "identityId": "P-98546",
+      "squadNumber": 21,
+      "name": "Georges Vuilleumier",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "switzerland-1966-mario_prosperi",
+      "identityId": "P-95773",
+      "squadNumber": 22,
+      "name": "Mario Prosperi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Switzerland (Group Stage). Squad reserve member."
+    }
+  ]
+}

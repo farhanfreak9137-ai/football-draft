@@ -1,0 +1,498 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "sweden-1990-sven_andersson",
+      "identityId": "P-83613",
+      "squadNumber": 1,
+      "name": "Sven Andersson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1990-jan_eriksson",
+      "identityId": "P-39219",
+      "squadNumber": 2,
+      "name": "Jan Eriksson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1990-glenn_hys_n",
+      "identityId": "P-31156",
+      "squadNumber": 3,
+      "name": "Glenn Hysén",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1990-peter_larsson",
+      "identityId": "P-22289",
+      "squadNumber": 4,
+      "name": "Peter Larsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1990-roger_ljung",
+      "identityId": "P-75066",
+      "squadNumber": 5,
+      "name": "Roger Ljung",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1990-roland_nilsson",
+      "identityId": "P-23360",
+      "squadNumber": 6,
+      "name": "Roland Nilsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1990-niklas_nyhl_n",
+      "identityId": "P-26709",
+      "squadNumber": 7,
+      "name": "Niklas Nyhlén",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1990-stefan_schwarz",
+      "identityId": "P-63692",
+      "squadNumber": 8,
+      "name": "Stefan Schwarz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1990-leif_engqvist",
+      "identityId": "P-02017",
+      "squadNumber": 9,
+      "name": "Leif Engqvist",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Sweden (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-1990-klas_ingesson",
+      "identityId": "P-21234",
+      "squadNumber": 10,
+      "name": "Klas Ingesson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1990-ulrik_jansson",
+      "identityId": "P-75272",
+      "squadNumber": 11,
+      "name": "Ulrik Jansson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1990-lars_eriksson",
+      "identityId": "P-41130",
+      "squadNumber": 12,
+      "name": "Lars Eriksson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1990 World Cup performance for Sweden (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "sweden-1990-anders_limpar",
+      "identityId": "P-59805",
+      "squadNumber": 13,
+      "name": "Anders Limpar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1990-joakim_nilsson",
+      "identityId": "P-71492",
+      "squadNumber": 14,
+      "name": "Joakim Nilsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "sweden-1990-glenn_str_mberg",
+      "identityId": "P-67329",
+      "squadNumber": 15,
+      "name": "Glenn Strömberg",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1990-jonas_thern",
+      "identityId": "P-92339",
+      "squadNumber": 16,
+      "name": "Jonas Thern",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1990-tomas_brolin",
+      "identityId": "P-26281",
+      "squadNumber": 17,
+      "name": "Tomas Brolin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1990-johnny_ekstr_m",
+      "identityId": "P-60456",
+      "squadNumber": 18,
+      "name": "Johnny Ekström",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1990-mats_gren",
+      "identityId": "P-27804",
+      "squadNumber": 19,
+      "name": "Mats Gren",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1990 World Cup performance for Sweden (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "sweden-1990-mats_magnusson",
+      "identityId": "P-81063",
+      "squadNumber": 20,
+      "name": "Mats Magnusson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "sweden-1990-stefan_pettersson",
+      "identityId": "P-46228",
+      "squadNumber": 21,
+      "name": "Stefan Pettersson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Sweden (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "sweden-1990-thomas_ravelli",
+      "identityId": "P-94051",
+      "squadNumber": 22,
+      "name": "Thomas Ravelli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Sweden (Group Stage). Main pillar starting 3 match(es)."
+    }
+  ]
+}

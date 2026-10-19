@@ -1,0 +1,581 @@
+{
+  "teamName": "Ecuador",
+  "teamCode": "ECU",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "ecuador-2022-hern_n_gal_ndez",
+      "identityId": "P-56347",
+      "squadNumber": 1,
+      "name": "Hernán Galíndez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-f_lix_torres",
+      "identityId": "P-96347",
+      "squadNumber": 2,
+      "name": "Félix Torres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-piero_hincapi_",
+      "identityId": "P-29713",
+      "squadNumber": 3,
+      "name": "Piero Hincapié",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-robert_arboleda",
+      "identityId": "P-22286",
+      "squadNumber": 4,
+      "name": "Robert Arboleda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-jos_cifuentes",
+      "identityId": "P-75628",
+      "squadNumber": 5,
+      "name": "José Cifuentes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ecuador-2022-william_pacho",
+      "identityId": "P-49934",
+      "squadNumber": 6,
+      "name": "William Pacho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-pervis_estupi_n",
+      "identityId": "P-52697",
+      "squadNumber": 7,
+      "name": "Pervis Estupiñán",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-carlos_gruezo",
+      "identityId": "P-13321",
+      "squadNumber": 8,
+      "name": "Carlos Gruezo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2022-ayrton_preciado",
+      "identityId": "P-16576",
+      "squadNumber": 9,
+      "name": "Ayrton Preciado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-romario_ibarra",
+      "identityId": "P-34543",
+      "squadNumber": 10,
+      "name": "Romario Ibarra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2022-michael_estrada",
+      "identityId": "P-44851",
+      "squadNumber": 11,
+      "name": "Michael Estrada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-mois_s_ram_rez",
+      "identityId": "P-39347",
+      "squadNumber": 12,
+      "name": "Moisés Ramírez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-enner_valencia",
+      "identityId": "P-75912",
+      "squadNumber": 13,
+      "name": "Enner Valencia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "ecuador-2022-xavier_arreaga",
+      "identityId": "P-06545",
+      "squadNumber": 14,
+      "name": "Xavier Arreaga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-_ngel_mena",
+      "identityId": "P-11495",
+      "squadNumber": 15,
+      "name": "Ángel Mena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-jeremy_sarmiento",
+      "identityId": "P-78091",
+      "squadNumber": 16,
+      "name": "Jeremy Sarmiento",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "ecuador-2022-_ngelo_preciado",
+      "identityId": "P-62543",
+      "squadNumber": 17,
+      "name": "Ángelo Preciado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-diego_palacios",
+      "identityId": "P-04237",
+      "squadNumber": 18,
+      "name": "Diego Palacios",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-gonzalo_plata",
+      "identityId": "P-13973",
+      "squadNumber": 19,
+      "name": "Gonzalo Plata",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ecuador-2022-sebas_m_ndez",
+      "identityId": "P-56839",
+      "squadNumber": 20,
+      "name": "Sebas Méndez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ecuador-2022-alan_franco",
+      "identityId": "P-28364",
+      "squadNumber": 21,
+      "name": "Alan Franco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2022-alexander_dom_nguez",
+      "identityId": "P-94877",
+      "squadNumber": 22,
+      "name": "Alexander Domínguez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "ecuador-2022-mois_s_caicedo",
+      "identityId": "P-82216",
+      "squadNumber": 23,
+      "name": "Moisés Caicedo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "ecuador-2022-djorkaeff_reasco",
+      "identityId": "P-69217",
+      "squadNumber": 24,
+      "name": "Djorkaeff Reasco",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "ecuador-2022-jackson_porozo",
+      "identityId": "P-73694",
+      "squadNumber": 25,
+      "name": "Jackson Porozo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ecuador-2022-kevin_rodr_guez",
+      "identityId": "P-02839",
+      "squadNumber": 26,
+      "name": "Kevin Rodríguez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Ecuador (Group Stage). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

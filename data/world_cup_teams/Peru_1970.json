@@ -1,0 +1,500 @@
+{
+  "teamName": "Peru",
+  "teamCode": "PER",
+  "year": 1970,
+  "tournament": "1970 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "peru-1970-luis_rubi_os",
+      "identityId": "P-15677",
+      "squadNumber": 1,
+      "name": "Luis Rubiños",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "peru-1970-eloy_campos",
+      "identityId": "P-30953",
+      "squadNumber": 2,
+      "name": "Eloy Campos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1970-orlando_de_la_torre",
+      "identityId": "P-38349",
+      "squadNumber": 3,
+      "name": "Orlando de la Torre",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "peru-1970-h_ctor_chumpitaz",
+      "identityId": "P-76522",
+      "squadNumber": 4,
+      "name": "Héctor Chumpitaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-1970-nicol_s_fuentes",
+      "identityId": "P-80565",
+      "squadNumber": 5,
+      "name": "Nicolás Fuentes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "peru-1970-ram_n_mifflin",
+      "identityId": "P-39336",
+      "squadNumber": 6,
+      "name": "Ramón Mifflin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "peru-1970-roberto_challe",
+      "identityId": "P-19550",
+      "squadNumber": 7,
+      "name": "Roberto Challe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "peru-1970-julio_bayl_n",
+      "identityId": "P-64457",
+      "squadNumber": 8,
+      "name": "Julio Baylón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1970-pedro_pablo_le_n",
+      "identityId": "P-83669",
+      "squadNumber": 9,
+      "name": "Pedro Pablo León",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "peru-1970-te_filo_cubillas",
+      "identityId": "P-96979",
+      "squadNumber": 10,
+      "name": "Teófilo Cubillas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Bronze Boot",
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es). Scored 5 goal(s). Honors: Bronze Boot, Best Young Player."
+    },
+    {
+      "id": "peru-1970-alberto_gallardo",
+      "identityId": "P-03607",
+      "squadNumber": 11,
+      "name": "Alberto Gallardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "peru-1970-rub_n_correa",
+      "identityId": "P-24515",
+      "squadNumber": 12,
+      "name": "Rubén Correa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "peru-1970-pedro_gonz_lez",
+      "identityId": "P-32760",
+      "squadNumber": 13,
+      "name": "Pedro González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1970-jos_fern_ndez",
+      "identityId": "P-20506",
+      "squadNumber": 14,
+      "name": "José Fernández",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "peru-1970-javier_gonz_lez",
+      "identityId": "P-38889",
+      "squadNumber": 15,
+      "name": "Javier González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "peru-1970-f_lix_salinas",
+      "identityId": "P-53754",
+      "squadNumber": 16,
+      "name": "Félix Salinas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "peru-1970-luis_cruzado",
+      "identityId": "P-96893",
+      "squadNumber": 17,
+      "name": "Luis Cruzado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "peru-1970-jos_del_castillo",
+      "identityId": "P-17992",
+      "squadNumber": 18,
+      "name": "José del Castillo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "peru-1970-eladio_reyes",
+      "identityId": "P-17652",
+      "squadNumber": 19,
+      "name": "Eladio Reyes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "peru-1970-hugo_sotil",
+      "identityId": "P-49357",
+      "squadNumber": 20,
+      "name": "Hugo Sotil",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "peru-1970-jesus_goyzueta",
+      "identityId": "P-84160",
+      "squadNumber": 21,
+      "name": "Jesus Goyzueta",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "peru-1970-oswaldo_ram_rez",
+      "identityId": "P-51451",
+      "squadNumber": 22,
+      "name": "Oswaldo Ramírez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1970 World Cup performance for Peru (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    }
+  ]
+}

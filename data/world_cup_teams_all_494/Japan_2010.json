@@ -1,0 +1,517 @@
+{
+  "teamName": "Japan",
+  "teamCode": "JPN",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "japan-2010-seigo_narazaki",
+      "identityId": "P-24251",
+      "squadNumber": 1,
+      "name": "Seigo Narazaki",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2010-yuki_abe",
+      "identityId": "P-00148",
+      "squadNumber": 2,
+      "name": "Yuki Abe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-y_ichi_komano",
+      "identityId": "P-46091",
+      "squadNumber": 3,
+      "name": "Yūichi Komano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-marcus_tulio_tanaka",
+      "identityId": "P-29462",
+      "squadNumber": 4,
+      "name": "Marcus Tulio Tanaka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-yuto_nagatomo",
+      "identityId": "P-26303",
+      "squadNumber": 5,
+      "name": "Yuto Nagatomo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-atsuto_uchida",
+      "identityId": "P-35179",
+      "squadNumber": 6,
+      "name": "Atsuto Uchida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2010-yasuhito_end_",
+      "identityId": "P-61292",
+      "squadNumber": 7,
+      "name": "Yasuhito Endō",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2010-daisuke_matsui",
+      "identityId": "P-03497",
+      "squadNumber": 8,
+      "name": "Daisuke Matsui",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-shinji_okazaki",
+      "identityId": "P-84807",
+      "squadNumber": 9,
+      "name": "Shinji Okazaki",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "japan-2010-shunsuke_nakamura",
+      "identityId": "P-77277",
+      "squadNumber": 10,
+      "name": "Shunsuke Nakamura",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2010-keiji_tamada",
+      "identityId": "P-15134",
+      "squadNumber": 11,
+      "name": "Keiji Tamada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "japan-2010-kisho_yano",
+      "identityId": "P-89840",
+      "squadNumber": 12,
+      "name": "Kisho Yano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2010-daiki_iwamasa",
+      "identityId": "P-28659",
+      "squadNumber": 13,
+      "name": "Daiki Iwamasa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2010-kengo_nakamura",
+      "identityId": "P-16260",
+      "squadNumber": 14,
+      "name": "Kengo Nakamura",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2010-yasuyuki_konno",
+      "identityId": "P-85824",
+      "squadNumber": 15,
+      "name": "Yasuyuki Konno",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "japan-2010-yoshito_kubo",
+      "identityId": "P-90491",
+      "squadNumber": 16,
+      "name": "Yoshito Ōkubo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-makoto_hasebe",
+      "identityId": "P-91793",
+      "squadNumber": 17,
+      "name": "Makoto Hasebe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-keisuke_honda",
+      "identityId": "P-33175",
+      "squadNumber": 18,
+      "name": "Keisuke Honda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "japan-2010-takayuki_morimoto",
+      "identityId": "P-12781",
+      "squadNumber": 19,
+      "name": "Takayuki Morimoto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Japan (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "japan-2010-junichi_inamoto",
+      "identityId": "P-46807",
+      "squadNumber": 20,
+      "name": "Junichi Inamoto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Japan (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "japan-2010-eiji_kawashima",
+      "identityId": "P-53272",
+      "squadNumber": 21,
+      "name": "Eiji Kawashima",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-yuji_nakazawa",
+      "identityId": "P-90430",
+      "squadNumber": 22,
+      "name": "Yuji Nakazawa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Japan (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "japan-2010-yoshikatsu_kawaguchi",
+      "identityId": "P-54298",
+      "squadNumber": 23,
+      "name": "Yoshikatsu Kawaguchi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2010 World Cup performance for Japan (Round of 16). Squad reserve member."
+    }
+  ]
+}

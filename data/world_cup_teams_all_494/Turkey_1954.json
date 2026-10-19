@@ -1,0 +1,493 @@
+{
+  "teamName": "Turkey",
+  "teamCode": "TUR",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "turkey-1954-turgay_eren",
+      "identityId": "P-09081",
+      "squadNumber": 1,
+      "name": "Turgay Şeren",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "turkey-1954-r_dvan_bolatl_",
+      "identityId": "P-90871",
+      "squadNumber": 2,
+      "name": "Rıdvan Bolatlı",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "turkey-1954-basri_dirimlili",
+      "identityId": "P-09221",
+      "squadNumber": 3,
+      "name": "Basri Dirimlili",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "turkey-1954-mustafa_ertan",
+      "identityId": "P-04447",
+      "squadNumber": 4,
+      "name": "Mustafa Ertan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "turkey-1954-_etin_zeybek",
+      "identityId": "P-88846",
+      "squadNumber": 5,
+      "name": "Çetin Zeybek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "turkey-1954-rober_eryol",
+      "identityId": "P-58180",
+      "squadNumber": 6,
+      "name": "Rober Eryol",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "turkey-1954-erol_keskin",
+      "identityId": "P-15472",
+      "squadNumber": 7,
+      "name": "Erol Keskin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "turkey-1954-suat_mamat",
+      "identityId": "P-71884",
+      "squadNumber": 8,
+      "name": "Suat Mamat",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for Turkey (Group Stage). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "turkey-1954-feridun_bu_eker",
+      "identityId": "P-15041",
+      "squadNumber": 9,
+      "name": "Feridun Buğeker",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1954 World Cup performance for Turkey (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "turkey-1954-burhan_sargun",
+      "identityId": "P-04515",
+      "squadNumber": 10,
+      "name": "Burhan Sargun",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1954 World Cup performance for Turkey (Group Stage). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "turkey-1954-lefter_k_kandonyadis",
+      "identityId": "P-92456",
+      "squadNumber": 11,
+      "name": "Lefter Küçükandonyadis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1954 World Cup performance for Turkey (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "turkey-1954-_kr_ersoy",
+      "identityId": "P-38003",
+      "squadNumber": 12,
+      "name": "Şükrü Ersoy",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-b_lent_eken",
+      "identityId": "P-25326",
+      "squadNumber": 13,
+      "name": "Bülent Eken",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-ali_beratl_gil",
+      "identityId": "P-81979",
+      "squadNumber": 14,
+      "name": "Ali Beratlıgil",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-mehmet_din_er",
+      "identityId": "P-72128",
+      "squadNumber": 15,
+      "name": "Mehmet Dinçer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-nedim_g_nar",
+      "identityId": "P-70566",
+      "squadNumber": 16,
+      "name": "Nedim Günar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-naci_erdem",
+      "identityId": "P-88221",
+      "squadNumber": 17,
+      "name": "Naci Erdem",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-ka_maz_akg_n",
+      "identityId": "P-41399",
+      "squadNumber": 18,
+      "name": "Kaçmaz Akgün",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-ahmet_berman",
+      "identityId": "P-53949",
+      "squadNumber": 19,
+      "name": "Ahmet Berman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-necmi_onar_c_",
+      "identityId": "P-72588",
+      "squadNumber": 20,
+      "name": "Necmi Onarıcı",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-kadri_ayta_",
+      "identityId": "P-71030",
+      "squadNumber": 21,
+      "name": "Kadri Aytaç",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "turkey-1954-co_kun_ta_",
+      "identityId": "P-93253",
+      "squadNumber": 22,
+      "name": "Coşkun Taş",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1954 World Cup performance for Turkey (Group Stage). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "teamName": "Colombia",
+  "teamCode": "COL",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "colombia-2014-david_ospina",
+      "identityId": "P-94838",
+      "squadNumber": 1,
+      "name": "David Ospina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "colombia-2014-cristi_n_zapata",
+      "identityId": "P-78745",
+      "squadNumber": 2,
+      "name": "Cristián Zapata",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2014-mario_yepes",
+      "identityId": "P-92771",
+      "squadNumber": 3,
+      "name": "Mario Yepes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2014-santiago_arias",
+      "identityId": "P-01505",
+      "squadNumber": 4,
+      "name": "Santiago Arias",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2014-carlos_carbonero",
+      "identityId": "P-76077",
+      "squadNumber": 5,
+      "name": "Carlos Carbonero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-2014-carlos_s_nchez",
+      "identityId": "P-66228",
+      "squadNumber": 6,
+      "name": "Carlos Sánchez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2014-pablo_armero",
+      "identityId": "P-95402",
+      "squadNumber": 7,
+      "name": "Pablo Armero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2014-abel_aguilar",
+      "identityId": "P-76705",
+      "squadNumber": 8,
+      "name": "Abel Aguilar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-2014-te_filo_guti_rrez",
+      "identityId": "P-77705",
+      "squadNumber": 9,
+      "name": "Teófilo Gutiérrez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2014-james_rodr_guez",
+      "identityId": "P-89392",
+      "squadNumber": 10,
+      "name": "James Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 6,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2014 FIFA World Cup Golden Boot Winner (6 Goals)",
+      "ratingRationale": "Rated 94 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 4 match(es). Scored 6 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "colombia-2014-juan_cuadrado",
+      "identityId": "P-83216",
+      "squadNumber": 11,
+      "name": "Juan Cuadrado",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2014-camilo_vargas",
+      "identityId": "P-27327",
+      "squadNumber": 12,
+      "name": "Camilo Vargas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "colombia-2014-fredy_guar_n",
+      "identityId": "P-66638",
+      "squadNumber": 13,
+      "name": "Fredy Guarín",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "colombia-2014-v_ctor_ibarbo",
+      "identityId": "P-99957",
+      "squadNumber": 14,
+      "name": "Víctor Ibarbo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "colombia-2014-alexander_mej_a",
+      "identityId": "P-01538",
+      "squadNumber": 15,
+      "name": "Alexander Mejía",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2014-_der_lvarez_balanta",
+      "identityId": "P-86404",
+      "squadNumber": 16,
+      "name": "Éder Álvarez Balanta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2014-carlos_bacca",
+      "identityId": "P-12476",
+      "squadNumber": 17,
+      "name": "Carlos Bacca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-2014-juan_camilo_z_iga",
+      "identityId": "P-61178",
+      "squadNumber": 18,
+      "name": "Juan Camilo Zúñiga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "colombia-2014-adri_n_ramos",
+      "identityId": "P-73564",
+      "squadNumber": 19,
+      "name": "Adrián Ramos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "colombia-2014-juan_fernando_quintero",
+      "identityId": "P-14499",
+      "squadNumber": 20,
+      "name": "Juan Fernando Quintero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "colombia-2014-jackson_mart_nez",
+      "identityId": "P-01068",
+      "squadNumber": 21,
+      "name": "Jackson Martínez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "colombia-2014-faryd_mondrag_n",
+      "identityId": "P-02080",
+      "squadNumber": 22,
+      "name": "Faryd Mondragón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "colombia-2014-carlos_vald_s",
+      "identityId": "P-77916",
+      "squadNumber": 23,
+      "name": "Carlos Valdés",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Colombia (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "teamName": "Australia",
+  "teamCode": "AUS",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "australia-2010-mark_schwarzer",
+      "identityId": "P-78863",
+      "squadNumber": 1,
+      "name": "Mark Schwarzer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2010-lucas_neill",
+      "identityId": "P-91832",
+      "squadNumber": 2,
+      "name": "Lucas Neill",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2010-craig_moore",
+      "identityId": "P-66908",
+      "squadNumber": 3,
+      "name": "Craig Moore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "australia-2010-tim_cahill",
+      "identityId": "P-44926",
+      "squadNumber": 4,
+      "name": "Tim Cahill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "australia-2010-jason_culina",
+      "identityId": "P-21864",
+      "squadNumber": 5,
+      "name": "Jason Culina",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2010-michael_beauchamp",
+      "identityId": "P-69089",
+      "squadNumber": 6,
+      "name": "Michael Beauchamp",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2010-brett_emerton",
+      "identityId": "P-83566",
+      "squadNumber": 7,
+      "name": "Brett Emerton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2010-luke_wilkshire",
+      "identityId": "P-14862",
+      "squadNumber": 8,
+      "name": "Luke Wilkshire",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2010-joshua_kennedy",
+      "identityId": "P-06754",
+      "squadNumber": 9,
+      "name": "Joshua Kennedy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2010-harry_kewell",
+      "identityId": "P-14290",
+      "squadNumber": 10,
+      "name": "Harry Kewell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2010-scott_chipperfield",
+      "identityId": "P-60008",
+      "squadNumber": 11,
+      "name": "Scott Chipperfield",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2010-adam_federici",
+      "identityId": "P-33989",
+      "squadNumber": 12,
+      "name": "Adam Federici",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2010-vince_grella",
+      "identityId": "P-63129",
+      "squadNumber": 13,
+      "name": "Vince Grella",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2010-brett_holman",
+      "identityId": "P-96211",
+      "squadNumber": 14,
+      "name": "Brett Holman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "australia-2010-mile_jedinak",
+      "identityId": "P-37275",
+      "squadNumber": 15,
+      "name": "Mile Jedinak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Australia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "australia-2010-carl_valeri",
+      "identityId": "P-70545",
+      "squadNumber": 16,
+      "name": "Carl Valeri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for Australia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "australia-2010-nikita_rukavytsya",
+      "identityId": "P-31145",
+      "squadNumber": 17,
+      "name": "Nikita Rukavytsya",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for Australia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "australia-2010-eugene_galekovic",
+      "identityId": "P-07864",
+      "squadNumber": 18,
+      "name": "Eugene Galekovic",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2010-richard_garcia",
+      "identityId": "P-64711",
+      "squadNumber": 19,
+      "name": "Richard Garcia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "australia-2010-mark_milligan",
+      "identityId": "P-36196",
+      "squadNumber": 20,
+      "name": "Mark Milligan",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2010-david_carney",
+      "identityId": "P-03552",
+      "squadNumber": 21,
+      "name": "David Carney",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "australia-2010-dario_vido_i_",
+      "identityId": "P-73512",
+      "squadNumber": 22,
+      "name": "Dario Vidošić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for Australia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "australia-2010-mark_bresciano",
+      "identityId": "P-84486",
+      "squadNumber": 23,
+      "name": "Mark Bresciano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for Australia (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

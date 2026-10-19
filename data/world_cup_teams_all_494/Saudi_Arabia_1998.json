@@ -1,0 +1,490 @@
+{
+  "teamName": "Saudi Arabia",
+  "teamCode": "SAU",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "saudi_arabia-1998-mohamed_al-deayea",
+      "identityId": "P-12996",
+      "squadNumber": 1,
+      "name": "Mohamed Al-Deayea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-1998-mohammed_al-jahani",
+      "identityId": "P-55518",
+      "squadNumber": 2,
+      "name": "Mohammed Al-Jahani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-1998-mohammed_al-khilaiwi",
+      "identityId": "P-44462",
+      "squadNumber": 3,
+      "name": "Mohammed Al-Khilaiwi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-abdullah_sulaiman_zubromawi",
+      "identityId": "P-50171",
+      "squadNumber": 4,
+      "name": "Abdullah Sulaiman Zubromawi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-1998-ahmed_jamil_madani",
+      "identityId": "P-51472",
+      "squadNumber": 5,
+      "name": "Ahmed Jamil Madani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-1998-fuad_anwar",
+      "identityId": "P-21550",
+      "squadNumber": 6,
+      "name": "Fuad Anwar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-1998-ibrahim_al-shahrani",
+      "identityId": "P-92151",
+      "squadNumber": 7,
+      "name": "Ibrahim Al-Shahrani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-obeid_al-dosari",
+      "identityId": "P-85019",
+      "squadNumber": 8,
+      "name": "Obeid Al-Dosari",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-1998-sami_al-jaber",
+      "identityId": "P-88041",
+      "squadNumber": 9,
+      "name": "Sami Al-Jaber",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-1998-saeed_al-owairan",
+      "identityId": "P-41428",
+      "squadNumber": 10,
+      "name": "Saeed Al-Owairan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-fahad_al-mehallel",
+      "identityId": "P-89920",
+      "squadNumber": 11,
+      "name": "Fahad Al-Mehallel",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-ibrahim_al-harbi",
+      "identityId": "P-81321",
+      "squadNumber": 12,
+      "name": "Ibrahim Al-Harbi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "saudi_arabia-1998-hussein_abdulghani",
+      "identityId": "P-73110",
+      "squadNumber": 13,
+      "name": "Hussein Abdulghani",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-1998-khalid_al-muwallid",
+      "identityId": "P-78753",
+      "squadNumber": 14,
+      "name": "Khalid Al-Muwallid",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-yousuf_al-thunayan",
+      "identityId": "P-30161",
+      "squadNumber": 15,
+      "name": "Yousuf Al-Thunayan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "saudi_arabia-1998-khamis_al-dosari",
+      "identityId": "P-17941",
+      "squadNumber": 16,
+      "name": "Khamis Al-Dosari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "saudi_arabia-1998-ahmed_al-dokhi",
+      "identityId": "P-53448",
+      "squadNumber": 17,
+      "name": "Ahmed Al-Dokhi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "saudi_arabia-1998-nawaf_al-temyat",
+      "identityId": "P-20886",
+      "squadNumber": 18,
+      "name": "Nawaf Al-Temyat",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-abdulaziz_al-janoubi",
+      "identityId": "P-28313",
+      "squadNumber": 19,
+      "name": "Abdulaziz Al-Janoubi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-1998-hamzah_saleh",
+      "identityId": "P-61224",
+      "squadNumber": 20,
+      "name": "Hamzah Saleh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "saudi_arabia-1998-hussein_al-sadiq",
+      "identityId": "P-43829",
+      "squadNumber": 21,
+      "name": "Hussein Al-Sadiq",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "saudi_arabia-1998-tisir_al-antaif",
+      "identityId": "P-45367",
+      "squadNumber": 22,
+      "name": "Tisir Al-Antaif",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Saudi Arabia (Group Stage). Squad reserve member."
+    }
+  ]
+}

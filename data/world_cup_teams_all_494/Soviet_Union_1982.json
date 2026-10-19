@@ -1,0 +1,492 @@
+{
+  "teamName": "Soviet Union",
+  "teamCode": "SUN",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "soviet_union-1982-rinat_dasayev",
+      "identityId": "P-32342",
+      "squadNumber": 1,
+      "name": "Rinat Dasayev",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "soviet_union-1982-tengiz_sulakvelidze",
+      "identityId": "P-49099",
+      "squadNumber": 2,
+      "name": "Tengiz Sulakvelidze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "soviet_union-1982-aleksandr_chivadze",
+      "identityId": "P-66593",
+      "squadNumber": 3,
+      "name": "Aleksandr Chivadze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-vagiz_khidiyatullin",
+      "identityId": "P-56334",
+      "squadNumber": 4,
+      "name": "Vagiz Khidiyatullin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1982-sergei_baltacha",
+      "identityId": "P-47456",
+      "squadNumber": 5,
+      "name": "Sergei Baltacha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-anatoliy_demyanenko",
+      "identityId": "P-18580",
+      "squadNumber": 6,
+      "name": "Anatoliy Demyanenko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "soviet_union-1982-ramaz_shengelia",
+      "identityId": "P-93680",
+      "squadNumber": 7,
+      "name": "Ramaz Shengelia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-volodymyr_bezsonov",
+      "identityId": "P-64968",
+      "squadNumber": 8,
+      "name": "Volodymyr Bezsonov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "soviet_union-1982-yuri_gavrilov",
+      "identityId": "P-18718",
+      "squadNumber": 9,
+      "name": "Yuri Gavrilov",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-khoren_hovhannisyan",
+      "identityId": "P-13514",
+      "squadNumber": 10,
+      "name": "Khoren Hovhannisyan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-oleh_blokhin",
+      "identityId": "P-03282",
+      "squadNumber": 11,
+      "name": "Oleh Blokhin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-andriy_bal",
+      "identityId": "P-27460",
+      "squadNumber": 12,
+      "name": "Andriy Bal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1982-vitaly_daraselia",
+      "identityId": "P-05530",
+      "squadNumber": 13,
+      "name": "Vitaly Daraselia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "soviet_union-1982-sergei_borovsky",
+      "identityId": "P-10493",
+      "squadNumber": 14,
+      "name": "Sergei Borovsky",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "soviet_union-1982-sergey_andreyev",
+      "identityId": "P-35273",
+      "squadNumber": 15,
+      "name": "Sergey Andreyev",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "soviet_union-1982-sergey_rodionov",
+      "identityId": "P-05562",
+      "squadNumber": 16,
+      "name": "Sergey Rodionov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "soviet_union-1982-leonid_buryak",
+      "identityId": "P-15023",
+      "squadNumber": 17,
+      "name": "Leonid Buryak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1982-yuri_susloparov",
+      "identityId": "P-58072",
+      "squadNumber": 18,
+      "name": "Yuri Susloparov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "soviet_union-1982-vadym_yevtushenko",
+      "identityId": "P-12978",
+      "squadNumber": 19,
+      "name": "Vadym Yevtushenko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1982-oleg_romantsev",
+      "identityId": "P-00116",
+      "squadNumber": 20,
+      "name": "Oleg Romantsev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1982-viktor_chanov",
+      "identityId": "P-90721",
+      "squadNumber": 21,
+      "name": "Viktor Chanov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1982-vyacheslav_chanov",
+      "identityId": "P-05387",
+      "squadNumber": 22,
+      "name": "Vyacheslav Chanov",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Soviet Union (Round of 16). Squad reserve member."
+    }
+  ]
+}

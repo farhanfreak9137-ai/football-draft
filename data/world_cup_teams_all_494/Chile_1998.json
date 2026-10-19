@@ -1,0 +1,493 @@
+{
+  "teamName": "Chile",
+  "teamCode": "CHL",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "chile-1998-nelson_tapia",
+      "identityId": "P-26025",
+      "squadNumber": 1,
+      "name": "Nelson Tapia",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-1998-cristi_n_casta_eda",
+      "identityId": "P-85132",
+      "squadNumber": 2,
+      "name": "Cristián Castañeda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Chile (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "chile-1998-ronald_fuentes",
+      "identityId": "P-80753",
+      "squadNumber": 3,
+      "name": "Ronald Fuentes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-1998-francisco_rojas",
+      "identityId": "P-79494",
+      "squadNumber": 4,
+      "name": "Francisco Rojas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1998-javier_margas",
+      "identityId": "P-08453",
+      "squadNumber": 5,
+      "name": "Javier Margas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-1998-pedro_reyes",
+      "identityId": "P-49850",
+      "squadNumber": 6,
+      "name": "Pedro Reyes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-1998-nelson_parraguez",
+      "identityId": "P-91710",
+      "squadNumber": 7,
+      "name": "Nelson Parraguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1998-clarence_acu_a",
+      "identityId": "P-43934",
+      "squadNumber": 8,
+      "name": "Clarence Acuña",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-1998-iv_n_zamorano",
+      "identityId": "P-82614",
+      "squadNumber": 9,
+      "name": "Iván Zamorano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "chile-1998-jos_luis_sierra",
+      "identityId": "P-85178",
+      "squadNumber": 10,
+      "name": "José Luis Sierra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Chile (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "chile-1998-marcelo_salas",
+      "identityId": "P-39251",
+      "squadNumber": 11,
+      "name": "Marcelo Salas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "chile-1998-marcelo_ram_rez",
+      "identityId": "P-61561",
+      "squadNumber": 12,
+      "name": "Marcelo Ramírez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Chile (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "chile-1998-manuel_neira",
+      "identityId": "P-15650",
+      "squadNumber": 13,
+      "name": "Manuel Neira",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Chile (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "chile-1998-miguel_ram_rez",
+      "identityId": "P-30572",
+      "squadNumber": 14,
+      "name": "Miguel Ramírez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-1998-mois_s_villarroel",
+      "identityId": "P-16244",
+      "squadNumber": 15,
+      "name": "Moisés Villarroel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Chile (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "chile-1998-mauricio_aros",
+      "identityId": "P-84458",
+      "squadNumber": 16,
+      "name": "Mauricio Aros",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-1998-marcelo_vega",
+      "identityId": "P-56057",
+      "squadNumber": 17,
+      "name": "Marcelo Vega",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Chile (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "chile-1998-luis_musrri",
+      "identityId": "P-51514",
+      "squadNumber": 18,
+      "name": "Luis Musrri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Chile (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "chile-1998-fernando_cornejo",
+      "identityId": "P-76038",
+      "squadNumber": 19,
+      "name": "Fernando Cornejo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Chile (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "chile-1998-fabi_n_estay",
+      "identityId": "P-14852",
+      "squadNumber": 20,
+      "name": "Fabián Estay",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Chile (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "chile-1998-rodrigo_barrera",
+      "identityId": "P-20330",
+      "squadNumber": 21,
+      "name": "Rodrigo Barrera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Chile (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "chile-1998-carlos_tejas",
+      "identityId": "P-74519",
+      "squadNumber": 22,
+      "name": "Carlos Tejas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1998 World Cup performance for Chile (Round of 16). Squad reserve member."
+    }
+  ]
+}

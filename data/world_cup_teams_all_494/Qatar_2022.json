@@ -1,0 +1,579 @@
+{
+  "teamName": "Qatar",
+  "teamCode": "QAT",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "qatar-2022-saad_al-sheeb",
+      "identityId": "P-70879",
+      "squadNumber": 1,
+      "name": "Saad Al-Sheeb",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "qatar-2022-r_-r_",
+      "identityId": "P-00052",
+      "squadNumber": 2,
+      "name": "Ró-Ró",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-abdelkarim_hassan",
+      "identityId": "P-01258",
+      "squadNumber": 3,
+      "name": "Abdelkarim Hassan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-mohammed_waad",
+      "identityId": "P-90689",
+      "squadNumber": 4,
+      "name": "Mohammed Waad",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Qatar (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "qatar-2022-tarek_salman",
+      "identityId": "P-42663",
+      "squadNumber": 5,
+      "name": "Tarek Salman",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Qatar (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "qatar-2022-abdulaziz_hatem",
+      "identityId": "P-97800",
+      "squadNumber": 6,
+      "name": "Abdulaziz Hatem",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "qatar-2022-ahmed_alaaeldin",
+      "identityId": "P-57100",
+      "squadNumber": 7,
+      "name": "Ahmed Alaaeldin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Qatar (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "qatar-2022-ali_assadalla",
+      "identityId": "P-51678",
+      "squadNumber": 8,
+      "name": "Ali Assadalla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Qatar (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "qatar-2022-mohammed_muntari",
+      "identityId": "P-17048",
+      "squadNumber": 9,
+      "name": "Mohammed Muntari",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for Qatar (Group Stage). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "qatar-2022-hassan_al-haydos",
+      "identityId": "P-38732",
+      "squadNumber": 10,
+      "name": "Hassan Al-Haydos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-akram_afif",
+      "identityId": "P-47319",
+      "squadNumber": 11,
+      "name": "Akram Afif",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-karim_boudiaf",
+      "identityId": "P-95754",
+      "squadNumber": 12,
+      "name": "Karim Boudiaf",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "qatar-2022-musab_kheder",
+      "identityId": "P-32949",
+      "squadNumber": 13,
+      "name": "Musab Kheder",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2022 World Cup performance for Qatar (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "qatar-2022-homam_ahmed",
+      "identityId": "P-33804",
+      "squadNumber": 14,
+      "name": "Homam Ahmed",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-bassam_al-rawi",
+      "identityId": "P-15161",
+      "squadNumber": 15,
+      "name": "Bassam Al-Rawi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "qatar-2022-boualem_khoukhi",
+      "identityId": "P-12810",
+      "squadNumber": 16,
+      "name": "Boualem Khoukhi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-ismaeel_mohammad",
+      "identityId": "P-01077",
+      "squadNumber": 17,
+      "name": "Ismaeel Mohammad",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "qatar-2022-khalid_muneer",
+      "identityId": "P-54495",
+      "squadNumber": 18,
+      "name": "Khalid Muneer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Qatar (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "qatar-2022-almoez_ali",
+      "identityId": "P-01930",
+      "squadNumber": 19,
+      "name": "Almoez Ali",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for Qatar (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "qatar-2022-salem_al-hajri",
+      "identityId": "P-43921",
+      "squadNumber": 20,
+      "name": "Salem Al-Hajri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Qatar (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "qatar-2022-yousef_hassan",
+      "identityId": "P-75618",
+      "squadNumber": 21,
+      "name": "Yousef Hassan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Qatar (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "qatar-2022-meshaal_barsham",
+      "identityId": "P-28811",
+      "squadNumber": 22,
+      "name": "Meshaal Barsham",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "qatar-2022-assim_madibo",
+      "identityId": "P-63532",
+      "squadNumber": 23,
+      "name": "Assim Madibo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2022 World Cup performance for Qatar (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "qatar-2022-naif_al-hadhrami",
+      "identityId": "P-93316",
+      "squadNumber": 24,
+      "name": "Naif Al-Hadhrami",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Qatar (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "qatar-2022-jassem_gaber",
+      "identityId": "P-22110",
+      "squadNumber": 25,
+      "name": "Jassem Gaber",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Qatar (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "qatar-2022-mostafa_meshaal",
+      "identityId": "P-26637",
+      "squadNumber": 26,
+      "name": "Mostafa Meshaal",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2022 World Cup performance for Qatar (Group Stage). Squad reserve member."
+    }
+  ]
+}

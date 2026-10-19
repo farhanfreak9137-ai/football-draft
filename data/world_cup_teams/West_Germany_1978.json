@@ -1,0 +1,493 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "west_germany-1978-sepp_maier",
+      "identityId": "P-14080",
+      "squadNumber": 1,
+      "name": "Sepp Maier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1978-berti_vogts",
+      "identityId": "P-69695",
+      "squadNumber": 2,
+      "name": "Berti Vogts",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1978-bernard_dietz",
+      "identityId": "P-55894",
+      "squadNumber": 3,
+      "name": "Bernard Dietz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "west_germany-1978-rolf_r_ssmann",
+      "identityId": "P-47205",
+      "squadNumber": 4,
+      "name": "Rolf Rüssmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1978-manfred_kaltz",
+      "identityId": "P-68969",
+      "squadNumber": 5,
+      "name": "Manfred Kaltz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1978-rainer_bonhof",
+      "identityId": "P-41102",
+      "squadNumber": 6,
+      "name": "Rainer Bonhof",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1978-r_diger_abramczik",
+      "identityId": "P-64134",
+      "squadNumber": 7,
+      "name": "Rüdiger Abramczik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1978-herbert_zimmermann",
+      "identityId": "P-03391",
+      "squadNumber": 8,
+      "name": "Herbert Zimmermann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1978 World Cup performance for West Germany (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1978-klaus_fischer",
+      "identityId": "P-52461",
+      "squadNumber": 9,
+      "name": "Klaus Fischer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "west_germany-1978-heinz_flohe",
+      "identityId": "P-15681",
+      "squadNumber": 10,
+      "name": "Heinz Flohe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1978-karl-heinz_rummenigge",
+      "identityId": "P-59574",
+      "squadNumber": 11,
+      "name": "Karl-Heinz Rummenigge",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1978-hans-georg_schwarzenbeck",
+      "identityId": "P-66174",
+      "squadNumber": 12,
+      "name": "Hans-Georg Schwarzenbeck",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for West Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1978-harald_konopka",
+      "identityId": "P-11877",
+      "squadNumber": 13,
+      "name": "Harald Konopka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1978 World Cup performance for West Germany (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "west_germany-1978-dieter_m_ller",
+      "identityId": "P-34993",
+      "squadNumber": 14,
+      "name": "Dieter Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1978-erich_beer",
+      "identityId": "P-20874",
+      "squadNumber": 15,
+      "name": "Erich Beer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "west_germany-1978-bernhard_cullmann",
+      "identityId": "P-44313",
+      "squadNumber": 16,
+      "name": "Bernhard Cullmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for West Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1978-bernd_h_lzenbein",
+      "identityId": "P-35602",
+      "squadNumber": 17,
+      "name": "Bernd Hölzenbein",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1978-gerd_zewe",
+      "identityId": "P-71765",
+      "squadNumber": 18,
+      "name": "Gerd Zewe",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for West Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1978-ronald_worm",
+      "identityId": "P-85977",
+      "squadNumber": 19,
+      "name": "Ronald Worm",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for West Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1978-hansi_m_ller",
+      "identityId": "P-95747",
+      "squadNumber": 20,
+      "name": "Hansi Müller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1978 World Cup performance for West Germany (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1978-rudolf_kargus",
+      "identityId": "P-39513",
+      "squadNumber": 21,
+      "name": "Rudolf Kargus",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for West Germany (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1978-dieter_burdenski",
+      "identityId": "P-96776",
+      "squadNumber": 22,
+      "name": "Dieter Burdenski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1978 World Cup performance for West Germany (Round of 16). Squad reserve member."
+    }
+  ]
+}

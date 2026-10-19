@@ -1,0 +1,519 @@
+{
+  "teamName": "Germany",
+  "teamCode": "DEU",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 88,
+  "players": [
+    {
+      "id": "germany-2002-oliver_kahn",
+      "identityId": "P-33751",
+      "squadNumber": 1,
+      "name": "Oliver Kahn",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Ball",
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2002 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 7 match(es). Honors: Golden Ball, Golden Glove."
+    },
+    {
+      "id": "germany-2002-thomas_linke",
+      "identityId": "P-17520",
+      "squadNumber": 2,
+      "name": "Thomas Linke",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2002-marko_rehmer",
+      "identityId": "P-71726",
+      "squadNumber": 3,
+      "name": "Marko Rehmer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Germany (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2002-frank_baumann",
+      "identityId": "P-73157",
+      "squadNumber": 4,
+      "name": "Frank Baumann",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Germany (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2002-carsten_ramelow",
+      "identityId": "P-57588",
+      "squadNumber": 5,
+      "name": "Carsten Ramelow",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-2002-christian_ziege",
+      "identityId": "P-67544",
+      "squadNumber": 6,
+      "name": "Christian Ziege",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "germany-2002-oliver_neuville",
+      "identityId": "P-55504",
+      "squadNumber": 7,
+      "name": "Oliver Neuville",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2002-dietmar_hamann",
+      "identityId": "P-35902",
+      "squadNumber": 8,
+      "name": "Dietmar Hamann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "germany-2002-carsten_jancker",
+      "identityId": "P-45490",
+      "squadNumber": 9,
+      "name": "Carsten Jancker",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2002-lars_ricken",
+      "identityId": "P-97252",
+      "squadNumber": 10,
+      "name": "Lars Ricken",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "germany-2002-miroslav_klose",
+      "identityId": "P-27787",
+      "squadNumber": 11,
+      "name": "Miroslav Klose",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 95 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "germany-2002-jens_lehmann",
+      "identityId": "P-98511",
+      "squadNumber": 12,
+      "name": "Jens Lehmann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "germany-2002-michael_ballack",
+      "identityId": "P-84003",
+      "squadNumber": 13,
+      "name": "Michael Ballack",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "germany-2002-gerald_asamoah",
+      "identityId": "P-25543",
+      "squadNumber": 14,
+      "name": "Gerald Asamoah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2002 World Cup performance for Germany (Runners-up). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "germany-2002-sebastian_kehl",
+      "identityId": "P-51287",
+      "squadNumber": 15,
+      "name": "Sebastian Kehl",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Germany (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2002-jens_jeremies",
+      "identityId": "P-65108",
+      "squadNumber": 16,
+      "name": "Jens Jeremies",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Germany (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2002-marco_bode",
+      "identityId": "P-03026",
+      "squadNumber": 17,
+      "name": "Marco Bode",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2002-j_rg_b_hme",
+      "identityId": "P-42820",
+      "squadNumber": 18,
+      "name": "Jörg Böhme",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "germany-2002-bernd_schneider",
+      "identityId": "P-32136",
+      "squadNumber": 19,
+      "name": "Bernd Schneider",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2002-oliver_bierhoff",
+      "identityId": "P-84534",
+      "squadNumber": 20,
+      "name": "Oliver Bierhoff",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Germany (Runners-up). Substitute rotation option (5 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2002-christoph_metzelder",
+      "identityId": "P-04065",
+      "squadNumber": 21,
+      "name": "Christoph Metzelder",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2002-torsten_frings",
+      "identityId": "P-35264",
+      "squadNumber": 22,
+      "name": "Torsten Frings",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "germany-2002-hans-j_rg_butt",
+      "identityId": "P-05630",
+      "squadNumber": 23,
+      "name": "Hans-Jörg Butt",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Germany (Runners-up). Squad reserve member."
+    }
+  ]
+}

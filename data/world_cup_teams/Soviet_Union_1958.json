@@ -1,0 +1,498 @@
+{
+  "teamName": "Soviet Union",
+  "teamCode": "SUN",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "soviet_union-1958-lev_yashin",
+      "identityId": "P-09317",
+      "squadNumber": 1,
+      "name": "Lev Yashin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Ballon d'Or Winner & FIFA Goalkeeper of the Century"
+      ],
+      "hasLegendSeal": true,
+      "ratingRationale": "Rated 98 OVR for 1958 World Cup. Greatest goalkeeper in football history (The Black Spider). Ballon d'Or winner and defensive anchor.",
+      "legendSealReason": "Only Goalkeeper in History to Win the Ballon d'Or (The Black Spider)"
+    },
+    {
+      "id": "soviet_union-1958-vladimir_kesarev",
+      "identityId": "P-48811",
+      "squadNumber": 2,
+      "name": "Vladimir Kesarev",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-konstantin_krizhevsky",
+      "identityId": "P-33632",
+      "squadNumber": 3,
+      "name": "Konstantin Krizhevsky",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-boris_kuznetsov",
+      "identityId": "P-49657",
+      "squadNumber": 4,
+      "name": "Boris Kuznetsov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-yuri_voinov",
+      "identityId": "P-69088",
+      "squadNumber": 5,
+      "name": "Yuri Voinov",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-igor_netto",
+      "identityId": "P-65970",
+      "squadNumber": 6,
+      "name": "Igor Netto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-german_apukhtin",
+      "identityId": "P-35585",
+      "squadNumber": 7,
+      "name": "German Apukhtin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-valentin_ivanov",
+      "identityId": "P-11702",
+      "squadNumber": 8,
+      "name": "Valentin Ivanov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1958-nikita_simonyan",
+      "identityId": "P-54948",
+      "squadNumber": 9,
+      "name": "Nikita Simonyan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1958-sergei_salnikov",
+      "identityId": "P-67694",
+      "squadNumber": 10,
+      "name": "Sergei Salnikov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "soviet_union-1958-anatoli_ilyin",
+      "identityId": "P-80609",
+      "squadNumber": 11,
+      "name": "Anatoli Ilyin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "soviet_union-1958-vladimir_maslachenko",
+      "identityId": "P-92483",
+      "squadNumber": 12,
+      "name": "Vladimir Maslachenko",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-vladimir_belyayev",
+      "identityId": "P-01959",
+      "squadNumber": 13,
+      "name": "Vladimir Belyayev",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-leonid_ostrovskiy",
+      "identityId": "P-04392",
+      "squadNumber": 14,
+      "name": "Leonid Ostrovskiy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-anatoli_maslyonkin",
+      "identityId": "P-63158",
+      "squadNumber": 15,
+      "name": "Anatoli Maslyonkin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-viktor_tsarev",
+      "identityId": "P-49145",
+      "squadNumber": 16,
+      "name": "Viktor Tsarev",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-aleksandr_ivanov",
+      "identityId": "P-92440",
+      "squadNumber": 17,
+      "name": "Aleksandr Ivanov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "soviet_union-1958-valentin_bubukin",
+      "identityId": "P-77966",
+      "squadNumber": 18,
+      "name": "Valentin Bubukin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-gennadi_gusarov",
+      "identityId": "P-87288",
+      "squadNumber": 19,
+      "name": "Gennadi Gusarov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-yuri_falin",
+      "identityId": "P-45067",
+      "squadNumber": 20,
+      "name": "Yuri Falin",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-genrich_fedosov",
+      "identityId": "P-09442",
+      "squadNumber": 21,
+      "name": "Genrich Fedosov",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "soviet_union-1958-vladimir_yerokhin",
+      "identityId": "P-68478",
+      "squadNumber": 22,
+      "name": "Vladimir Yerokhin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Soviet Union (Group Stage). Squad reserve member."
+    }
+  ]
+}
