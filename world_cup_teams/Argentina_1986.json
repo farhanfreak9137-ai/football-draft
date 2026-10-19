@@ -1,0 +1,496 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "argentina-1986-sergio_almir_n",
+      "identityId": "P-83449",
+      "squadNumber": 1,
+      "name": "Sergio Almirón",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1986-sergio_batista",
+      "identityId": "P-22408",
+      "squadNumber": 2,
+      "name": "Sergio Batista",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1986-ricardo_bochini",
+      "identityId": "P-60363",
+      "squadNumber": 3,
+      "name": "Ricardo Bochini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for Argentina (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-1986-claudio_borghi",
+      "identityId": "P-45025",
+      "squadNumber": 4,
+      "name": "Claudio Borghi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for Argentina (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-1986-jos_luis_brown",
+      "identityId": "P-62815",
+      "squadNumber": 5,
+      "name": "José Luis Brown",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1986-daniel_passarella",
+      "identityId": "P-80376",
+      "squadNumber": 6,
+      "name": "Daniel Passarella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1986-jorge_burruchaga",
+      "identityId": "P-95267",
+      "squadNumber": 7,
+      "name": "Jorge Burruchaga",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1986-n_stor_clausen",
+      "identityId": "P-61630",
+      "squadNumber": 8,
+      "name": "Néstor Clausen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for Argentina (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1986-jos_luis_cuciuffo",
+      "identityId": "P-22755",
+      "squadNumber": 9,
+      "name": "José Luis Cuciuffo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "argentina-1986-diego_maradona",
+      "identityId": "P-80404",
+      "squadNumber": 10,
+      "name": "Diego Maradona",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Golden Ball",
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1986 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Golden Ball, Silver Boot."
+    },
+    {
+      "id": "argentina-1986-jorge_valdano",
+      "identityId": "P-02464",
+      "squadNumber": 11,
+      "name": "Jorge Valdano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "argentina-1986-h_ctor_enrique",
+      "identityId": "P-70033",
+      "squadNumber": 12,
+      "name": "Héctor Enrique",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1986-oscar_garr_",
+      "identityId": "P-69165",
+      "squadNumber": 13,
+      "name": "Oscar Garré",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1986-ricardo_giusti",
+      "identityId": "P-49676",
+      "squadNumber": 14,
+      "name": "Ricardo Giusti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1986-luis_islas",
+      "identityId": "P-24755",
+      "squadNumber": 15,
+      "name": "Luis Islas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-1986-julio_olarticoechea",
+      "identityId": "P-46907",
+      "squadNumber": 16,
+      "name": "Julio Olarticoechea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1986-pedro_pasculli",
+      "identityId": "P-12666",
+      "squadNumber": 17,
+      "name": "Pedro Pasculli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for Argentina (Champions). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1986-nery_pumpido",
+      "identityId": "P-15637",
+      "squadNumber": 18,
+      "name": "Nery Pumpido",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-1986-oscar_ruggeri",
+      "identityId": "P-79080",
+      "squadNumber": 19,
+      "name": "Oscar Ruggeri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1986 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1986-carlos_tapia",
+      "identityId": "P-98697",
+      "squadNumber": 20,
+      "name": "Carlos Tapia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for Argentina (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-1986-marcelo_trobbiani",
+      "identityId": "P-65092",
+      "squadNumber": 21,
+      "name": "Marcelo Trobbiani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for Argentina (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-1986-h_ctor_zelada",
+      "identityId": "P-64307",
+      "squadNumber": 22,
+      "name": "Héctor Zelada",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Argentina (Champions). Squad reserve member."
+    }
+  ]
+}

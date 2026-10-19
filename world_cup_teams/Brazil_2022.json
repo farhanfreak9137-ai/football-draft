@@ -1,0 +1,585 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "brazil-2022-alisson",
+      "identityId": "P-21531",
+      "squadNumber": 1,
+      "name": "Alisson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2022-danilo",
+      "identityId": "P-40137",
+      "squadNumber": 2,
+      "name": "Danilo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-2022-thiago_silva",
+      "identityId": "P-32798",
+      "squadNumber": 3,
+      "name": "Thiago Silva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2022-marquinhos",
+      "identityId": "P-76060",
+      "squadNumber": 4,
+      "name": "Marquinhos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2022-casemiro",
+      "identityId": "P-02305",
+      "squadNumber": 5,
+      "name": "Casemiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2022-alex_sandro",
+      "identityId": "P-97698",
+      "squadNumber": 6,
+      "name": "Alex Sandro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-2022-lucas_paquet_",
+      "identityId": "P-05164",
+      "squadNumber": 7,
+      "name": "Lucas Paquetá",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2022-fred",
+      "identityId": "P-74941",
+      "squadNumber": 8,
+      "name": "Fred",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-2022-richarlison",
+      "identityId": "P-68016",
+      "squadNumber": 9,
+      "name": "Richarlison",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "brazil-2022-neymar",
+      "identityId": "P-87008",
+      "squadNumber": 10,
+      "name": "Neymar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2022-raphinha",
+      "identityId": "P-83169",
+      "squadNumber": 11,
+      "name": "Raphinha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2022-weverton",
+      "identityId": "P-66020",
+      "squadNumber": 12,
+      "name": "Weverton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2022-dani_alves",
+      "identityId": "P-09441",
+      "squadNumber": 13,
+      "name": "Dani Alves",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-_der_milit_o",
+      "identityId": "P-55590",
+      "squadNumber": 14,
+      "name": "Éder Militão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2022-fabinho",
+      "identityId": "P-77071",
+      "squadNumber": 15,
+      "name": "Fabinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-alex_telles",
+      "identityId": "P-26953",
+      "squadNumber": 16,
+      "name": "Alex Telles",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-bruno_guimar_es",
+      "identityId": "P-74688",
+      "squadNumber": 17,
+      "name": "Bruno Guimarães",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-2022-gabriel_jesus",
+      "identityId": "P-92004",
+      "squadNumber": 18,
+      "name": "Gabriel Jesus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-antony",
+      "identityId": "P-37860",
+      "squadNumber": 19,
+      "name": "Antony",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-vin_cius_j_nior",
+      "identityId": "P-92812",
+      "squadNumber": 20,
+      "name": "Vinícius Júnior",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2022-rodrygo",
+      "identityId": "P-06446",
+      "squadNumber": 21,
+      "name": "Rodrygo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-_verton_ribeiro",
+      "identityId": "P-42740",
+      "squadNumber": 22,
+      "name": "Éverton Ribeiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2022-ederson",
+      "identityId": "P-89248",
+      "squadNumber": 23,
+      "name": "Ederson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-bremer",
+      "identityId": "P-14060",
+      "squadNumber": 24,
+      "name": "Bremer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2022-pedro",
+      "identityId": "P-15197",
+      "squadNumber": 25,
+      "name": "Pedro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-2022-gabriel_martinelli",
+      "identityId": "P-70483",
+      "squadNumber": 26,
+      "name": "Gabriel Martinelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for Brazil (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

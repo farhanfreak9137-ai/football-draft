@@ -1,0 +1,508 @@
+{
+  "teamName": "Poland",
+  "teamCode": "POL",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "poland-1974-andrzej_fischer",
+      "identityId": "P-96371",
+      "squadNumber": 1,
+      "name": "Andrzej Fischer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Poland (Third Place). Squad reserve member."
+    },
+    {
+      "id": "poland-1974-jan_tomaszewski",
+      "identityId": "P-06667",
+      "squadNumber": 2,
+      "name": "Jan Tomaszewski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "poland-1974-zygmunt_kalinowski",
+      "identityId": "P-62487",
+      "squadNumber": 3,
+      "name": "Zygmunt Kalinowski",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Poland (Third Place). Squad reserve member."
+    },
+    {
+      "id": "poland-1974-antoni_szymanowski",
+      "identityId": "P-89521",
+      "squadNumber": 4,
+      "name": "Antoni Szymanowski",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "poland-1974-zbigniew_gut",
+      "identityId": "P-17846",
+      "squadNumber": 5,
+      "name": "Zbigniew Gut",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Poland (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1974-jerzy_gorgo_",
+      "identityId": "P-95634",
+      "squadNumber": 6,
+      "name": "Jerzy Gorgoń",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "poland-1974-henryk_wieczorek",
+      "identityId": "P-57366",
+      "squadNumber": 7,
+      "name": "Henryk Wieczorek",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Poland (Third Place). Squad reserve member."
+    },
+    {
+      "id": "poland-1974-miros_aw_bulzacki",
+      "identityId": "P-90440",
+      "squadNumber": 8,
+      "name": "Mirosław Bulzacki",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Poland (Third Place). Squad reserve member."
+    },
+    {
+      "id": "poland-1974-w_adys_aw_muda",
+      "identityId": "P-48883",
+      "squadNumber": 9,
+      "name": "Władysław Żmuda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es). Honors: Best Young Player."
+    },
+    {
+      "id": "poland-1974-adam_musia_",
+      "identityId": "P-39234",
+      "squadNumber": 10,
+      "name": "Adam Musiał",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "poland-1974-les_aw_mikiewicz",
+      "identityId": "P-07479",
+      "squadNumber": 11,
+      "name": "Lesław Ćmikiewicz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 6,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1974 World Cup performance for Poland (Third Place). Substitute rotation option (6 sub app)."
+    },
+    {
+      "id": "poland-1974-kazimierz_deyna",
+      "identityId": "P-29548",
+      "squadNumber": 12,
+      "name": "Kazimierz Deyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "poland-1974-henryk_kasperczak",
+      "identityId": "P-97548",
+      "squadNumber": 13,
+      "name": "Henryk Kasperczak",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "poland-1974-zygmunt_maszczyk",
+      "identityId": "P-65840",
+      "squadNumber": 14,
+      "name": "Zygmunt Maszczyk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "poland-1974-roman_jak_bczak",
+      "identityId": "P-45208",
+      "squadNumber": 15,
+      "name": "Roman Jakóbczak",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Poland (Third Place). Squad reserve member."
+    },
+    {
+      "id": "poland-1974-grzegorz_lato",
+      "identityId": "P-21597",
+      "squadNumber": 16,
+      "name": "Grzegorz Lato",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 7,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1974 FIFA World Cup Golden Boot Winner (7 Goals)",
+      "ratingRationale": "Rated 95 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es). Scored 7 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "poland-1974-andrzej_szarmach",
+      "identityId": "P-92867",
+      "squadNumber": 17,
+      "name": "Andrzej Szarmach",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 6 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "poland-1974-robert_gadocha",
+      "identityId": "P-20188",
+      "squadNumber": 18,
+      "name": "Robert Gadocha",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1974 World Cup performance for Poland (Third Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "poland-1974-jan_domarski",
+      "identityId": "P-58729",
+      "squadNumber": 19,
+      "name": "Jan Domarski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1974 World Cup performance for Poland (Third Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "poland-1974-zdzis_aw_kapka",
+      "identityId": "P-28931",
+      "squadNumber": 20,
+      "name": "Zdzisław Kapka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1974 World Cup performance for Poland (Third Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "poland-1974-kazimierz_kmiecik",
+      "identityId": "P-26520",
+      "squadNumber": 21,
+      "name": "Kazimierz Kmiecik",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1974 World Cup performance for Poland (Third Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "poland-1974-marek_kusto",
+      "identityId": "P-69383",
+      "squadNumber": 22,
+      "name": "Marek Kusto",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Poland (Third Place). Squad reserve member."
+    }
+  ]
+}

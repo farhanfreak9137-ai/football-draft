@@ -1,0 +1,518 @@
+{
+  "teamName": "Ghana",
+  "teamCode": "GHA",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "ghana-2010-daniel_agyei",
+      "identityId": "P-79898",
+      "squadNumber": 1,
+      "name": "Daniel Agyei",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ghana-2010-hans_sarpei",
+      "identityId": "P-24586",
+      "squadNumber": 2,
+      "name": "Hans Sarpei",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ghana-2010-asamoah_gyan",
+      "identityId": "P-38556",
+      "squadNumber": 3,
+      "name": "Asamoah Gyan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "ghana-2010-john_paintsil",
+      "identityId": "P-25083",
+      "squadNumber": 4,
+      "name": "John Paintsil",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ghana-2010-john_mensah",
+      "identityId": "P-29967",
+      "squadNumber": 5,
+      "name": "John Mensah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ghana-2010-anthony_annan",
+      "identityId": "P-50270",
+      "squadNumber": 6,
+      "name": "Anthony Annan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ghana-2010-samuel_inkoom",
+      "identityId": "P-43176",
+      "squadNumber": 7,
+      "name": "Samuel Inkoom",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2010-jonathan_mensah",
+      "identityId": "P-93750",
+      "squadNumber": 8,
+      "name": "Jonathan Mensah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2010-derek_boateng",
+      "identityId": "P-49882",
+      "squadNumber": 9,
+      "name": "Derek Boateng",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ghana-2010-stephen_appiah",
+      "identityId": "P-09728",
+      "squadNumber": 10,
+      "name": "Stephen Appiah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "ghana-2010-sulley_muntari",
+      "identityId": "P-50641",
+      "squadNumber": 11,
+      "name": "Sulley Muntari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "ghana-2010-prince_tagoe",
+      "identityId": "P-69641",
+      "squadNumber": 12,
+      "name": "Prince Tagoe",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "ghana-2010-andr_ayew",
+      "identityId": "P-01945",
+      "squadNumber": 13,
+      "name": "André Ayew",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "ghana-2010-matthew_amoah",
+      "identityId": "P-79316",
+      "squadNumber": 14,
+      "name": "Matthew Amoah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ghana-2010-isaac_vorsah",
+      "identityId": "P-56448",
+      "squadNumber": 15,
+      "name": "Isaac Vorsah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "ghana-2010-stephen_ahorlu",
+      "identityId": "P-29011",
+      "squadNumber": 16,
+      "name": "Stephen Ahorlu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ghana-2010-ibrahim_ayew",
+      "identityId": "P-79884",
+      "squadNumber": 17,
+      "name": "Ibrahim Ayew",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "ghana-2010-dominic_adiyiah",
+      "identityId": "P-65216",
+      "squadNumber": 18,
+      "name": "Dominic Adiyiah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ghana-2010-lee_addy",
+      "identityId": "P-56284",
+      "squadNumber": 19,
+      "name": "Lee Addy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "ghana-2010-quincy_owusu-abeyie",
+      "identityId": "P-06223",
+      "squadNumber": 20,
+      "name": "Quincy Owusu-Abeyie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "ghana-2010-kwadwo_asamoah",
+      "identityId": "P-39956",
+      "squadNumber": 21,
+      "name": "Kwadwo Asamoah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ghana-2010-richard_kingson",
+      "identityId": "P-81778",
+      "squadNumber": 22,
+      "name": "Richard Kingson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "ghana-2010-kevin-prince_boateng",
+      "identityId": "P-66316",
+      "squadNumber": 23,
+      "name": "Kevin-Prince Boateng",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2010 World Cup performance for Ghana (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    }
+  ]
+}

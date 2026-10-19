@@ -1,0 +1,490 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "argentina-1994-sergio_goycochea",
+      "identityId": "P-34056",
+      "squadNumber": 1,
+      "name": "Sergio Goycochea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1994-sergio_v_zquez",
+      "identityId": "P-53817",
+      "squadNumber": 2,
+      "name": "Sergio Vázquez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1994-jos_chamot",
+      "identityId": "P-28816",
+      "squadNumber": 3,
+      "name": "José Chamot",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1994-roberto_n_stor_sensini",
+      "identityId": "P-82949",
+      "squadNumber": 4,
+      "name": "Roberto Néstor Sensini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1994-fernando_redondo",
+      "identityId": "P-78898",
+      "squadNumber": 5,
+      "name": "Fernando Redondo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1994-oscar_ruggeri",
+      "identityId": "P-79080",
+      "squadNumber": 6,
+      "name": "Oscar Ruggeri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1994-claudio_caniggia",
+      "identityId": "P-35873",
+      "squadNumber": 7,
+      "name": "Claudio Caniggia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1994-jos_basualdo",
+      "identityId": "P-14841",
+      "squadNumber": 8,
+      "name": "José Basualdo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1994-gabriel_batistuta",
+      "identityId": "P-84542",
+      "squadNumber": 9,
+      "name": "Gabriel Batistuta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "argentina-1994-diego_maradona",
+      "identityId": "P-80404",
+      "squadNumber": 10,
+      "name": "Diego Maradona",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1994 World Cup performance for Argentina (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1994-ram_n_medina_bello",
+      "identityId": "P-16961",
+      "squadNumber": 11,
+      "name": "Ramón Medina Bello",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Argentina (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-1994-luis_islas",
+      "identityId": "P-24755",
+      "squadNumber": 12,
+      "name": "Luis Islas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1994-fernando_c_ceres",
+      "identityId": "P-41616",
+      "squadNumber": 13,
+      "name": "Fernando Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1994-diego_simeone",
+      "identityId": "P-06370",
+      "squadNumber": 14,
+      "name": "Diego Simeone",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1994-jorge_borelli",
+      "identityId": "P-55916",
+      "squadNumber": 15,
+      "name": "Jorge Borelli",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1994-hern_n_d_az",
+      "identityId": "P-69852",
+      "squadNumber": 16,
+      "name": "Hernán Díaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1994-ariel_ortega",
+      "identityId": "P-00065",
+      "squadNumber": 17,
+      "name": "Ariel Ortega",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1994-hugo_p_rez",
+      "identityId": "P-15142",
+      "squadNumber": 18,
+      "name": "Hugo Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "argentina-1994-abel_balbo",
+      "identityId": "P-07031",
+      "squadNumber": 19,
+      "name": "Abel Balbo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Argentina (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1994-leonardo_rodr_guez",
+      "identityId": "P-27629",
+      "squadNumber": 20,
+      "name": "Leonardo Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Argentina (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1994-alejandro_mancuso",
+      "identityId": "P-93732",
+      "squadNumber": 21,
+      "name": "Alejandro Mancuso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Argentina (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-1994-norberto_scoponi",
+      "identityId": "P-87458",
+      "squadNumber": 22,
+      "name": "Norberto Scoponi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Argentina (Round of 16). Squad reserve member."
+    }
+  ]
+}

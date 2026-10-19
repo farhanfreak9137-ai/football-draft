@@ -1,0 +1,522 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "italy-2006-gianluigi_buffon",
+      "identityId": "P-11392",
+      "squadNumber": 1,
+      "name": "Gianluigi Buffon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2006 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 93 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "italy-2006-cristian_zaccardo",
+      "identityId": "P-14267",
+      "squadNumber": 2,
+      "name": "Cristian Zaccardo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for Italy (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2006-fabio_grosso",
+      "identityId": "P-99473",
+      "squadNumber": 3,
+      "name": "Fabio Grosso",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-daniele_de_rossi",
+      "identityId": "P-65802",
+      "squadNumber": 4,
+      "name": "Daniele De Rossi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for Italy (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2006-fabio_cannavaro",
+      "identityId": "P-88863",
+      "squadNumber": 5,
+      "name": "Fabio Cannavaro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2006 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Honors: Silver Ball."
+    },
+    {
+      "id": "italy-2006-andrea_barzagli",
+      "identityId": "P-26539",
+      "squadNumber": 6,
+      "name": "Andrea Barzagli",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2006 World Cup performance for Italy (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2006-alessandro_del_piero",
+      "identityId": "P-83836",
+      "squadNumber": 7,
+      "name": "Alessandro Del Piero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2006 World Cup performance for Italy (Champions). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-gennaro_gattuso",
+      "identityId": "P-18164",
+      "squadNumber": 8,
+      "name": "Gennaro Gattuso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "italy-2006-luca_toni",
+      "identityId": "P-96512",
+      "squadNumber": 9,
+      "name": "Luca Toni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "italy-2006-francesco_totti",
+      "identityId": "P-42038",
+      "squadNumber": 10,
+      "name": "Francesco Totti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-alberto_gilardino",
+      "identityId": "P-48645",
+      "squadNumber": 11,
+      "name": "Alberto Gilardino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-angelo_peruzzi",
+      "identityId": "P-88263",
+      "squadNumber": 12,
+      "name": "Angelo Peruzzi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-2006-alessandro_nesta",
+      "identityId": "P-55511",
+      "squadNumber": 13,
+      "name": "Alessandro Nesta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2006-marco_amelia",
+      "identityId": "P-69103",
+      "squadNumber": 14,
+      "name": "Marco Amelia",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-2006-vincenzo_iaquinta",
+      "identityId": "P-38599",
+      "squadNumber": 15,
+      "name": "Vincenzo Iaquinta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Italy (Champions). Substitute rotation option (5 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-mauro_camoranesi",
+      "identityId": "P-22378",
+      "squadNumber": 16,
+      "name": "Mauro Camoranesi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2006-simone_barone",
+      "identityId": "P-97154",
+      "squadNumber": 17,
+      "name": "Simone Barone",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2006 World Cup performance for Italy (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-2006-filippo_inzaghi",
+      "identityId": "P-29172",
+      "squadNumber": 18,
+      "name": "Filippo Inzaghi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2006 World Cup performance for Italy (Champions). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-gianluca_zambrotta",
+      "identityId": "P-42227",
+      "squadNumber": 19,
+      "name": "Gianluca Zambrotta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2006-simone_perrotta",
+      "identityId": "P-57529",
+      "squadNumber": 20,
+      "name": "Simone Perrotta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-2006-andrea_pirlo",
+      "identityId": "P-99537",
+      "squadNumber": 21,
+      "name": "Andrea Pirlo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Bronze Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2006 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Scored 1 goal(s). Honors: Bronze Ball."
+    },
+    {
+      "id": "italy-2006-massimo_oddo",
+      "identityId": "P-70140",
+      "squadNumber": 22,
+      "name": "Massimo Oddo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2006 World Cup performance for Italy (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2006-marco_materazzi",
+      "identityId": "P-37126",
+      "squadNumber": 23,
+      "name": "Marco Materazzi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2006 World Cup performance for Italy (Champions). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    }
+  ]
+}

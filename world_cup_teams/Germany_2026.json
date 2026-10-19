@@ -1,0 +1,534 @@
+{
+  "teamName": "Germany",
+  "teamCode": "GER",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 25,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "germany-2026-marc-andr_ter_stegen",
+      "identityId": "identity-2026-marc-andr_ter_stegen",
+      "squadNumber": 1,
+      "name": "Marc-André ter Stegen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-joshua_kimmich",
+      "identityId": "identity-2026-joshua_kimmich",
+      "squadNumber": 6,
+      "name": "Joshua Kimmich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Germany. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "germany-2026-antonio_r_diger",
+      "identityId": "identity-2026-antonio_r_diger",
+      "squadNumber": 2,
+      "name": "Antonio Rüdiger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Germany. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "germany-2026-jonathan_tah",
+      "identityId": "identity-2026-jonathan_tah",
+      "squadNumber": 4,
+      "name": "Jonathan Tah",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-maximilian_mittelst_dt",
+      "identityId": "identity-2026-maximilian_mittelst_dt",
+      "squadNumber": 18,
+      "name": "Maximilian Mittelstädt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-aleksandar_pavlovi_",
+      "identityId": "identity-2026-aleksandar_pavlovi_",
+      "squadNumber": 25,
+      "name": "Aleksandar Pavlović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-robert_andrich",
+      "identityId": "identity-2026-robert_andrich",
+      "squadNumber": 8,
+      "name": "Robert Andrich",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-jamal_musiala",
+      "identityId": "identity-2026-jamal_musiala",
+      "squadNumber": 10,
+      "name": "Jamal Musiala",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "World-Class Playmaker & Dribbler"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "World-Class Playmaker & Dribbler",
+      "ratingRationale": "Rated 91 OVR for 2026 World Cup form with Germany. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "germany-2026-florian_wirtz",
+      "identityId": "identity-2026-florian_wirtz",
+      "squadNumber": 17,
+      "name": "Florian Wirtz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Bundesliga Player of the Season & Mastermind"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Bundesliga Player of the Season & Mastermind",
+      "ratingRationale": "Rated 91 OVR for 2026 World Cup form with Germany. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "germany-2026-leroy_san_",
+      "identityId": "identity-2026-leroy_san_",
+      "squadNumber": 19,
+      "name": "Leroy Sané",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-kai_havertz",
+      "identityId": "identity-2026-kai_havertz",
+      "squadNumber": 7,
+      "name": "Kai Havertz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "CF"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Germany. Regular starting lineup selection."
+    },
+    {
+      "id": "germany-2026-oliver_baumann",
+      "identityId": "identity-2026-oliver_baumann",
+      "squadNumber": 12,
+      "name": "Oliver Baumann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Germany. National squad reserve depth."
+    },
+    {
+      "id": "germany-2026-alexander_n_bel",
+      "identityId": "identity-2026-alexander_n_bel",
+      "squadNumber": 22,
+      "name": "Alexander Nübel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Germany. National squad reserve depth."
+    },
+    {
+      "id": "germany-2026-david_raum",
+      "identityId": "identity-2026-david_raum",
+      "squadNumber": 3,
+      "name": "David Raum",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "LWB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-nico_schlotterbeck",
+      "identityId": "identity-2026-nico_schlotterbeck",
+      "squadNumber": 15,
+      "name": "Nico Schlotterbeck",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-waldemar_anton",
+      "identityId": "identity-2026-waldemar_anton",
+      "squadNumber": 16,
+      "name": "Waldemar Anton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-robin_koch",
+      "identityId": "identity-2026-robin_koch",
+      "squadNumber": 24,
+      "name": "Robin Koch",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-pascal_gro_",
+      "identityId": "identity-2026-pascal_gro_",
+      "squadNumber": 5,
+      "name": "Pascal Groß",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-emre_can",
+      "identityId": "identity-2026-emre_can",
+      "squadNumber": 23,
+      "name": "Emre Can",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-niclas_f_llkrug",
+      "identityId": "identity-2026-niclas_f_llkrug",
+      "squadNumber": 9,
+      "name": "Niclas Füllkrug",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-chris_f_hrich",
+      "identityId": "identity-2026-chris_f_hrich",
+      "squadNumber": 11,
+      "name": "Chris Führich",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-thomas_m_ller",
+      "identityId": "identity-2026-thomas_m_ller",
+      "squadNumber": 13,
+      "name": "Thomas Müller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "SS",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-maximilian_beier",
+      "identityId": "identity-2026-maximilian_beier",
+      "squadNumber": 14,
+      "name": "Maximilian Beier",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "germany-2026-benjamin_henrichs",
+      "identityId": "identity-2026-benjamin_henrichs",
+      "squadNumber": 20,
+      "name": "Benjamin Henrichs",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Germany. National squad reserve depth."
+    },
+    {
+      "id": "germany-2026-deniz_undav",
+      "identityId": "identity-2026-deniz_undav",
+      "squadNumber": 21,
+      "name": "Deniz Undav",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "CF"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Germany. Frequent tactical rotation contributor."
+    }
+  ]
+}

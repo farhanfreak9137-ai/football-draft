@@ -1,0 +1,492 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "PRT",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "portugal-1986-manuel_bento",
+      "identityId": "P-98161",
+      "squadNumber": 1,
+      "name": "Manuel Bento",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-1986-jo_o_pinto",
+      "identityId": "P-37038",
+      "squadNumber": 2,
+      "name": "João Pinto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-1986-ant_nio_sousa",
+      "identityId": "P-22344",
+      "squadNumber": 3,
+      "name": "António Sousa",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-jos_ribeiro",
+      "identityId": "P-63783",
+      "squadNumber": 4,
+      "name": "José Ribeiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-1986-_lvaro",
+      "identityId": "P-31048",
+      "squadNumber": 5,
+      "name": "Álvaro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-carlos_manuel",
+      "identityId": "P-81444",
+      "squadNumber": 6,
+      "name": "Carlos Manuel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-1986-jaime_pacheco",
+      "identityId": "P-97302",
+      "squadNumber": 7,
+      "name": "Jaime Pacheco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-frederico",
+      "identityId": "P-29698",
+      "squadNumber": 8,
+      "name": "Frederico",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-fernando_gomes",
+      "identityId": "P-31762",
+      "squadNumber": 9,
+      "name": "Fernando Gomes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-paulo_futre",
+      "identityId": "P-10440",
+      "squadNumber": 10,
+      "name": "Paulo Futre",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-1986-fernando_bandeirinha",
+      "identityId": "P-94871",
+      "squadNumber": 11,
+      "name": "Fernando Bandeirinha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-1986-jorge_martins",
+      "identityId": "P-34980",
+      "squadNumber": 12,
+      "name": "Jorge Martins",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-1986-ant_nio_morato",
+      "identityId": "P-94216",
+      "squadNumber": 13,
+      "name": "António Morato",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-1986-jaime_magalh_es",
+      "identityId": "P-52794",
+      "squadNumber": 14,
+      "name": "Jaime Magalhães",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-1986-ant_nio_oliveira",
+      "identityId": "P-48881",
+      "squadNumber": 15,
+      "name": "António Oliveira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-jos_ant_nio",
+      "identityId": "P-03000",
+      "squadNumber": 16,
+      "name": "José António",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Portugal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-1986-diamantino",
+      "identityId": "P-88661",
+      "squadNumber": 17,
+      "name": "Diamantino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1986 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-1986-lu_s_sobrinho",
+      "identityId": "P-87641",
+      "squadNumber": 18,
+      "name": "Luís Sobrinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1986 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-1986-rui_guas",
+      "identityId": "P-77856",
+      "squadNumber": 19,
+      "name": "Rui Águas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1986 World Cup performance for Portugal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-1986-augusto_in_cio",
+      "identityId": "P-07955",
+      "squadNumber": 20,
+      "name": "Augusto Inácio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-1986-ant_nio_andr_",
+      "identityId": "P-61802",
+      "squadNumber": 21,
+      "name": "António André",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-1986-v_tor_damas",
+      "identityId": "P-37242",
+      "squadNumber": 22,
+      "name": "Vítor Damas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts)."
+    }
+  ]
+}

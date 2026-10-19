@@ -1,0 +1,512 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "spain-2014-iker_casillas",
+      "identityId": "P-61793",
+      "squadNumber": 1,
+      "name": "Iker Casillas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2014-ra_l_albiol",
+      "identityId": "P-24647",
+      "squadNumber": 2,
+      "name": "Raúl Albiol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-gerard_piqu_",
+      "identityId": "P-64348",
+      "squadNumber": 3,
+      "name": "Gerard Piqué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-javi_mart_nez",
+      "identityId": "P-05758",
+      "squadNumber": 4,
+      "name": "Javi Martínez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-juanfran",
+      "identityId": "P-35157",
+      "squadNumber": 5,
+      "name": "Juanfran",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-andr_s_iniesta",
+      "identityId": "P-56330",
+      "squadNumber": 6,
+      "name": "Andrés Iniesta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2014-david_villa",
+      "identityId": "P-49097",
+      "squadNumber": 7,
+      "name": "David Villa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2014-xavi",
+      "identityId": "P-29415",
+      "squadNumber": 8,
+      "name": "Xavi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-fernando_torres",
+      "identityId": "P-71661",
+      "squadNumber": 9,
+      "name": "Fernando Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2014-cesc_f_bregas",
+      "identityId": "P-81297",
+      "squadNumber": 10,
+      "name": "Cesc Fàbregas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Spain (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "spain-2014-pedro",
+      "identityId": "P-78418",
+      "squadNumber": 11,
+      "name": "Pedro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-david_de_gea",
+      "identityId": "P-52217",
+      "squadNumber": 12,
+      "name": "David de Gea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-2014-juan_mata",
+      "identityId": "P-47597",
+      "squadNumber": 13,
+      "name": "Juan Mata",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Spain (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2014-xabi_alonso",
+      "identityId": "P-73924",
+      "squadNumber": 14,
+      "name": "Xabi Alonso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2014-sergio_ramos",
+      "identityId": "P-89177",
+      "squadNumber": 15,
+      "name": "Sergio Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2014-sergio_busquets",
+      "identityId": "P-28010",
+      "squadNumber": 16,
+      "name": "Sergio Busquets",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2014-koke",
+      "identityId": "P-37294",
+      "squadNumber": 17,
+      "name": "Koke",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-jordi_alba",
+      "identityId": "P-01416",
+      "squadNumber": 18,
+      "name": "Jordi Alba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2014-diego_costa",
+      "identityId": "P-02231",
+      "squadNumber": 19,
+      "name": "Diego Costa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2014-santi_cazorla",
+      "identityId": "P-98074",
+      "squadNumber": 20,
+      "name": "Santi Cazorla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2014-david_silva",
+      "identityId": "P-64102",
+      "squadNumber": 21,
+      "name": "David Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2014-c_sar_azpilicueta",
+      "identityId": "P-60716",
+      "squadNumber": 22,
+      "name": "César Azpilicueta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2014-pepe_reina",
+      "identityId": "P-44334",
+      "squadNumber": 23,
+      "name": "Pepe Reina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

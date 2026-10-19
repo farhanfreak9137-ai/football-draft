@@ -1,0 +1,587 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 88,
+  "players": [
+    {
+      "id": "france-2022-hugo_lloris",
+      "identityId": "P-30711",
+      "squadNumber": 1,
+      "name": "Hugo Lloris",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2022-benjamin_pavard",
+      "identityId": "P-60652",
+      "squadNumber": 2,
+      "name": "Benjamin Pavard",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-axel_disasi",
+      "identityId": "P-91324",
+      "squadNumber": 3,
+      "name": "Axel Disasi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-rapha_l_varane",
+      "identityId": "P-42326",
+      "squadNumber": 4,
+      "name": "Raphaël Varane",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2022-jules_kound_",
+      "identityId": "P-78484",
+      "squadNumber": 5,
+      "name": "Jules Koundé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "france-2022-matteo_guendouzi",
+      "identityId": "P-32431",
+      "squadNumber": 6,
+      "name": "Matteo Guendouzi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-antoine_griezmann",
+      "identityId": "P-90908",
+      "squadNumber": 7,
+      "name": "Antoine Griezmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2022-aur_lien_tchouam_ni",
+      "identityId": "P-54517",
+      "squadNumber": 8,
+      "name": "Aurélien Tchouaméni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2022-olivier_giroud",
+      "identityId": "P-89750",
+      "squadNumber": 9,
+      "name": "Olivier Giroud",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 6 match(es). Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "france-2022-kylian_mbapp_",
+      "identityId": "P-64077",
+      "squadNumber": 10,
+      "name": "Kylian Mbappé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 97,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 8,
+      "awards": [
+        "Silver Ball",
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2022 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 97 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 6 match(es). Scored 8 goal(s). Honors: Silver Ball, Golden Boot."
+    },
+    {
+      "id": "france-2022-ousmane_demb_l_",
+      "identityId": "P-97778",
+      "squadNumber": 11,
+      "name": "Ousmane Dembélé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "france-2022-randal_kolo_muani",
+      "identityId": "P-92987",
+      "squadNumber": 12,
+      "name": "Randal Kolo Muani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2022-youssouf_fofana",
+      "identityId": "P-23304",
+      "squadNumber": 13,
+      "name": "Youssouf Fofana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2022-adrien_rabiot",
+      "identityId": "P-57401",
+      "squadNumber": 14,
+      "name": "Adrien Rabiot",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2022-jordan_veretout",
+      "identityId": "P-00465",
+      "squadNumber": 15,
+      "name": "Jordan Veretout",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-steve_mandanda",
+      "identityId": "P-69594",
+      "squadNumber": 16,
+      "name": "Steve Mandanda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-william_saliba",
+      "identityId": "P-07089",
+      "squadNumber": 17,
+      "name": "William Saliba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for France (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-2022-dayot_upamecano",
+      "identityId": "P-03945",
+      "squadNumber": 18,
+      "name": "Dayot Upamecano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "france-2022-karim_benzema",
+      "identityId": "P-35408",
+      "squadNumber": 19,
+      "name": "Karim Benzema",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for France (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "france-2022-kingsley_coman",
+      "identityId": "P-06614",
+      "squadNumber": 20,
+      "name": "Kingsley Coman",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-lucas_hernandez",
+      "identityId": "P-84424",
+      "squadNumber": 21,
+      "name": "Lucas Hernandez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-th_o_hernandez",
+      "identityId": "P-09867",
+      "squadNumber": 22,
+      "name": "Théo Hernandez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2022-alphonse_areola",
+      "identityId": "P-81466",
+      "squadNumber": 23,
+      "name": "Alphonse Areola",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for France (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "france-2022-ibrahima_konat_",
+      "identityId": "P-86920",
+      "squadNumber": 24,
+      "name": "Ibrahima Konaté",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for France (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2022-eduardo_camavinga",
+      "identityId": "P-80996",
+      "squadNumber": 25,
+      "name": "Eduardo Camavinga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for France (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2022-marcus_thuram",
+      "identityId": "P-13613",
+      "squadNumber": 26,
+      "name": "Marcus Thuram",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2022 World Cup performance for France (Runners-up). Substitute rotation option (5 sub app)."
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "brazil-1982-waldir_peres",
+      "identityId": "P-60866",
+      "squadNumber": 1,
+      "name": "Waldir Peres",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1982-leandro",
+      "identityId": "P-65003",
+      "squadNumber": 2,
+      "name": "Leandro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1982-oscar",
+      "identityId": "P-69644",
+      "squadNumber": 3,
+      "name": "Oscar",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1982-luizinho",
+      "identityId": "P-45267",
+      "squadNumber": 4,
+      "name": "Luizinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-1982-toninho_cerezo",
+      "identityId": "P-22554",
+      "squadNumber": 5,
+      "name": "Toninho Cerezo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-1982-j_nior",
+      "identityId": "P-83096",
+      "squadNumber": 6,
+      "name": "Júnior",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-1982-paulo_isidoro",
+      "identityId": "P-06098",
+      "squadNumber": 7,
+      "name": "Paulo Isidoro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Brazil (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "brazil-1982-s_crates",
+      "identityId": "P-78605",
+      "squadNumber": 8,
+      "name": "Sócrates",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1982-serginho",
+      "identityId": "P-20664",
+      "squadNumber": 9,
+      "name": "Serginho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1982-zico",
+      "identityId": "P-37483",
+      "squadNumber": 10,
+      "name": "Zico",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "brazil-1982-_der",
+      "identityId": "P-39132",
+      "squadNumber": 11,
+      "name": "Éder",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-1982-paulo_s_rgio",
+      "identityId": "P-49168",
+      "squadNumber": 12,
+      "name": "Paulo Sérgio",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Brazil (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "brazil-1982-edevaldo",
+      "identityId": "P-71619",
+      "squadNumber": 13,
+      "name": "Edevaldo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Brazil (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-1982-juninho",
+      "identityId": "P-70038",
+      "squadNumber": 14,
+      "name": "Juninho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Brazil (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "brazil-1982-falc_o",
+      "identityId": "P-35736",
+      "squadNumber": 15,
+      "name": "Falcão",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1982 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 94 OVR based on 1982 World Cup performance for Brazil (Round of 16). Main pillar starting 5 match(es). Scored 3 goal(s). Honors: Silver Ball."
+    },
+    {
+      "id": "brazil-1982-edinho",
+      "identityId": "P-12950",
+      "squadNumber": 16,
+      "name": "Edinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Brazil (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-1982-pedrinho",
+      "identityId": "P-66932",
+      "squadNumber": 17,
+      "name": "Pedrinho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Brazil (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "brazil-1982-batista",
+      "identityId": "P-99975",
+      "squadNumber": 18,
+      "name": "Batista",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1982 World Cup performance for Brazil (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-1982-renato",
+      "identityId": "P-56757",
+      "squadNumber": 19,
+      "name": "Renato",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Brazil (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "brazil-1982-roberto_dinamite",
+      "identityId": "P-86942",
+      "squadNumber": 20,
+      "name": "Roberto Dinamite",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Brazil (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "brazil-1982-dirceu",
+      "identityId": "P-89519",
+      "squadNumber": 21,
+      "name": "Dirceu",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1982 World Cup performance for Brazil (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-1982-carlos",
+      "identityId": "P-43781",
+      "squadNumber": 22,
+      "name": "Carlos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1982 World Cup performance for Brazil (Round of 16). Squad reserve member."
+    }
+  ]
+}

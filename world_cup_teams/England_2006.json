@@ -1,0 +1,517 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2006,
+  "tournament": "2006 FIFA Men's World Cup",
+  "hostCountry": "Germany",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "england-2006-paul_robinson",
+      "identityId": "P-72859",
+      "squadNumber": 1,
+      "name": "Paul Robinson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2006-gary_neville",
+      "identityId": "P-66658",
+      "squadNumber": 2,
+      "name": "Gary Neville",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2006-ashley_cole",
+      "identityId": "P-16557",
+      "squadNumber": 3,
+      "name": "Ashley Cole",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2006-steven_gerrard",
+      "identityId": "P-62157",
+      "squadNumber": 4,
+      "name": "Steven Gerrard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "england-2006-rio_ferdinand",
+      "identityId": "P-01249",
+      "squadNumber": 5,
+      "name": "Rio Ferdinand",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2006-john_terry",
+      "identityId": "P-71420",
+      "squadNumber": 6,
+      "name": "John Terry",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2006-david_beckham",
+      "identityId": "P-81049",
+      "squadNumber": 7,
+      "name": "David Beckham",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2006-frank_lampard",
+      "identityId": "P-65534",
+      "squadNumber": 8,
+      "name": "Frank Lampard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2006-wayne_rooney",
+      "identityId": "P-99967",
+      "squadNumber": 9,
+      "name": "Wayne Rooney",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2006-michael_owen",
+      "identityId": "P-51130",
+      "squadNumber": 10,
+      "name": "Michael Owen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2006-joe_cole",
+      "identityId": "P-37933",
+      "squadNumber": 11,
+      "name": "Joe Cole",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2006-sol_campbell",
+      "identityId": "P-97840",
+      "squadNumber": 12,
+      "name": "Sol Campbell",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-2006-david_james",
+      "identityId": "P-59324",
+      "squadNumber": 13,
+      "name": "David James",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2006-wayne_bridge",
+      "identityId": "P-91486",
+      "squadNumber": 14,
+      "name": "Wayne Bridge",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2006-jamie_carragher",
+      "identityId": "P-50944",
+      "squadNumber": 15,
+      "name": "Jamie Carragher",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2006-owen_hargreaves",
+      "identityId": "P-61216",
+      "squadNumber": 16,
+      "name": "Owen Hargreaves",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2006-jermaine_jenas",
+      "identityId": "P-17428",
+      "squadNumber": 17,
+      "name": "Jermaine Jenas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2006-michael_carrick",
+      "identityId": "P-50718",
+      "squadNumber": 18,
+      "name": "Michael Carrick",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2006-aaron_lennon",
+      "identityId": "P-64864",
+      "squadNumber": 19,
+      "name": "Aaron Lennon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "england-2006-stewart_downing",
+      "identityId": "P-86227",
+      "squadNumber": 20,
+      "name": "Stewart Downing",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "england-2006-peter_crouch",
+      "identityId": "P-77532",
+      "squadNumber": 21,
+      "name": "Peter Crouch",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2006-scott_carson",
+      "identityId": "P-57447",
+      "squadNumber": 22,
+      "name": "Scott Carson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2006-theo_walcott",
+      "identityId": "P-24015",
+      "squadNumber": 23,
+      "name": "Theo Walcott",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2006 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

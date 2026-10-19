@@ -1,0 +1,501 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1978,
+  "tournament": "1978 FIFA Men's World Cup",
+  "hostCountry": "Argentina",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "italy-1978-dino_zoff",
+      "identityId": "P-48831",
+      "squadNumber": 1,
+      "name": "Dino Zoff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-1978-mauro_bellugi",
+      "identityId": "P-83005",
+      "squadNumber": 2,
+      "name": "Mauro Bellugi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "italy-1978-antonio_cabrini",
+      "identityId": "P-03775",
+      "squadNumber": 3,
+      "name": "Antonio Cabrini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es). Honors: Best Young Player."
+    },
+    {
+      "id": "italy-1978-antonello_cuccureddu",
+      "identityId": "P-05902",
+      "squadNumber": 4,
+      "name": "Antonello Cuccureddu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1978 World Cup performance for Italy (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-1978-claudio_gentile",
+      "identityId": "P-21248",
+      "squadNumber": 5,
+      "name": "Claudio Gentile",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-1978-aldo_maldera",
+      "identityId": "P-84137",
+      "squadNumber": 6,
+      "name": "Aldo Maldera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1978 World Cup performance for Italy (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-1978-lionello_manfredonia",
+      "identityId": "P-78456",
+      "squadNumber": 7,
+      "name": "Lionello Manfredonia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Italy (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "italy-1978-gaetano_scirea",
+      "identityId": "P-99788",
+      "squadNumber": 8,
+      "name": "Gaetano Scirea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-1978-giancarlo_antognoni",
+      "identityId": "P-88467",
+      "squadNumber": 9,
+      "name": "Giancarlo Antognoni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "italy-1978-romeo_benetti",
+      "identityId": "P-12030",
+      "squadNumber": 10,
+      "name": "Romeo Benetti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1978-eraldo_pecci",
+      "identityId": "P-34868",
+      "squadNumber": 11,
+      "name": "Eraldo Pecci",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Italy (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "italy-1978-paolo_conti",
+      "identityId": "P-37637",
+      "squadNumber": 12,
+      "name": "Paolo Conti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Italy (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "italy-1978-patrizio_sala",
+      "identityId": "P-39505",
+      "squadNumber": 13,
+      "name": "Patrizio Sala",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1978 World Cup performance for Italy (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-1978-marco_tardelli",
+      "identityId": "P-93788",
+      "squadNumber": 14,
+      "name": "Marco Tardelli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1978-renato_zaccarelli",
+      "identityId": "P-17293",
+      "squadNumber": 15,
+      "name": "Renato Zaccarelli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1978 World Cup performance for Italy (Fourth Place). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1978-franco_causio",
+      "identityId": "P-44349",
+      "squadNumber": 16,
+      "name": "Franco Causio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1978-claudio_sala",
+      "identityId": "P-80851",
+      "squadNumber": 17,
+      "name": "Claudio Sala",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1978 World Cup performance for Italy (Fourth Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-1978-roberto_bettega",
+      "identityId": "P-57787",
+      "squadNumber": 18,
+      "name": "Roberto Bettega",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "italy-1978-francesco_graziani",
+      "identityId": "P-16875",
+      "squadNumber": 19,
+      "name": "Francesco Graziani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1978 World Cup performance for Italy (Fourth Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "italy-1978-paolo_pulici",
+      "identityId": "P-29600",
+      "squadNumber": 20,
+      "name": "Paolo Pulici",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Italy (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "italy-1978-paolo_rossi",
+      "identityId": "P-91717",
+      "squadNumber": 21,
+      "name": "Paolo Rossi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1978 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 94 OVR based on 1978 World Cup performance for Italy (Fourth Place). Main pillar starting 7 match(es). Scored 3 goal(s). Honors: Silver Ball."
+    },
+    {
+      "id": "italy-1978-ivano_bordon",
+      "identityId": "P-76506",
+      "squadNumber": 22,
+      "name": "Ivano Bordon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1978 World Cup performance for Italy (Fourth Place). Squad reserve member."
+    }
+  ]
+}

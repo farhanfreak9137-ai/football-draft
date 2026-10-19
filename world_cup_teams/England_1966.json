@@ -1,0 +1,506 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 88,
+  "players": [
+    {
+      "id": "england-1966-gordon_banks",
+      "identityId": "P-74455",
+      "squadNumber": 1,
+      "name": "Gordon Banks",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1966 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 94 OVR based on 1966 World Cup performance for England (Champions). Tournament standout and starting pillar. Honors: Golden Glove."
+    },
+    {
+      "id": "england-1966-george_cohen",
+      "identityId": "P-56457",
+      "squadNumber": 2,
+      "name": "George Cohen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-ray_wilson",
+      "identityId": "P-15317",
+      "squadNumber": 3,
+      "name": "Ray Wilson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-nobby_stiles",
+      "identityId": "P-34887",
+      "squadNumber": 4,
+      "name": "Nobby Stiles",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-jack_charlton",
+      "identityId": "P-43761",
+      "squadNumber": 5,
+      "name": "Jack Charlton",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-bobby_moore",
+      "identityId": "P-52816",
+      "squadNumber": 6,
+      "name": "Bobby Moore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 95,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Champion Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1966 World Cup Champion Captain & Defensive Pillar",
+      "ratingRationale": "Rated 95 OVR based on 1966 World Cup performance for England (Champions). Tournament standout and starting pillar. Honors: Champion Captain."
+    },
+    {
+      "id": "england-1966-alan_ball",
+      "identityId": "P-22841",
+      "squadNumber": 7,
+      "name": "Alan Ball",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-jimmy_greaves",
+      "identityId": "P-75574",
+      "squadNumber": 8,
+      "name": "Jimmy Greaves",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-bobby_charlton",
+      "identityId": "P-08601",
+      "squadNumber": 9,
+      "name": "Bobby Charlton",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1966 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 1966 World Cup performance for England (Champions). Tournament standout and starting pillar. Scored 3 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "england-1966-geoff_hurst",
+      "identityId": "P-34802",
+      "squadNumber": 10,
+      "name": "Geoff Hurst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1966 World Cup performance for England (Champions). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "england-1966-john_connelly",
+      "identityId": "P-09806",
+      "squadNumber": 11,
+      "name": "John Connelly",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "england-1966-ron_springett",
+      "identityId": "P-22822",
+      "squadNumber": 12,
+      "name": "Ron Springett",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-peter_bonetti",
+      "identityId": "P-25979",
+      "squadNumber": 13,
+      "name": "Peter Bonetti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-jimmy_armfield",
+      "identityId": "P-44896",
+      "squadNumber": 14,
+      "name": "Jimmy Armfield",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-gerry_byrne",
+      "identityId": "P-64663",
+      "squadNumber": 15,
+      "name": "Gerry Byrne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-martin_peters",
+      "identityId": "P-34233",
+      "squadNumber": 16,
+      "name": "Martin Peters",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1966 World Cup performance for England (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "england-1966-ron_flowers",
+      "identityId": "P-05132",
+      "squadNumber": 17,
+      "name": "Ron Flowers",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-norman_hunter",
+      "identityId": "P-70457",
+      "squadNumber": 18,
+      "name": "Norman Hunter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-terry_paine",
+      "identityId": "P-01287",
+      "squadNumber": 19,
+      "name": "Terry Paine",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-ian_callaghan",
+      "identityId": "P-49523",
+      "squadNumber": 20,
+      "name": "Ian Callaghan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    },
+    {
+      "id": "england-1966-roger_hunt",
+      "identityId": "P-33839",
+      "squadNumber": 21,
+      "name": "Roger Hunt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 1966 World Cup performance for England (Champions). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "england-1966-george_eastham",
+      "identityId": "P-97255",
+      "squadNumber": 22,
+      "name": "George Eastham",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for England (Champions). Squad reserve member."
+    }
+  ]
+}

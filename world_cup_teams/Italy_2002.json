@@ -1,0 +1,516 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "italy-2002-gianluigi_buffon",
+      "identityId": "P-11392",
+      "squadNumber": 1,
+      "name": "Gianluigi Buffon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2002-christian_panucci",
+      "identityId": "P-45258",
+      "squadNumber": 2,
+      "name": "Christian Panucci",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2002-paolo_maldini",
+      "identityId": "P-43222",
+      "squadNumber": 3,
+      "name": "Paolo Maldini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2002-francesco_coco",
+      "identityId": "P-15450",
+      "squadNumber": 4,
+      "name": "Francesco Coco",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2002-fabio_cannavaro",
+      "identityId": "P-88863",
+      "squadNumber": 5,
+      "name": "Fabio Cannavaro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2002-cristiano_zanetti",
+      "identityId": "P-57378",
+      "squadNumber": 6,
+      "name": "Cristiano Zanetti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2002-alessandro_del_piero",
+      "identityId": "P-83836",
+      "squadNumber": 7,
+      "name": "Alessandro Del Piero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-2002-gennaro_gattuso",
+      "identityId": "P-18164",
+      "squadNumber": 8,
+      "name": "Gennaro Gattuso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Italy (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-2002-filippo_inzaghi",
+      "identityId": "P-29172",
+      "squadNumber": 9,
+      "name": "Filippo Inzaghi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2002-francesco_totti",
+      "identityId": "P-42038",
+      "squadNumber": 10,
+      "name": "Francesco Totti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2002-cristiano_doni",
+      "identityId": "P-68818",
+      "squadNumber": 11,
+      "name": "Cristiano Doni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Italy (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-2002-christian_abbiati",
+      "identityId": "P-81393",
+      "squadNumber": 12,
+      "name": "Christian Abbiati",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-2002-alessandro_nesta",
+      "identityId": "P-55511",
+      "squadNumber": 13,
+      "name": "Alessandro Nesta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-2002-luigi_di_biagio",
+      "identityId": "P-42659",
+      "squadNumber": 14,
+      "name": "Luigi Di Biagio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2002-mark_iuliano",
+      "identityId": "P-84093",
+      "squadNumber": 15,
+      "name": "Mark Iuliano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-2002-angelo_di_livio",
+      "identityId": "P-59777",
+      "squadNumber": 16,
+      "name": "Angelo Di Livio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Italy (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-2002-damiano_tommasi",
+      "identityId": "P-26847",
+      "squadNumber": 17,
+      "name": "Damiano Tommasi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2002-marco_delvecchio",
+      "identityId": "P-17035",
+      "squadNumber": 18,
+      "name": "Marco Delvecchio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-2002-gianluca_zambrotta",
+      "identityId": "P-42227",
+      "squadNumber": 19,
+      "name": "Gianluca Zambrotta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-2002-vincenzo_montella",
+      "identityId": "P-01311",
+      "squadNumber": 20,
+      "name": "Vincenzo Montella",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Italy (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-2002-christian_vieri",
+      "identityId": "P-34670",
+      "squadNumber": 21,
+      "name": "Christian Vieri",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "italy-2002-francesco_toldo",
+      "identityId": "P-53723",
+      "squadNumber": 22,
+      "name": "Francesco Toldo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2002 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-2002-marco_materazzi",
+      "identityId": "P-37126",
+      "squadNumber": 23,
+      "name": "Marco Materazzi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Italy (Round of 16). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

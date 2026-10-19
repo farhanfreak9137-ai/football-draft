@@ -1,0 +1,518 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "uruguay-2010-fernando_muslera",
+      "identityId": "P-10014",
+      "squadNumber": 1,
+      "name": "Fernando Muslera",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "uruguay-2010-diego_lugano",
+      "identityId": "P-89878",
+      "squadNumber": 2,
+      "name": "Diego Lugano",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "uruguay-2010-diego_god_n",
+      "identityId": "P-78440",
+      "squadNumber": 3,
+      "name": "Diego Godín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "uruguay-2010-jorge_fucile",
+      "identityId": "P-95196",
+      "squadNumber": 4,
+      "name": "Jorge Fucile",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "uruguay-2010-walter_gargano",
+      "identityId": "P-78735",
+      "squadNumber": 5,
+      "name": "Walter Gargano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2010-mauricio_victorino",
+      "identityId": "P-92649",
+      "squadNumber": 6,
+      "name": "Mauricio Victorino",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "uruguay-2010-edinson_cavani",
+      "identityId": "P-59138",
+      "squadNumber": 7,
+      "name": "Edinson Cavani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2010-sebasti_n_eguren",
+      "identityId": "P-50741",
+      "squadNumber": 8,
+      "name": "Sebastián Eguren",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-2010-luis_su_rez",
+      "identityId": "P-30486",
+      "squadNumber": 9,
+      "name": "Luis Suárez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "uruguay-2010-diego_forl_n",
+      "identityId": "P-86087",
+      "squadNumber": 10,
+      "name": "Diego Forlán",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2010 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "uruguay-2010-_lvaro_pereira",
+      "identityId": "P-11075",
+      "squadNumber": 11,
+      "name": "Álvaro Pereira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2010-juan_castillo",
+      "identityId": "P-91301",
+      "squadNumber": 12,
+      "name": "Juan Castillo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2010-sebasti_n_abreu",
+      "identityId": "P-64372",
+      "squadNumber": 13,
+      "name": "Sebastián Abreu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "uruguay-2010-nicol_s_lodeiro",
+      "identityId": "P-36662",
+      "squadNumber": 14,
+      "name": "Nicolás Lodeiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "uruguay-2010-diego_p_rez",
+      "identityId": "P-53254",
+      "squadNumber": 15,
+      "name": "Diego Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "uruguay-2010-maxi_pereira",
+      "identityId": "P-41944",
+      "squadNumber": 16,
+      "name": "Maxi Pereira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2010-egidio_ar_valo_r_os",
+      "identityId": "P-80668",
+      "squadNumber": 17,
+      "name": "Egidio Arévalo Ríos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "uruguay-2010-ignacio_gonz_lez",
+      "identityId": "P-46031",
+      "squadNumber": 18,
+      "name": "Ignacio González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2010-andr_s_scotti",
+      "identityId": "P-87316",
+      "squadNumber": 19,
+      "name": "Andrés Scotti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2010-_lvaro_fern_ndez",
+      "identityId": "P-99965",
+      "squadNumber": 20,
+      "name": "Álvaro Fernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2010-sebasti_n_fern_ndez",
+      "identityId": "P-88751",
+      "squadNumber": 21,
+      "name": "Sebastián Fernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2010-mart_n_c_ceres",
+      "identityId": "P-74058",
+      "squadNumber": 22,
+      "name": "Martín Cáceres",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2010-mart_n_silva",
+      "identityId": "P-59802",
+      "squadNumber": 23,
+      "name": "Martín Silva",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for Uruguay (Fourth Place). Squad reserve member."
+    }
+  ]
+}

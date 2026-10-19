@@ -1,0 +1,513 @@
+{
+  "teamName": "Senegal",
+  "teamCode": "SEN",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "senegal-2002-tony_sylva",
+      "identityId": "P-16571",
+      "squadNumber": 1,
+      "name": "Tony Sylva",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "senegal-2002-omar_daf",
+      "identityId": "P-27229",
+      "squadNumber": 2,
+      "name": "Omar Daf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "senegal-2002-pape_sarr",
+      "identityId": "P-81968",
+      "squadNumber": 3,
+      "name": "Pape Sarr",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2002-pape_malick_diop",
+      "identityId": "P-50303",
+      "squadNumber": 4,
+      "name": "Pape Malick Diop",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "senegal-2002-alassane_ndour",
+      "identityId": "P-82601",
+      "squadNumber": 5,
+      "name": "Alassane N'Dour",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2002-aliou_ciss_",
+      "identityId": "P-95302",
+      "squadNumber": 6,
+      "name": "Aliou Cissé",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "senegal-2002-henri_camara",
+      "identityId": "P-01462",
+      "squadNumber": 7,
+      "name": "Henri Camara",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "senegal-2002-amara_traor_",
+      "identityId": "P-75923",
+      "squadNumber": 8,
+      "name": "Amara Traoré",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "senegal-2002-souleymane_camara",
+      "identityId": "P-05029",
+      "squadNumber": 9,
+      "name": "Souleymane Camara",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "senegal-2002-khalilou_fadiga",
+      "identityId": "P-62977",
+      "squadNumber": 10,
+      "name": "Khalilou Fadiga",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2002-el_hadji_diouf",
+      "identityId": "P-84943",
+      "squadNumber": 11,
+      "name": "El Hadji Diouf",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "senegal-2002-amdy_faye",
+      "identityId": "P-42976",
+      "squadNumber": 12,
+      "name": "Amdy Faye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2002-lamine_diatta",
+      "identityId": "P-16046",
+      "squadNumber": 13,
+      "name": "Lamine Diatta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "senegal-2002-moussa_ndiaye",
+      "identityId": "P-62939",
+      "squadNumber": 14,
+      "name": "Moussa N'Diaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "senegal-2002-salif_diao",
+      "identityId": "P-35019",
+      "squadNumber": 15,
+      "name": "Salif Diao",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "senegal-2002-omar_diallo",
+      "identityId": "P-02673",
+      "squadNumber": 16,
+      "name": "Omar Diallo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "senegal-2002-ferdinand_coly",
+      "identityId": "P-37924",
+      "squadNumber": 17,
+      "name": "Ferdinand Coly",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "senegal-2002-pape_thiaw",
+      "identityId": "P-91308",
+      "squadNumber": 18,
+      "name": "Pape Thiaw",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "senegal-2002-papa_bouba_diop",
+      "identityId": "P-82212",
+      "squadNumber": 19,
+      "name": "Papa Bouba Diop",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "senegal-2002-sylvain_ndiaye",
+      "identityId": "P-35460",
+      "squadNumber": 20,
+      "name": "Sylvain N'Diaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "senegal-2002-habib_beye",
+      "identityId": "P-35489",
+      "squadNumber": 21,
+      "name": "Habib Beye",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "senegal-2002-kalidou_cissokho",
+      "identityId": "P-58665",
+      "squadNumber": 22,
+      "name": "Kalidou Cissokho",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "senegal-2002-makhtar_ndiaye",
+      "identityId": "P-64668",
+      "squadNumber": 23,
+      "name": "Makhtar N'Diaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Senegal (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

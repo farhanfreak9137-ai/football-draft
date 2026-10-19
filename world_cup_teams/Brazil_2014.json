@@ -1,0 +1,517 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "brazil-2014-jefferson",
+      "identityId": "P-41422",
+      "squadNumber": 1,
+      "name": "Jefferson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "brazil-2014-dani_alves",
+      "identityId": "P-09441",
+      "squadNumber": 2,
+      "name": "Dani Alves",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2014-thiago_silva",
+      "identityId": "P-32798",
+      "squadNumber": 3,
+      "name": "Thiago Silva",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2014-david_luiz",
+      "identityId": "P-87449",
+      "squadNumber": 4,
+      "name": "David Luiz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2014-fernandinho",
+      "identityId": "P-41758",
+      "squadNumber": 5,
+      "name": "Fernandinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2014-marcelo",
+      "identityId": "P-70650",
+      "squadNumber": 6,
+      "name": "Marcelo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-2014-hulk",
+      "identityId": "P-86524",
+      "squadNumber": 7,
+      "name": "Hulk",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2014-paulinho",
+      "identityId": "P-54013",
+      "squadNumber": 8,
+      "name": "Paulinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "brazil-2014-fred",
+      "identityId": "P-54042",
+      "squadNumber": 9,
+      "name": "Fred",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2014-neymar",
+      "identityId": "P-87008",
+      "squadNumber": 10,
+      "name": "Neymar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 5 match(es). Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "brazil-2014-oscar",
+      "identityId": "P-37239",
+      "squadNumber": 11,
+      "name": "Oscar",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2014-j_lio_c_sar",
+      "identityId": "P-11275",
+      "squadNumber": 12,
+      "name": "Júlio César",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-2014-dante",
+      "identityId": "P-93619",
+      "squadNumber": 13,
+      "name": "Dante",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2014-maxwell",
+      "identityId": "P-47180",
+      "squadNumber": 14,
+      "name": "Maxwell",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2014-henrique",
+      "identityId": "P-68649",
+      "squadNumber": 15,
+      "name": "Henrique",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2014-ramires",
+      "identityId": "P-86499",
+      "squadNumber": 16,
+      "name": "Ramires",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-2014-luiz_gustavo",
+      "identityId": "P-43410",
+      "squadNumber": 17,
+      "name": "Luiz Gustavo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-2014-hernanes",
+      "identityId": "P-02974",
+      "squadNumber": 18,
+      "name": "Hernanes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "brazil-2014-willian",
+      "identityId": "P-62621",
+      "squadNumber": 19,
+      "name": "Willian",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2014-bernard",
+      "identityId": "P-50663",
+      "squadNumber": 20,
+      "name": "Bernard",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2014-j_",
+      "identityId": "P-37372",
+      "squadNumber": 21,
+      "name": "Jô",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "brazil-2014-victor",
+      "identityId": "P-94095",
+      "squadNumber": 22,
+      "name": "Victor",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "brazil-2014-maicon",
+      "identityId": "P-94551",
+      "squadNumber": 23,
+      "name": "Maicon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for Brazil (Fourth Place). Main pillar starting 3 match(es)."
+    }
+  ]
+}

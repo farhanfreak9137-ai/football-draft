@@ -1,0 +1,496 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "argentina-1998-carlos_roa",
+      "identityId": "P-81085",
+      "squadNumber": 1,
+      "name": "Carlos Roa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1998-roberto_ayala",
+      "identityId": "P-83403",
+      "squadNumber": 2,
+      "name": "Roberto Ayala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1998-jos_chamot",
+      "identityId": "P-28816",
+      "squadNumber": 3,
+      "name": "José Chamot",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1998-mauricio_pineda",
+      "identityId": "P-28597",
+      "squadNumber": 4,
+      "name": "Mauricio Pineda",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1998-mat_as_almeyda",
+      "identityId": "P-88203",
+      "squadNumber": 5,
+      "name": "Matías Almeyda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1998-roberto_n_stor_sensini",
+      "identityId": "P-82949",
+      "squadNumber": 6,
+      "name": "Roberto Néstor Sensini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1998-claudio_l_pez",
+      "identityId": "P-60203",
+      "squadNumber": 7,
+      "name": "Claudio López",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1998-diego_simeone",
+      "identityId": "P-06370",
+      "squadNumber": 8,
+      "name": "Diego Simeone",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-1998-gabriel_batistuta",
+      "identityId": "P-84542",
+      "squadNumber": 9,
+      "name": "Gabriel Batistuta",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "argentina-1998-ariel_ortega",
+      "identityId": "P-00065",
+      "squadNumber": 10,
+      "name": "Ariel Ortega",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "argentina-1998-juan_sebasti_n_ver_n",
+      "identityId": "P-62209",
+      "squadNumber": 11,
+      "name": "Juan Sebastián Verón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "argentina-1998-germ_n_burgos",
+      "identityId": "P-56385",
+      "squadNumber": 12,
+      "name": "Germán Burgos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-1998-pablo_paz",
+      "identityId": "P-43717",
+      "squadNumber": 13,
+      "name": "Pablo Paz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1998-nelson_vivas",
+      "identityId": "P-65019",
+      "squadNumber": 14,
+      "name": "Nelson Vivas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-1998-leonardo_astrada",
+      "identityId": "P-67181",
+      "squadNumber": 15,
+      "name": "Leonardo Astrada",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-1998-sergio_berti",
+      "identityId": "P-70099",
+      "squadNumber": 16,
+      "name": "Sergio Berti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-1998-pablo_cavallero",
+      "identityId": "P-60052",
+      "squadNumber": 17,
+      "name": "Pablo Cavallero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-1998-abel_balbo",
+      "identityId": "P-07031",
+      "squadNumber": 18,
+      "name": "Abel Balbo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-1998-hern_n_crespo",
+      "identityId": "P-19888",
+      "squadNumber": 19,
+      "name": "Hernán Crespo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-1998-marcelo_gallardo",
+      "identityId": "P-94002",
+      "squadNumber": 20,
+      "name": "Marcelo Gallardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-1998-marcelo_delgado",
+      "identityId": "P-45030",
+      "squadNumber": 21,
+      "name": "Marcelo Delgado",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "argentina-1998-javier_zanetti",
+      "identityId": "P-53716",
+      "squadNumber": 22,
+      "name": "Javier Zanetti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Argentina (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    }
+  ]
+}

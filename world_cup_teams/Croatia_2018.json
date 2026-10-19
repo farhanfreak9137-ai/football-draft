@@ -1,0 +1,523 @@
+{
+  "teamName": "Croatia",
+  "teamCode": "HRV",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 89,
+  "players": [
+    {
+      "id": "croatia-2018-dominik_livakovi_",
+      "identityId": "P-99988",
+      "squadNumber": 1,
+      "name": "Dominik Livaković",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Croatia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "croatia-2018-_ime_vrsaljko",
+      "identityId": "P-65425",
+      "squadNumber": 2,
+      "name": "Šime Vrsaljko",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "croatia-2018-ivan_strini_",
+      "identityId": "P-86004",
+      "squadNumber": 3,
+      "name": "Ivan Strinić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "croatia-2018-ivan_peri_i_",
+      "identityId": "P-93884",
+      "squadNumber": 4,
+      "name": "Ivan Perišić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "croatia-2018-vedran_orluka",
+      "identityId": "P-08916",
+      "squadNumber": 5,
+      "name": "Vedran Ćorluka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-dejan_lovren",
+      "identityId": "P-56297",
+      "squadNumber": 6,
+      "name": "Dejan Lovren",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "croatia-2018-ivan_rakiti_",
+      "identityId": "P-65979",
+      "squadNumber": 7,
+      "name": "Ivan Rakitić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2018-mateo_kova_i_",
+      "identityId": "P-07670",
+      "squadNumber": 8,
+      "name": "Mateo Kovačić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-andrej_kramari_",
+      "identityId": "P-65182",
+      "squadNumber": 9,
+      "name": "Andrej Kramarić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2018-luka_modri_",
+      "identityId": "P-29491",
+      "squadNumber": 10,
+      "name": "Luka Modrić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2018 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 7 match(es). Scored 2 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "croatia-2018-marcelo_brozovi_",
+      "identityId": "P-79215",
+      "squadNumber": 11,
+      "name": "Marcelo Brozović",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "croatia-2018-lovre_kalini_",
+      "identityId": "P-89113",
+      "squadNumber": 12,
+      "name": "Lovre Kalinić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-tin_jedvaj",
+      "identityId": "P-65146",
+      "squadNumber": 13,
+      "name": "Tin Jedvaj",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-filip_bradari_",
+      "identityId": "P-57763",
+      "squadNumber": 14,
+      "name": "Filip Bradarić",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Croatia (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "croatia-2018-duje_aleta-car",
+      "identityId": "P-57922",
+      "squadNumber": 15,
+      "name": "Duje Ćaleta-Car",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-nikola_kalini_",
+      "identityId": "P-12763",
+      "squadNumber": 16,
+      "name": "Nikola Kalinić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Croatia (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "croatia-2018-mario_mand_uki_",
+      "identityId": "P-25745",
+      "squadNumber": 17,
+      "name": "Mario Mandžukić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "croatia-2018-ante_rebi_",
+      "identityId": "P-44463",
+      "squadNumber": 18,
+      "name": "Ante Rebić",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2018-milan_badelj",
+      "identityId": "P-77789",
+      "squadNumber": 19,
+      "name": "Milan Badelj",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2018-marko_pjaca",
+      "identityId": "P-14891",
+      "squadNumber": 20,
+      "name": "Marko Pjaca",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-domagoj_vida",
+      "identityId": "P-91294",
+      "squadNumber": 21,
+      "name": "Domagoj Vida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "croatia-2018-josip_pivari_",
+      "identityId": "P-89420",
+      "squadNumber": 22,
+      "name": "Josip Pivarić",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2018 World Cup performance for Croatia (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "croatia-2018-danijel_suba_i_",
+      "identityId": "P-25428",
+      "squadNumber": 23,
+      "name": "Danijel Subašić",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2018 World Cup performance for Croatia (Runners-up). Main pillar starting 6 match(es)."
+    }
+  ]
+}

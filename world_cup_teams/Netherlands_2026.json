@@ -1,0 +1,545 @@
+{
+  "teamName": "Netherlands",
+  "teamCode": "NET",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "netherlands-2026-bart_verbruggen",
+      "identityId": "identity-2026-bart_verbruggen",
+      "squadNumber": 1,
+      "name": "Bart Verbruggen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-denzel_dumfries",
+      "identityId": "identity-2026-denzel_dumfries",
+      "squadNumber": 22,
+      "name": "Denzel Dumfries",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "RWB"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-stefan_de_vrij",
+      "identityId": "identity-2026-stefan_de_vrij",
+      "squadNumber": 6,
+      "name": "Stefan de Vrij",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-virgil_van_dijk",
+      "identityId": "identity-2026-virgil_van_dijk",
+      "squadNumber": 4,
+      "name": "Virgil van Dijk",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "National Team Captain & Premier League Champion Defender"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "National Team Captain & Premier League Champion Defender",
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Netherlands. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "netherlands-2026-nathan_ak_",
+      "identityId": "identity-2026-nathan_ak_",
+      "squadNumber": 5,
+      "name": "Nathan Aké",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-jerdy_schouten",
+      "identityId": "identity-2026-jerdy_schouten",
+      "squadNumber": 24,
+      "name": "Jerdy Schouten",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM",
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-tijjani_reijnders",
+      "identityId": "identity-2026-tijjani_reijnders",
+      "squadNumber": 14,
+      "name": "Tijjani Reijnders",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-xavi_simons",
+      "identityId": "identity-2026-xavi_simons",
+      "squadNumber": 7,
+      "name": "Xavi Simons",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Netherlands. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "netherlands-2026-jeremie_frimpong",
+      "identityId": "identity-2026-jeremie_frimpong",
+      "squadNumber": 12,
+      "name": "Jeremie Frimpong",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "RWB"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-memphis_depay",
+      "identityId": "identity-2026-memphis_depay",
+      "squadNumber": 10,
+      "name": "Memphis Depay",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Netherlands. Regular starting lineup selection."
+    },
+    {
+      "id": "netherlands-2026-cody_gakpo",
+      "identityId": "identity-2026-cody_gakpo",
+      "squadNumber": 11,
+      "name": "Cody Gakpo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "ST"
+      ],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Netherlands. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "netherlands-2026-justin_bijlow",
+      "identityId": "identity-2026-justin_bijlow",
+      "squadNumber": 13,
+      "name": "Justin Bijlow",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Netherlands. National squad reserve depth."
+    },
+    {
+      "id": "netherlands-2026-mark_flekken",
+      "identityId": "identity-2026-mark_flekken",
+      "squadNumber": 23,
+      "name": "Mark Flekken",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Netherlands. National squad reserve depth."
+    },
+    {
+      "id": "netherlands-2026-lutsharel_geertruida",
+      "identityId": "identity-2026-lutsharel_geertruida",
+      "squadNumber": 2,
+      "name": "Lutsharel Geertruida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB",
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-matthijs_de_ligt",
+      "identityId": "identity-2026-matthijs_de_ligt",
+      "squadNumber": 3,
+      "name": "Matthijs de Ligt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-micky_van_de_ven",
+      "identityId": "identity-2026-micky_van_de_ven",
+      "squadNumber": 15,
+      "name": "Micky van de Ven",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "LB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-daley_blind",
+      "identityId": "identity-2026-daley_blind",
+      "squadNumber": 17,
+      "name": "Daley Blind",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "CB"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-ian_maatsen",
+      "identityId": "identity-2026-ian_maatsen",
+      "squadNumber": 20,
+      "name": "Ian Maatsen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "LWB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-georginio_wijnaldum",
+      "identityId": "identity-2026-georginio_wijnaldum",
+      "squadNumber": 8,
+      "name": "Georginio Wijnaldum",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-joey_veerman",
+      "identityId": "identity-2026-joey_veerman",
+      "squadNumber": 16,
+      "name": "Joey Veerman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-ryan_gravenberch",
+      "identityId": "identity-2026-ryan_gravenberch",
+      "squadNumber": 26,
+      "name": "Ryan Gravenberch",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-wout_weghorst",
+      "identityId": "identity-2026-wout_weghorst",
+      "squadNumber": 9,
+      "name": "Wout Weghorst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-donyell_malen",
+      "identityId": "identity-2026-donyell_malen",
+      "squadNumber": 18,
+      "name": "Donyell Malen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-brian_brobbey",
+      "identityId": "identity-2026-brian_brobbey",
+      "squadNumber": 19,
+      "name": "Brian Brobbey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-joshua_zirkzee",
+      "identityId": "identity-2026-joshua_zirkzee",
+      "squadNumber": 21,
+      "name": "Joshua Zirkzee",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "CF"
+      ],
+      "secondaryPositions": [],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "netherlands-2026-steven_bergwijn",
+      "identityId": "identity-2026-steven_bergwijn",
+      "squadNumber": 25,
+      "name": "Steven Bergwijn",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Netherlands. Frequent tactical rotation contributor."
+    }
+  ]
+}

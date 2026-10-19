@@ -1,0 +1,497 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "argentina-2026-emiliano_mart_nez",
+      "identityId": "identity-2026-emiliano_mart_nez",
+      "squadNumber": 23,
+      "name": "Emiliano Martínez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "World Cup & Copa América Golden Glove Champion"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "World Cup & Copa América Golden Glove Champion",
+      "ratingRationale": "Rated 90 OVR for 2026 World Cup form with Argentina. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "argentina-2026-nahuel_molina",
+      "identityId": "identity-2026-nahuel_molina",
+      "squadNumber": 26,
+      "name": "Nahuel Molina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Argentina. Regular starting lineup selection."
+    },
+    {
+      "id": "argentina-2026-cristian_romero",
+      "identityId": "identity-2026-cristian_romero",
+      "squadNumber": 13,
+      "name": "Cristian Romero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Argentina. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "argentina-2026-lisandro_mart_nez",
+      "identityId": "identity-2026-lisandro_mart_nez",
+      "squadNumber": 25,
+      "name": "Lisandro Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Argentina. Regular starting lineup selection."
+    },
+    {
+      "id": "argentina-2026-nicol_s_tagliafico",
+      "identityId": "identity-2026-nicol_s_tagliafico",
+      "squadNumber": 3,
+      "name": "Nicolás Tagliafico",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Argentina. Regular starting lineup selection."
+    },
+    {
+      "id": "argentina-2026-rodrigo_de_paul",
+      "identityId": "identity-2026-rodrigo_de_paul",
+      "squadNumber": 7,
+      "name": "Rodrigo De Paul",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Argentina. Regular starting lineup selection."
+    },
+    {
+      "id": "argentina-2026-enzo_fern_ndez",
+      "identityId": "identity-2026-enzo_fern_ndez",
+      "squadNumber": 24,
+      "name": "Enzo Fernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "DM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Argentina. Regular starting lineup selection."
+    },
+    {
+      "id": "argentina-2026-alexis_mac_allister",
+      "identityId": "identity-2026-alexis_mac_allister",
+      "squadNumber": 20,
+      "name": "Alexis Mac Allister",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Argentina. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "argentina-2026-lionel_messi",
+      "identityId": "identity-2026-lionel_messi",
+      "squadNumber": 10,
+      "name": "Lionel Messi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "CF"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "ST"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Defending Champion, 8-Time Ballon d'Or Winner & All-Time Legend"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Defending Champion, 8-Time Ballon d'Or Winner & All-Time Legend",
+      "ratingRationale": "Rated 93 OVR for 2026 World Cup form with Argentina. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "argentina-2026-juli_n_lvarez",
+      "identityId": "identity-2026-juli_n_lvarez",
+      "squadNumber": 9,
+      "name": "Julián Álvarez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST",
+        "CF"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Argentina. Regular starting lineup selection."
+    },
+    {
+      "id": "argentina-2026-lautaro_mart_nez",
+      "identityId": "identity-2026-lautaro_mart_nez",
+      "squadNumber": 22,
+      "name": "Lautaro Martínez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR for 2026 World Cup form with Argentina. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "argentina-2026-franco_armani",
+      "identityId": "identity-2026-franco_armani",
+      "squadNumber": 1,
+      "name": "Franco Armani",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with Argentina. National squad reserve depth."
+    },
+    {
+      "id": "argentina-2026-ger_nimo_rulli",
+      "identityId": "identity-2026-ger_nimo_rulli",
+      "squadNumber": 12,
+      "name": "Gerónimo Rulli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Argentina. National squad reserve depth."
+    },
+    {
+      "id": "argentina-2026-gonzalo_montiel",
+      "identityId": "identity-2026-gonzalo_montiel",
+      "squadNumber": 4,
+      "name": "Gonzalo Montiel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-germ_n_pezzella",
+      "identityId": "identity-2026-germ_n_pezzella",
+      "squadNumber": 6,
+      "name": "Germán Pezzella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-nicol_s_otamendi",
+      "identityId": "identity-2026-nicol_s_otamendi",
+      "squadNumber": 19,
+      "name": "Nicolás Otamendi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-marcos_acu_a",
+      "identityId": "identity-2026-marcos_acu_a",
+      "squadNumber": 8,
+      "name": "Marcos Acuña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-leandro_paredes",
+      "identityId": "identity-2026-leandro_paredes",
+      "squadNumber": 5,
+      "name": "Leandro Paredes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-giovani_lo_celso",
+      "identityId": "identity-2026-giovani_lo_celso",
+      "squadNumber": 16,
+      "name": "Giovani Lo Celso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-exequiel_palacios",
+      "identityId": "identity-2026-exequiel_palacios",
+      "squadNumber": 14,
+      "name": "Exequiel Palacios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-nicol_s_gonz_lez",
+      "identityId": "identity-2026-nicol_s_gonz_lez",
+      "squadNumber": 15,
+      "name": "Nicolás González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-alejandro_garnacho",
+      "identityId": "identity-2026-alejandro_garnacho",
+      "squadNumber": 17,
+      "name": "Alejandro Garnacho",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Argentina. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "argentina-2026-valent_n_carboni",
+      "identityId": "identity-2026-valent_n_carboni",
+      "squadNumber": 21,
+      "name": "Valentín Carboni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Argentina. National squad reserve depth."
+    }
+  ]
+}

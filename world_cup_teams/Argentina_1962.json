@@ -1,0 +1,496 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "argentina-1962-antonio_roma",
+      "identityId": "P-00855",
+      "squadNumber": 1,
+      "name": "Antonio Roma",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-jos_ram_n_delgado",
+      "identityId": "P-86786",
+      "squadNumber": 2,
+      "name": "José Ramón Delgado",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-silvio_marzolini",
+      "identityId": "P-00867",
+      "squadNumber": 3,
+      "name": "Silvio Marzolini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-alberto_sainz",
+      "identityId": "P-25685",
+      "squadNumber": 4,
+      "name": "Alberto Sainz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-federico_sacchi",
+      "identityId": "P-81303",
+      "squadNumber": 5,
+      "name": "Federico Sacchi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-ra_l_p_ez",
+      "identityId": "P-28121",
+      "squadNumber": 6,
+      "name": "Raúl Páez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-h_ctor_facundo",
+      "identityId": "P-14074",
+      "squadNumber": 7,
+      "name": "Héctor Facundo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1962-mart_n_pando",
+      "identityId": "P-18389",
+      "squadNumber": 8,
+      "name": "Martín Pando",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-marcelo_pagani",
+      "identityId": "P-71464",
+      "squadNumber": 9,
+      "name": "Marcelo Pagani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-jos_sanfilippo",
+      "identityId": "P-46624",
+      "squadNumber": 10,
+      "name": "José Sanfilippo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1962-ra_l_bel_n",
+      "identityId": "P-33017",
+      "squadNumber": 11,
+      "name": "Raúl Belén",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1962-rogelio_dom_nguez",
+      "identityId": "P-84034",
+      "squadNumber": 12,
+      "name": "Rogelio Domínguez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-oscar_rossi",
+      "identityId": "P-47266",
+      "squadNumber": 13,
+      "name": "Oscar Rossi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-alberto_mariotti",
+      "identityId": "P-34981",
+      "squadNumber": 14,
+      "name": "Alberto Mariotti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-rub_n_navarro",
+      "identityId": "P-36583",
+      "squadNumber": 15,
+      "name": "Rubén Navarro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-antonio_ratt_n",
+      "identityId": "P-92300",
+      "squadNumber": 16,
+      "name": "Antonio Rattín",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-rafael_albrecht",
+      "identityId": "P-27099",
+      "squadNumber": 17,
+      "name": "Rafael Albrecht",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-vladislao_cap",
+      "identityId": "P-96092",
+      "squadNumber": 18,
+      "name": "Vladislao Cap",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-rub_n_sosa",
+      "identityId": "P-27897",
+      "squadNumber": 19,
+      "name": "Rubén Sosa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-juan_carlos_oleniak",
+      "identityId": "P-90625",
+      "squadNumber": 20,
+      "name": "Juan Carlos Oleniak",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-ram_n_abeledo",
+      "identityId": "P-32023",
+      "squadNumber": 21,
+      "name": "Ramón Abeledo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1962-alberto_gonz_lez",
+      "identityId": "P-17625",
+      "squadNumber": 22,
+      "name": "Alberto González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    }
+  ]
+}

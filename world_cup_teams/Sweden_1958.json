@@ -1,0 +1,498 @@
+{
+  "teamName": "Sweden",
+  "teamCode": "SWE",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 84,
+  "players": [
+    {
+      "id": "sweden-1958-kalle_svensson",
+      "identityId": "P-15746",
+      "squadNumber": 1,
+      "name": "Kalle Svensson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "sweden-1958-orvar_bergmark",
+      "identityId": "P-25529",
+      "squadNumber": 2,
+      "name": "Orvar Bergmark",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "sweden-1958-sven_axbom",
+      "identityId": "P-08805",
+      "squadNumber": 3,
+      "name": "Sven Axbom",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "sweden-1958-nils_liedholm",
+      "identityId": "P-10338",
+      "squadNumber": 4,
+      "name": "Nils Liedholm",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1958 World Cup performance for Sweden (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "sweden-1958-_ke_johansson",
+      "identityId": "P-80056",
+      "squadNumber": 5,
+      "name": "Åke Johansson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "sweden-1958-sigge_parling",
+      "identityId": "P-42409",
+      "squadNumber": 6,
+      "name": "Sigge Parling",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "sweden-1958-kurt_hamrin",
+      "identityId": "P-20173",
+      "squadNumber": 7,
+      "name": "Kurt Hamrin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1958 World Cup performance for Sweden (Runners-up). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "sweden-1958-gunnar_gren",
+      "identityId": "P-69813",
+      "squadNumber": 8,
+      "name": "Gunnar Gren",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1958-agne_simonsson",
+      "identityId": "P-82312",
+      "squadNumber": 9,
+      "name": "Agne Simonsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1958 World Cup performance for Sweden (Runners-up). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "sweden-1958-arne_selmosson",
+      "identityId": "P-44518",
+      "squadNumber": 10,
+      "name": "Arne Selmosson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "sweden-1958-lennart_skoglund",
+      "identityId": "P-33095",
+      "squadNumber": 11,
+      "name": "Lennart Skoglund",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1958 World Cup performance for Sweden (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "sweden-1958-tore_svensson",
+      "identityId": "P-26019",
+      "squadNumber": 12,
+      "name": "Tore Svensson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-prawitz_berg",
+      "identityId": "P-63780",
+      "squadNumber": 13,
+      "name": "Prawitz Öberg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-bengt_gustavsson",
+      "identityId": "P-65514",
+      "squadNumber": 14,
+      "name": "Bengt Gustavsson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-reino_b_rjesson",
+      "identityId": "P-91855",
+      "squadNumber": 15,
+      "name": "Reino Börjesson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-ingemar_haraldsson",
+      "identityId": "P-37296",
+      "squadNumber": 16,
+      "name": "Ingemar Haraldsson",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-olle_h_kansson",
+      "identityId": "P-21974",
+      "squadNumber": 17,
+      "name": "Olle Håkansson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-g_sta_l_fgren",
+      "identityId": "P-81709",
+      "squadNumber": 18,
+      "name": "Gösta Löfgren",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-henry_k_llgren",
+      "identityId": "P-81023",
+      "squadNumber": 19,
+      "name": "Henry Källgren",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-bror_mellberg",
+      "identityId": "P-59295",
+      "squadNumber": 20,
+      "name": "Bror Mellberg",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-bengt_berndtsson",
+      "identityId": "P-12844",
+      "squadNumber": 21,
+      "name": "Bengt Berndtsson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "sweden-1958-owe_ohlsson",
+      "identityId": "P-92811",
+      "squadNumber": 22,
+      "name": "Owe Ohlsson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1958 World Cup performance for Sweden (Runners-up). Squad reserve member."
+    }
+  ]
+}

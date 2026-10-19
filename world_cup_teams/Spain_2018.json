@@ -1,0 +1,516 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "spain-2018-david_de_gea",
+      "identityId": "P-52217",
+      "squadNumber": 1,
+      "name": "David de Gea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2018-dani_carvajal",
+      "identityId": "P-71071",
+      "squadNumber": 2,
+      "name": "Dani Carvajal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2018-gerard_piqu_",
+      "identityId": "P-64348",
+      "squadNumber": 3,
+      "name": "Gerard Piqué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2018-nacho",
+      "identityId": "P-15848",
+      "squadNumber": 4,
+      "name": "Nacho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2018-sergio_busquets",
+      "identityId": "P-28010",
+      "squadNumber": 5,
+      "name": "Sergio Busquets",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2018-andr_s_iniesta",
+      "identityId": "P-56330",
+      "squadNumber": 6,
+      "name": "Andrés Iniesta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-2018-sa_l",
+      "identityId": "P-52837",
+      "squadNumber": 7,
+      "name": "Saúl",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2018-koke",
+      "identityId": "P-37294",
+      "squadNumber": 8,
+      "name": "Koke",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Spain (Round of 16). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2018-rodrigo",
+      "identityId": "P-00339",
+      "squadNumber": 9,
+      "name": "Rodrigo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Spain (Round of 16). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "spain-2018-thiago",
+      "identityId": "P-92520",
+      "squadNumber": 10,
+      "name": "Thiago",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2018-lucas_v_zquez",
+      "identityId": "P-97275",
+      "squadNumber": 11,
+      "name": "Lucas Vázquez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2018-_lvaro_odriozola",
+      "identityId": "P-76837",
+      "squadNumber": 12,
+      "name": "Álvaro Odriozola",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2018-kepa_arrizabalaga",
+      "identityId": "P-51443",
+      "squadNumber": 13,
+      "name": "Kepa Arrizabalaga",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2018-c_sar_azpilicueta",
+      "identityId": "P-60716",
+      "squadNumber": 14,
+      "name": "César Azpilicueta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2018-sergio_ramos",
+      "identityId": "P-89177",
+      "squadNumber": 15,
+      "name": "Sergio Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2018-nacho_monreal",
+      "identityId": "P-11593",
+      "squadNumber": 16,
+      "name": "Nacho Monreal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-2018-iago_aspas",
+      "identityId": "P-60554",
+      "squadNumber": 17,
+      "name": "Iago Aspas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Spain (Round of 16). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2018-jordi_alba",
+      "identityId": "P-01416",
+      "squadNumber": 18,
+      "name": "Jordi Alba",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2018-diego_costa",
+      "identityId": "P-02231",
+      "squadNumber": 19,
+      "name": "Diego Costa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "spain-2018-marco_asensio",
+      "identityId": "P-09400",
+      "squadNumber": 20,
+      "name": "Marco Asensio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2018-david_silva",
+      "identityId": "P-64102",
+      "squadNumber": 21,
+      "name": "David Silva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2018-isco",
+      "identityId": "P-52418",
+      "squadNumber": 22,
+      "name": "Isco",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2018 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2018-pepe_reina",
+      "identityId": "P-44334",
+      "squadNumber": 23,
+      "name": "Pepe Reina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 2018 World Cup performance for Spain (Round of 16). Squad reserve member."
+    }
+  ]
+}

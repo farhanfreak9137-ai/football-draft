@@ -1,0 +1,514 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "england-2014-joe_hart",
+      "identityId": "P-64443",
+      "squadNumber": 1,
+      "name": "Joe Hart",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-glen_johnson",
+      "identityId": "P-43764",
+      "squadNumber": 2,
+      "name": "Glen Johnson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-leighton_baines",
+      "identityId": "P-94649",
+      "squadNumber": 3,
+      "name": "Leighton Baines",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-steven_gerrard",
+      "identityId": "P-62157",
+      "squadNumber": 4,
+      "name": "Steven Gerrard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-gary_cahill",
+      "identityId": "P-56280",
+      "squadNumber": 5,
+      "name": "Gary Cahill",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for England (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2014-phil_jagielka",
+      "identityId": "P-20585",
+      "squadNumber": 6,
+      "name": "Phil Jagielka",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-jack_wilshere",
+      "identityId": "P-39063",
+      "squadNumber": 7,
+      "name": "Jack Wilshere",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-frank_lampard",
+      "identityId": "P-65534",
+      "squadNumber": 8,
+      "name": "Frank Lampard",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-daniel_sturridge",
+      "identityId": "P-06678",
+      "squadNumber": 9,
+      "name": "Daniel Sturridge",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for England (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2014-wayne_rooney",
+      "identityId": "P-99967",
+      "squadNumber": 10,
+      "name": "Wayne Rooney",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2014-danny_welbeck",
+      "identityId": "P-50943",
+      "squadNumber": 11,
+      "name": "Danny Welbeck",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-chris_smalling",
+      "identityId": "P-87661",
+      "squadNumber": 12,
+      "name": "Chris Smalling",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-ben_foster",
+      "identityId": "P-31138",
+      "squadNumber": 13,
+      "name": "Ben Foster",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-jordan_henderson",
+      "identityId": "P-08169",
+      "squadNumber": 14,
+      "name": "Jordan Henderson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-alex_oxlade-chamberlain",
+      "identityId": "P-36639",
+      "squadNumber": 15,
+      "name": "Alex Oxlade-Chamberlain",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-2014-phil_jones",
+      "identityId": "P-06851",
+      "squadNumber": 16,
+      "name": "Phil Jones",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-james_milner",
+      "identityId": "P-95616",
+      "squadNumber": 17,
+      "name": "James Milner",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-rickie_lambert",
+      "identityId": "P-70595",
+      "squadNumber": 18,
+      "name": "Rickie Lambert",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for England (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-2014-raheem_sterling",
+      "identityId": "P-21553",
+      "squadNumber": 19,
+      "name": "Raheem Sterling",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2014-adam_lallana",
+      "identityId": "P-22075",
+      "squadNumber": 20,
+      "name": "Adam Lallana",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-ross_barkley",
+      "identityId": "P-48443",
+      "squadNumber": 21,
+      "name": "Ross Barkley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "england-2014-fraser_forster",
+      "identityId": "P-07038",
+      "squadNumber": 22,
+      "name": "Fraser Forster",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for England (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "england-2014-luke_shaw",
+      "identityId": "P-36400",
+      "squadNumber": 23,
+      "name": "Luke Shaw",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for England (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

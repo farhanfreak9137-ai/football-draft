@@ -1,0 +1,501 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1982,
+  "tournament": "1982 FIFA Men's World Cup",
+  "hostCountry": "Spain",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 89,
+  "players": [
+    {
+      "id": "italy-1982-dino_zoff",
+      "identityId": "P-48831",
+      "squadNumber": 1,
+      "name": "Dino Zoff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-1982-franco_baresi",
+      "identityId": "P-42920",
+      "squadNumber": 2,
+      "name": "Franco Baresi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-1982-giuseppe_bergomi",
+      "identityId": "P-29143",
+      "squadNumber": 3,
+      "name": "Giuseppe Bergomi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for Italy (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-1982-antonio_cabrini",
+      "identityId": "P-03775",
+      "squadNumber": 4,
+      "name": "Antonio Cabrini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1982-fulvio_collovati",
+      "identityId": "P-30672",
+      "squadNumber": 5,
+      "name": "Fulvio Collovati",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-1982-claudio_gentile",
+      "identityId": "P-21248",
+      "squadNumber": 6,
+      "name": "Claudio Gentile",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1982-gaetano_scirea",
+      "identityId": "P-99788",
+      "squadNumber": 7,
+      "name": "Gaetano Scirea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "italy-1982-pietro_vierchowod",
+      "identityId": "P-73911",
+      "squadNumber": 8,
+      "name": "Pietro Vierchowod",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-1982-giancarlo_antognoni",
+      "identityId": "P-88467",
+      "squadNumber": 9,
+      "name": "Giancarlo Antognoni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "italy-1982-giuseppe_dossena",
+      "identityId": "P-72980",
+      "squadNumber": 10,
+      "name": "Giuseppe Dossena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-1982-giampiero_marini",
+      "identityId": "P-06193",
+      "squadNumber": 11,
+      "name": "Giampiero Marini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1982 World Cup performance for Italy (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-1982-ivano_bordon",
+      "identityId": "P-76506",
+      "squadNumber": 12,
+      "name": "Ivano Bordon",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-1982-gabriele_oriali",
+      "identityId": "P-75736",
+      "squadNumber": 13,
+      "name": "Gabriele Oriali",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "italy-1982-marco_tardelli",
+      "identityId": "P-93788",
+      "squadNumber": 14,
+      "name": "Marco Tardelli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "italy-1982-franco_causio",
+      "identityId": "P-44349",
+      "squadNumber": 15,
+      "name": "Franco Causio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1982 World Cup performance for Italy (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-1982-bruno_conti",
+      "identityId": "P-66365",
+      "squadNumber": 16,
+      "name": "Bruno Conti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1982-daniele_massaro",
+      "identityId": "P-31072",
+      "squadNumber": 17,
+      "name": "Daniele Massaro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-1982-alessandro_altobelli",
+      "identityId": "P-46574",
+      "squadNumber": 18,
+      "name": "Alessandro Altobelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1982 World Cup performance for Italy (Champions). Substitute rotation option (3 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1982-francesco_graziani",
+      "identityId": "P-16875",
+      "squadNumber": 19,
+      "name": "Francesco Graziani",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1982-paolo_rossi",
+      "identityId": "P-91717",
+      "squadNumber": 20,
+      "name": "Paolo Rossi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Golden Ball",
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1982 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1982 World Cup performance for Italy (Champions). Main pillar starting 7 match(es). Scored 6 goal(s). Honors: Golden Ball, Golden Boot."
+    },
+    {
+      "id": "italy-1982-franco_selvaggi",
+      "identityId": "P-89106",
+      "squadNumber": 21,
+      "name": "Franco Selvaggi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    },
+    {
+      "id": "italy-1982-giovanni_galli",
+      "identityId": "P-56533",
+      "squadNumber": 22,
+      "name": "Giovanni Galli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1982 World Cup performance for Italy (Champions). Squad reserve member."
+    }
+  ]
+}

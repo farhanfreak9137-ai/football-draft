@@ -1,0 +1,515 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "france-2010-hugo_lloris",
+      "identityId": "P-30711",
+      "squadNumber": 1,
+      "name": "Hugo Lloris",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2010-bacary_sagna",
+      "identityId": "P-69530",
+      "squadNumber": 2,
+      "name": "Bacary Sagna",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2010-eric_abidal",
+      "identityId": "P-04469",
+      "squadNumber": 3,
+      "name": "Eric Abidal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2010-anthony_r_veill_re",
+      "identityId": "P-94643",
+      "squadNumber": 4,
+      "name": "Anthony Réveillère",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2010-william_gallas",
+      "identityId": "P-68803",
+      "squadNumber": 5,
+      "name": "William Gallas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2010-marc_planus",
+      "identityId": "P-13394",
+      "squadNumber": 6,
+      "name": "Marc Planus",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2010-franck_rib_ry",
+      "identityId": "P-55659",
+      "squadNumber": 7,
+      "name": "Franck Ribéry",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2010-yoann_gourcuff",
+      "identityId": "P-72795",
+      "squadNumber": 8,
+      "name": "Yoann Gourcuff",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2010-djibril_ciss_",
+      "identityId": "P-53533",
+      "squadNumber": 9,
+      "name": "Djibril Cissé",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2010-sidney_govou",
+      "identityId": "P-31668",
+      "squadNumber": 10,
+      "name": "Sidney Govou",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2010-andr_-pierre_gignac",
+      "identityId": "P-42706",
+      "squadNumber": 11,
+      "name": "André-Pierre Gignac",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2010-thierry_henry",
+      "identityId": "P-51395",
+      "squadNumber": 12,
+      "name": "Thierry Henry",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for France (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "france-2010-patrice_evra",
+      "identityId": "P-72916",
+      "squadNumber": 13,
+      "name": "Patrice Evra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2010-j_r_my_toulalan",
+      "identityId": "P-09884",
+      "squadNumber": 14,
+      "name": "Jérémy Toulalan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2010-florent_malouda",
+      "identityId": "P-18830",
+      "squadNumber": 15,
+      "name": "Florent Malouda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2010-steve_mandanda",
+      "identityId": "P-69594",
+      "squadNumber": 16,
+      "name": "Steve Mandanda",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for France (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "france-2010-s_bastien_squillaci",
+      "identityId": "P-33400",
+      "squadNumber": 17,
+      "name": "Sébastien Squillaci",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2010-alou_diarra",
+      "identityId": "P-58415",
+      "squadNumber": 18,
+      "name": "Alou Diarra",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2010-abou_diaby",
+      "identityId": "P-82555",
+      "squadNumber": 19,
+      "name": "Abou Diaby",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2010 World Cup performance for France (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2010-mathieu_valbuena",
+      "identityId": "P-84312",
+      "squadNumber": 20,
+      "name": "Mathieu Valbuena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2010 World Cup performance for France (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-2010-nicolas_anelka",
+      "identityId": "P-57240",
+      "squadNumber": 21,
+      "name": "Nicolas Anelka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2010-ga_l_clichy",
+      "identityId": "P-77249",
+      "squadNumber": 22,
+      "name": "Gaël Clichy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2010 World Cup performance for France (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2010-c_dric_carrasso",
+      "identityId": "P-38004",
+      "squadNumber": 23,
+      "name": "Cédric Carrasso",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2010 World Cup performance for France (Group Stage). Squad reserve member."
+    }
+  ]
+}

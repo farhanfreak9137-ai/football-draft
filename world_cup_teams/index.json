@@ -1,0 +1,1718 @@
+{
+  "generatedAt": "2026-10-19T09:10:35.674Z",
+  "totalTeams": 190,
+  "yearRange": "1950 - 2026",
+  "poolType": "Curated Giants, Peak Legend Talismans & Historic Underdogs",
+  "teams": [
+    {
+      "file": "Brazil_1950.json",
+      "teamName": "Brazil",
+      "year": 1950,
+      "tournament": "1950 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "England_1950.json",
+      "teamName": "England",
+      "year": 1950,
+      "tournament": "1950 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 21,
+      "avgOvr": 74
+    },
+    {
+      "file": "Italy_1950.json",
+      "teamName": "Italy",
+      "year": 1950,
+      "tournament": "1950 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Spain_1950.json",
+      "teamName": "Spain",
+      "year": 1950,
+      "tournament": "1950 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Uruguay_1950.json",
+      "teamName": "Uruguay",
+      "year": 1950,
+      "tournament": "1950 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 89
+    },
+    {
+      "file": "Austria_1954.json",
+      "teamName": "Austria",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Brazil_1954.json",
+      "teamName": "Brazil",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "England_1954.json",
+      "teamName": "England",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 75
+    },
+    {
+      "file": "France_1954.json",
+      "teamName": "France",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Hungary_1954.json",
+      "teamName": "Hungary",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Italy_1954.json",
+      "teamName": "Italy",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Uruguay_1954.json",
+      "teamName": "Uruguay",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "West_Germany_1954.json",
+      "teamName": "West Germany",
+      "year": 1954,
+      "tournament": "1954 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 91
+    },
+    {
+      "file": "Argentina_1958.json",
+      "teamName": "Argentina",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Brazil_1958.json",
+      "teamName": "Brazil",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 89
+    },
+    {
+      "file": "England_1958.json",
+      "teamName": "England",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "France_1958.json",
+      "teamName": "France",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "Northern_Ireland_1958.json",
+      "teamName": "Northern Ireland",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Soviet_Union_1958.json",
+      "teamName": "Soviet Union",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Sweden_1958.json",
+      "teamName": "Sweden",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 84
+    },
+    {
+      "file": "West_Germany_1958.json",
+      "teamName": "West Germany",
+      "year": 1958,
+      "tournament": "1958 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Argentina_1962.json",
+      "teamName": "Argentina",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Brazil_1962.json",
+      "teamName": "Brazil",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 89
+    },
+    {
+      "file": "Chile_1962.json",
+      "teamName": "Chile",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Czechoslovakia_1962.json",
+      "teamName": "Czechoslovakia",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "England_1962.json",
+      "teamName": "England",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Italy_1962.json",
+      "teamName": "Italy",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Spain_1962.json",
+      "teamName": "Spain",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Uruguay_1962.json",
+      "teamName": "Uruguay",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "West_Germany_1962.json",
+      "teamName": "West Germany",
+      "year": 1962,
+      "tournament": "1962 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Argentina_1966.json",
+      "teamName": "Argentina",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Brazil_1966.json",
+      "teamName": "Brazil",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "England_1966.json",
+      "teamName": "England",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 88
+    },
+    {
+      "file": "France_1966.json",
+      "teamName": "France",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Italy_1966.json",
+      "teamName": "Italy",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Portugal_1966.json",
+      "teamName": "Portugal",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 84
+    },
+    {
+      "file": "Soviet_Union_1966.json",
+      "teamName": "Soviet Union",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Spain_1966.json",
+      "teamName": "Spain",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "Uruguay_1966.json",
+      "teamName": "Uruguay",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 74
+    },
+    {
+      "file": "West_Germany_1966.json",
+      "teamName": "West Germany",
+      "year": 1966,
+      "tournament": "1966 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 84
+    },
+    {
+      "file": "Brazil_1970.json",
+      "teamName": "Brazil",
+      "year": 1970,
+      "tournament": "1970 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 90
+    },
+    {
+      "file": "England_1970.json",
+      "teamName": "England",
+      "year": 1970,
+      "tournament": "1970 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Italy_1970.json",
+      "teamName": "Italy",
+      "year": 1970,
+      "tournament": "1970 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 87
+    },
+    {
+      "file": "Peru_1970.json",
+      "teamName": "Peru",
+      "year": 1970,
+      "tournament": "1970 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Uruguay_1970.json",
+      "teamName": "Uruguay",
+      "year": 1970,
+      "tournament": "1970 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "West_Germany_1970.json",
+      "teamName": "West Germany",
+      "year": 1970,
+      "tournament": "1970 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Argentina_1974.json",
+      "teamName": "Argentina",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 81
+    },
+    {
+      "file": "Brazil_1974.json",
+      "teamName": "Brazil",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Italy_1974.json",
+      "teamName": "Italy",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 76
+    },
+    {
+      "file": "Netherlands_1974.json",
+      "teamName": "Netherlands",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 87
+    },
+    {
+      "file": "Poland_1974.json",
+      "teamName": "Poland",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "Uruguay_1974.json",
+      "teamName": "Uruguay",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 76
+    },
+    {
+      "file": "West_Germany_1974.json",
+      "teamName": "West Germany",
+      "year": 1974,
+      "tournament": "1974 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 91
+    },
+    {
+      "file": "Argentina_1978.json",
+      "teamName": "Argentina",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 90
+    },
+    {
+      "file": "Brazil_1978.json",
+      "teamName": "Brazil",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "France_1978.json",
+      "teamName": "France",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 77
+    },
+    {
+      "file": "Italy_1978.json",
+      "teamName": "Italy",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "Netherlands_1978.json",
+      "teamName": "Netherlands",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 88
+    },
+    {
+      "file": "Spain_1978.json",
+      "teamName": "Spain",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 77
+    },
+    {
+      "file": "West_Germany_1978.json",
+      "teamName": "West Germany",
+      "year": 1978,
+      "tournament": "1978 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "Argentina_1982.json",
+      "teamName": "Argentina",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 79
+    },
+    {
+      "file": "Brazil_1982.json",
+      "teamName": "Brazil",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "England_1982.json",
+      "teamName": "England",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "France_1982.json",
+      "teamName": "France",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 87
+    },
+    {
+      "file": "Italy_1982.json",
+      "teamName": "Italy",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 89
+    },
+    {
+      "file": "Poland_1982.json",
+      "teamName": "Poland",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Spain_1982.json",
+      "teamName": "Spain",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "West_Germany_1982.json",
+      "teamName": "West Germany",
+      "year": 1982,
+      "tournament": "1982 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 87
+    },
+    {
+      "file": "Argentina_1986.json",
+      "teamName": "Argentina",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 91
+    },
+    {
+      "file": "Belgium_1986.json",
+      "teamName": "Belgium",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Brazil_1986.json",
+      "teamName": "Brazil",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Denmark_1986.json",
+      "teamName": "Denmark",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "England_1986.json",
+      "teamName": "England",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "France_1986.json",
+      "teamName": "France",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 87
+    },
+    {
+      "file": "Italy_1986.json",
+      "teamName": "Italy",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 79
+    },
+    {
+      "file": "Mexico_1986.json",
+      "teamName": "Mexico",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Portugal_1986.json",
+      "teamName": "Portugal",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 76
+    },
+    {
+      "file": "Spain_1986.json",
+      "teamName": "Spain",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Uruguay_1986.json",
+      "teamName": "Uruguay",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "West_Germany_1986.json",
+      "teamName": "West Germany",
+      "year": 1986,
+      "tournament": "1986 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 87
+    },
+    {
+      "file": "Argentina_1990.json",
+      "teamName": "Argentina",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 88
+    },
+    {
+      "file": "Brazil_1990.json",
+      "teamName": "Brazil",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 79
+    },
+    {
+      "file": "Cameroon_1990.json",
+      "teamName": "Cameroon",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Czechoslovakia_1990.json",
+      "teamName": "Czechoslovakia",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "England_1990.json",
+      "teamName": "England",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Italy_1990.json",
+      "teamName": "Italy",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Netherlands_1990.json",
+      "teamName": "Netherlands",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "Spain_1990.json",
+      "teamName": "Spain",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "Uruguay_1990.json",
+      "teamName": "Uruguay",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "West_Germany_1990.json",
+      "teamName": "West Germany",
+      "year": 1990,
+      "tournament": "1990 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 91
+    },
+    {
+      "file": "Argentina_1994.json",
+      "teamName": "Argentina",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "Brazil_1994.json",
+      "teamName": "Brazil",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 90
+    },
+    {
+      "file": "Bulgaria_1994.json",
+      "teamName": "Bulgaria",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "Germany_1994.json",
+      "teamName": "Germany",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Italy_1994.json",
+      "teamName": "Italy",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 88
+    },
+    {
+      "file": "Netherlands_1994.json",
+      "teamName": "Netherlands",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Nigeria_1994.json",
+      "teamName": "Nigeria",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "Romania_1994.json",
+      "teamName": "Romania",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Spain_1994.json",
+      "teamName": "Spain",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Sweden_1994.json",
+      "teamName": "Sweden",
+      "year": 1994,
+      "tournament": "1994 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Argentina_1998.json",
+      "teamName": "Argentina",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Brazil_1998.json",
+      "teamName": "Brazil",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 22,
+      "avgOvr": 88
+    },
+    {
+      "file": "Croatia_1998.json",
+      "teamName": "Croatia",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 22,
+      "avgOvr": 85
+    },
+    {
+      "file": "Denmark_1998.json",
+      "teamName": "Denmark",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "England_1998.json",
+      "teamName": "England",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "France_1998.json",
+      "teamName": "France",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 22,
+      "avgOvr": 92
+    },
+    {
+      "file": "Germany_1998.json",
+      "teamName": "Germany",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 83
+    },
+    {
+      "file": "Italy_1998.json",
+      "teamName": "Italy",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 22,
+      "avgOvr": 82
+    },
+    {
+      "file": "Mexico_1998.json",
+      "teamName": "Mexico",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 80
+    },
+    {
+      "file": "Netherlands_1998.json",
+      "teamName": "Netherlands",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 22,
+      "avgOvr": 86
+    },
+    {
+      "file": "Nigeria_1998.json",
+      "teamName": "Nigeria",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 22,
+      "avgOvr": 81
+    },
+    {
+      "file": "Spain_1998.json",
+      "teamName": "Spain",
+      "year": 1998,
+      "tournament": "1998 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 22,
+      "avgOvr": 77
+    },
+    {
+      "file": "Argentina_2002.json",
+      "teamName": "Argentina",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Brazil_2002.json",
+      "teamName": "Brazil",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 23,
+      "avgOvr": 91
+    },
+    {
+      "file": "England_2002.json",
+      "teamName": "England",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 81
+    },
+    {
+      "file": "France_2002.json",
+      "teamName": "France",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Germany_2002.json",
+      "teamName": "Germany",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 23,
+      "avgOvr": 88
+    },
+    {
+      "file": "Italy_2002.json",
+      "teamName": "Italy",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "Portugal_2002.json",
+      "teamName": "Portugal",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Senegal_2002.json",
+      "teamName": "Senegal",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "South_Korea_2002.json",
+      "teamName": "South Korea",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 23,
+      "avgOvr": 85
+    },
+    {
+      "file": "Spain_2002.json",
+      "teamName": "Spain",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 83
+    },
+    {
+      "file": "Turkey_2002.json",
+      "teamName": "Turkey",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "United_States_2002.json",
+      "teamName": "United States",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "Uruguay_2002.json",
+      "teamName": "Uruguay",
+      "year": 2002,
+      "tournament": "2002 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Argentina_2006.json",
+      "teamName": "Argentina",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 83
+    },
+    {
+      "file": "Brazil_2006.json",
+      "teamName": "Brazil",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "England_2006.json",
+      "teamName": "England",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "France_2006.json",
+      "teamName": "France",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 23,
+      "avgOvr": 87
+    },
+    {
+      "file": "Germany_2006.json",
+      "teamName": "Germany",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "Italy_2006.json",
+      "teamName": "Italy",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 23,
+      "avgOvr": 91
+    },
+    {
+      "file": "Netherlands_2006.json",
+      "teamName": "Netherlands",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "Portugal_2006.json",
+      "teamName": "Portugal",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "Spain_2006.json",
+      "teamName": "Spain",
+      "year": 2006,
+      "tournament": "2006 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 81
+    },
+    {
+      "file": "Argentina_2010.json",
+      "teamName": "Argentina",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 83
+    },
+    {
+      "file": "Brazil_2010.json",
+      "teamName": "Brazil",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "England_2010.json",
+      "teamName": "England",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "France_2010.json",
+      "teamName": "France",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Germany_2010.json",
+      "teamName": "Germany",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "Ghana_2010.json",
+      "teamName": "Ghana",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "Italy_2010.json",
+      "teamName": "Italy",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Netherlands_2010.json",
+      "teamName": "Netherlands",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 23,
+      "avgOvr": 87
+    },
+    {
+      "file": "Portugal_2010.json",
+      "teamName": "Portugal",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "Spain_2010.json",
+      "teamName": "Spain",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 23,
+      "avgOvr": 90
+    },
+    {
+      "file": "Uruguay_2010.json",
+      "teamName": "Uruguay",
+      "year": 2010,
+      "tournament": "2010 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "Argentina_2014.json",
+      "teamName": "Argentina",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 23,
+      "avgOvr": 88
+    },
+    {
+      "file": "Brazil_2014.json",
+      "teamName": "Brazil",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "Colombia_2014.json",
+      "teamName": "Colombia",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 83
+    },
+    {
+      "file": "Costa_Rica_2014.json",
+      "teamName": "Costa Rica",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "England_2014.json",
+      "teamName": "England",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 77
+    },
+    {
+      "file": "France_2014.json",
+      "teamName": "France",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "Germany_2014.json",
+      "teamName": "Germany",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 23,
+      "avgOvr": 91
+    },
+    {
+      "file": "Italy_2014.json",
+      "teamName": "Italy",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 77
+    },
+    {
+      "file": "Netherlands_2014.json",
+      "teamName": "Netherlands",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 23,
+      "avgOvr": 87
+    },
+    {
+      "file": "Portugal_2014.json",
+      "teamName": "Portugal",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 77
+    },
+    {
+      "file": "Spain_2014.json",
+      "teamName": "Spain",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 77
+    },
+    {
+      "file": "Uruguay_2014.json",
+      "teamName": "Uruguay",
+      "year": 2014,
+      "tournament": "2014 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "Argentina_2018.json",
+      "teamName": "Argentina",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "Belgium_2018.json",
+      "teamName": "Belgium",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 23,
+      "avgOvr": 87
+    },
+    {
+      "file": "Brazil_2018.json",
+      "teamName": "Brazil",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "Croatia_2018.json",
+      "teamName": "Croatia",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 23,
+      "avgOvr": 89
+    },
+    {
+      "file": "England_2018.json",
+      "teamName": "England",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 23,
+      "avgOvr": 86
+    },
+    {
+      "file": "France_2018.json",
+      "teamName": "France",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 23,
+      "avgOvr": 91
+    },
+    {
+      "file": "Germany_2018.json",
+      "teamName": "Germany",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 23,
+      "avgOvr": 76
+    },
+    {
+      "file": "Portugal_2018.json",
+      "teamName": "Portugal",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "Spain_2018.json",
+      "teamName": "Spain",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 23,
+      "avgOvr": 79
+    },
+    {
+      "file": "Uruguay_2018.json",
+      "teamName": "Uruguay",
+      "year": 2018,
+      "tournament": "2018 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 23,
+      "avgOvr": 82
+    },
+    {
+      "file": "Argentina_2022.json",
+      "teamName": "Argentina",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Champions",
+      "squadSize": 26,
+      "avgOvr": 91
+    },
+    {
+      "file": "Brazil_2022.json",
+      "teamName": "Brazil",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 26,
+      "avgOvr": 83
+    },
+    {
+      "file": "Croatia_2022.json",
+      "teamName": "Croatia",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Third Place",
+      "squadSize": 26,
+      "avgOvr": 85
+    },
+    {
+      "file": "England_2022.json",
+      "teamName": "England",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 26,
+      "avgOvr": 82
+    },
+    {
+      "file": "France_2022.json",
+      "teamName": "France",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Runners-up",
+      "squadSize": 26,
+      "avgOvr": 88
+    },
+    {
+      "file": "Germany_2022.json",
+      "teamName": "Germany",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 26,
+      "avgOvr": 76
+    },
+    {
+      "file": "Morocco_2022.json",
+      "teamName": "Morocco",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Fourth Place",
+      "squadSize": 26,
+      "avgOvr": 85
+    },
+    {
+      "file": "Netherlands_2022.json",
+      "teamName": "Netherlands",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 26,
+      "avgOvr": 82
+    },
+    {
+      "file": "Portugal_2022.json",
+      "teamName": "Portugal",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Quarter-Finalists",
+      "squadSize": 26,
+      "avgOvr": 83
+    },
+    {
+      "file": "Spain_2022.json",
+      "teamName": "Spain",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Round of 16",
+      "squadSize": 26,
+      "avgOvr": 80
+    },
+    {
+      "file": "Uruguay_2022.json",
+      "teamName": "Uruguay",
+      "year": 2022,
+      "tournament": "2022 FIFA Men's World Cup",
+      "achievement": "Group Stage",
+      "squadSize": 26,
+      "avgOvr": 75
+    },
+    {
+      "file": "Argentina_2026.json",
+      "teamName": "Argentina",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 23,
+      "avgOvr": 84
+    },
+    {
+      "file": "Brazil_2026.json",
+      "teamName": "Brazil",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 23,
+      "avgOvr": 84
+    },
+    {
+      "file": "Cape_Verde_2026.json",
+      "teamName": "Cape Verde",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Underdogs (Tubarões Azuis)",
+      "squadSize": 23,
+      "avgOvr": 80
+    },
+    {
+      "file": "England_2026.json",
+      "teamName": "England",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 26,
+      "avgOvr": 84
+    },
+    {
+      "file": "France_2026.json",
+      "teamName": "France",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 23,
+      "avgOvr": 85
+    },
+    {
+      "file": "Germany_2026.json",
+      "teamName": "Germany",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 25,
+      "avgOvr": 84
+    },
+    {
+      "file": "Italy_2026.json",
+      "teamName": "Italy",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 25,
+      "avgOvr": 83
+    },
+    {
+      "file": "Netherlands_2026.json",
+      "teamName": "Netherlands",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 26,
+      "avgOvr": 83
+    },
+    {
+      "file": "Portugal_2026.json",
+      "teamName": "Portugal",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 26,
+      "avgOvr": 84
+    },
+    {
+      "file": "Spain_2026.json",
+      "teamName": "Spain",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 26,
+      "avgOvr": 85
+    },
+    {
+      "file": "United_States_2026.json",
+      "teamName": "United States",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 23,
+      "avgOvr": 81
+    },
+    {
+      "file": "Uruguay_2026.json",
+      "teamName": "Uruguay",
+      "year": 2026,
+      "tournament": "2026 FIFA Men's World Cup",
+      "achievement": "2026 World Cup Squad",
+      "squadSize": 25,
+      "avgOvr": 81
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "teamName": "Portugal",
+  "teamCode": "PRT",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "portugal-2014-eduardo",
+      "identityId": "P-37990",
+      "squadNumber": 1,
+      "name": "Eduardo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Portugal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2014-bruno_alves",
+      "identityId": "P-76960",
+      "squadNumber": 2,
+      "name": "Bruno Alves",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2014-pepe",
+      "identityId": "P-81972",
+      "squadNumber": 3,
+      "name": "Pepe",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2014-miguel_veloso",
+      "identityId": "P-98693",
+      "squadNumber": 4,
+      "name": "Miguel Veloso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2014-f_bio_coentr_o",
+      "identityId": "P-92000",
+      "squadNumber": 5,
+      "name": "Fábio Coentrão",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-william_carvalho",
+      "identityId": "P-44689",
+      "squadNumber": 6,
+      "name": "William Carvalho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-cristiano_ronaldo",
+      "identityId": "P-70442",
+      "squadNumber": 7,
+      "name": "Cristiano Ronaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2014-jo_o_moutinho",
+      "identityId": "P-89743",
+      "squadNumber": 8,
+      "name": "João Moutinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2014-hugo_almeida",
+      "identityId": "P-14428",
+      "squadNumber": 9,
+      "name": "Hugo Almeida",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-vieirinha",
+      "identityId": "P-23990",
+      "squadNumber": 10,
+      "name": "Vieirinha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2014 World Cup performance for Portugal (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "portugal-2014-eder",
+      "identityId": "P-20926",
+      "squadNumber": 11,
+      "name": "Eder",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-rui_patr_cio",
+      "identityId": "P-72028",
+      "squadNumber": 12,
+      "name": "Rui Patrício",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-ricardo_costa",
+      "identityId": "P-55321",
+      "squadNumber": 13,
+      "name": "Ricardo Costa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-lu_s_neto",
+      "identityId": "P-05377",
+      "squadNumber": 14,
+      "name": "Luís Neto",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2014-rafa_silva",
+      "identityId": "P-82734",
+      "squadNumber": 15,
+      "name": "Rafa Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2014 World Cup performance for Portugal (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "portugal-2014-raul_meireles",
+      "identityId": "P-88101",
+      "squadNumber": 16,
+      "name": "Raul Meireles",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2014-nani",
+      "identityId": "P-78296",
+      "squadNumber": 17,
+      "name": "Nani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2014 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2014-silvestre_varela",
+      "identityId": "P-25600",
+      "squadNumber": 18,
+      "name": "Silvestre Varela",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Portugal (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "portugal-2014-andr_almeida",
+      "identityId": "P-75772",
+      "squadNumber": 19,
+      "name": "André Almeida",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-r_ben_amorim",
+      "identityId": "P-11629",
+      "squadNumber": 20,
+      "name": "Rúben Amorim",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "portugal-2014-jo_o_pereira",
+      "identityId": "P-17971",
+      "squadNumber": 21,
+      "name": "João Pereira",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Portugal (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "portugal-2014-beto",
+      "identityId": "P-27059",
+      "squadNumber": 22,
+      "name": "Beto",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "portugal-2014-h_lder_postiga",
+      "identityId": "P-83900",
+      "squadNumber": 23,
+      "name": "Hélder Postiga",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2014 World Cup performance for Portugal (Group Stage). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

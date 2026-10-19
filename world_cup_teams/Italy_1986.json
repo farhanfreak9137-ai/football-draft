@@ -1,0 +1,498 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 79,
+  "players": [
+    {
+      "id": "italy-1986-giovanni_galli",
+      "identityId": "P-56533",
+      "squadNumber": 1,
+      "name": "Giovanni Galli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-giuseppe_bergomi",
+      "identityId": "P-29143",
+      "squadNumber": 2,
+      "name": "Giuseppe Bergomi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1986-antonio_cabrini",
+      "identityId": "P-03775",
+      "squadNumber": 3,
+      "name": "Antonio Cabrini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-fulvio_collovati",
+      "identityId": "P-30672",
+      "squadNumber": 4,
+      "name": "Fulvio Collovati",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-1986-sebastiano_nela",
+      "identityId": "P-99684",
+      "squadNumber": 5,
+      "name": "Sebastiano Nela",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-gaetano_scirea",
+      "identityId": "P-99788",
+      "squadNumber": 6,
+      "name": "Gaetano Scirea",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-roberto_tricella",
+      "identityId": "P-24028",
+      "squadNumber": 7,
+      "name": "Roberto Tricella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-pietro_vierchowod",
+      "identityId": "P-73911",
+      "squadNumber": 8,
+      "name": "Pietro Vierchowod",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-carlo_ancelotti",
+      "identityId": "P-13638",
+      "squadNumber": 9,
+      "name": "Carlo Ancelotti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-salvatore_bagni",
+      "identityId": "P-49669",
+      "squadNumber": 10,
+      "name": "Salvatore Bagni",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-giuseppe_baresi",
+      "identityId": "P-55733",
+      "squadNumber": 11,
+      "name": "Giuseppe Baresi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for Italy (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-1986-franco_tancredi",
+      "identityId": "P-50344",
+      "squadNumber": 12,
+      "name": "Franco Tancredi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-fernando_de_napoli",
+      "identityId": "P-32608",
+      "squadNumber": 13,
+      "name": "Fernando De Napoli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-antonio_di_gennaro",
+      "identityId": "P-69913",
+      "squadNumber": 14,
+      "name": "Antonio Di Gennaro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1986-marco_tardelli",
+      "identityId": "P-93788",
+      "squadNumber": 15,
+      "name": "Marco Tardelli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-bruno_conti",
+      "identityId": "P-66365",
+      "squadNumber": 16,
+      "name": "Bruno Conti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-gianluca_vialli",
+      "identityId": "P-81402",
+      "squadNumber": 17,
+      "name": "Gianluca Vialli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1986 World Cup performance for Italy (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "italy-1986-alessandro_altobelli",
+      "identityId": "P-46574",
+      "squadNumber": 18,
+      "name": "Alessandro Altobelli",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "italy-1986-giuseppe_galderisi",
+      "identityId": "P-45432",
+      "squadNumber": 19,
+      "name": "Giuseppe Galderisi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1986 World Cup performance for Italy (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "italy-1986-paolo_rossi",
+      "identityId": "P-91717",
+      "squadNumber": 20,
+      "name": "Paolo Rossi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-aldo_serena",
+      "identityId": "P-35253",
+      "squadNumber": 21,
+      "name": "Aldo Serena",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "italy-1986-walter_zenga",
+      "identityId": "P-57440",
+      "squadNumber": 22,
+      "name": "Walter Zenga",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1986 World Cup performance for Italy (Round of 16). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "teamName": "Belgium",
+  "teamCode": "BEL",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "belgium-1986-jean-marie_pfaff",
+      "identityId": "P-84816",
+      "squadNumber": 1,
+      "name": "Jean-Marie Pfaff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "belgium-1986-eric_gerets",
+      "identityId": "P-73390",
+      "squadNumber": 2,
+      "name": "Eric Gerets",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "belgium-1986-franky_van_der_elst",
+      "identityId": "P-08623",
+      "squadNumber": 3,
+      "name": "Franky Van der Elst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1986-michel_de_wolf",
+      "identityId": "P-39297",
+      "squadNumber": 4,
+      "name": "Michel De Wolf",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1986-michel_renquin",
+      "identityId": "P-88903",
+      "squadNumber": 5,
+      "name": "Michel Renquin",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-1986-franky_vercauteren",
+      "identityId": "P-26401",
+      "squadNumber": 6,
+      "name": "Franky Vercauteren",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1986-ren_vandereycken",
+      "identityId": "P-71806",
+      "squadNumber": 7,
+      "name": "René Vandereycken",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1986-enzo_scifo",
+      "identityId": "P-97414",
+      "squadNumber": 8,
+      "name": "Enzo Scifo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 7 match(es). Scored 2 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "belgium-1986-erwin_vandenbergh",
+      "identityId": "P-06736",
+      "squadNumber": 9,
+      "name": "Erwin Vandenbergh",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1986-philippe_desmet",
+      "identityId": "P-13042",
+      "squadNumber": 10,
+      "name": "Philippe Desmet",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1986-jan_ceulemans",
+      "identityId": "P-25456",
+      "squadNumber": 11,
+      "name": "Jan Ceulemans",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 7 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "belgium-1986-jacky_munaron",
+      "identityId": "P-38187",
+      "squadNumber": 12,
+      "name": "Jacky Munaron",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "belgium-1986-georges_gr_n",
+      "identityId": "P-99499",
+      "squadNumber": 13,
+      "name": "Georges Grün",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "belgium-1986-leo_clijsters",
+      "identityId": "P-05723",
+      "squadNumber": 14,
+      "name": "Leo Clijsters",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "belgium-1986-leo_van_der_elst",
+      "identityId": "P-43888",
+      "squadNumber": 15,
+      "name": "Leo Van Der Elst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "belgium-1986-nico_claesen",
+      "identityId": "P-47038",
+      "squadNumber": 16,
+      "name": "Nico Claesen",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 6 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "belgium-1986-raymond_mommens",
+      "identityId": "P-87975",
+      "squadNumber": 17,
+      "name": "Raymond Mommens",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "belgium-1986-daniel_veyt",
+      "identityId": "P-24703",
+      "squadNumber": 18,
+      "name": "Daniel Veyt",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1986-hugo_broos",
+      "identityId": "P-93848",
+      "squadNumber": 19,
+      "name": "Hugo Broos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "belgium-1986-gilbert_bodart",
+      "identityId": "P-47067",
+      "squadNumber": 20,
+      "name": "Gilbert Bodart",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "belgium-1986-st_phane_demol",
+      "identityId": "P-95299",
+      "squadNumber": 21,
+      "name": "Stéphane Demol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "belgium-1986-patrick_vervoort",
+      "identityId": "P-92384",
+      "squadNumber": 22,
+      "name": "Patrick Vervoort",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1986 World Cup performance for Belgium (Fourth Place). Main pillar starting 5 match(es)."
+    }
+  ]
+}

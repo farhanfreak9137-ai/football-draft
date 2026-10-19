@@ -1,0 +1,514 @@
+{
+  "teamName": "Germany",
+  "teamCode": "DEU",
+  "year": 2018,
+  "tournament": "2018 FIFA Men's World Cup",
+  "hostCountry": "Russia",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "germany-2018-manuel_neuer",
+      "identityId": "P-19408",
+      "squadNumber": 1,
+      "name": "Manuel Neuer",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Germany (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-2018-marvin_plattenhardt",
+      "identityId": "P-69785",
+      "squadNumber": 2,
+      "name": "Marvin Plattenhardt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2018-jonas_hector",
+      "identityId": "P-77118",
+      "squadNumber": 3,
+      "name": "Jonas Hector",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-matthias_ginter",
+      "identityId": "P-36126",
+      "squadNumber": 4,
+      "name": "Matthias Ginter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "germany-2018-mats_hummels",
+      "identityId": "P-81447",
+      "squadNumber": 5,
+      "name": "Mats Hummels",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-sami_khedira",
+      "identityId": "P-13029",
+      "squadNumber": 6,
+      "name": "Sami Khedira",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-julian_draxler",
+      "identityId": "P-21524",
+      "squadNumber": 7,
+      "name": "Julian Draxler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-toni_kroos",
+      "identityId": "P-39356",
+      "squadNumber": 8,
+      "name": "Toni Kroos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2018 World Cup performance for Germany (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2018-timo_werner",
+      "identityId": "P-19339",
+      "squadNumber": 9,
+      "name": "Timo Werner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Germany (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-2018-mesut_zil",
+      "identityId": "P-12818",
+      "squadNumber": 10,
+      "name": "Mesut Özil",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-marco_reus",
+      "identityId": "P-94447",
+      "squadNumber": 11,
+      "name": "Marco Reus",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-2018-kevin_trapp",
+      "identityId": "P-81947",
+      "squadNumber": 12,
+      "name": "Kevin Trapp",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "germany-2018-thomas_m_ller",
+      "identityId": "P-28154",
+      "squadNumber": 13,
+      "name": "Thomas Müller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-leon_goretzka",
+      "identityId": "P-79409",
+      "squadNumber": 14,
+      "name": "Leon Goretzka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2018-niklas_s_le",
+      "identityId": "P-48737",
+      "squadNumber": 15,
+      "name": "Niklas Süle",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2018-antonio_r_diger",
+      "identityId": "P-51201",
+      "squadNumber": 16,
+      "name": "Antonio Rüdiger",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2018-j_r_me_boateng",
+      "identityId": "P-04224",
+      "squadNumber": 17,
+      "name": "Jérôme Boateng",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-2018-joshua_kimmich",
+      "identityId": "P-30316",
+      "squadNumber": 18,
+      "name": "Joshua Kimmich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2018 World Cup performance for Germany (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-2018-sebastian_rudy",
+      "identityId": "P-62162",
+      "squadNumber": 19,
+      "name": "Sebastian Rudy",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2018 World Cup performance for Germany (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-2018-julian_brandt",
+      "identityId": "P-50679",
+      "squadNumber": 20,
+      "name": "Julian Brandt",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Germany (Group Stage). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "germany-2018-_lkay_g_ndo_an",
+      "identityId": "P-08896",
+      "squadNumber": 21,
+      "name": "İlkay Gündoğan",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Germany (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-2018-marc-andr_ter_stegen",
+      "identityId": "P-03367",
+      "squadNumber": 22,
+      "name": "Marc-André ter Stegen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2018 World Cup performance for Germany (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "germany-2018-mario_g_mez",
+      "identityId": "P-78594",
+      "squadNumber": 23,
+      "name": "Mario Gómez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2018 World Cup performance for Germany (Group Stage). Substitute rotation option (3 sub app)."
+    }
+  ]
+}

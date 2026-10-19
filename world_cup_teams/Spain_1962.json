@@ -1,0 +1,493 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "spain-1962-jos_araquist_in",
+      "identityId": "P-58349",
+      "squadNumber": 1,
+      "name": "José Araquistáin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-salvador_sadurn_",
+      "identityId": "P-39089",
+      "squadNumber": 2,
+      "name": "Salvador Sadurní",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-carmelo",
+      "identityId": "P-90224",
+      "squadNumber": 3,
+      "name": "Carmelo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-enrique_collar",
+      "identityId": "P-61299",
+      "squadNumber": 4,
+      "name": "Enrique Collar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-luis_del_sol",
+      "identityId": "P-80578",
+      "squadNumber": 5,
+      "name": "Luis del Sol",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-alfredo_di_st_fano",
+      "identityId": "P-34403",
+      "squadNumber": 6,
+      "name": "Alfredo Di Stéfano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-luis_mar_a_echeberr_a",
+      "identityId": "P-00987",
+      "squadNumber": 7,
+      "name": "Luis María Echeberría",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-jes_s_garay",
+      "identityId": "P-31306",
+      "squadNumber": 8,
+      "name": "Jesús Garay",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-francisco_gento",
+      "identityId": "P-09022",
+      "squadNumber": 9,
+      "name": "Francisco Gento",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-s_gfrid_gr_cia",
+      "identityId": "P-12970",
+      "squadNumber": 10,
+      "name": "Sígfrid Gràcia",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-feliciano_rivilla",
+      "identityId": "P-82150",
+      "squadNumber": 11,
+      "name": "Feliciano Rivilla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1962-joaqu_n_peir_",
+      "identityId": "P-15268",
+      "squadNumber": 12,
+      "name": "Joaquín Peiró",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1962-pach_n",
+      "identityId": "P-89577",
+      "squadNumber": 13,
+      "name": "Pachín",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-ferenc_pusk_s",
+      "identityId": "P-12676",
+      "squadNumber": 14,
+      "name": "Ferenc Puskás",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-eulogio_mart_nez",
+      "identityId": "P-93628",
+      "squadNumber": 15,
+      "name": "Eulogio Martínez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-severino_reija",
+      "identityId": "P-59058",
+      "squadNumber": 16,
+      "name": "Severino Reija",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-rodri",
+      "identityId": "P-81323",
+      "squadNumber": 17,
+      "name": "Rodri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-adelardo",
+      "identityId": "P-03894",
+      "squadNumber": 18,
+      "name": "Adelardo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Spain (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1962-jos_santamar_a",
+      "identityId": "P-70798",
+      "squadNumber": 19,
+      "name": "José Santamaría",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-joan_segarra",
+      "identityId": "P-61313",
+      "squadNumber": 20,
+      "name": "Joan Segarra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-luis_su_rez",
+      "identityId": "P-39055",
+      "squadNumber": 21,
+      "name": "Luis Suárez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1962-mart_verg_s",
+      "identityId": "P-00941",
+      "squadNumber": 22,
+      "name": "Martí Vergés",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Spain (Group Stage). Squad reserve member."
+    }
+  ]
+}

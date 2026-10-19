@@ -1,0 +1,497 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "italy-1966-enrico_albertosi",
+      "identityId": "P-73673",
+      "squadNumber": 1,
+      "name": "Enrico Albertosi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-roberto_anzolin",
+      "identityId": "P-08972",
+      "squadNumber": 2,
+      "name": "Roberto Anzolin",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-paolo_barison",
+      "identityId": "P-01013",
+      "squadNumber": 3,
+      "name": "Paolo Barison",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1966-giacomo_bulgarelli",
+      "identityId": "P-72738",
+      "squadNumber": 4,
+      "name": "Giacomo Bulgarelli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-tarcisio_burgnich",
+      "identityId": "P-42540",
+      "squadNumber": 5,
+      "name": "Tarcisio Burgnich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-giacinto_facchetti",
+      "identityId": "P-68170",
+      "squadNumber": 6,
+      "name": "Giacinto Facchetti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-romano_fogli",
+      "identityId": "P-11488",
+      "squadNumber": 7,
+      "name": "Romano Fogli",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-aristide_guarneri",
+      "identityId": "P-18770",
+      "squadNumber": 8,
+      "name": "Aristide Guarneri",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-francesco_janich",
+      "identityId": "P-89616",
+      "squadNumber": 9,
+      "name": "Francesco Janich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-antonio_juliano",
+      "identityId": "P-68792",
+      "squadNumber": 10,
+      "name": "Antonio Juliano",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-spartaco_landini",
+      "identityId": "P-35433",
+      "squadNumber": 11,
+      "name": "Spartaco Landini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "italy-1966-gianfranco_leoncini",
+      "identityId": "P-27425",
+      "squadNumber": 12,
+      "name": "Gianfranco Leoncini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-giovanni_lodetti",
+      "identityId": "P-46187",
+      "squadNumber": 13,
+      "name": "Giovanni Lodetti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-sandro_mazzola",
+      "identityId": "P-91195",
+      "squadNumber": 14,
+      "name": "Sandro Mazzola",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Italy (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1966-luigi_meroni",
+      "identityId": "P-77332",
+      "squadNumber": 15,
+      "name": "Luigi Meroni",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-ezio_pascutti",
+      "identityId": "P-50486",
+      "squadNumber": 16,
+      "name": "Ezio Pascutti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-marino_perani",
+      "identityId": "P-73715",
+      "squadNumber": 17,
+      "name": "Marino Perani",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-pierluigi_pizzaballa",
+      "identityId": "P-59807",
+      "squadNumber": 18,
+      "name": "Pierluigi Pizzaballa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-gianni_rivera",
+      "identityId": "P-62214",
+      "squadNumber": 19,
+      "name": "Gianni Rivera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-francesco_rizzo",
+      "identityId": "P-91752",
+      "squadNumber": 20,
+      "name": "Francesco Rizzo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-roberto_rosato",
+      "identityId": "P-45085",
+      "squadNumber": 21,
+      "name": "Roberto Rosato",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1966-sandro_salvadore",
+      "identityId": "P-97727",
+      "squadNumber": 22,
+      "name": "Sandro Salvadore",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Italy (Group Stage). Squad reserve member."
+    }
+  ]
+}

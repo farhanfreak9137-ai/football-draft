@@ -1,0 +1,553 @@
+{
+  "teamName": "Spain",
+  "teamCode": "SPA",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 85,
+  "players": [
+    {
+      "id": "spain-2026-unai_sim_n",
+      "identityId": "identity-2026-unai_sim_n",
+      "squadNumber": 23,
+      "name": "Unai Simón",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR for 2026 World Cup form with Spain. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "spain-2026-dani_carvajal",
+      "identityId": "identity-2026-dani_carvajal",
+      "squadNumber": 2,
+      "name": "Dani Carvajal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Spain. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "spain-2026-robin_le_normand",
+      "identityId": "identity-2026-robin_le_normand",
+      "squadNumber": 3,
+      "name": "Robin Le Normand",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Spain. Regular starting lineup selection."
+    },
+    {
+      "id": "spain-2026-aymeric_laporte",
+      "identityId": "identity-2026-aymeric_laporte",
+      "squadNumber": 14,
+      "name": "Aymeric Laporte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Spain. Regular starting lineup selection."
+    },
+    {
+      "id": "spain-2026-marc_cucurella",
+      "identityId": "identity-2026-marc_cucurella",
+      "squadNumber": 24,
+      "name": "Marc Cucurella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Spain. Regular starting lineup selection."
+    },
+    {
+      "id": "spain-2026-rodri",
+      "identityId": "identity-2026-rodri",
+      "squadNumber": 16,
+      "name": "Rodri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Euro 2024 Player of the Tournament & World Top Midfielder"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Euro 2024 Player of the Tournament & World Top Midfielder",
+      "ratingRationale": "Rated 94 OVR for 2026 World Cup form with Spain. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "spain-2026-fabi_n_ruiz",
+      "identityId": "identity-2026-fabi_n_ruiz",
+      "squadNumber": 8,
+      "name": "Fabián Ruiz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Spain. Regular starting lineup selection."
+    },
+    {
+      "id": "spain-2026-pedri",
+      "identityId": "identity-2026-pedri",
+      "squadNumber": 20,
+      "name": "Pedri",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Spain. Regular starting lineup selection."
+    },
+    {
+      "id": "spain-2026-lamine_yamal",
+      "identityId": "identity-2026-lamine_yamal",
+      "squadNumber": 19,
+      "name": "Lamine Yamal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Euro 2024 Best Young Player & Phenomenon"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Euro 2024 Best Young Player & Phenomenon",
+      "ratingRationale": "Rated 90 OVR for 2026 World Cup form with Spain. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "spain-2026-_lvaro_morata",
+      "identityId": "identity-2026-_lvaro_morata",
+      "squadNumber": 7,
+      "name": "Álvaro Morata",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Spain. Regular starting lineup selection."
+    },
+    {
+      "id": "spain-2026-nico_williams",
+      "identityId": "identity-2026-nico_williams",
+      "squadNumber": 17,
+      "name": "Nico Williams",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Spain. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "spain-2026-david_raya",
+      "identityId": "identity-2026-david_raya",
+      "squadNumber": 1,
+      "name": "David Raya",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 84,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Spain. National squad reserve depth."
+    },
+    {
+      "id": "spain-2026-_lex_remiro",
+      "identityId": "identity-2026-_lex_remiro",
+      "squadNumber": 13,
+      "name": "Álex Remiro",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Spain. National squad reserve depth."
+    },
+    {
+      "id": "spain-2026-nacho_fern_ndez",
+      "identityId": "identity-2026-nacho_fern_ndez",
+      "squadNumber": 4,
+      "name": "Nacho Fernández",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB",
+        "RB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-dani_vivian",
+      "identityId": "identity-2026-dani_vivian",
+      "squadNumber": 5,
+      "name": "Dani Vivian",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-alejandro_grimaldo",
+      "identityId": "identity-2026-alejandro_grimaldo",
+      "squadNumber": 12,
+      "name": "Alejandro Grimaldo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB",
+        "LWB"
+      ],
+      "secondaryPositions": [
+        "LM"
+      ],
+      "ovr": 86,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-jes_s_navas",
+      "identityId": "identity-2026-jes_s_navas",
+      "squadNumber": 22,
+      "name": "Jesús Navas",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-mikel_merino",
+      "identityId": "identity-2026-mikel_merino",
+      "squadNumber": 6,
+      "name": "Mikel Merino",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-dani_olmo",
+      "identityId": "identity-2026-dani_olmo",
+      "squadNumber": 10,
+      "name": "Dani Olmo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-mart_n_zubimendi",
+      "identityId": "identity-2026-mart_n_zubimendi",
+      "squadNumber": 18,
+      "name": "Martín Zubimendi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-joselu",
+      "identityId": "identity-2026-joselu",
+      "squadNumber": 9,
+      "name": "Joselu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-ferran_torres",
+      "identityId": "identity-2026-ferran_torres",
+      "squadNumber": 11,
+      "name": "Ferran Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW",
+        "LW"
+      ],
+      "secondaryPositions": [
+        "ST"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-_lex_baena",
+      "identityId": "identity-2026-_lex_baena",
+      "squadNumber": 15,
+      "name": "Álex Baena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW"
+      ],
+      "ovr": 83,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-mikel_oyarzabal",
+      "identityId": "identity-2026-mikel_oyarzabal",
+      "squadNumber": 21,
+      "name": "Mikel Oyarzabal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with Spain. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "spain-2026-ferm_n_l_pez",
+      "identityId": "identity-2026-ferm_n_l_pez",
+      "squadNumber": 25,
+      "name": "Fermín López",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM",
+        "AM"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with Spain. National squad reserve depth."
+    },
+    {
+      "id": "spain-2026-ayoze_p_rez",
+      "identityId": "identity-2026-ayoze_p_rez",
+      "squadNumber": 26,
+      "name": "Ayoze Pérez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "ST"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with Spain. National squad reserve depth."
+    }
+  ]
+}

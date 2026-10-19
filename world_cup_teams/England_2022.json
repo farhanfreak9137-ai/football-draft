@@ -1,0 +1,579 @@
+{
+  "teamName": "England",
+  "teamCode": "ENG",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "england-2022-jordan_pickford",
+      "identityId": "P-70618",
+      "squadNumber": 1,
+      "name": "Jordan Pickford",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2022-kyle_walker",
+      "identityId": "P-74071",
+      "squadNumber": 2,
+      "name": "Kyle Walker",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "england-2022-luke_shaw",
+      "identityId": "P-36400",
+      "squadNumber": 3,
+      "name": "Luke Shaw",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2022-declan_rice",
+      "identityId": "P-84787",
+      "squadNumber": 4,
+      "name": "Declan Rice",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2022-john_stones",
+      "identityId": "P-92628",
+      "squadNumber": 5,
+      "name": "John Stones",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2022-harry_maguire",
+      "identityId": "P-02465",
+      "squadNumber": 6,
+      "name": "Harry Maguire",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "england-2022-jack_grealish",
+      "identityId": "P-21153",
+      "squadNumber": 7,
+      "name": "Jack Grealish",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Substitute rotation option (5 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2022-jordan_henderson",
+      "identityId": "P-08169",
+      "squadNumber": 8,
+      "name": "Jordan Henderson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2022-harry_kane",
+      "identityId": "P-58924",
+      "squadNumber": 9,
+      "name": "Harry Kane",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "england-2022-raheem_sterling",
+      "identityId": "P-21553",
+      "squadNumber": 10,
+      "name": "Raheem Sterling",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2022-marcus_rashford",
+      "identityId": "P-59837",
+      "squadNumber": 11,
+      "name": "Marcus Rashford",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (1 starts). Scored 3 goal(s)."
+    },
+    {
+      "id": "england-2022-kieran_trippier",
+      "identityId": "P-25937",
+      "squadNumber": 12,
+      "name": "Kieran Trippier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2022-nick_pope",
+      "identityId": "P-89070",
+      "squadNumber": 13,
+      "name": "Nick Pope",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2022-kalvin_phillips",
+      "identityId": "P-43567",
+      "squadNumber": 14,
+      "name": "Kalvin Phillips",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-2022-eric_dier",
+      "identityId": "P-31219",
+      "squadNumber": 15,
+      "name": "Eric Dier",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-2022-conor_coady",
+      "identityId": "P-76287",
+      "squadNumber": 16,
+      "name": "Conor Coady",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2022-bukayo_saka",
+      "identityId": "P-76842",
+      "squadNumber": 17,
+      "name": "Bukayo Saka",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "england-2022-trent_alexander-arnold",
+      "identityId": "P-05318",
+      "squadNumber": 18,
+      "name": "Trent Alexander-Arnold",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "england-2022-mason_mount",
+      "identityId": "P-90012",
+      "squadNumber": 19,
+      "name": "Mason Mount",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "england-2022-phil_foden",
+      "identityId": "P-10501",
+      "squadNumber": 20,
+      "name": "Phil Foden",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2022-ben_white",
+      "identityId": "P-50034",
+      "squadNumber": 21,
+      "name": "Ben White",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2022-jude_bellingham",
+      "identityId": "P-15674",
+      "squadNumber": 22,
+      "name": "Jude Bellingham",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "england-2022-aaron_ramsdale",
+      "identityId": "P-62368",
+      "squadNumber": 23,
+      "name": "Aaron Ramsdale",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2022-callum_wilson",
+      "identityId": "P-22844",
+      "squadNumber": 24,
+      "name": "Callum Wilson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "england-2022-james_maddison",
+      "identityId": "P-95181",
+      "squadNumber": 25,
+      "name": "James Maddison",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "england-2022-conor_gallagher",
+      "identityId": "P-46540",
+      "squadNumber": 26,
+      "name": "Conor Gallagher",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2022 World Cup performance for England (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

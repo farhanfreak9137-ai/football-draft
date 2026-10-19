@@ -1,0 +1,497 @@
+{
+  "teamName": "Nigeria",
+  "teamCode": "NGA",
+  "year": 1994,
+  "tournament": "1994 FIFA Men's World Cup",
+  "hostCountry": "United States",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "nigeria-1994-peter_rufai",
+      "identityId": "P-75277",
+      "squadNumber": 1,
+      "name": "Peter Rufai",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1994-augustine_eguavoen",
+      "identityId": "P-39450",
+      "squadNumber": 2,
+      "name": "Augustine Eguavoen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-1994-benedict_iroha",
+      "identityId": "P-72134",
+      "squadNumber": 3,
+      "name": "Benedict Iroha",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1994-stephen_keshi",
+      "identityId": "P-46986",
+      "squadNumber": 4,
+      "name": "Stephen Keshi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1994-uche_okechukwu",
+      "identityId": "P-74808",
+      "squadNumber": 5,
+      "name": "Uche Okechukwu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1994-chidi_nwanu",
+      "identityId": "P-91949",
+      "squadNumber": 6,
+      "name": "Chidi Nwanu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1994-finidi_george",
+      "identityId": "P-54287",
+      "squadNumber": 7,
+      "name": "Finidi George",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1994-thompson_oliha",
+      "identityId": "P-91871",
+      "squadNumber": 8,
+      "name": "Thompson Oliha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "nigeria-1994-rashidi_yekini",
+      "identityId": "P-98228",
+      "squadNumber": 9,
+      "name": "Rashidi Yekini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1994-jay-jay_okocha",
+      "identityId": "P-83122",
+      "squadNumber": 10,
+      "name": "Jay-Jay Okocha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "nigeria-1994-emmanuel_amunike",
+      "identityId": "P-22820",
+      "squadNumber": 11,
+      "name": "Emmanuel Amunike",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "nigeria-1994-samson_siasia",
+      "identityId": "P-72487",
+      "squadNumber": 12,
+      "name": "Samson Siasia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "nigeria-1994-emeka_ezeugo",
+      "identityId": "P-26103",
+      "squadNumber": 13,
+      "name": "Emeka Ezeugo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "nigeria-1994-daniel_amokachi",
+      "identityId": "P-84893",
+      "squadNumber": 14,
+      "name": "Daniel Amokachi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "nigeria-1994-sunday_oliseh",
+      "identityId": "P-41790",
+      "squadNumber": 15,
+      "name": "Sunday Oliseh",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "nigeria-1994-alloysius_agu",
+      "identityId": "P-25342",
+      "squadNumber": 16,
+      "name": "Alloysius Agu",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-1994-victor_ikpeba",
+      "identityId": "P-25715",
+      "squadNumber": 17,
+      "name": "Victor Ikpeba",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-1994-efan_ekoku",
+      "identityId": "P-95888",
+      "squadNumber": 18,
+      "name": "Efan Ekoku",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-1994-michael_emenalo",
+      "identityId": "P-74911",
+      "squadNumber": 19,
+      "name": "Michael Emenalo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "nigeria-1994-uche_okafor",
+      "identityId": "P-34180",
+      "squadNumber": 20,
+      "name": "Uche Okafor",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "nigeria-1994-mutiu_adepoju",
+      "identityId": "P-56969",
+      "squadNumber": 21,
+      "name": "Mutiu Adepoju",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "nigeria-1994-wilfred_agbonavbare",
+      "identityId": "P-77276",
+      "squadNumber": 22,
+      "name": "Wilfred Agbonavbare",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1994 World Cup performance for Nigeria (Round of 16). Squad reserve member."
+    }
+  ]
+}

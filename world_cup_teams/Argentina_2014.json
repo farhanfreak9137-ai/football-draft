@@ -1,0 +1,521 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 88,
+  "players": [
+    {
+      "id": "argentina-2014-sergio_romero",
+      "identityId": "P-60541",
+      "squadNumber": 1,
+      "name": "Sergio Romero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-2014-ezequiel_garay",
+      "identityId": "P-61051",
+      "squadNumber": 2,
+      "name": "Ezequiel Garay",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-2014-hugo_campagnaro",
+      "identityId": "P-69606",
+      "squadNumber": 3,
+      "name": "Hugo Campagnaro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2014 World Cup performance for Argentina (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2014-pablo_zabaleta",
+      "identityId": "P-96639",
+      "squadNumber": 4,
+      "name": "Pablo Zabaleta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-2014-fernando_gago",
+      "identityId": "P-51894",
+      "squadNumber": 5,
+      "name": "Fernando Gago",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2014-lucas_biglia",
+      "identityId": "P-38647",
+      "squadNumber": 6,
+      "name": "Lucas Biglia",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2014-_ngel_di_mar_a",
+      "identityId": "P-42113",
+      "squadNumber": 7,
+      "name": "Ángel Di María",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2014-enzo_p_rez",
+      "identityId": "P-69019",
+      "squadNumber": 8,
+      "name": "Enzo Pérez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2014 World Cup performance for Argentina (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2014-gonzalo_higua_n",
+      "identityId": "P-29398",
+      "squadNumber": 9,
+      "name": "Gonzalo Higuaín",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2014-lionel_messi",
+      "identityId": "P-14758",
+      "squadNumber": 10,
+      "name": "Lionel Messi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2014 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es). Scored 4 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "argentina-2014-maxi_rodr_guez",
+      "identityId": "P-33570",
+      "squadNumber": 11,
+      "name": "Maxi Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2014 World Cup performance for Argentina (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2014-agust_n_ori_n",
+      "identityId": "P-86028",
+      "squadNumber": 12,
+      "name": "Agustín Orión",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Argentina (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "argentina-2014-augusto_fern_ndez",
+      "identityId": "P-29672",
+      "squadNumber": 13,
+      "name": "Augusto Fernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Argentina (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "argentina-2014-javier_mascherano",
+      "identityId": "P-77063",
+      "squadNumber": 14,
+      "name": "Javier Mascherano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-2014-mart_n_demichelis",
+      "identityId": "P-39810",
+      "squadNumber": 15,
+      "name": "Martín Demichelis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2014-marcos_rojo",
+      "identityId": "P-18222",
+      "squadNumber": 16,
+      "name": "Marcos Rojo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2014-federico_fern_ndez",
+      "identityId": "P-72244",
+      "squadNumber": 17,
+      "name": "Federico Fernández",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2014-rodrigo_palacio",
+      "identityId": "P-27419",
+      "squadNumber": 18,
+      "name": "Rodrigo Palacio",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Argentina (Runners-up). Substitute rotation option (5 sub app)."
+    },
+    {
+      "id": "argentina-2014-ricky_lvarez",
+      "identityId": "P-58741",
+      "squadNumber": 19,
+      "name": "Ricky Álvarez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 2014 World Cup performance for Argentina (Runners-up). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2014-sergio_ag_ero",
+      "identityId": "P-36870",
+      "squadNumber": 20,
+      "name": "Sergio Agüero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2014-mariano_and_jar",
+      "identityId": "P-55451",
+      "squadNumber": 21,
+      "name": "Mariano Andújar",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Argentina (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "argentina-2014-ezequiel_lavezzi",
+      "identityId": "P-69953",
+      "squadNumber": 22,
+      "name": "Ezequiel Lavezzi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2014 World Cup performance for Argentina (Runners-up). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2014-jos_mar_a_basanta",
+      "identityId": "P-38424",
+      "squadNumber": 23,
+      "name": "José María Basanta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2014 World Cup performance for Argentina (Runners-up). Starting lineup contributor (1 starts)."
+    }
+  ]
+}

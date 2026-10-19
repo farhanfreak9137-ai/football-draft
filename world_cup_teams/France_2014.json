@@ -1,0 +1,516 @@
+{
+  "teamName": "France",
+  "teamCode": "FRA",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "france-2014-hugo_lloris",
+      "identityId": "P-30711",
+      "squadNumber": 1,
+      "name": "Hugo Lloris",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "france-2014-mathieu_debuchy",
+      "identityId": "P-43350",
+      "squadNumber": 2,
+      "name": "Mathieu Debuchy",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-2014-patrice_evra",
+      "identityId": "P-72916",
+      "squadNumber": 3,
+      "name": "Patrice Evra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-2014-rapha_l_varane",
+      "identityId": "P-42326",
+      "squadNumber": 4,
+      "name": "Raphaël Varane",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-2014-mamadou_sakho",
+      "identityId": "P-71633",
+      "squadNumber": 5,
+      "name": "Mamadou Sakho",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-2014-yohan_cabaye",
+      "identityId": "P-67867",
+      "squadNumber": 6,
+      "name": "Yohan Cabaye",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "france-2014-r_my_cabella",
+      "identityId": "P-79882",
+      "squadNumber": 7,
+      "name": "Rémy Cabella",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "france-2014-mathieu_valbuena",
+      "identityId": "P-84312",
+      "squadNumber": 8,
+      "name": "Mathieu Valbuena",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2014-olivier_giroud",
+      "identityId": "P-89750",
+      "squadNumber": 9,
+      "name": "Olivier Giroud",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2014-karim_benzema",
+      "identityId": "P-35408",
+      "squadNumber": 10,
+      "name": "Karim Benzema",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "france-2014-antoine_griezmann",
+      "identityId": "P-90908",
+      "squadNumber": 11,
+      "name": "Antoine Griezmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "france-2014-rio_mavuba",
+      "identityId": "P-98143",
+      "squadNumber": 12,
+      "name": "Rio Mavuba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "france-2014-eliaquim_mangala",
+      "identityId": "P-08834",
+      "squadNumber": 13,
+      "name": "Eliaquim Mangala",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "france-2014-blaise_matuidi",
+      "identityId": "P-04964",
+      "squadNumber": 14,
+      "name": "Blaise Matuidi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2014-bacary_sagna",
+      "identityId": "P-69530",
+      "squadNumber": 15,
+      "name": "Bacary Sagna",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2014-st_phane_ruffier",
+      "identityId": "P-01560",
+      "squadNumber": 16,
+      "name": "Stéphane Ruffier",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "france-2014-lucas_digne",
+      "identityId": "P-67129",
+      "squadNumber": 17,
+      "name": "Lucas Digne",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2014-moussa_sissoko",
+      "identityId": "P-07870",
+      "squadNumber": 18,
+      "name": "Moussa Sissoko",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "france-2014-paul_pogba",
+      "identityId": "P-17509",
+      "squadNumber": 19,
+      "name": "Paul Pogba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "france-2014-lo_c_r_my",
+      "identityId": "P-21776",
+      "squadNumber": 20,
+      "name": "Loïc Rémy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "france-2014-laurent_koscielny",
+      "identityId": "P-91114",
+      "squadNumber": 21,
+      "name": "Laurent Koscielny",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "france-2014-morgan_schneiderlin",
+      "identityId": "P-45182",
+      "squadNumber": 22,
+      "name": "Morgan Schneiderlin",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "france-2014-micka_l_landreau",
+      "identityId": "P-30652",
+      "squadNumber": 23,
+      "name": "Mickaël Landreau",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for France (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

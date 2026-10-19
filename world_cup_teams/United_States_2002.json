@@ -1,0 +1,518 @@
+{
+  "teamName": "United States",
+  "teamCode": "USA",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "united_states-2002-brad_friedel",
+      "identityId": "P-76191",
+      "squadNumber": 1,
+      "name": "Brad Friedel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "united_states-2002-frankie_hejduk",
+      "identityId": "P-34695",
+      "squadNumber": 2,
+      "name": "Frankie Hejduk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2002-gregg_berhalter",
+      "identityId": "P-09888",
+      "squadNumber": 3,
+      "name": "Gregg Berhalter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2002-pablo_mastroeni",
+      "identityId": "P-58649",
+      "squadNumber": 4,
+      "name": "Pablo Mastroeni",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2002-john_obrien",
+      "identityId": "P-88043",
+      "squadNumber": 5,
+      "name": "John O'Brien",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2002-david_regis",
+      "identityId": "P-68379",
+      "squadNumber": 6,
+      "name": "David Regis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "united_states-2002-eddie_lewis",
+      "identityId": "P-97784",
+      "squadNumber": 7,
+      "name": "Eddie Lewis",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2002-earnie_stewart",
+      "identityId": "P-96178",
+      "squadNumber": 8,
+      "name": "Earnie Stewart",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2002-joe-max_moore",
+      "identityId": "P-86464",
+      "squadNumber": 9,
+      "name": "Joe-Max Moore",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2002-claudio_reyna",
+      "identityId": "P-97459",
+      "squadNumber": 10,
+      "name": "Claudio Reyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "united_states-2002-clint_mathis",
+      "identityId": "P-38074",
+      "squadNumber": 11,
+      "name": "Clint Mathis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "united_states-2002-jeff_agoos",
+      "identityId": "P-72797",
+      "squadNumber": 12,
+      "name": "Jeff Agoos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "united_states-2002-cobi_jones",
+      "identityId": "P-49258",
+      "squadNumber": 13,
+      "name": "Cobi Jones",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "united_states-2002-steve_cherundolo",
+      "identityId": "P-77238",
+      "squadNumber": 14,
+      "name": "Steve Cherundolo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "united_states-2002-josh_wolff",
+      "identityId": "P-78068",
+      "squadNumber": 15,
+      "name": "Josh Wolff",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "united_states-2002-carlos_llamosa",
+      "identityId": "P-49219",
+      "squadNumber": 16,
+      "name": "Carlos Llamosa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "united_states-2002-damarcus_beasley",
+      "identityId": "P-91976",
+      "squadNumber": 17,
+      "name": "DaMarcus Beasley",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "united_states-2002-kasey_keller",
+      "identityId": "P-07553",
+      "squadNumber": 18,
+      "name": "Kasey Keller",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "united_states-2002-tony_meola",
+      "identityId": "P-43736",
+      "squadNumber": 19,
+      "name": "Tony Meola",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "united_states-2002-brian_mcbride",
+      "identityId": "P-60597",
+      "squadNumber": 20,
+      "name": "Brian McBride",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "united_states-2002-landon_donovan",
+      "identityId": "P-05728",
+      "squadNumber": 21,
+      "name": "Landon Donovan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "united_states-2002-tony_sanneh",
+      "identityId": "P-92064",
+      "squadNumber": 22,
+      "name": "Tony Sanneh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "united_states-2002-eddie_pope",
+      "identityId": "P-02842",
+      "squadNumber": 23,
+      "name": "Eddie Pope",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2002 World Cup performance for United States (Quarter-Finalists). Main pillar starting 5 match(es)."
+    }
+  ]
+}

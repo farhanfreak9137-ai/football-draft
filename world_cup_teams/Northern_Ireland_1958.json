@@ -1,0 +1,496 @@
+{
+  "teamName": "Northern Ireland",
+  "teamCode": "NIR",
+  "year": 1958,
+  "tournament": "1958 FIFA Men's World Cup",
+  "hostCountry": "Sweden",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "northern_ireland-1958-harry_gregg",
+      "identityId": "P-82415",
+      "squadNumber": 1,
+      "name": "Harry Gregg",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-willie_cunningham",
+      "identityId": "P-82190",
+      "squadNumber": 2,
+      "name": "Willie Cunningham",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-alf_mcmichael",
+      "identityId": "P-03683",
+      "squadNumber": 3,
+      "name": "Alf McMichael",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-danny_blanchflower",
+      "identityId": "P-13513",
+      "squadNumber": 4,
+      "name": "Danny Blanchflower",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-dick_keith",
+      "identityId": "P-56108",
+      "squadNumber": 5,
+      "name": "Dick Keith",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-bertie_peacock",
+      "identityId": "P-41288",
+      "squadNumber": 6,
+      "name": "Bertie Peacock",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-billy_bingham",
+      "identityId": "P-12780",
+      "squadNumber": 7,
+      "name": "Billy Bingham",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-wilbur_cush",
+      "identityId": "P-36975",
+      "squadNumber": 8,
+      "name": "Wilbur Cush",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "northern_ireland-1958-billy_simpson",
+      "identityId": "P-79456",
+      "squadNumber": 9,
+      "name": "Billy Simpson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-jimmy_mcilroy",
+      "identityId": "P-89933",
+      "squadNumber": 10,
+      "name": "Jimmy McIlroy",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "northern_ireland-1958-peter_mcparland",
+      "identityId": "P-77851",
+      "squadNumber": 11,
+      "name": "Peter McParland",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Tournament standout and starting pillar. Scored 5 goal(s)."
+    },
+    {
+      "id": "northern_ireland-1958-norman_uprichard",
+      "identityId": "P-66051",
+      "squadNumber": 12,
+      "name": "Norman Uprichard",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-tommy_casey",
+      "identityId": "P-87116",
+      "squadNumber": 13,
+      "name": "Tommy Casey",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-jackie_scott",
+      "identityId": "P-81010",
+      "squadNumber": 14,
+      "name": "Jackie Scott",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-sammy_mccrory",
+      "identityId": "P-28578",
+      "squadNumber": 15,
+      "name": "Sammy McCrory",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-derek_dougan",
+      "identityId": "P-15853",
+      "squadNumber": 16,
+      "name": "Derek Dougan",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-fay_coyle",
+      "identityId": "P-20825",
+      "squadNumber": 17,
+      "name": "Fay Coyle",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-roy_rea",
+      "identityId": "P-33683",
+      "squadNumber": 18,
+      "name": "Roy Rea",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-len_graham",
+      "identityId": "P-87420",
+      "squadNumber": 19,
+      "name": "Len Graham",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-sammy_chapman",
+      "identityId": "P-82907",
+      "squadNumber": 20,
+      "name": "Sammy Chapman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-tommy_hamill",
+      "identityId": "P-87803",
+      "squadNumber": 21,
+      "name": "Tommy Hamill",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "northern_ireland-1958-bobby_trainor",
+      "identityId": "P-72502",
+      "squadNumber": 22,
+      "name": "Bobby Trainor",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1958 World Cup performance for Northern Ireland (Group Stage). Squad reserve member."
+    }
+  ]
+}

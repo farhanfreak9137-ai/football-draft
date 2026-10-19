@@ -1,0 +1,520 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 2010,
+  "tournament": "2010 FIFA Men's World Cup",
+  "hostCountry": "South Africa",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 90,
+  "players": [
+    {
+      "id": "spain-2010-iker_casillas",
+      "identityId": "P-61793",
+      "squadNumber": 1,
+      "name": "Iker Casillas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2010 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "spain-2010-ra_l_albiol",
+      "identityId": "P-24647",
+      "squadNumber": 2,
+      "name": "Raúl Albiol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Spain (Champions). Squad reserve member."
+    },
+    {
+      "id": "spain-2010-gerard_piqu_",
+      "identityId": "P-64348",
+      "squadNumber": 3,
+      "name": "Gerard Piqué",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "spain-2010-carlos_marchena",
+      "identityId": "P-15314",
+      "squadNumber": 4,
+      "name": "Carlos Marchena",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Spain (Champions). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "spain-2010-carles_puyol",
+      "identityId": "P-51089",
+      "squadNumber": 5,
+      "name": "Carles Puyol",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-2010-andr_s_iniesta",
+      "identityId": "P-56330",
+      "squadNumber": 6,
+      "name": "Andrés Iniesta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 6 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "spain-2010-david_villa",
+      "identityId": "P-49097",
+      "squadNumber": 7,
+      "name": "David Villa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Bronze Ball",
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2010 FIFA World Cup Bronze Ball Winner",
+      "ratingRationale": "Rated 98 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Bronze Ball, Silver Boot."
+    },
+    {
+      "id": "spain-2010-xavi",
+      "identityId": "P-29415",
+      "squadNumber": 8,
+      "name": "Xavi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "spain-2010-fernando_torres",
+      "identityId": "P-71661",
+      "squadNumber": 9,
+      "name": "Fernando Torres",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-2010-cesc_f_bregas",
+      "identityId": "P-81297",
+      "squadNumber": 10,
+      "name": "Cesc Fàbregas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Spain (Champions). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "spain-2010-joan_capdevila",
+      "identityId": "P-47753",
+      "squadNumber": 11,
+      "name": "Joan Capdevila",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "spain-2010-v_ctor_vald_s",
+      "identityId": "P-51931",
+      "squadNumber": 12,
+      "name": "Víctor Valdés",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Spain (Champions). Squad reserve member."
+    },
+    {
+      "id": "spain-2010-juan_mata",
+      "identityId": "P-47597",
+      "squadNumber": 13,
+      "name": "Juan Mata",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Spain (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-2010-xabi_alonso",
+      "identityId": "P-73924",
+      "squadNumber": 14,
+      "name": "Xabi Alonso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "spain-2010-sergio_ramos",
+      "identityId": "P-89177",
+      "squadNumber": 15,
+      "name": "Sergio Ramos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "spain-2010-sergio_busquets",
+      "identityId": "P-28010",
+      "squadNumber": 16,
+      "name": "Sergio Busquets",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2010 World Cup performance for Spain (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "spain-2010-_lvaro_arbeloa",
+      "identityId": "P-94275",
+      "squadNumber": 17,
+      "name": "Álvaro Arbeloa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Spain (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "spain-2010-pedro",
+      "identityId": "P-78418",
+      "squadNumber": 18,
+      "name": "Pedro",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Spain (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-2010-fernando_llorente",
+      "identityId": "P-38283",
+      "squadNumber": 19,
+      "name": "Fernando Llorente",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Spain (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-2010-javi_mart_nez",
+      "identityId": "P-05758",
+      "squadNumber": 20,
+      "name": "Javi Martínez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2010 World Cup performance for Spain (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-2010-david_silva",
+      "identityId": "P-64102",
+      "squadNumber": 21,
+      "name": "David Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Spain (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2010-jes_s_navas",
+      "identityId": "P-69284",
+      "squadNumber": 22,
+      "name": "Jesús Navas",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2010 World Cup performance for Spain (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-2010-pepe_reina",
+      "identityId": "P-44334",
+      "squadNumber": 23,
+      "name": "Pepe Reina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2010 World Cup performance for Spain (Champions). Squad reserve member."
+    }
+  ]
+}

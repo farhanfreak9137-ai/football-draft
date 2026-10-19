@@ -1,0 +1,501 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1950,
+  "tournament": "1950 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Fourth Place",
+  "finalPosition": 4,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "spain-1950-juan_acu_a",
+      "identityId": "P-79480",
+      "squadNumber": 1,
+      "name": "Juan Acuña",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-gabriel_alonso",
+      "identityId": "P-80682",
+      "squadNumber": 2,
+      "name": "Gabriel Alonso",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-francisco_ant_nez",
+      "identityId": "P-49542",
+      "squadNumber": 3,
+      "name": "Francisco Antúnez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-vicente_asensi",
+      "identityId": "P-67172",
+      "squadNumber": 4,
+      "name": "Vicente Asensi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-estanislau_basora",
+      "identityId": "P-26928",
+      "squadNumber": 5,
+      "name": "Estanislau Basora",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1950 World Cup performance for Spain (Fourth Place). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot."
+    },
+    {
+      "id": "spain-1950-c_sar",
+      "identityId": "P-20802",
+      "squadNumber": 6,
+      "name": "César",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-ignacio_eizaguirre",
+      "identityId": "P-57117",
+      "squadNumber": 7,
+      "name": "Ignacio Eizaguirre",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-agust_n_ga_nza",
+      "identityId": "P-92865",
+      "squadNumber": 8,
+      "name": "Agustín Gaínza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-josep_gonzalvo",
+      "identityId": "P-48908",
+      "squadNumber": 9,
+      "name": "Josep Gonzalvo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-mari_gonzalvo",
+      "identityId": "P-69140",
+      "squadNumber": 10,
+      "name": "Marià Gonzalvo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-rosendo_hern_ndez",
+      "identityId": "P-72035",
+      "squadNumber": 11,
+      "name": "Rosendo Hernández",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1950 World Cup performance for Spain (Fourth Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "spain-1950-silvestre_igoa",
+      "identityId": "P-24336",
+      "squadNumber": 12,
+      "name": "Silvestre Igoa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1950 World Cup performance for Spain (Fourth Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "spain-1950-jos_juncosa",
+      "identityId": "P-28347",
+      "squadNumber": 13,
+      "name": "José Juncosa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-rafael_lesmes",
+      "identityId": "P-57993",
+      "squadNumber": 14,
+      "name": "Rafael Lesmes",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-luis_molowny",
+      "identityId": "P-46247",
+      "squadNumber": 15,
+      "name": "Luis Molowny",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-nando",
+      "identityId": "P-07639",
+      "squadNumber": 16,
+      "name": "Nando",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-jos_luis_panizo",
+      "identityId": "P-23492",
+      "squadNumber": 17,
+      "name": "José Luis Panizo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-jos_parra",
+      "identityId": "P-33693",
+      "squadNumber": 18,
+      "name": "José Parra",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-antonio_puchades",
+      "identityId": "P-82311",
+      "squadNumber": 19,
+      "name": "Antonio Puchades",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-antoni_ramallets",
+      "identityId": "P-72288",
+      "squadNumber": 20,
+      "name": "Antoni Ramallets",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-alfonso_silva",
+      "identityId": "P-25911",
+      "squadNumber": 21,
+      "name": "Alfonso Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1950 World Cup performance for Spain (Fourth Place). Squad reserve member."
+    },
+    {
+      "id": "spain-1950-telmo_zarra",
+      "identityId": "P-65220",
+      "squadNumber": 22,
+      "name": "Telmo Zarra",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 92,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 World Cup Top Spanish Scorer (4 Goals)",
+      "ratingRationale": "Rated 92 OVR based on 1950 World Cup performance for Spain (Fourth Place). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot."
+    }
+  ]
+}

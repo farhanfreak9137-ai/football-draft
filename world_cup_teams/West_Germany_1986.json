@@ -1,0 +1,494 @@
+{
+  "teamName": "West Germany",
+  "teamCode": "DEU",
+  "year": 1986,
+  "tournament": "1986 FIFA Men's World Cup",
+  "hostCountry": "Mexico",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 87,
+  "players": [
+    {
+      "id": "west_germany-1986-harald_schumacher",
+      "identityId": "P-07171",
+      "squadNumber": 1,
+      "name": "Harald Schumacher",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1986 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 94 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es). Honors: Silver Ball."
+    },
+    {
+      "id": "west_germany-1986-hans-peter_briegel",
+      "identityId": "P-79689",
+      "squadNumber": 2,
+      "name": "Hans-Peter Briegel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1986-andreas_brehme",
+      "identityId": "P-67713",
+      "squadNumber": 3,
+      "name": "Andreas Brehme",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1986-karlheinz_f_rster",
+      "identityId": "P-27251",
+      "squadNumber": 4,
+      "name": "Karlheinz Förster",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1986-matthias_herget",
+      "identityId": "P-66165",
+      "squadNumber": 5,
+      "name": "Matthias Herget",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for West Germany (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1986-norbert_eder",
+      "identityId": "P-36201",
+      "squadNumber": 6,
+      "name": "Norbert Eder",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "west_germany-1986-pierre_littbarski",
+      "identityId": "P-89975",
+      "squadNumber": 7,
+      "name": "Pierre Littbarski",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for West Germany (Runners-up). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "west_germany-1986-lothar_matth_us",
+      "identityId": "P-49502",
+      "squadNumber": 8,
+      "name": "Lothar Matthäus",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1986-rudi_v_ller",
+      "identityId": "P-04572",
+      "squadNumber": 9,
+      "name": "Rudi Völler",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 4 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "west_germany-1986-felix_magath",
+      "identityId": "P-79344",
+      "squadNumber": 10,
+      "name": "Felix Magath",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1986-karl-heinz_rummenigge",
+      "identityId": "P-59574",
+      "squadNumber": 11,
+      "name": "Karl-Heinz Rummenigge",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "west_germany-1986-uli_stein",
+      "identityId": "P-71616",
+      "squadNumber": 12,
+      "name": "Uli Stein",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1986-karl_allg_wer",
+      "identityId": "P-65532",
+      "squadNumber": 13,
+      "name": "Karl Allgöwer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1986-thomas_berthold",
+      "identityId": "P-59388",
+      "squadNumber": 14,
+      "name": "Thomas Berthold",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "west_germany-1986-klaus_augenthaler",
+      "identityId": "P-23204",
+      "squadNumber": 15,
+      "name": "Klaus Augenthaler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for West Germany (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1986-olaf_thon",
+      "identityId": "P-45408",
+      "squadNumber": 16,
+      "name": "Olaf Thon",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1986-ditmar_jakobs",
+      "identityId": "P-91180",
+      "squadNumber": 17,
+      "name": "Ditmar Jakobs",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "west_germany-1986-uwe_rahn",
+      "identityId": "P-93701",
+      "squadNumber": 18,
+      "name": "Uwe Rahn",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "west_germany-1986-klaus_allofs",
+      "identityId": "P-95392",
+      "squadNumber": 19,
+      "name": "Klaus Allofs",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1986 World Cup performance for West Germany (Runners-up). Main pillar starting 7 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "west_germany-1986-dieter_hoene_",
+      "identityId": "P-27194",
+      "squadNumber": 20,
+      "name": "Dieter Hoeneß",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1986 World Cup performance for West Germany (Runners-up). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "west_germany-1986-wolfgang_rolff",
+      "identityId": "P-96946",
+      "squadNumber": 21,
+      "name": "Wolfgang Rolff",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1986 World Cup performance for West Germany (Runners-up). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "west_germany-1986-eike_immel",
+      "identityId": "P-84364",
+      "squadNumber": 22,
+      "name": "Eike Immel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1986 World Cup performance for West Germany (Runners-up). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "teamName": "United States",
+  "teamCode": "UNI",
+  "year": 2026,
+  "tournament": "2026 FIFA Men's World Cup",
+  "hostCountry": "United States, Canada, Mexico",
+  "achievement": "2026 World Cup Squad",
+  "finalPosition": null,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 23,
+  "averageOvr": 81,
+  "players": [
+    {
+      "id": "united_states-2026-matt_turner",
+      "identityId": "identity-2026-matt_turner",
+      "squadNumber": 1,
+      "name": "Matt Turner",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-sergi_o_dest",
+      "identityId": "identity-2026-sergi_o_dest",
+      "squadNumber": 2,
+      "name": "Sergiño Dest",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "RWB",
+        "LB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-chris_richards",
+      "identityId": "identity-2026-chris_richards",
+      "squadNumber": 3,
+      "name": "Chris Richards",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-tyler_adams",
+      "identityId": "identity-2026-tyler_adams",
+      "squadNumber": 4,
+      "name": "Tyler Adams",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-antonee_robinson",
+      "identityId": "identity-2026-antonee_robinson",
+      "squadNumber": 5,
+      "name": "Antonee Robinson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "LWB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with United States. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "united_states-2026-yunus_musah",
+      "identityId": "identity-2026-yunus_musah",
+      "squadNumber": 6,
+      "name": "Yunus Musah",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "RM"
+      ],
+      "ovr": 81,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-giovanni_reyna",
+      "identityId": "identity-2026-giovanni_reyna",
+      "squadNumber": 7,
+      "name": "Giovanni Reyna",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 82,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-weston_mckennie",
+      "identityId": "identity-2026-weston_mckennie",
+      "squadNumber": 8,
+      "name": "Weston McKennie",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "RM"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR for 2026 World Cup form with United States. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "united_states-2026-folarin_balogun",
+      "identityId": "identity-2026-folarin_balogun",
+      "squadNumber": 9,
+      "name": "Folarin Balogun",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-christian_pulisic",
+      "identityId": "identity-2026-christian_pulisic",
+      "squadNumber": 10,
+      "name": "Christian Pulisic",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW",
+        "RW"
+      ],
+      "secondaryPositions": [
+        "AM",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Captain & Leader of 2026 Co-Host Nation"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "Captain & Leader of 2026 Co-Host Nation",
+      "ratingRationale": "Rated 88 OVR for 2026 World Cup form with United States. Undisputed leader and regular starting XI pillar."
+    },
+    {
+      "id": "united_states-2026-timothy_weah",
+      "identityId": "identity-2026-timothy_weah",
+      "squadNumber": 11,
+      "name": "Timothy Weah",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "RM",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR for 2026 World Cup form with United States. Regular starting lineup selection."
+    },
+    {
+      "id": "united_states-2026-miles_robinson",
+      "identityId": "identity-2026-miles_robinson",
+      "squadNumber": 12,
+      "name": "Miles Robinson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-tim_ream",
+      "identityId": "identity-2026-tim_ream",
+      "squadNumber": 13,
+      "name": "Tim Ream",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB"
+      ],
+      "ovr": 78,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-luca_de_la_torre",
+      "identityId": "identity-2026-luca_de_la_torre",
+      "squadNumber": 14,
+      "name": "Luca de la Torre",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-johnny_cardoso",
+      "identityId": "identity-2026-johnny_cardoso",
+      "squadNumber": 15,
+      "name": "Johnny Cardoso",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-brendan_aaronson",
+      "identityId": "identity-2026-brendan_aaronson",
+      "squadNumber": 16,
+      "name": "Brendan Aaronson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "LW"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-malik_tillman",
+      "identityId": "identity-2026-malik_tillman",
+      "squadNumber": 17,
+      "name": "Malik Tillman",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "CM"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-ethan_horvath",
+      "identityId": "identity-2026-ethan_horvath",
+      "squadNumber": 18,
+      "name": "Ethan Horvath",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with United States. National squad reserve depth."
+    },
+    {
+      "id": "united_states-2026-haji_wright",
+      "identityId": "identity-2026-haji_wright",
+      "squadNumber": 19,
+      "name": "Haji Wright",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "LW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-cameron_carter-vickers",
+      "identityId": "identity-2026-cameron_carter-vickers",
+      "squadNumber": 20,
+      "name": "Cameron Carter-Vickers",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-ricardo_pepi",
+      "identityId": "identity-2026-ricardo_pepi",
+      "squadNumber": 21,
+      "name": "Ricardo Pepi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-joe_scally",
+      "identityId": "identity-2026-joe_scally",
+      "squadNumber": 22,
+      "name": "Joe Scally",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "CB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR for 2026 World Cup form with United States. Frequent tactical rotation contributor."
+    },
+    {
+      "id": "united_states-2026-patrick_schulte",
+      "identityId": "identity-2026-patrick_schulte",
+      "squadNumber": 23,
+      "name": "Patrick Schulte",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 76,
+      "role": "Reserve Squad",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 76 OVR for 2026 World Cup form with United States. National squad reserve depth."
+    }
+  ]
+}

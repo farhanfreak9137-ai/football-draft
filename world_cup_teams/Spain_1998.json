@@ -1,0 +1,490 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 77,
+  "players": [
+    {
+      "id": "spain-1998-andoni_zubizarreta",
+      "identityId": "P-63214",
+      "squadNumber": 1,
+      "name": "Andoni Zubizarreta",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1998-albert_ferrer",
+      "identityId": "P-59647",
+      "squadNumber": 2,
+      "name": "Albert Ferrer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1998-agust_n_aranz_bal",
+      "identityId": "P-60583",
+      "squadNumber": 3,
+      "name": "Agustín Aranzábal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1998-rafael_alkorta",
+      "identityId": "P-76590",
+      "squadNumber": 4,
+      "name": "Rafael Alkorta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1998-abelardo",
+      "identityId": "P-24945",
+      "squadNumber": 5,
+      "name": "Abelardo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1998-fernando_hierro",
+      "identityId": "P-35246",
+      "squadNumber": 6,
+      "name": "Fernando Hierro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "spain-1998-fernando_morientes",
+      "identityId": "P-08514",
+      "squadNumber": 7,
+      "name": "Fernando Morientes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts). Scored 2 goal(s)."
+    },
+    {
+      "id": "spain-1998-julen_guerrero",
+      "identityId": "P-60964",
+      "squadNumber": 8,
+      "name": "Julen Guerrero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Spain (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1998-juan_antonio_pizzi",
+      "identityId": "P-75598",
+      "squadNumber": 9,
+      "name": "Juan Antonio Pizzi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1998-ra_l",
+      "identityId": "P-24556",
+      "squadNumber": 10,
+      "name": "Raúl",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1998-alfonso",
+      "identityId": "P-00034",
+      "squadNumber": 11,
+      "name": "Alfonso",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1998-sergi",
+      "identityId": "P-96053",
+      "squadNumber": 12,
+      "name": "Sergi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1998 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "spain-1998-santiago_ca_izares",
+      "identityId": "P-16059",
+      "squadNumber": 13,
+      "name": "Santiago Cañizares",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Spain (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "spain-1998-iv_n_campo",
+      "identityId": "P-22620",
+      "squadNumber": 14,
+      "name": "Iván Campo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1998-carlos_aguilera",
+      "identityId": "P-08700",
+      "squadNumber": 15,
+      "name": "Carlos Aguilera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1998-albert_celades",
+      "identityId": "P-08262",
+      "squadNumber": 16,
+      "name": "Albert Celades",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1998 World Cup performance for Spain (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "spain-1998-joseba_etxeberria",
+      "identityId": "P-93745",
+      "squadNumber": 17,
+      "name": "Joseba Etxeberria",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1998-guillermo_amor",
+      "identityId": "P-61706",
+      "squadNumber": 18,
+      "name": "Guillermo Amor",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1998-kiko",
+      "identityId": "P-64962",
+      "squadNumber": 19,
+      "name": "Kiko",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1998-miguel_ngel_nadal",
+      "identityId": "P-03307",
+      "squadNumber": 20,
+      "name": "Miguel Ángel Nadal",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1998 World Cup performance for Spain (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "spain-1998-luis_enrique",
+      "identityId": "P-38878",
+      "squadNumber": 21,
+      "name": "Luis Enrique",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1998 World Cup performance for Spain (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1998-jos_molina",
+      "identityId": "P-57289",
+      "squadNumber": 22,
+      "name": "José Molina",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1998 World Cup performance for Spain (Group Stage). Squad reserve member."
+    }
+  ]
+}

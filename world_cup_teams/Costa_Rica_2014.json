@@ -1,0 +1,517 @@
+{
+  "teamName": "Costa Rica",
+  "teamCode": "CRI",
+  "year": 2014,
+  "tournament": "2014 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "4-2-3-1",
+  "squadSize": 23,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "costa_rica-2014-keylor_navas",
+      "identityId": "P-81392",
+      "squadNumber": 1,
+      "name": "Keylor Navas",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-jhonny_acosta",
+      "identityId": "P-65320",
+      "squadNumber": 2,
+      "name": "Jhonny Acosta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2014-giancarlo_gonz_lez",
+      "identityId": "P-04808",
+      "squadNumber": 3,
+      "name": "Giancarlo González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-michael_uma_a",
+      "identityId": "P-52458",
+      "squadNumber": 4,
+      "name": "Michael Umaña",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-celso_borges",
+      "identityId": "P-11767",
+      "squadNumber": 5,
+      "name": "Celso Borges",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-_scar_duarte",
+      "identityId": "P-97912",
+      "squadNumber": 6,
+      "name": "Óscar Duarte",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2014-christian_bola_os",
+      "identityId": "P-57722",
+      "squadNumber": 7,
+      "name": "Christian Bolaños",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-david_myrie",
+      "identityId": "P-39550",
+      "squadNumber": 8,
+      "name": "David Myrie",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "costa_rica-2014-joel_campbell",
+      "identityId": "P-70812",
+      "squadNumber": 9,
+      "name": "Joel Campbell",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2014-bryan_ruiz",
+      "identityId": "P-99590",
+      "squadNumber": 10,
+      "name": "Bryan Ruiz",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "costa_rica-2014-michael_barrantes",
+      "identityId": "P-74906",
+      "squadNumber": 11,
+      "name": "Michael Barrantes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "costa_rica-2014-waylon_francis",
+      "identityId": "P-24906",
+      "squadNumber": 12,
+      "name": "Waylon Francis",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2014-_scar_granados",
+      "identityId": "P-85499",
+      "squadNumber": 13,
+      "name": "Óscar Granados",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2014-randall_brenes",
+      "identityId": "P-21246",
+      "squadNumber": 14,
+      "name": "Randall Brenes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2014-j_nior_d_az",
+      "identityId": "P-81779",
+      "squadNumber": 15,
+      "name": "Júnior Díaz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-cristian_gamboa",
+      "identityId": "P-26483",
+      "squadNumber": 16,
+      "name": "Cristian Gamboa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-yeltsin_tejeda",
+      "identityId": "P-24978",
+      "squadNumber": 17,
+      "name": "Yeltsin Tejeda",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "costa_rica-2014-patrick_pemberton",
+      "identityId": "P-88896",
+      "squadNumber": 18,
+      "name": "Patrick Pemberton",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2014-roy_miller",
+      "identityId": "P-88814",
+      "squadNumber": 19,
+      "name": "Roy Miller",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "costa_rica-2014-diego_calvo",
+      "identityId": "P-16119",
+      "squadNumber": 20,
+      "name": "Diego Calvo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "costa_rica-2014-marco_ure_a",
+      "identityId": "P-11307",
+      "squadNumber": 21,
+      "name": "Marco Ureña",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Substitute rotation option (4 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "costa_rica-2014-jos_miguel_cubero",
+      "identityId": "P-71361",
+      "squadNumber": 22,
+      "name": "José Miguel Cubero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "costa_rica-2014-daniel_cambronero",
+      "identityId": "P-51981",
+      "squadNumber": 23,
+      "name": "Daniel Cambronero",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2014 World Cup performance for Costa Rica (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

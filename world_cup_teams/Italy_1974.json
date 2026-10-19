@@ -1,0 +1,494 @@
+{
+  "teamName": "Italy",
+  "teamCode": "ITA",
+  "year": 1974,
+  "tournament": "1974 FIFA Men's World Cup",
+  "hostCountry": "West Germany",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "italy-1974-dino_zoff",
+      "identityId": "P-48831",
+      "squadNumber": 1,
+      "name": "Dino Zoff",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1974-luciano_spinosi",
+      "identityId": "P-39619",
+      "squadNumber": 2,
+      "name": "Luciano Spinosi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1974-giacinto_facchetti",
+      "identityId": "P-68170",
+      "squadNumber": 3,
+      "name": "Giacinto Facchetti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1974-romeo_benetti",
+      "identityId": "P-12030",
+      "squadNumber": 4,
+      "name": "Romeo Benetti",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1974-francesco_morini",
+      "identityId": "P-72137",
+      "squadNumber": 5,
+      "name": "Francesco Morini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1974-tarcisio_burgnich",
+      "identityId": "P-42540",
+      "squadNumber": 6,
+      "name": "Tarcisio Burgnich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1974-sandro_mazzola",
+      "identityId": "P-91195",
+      "squadNumber": 7,
+      "name": "Sandro Mazzola",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "italy-1974-fabio_capello",
+      "identityId": "P-93703",
+      "squadNumber": 8,
+      "name": "Fabio Capello",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1974 World Cup performance for Italy (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1974-giorgio_chinaglia",
+      "identityId": "P-74017",
+      "squadNumber": 9,
+      "name": "Giorgio Chinaglia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-1974-gianni_rivera",
+      "identityId": "P-62214",
+      "squadNumber": 10,
+      "name": "Gianni Rivera",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1974-gigi_riva",
+      "identityId": "P-00119",
+      "squadNumber": 11,
+      "name": "Gigi Riva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "italy-1974-enrico_albertosi",
+      "identityId": "P-73673",
+      "squadNumber": 12,
+      "name": "Enrico Albertosi",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1974-giuseppe_sabadini",
+      "identityId": "P-31389",
+      "squadNumber": 13,
+      "name": "Giuseppe Sabadini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1974-mauro_bellugi",
+      "identityId": "P-83005",
+      "squadNumber": 14,
+      "name": "Mauro Bellugi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1974-giuseppe_wilson",
+      "identityId": "P-97066",
+      "squadNumber": 15,
+      "name": "Giuseppe Wilson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Italy (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "italy-1974-antonio_juliano",
+      "identityId": "P-68792",
+      "squadNumber": 16,
+      "name": "Antonio Juliano",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1974-luciano_re_cecconi",
+      "identityId": "P-58264",
+      "squadNumber": 17,
+      "name": "Luciano Re Cecconi",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1974-franco_causio",
+      "identityId": "P-44349",
+      "squadNumber": 18,
+      "name": "Franco Causio",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1974 World Cup performance for Italy (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "italy-1974-pietro_anastasi",
+      "identityId": "P-32265",
+      "squadNumber": 19,
+      "name": "Pietro Anastasi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1974 World Cup performance for Italy (Group Stage). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "italy-1974-roberto_boninsegna",
+      "identityId": "P-92154",
+      "squadNumber": 20,
+      "name": "Roberto Boninsegna",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 1974 World Cup performance for Italy (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "italy-1974-paolo_pulici",
+      "identityId": "P-29600",
+      "squadNumber": 21,
+      "name": "Paolo Pulici",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "italy-1974-luciano_castellini",
+      "identityId": "P-65172",
+      "squadNumber": 22,
+      "name": "Luciano Castellini",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1974 World Cup performance for Italy (Group Stage). Squad reserve member."
+    }
+  ]
+}

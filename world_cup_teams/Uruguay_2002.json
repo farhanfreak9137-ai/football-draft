@@ -1,0 +1,518 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 76,
+  "players": [
+    {
+      "id": "uruguay-2002-fabi_n_carini",
+      "identityId": "P-91888",
+      "squadNumber": 1,
+      "name": "Fabián Carini",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-gustavo_m_ndez",
+      "identityId": "P-17321",
+      "squadNumber": 2,
+      "name": "Gustavo Méndez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2002-alejandro_lembo",
+      "identityId": "P-31352",
+      "squadNumber": 3,
+      "name": "Alejandro Lembo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2002-paolo_montero",
+      "identityId": "P-38683",
+      "squadNumber": 4,
+      "name": "Paolo Montero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-pablo_garc_a",
+      "identityId": "P-76244",
+      "squadNumber": 5,
+      "name": "Pablo García",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-dar_o_rodr_guez",
+      "identityId": "P-49428",
+      "squadNumber": 6,
+      "name": "Darío Rodríguez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2002-gianni_guigou",
+      "identityId": "P-45056",
+      "squadNumber": 7,
+      "name": "Gianni Guigou",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "uruguay-2002-gustavo_varela",
+      "identityId": "P-41694",
+      "squadNumber": 8,
+      "name": "Gustavo Varela",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-dar_o_silva",
+      "identityId": "P-74863",
+      "squadNumber": 9,
+      "name": "Darío Silva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-fabi_n_oneill",
+      "identityId": "P-30094",
+      "squadNumber": 10,
+      "name": "Fabián O'Neill",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2002-federico_magallanes",
+      "identityId": "P-95938",
+      "squadNumber": 11,
+      "name": "Federico Magallanes",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2002-gustavo_mun_a",
+      "identityId": "P-79836",
+      "squadNumber": 12,
+      "name": "Gustavo Munúa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2002-sebasti_n_abreu",
+      "identityId": "P-64372",
+      "squadNumber": 13,
+      "name": "Sebastián Abreu",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-gonzalo_sorondo",
+      "identityId": "P-03960",
+      "squadNumber": 14,
+      "name": "Gonzalo Sorondo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "uruguay-2002-nicol_s_olivera",
+      "identityId": "P-22489",
+      "squadNumber": 15,
+      "name": "Nicolás Olivera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2002-marcelo_romero",
+      "identityId": "P-03231",
+      "squadNumber": 16,
+      "name": "Marcelo Romero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "uruguay-2002-mario_regueiro",
+      "identityId": "P-46554",
+      "squadNumber": 17,
+      "name": "Mario Regueiro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "uruguay-2002-richard_morales",
+      "identityId": "P-48761",
+      "squadNumber": 18,
+      "name": "Richard Morales",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Substitute rotation option (2 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2002-joe_bizera",
+      "identityId": "P-87205",
+      "squadNumber": 19,
+      "name": "Joe Bizera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-2002-_lvaro_recoba",
+      "identityId": "P-66684",
+      "squadNumber": 20,
+      "name": "Álvaro Recoba",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2002-diego_forl_n",
+      "identityId": "P-86087",
+      "squadNumber": 21,
+      "name": "Diego Forlán",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 75,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Substitute rotation option (1 sub app). Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-2002-gonzalo_de_los_santos",
+      "identityId": "P-97963",
+      "squadNumber": 22,
+      "name": "Gonzalo de los Santos",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 74,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 74 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "uruguay-2002-federico_elduayen",
+      "identityId": "P-54429",
+      "squadNumber": 23,
+      "name": "Federico Elduayen",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 2002 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    }
+  ]
+}

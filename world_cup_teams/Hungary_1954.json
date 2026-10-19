@@ -1,0 +1,500 @@
+{
+  "teamName": "Hungary",
+  "teamCode": "HUN",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Runners-up",
+  "finalPosition": 2,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 86,
+  "players": [
+    {
+      "id": "hungary-1954-gyula_grosics",
+      "identityId": "P-81262",
+      "squadNumber": 1,
+      "name": "Gyula Grosics",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1954 World Cup performance for Hungary (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1954-jen_buz_nszky",
+      "identityId": "P-37134",
+      "squadNumber": 2,
+      "name": "Jenő Buzánszky",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1954 World Cup performance for Hungary (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1954-gyula_l_r_nt",
+      "identityId": "P-40638",
+      "squadNumber": 3,
+      "name": "Gyula Lóránt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1954 World Cup performance for Hungary (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1954-mih_ly_lantos",
+      "identityId": "P-29493",
+      "squadNumber": 4,
+      "name": "Mihály Lantos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Hungary (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "hungary-1954-j_zsef_bozsik",
+      "identityId": "P-70989",
+      "squadNumber": 5,
+      "name": "József Bozsik",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1954 World Cup performance for Hungary (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1954-j_zsef_zakari_s",
+      "identityId": "P-70943",
+      "squadNumber": 6,
+      "name": "József Zakariás",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 87,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 1954 World Cup performance for Hungary (Runners-up). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "hungary-1954-j_zsef_t_th",
+      "identityId": "P-23830",
+      "squadNumber": 7,
+      "name": "József Tóth",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 88,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1954 World Cup performance for Hungary (Runners-up). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "hungary-1954-s_ndor_kocsis",
+      "identityId": "P-07028",
+      "squadNumber": 8,
+      "name": "Sándor Kocsis",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 97,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 11,
+      "awards": [
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1954 FIFA World Cup Golden Boot Winner (11 Goals)",
+      "ratingRationale": "Rated 97 OVR based on 1954 World Cup performance for Hungary (Runners-up). Tournament standout and starting pillar. Scored 11 goal(s). Honors: Golden Boot."
+    },
+    {
+      "id": "hungary-1954-n_ndor_hidegkuti",
+      "identityId": "P-01173",
+      "squadNumber": 9,
+      "name": "Nándor Hidegkuti",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1954 World Cup performance for Hungary (Runners-up). Tournament standout and starting pillar. Scored 4 goal(s)."
+    },
+    {
+      "id": "hungary-1954-ferenc_pusk_s",
+      "identityId": "P-12676",
+      "squadNumber": 10,
+      "name": "Ferenc Puskás",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1954 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 98 OVR based on 1954 World Cup performance for Hungary (Runners-up). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Golden Ball."
+    },
+    {
+      "id": "hungary-1954-zolt_n_czibor",
+      "identityId": "P-93334",
+      "squadNumber": 11,
+      "name": "Zoltán Czibor",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1954 World Cup performance for Hungary (Runners-up). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "hungary-1954-b_la_k_rp_ti",
+      "identityId": "P-48019",
+      "squadNumber": 12,
+      "name": "Béla Kárpáti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-p_l_v_rhidi",
+      "identityId": "P-15295",
+      "squadNumber": 13,
+      "name": "Pál Várhidi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-imre_kov_cs",
+      "identityId": "P-28478",
+      "squadNumber": 14,
+      "name": "Imre Kovács",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-ferenc_szojka",
+      "identityId": "P-44025",
+      "squadNumber": 15,
+      "name": "Ferenc Szojka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-l_szl_budai",
+      "identityId": "P-29822",
+      "squadNumber": 16,
+      "name": "László Budai",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-ferenc_machos",
+      "identityId": "P-97086",
+      "squadNumber": 17,
+      "name": "Ferenc Machos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-lajos_csord_s",
+      "identityId": "P-46961",
+      "squadNumber": 18,
+      "name": "Lajos Csordás",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-p_ter_palot_s",
+      "identityId": "P-42138",
+      "squadNumber": 19,
+      "name": "Péter Palotás",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Hungary (Runners-up). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "hungary-1954-mih_ly_t_th",
+      "identityId": "P-24411",
+      "squadNumber": 20,
+      "name": "Mihály Tóth",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-s_ndor_gell_r",
+      "identityId": "P-09102",
+      "squadNumber": 21,
+      "name": "Sándor Gellér",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    },
+    {
+      "id": "hungary-1954-g_za_guly_s",
+      "identityId": "P-32482",
+      "squadNumber": 22,
+      "name": "Géza Gulyás",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 80,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1954 World Cup performance for Hungary (Runners-up). Squad reserve member."
+    }
+  ]
+}

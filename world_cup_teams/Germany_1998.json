@@ -1,0 +1,493 @@
+{
+  "teamName": "Germany",
+  "teamCode": "DEU",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "germany-1998-andreas_k_pke",
+      "identityId": "P-45405",
+      "squadNumber": 1,
+      "name": "Andreas Köpke",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-1998-christian_w_rns",
+      "identityId": "P-53262",
+      "squadNumber": 2,
+      "name": "Christian Wörns",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-1998-j_rg_heinrich",
+      "identityId": "P-78998",
+      "squadNumber": 3,
+      "name": "Jörg Heinrich",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "germany-1998-j_rgen_kohler",
+      "identityId": "P-83968",
+      "squadNumber": 4,
+      "name": "Jürgen Kohler",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "germany-1998-thomas_helmer",
+      "identityId": "P-87830",
+      "squadNumber": 5,
+      "name": "Thomas Helmer",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "germany-1998-olaf_thon",
+      "identityId": "P-45408",
+      "squadNumber": 6,
+      "name": "Olaf Thon",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-1998-andreas_m_ller",
+      "identityId": "P-37963",
+      "squadNumber": 7,
+      "name": "Andreas Möller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "germany-1998-lothar_matth_us",
+      "identityId": "P-49502",
+      "squadNumber": 8,
+      "name": "Lothar Matthäus",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-1998-ulf_kirsten",
+      "identityId": "P-09705",
+      "squadNumber": 9,
+      "name": "Ulf Kirsten",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Substitute rotation option (4 sub app)."
+    },
+    {
+      "id": "germany-1998-thomas_h_ler",
+      "identityId": "P-77552",
+      "squadNumber": 10,
+      "name": "Thomas Häßler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "germany-1998-olaf_marschall",
+      "identityId": "P-62028",
+      "squadNumber": 11,
+      "name": "Olaf Marschall",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "germany-1998-oliver_kahn",
+      "identityId": "P-33751",
+      "squadNumber": 12,
+      "name": "Oliver Kahn",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "germany-1998-jens_jeremies",
+      "identityId": "P-65108",
+      "squadNumber": 13,
+      "name": "Jens Jeremies",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-1998-markus_babbel",
+      "identityId": "P-83522",
+      "squadNumber": 14,
+      "name": "Markus Babbel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-1998-steffen_freund",
+      "identityId": "P-94904",
+      "squadNumber": 15,
+      "name": "Steffen Freund",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "germany-1998-dietmar_hamann",
+      "identityId": "P-35902",
+      "squadNumber": 16,
+      "name": "Dietmar Hamann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-1998-christian_ziege",
+      "identityId": "P-67544",
+      "squadNumber": 17,
+      "name": "Christian Ziege",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-1998-j_rgen_klinsmann",
+      "identityId": "P-91373",
+      "squadNumber": 18,
+      "name": "Jürgen Klinsmann",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "germany-1998-stefan_reuter",
+      "identityId": "P-74629",
+      "squadNumber": 19,
+      "name": "Stefan Reuter",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "germany-1998-oliver_bierhoff",
+      "identityId": "P-84534",
+      "squadNumber": 20,
+      "name": "Oliver Bierhoff",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 88,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 88 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 5 match(es). Scored 3 goal(s)."
+    },
+    {
+      "id": "germany-1998-michael_tarnat",
+      "identityId": "P-15678",
+      "squadNumber": 21,
+      "name": "Michael Tarnat",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "germany-1998-jens_lehmann",
+      "identityId": "P-98511",
+      "squadNumber": 22,
+      "name": "Jens Lehmann",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Germany (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

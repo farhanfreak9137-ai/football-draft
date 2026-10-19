@@ -1,0 +1,495 @@
+{
+  "teamName": "Austria",
+  "teamCode": "AUT",
+  "year": 1954,
+  "tournament": "1954 FIFA Men's World Cup",
+  "hostCountry": "Switzerland",
+  "achievement": "Third Place",
+  "finalPosition": 3,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 83,
+  "players": [
+    {
+      "id": "austria-1954-kurt_schmied",
+      "identityId": "P-69826",
+      "squadNumber": 1,
+      "name": "Kurt Schmied",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-gerhard_hanappi",
+      "identityId": "P-98569",
+      "squadNumber": 2,
+      "name": "Gerhard Hanappi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-ernst_happel",
+      "identityId": "P-34192",
+      "squadNumber": 3,
+      "name": "Ernst Happel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-leopold_barschandt",
+      "identityId": "P-75651",
+      "squadNumber": 4,
+      "name": "Leopold Barschandt",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-ernst_ocwirk",
+      "identityId": "P-53882",
+      "squadNumber": 5,
+      "name": "Ernst Ocwirk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1954 World Cup performance for Austria (Third Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "austria-1954-karl_koller",
+      "identityId": "P-32967",
+      "squadNumber": 6,
+      "name": "Karl Koller",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-robert_k_rner",
+      "identityId": "P-57242",
+      "squadNumber": 7,
+      "name": "Robert Körner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-walter_schleger",
+      "identityId": "P-28341",
+      "squadNumber": 8,
+      "name": "Walter Schleger",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 85,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1954 World Cup performance for Austria (Third Place). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "austria-1954-theodor_wagner",
+      "identityId": "P-35865",
+      "squadNumber": 9,
+      "name": "Theodor Wagner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Austria (Third Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "austria-1954-erich_probst",
+      "identityId": "P-85257",
+      "squadNumber": 10,
+      "name": "Erich Probst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 6,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 1954 World Cup performance for Austria (Third Place). Tournament standout and starting pillar. Scored 6 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "austria-1954-alfred_k_rner",
+      "identityId": "P-26700",
+      "squadNumber": 11,
+      "name": "Alfred Körner",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 89,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 89 OVR based on 1954 World Cup performance for Austria (Third Place). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "austria-1954-karl_stotz",
+      "identityId": "P-49790",
+      "squadNumber": 12,
+      "name": "Karl Stotz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-walter_kollmann",
+      "identityId": "P-66263",
+      "squadNumber": 13,
+      "name": "Walter Kollmann",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-karl_giesser",
+      "identityId": "P-09648",
+      "squadNumber": 14,
+      "name": "Karl Giesser",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-franz_pelikan",
+      "identityId": "P-16610",
+      "squadNumber": 15,
+      "name": "Franz Pelikan",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-walter_zeman",
+      "identityId": "P-93772",
+      "squadNumber": 16,
+      "name": "Walter Zeman",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-alfred_teinitzer",
+      "identityId": "P-89866",
+      "squadNumber": 17,
+      "name": "Alfred Teinitzer",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-johann_riegler",
+      "identityId": "P-38526",
+      "squadNumber": 18,
+      "name": "Johann Riegler",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-robert_dienst",
+      "identityId": "P-80274",
+      "squadNumber": 19,
+      "name": "Robert Dienst",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-paul_halla",
+      "identityId": "P-11040",
+      "squadNumber": 20,
+      "name": "Paul Halla",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    },
+    {
+      "id": "austria-1954-ernst_stojaspal",
+      "identityId": "P-51339",
+      "squadNumber": 21,
+      "name": "Ernst Stojaspal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1954 World Cup performance for Austria (Third Place). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "austria-1954-walter_haummer",
+      "identityId": "P-38037",
+      "squadNumber": 22,
+      "name": "Walter Haummer",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1954 World Cup performance for Austria (Third Place). Squad reserve member."
+    }
+  ]
+}

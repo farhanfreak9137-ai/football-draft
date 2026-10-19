@@ -1,0 +1,591 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 2022,
+  "tournament": "2022 FIFA Men's World Cup",
+  "hostCountry": "Qatar",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 26,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "argentina-2022-franco_armani",
+      "identityId": "P-39788",
+      "squadNumber": 1,
+      "name": "Franco Armani",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-2022-juan_foyth",
+      "identityId": "P-00652",
+      "squadNumber": 2,
+      "name": "Juan Foyth",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for Argentina (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2022-nicol_s_tagliafico",
+      "identityId": "P-35173",
+      "squadNumber": 3,
+      "name": "Nicolás Tagliafico",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "argentina-2022-gonzalo_montiel",
+      "identityId": "P-91431",
+      "squadNumber": 4,
+      "name": "Gonzalo Montiel",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for Argentina (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2022-leandro_paredes",
+      "identityId": "P-27582",
+      "squadNumber": 5,
+      "name": "Leandro Paredes",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for Argentina (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2022-germ_n_pezzella",
+      "identityId": "P-29298",
+      "squadNumber": 6,
+      "name": "Germán Pezzella",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for Argentina (Champions). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "argentina-2022-rodrigo_de_paul",
+      "identityId": "P-37314",
+      "squadNumber": 7,
+      "name": "Rodrigo De Paul",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-2022-marcos_acu_a",
+      "identityId": "P-73712",
+      "squadNumber": 8,
+      "name": "Marcos Acuña",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "argentina-2022-juli_n_lvarez",
+      "identityId": "P-19776",
+      "squadNumber": 9,
+      "name": "Julián Álvarez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 2,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 96 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 5 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "argentina-2022-lionel_messi",
+      "identityId": "P-14758",
+      "squadNumber": 10,
+      "name": "Lionel Messi",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 99,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 7,
+      "awards": [
+        "Golden Ball",
+        "Silver Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2022 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 99 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Scored 7 goal(s). Honors: Golden Ball, Silver Boot."
+    },
+    {
+      "id": "argentina-2022-_ngel_di_mar_a",
+      "identityId": "P-42113",
+      "squadNumber": 11,
+      "name": "Ángel Di María",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2022-ger_nimo_rulli",
+      "identityId": "P-36188",
+      "squadNumber": 12,
+      "name": "Gerónimo Rulli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2022 World Cup performance for Argentina (Champions). Squad reserve member."
+    },
+    {
+      "id": "argentina-2022-cristian_romero",
+      "identityId": "P-79650",
+      "squadNumber": 13,
+      "name": "Cristian Romero",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "argentina-2022-exequiel_palacios",
+      "identityId": "P-40147",
+      "squadNumber": 14,
+      "name": "Exequiel Palacios",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for Argentina (Champions). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "argentina-2022-_ngel_correa",
+      "identityId": "P-92353",
+      "squadNumber": 15,
+      "name": "Ángel Correa",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for Argentina (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2022-thiago_almada",
+      "identityId": "P-56659",
+      "squadNumber": 16,
+      "name": "Thiago Almada",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for Argentina (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "argentina-2022-papu_g_mez",
+      "identityId": "P-10231",
+      "squadNumber": 17,
+      "name": "Papu Gómez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for Argentina (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2022-guido_rodr_guez",
+      "identityId": "P-03265",
+      "squadNumber": 18,
+      "name": "Guido Rodríguez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for Argentina (Champions). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "argentina-2022-nicol_s_otamendi",
+      "identityId": "P-49114",
+      "squadNumber": 19,
+      "name": "Nicolás Otamendi",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "argentina-2022-alexis_mac_allister",
+      "identityId": "P-71343",
+      "squadNumber": 20,
+      "name": "Alexis Mac Allister",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-2022-paulo_dybala",
+      "identityId": "P-28151",
+      "squadNumber": 21,
+      "name": "Paulo Dybala",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2022 World Cup performance for Argentina (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "argentina-2022-lautaro_mart_nez",
+      "identityId": "P-81505",
+      "squadNumber": 22,
+      "name": "Lautaro Martínez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 4,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for Argentina (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2022-emiliano_mart_nez",
+      "identityId": "P-13162",
+      "squadNumber": 23,
+      "name": "Emiliano Martínez",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2022 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 93 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 7 match(es). Honors: Golden Glove."
+    },
+    {
+      "id": "argentina-2022-enzo_fern_ndez",
+      "identityId": "P-10739",
+      "squadNumber": 24,
+      "name": "Enzo Fernández",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 2,
+      "goals": 1,
+      "awards": [
+        "Best Young Player"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 5 match(es). Scored 1 goal(s). Honors: Best Young Player."
+    },
+    {
+      "id": "argentina-2022-lisandro_mart_nez",
+      "identityId": "P-23070",
+      "squadNumber": 25,
+      "name": "Lisandro Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2022 World Cup performance for Argentina (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "argentina-2022-nahuel_molina",
+      "identityId": "P-84430",
+      "squadNumber": 26,
+      "name": "Nahuel Molina",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2022 World Cup performance for Argentina (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    }
+  ]
+}

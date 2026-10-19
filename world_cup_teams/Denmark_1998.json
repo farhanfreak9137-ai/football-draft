@@ -1,0 +1,493 @@
+{
+  "teamName": "Denmark",
+  "teamCode": "DNK",
+  "year": 1998,
+  "tournament": "1998 FIFA Men's World Cup",
+  "hostCountry": "France",
+  "achievement": "Quarter-Finalists",
+  "finalPosition": 8,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 22,
+  "averageOvr": 82,
+  "players": [
+    {
+      "id": "denmark-1998-peter_schmeichel",
+      "identityId": "P-35183",
+      "squadNumber": 1,
+      "name": "Peter Schmeichel",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "denmark-1998-michael_schj_nberg",
+      "identityId": "P-57898",
+      "squadNumber": 2,
+      "name": "Michael Schjønberg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1998-marc_rieper",
+      "identityId": "P-77711",
+      "squadNumber": 3,
+      "name": "Marc Rieper",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-jes_h_gh",
+      "identityId": "P-11000",
+      "squadNumber": 4,
+      "name": "Jes Høgh",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es)."
+    },
+    {
+      "id": "denmark-1998-jan_heintze",
+      "identityId": "P-79273",
+      "squadNumber": 5,
+      "name": "Jan Heintze",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "denmark-1998-thomas_helveg",
+      "identityId": "P-72404",
+      "squadNumber": 6,
+      "name": "Thomas Helveg",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-allan_nielsen",
+      "identityId": "P-62564",
+      "squadNumber": 7,
+      "name": "Allan Nielsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 4 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-per_frandsen",
+      "identityId": "P-02695",
+      "squadNumber": 8,
+      "name": "Per Frandsen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "denmark-1998-miklos_molnar",
+      "identityId": "P-75330",
+      "squadNumber": 9,
+      "name": "Miklos Molnar",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "denmark-1998-michael_laudrup",
+      "identityId": "P-56788",
+      "squadNumber": 10,
+      "name": "Michael Laudrup",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-brian_laudrup",
+      "identityId": "P-28133",
+      "squadNumber": 11,
+      "name": "Brian Laudrup",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "denmark-1998-s_ren_colding",
+      "identityId": "P-90473",
+      "squadNumber": 12,
+      "name": "Søren Colding",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 85,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 85 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "denmark-1998-jacob_laursen",
+      "identityId": "P-01514",
+      "squadNumber": 13,
+      "name": "Jacob Laursen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-1998-morten_wieghorst",
+      "identityId": "P-87412",
+      "squadNumber": 14,
+      "name": "Morten Wieghorst",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 82,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 82 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "denmark-1998-stig_t_fting",
+      "identityId": "P-37132",
+      "squadNumber": 15,
+      "name": "Stig Tøfting",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 79,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 79 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "denmark-1998-mogens_krogh",
+      "identityId": "P-66859",
+      "squadNumber": 16,
+      "name": "Mogens Krogh",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "denmark-1998-bjarne_goldb_k",
+      "identityId": "P-04448",
+      "squadNumber": 17,
+      "name": "Bjarne Goldbæk",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "denmark-1998-peter_m_ller",
+      "identityId": "P-87668",
+      "squadNumber": 18,
+      "name": "Peter Møller",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-ebbe_sand",
+      "identityId": "P-80289",
+      "squadNumber": 19,
+      "name": "Ebbe Sand",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 3,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Starting lineup contributor (2 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-ren_henriksen",
+      "identityId": "P-86345",
+      "squadNumber": 20,
+      "name": "René Henriksen",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Squad reserve member."
+    },
+    {
+      "id": "denmark-1998-martin_j_rgensen",
+      "identityId": "P-68055",
+      "squadNumber": 21,
+      "name": "Martin Jørgensen",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Main pillar starting 5 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "denmark-1998-peter_kj_r",
+      "identityId": "P-25541",
+      "squadNumber": 22,
+      "name": "Peter Kjær",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 75,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 75 OVR based on 1998 World Cup performance for Denmark (Quarter-Finalists). Squad reserve member."
+    }
+  ]
+}

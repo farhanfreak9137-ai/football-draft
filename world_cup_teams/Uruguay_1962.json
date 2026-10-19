@@ -1,0 +1,496 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 1962,
+  "tournament": "1962 FIFA Men's World Cup",
+  "hostCountry": "Chile",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-2-4",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "uruguay-1962-roberto_sosa",
+      "identityId": "P-83945",
+      "squadNumber": 1,
+      "name": "Roberto Sosa",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-horacio_troche",
+      "identityId": "P-11119",
+      "squadNumber": 2,
+      "name": "Horacio Troche",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-emilio_lvarez",
+      "identityId": "P-36059",
+      "squadNumber": 3,
+      "name": "Emilio Álvarez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-mario_m_ndez",
+      "identityId": "P-96412",
+      "squadNumber": 4,
+      "name": "Mario Méndez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-n_stor_gon_alves",
+      "identityId": "P-41691",
+      "squadNumber": 5,
+      "name": "Néstor Gonçalves",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-pedro_cubilla",
+      "identityId": "P-28196",
+      "squadNumber": 6,
+      "name": "Pedro Cubilla",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-domingo_p_rez",
+      "identityId": "P-04270",
+      "squadNumber": 7,
+      "name": "Domingo Pérez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-julio_c_sar_cort_s",
+      "identityId": "P-82186",
+      "squadNumber": 8,
+      "name": "Julio César Cortés",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-jos_sas_a",
+      "identityId": "P-15857",
+      "squadNumber": 9,
+      "name": "José Sasía",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 81,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 81 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Tournament standout and starting pillar. Scored 2 goal(s)."
+    },
+    {
+      "id": "uruguay-1962-pedro_rocha",
+      "identityId": "P-47892",
+      "squadNumber": 10,
+      "name": "Pedro Rocha",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1962-luis_cubilla",
+      "identityId": "P-81929",
+      "squadNumber": 11,
+      "name": "Luis Cubilla",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "LW"
+      ],
+      "secondaryPositions": [
+        "RW",
+        "ST"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1962-luis_maidana",
+      "identityId": "P-30655",
+      "squadNumber": 12,
+      "name": "Luis Maidana",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-william_mart_nez",
+      "identityId": "P-12327",
+      "squadNumber": 14,
+      "name": "William Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-rub_n_soria",
+      "identityId": "P-89509",
+      "squadNumber": 15,
+      "name": "Rubén Soria",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-edgardo_gonz_lez",
+      "identityId": "P-72837",
+      "squadNumber": 16,
+      "name": "Edgardo González",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-rub_n_gonz_lez",
+      "identityId": "P-92902",
+      "squadNumber": 17,
+      "name": "Rubén González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-eliseo_lvarez",
+      "identityId": "P-89353",
+      "squadNumber": 18,
+      "name": "Eliseo Álvarez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-ronald_lang_n",
+      "identityId": "P-05619",
+      "squadNumber": 19,
+      "name": "Ronald Langón",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-mario_bergara",
+      "identityId": "P-04101",
+      "squadNumber": 20,
+      "name": "Mario Bergara",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-h_ctor_silva",
+      "identityId": "P-77314",
+      "squadNumber": 21,
+      "name": "Héctor Silva",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1962-_ngel_cabrera",
+      "identityId": "P-35342",
+      "squadNumber": 22,
+      "name": "Ángel Cabrera",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1962 World Cup performance for Uruguay (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1962-guillermo_escalada",
+      "identityId": "P-82133",
+      "squadNumber": 23,
+      "name": "Guillermo Escalada",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1962 World Cup performance for Uruguay (Group Stage). Squad reserve member."
+    }
+  ]
+}

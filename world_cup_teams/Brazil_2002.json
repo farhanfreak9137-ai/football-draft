@@ -1,0 +1,524 @@
+{
+  "teamName": "Brazil",
+  "teamCode": "BRA",
+  "year": 2002,
+  "tournament": "2002 FIFA Men's World Cup",
+  "hostCountry": "Korea, Japan",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "3-5-2",
+  "squadSize": 23,
+  "averageOvr": 91,
+  "players": [
+    {
+      "id": "brazil-2002-marcos",
+      "identityId": "P-64377",
+      "squadNumber": 1,
+      "name": "Marcos",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-2002-cafu",
+      "identityId": "P-91718",
+      "squadNumber": 2,
+      "name": "Cafu",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-2002-l_cio",
+      "identityId": "P-42918",
+      "squadNumber": 3,
+      "name": "Lúcio",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-2002-roque_j_nior",
+      "identityId": "P-66308",
+      "squadNumber": 4,
+      "name": "Roque Júnior",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es)."
+    },
+    {
+      "id": "brazil-2002-edm_lson",
+      "identityId": "P-09270",
+      "squadNumber": 5,
+      "name": "Edmílson",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2002-roberto_carlos",
+      "identityId": "P-85176",
+      "squadNumber": 6,
+      "name": "Roberto Carlos",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 6,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 6 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2002-ricardinho",
+      "identityId": "P-57975",
+      "squadNumber": 7,
+      "name": "Ricardinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 3,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Brazil (Champions). Substitute rotation option (3 sub app)."
+    },
+    {
+      "id": "brazil-2002-gilberto_silva",
+      "identityId": "P-45956",
+      "squadNumber": 8,
+      "name": "Gilberto Silva",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es)."
+    },
+    {
+      "id": "brazil-2002-ronaldo",
+      "identityId": "P-62722",
+      "squadNumber": 9,
+      "name": "Ronaldo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 99,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 8,
+      "awards": [
+        "Silver Ball",
+        "Golden Boot"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "2002 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 99 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es). Scored 8 goal(s). Honors: Silver Ball, Golden Boot."
+    },
+    {
+      "id": "brazil-2002-rivaldo",
+      "identityId": "P-74261",
+      "squadNumber": 10,
+      "name": "Rivaldo",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 7,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 98 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 7 match(es). Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "brazil-2002-ronaldinho",
+      "identityId": "P-57361",
+      "squadNumber": 11,
+      "name": "Ronaldinho",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 5,
+      "matchesSub": 0,
+      "goals": 2,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 94 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 5 match(es). Scored 2 goal(s)."
+    },
+    {
+      "id": "brazil-2002-dida",
+      "identityId": "P-02795",
+      "squadNumber": 12,
+      "name": "Dida",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-2002-juliano_belletti",
+      "identityId": "P-93236",
+      "squadNumber": 13,
+      "name": "Juliano Belletti",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Brazil (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2002-_nderson_polga",
+      "identityId": "P-09454",
+      "squadNumber": 14,
+      "name": "Ânderson Polga",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Brazil (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-2002-kl_berson",
+      "identityId": "P-79283",
+      "squadNumber": 15,
+      "name": "Kléberson",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 3 match(es)."
+    },
+    {
+      "id": "brazil-2002-j_nior",
+      "identityId": "P-29601",
+      "squadNumber": 16,
+      "name": "Júnior",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 2002 World Cup performance for Brazil (Champions). Starting lineup contributor (1 starts). Scored 1 goal(s)."
+    },
+    {
+      "id": "brazil-2002-den_lson",
+      "identityId": "P-79146",
+      "squadNumber": 17,
+      "name": "Denílson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 5,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Brazil (Champions). Substitute rotation option (5 sub app)."
+    },
+    {
+      "id": "brazil-2002-vampeta",
+      "identityId": "P-06280",
+      "squadNumber": 18,
+      "name": "Vampeta",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Brazil (Champions). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "brazil-2002-juninho_paulista",
+      "identityId": "P-20389",
+      "squadNumber": 19,
+      "name": "Juninho Paulista",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 93,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 93 OVR based on 2002 World Cup performance for Brazil (Champions). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "brazil-2002-ed_lson",
+      "identityId": "P-26695",
+      "squadNumber": 20,
+      "name": "Edílson",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 2,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 2002 World Cup performance for Brazil (Champions). Starting lineup contributor (2 starts)."
+    },
+    {
+      "id": "brazil-2002-luiz_o",
+      "identityId": "P-89804",
+      "squadNumber": 21,
+      "name": "Luizão",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Brazil (Champions). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "brazil-2002-rog_rio_ceni",
+      "identityId": "P-01939",
+      "squadNumber": 22,
+      "name": "Rogério Ceni",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 2002 World Cup performance for Brazil (Champions). Squad reserve member."
+    },
+    {
+      "id": "brazil-2002-kak_",
+      "identityId": "P-58388",
+      "squadNumber": 23,
+      "name": "Kaká",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 87,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 87 OVR based on 2002 World Cup performance for Brazil (Champions). Substitute rotation option (1 sub app)."
+    }
+  ]
+}

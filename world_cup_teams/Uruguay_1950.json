@@ -1,0 +1,517 @@
+{
+  "teamName": "Uruguay",
+  "teamCode": "URY",
+  "year": 1950,
+  "tournament": "1950 FIFA Men's World Cup",
+  "hostCountry": "Brazil",
+  "achievement": "Champions",
+  "finalPosition": 1,
+  "tacticalFormation": "2-3-5",
+  "squadSize": 22,
+  "averageOvr": 89,
+  "players": [
+    {
+      "id": "uruguay-1950-julio_c_sar_britos",
+      "identityId": "P-36262",
+      "squadNumber": 1,
+      "name": "Julio César Britos",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-juan_burgue_o",
+      "identityId": "P-14115",
+      "squadNumber": 2,
+      "name": "Juan Burgueño",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-schubert_gambetta",
+      "identityId": "P-85637",
+      "squadNumber": 3,
+      "name": "Schubert Gambetta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-alcides_ghiggia",
+      "identityId": "P-16302",
+      "squadNumber": 4,
+      "name": "Alcides Ghiggia",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [
+        "Bronze Boot",
+        "Golden Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 FIFA World Cup Golden Ball Winner (Best Player)",
+      "ratingRationale": "Rated 96 OVR based on 1950 World Cup performance for Uruguay (Champions). Tournament standout and starting pillar. Scored 4 goal(s). Honors: Bronze Boot, Golden Ball."
+    },
+    {
+      "id": "uruguay-1950-juan_carlos_gonz_lez",
+      "identityId": "P-85328",
+      "squadNumber": 5,
+      "name": "Juan Carlos González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-mat_as_gonz_lez",
+      "identityId": "P-54509",
+      "squadNumber": 6,
+      "name": "Matías González",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "DM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-william_mart_nez",
+      "identityId": "P-12327",
+      "squadNumber": 7,
+      "name": "William Martínez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-roque_m_spoli",
+      "identityId": "P-38439",
+      "squadNumber": 8,
+      "name": "Roque Máspoli",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 94,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [
+        "Golden Glove"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 FIFA World Cup Best Goalkeeper Award",
+      "ratingRationale": "Rated 94 OVR based on 1950 World Cup performance for Uruguay (Champions). Tournament standout and starting pillar. Honors: Golden Glove."
+    },
+    {
+      "id": "uruguay-1950-oscar_m_guez",
+      "identityId": "P-18523",
+      "squadNumber": 9,
+      "name": "Oscar Míguez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 98,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 5,
+      "awards": [
+        "Silver Boot"
+      ],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 98 OVR based on 1950 World Cup performance for Uruguay (Champions). Tournament standout and starting pillar. Scored 5 goal(s). Honors: Silver Boot."
+    },
+    {
+      "id": "uruguay-1950-rub_n_mor_n",
+      "identityId": "P-08534",
+      "squadNumber": 10,
+      "name": "Rubén Morán",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "CF",
+        "SS"
+      ],
+      "secondaryPositions": [
+        "ST",
+        "AM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-washington_ortu_o",
+      "identityId": "P-00618",
+      "squadNumber": 11,
+      "name": "Washington Ortuño",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 90,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 90 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "uruguay-1950-an_bal_paz",
+      "identityId": "P-64761",
+      "squadNumber": 12,
+      "name": "Aníbal Paz",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1950-julio_p_rez",
+      "identityId": "P-84660",
+      "squadNumber": 13,
+      "name": "Julio Pérez",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1950-rodolfo_pini",
+      "identityId": "P-76749",
+      "squadNumber": 14,
+      "name": "Rodolfo Pini",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1950-luis_rijo",
+      "identityId": "P-54124",
+      "squadNumber": 15,
+      "name": "Luis Rijo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1950-v_ctor_rodr_guez_andrade",
+      "identityId": "P-40941",
+      "squadNumber": 16,
+      "name": "Víctor Rodríguez Andrade",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1950-carlos_romero",
+      "identityId": "P-72726",
+      "squadNumber": 17,
+      "name": "Carlos Romero",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1950-juan_alberto_schiaffino",
+      "identityId": "P-38873",
+      "squadNumber": 18,
+      "name": "Juan Alberto Schiaffino",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [
+        "Silver Ball"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 FIFA World Cup Silver Ball Winner",
+      "ratingRationale": "Rated 96 OVR based on 1950 World Cup performance for Uruguay (Champions). Tournament standout and starting pillar. Scored 3 goal(s). Honors: Silver Ball."
+    },
+    {
+      "id": "uruguay-1950-eusebio_tejera",
+      "identityId": "P-44446",
+      "squadNumber": 19,
+      "name": "Eusebio Tejera",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    },
+    {
+      "id": "uruguay-1950-obdulio_varela",
+      "identityId": "P-65940",
+      "squadNumber": 20,
+      "name": "Obdulio Varela",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 96,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [
+        "Champion Captain"
+      ],
+      "hasLegendSeal": true,
+      "legendSealReason": "1950 World Cup Champion Captain & Leader of Maracanazo",
+      "ratingRationale": "Rated 96 OVR based on 1950 World Cup performance for Uruguay (Champions). Tournament standout and starting pillar. Scored 1 goal(s). Honors: Champion Captain."
+    },
+    {
+      "id": "uruguay-1950-ernesto_vidal",
+      "identityId": "P-36239",
+      "squadNumber": 21,
+      "name": "Ernesto Vidal",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 91,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 91 OVR based on 1950 World Cup performance for Uruguay (Champions). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "uruguay-1950-h_ctor_vilches",
+      "identityId": "P-67013",
+      "squadNumber": 22,
+      "name": "Héctor Vilches",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 83,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1950 World Cup performance for Uruguay (Champions). Squad reserve member."
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "teamName": "Argentina",
+  "teamCode": "ARG",
+  "year": 1966,
+  "tournament": "1966 FIFA Men's World Cup",
+  "hostCountry": "England",
+  "achievement": "Group Stage",
+  "finalPosition": 32,
+  "tacticalFormation": "4-3-3",
+  "squadSize": 22,
+  "averageOvr": 74,
+  "players": [
+    {
+      "id": "argentina-1966-antonio_roma",
+      "identityId": "P-00855",
+      "squadNumber": 1,
+      "name": "Antonio Roma",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-rolando_irusta",
+      "identityId": "P-62756",
+      "squadNumber": 2,
+      "name": "Rolando Irusta",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-hugo_gatti",
+      "identityId": "P-21555",
+      "squadNumber": 3,
+      "name": "Hugo Gatti",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-roberto_perfumo",
+      "identityId": "P-94783",
+      "squadNumber": 4,
+      "name": "Roberto Perfumo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-jos_varacka",
+      "identityId": "P-40725",
+      "squadNumber": 5,
+      "name": "José Varacka",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-oscar_calics",
+      "identityId": "P-53257",
+      "squadNumber": 6,
+      "name": "Oscar Calics",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-silvio_marzolini",
+      "identityId": "P-00867",
+      "squadNumber": 7,
+      "name": "Silvio Marzolini",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-roberto_ferreiro",
+      "identityId": "P-05616",
+      "squadNumber": 8,
+      "name": "Roberto Ferreiro",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-carmelo_simeone",
+      "identityId": "P-61271",
+      "squadNumber": 9,
+      "name": "Carmelo Simeone",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-antonio_ratt_n",
+      "identityId": "P-92300",
+      "squadNumber": 10,
+      "name": "Antonio Rattín",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-jos_omar_pastoriza",
+      "identityId": "P-42100",
+      "squadNumber": 11,
+      "name": "José Omar Pastoriza",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 77,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection."
+    },
+    {
+      "id": "argentina-1966-rafael_albrecht",
+      "identityId": "P-27099",
+      "squadNumber": 12,
+      "name": "Rafael Albrecht",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-nelson_l_pez",
+      "identityId": "P-49889",
+      "squadNumber": 13,
+      "name": "Nelson López",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-mario_chald_",
+      "identityId": "P-44727",
+      "squadNumber": 14,
+      "name": "Mario Chaldú",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-jorge_solari",
+      "identityId": "P-62533",
+      "squadNumber": 15,
+      "name": "Jorge Solari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-alberto_gonz_lez",
+      "identityId": "P-17625",
+      "squadNumber": 16,
+      "name": "Alberto González",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-juan_carlos_sarnari",
+      "identityId": "P-46231",
+      "squadNumber": 17,
+      "name": "Juan Carlos Sarnari",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-alfredo_rojas",
+      "identityId": "P-35675",
+      "squadNumber": 18,
+      "name": "Alfredo Rojas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-luis_artime",
+      "identityId": "P-47496",
+      "squadNumber": 19,
+      "name": "Luis Artime",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 3,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1966 World Cup performance for Argentina (Group Stage). Tournament standout and starting pillar. Scored 3 goal(s)."
+    },
+    {
+      "id": "argentina-1966-ermindo_onega",
+      "identityId": "P-20306",
+      "squadNumber": 20,
+      "name": "Ermindo Onega",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 78,
+      "role": "Starter",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 78 OVR based on 1966 World Cup performance for Argentina (Group Stage). First-choice starting XI lineup selection. Scored 1 goal(s)."
+    },
+    {
+      "id": "argentina-1966-oscar_m_s",
+      "identityId": "P-97042",
+      "squadNumber": 21,
+      "name": "Oscar Más",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    },
+    {
+      "id": "argentina-1966-an_bal_tarabini",
+      "identityId": "P-95542",
+      "squadNumber": 22,
+      "name": "Aníbal Tarabini",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 70,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 70 OVR based on 1966 World Cup performance for Argentina (Group Stage). Squad reserve member."
+    }
+  ]
+}

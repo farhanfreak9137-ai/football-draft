@@ -1,0 +1,493 @@
+{
+  "teamName": "Spain",
+  "teamCode": "ESP",
+  "year": 1990,
+  "tournament": "1990 FIFA Men's World Cup",
+  "hostCountry": "Italy",
+  "achievement": "Round of 16",
+  "finalPosition": 16,
+  "tacticalFormation": "4-4-2",
+  "squadSize": 22,
+  "averageOvr": 80,
+  "players": [
+    {
+      "id": "spain-1990-andoni_zubizarreta",
+      "identityId": "P-63214",
+      "squadNumber": 1,
+      "name": "Andoni Zubizarreta",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-chendo",
+      "identityId": "P-31693",
+      "squadNumber": 2,
+      "name": "Chendo",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "RB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "RWB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-manuel_jim_nez",
+      "identityId": "P-80363",
+      "squadNumber": 3,
+      "name": "Manuel Jiménez",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "LB"
+      ],
+      "secondaryPositions": [
+        "CB",
+        "LWB"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1990-genar_andrin_a",
+      "identityId": "P-75527",
+      "squadNumber": 4,
+      "name": "Genar Andrinúa",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-manuel_sanch_s",
+      "identityId": "P-59110",
+      "squadNumber": 5,
+      "name": "Manuel Sanchís",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "SW",
+        "DM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-rafael_mart_n_v_zquez",
+      "identityId": "P-40929",
+      "squadNumber": 6,
+      "name": "Rafael Martín Vázquez",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "DM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-miguel_pardeza",
+      "identityId": "P-46166",
+      "squadNumber": 7,
+      "name": "Miguel Pardeza",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "RW"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "ST"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Spain (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1990-quique_s_nchez_flores",
+      "identityId": "P-90670",
+      "squadNumber": 8,
+      "name": "Quique Sánchez Flores",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-1990-emilio_butrague_o",
+      "identityId": "P-12940",
+      "squadNumber": 9,
+      "name": "Emilio Butragueño",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-fernando",
+      "identityId": "P-84197",
+      "squadNumber": 10,
+      "name": "Fernando",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "AM"
+      ],
+      "secondaryPositions": [
+        "CM",
+        "LW",
+        "RW"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Spain (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1990-francisco_villarroya",
+      "identityId": "P-81270",
+      "squadNumber": 11,
+      "name": "Francisco Villarroya",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "LM",
+        "RM"
+      ],
+      "secondaryPositions": [
+        "LW",
+        "RW",
+        "CM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-rafael_alkorta",
+      "identityId": "P-76590",
+      "squadNumber": 12,
+      "name": "Rafael Alkorta",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Spain (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1990-juan_carlos_ablanedo",
+      "identityId": "P-98382",
+      "squadNumber": 13,
+      "name": "Juan Carlos Ablanedo",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-1990-alberto_g_rriz",
+      "identityId": "P-82189",
+      "squadNumber": 14,
+      "name": "Alberto Górriz",
+      "positionCategory": "defender",
+      "naturalPositions": [
+        "CB"
+      ],
+      "secondaryPositions": [
+        "LB",
+        "RB"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 1,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1990-roberto",
+      "identityId": "P-61508",
+      "squadNumber": 15,
+      "name": "Roberto",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 83,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 83 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es)."
+    },
+    {
+      "id": "spain-1990-jos_mar_a_bakero",
+      "identityId": "P-44411",
+      "squadNumber": 16,
+      "name": "José María Bakero",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 1,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Spain (Round of 16). Substitute rotation option (1 sub app)."
+    },
+    {
+      "id": "spain-1990-fernando_hierro",
+      "identityId": "P-35246",
+      "squadNumber": 17,
+      "name": "Fernando Hierro",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Spain (Round of 16). Squad reserve member."
+    },
+    {
+      "id": "spain-1990-rafael_paz",
+      "identityId": "P-10514",
+      "squadNumber": 18,
+      "name": "Rafael Paz",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 77,
+      "role": "Rotation",
+      "matchesStarted": 0,
+      "matchesSub": 2,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 77 OVR based on 1990 World Cup performance for Spain (Round of 16). Substitute rotation option (2 sub app)."
+    },
+    {
+      "id": "spain-1990-julio_salinas",
+      "identityId": "P-18314",
+      "squadNumber": 19,
+      "name": "Julio Salinas",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 84,
+      "role": "Key Starter",
+      "matchesStarted": 3,
+      "matchesSub": 0,
+      "goals": 1,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 84 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 3 match(es). Scored 1 goal(s)."
+    },
+    {
+      "id": "spain-1990-manolo",
+      "identityId": "P-61411",
+      "squadNumber": 20,
+      "name": "Manolo",
+      "positionCategory": "forward",
+      "naturalPositions": [
+        "ST"
+      ],
+      "secondaryPositions": [
+        "CF",
+        "LW",
+        "RW"
+      ],
+      "ovr": 80,
+      "role": "Starter",
+      "matchesStarted": 1,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 80 OVR based on 1990 World Cup performance for Spain (Round of 16). Starting lineup contributor (1 starts)."
+    },
+    {
+      "id": "spain-1990-m_chel",
+      "identityId": "P-06498",
+      "squadNumber": 21,
+      "name": "Míchel",
+      "positionCategory": "midfielder",
+      "naturalPositions": [
+        "CM"
+      ],
+      "secondaryPositions": [
+        "DM",
+        "AM"
+      ],
+      "ovr": 86,
+      "role": "Key Starter",
+      "matchesStarted": 4,
+      "matchesSub": 0,
+      "goals": 4,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 86 OVR based on 1990 World Cup performance for Spain (Round of 16). Main pillar starting 4 match(es). Scored 4 goal(s)."
+    },
+    {
+      "id": "spain-1990-jos_manuel_ochotorena",
+      "identityId": "P-49442",
+      "squadNumber": 22,
+      "name": "José Manuel Ochotorena",
+      "positionCategory": "goal keeper",
+      "naturalPositions": [
+        "GK"
+      ],
+      "secondaryPositions": [],
+      "ovr": 73,
+      "role": "Reserve Squad",
+      "matchesStarted": 0,
+      "matchesSub": 0,
+      "goals": 0,
+      "awards": [],
+      "hasLegendSeal": false,
+      "ratingRationale": "Rated 73 OVR based on 1990 World Cup performance for Spain (Round of 16). Squad reserve member."
+    }
+  ]
+}
