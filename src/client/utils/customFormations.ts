@@ -75,3 +75,4 @@ export function deleteCustomFormation(id: string): boolean {
     return false;
   }
 }
+

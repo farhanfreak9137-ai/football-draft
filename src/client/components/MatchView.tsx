@@ -78,6 +78,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
   const visualMinute = getVisualMinute(liveMatch.currentSecond);
   const maxVisualMinute = liveMatch.totalDurationSeconds > 45 ? 120 : 90;
+  const isMatchFinished = liveMatch.status === 'completed';
 
   // Compute live & post-match player ratings
   const ratingsData = useMemo(() => {
@@ -172,17 +173,17 @@ export const MatchView: React.FC<MatchViewProps> = ({
   const latestEvent = liveMatch.events[liveMatch.events.length - 1];
   const ballPos = latestEvent?.pitchLocation || { x: 50, y: 50 };
 
-  // Render a single player row for starting lineups & performance tables
-  const renderPlayerRow = (r: PlayerMatchRating, isReportView = false) => (
+  // Render a single player row (showRating=false during simulation, true after full-time)
+  const renderPlayerRow = (r: PlayerMatchRating, showRating = false) => (
     <div
       key={r.playerId}
-      className={`flex items-center justify-between px-3 py-2 rounded-lg border transition-all ${
-        r.isStarOfMatch
-          ? 'bg-gradient-to-r from-amber-950/50 via-tactical-850 to-amber-950/30 border-gold-500/70 shadow-md ring-1 ring-gold-400/30'
-          : 'bg-tactical-900/70 border-tactical-750 hover:bg-tactical-800/80'
+      className={`flex items-center justify-between px-2.5 py-1.5 rounded-lg border text-xs transition-all ${
+        showRating && r.isStarOfMatch
+          ? 'bg-amber-950/30 border-gold-500/60 ring-1 ring-gold-400/30'
+          : 'bg-tactical-900/60 border-tactical-750 hover:bg-tactical-800/70'
       }`}
     >
-      <div className="flex items-center gap-2 min-w-0 mr-2 flex-1">
+      <div className="flex items-center gap-1.5 min-w-0 mr-2 flex-1">
         <span
           className={`font-mono text-[10px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${getPositionPillClass(
             r.position
@@ -196,9 +197,9 @@ export const MatchView: React.FC<MatchViewProps> = ({
         <span className="font-medium text-xs text-tactical-100 truncate">
           {r.name}
         </span>
-        {r.isStarOfMatch && (
+        {showRating && r.isStarOfMatch && (
           <span
-            className="text-gold-400 font-bold text-xs shrink-0 flex items-center gap-0.5"
+            className="text-gold-400 font-bold text-xs shrink-0 flex items-center"
             title="Star of the Match"
           >
             ★
@@ -241,7 +242,8 @@ export const MatchView: React.FC<MatchViewProps> = ({
               <span className="inline-block w-2 h-3 bg-red-500 rounded-xs border border-red-200"></span>
             </span>
           )}
-          {r.stats.cleanSheet &&
+          {showRating &&
+            r.stats.cleanSheet &&
             (r.position === 'GK' ||
               ['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(r.position)) && (
               <span className="text-[11px] text-emerald-400" title="Clean Sheet Maintained">
@@ -258,15 +260,17 @@ export const MatchView: React.FC<MatchViewProps> = ({
           {r.ovr}
         </span>
 
-        {/* Match Rating Pill */}
-        <span
-          className={`font-mono text-xs px-2 py-0.5 rounded font-bold ${getRatingBadgeClass(
-            r.rating
-          )}`}
-          title={`Match Rating: ${r.rating.toFixed(1)} / 10.0`}
-        >
-          {r.rating.toFixed(1)}
-        </span>
+        {/* Match Rating Pill - ONLY shown when showRating is true (after match ends) */}
+        {showRating && (
+          <span
+            className={`font-mono text-xs px-2 py-0.5 rounded font-bold ${getRatingBadgeClass(
+              r.rating
+            )}`}
+            title={`Match Rating: ${r.rating.toFixed(1)} / 10.0`}
+          >
+            {r.rating.toFixed(1)}
+          </span>
+        )}
       </div>
     </div>
   );
@@ -385,26 +389,12 @@ export const MatchView: React.FC<MatchViewProps> = ({
           }`}
         >
           <Users className="w-3.5 h-3.5 text-blue-400" />
-          <span>Both Lineups (22)</span>
+          <span>{isMatchFinished ? 'Match Ratings' : 'Both Lineups (22)'}</span>
         </button>
-
-        {liveMatch.status === 'completed' && (
-          <button
-            onClick={() => setActiveTab('report')}
-            className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
-              activeTab === 'report'
-                ? 'bg-gold-500/20 text-gold-300 shadow-sm border border-gold-500/50'
-                : 'text-tactical-400 hover:text-tactical-200'
-            }`}
-          >
-            <Award className="w-3.5 h-3.5 text-gold-400" />
-            <span>Ratings Report</span>
-          </button>
-        )}
       </div>
 
       {/* Main Simulation View: 2D Pitch & Distinct Highlights Feed */}
-      {(activeTab === 'pitch' || activeTab === 'lineups') && (
+      {activeTab === 'pitch' && (
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {/* 2D Pitch Visualizer (7 cols) */}
           <div className="lg:col-span-7 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col justify-between">
@@ -441,15 +431,27 @@ export const MatchView: React.FC<MatchViewProps> = ({
               </div>
 
               {/* Distinct Visual Pitch Animations */}
-              {/* 1. Goal Event: Glowing Emerald Burst & Bounce Badge */}
+              {/* 1. Goal Event: Distinctly styled by scoring team (Host = Emerald, Guest = Orange) */}
               {latestEvent && latestEvent.type === 'goal' && (
                 <div
                   className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center"
                   style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
                 >
-                  <div className="w-16 h-16 rounded-full border-4 border-emerald-400 shadow-[0_0_25px_rgba(52,211,153,0.9)] animate-ping" />
-                  <span className="font-mono font-black text-xs px-2 py-0.5 rounded bg-emerald-500 text-tactical-950 shadow-lg uppercase tracking-wider mt-1 animate-bounce">
-                    ⚽ GOAL!
+                  <div
+                    className={`w-16 h-16 rounded-full border-4 animate-ping ${
+                      latestEvent.team === 'host'
+                        ? 'border-emerald-400 shadow-[0_0_25px_rgba(52,211,153,0.9)]'
+                        : 'border-orange-400 shadow-[0_0_25px_rgba(249,115,22,0.9)]'
+                    }`}
+                  />
+                  <span
+                    className={`font-mono font-black text-xs px-2.5 py-0.5 rounded shadow-lg uppercase tracking-wider mt-1 animate-bounce ${
+                      latestEvent.team === 'host'
+                        ? 'bg-emerald-500 text-tactical-950'
+                        : 'bg-orange-500 text-white'
+                    }`}
+                  >
+                    ⚽ {latestEvent.team === 'host' ? hostName : guestName} GOAL!
                   </span>
                 </div>
               )}
@@ -491,13 +493,15 @@ export const MatchView: React.FC<MatchViewProps> = ({
               </div>
             </div>
 
-            {/* Active Highlight Banner (Differentiated by event type) */}
+            {/* Active Highlight Banner (Differentiated by event & scoring team) */}
             <div
               className={`mt-3 p-2.5 rounded-lg border text-xs flex items-center gap-2.5 transition-all shadow-md ${
                 latestEvent?.type === 'goal'
-                  ? 'bg-emerald-950/90 border-emerald-400 text-emerald-100 ring-2 ring-emerald-400/50'
+                  ? latestEvent.team === 'host'
+                    ? 'bg-emerald-950/90 border-emerald-400 text-emerald-100 ring-2 ring-emerald-400/50'
+                    : 'bg-orange-950/90 border-orange-400 text-orange-100 ring-2 ring-orange-400/50'
                   : latestEvent?.type === 'yellow_card'
-                  ? 'bg-amber-950/90 border-amber-400 text-amber-100 ring-2 ring-amber-400/40'
+                  ? 'bg-amber-950/90 border-yellow-400 text-yellow-100 ring-2 ring-yellow-400/40'
                   : latestEvent?.type === 'red_card'
                   ? 'bg-red-950/90 border-red-400 text-red-100'
                   : latestEvent?.type === 'save'
@@ -510,8 +514,14 @@ export const MatchView: React.FC<MatchViewProps> = ({
               </span>
               <div className="flex items-center gap-2 min-w-0 flex-1">
                 {latestEvent?.type === 'goal' && (
-                  <span className="px-2 py-0.5 rounded bg-emerald-500 text-tactical-950 font-black font-mono text-[11px] uppercase tracking-wider shrink-0 animate-pulse">
-                    ⚽ GOAL!
+                  <span
+                    className={`px-2 py-0.5 rounded font-black font-mono text-[11px] uppercase tracking-wider shrink-0 animate-pulse ${
+                      latestEvent.team === 'host'
+                        ? 'bg-emerald-500 text-tactical-950'
+                        : 'bg-orange-500 text-white'
+                    }`}
+                  >
+                    ⚽ {latestEvent.team === 'host' ? `${hostName} GOAL!` : `${guestName} GOAL!`}
                   </span>
                 )}
                 {latestEvent?.type === 'yellow_card' && (
@@ -557,21 +567,27 @@ export const MatchView: React.FC<MatchViewProps> = ({
                     key={ev.id}
                     className={`p-2.5 rounded-lg border transition-all ${
                       ev.type === 'goal'
-                        ? 'bg-emerald-950/85 border-2 border-emerald-400 text-emerald-100 shadow-[0_0_15px_rgba(16,185,129,0.25)] ring-1 ring-emerald-400/40'
+                        ? ev.team === 'host'
+                          ? 'bg-emerald-950/85 border-2 border-emerald-400 text-emerald-100 shadow-[0_0_15px_rgba(16,185,129,0.25)] ring-1 ring-emerald-400/40'
+                          : 'bg-orange-950/85 border-2 border-orange-400 text-orange-100 shadow-[0_0_15px_rgba(249,115,22,0.25)] ring-1 ring-orange-400/40'
                         : ev.type === 'save'
                         ? 'bg-cyan-950/60 border-2 border-cyan-400 text-cyan-100 shadow-sm'
                         : ev.type === 'red_card'
                         ? 'bg-red-950/70 border-2 border-red-500 text-red-100 shadow-sm'
                         : ev.type === 'yellow_card'
-                        ? 'bg-amber-950/60 border-2 border-yellow-400 text-amber-100 shadow-[0_0_12px_rgba(250,204,21,0.2)]'
+                        ? 'bg-amber-950/60 border-2 border-yellow-400 text-yellow-100 shadow-[0_0_12px_rgba(250,204,21,0.2)]'
                         : 'bg-tactical-900/60 border-tactical-750 text-tactical-300'
                     }`}
                   >
                     <div className="flex items-center justify-between text-[11px] font-mono mb-1">
                       <span className="font-bold flex items-center gap-1.5">
                         {ev.type === 'goal' && (
-                          <span className="text-emerald-300 font-extrabold flex items-center gap-1">
-                            ⚽ GOAL!
+                          <span
+                            className={`font-extrabold flex items-center gap-1 ${
+                              ev.team === 'host' ? 'text-emerald-300' : 'text-orange-300'
+                            }`}
+                          >
+                            ⚽ {ev.team === 'host' ? `${hostName} GOAL!` : `${guestName} GOAL!`}
                           </span>
                         )}
                         {ev.type === 'save' && (
@@ -611,23 +627,54 @@ export const MatchView: React.FC<MatchViewProps> = ({
         </div>
       )}
 
-      {/* Both Teams On-Pitch Lineup Display (Visible while simulation is running!) */}
+      {/* Starting Lineups (Simulation In Progress) OR Minimalistic Match Ratings (Full-Time) */}
       {ratingsData && (
-        <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 shadow-xl space-y-3">
+        <div
+          className={`bg-tactical-850 rounded-xl p-4 shadow-xl space-y-3 transition-all ${
+            isMatchFinished
+              ? 'border border-gold-500/50 shadow-[0_0_20px_rgba(234,179,8,0.1)]'
+              : 'border border-tactical-700/80'
+          }`}
+        >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-2.5 border-b border-tactical-700/70 gap-2">
-            <h4 className="text-sm font-bold text-tactical-100 flex items-center gap-2">
-              <Users className="w-4 h-4 text-blue-400" />
-              <span>{messages.match.startingLineups} (22 Players)</span>
-            </h4>
-            <div className="flex items-center gap-3 text-xs font-mono">
-              <span className="text-tactical-300">
-                {hostName} Avg: <strong className="text-emerald-400 font-bold">{hostAvgRating}</strong>
-              </span>
-              <span className="text-tactical-600">•</span>
-              <span className="text-tactical-300">
-                {guestName} Avg: <strong className="text-emerald-400 font-bold">{guestAvgRating}</strong>
-              </span>
+            <div className="flex items-center gap-2 flex-wrap">
+              {isMatchFinished ? (
+                <>
+                  <Trophy className="w-4 h-4 text-gold-400" />
+                  <h4 className="text-sm font-bold text-tactical-100">
+                    {messages.match.playerRatingsReport}
+                  </h4>
+                  {ratingsData.starOfMatch && (
+                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-gold-400/15 border border-gold-400/40 text-gold-300 font-mono text-xs font-bold">
+                      ★ Star: {ratingsData.starOfMatch.name} ({ratingsData.starOfMatch.rating.toFixed(1)})
+                    </span>
+                  )}
+                </>
+              ) : (
+                <>
+                  <Users className="w-4 h-4 text-blue-400" />
+                  <h4 className="text-sm font-bold text-tactical-100">
+                    {messages.match.startingLineups} (22 Players)
+                  </h4>
+                </>
+              )}
             </div>
+
+            {isMatchFinished ? (
+              <div className="flex items-center gap-3 text-xs font-mono">
+                <span className="text-tactical-300">
+                  {hostName} Avg: <strong className="text-emerald-400 font-bold">{hostAvgRating}</strong>
+                </span>
+                <span className="text-tactical-600">•</span>
+                <span className="text-tactical-300">
+                  {guestName} Avg: <strong className="text-emerald-400 font-bold">{guestAvgRating}</strong>
+                </span>
+              </div>
+            ) : (
+              <span className="text-xs font-mono text-tactical-400">
+                Match In Progress
+              </span>
+            )}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -638,11 +685,17 @@ export const MatchView: React.FC<MatchViewProps> = ({
                   {hostName} ({hostDraft.formation.name})
                 </span>
                 <span className="text-tactical-400 font-mono text-[11px] capitalize">
-                  {hostDraft.strategy}
+                  {isMatchFinished ? (
+                    <>
+                      Avg: <strong className="text-emerald-400">{hostAvgRating}</strong>
+                    </>
+                  ) : (
+                    hostDraft.strategy
+                  )}
                 </span>
               </div>
               <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
-                {ratingsData.hostRatings.map((r) => renderPlayerRow(r))}
+                {ratingsData.hostRatings.map((r) => renderPlayerRow(r, isMatchFinished))}
               </div>
             </div>
 
@@ -653,11 +706,17 @@ export const MatchView: React.FC<MatchViewProps> = ({
                   {guestName} ({guestDraft?.formation.name || '4-3-3'})
                 </span>
                 <span className="text-tactical-400 font-mono text-[11px] capitalize">
-                  {guestDraft?.strategy || 'balanced'}
+                  {isMatchFinished ? (
+                    <>
+                      Avg: <strong className="text-emerald-400">{guestAvgRating}</strong>
+                    </>
+                  ) : (
+                    guestDraft?.strategy || 'balanced'
+                  )}
                 </span>
               </div>
               <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
-                {ratingsData.guestRatings.map((r) => renderPlayerRow(r))}
+                {ratingsData.guestRatings.map((r) => renderPlayerRow(r, isMatchFinished))}
               </div>
             </div>
           </div>
@@ -773,125 +832,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
         </div>
       )}
 
-      {/* Post-Match Ratings & Performance Report (When match is completed or tab active) */}
-      {liveMatch.status === 'completed' && ratingsData && (
-        <div className="bg-tactical-850 border border-gold-500/60 rounded-xl p-5 shadow-2xl space-y-5">
-          {/* Header */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-tactical-700/80 gap-3">
-            <div>
-              <h3 className="text-lg font-bold text-tactical-100 flex items-center gap-2">
-                <Trophy className="w-5 h-5 text-gold-400" />
-                <span>{messages.match.playerRatingsReport}</span>
-              </h3>
-              <p className="text-xs text-tactical-400 mt-0.5">
-                Authentic match evaluation based on goals, saves, assists, clean sheets, and tactical impact.
-              </p>
-            </div>
-            <div className="flex items-center gap-3 bg-tactical-900 px-3.5 py-1.5 rounded-lg border border-tactical-700 text-xs font-mono">
-              <div>
-                {hostName}: <strong className="text-emerald-400 font-bold">{hostAvgRating}</strong>
-              </div>
-              <span className="text-tactical-600">vs</span>
-              <div>
-                {guestName}: <strong className="text-emerald-400 font-bold">{guestAvgRating}</strong>
-              </div>
-            </div>
-          </div>
 
-          {/* Star of the Match Spotlight Card */}
-          {ratingsData.starOfMatch && (
-            <div className="bg-gradient-to-r from-amber-950/70 via-tactical-900 to-amber-950/50 border-2 border-gold-400/90 rounded-xl p-4 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div className="flex items-center gap-3.5 min-w-0">
-                <div className="w-12 h-12 rounded-full bg-gold-400/20 border-2 border-gold-400 flex items-center justify-center text-gold-400 text-2xl font-bold shrink-0 shadow-lg animate-pulse">
-                  ★
-                </div>
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="px-2 py-0.5 rounded bg-gold-400/20 border border-gold-400 text-gold-300 font-mono text-[10px] font-bold uppercase tracking-wider">
-                      {messages.match.starOfMatch}
-                    </span>
-                    <span className="text-xs text-tactical-400 font-mono">
-                      {ratingsData.starOfMatch.team === 'host' ? hostName : guestName}
-                    </span>
-                  </div>
-                  <h4 className="text-lg font-bold text-tactical-100 mt-0.5">
-                    #{ratingsData.starOfMatch.squadNumber} {ratingsData.starOfMatch.name}{' '}
-                    <span className="text-xs font-normal text-tactical-400">
-                      ({ratingsData.starOfMatch.position})
-                    </span>
-                  </h4>
-                  <p className="text-xs text-gold-300/90 font-medium mt-0.5">
-                    {ratingsData.starOfMatch.summary}
-                  </p>
-                </div>
-              </div>
-
-              <div className="text-center sm:text-right shrink-0 bg-tactical-950/80 px-4 py-2 rounded-lg border border-gold-500/40">
-                <div className="text-[10px] uppercase font-mono text-tactical-400 font-semibold tracking-wider">
-                  Match Rating
-                </div>
-                <div className="font-mono text-3xl font-black text-gold-400">
-                  {ratingsData.starOfMatch.rating.toFixed(1)}
-                  <span className="text-xs font-normal text-tactical-400">/10</span>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Full Squad Ratings Side-by-Side */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {/* Host Ratings */}
-            <div className="space-y-2">
-              <div className="flex items-center justify-between pb-2 border-b border-tactical-750">
-                <h5 className="font-bold text-sm text-tactical-100 flex items-center gap-2">
-                  <span>{hostName}</span>
-                  <span className="font-mono text-xs text-emerald-400 font-bold bg-tactical-900 px-2 py-0.5 rounded border border-tactical-750">
-                    Ø {hostAvgRating}
-                  </span>
-                </h5>
-                <span className="font-mono text-xs text-tactical-400">
-                  {hostDraft.formation.name}
-                </span>
-              </div>
-              <div className="space-y-2">
-                {ratingsData.hostRatings.map((r) => (
-                  <div key={r.playerId} className="space-y-1">
-                    {renderPlayerRow(r, true)}
-                    <div className="text-[10px] text-tactical-400 pl-2 italic truncate">
-                      {r.summary}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Guest Ratings */}
-            <div className="space-y-2">
-              <div className="flex items-center justify-between pb-2 border-b border-tactical-750">
-                <h5 className="font-bold text-sm text-tactical-100 flex items-center gap-2">
-                  <span>{guestName}</span>
-                  <span className="font-mono text-xs text-emerald-400 font-bold bg-tactical-900 px-2 py-0.5 rounded border border-tactical-750">
-                    Ø {guestAvgRating}
-                  </span>
-                </h5>
-                <span className="font-mono text-xs text-tactical-400">
-                  {guestDraft?.formation.name || '4-3-3'}
-                </span>
-              </div>
-              <div className="space-y-2">
-                {ratingsData.guestRatings.map((r) => (
-                  <div key={r.playerId} className="space-y-1">
-                    {renderPlayerRow(r, true)}
-                    <div className="text-[10px] text-tactical-400 pl-2 italic truncate">
-                      {r.summary}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Match Statistics Grid */}
       <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-4">

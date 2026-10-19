@@ -862,3 +862,4 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
     </div>
   );
 };
+
