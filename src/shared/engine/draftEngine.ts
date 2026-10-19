@@ -24,8 +24,9 @@ export class DraftEngine {
     playerName: string;
     poolType: PoolType;
     formationId?: string;
+    customFormation?: FormationDefinition;
   }): PlayerDraftState {
-    const formation = FORMATIONS[params.formationId || '4-3-3'] || FORMATIONS['4-3-3'];
+    const formation = params.customFormation || FORMATIONS[params.formationId || '4-3-3'] || FORMATIONS['4-3-3'];
     return {
       seatId: params.seatId,
       playerId: params.playerId,

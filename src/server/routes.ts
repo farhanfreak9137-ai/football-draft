@@ -77,7 +77,7 @@ export function createApiRouter(
   // Create room
   router.post('/rooms/create', async (req: Request, res: Response) => {
     try {
-      const { mode, poolType, hostName, formationId, matchFormat } = req.body;
+      const { mode, poolType, hostName, formationId, customFormation, matchFormat } = req.body;
       if (!mode || !poolType) {
         res.status(400).json({ success: false, error: 'mode and poolType are required' });
         return;
@@ -87,6 +87,7 @@ export function createApiRouter(
         poolType,
         hostName: hostName || 'Host Manager',
         formationId,
+        customFormation,
         matchFormat,
       });
       res.json({
@@ -103,7 +104,7 @@ export function createApiRouter(
   // Join room
   router.post('/rooms/join', async (req: Request, res: Response) => {
     try {
-      const { roomCode, guestName, formationId } = req.body;
+      const { roomCode, guestName, formationId, customFormation } = req.body;
       if (!roomCode) {
         res.status(400).json({ success: false, error: 'roomCode is required' });
         return;
@@ -112,6 +113,7 @@ export function createApiRouter(
         roomCode,
         guestName: guestName || 'Challenger',
         formationId,
+        customFormation,
       });
       getWsHandler?.()?.broadcastRoom(result.room.roomCode, result.room);
       res.json({

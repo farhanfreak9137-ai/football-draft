@@ -32,6 +32,7 @@ export interface FormationDefinition {
   name: string; // "4-3-3", "4-4-2", "4-2-3-1", "3-5-2"
   description: string;
   slots: FormationSlot[];
+  isCustom?: boolean;
 }
 
 export type Strategy = 'attacking' | 'balanced' | 'defensive';

@@ -1,6 +1,7 @@
 import crypto from 'crypto';
 import {
   DraftTurn,
+  FormationDefinition,
   MatchSimulationState,
   PlayerDraftState,
   PoolType,
@@ -40,6 +41,7 @@ export class RoomManager {
     poolType: PoolType;
     hostName: string;
     formationId?: string;
+    customFormation?: FormationDefinition;
     matchFormat?: 'auto' | 'normal' | 'knockout';
   }): Promise<{ room: RoomState; hostToken: string; guestToken?: string }> {
     const roomCode = this.generateRoomCode();
@@ -53,6 +55,7 @@ export class RoomManager {
       playerName: params.hostName.trim() || 'Host Manager',
       poolType: params.poolType,
       formationId: params.formationId,
+      customFormation: params.customFormation,
     });
 
     let guestDraft: PlayerDraftState | undefined;
@@ -120,6 +123,7 @@ export class RoomManager {
     roomCode: string;
     guestName: string;
     formationId?: string;
+    customFormation?: FormationDefinition;
   }): Promise<{ room: RoomState; guestToken: string }> {
     const room = await this.db.getRoom(params.roomCode.toUpperCase());
     if (!room) {
@@ -143,6 +147,7 @@ export class RoomManager {
       playerName: params.guestName.trim() || 'Challenger',
       poolType: room.poolType,
       formationId: params.formationId,
+      customFormation: params.customFormation,
     });
 
     room.guestSeat = {
