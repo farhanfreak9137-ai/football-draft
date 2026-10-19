@@ -238,11 +238,11 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
                   <div className="flex items-center justify-between">
                     <span className="font-bold text-sm text-tactical-100">Clubs</span>
                     <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-tactical-700 text-tactical-300">
-                      20 Editions (1959 - 2023)
+                      37 Editions (1990 - 2026)
                     </span>
                   </div>
                   <div className="text-xs text-tactical-400 mt-1">
-                    Real Madrid 1959-60, Ajax 1971-72, Milan 1988-89, Barca 2010-11, Man City 2022-23.
+                    Madrid 2016-17, Barca 2008-09, Milan 2004-05, Man Utd 1998-99, City 2022-23, Leverkusen 2023-24.
                   </div>
                 </button>
               </div>
