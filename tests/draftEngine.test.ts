@@ -1,5 +1,13 @@
 import { describe, it, expect } from 'vitest';
-import { FORMATIONS, isPlayerEligibleForSlot } from '../src/shared/constants/formations.js';
+import {
+  FORMATIONS,
+  isPlayerEligibleForSlot,
+  validateCustomFormation,
+  generateFormationFromLines,
+  calculatePositionFromCoordinates,
+  findClosestSnapNode,
+  ARCHETYPE_TEMPLATES,
+} from '../src/shared/constants/formations.js';
 import { DraftEngine } from '../src/shared/engine/draftEngine.js';
 import { PRNG } from '../src/shared/engine/prng.js';
 import { PlayerVersion, TeamEdition } from '../src/shared/types/index.js';
@@ -308,6 +316,170 @@ describe('DraftEngine & Formation Rules', () => {
       expect(edition.id).not.toBe(hostEditionId);
     }
   });
+
+  describe('Custom Formation Studio & Tactical Engine', () => {
+    it('validates custom formations: enforces exactly 11 players, 1 GK, 3-5 DEF, 2-6 MID, 1-4 FWD', () => {
+      // 1. Valid 4-3-3 preset slots
+      const validCheck = validateCustomFormation(FORMATIONS['4-3-3'].slots);
+      expect(validCheck.valid).toBe(true);
+      expect(validCheck.derivedName).toBe('4-3-3');
+      expect(validCheck.counts).toEqual({ gk: 1, def: 4, mid: 3, fwd: 3 });
+
+      // 2. Reject if player count != 11
+      const tenPlayers = FORMATIONS['4-3-3'].slots.slice(0, 10);
+      const invalidCount = validateCustomFormation(tenPlayers);
+      expect(invalidCount.valid).toBe(false);
+      expect(invalidCount.reason).toMatch(/exactly 11 players/i);
+
+      // 3. Reject if 0 or >1 Goalkeepers
+      const noGK = FORMATIONS['4-3-3'].slots.map((s) => (s.group === 'GK' ? { ...s, group: 'DEF' as const, defaultPosition: 'CB' as const } : s));
+      const invalidGK = validateCustomFormation(noGK);
+      expect(invalidGK.valid).toBe(false);
+      expect(invalidGK.reason).toMatch(/exactly 1 Goalkeeper/i);
+
+      // 4. Reject if DEF < 3 or > 5
+      const twoDef = generateFormationFromLines(2, 5, 3);
+      const invalidDef = validateCustomFormation(twoDef.slots);
+      expect(invalidDef.valid).toBe(false);
+      expect(invalidDef.reason).toMatch(/between 3 and 5 Defenders/i);
+
+      // 5. Reject if MID < 2 or > 6
+      const oneMid = generateFormationFromLines(5, 1, 4);
+      const invalidMid = validateCustomFormation(oneMid.slots);
+      expect(invalidMid.valid).toBe(false);
+      expect(invalidMid.reason).toMatch(/between 2 and 6 Midfielders/i);
+
+      // 6. Reject if FWD < 1 or > 4
+      const zeroFwd = generateFormationFromLines(5, 5, 0);
+      const invalidFwd = validateCustomFormation(zeroFwd.slots);
+      expect(invalidFwd.valid).toBe(false);
+      expect(invalidFwd.reason).toMatch(/between 1 and 4 Forwards/i);
+    });
+
+    it('generates proportional, balanced formations from line counts (stepper mode)', () => {
+      const custom343 = generateFormationFromLines(3, 4, 3, 'My 3-4-3 Attack');
+      expect(custom343.id).toBeDefined();
+      expect(custom343.name).toBe('My 3-4-3 Attack');
+      expect(custom343.isCustom).toBe(true);
+      expect(custom343.slots.length).toBe(11);
+
+      const val = validateCustomFormation(custom343.slots);
+      expect(val.valid).toBe(true);
+      expect(val.derivedName).toBe('3-4-3');
+      expect(val.counts.def).toBe(3);
+      expect(val.counts.mid).toBe(4);
+      expect(val.counts.fwd).toBe(3);
+
+      // Check slot eligible positions are assigned
+      for (const slot of custom343.slots) {
+        expect(slot.eligiblePositions.length).toBeGreaterThan(0);
+        expect(slot.coordinates.x).toBeGreaterThanOrEqual(5);
+        expect(slot.coordinates.x).toBeLessThanOrEqual(95);
+        expect(slot.coordinates.y).toBeGreaterThanOrEqual(8);
+        expect(slot.coordinates.y).toBeLessThanOrEqual(95);
+      }
+    });
+
+    it('dynamically auto-morphs position roles and groups from pitch coordinates (free drag mode)', () => {
+      // GK in deep defensive box
+      const gk = calculatePositionFromCoordinates(50, 92);
+      expect(gk.position).toBe('GK');
+      expect(gk.group).toBe('GK');
+
+      // Left Back
+      const lb = calculatePositionFromCoordinates(15, 78);
+      expect(lb.position).toBe('LB');
+      expect(lb.group).toBe('DEF');
+
+      // Center Back
+      const cb = calculatePositionFromCoordinates(50, 78);
+      expect(cb.position).toBe('CB');
+      expect(cb.group).toBe('DEF');
+
+      // Defensive Pivot
+      const cdm = calculatePositionFromCoordinates(50, 62);
+      expect(cdm.position).toBe('CDM');
+      expect(cdm.group).toBe('MID');
+
+      // Central Midfielder
+      const cm = calculatePositionFromCoordinates(50, 48);
+      expect(cm.position).toBe('CM');
+      expect(cm.group).toBe('MID');
+
+      // Attacking Midfielder
+      const cam = calculatePositionFromCoordinates(50, 36);
+      expect(cam.position).toBe('CAM');
+      expect(cam.group).toBe('MID');
+
+      // Left Winger
+      const lw = calculatePositionFromCoordinates(18, 20);
+      expect(lw.position).toBe('LW');
+      expect(lw.group).toBe('FWD');
+
+      // Center Forward / Striker
+      const st = calculatePositionFromCoordinates(50, 16);
+      expect(st.position).toBe('ST');
+      expect(st.group).toBe('FWD');
+    });
+
+    it('magnetically snaps coordinates to closest tactical snap node (snap mode)', () => {
+      // Near node-cdm-c (50, 64)
+      const snapped = findClosestSnapNode(51, 63, 9);
+      expect(snapped).not.toBeNull();
+      expect(snapped?.id).toBe('node-cdm-c');
+      expect(snapped?.position).toBe('CDM');
+
+      // Too far from any node with threshold 3
+      const notSnapped = findClosestSnapNode(1, 1, 3);
+      expect(notSnapped).toBeNull();
+    });
+
+    it('initializes DraftState with custom formation and successfully executes pick into custom slot', () => {
+      const customSetup = generateFormationFromLines(4, 2, 4, '4-2-4 Brazil Overload');
+
+      const draftState = DraftEngine.createInitialDraftState({
+        seatId: 'host',
+        playerId: 'user-1',
+        playerName: 'Manager Overload',
+        poolType: 'national',
+        formationId: customSetup.id,
+        customFormation: customSetup,
+      });
+
+      expect(draftState.formation.id).toBe(customSetup.id);
+      expect(draftState.formation.isCustom).toBe(true);
+      expect(draftState.formation.slots.length).toBe(11);
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(11);
+
+      // Find striker slot in custom setup
+      const fwdSlot = customSetup.slots.find((s) => s.group === 'FWD')!;
+      expect(fwdSlot).toBeDefined();
+
+      const pele = allPlayers.find((p) => p.name.includes('Pelé'))!;
+      expect(pele).toBeDefined();
+
+      // Legal pick into custom forward slot
+      const updated = DraftEngine.pickPlayer(
+        draftState,
+        pele.id,
+        fwdSlot.id,
+        allPlayers
+      );
+
+      expect(updated.draftedSlots[fwdSlot.id]).toBeDefined();
+      expect(updated.draftedSlots[fwdSlot.id].player.name).toContain('Pelé');
+      expect(DraftEngine.getOpenSlots(updated).map((s) => s.id)).not.toContain(fwdSlot.id);
+    });
+
+    it('all 10 archetype templates are structurally valid formations', () => {
+      expect(ARCHETYPE_TEMPLATES.length).toBeGreaterThanOrEqual(10);
+      for (const tmpl of ARCHETYPE_TEMPLATES) {
+        const val = validateCustomFormation(tmpl.slots);
+        expect(val.valid).toBe(true);
+      }
+    });
+  });
 });
+
 
 

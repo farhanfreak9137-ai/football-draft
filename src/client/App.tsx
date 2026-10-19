@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import {
+  FormationDefinition,
   FormationSlot,
   MatchSimulationState,
   PlayerVersion,
@@ -20,6 +21,7 @@ import {
   startMatch,
 } from './services/api.js';
 import { soundManager } from './utils/audio.js';
+import { getCustomFormations } from './utils/customFormations.js';
 import { messages } from './i18n/messages.js';
 import { LobbyView } from './components/LobbyView.js';
 import { TacticalPitch } from './components/TacticalPitch.js';
@@ -27,6 +29,7 @@ import { RosterList } from './components/RosterList.js';
 import { MatchView } from './components/MatchView.js';
 import { TimerCountdown } from './components/TimerCountdown.js';
 import { SettingsModal } from './components/SettingsModal.js';
+import { FormationStudioModal } from './components/FormationStudioModal.js';
 import {
   Users,
   Copy,
@@ -44,9 +47,19 @@ import {
 export const App: React.FC = () => {
   // Navigation & Modals
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [isFormationStudioOpen, setIsFormationStudioOpen] = useState(false);
+  const [customFormations, setCustomFormations] = useState<FormationDefinition[]>([]);
+  const [selectedCustomFormation, setSelectedCustomFormation] = useState<FormationDefinition | null>(null);
   const [copiedCode, setCopiedCode] = useState(false);
   const [loading, setLoading] = useState(false);
   const [errorNotice, setErrorNotice] = useState<string | null>(null);
+
+  // Load saved custom formations on initial render
+  useEffect(() => {
+    try {
+      setCustomFormations(getCustomFormations());
+    } catch (e) {}
+  }, []);
 
   // Active Game State
   const [room, setRoom] = useState<RoomState | null>(null);
@@ -213,11 +226,19 @@ export const App: React.FC = () => {
     formationId: string;
     strategy: Strategy;
     matchFormat: 'auto' | 'normal' | 'knockout';
+    customFormation?: FormationDefinition;
   }) => {
     try {
       setLoading(true);
       setErrorNotice(null);
-      const res = await createRoom(params);
+      const res = await createRoom({
+        ...params,
+        customFormation:
+          params.customFormation ||
+          (selectedCustomFormation && params.formationId === selectedCustomFormation.id
+            ? selectedCustomFormation
+            : undefined),
+      });
       setRoom(res.room);
       setMySeat('host');
       setToken(res.hostToken);
@@ -234,11 +255,19 @@ export const App: React.FC = () => {
     guestName: string;
     formationId: string;
     strategy: Strategy;
+    customFormation?: FormationDefinition;
   }) => {
     try {
       setLoading(true);
       setErrorNotice(null);
-      const res = await joinRoom(params);
+      const res = await joinRoom({
+        ...params,
+        customFormation:
+          params.customFormation ||
+          (selectedCustomFormation && params.formationId === selectedCustomFormation.id
+            ? selectedCustomFormation
+            : undefined),
+      });
       setRoom(res.room);
       setMySeat('guest');
       setToken(res.guestToken);
@@ -435,6 +464,10 @@ export const App: React.FC = () => {
             onCreateRoom={handleCreateRoom}
             onJoinRoom={handleJoinRoom}
             onOpenSettings={() => setIsSettingsOpen(true)}
+            onOpenFormationStudio={() => setIsFormationStudioOpen(true)}
+            customFormations={customFormations}
+            selectedCustomFormation={selectedCustomFormation}
+            onSelectCustomFormation={(f) => setSelectedCustomFormation(f)}
             loading={loading}
           />
         )}
@@ -686,6 +719,18 @@ export const App: React.FC = () => {
 
       {/* Modals */}
       <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
+      <FormationStudioModal
+        isOpen={isFormationStudioOpen}
+        onClose={() => {
+          setIsFormationStudioOpen(false);
+          setCustomFormations(getCustomFormations());
+        }}
+        onSelectFormation={(custom) => {
+          setSelectedCustomFormation(custom);
+          setCustomFormations(getCustomFormations());
+        }}
+        initialFormation={selectedCustomFormation}
+      />
     </div>
   );
 };

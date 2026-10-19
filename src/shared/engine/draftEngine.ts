@@ -1,5 +1,6 @@
 import {
   FormationDefinition,
+  FormationSlot,
   PlayerDraftState,
   PlayerVersion,
   PoolType,
@@ -58,9 +59,7 @@ export class DraftEngine {
     }
 
     // 2. Check if there is an open slot that accepts any of the player's natural or secondary positions
-    const openSlots = draftState.formation.slots.filter(
-      (slot) => !draftState.draftedSlots[slot.id]
-    );
+    const openSlots = this.getOpenSlots(draftState);
 
     const matchingSlotIds = openSlots
       .filter((slot) => isPlayerEligibleForSlot(player, slot))
@@ -70,6 +69,15 @@ export class DraftEngine {
       eligible: matchingSlotIds.length > 0,
       openSlotIds: matchingSlotIds,
     };
+  }
+
+  /**
+   * Returns all currently open (undrafted) slots for a given draft state.
+   */
+  static getOpenSlots(draftState: PlayerDraftState): FormationSlot[] {
+    return draftState.formation.slots.filter(
+      (slot) => !draftState.draftedSlots[slot.id]
+    );
   }
 
   /**

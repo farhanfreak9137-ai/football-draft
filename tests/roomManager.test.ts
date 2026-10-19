@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { RoomManager } from '../src/server/roomManager.js';
 import { DatabaseService } from '../src/server/db.js';
+import { generateFormationFromLines } from '../src/shared/constants/formations.js';
 
 describe('RoomManager & Multiplayer Security', () => {
   let db: DatabaseService;
@@ -187,6 +188,47 @@ describe('RoomManager & Multiplayer Security', () => {
       matchFormat: 'knockout',
     });
     expect(r3.matchFormat).toBe('knockout');
+  });
+
+  it('supports custom formations in both Solo AI match creation and Multiplayer guest joining', async () => {
+    const customHostFormation = generateFormationFromLines(3, 5, 2, 'Host Custom 3-5-2');
+    const customGuestFormation = generateFormationFromLines(4, 2, 4, 'Guest Custom 4-2-4');
+
+    // 1. Solo match with custom host formation
+    const { room: soloRoom } = await rm.createRoom({
+      mode: 'solo',
+      poolType: 'national',
+      hostName: 'Solo Tactician',
+      formationId: customHostFormation.id,
+      customFormation: customHostFormation,
+    });
+
+    expect(soloRoom.hostDraft.formation.id).toBe(customHostFormation.id);
+    expect(soloRoom.hostDraft.formation.isCustom).toBe(true);
+    expect(soloRoom.hostDraft.formation.slots.length).toBe(11);
+    expect(soloRoom.hostDraft.formation.name).toBe('Host Custom 3-5-2');
+
+    // 2. Multiplayer match where host has custom formation and guest joins with custom formation
+    const { room: mpRoom } = await rm.createRoom({
+      mode: 'multiplayer',
+      poolType: 'club',
+      hostName: 'Multiplayer Host',
+      formationId: customHostFormation.id,
+      customFormation: customHostFormation,
+    });
+    expect(mpRoom.hostDraft.formation.id).toBe(customHostFormation.id);
+    expect(mpRoom.hostDraft.formation.isCustom).toBe(true);
+
+    const { room: joinedRoom } = await rm.joinRoom({
+      roomCode: mpRoom.roomCode,
+      guestName: 'Multiplayer Guest',
+      formationId: customGuestFormation.id,
+      customFormation: customGuestFormation,
+    });
+    expect(joinedRoom.guestDraft.formation.id).toBe(customGuestFormation.id);
+    expect(joinedRoom.guestDraft.formation.isCustom).toBe(true);
+    expect(joinedRoom.guestDraft.formation.slots.length).toBe(11);
+    expect(joinedRoom.guestDraft.formation.name).toBe('Guest Custom 4-2-4');
   });
 });
 

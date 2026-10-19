@@ -490,5 +490,40 @@ export const ELIGIBLE_POSITIONS_MAP: Record<Position, Position[]> = {
        { id: 'st', name: 'Target Striker', group: 'FWD', defaultPosition: 'ST', eligiblePositions: ['ST', 'CF', 'SS'], coordinates: { x: 50, y: 16 } },
      ],
    },
- ];
-
+     {
+      id: '4-3-1-2',
+      name: '4-3-1-2 Narrow Diamond',
+      description: 'Ancelotti-style compact midfield diamond behind dual center forwards.',
+      slots: [
+        { id: 'gk', name: 'Goalkeeper', group: 'GK', defaultPosition: 'GK', eligiblePositions: ['GK'], coordinates: { x: 50, y: 92 } },
+        { id: 'lb', name: 'Left Back', group: 'DEF', defaultPosition: 'LB', eligiblePositions: ['LB', 'LWB'], coordinates: { x: 15, y: 76 } },
+        { id: 'cb1', name: 'Left Center Back', group: 'DEF', defaultPosition: 'CB', eligiblePositions: ['CB'], coordinates: { x: 38, y: 79 } },
+        { id: 'cb2', name: 'Right Center Back', group: 'DEF', defaultPosition: 'CB', eligiblePositions: ['CB'], coordinates: { x: 62, y: 79 } },
+        { id: 'rb', name: 'Right Back', group: 'DEF', defaultPosition: 'RB', eligiblePositions: ['RB', 'RWB'], coordinates: { x: 85, y: 76 } },
+        { id: 'cdm', name: 'Deep Regista', group: 'MID', defaultPosition: 'CDM', eligiblePositions: ['CDM', 'CM'], coordinates: { x: 50, y: 64 } },
+        { id: 'cm1', name: 'Left Mezzala', group: 'MID', defaultPosition: 'CM', eligiblePositions: ['CM', 'CDM'], coordinates: { x: 32, y: 52 } },
+        { id: 'cm2', name: 'Right Mezzala', group: 'MID', defaultPosition: 'CM', eligiblePositions: ['CM', 'CDM'], coordinates: { x: 68, y: 52 } },
+        { id: 'cam', name: 'Apex Trequartista', group: 'MID', defaultPosition: 'CAM', eligiblePositions: ['CAM', 'CM', 'SS'], coordinates: { x: 50, y: 36 } },
+        { id: 'st1', name: 'Left Striker', group: 'FWD', defaultPosition: 'ST', eligiblePositions: ['ST', 'CF', 'SS'], coordinates: { x: 38, y: 18 } },
+        { id: 'st2', name: 'Right Striker', group: 'FWD', defaultPosition: 'ST', eligiblePositions: ['ST', 'CF', 'SS'], coordinates: { x: 62, y: 18 } },
+      ],
+    },
+    {
+      id: '5-2-3',
+      name: '5-2-3 Total Counter',
+      description: 'Ultra-resilient 5-man backline with devastating dynamic 3-man counter-attack.',
+      slots: [
+        { id: 'gk', name: 'Goalkeeper', group: 'GK', defaultPosition: 'GK', eligiblePositions: ['GK'], coordinates: { x: 50, y: 92 } },
+        { id: 'lwb', name: 'Left Wing-Back', group: 'DEF', defaultPosition: 'LWB', eligiblePositions: ['LWB', 'LB'], coordinates: { x: 12, y: 66 } },
+        { id: 'cb1', name: 'Left Center Back', group: 'DEF', defaultPosition: 'CB', eligiblePositions: ['CB'], coordinates: { x: 30, y: 80 } },
+        { id: 'cb2', name: 'Central Sweeper', group: 'DEF', defaultPosition: 'CB', eligiblePositions: ['CB'], coordinates: { x: 50, y: 82 } },
+        { id: 'cb3', name: 'Right Center Back', group: 'DEF', defaultPosition: 'CB', eligiblePositions: ['CB'], coordinates: { x: 70, y: 80 } },
+        { id: 'rwb', name: 'Right Wing-Back', group: 'DEF', defaultPosition: 'RWB', eligiblePositions: ['RWB', 'RB'], coordinates: { x: 88, y: 66 } },
+        { id: 'cm1', name: 'Left Mid Engine', group: 'MID', defaultPosition: 'CM', eligiblePositions: ['CM', 'CDM'], coordinates: { x: 38, y: 52 } },
+        { id: 'cm2', name: 'Right Mid Engine', group: 'MID', defaultPosition: 'CM', eligiblePositions: ['CM', 'CDM'], coordinates: { x: 62, y: 52 } },
+        { id: 'lw', name: 'Left Winger', group: 'FWD', defaultPosition: 'LW', eligiblePositions: ['LW', 'LM'], coordinates: { x: 20, y: 22 } },
+        { id: 'st', name: 'Counter Striker', group: 'FWD', defaultPosition: 'ST', eligiblePositions: ['ST', 'CF'], coordinates: { x: 50, y: 16 } },
+        { id: 'rw', name: 'Right Winger', group: 'FWD', defaultPosition: 'RW', eligiblePositions: ['RW', 'RM'], coordinates: { x: 80, y: 22 } },
+      ],
+    },
+];
