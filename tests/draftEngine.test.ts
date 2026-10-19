@@ -240,5 +240,74 @@ describe('DraftEngine & Formation Rules', () => {
     expect(pick.player.id).toBe('player-a');
     expect(pick.slotId).toBe('st');
   });
+
+  it('enforces match-wide 22 unique players rule across both squads', () => {
+    let hostState = DraftEngine.createInitialDraftState({
+      seatId: 'host',
+      playerId: 'test-host',
+      playerName: 'Manager Host',
+      poolType: 'club',
+      formationId: '4-3-3',
+    });
+
+    let guestState = DraftEngine.createInitialDraftState({
+      seatId: 'guest',
+      playerId: 'test-guest',
+      playerName: 'Manager Guest',
+      poolType: 'club',
+      formationId: '4-3-3',
+    });
+
+    // Find versions of Messi
+    const messi2009 = allPlayers.find((p) => p.id === 'lionel-messi-2009')!;
+    const messi2015 = allPlayers.find((p) => p.id === 'lionel-messi-2015')!;
+
+    // Host picks Messi 2009
+    hostState = DraftEngine.pickPlayer(hostState, messi2009.id, 'rw', allPlayers, guestState.usedIdentityIds);
+    expect(hostState.usedIdentityIds).toContain(messi2009.identityId);
+
+    // Guest drafts with host's used identities excluded
+    // 1. isPlayerDraftable should report ineligible
+    const guestCheck = DraftEngine.isPlayerDraftable(messi2015, guestState, hostState.usedIdentityIds);
+    expect(guestCheck.eligible).toBe(false);
+
+    // 2. pickPlayer must throw error when opponent already drafted that identity
+    expect(() => {
+      DraftEngine.pickPlayer(guestState, messi2015.id, 'rw', allPlayers, hostState.usedIdentityIds);
+    }).toThrow(/already been drafted by the opponent/i);
+
+    // 3. getDeterministicAutoPick must skip Messi 2015 and pick the next best legal player
+    const candidateRoster: PlayerVersion[] = [
+      messi2015,
+      allPlayers.find((p) => p.name.includes('Iniesta')) || allPlayers[0],
+    ];
+    const auto = DraftEngine.getDeterministicAutoPick(guestState, candidateRoster, hostState.usedIdentityIds);
+    expect(auto.player.identityId).not.toBe(messi2009.identityId);
+  });
+
+  it('guarantees AI/opponent never rolls the same team edition as the other player', () => {
+    const guestState = DraftEngine.createInitialDraftState({
+      seatId: 'guest',
+      playerId: 'test-guest',
+      playerName: 'Manager Guest',
+      poolType: 'national',
+      formationId: '4-3-3',
+    });
+
+    const hostEditionId = 'arg-2022';
+    const prng = new PRNG(12345);
+
+    // Roll 100 times excluding hostEditionId
+    for (let i = 0; i < 100; i++) {
+      const { edition } = DraftEngine.rollTeamEdition(
+        guestState,
+        { editions: nationalEditions, players: nationalPlayers },
+        prng,
+        { excludedEditionIds: [hostEditionId] }
+      );
+      expect(edition.id).not.toBe(hostEditionId);
+    }
+  });
 });
+
 

@@ -48,10 +48,11 @@ export class DraftEngine {
    */
   static isPlayerDraftable(
     player: PlayerVersion,
-    draftState: PlayerDraftState
+    draftState: PlayerDraftState,
+    excludedIdentityIds: string[] = []
   ): { eligible: boolean; openSlotIds: string[] } {
-    // 1. Identity uniqueness check: real player identity can only appear once in XI
-    if (draftState.usedIdentityIds.includes(player.identityId)) {
+    // 1. Identity uniqueness check: real player identity can only appear once in match (22 unique players rule)
+    if (draftState.usedIdentityIds.includes(player.identityId) || excludedIdentityIds.includes(player.identityId)) {
       return { eligible: false, openSlotIds: [] };
     }
 
@@ -76,24 +77,27 @@ export class DraftEngine {
   static hasAnyLegalPick(
     editionId: string,
     allPlayers: PlayerVersion[],
-    draftState: PlayerDraftState
+    draftState: PlayerDraftState,
+    excludedIdentityIds: string[] = []
   ): boolean {
     const editionRoster = allPlayers.filter((p) => p.editionId === editionId);
     return editionRoster.some(
-      (player) => this.isPlayerDraftable(player, draftState).eligible
+      (player) => this.isPlayerDraftable(player, draftState, excludedIdentityIds).eligible
     );
   }
 
   /**
    * Rolls a team edition with equal probability.
    * If rolled edition has no legal picks, automatically replaces it without consuming a reroll.
+   * Also ensures different teams are rolled (e.g. AI/opponent cannot roll the same team as host).
    */
   static rollTeamEdition(
     draftState: PlayerDraftState,
     db: DraftDatabase,
-    prng: PRNG
+    prng: PRNG,
+    options: { excludedEditionIds?: string[]; excludedIdentityIds?: string[] } = {}
   ): { edition: TeamEdition; roster: PlayerVersion[] } {
-    const eligibleEditions = db.editions.filter(
+    let eligibleEditions = db.editions.filter(
       (ed) => ed.editionType === draftState.poolType
     );
 
@@ -101,9 +105,19 @@ export class DraftEngine {
       throw new Error(`No editions available for pool type ${draftState.poolType}`);
     }
 
-    // Filter editions that have at least one legal player for current open slots
+    // Exclude specified edition IDs (e.g. opponent's currently rolled team edition or same team)
+    if (options.excludedEditionIds && options.excludedEditionIds.length > 0) {
+      const filtered = eligibleEditions.filter(
+        (ed) => !options.excludedEditionIds!.includes(ed.id)
+      );
+      if (filtered.length > 0) {
+        eligibleEditions = filtered;
+      }
+    }
+
+    // Filter editions that have at least one legal player for current open slots and excluded match identities
     const validEditions = eligibleEditions.filter((ed) =>
-      this.hasAnyLegalPick(ed.id, db.players, draftState)
+      this.hasAnyLegalPick(ed.id, db.players, draftState, options.excludedIdentityIds)
     );
 
     if (validEditions.length === 0) {
@@ -127,13 +141,22 @@ export class DraftEngine {
   static executeReroll(
     draftState: PlayerDraftState,
     db: DraftDatabase,
-    prng: PRNG
+    prng: PRNG,
+    options: { excludedEditionIds?: string[]; excludedIdentityIds?: string[] } = {}
   ): PlayerDraftState {
     if (draftState.rerollsRemaining <= 0) {
       throw new Error('No rerolls remaining');
     }
 
-    const { edition, roster } = this.rollTeamEdition(draftState, db, prng);
+    const excludedEditions = [
+      ...(options.excludedEditionIds || []),
+      ...(draftState.currentTeamEdition ? [draftState.currentTeamEdition.id] : []),
+    ];
+
+    const { edition, roster } = this.rollTeamEdition(draftState, db, prng, {
+      ...options,
+      excludedEditionIds: excludedEditions,
+    });
 
     return {
       ...draftState,
@@ -145,13 +168,14 @@ export class DraftEngine {
 
   /**
    * Picks a player for a specific slot.
-   * Validates slot availability, position eligibility, and identity uniqueness.
+   * Validates slot availability, position eligibility, and identity uniqueness across both teams.
    */
   static pickPlayer(
     draftState: PlayerDraftState,
     playerId: string,
     slotId: string,
-    allPlayers: PlayerVersion[]
+    allPlayers: PlayerVersion[],
+    excludedIdentityIds: string[] = []
   ): PlayerDraftState {
     const slot = draftState.formation.slots.find((s) => s.id === slotId);
     if (!slot) {
@@ -167,9 +191,12 @@ export class DraftEngine {
       throw new Error(`Player ${playerId} not found`);
     }
 
-    // Uniqueness check
+    // Uniqueness check (own squad & match-wide 22 unique players rule)
     if (draftState.usedIdentityIds.includes(player.identityId)) {
       throw new Error(`Player identity ${player.name} is already drafted in this XI`);
+    }
+    if (excludedIdentityIds.includes(player.identityId)) {
+      throw new Error(`Player identity ${player.name} has already been drafted by the opponent`);
     }
 
     // Position eligibility check
@@ -218,7 +245,8 @@ export class DraftEngine {
    */
   static getDeterministicAutoPick(
     draftState: PlayerDraftState,
-    roster: PlayerVersion[]
+    roster: PlayerVersion[],
+    excludedIdentityIds: string[] = []
   ): { player: PlayerVersion; slotId: string } {
     const openSlots = draftState.formation.slots.filter(
       (slot) => !draftState.draftedSlots[slot.id]
@@ -235,7 +263,10 @@ export class DraftEngine {
     }> = [];
 
     for (const player of roster) {
-      if (draftState.usedIdentityIds.includes(player.identityId)) {
+      if (
+        draftState.usedIdentityIds.includes(player.identityId) ||
+        excludedIdentityIds.includes(player.identityId)
+      ) {
         continue;
       }
       for (const slot of openSlots) {
