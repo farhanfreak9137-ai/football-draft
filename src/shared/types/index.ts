@@ -154,6 +154,14 @@ export interface RoomState {
   turnDeadline: number; // Server-authoritative epoch timestamp in ms (40s per turn)
   turnNumber: number;
   matchId?: string;
+  matchFormat?: 'auto' | 'normal' | 'knockout';
+  lastPickAnnouncement?: {
+    seat: 'host' | 'guest';
+    playerName: string;
+    squadNumber: number;
+    position: string;
+    teamEditionName?: string;
+  };
 }
 
 // Match simulation types
@@ -229,6 +237,8 @@ export interface MatchSimulationState {
   currentSecond: number; // 0 to 90 (or up to 120)
   totalDurationSeconds: number; // 90, 105, or 120
   startTime: number; // authoritative real server timestamp
+  matchFormat?: 'league' | 'cup';
+  knockoutMode?: boolean;
   score: {
     host: number;
     guest: number;

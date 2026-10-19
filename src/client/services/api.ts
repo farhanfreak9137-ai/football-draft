@@ -20,6 +20,8 @@ export async function createRoom(params: {
   poolType: 'national' | 'club';
   hostName: string;
   formationId?: string;
+  strategy?: string;
+  matchFormat?: 'auto' | 'normal' | 'knockout';
 }): Promise<{ room: RoomState; hostToken: string; guestToken?: string }> {
   const res = await fetch(`${API_BASE}/rooms/create`, {
     method: 'POST',
