@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-18T17:05:36.342Z",
+  "summary": {
+    "totalIdentities": 386,
+    "totalNationalEditions": 20,
+    "totalClubEditions": 20,
+    "totalNationalPlayers": 220,
+    "totalClubPlayers": 221,
+    "totalSources": 21,
+    "totalErrors": 0,
+    "status": "PASSED"
+  },
+  "acceptedRecords": {
+    "identities": 386,
+    "editions": 40,
+    "playerVersions": 441,
+    "sources": 21
+  },
+  "rejectedRecords": [],
+  "incompleteRecords": [],
+  "duplicateCandidates": [],
+  "conflictingEvidence": [],
+  "missingSourceInformation": [],
+  "licenseConcerns": []
+}
