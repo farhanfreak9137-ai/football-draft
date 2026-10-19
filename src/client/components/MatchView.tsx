@@ -10,6 +10,7 @@ import {
 import { soundManager } from '../utils/audio.js';
 import { messages } from '../i18n/messages.js';
 import { MatchEngine, getVisualMinute } from '../../shared/engine/matchEngine.js';
+import { BothPitchesView } from './BothPitchesView.js';
 import {
   Shield,
   Activity,
@@ -388,14 +389,48 @@ export const MatchView: React.FC<MatchViewProps> = ({
               : 'text-tactical-400 hover:text-tactical-200'
           }`}
         >
-          <Users className="w-3.5 h-3.5 text-blue-400" />
-          <span>{isMatchFinished ? 'Match Ratings' : 'Both Lineups (22)'}</span>
+          <Shield className="w-3.5 h-3.5 text-pitch-accent" />
+          <span>{isMatchFinished ? 'Both Pitches & Ratings' : 'Both Pitches & Lineups (22)'}</span>
         </button>
       </div>
 
-      {/* Main Simulation View: 2D Pitch & Distinct Highlights Feed */}
+      {/* SEPARATE OPTION: Both Pitches View (Tactical formations with set players) */}
+      {activeTab === 'lineups' && (
+        <BothPitchesView
+          hostDraft={hostDraft}
+          guestDraft={guestDraft}
+          ratingsData={ratingsData}
+          isMatchFinished={isMatchFinished}
+          onBackToMain={() => setActiveTab('pitch')}
+          hostAvgRating={hostAvgRating}
+          guestAvgRating={guestAvgRating}
+          renderPlayerRow={renderPlayerRow}
+        />
+      )}
+
+      {/* Main Simulation View: 2D Pitch & Distinct Highlights Feed (Lineups removed from here!) */}
       {activeTab === 'pitch' && (
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <>
+          {/* Quick Option Banner to View Both Pitches */}
+          <div className="flex items-center justify-between px-4 py-2.5 rounded-xl bg-tactical-850 border border-tactical-700/80 text-xs shadow-md">
+            <div className="flex items-center gap-2 text-tactical-300">
+              <Shield className="w-4 h-4 text-pitch-accent shrink-0" />
+              <span>
+                {isMatchFinished
+                  ? 'Full-time ratings are ready on both tactical pitches'
+                  : 'View both teams set on their tactical pitches'}
+              </span>
+            </div>
+            <button
+              onClick={() => setActiveTab('lineups')}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-100 font-semibold border border-tactical-700 hover:border-tactical-600 transition-all text-xs shrink-0 shadow-sm"
+            >
+              <span>{isMatchFinished ? 'Both Pitches & Ratings' : 'View Both Pitches (22)'}</span>
+              <ArrowRight className="w-3.5 h-3.5 text-pitch-accent" />
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {/* 2D Pitch Visualizer (7 cols) */}
           <div className="lg:col-span-7 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col justify-between">
             <div className="flex items-center justify-between mb-3 text-xs text-tactical-400">
@@ -625,103 +660,8 @@ export const MatchView: React.FC<MatchViewProps> = ({
             </div>
           </div>
         </div>
-      )}
-
-      {/* Starting Lineups (Simulation In Progress) OR Minimalistic Match Ratings (Full-Time) */}
-      {ratingsData && (
-        <div
-          className={`bg-tactical-850 rounded-xl p-4 shadow-xl space-y-3 transition-all ${
-            isMatchFinished
-              ? 'border border-gold-500/50 shadow-[0_0_20px_rgba(234,179,8,0.1)]'
-              : 'border border-tactical-700/80'
-          }`}
-        >
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-2.5 border-b border-tactical-700/70 gap-2">
-            <div className="flex items-center gap-2 flex-wrap">
-              {isMatchFinished ? (
-                <>
-                  <Trophy className="w-4 h-4 text-gold-400" />
-                  <h4 className="text-sm font-bold text-tactical-100">
-                    {messages.match.playerRatingsReport}
-                  </h4>
-                  {ratingsData.starOfMatch && (
-                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-gold-400/15 border border-gold-400/40 text-gold-300 font-mono text-xs font-bold">
-                      ★ Star: {ratingsData.starOfMatch.name} ({ratingsData.starOfMatch.rating.toFixed(1)})
-                    </span>
-                  )}
-                </>
-              ) : (
-                <>
-                  <Users className="w-4 h-4 text-blue-400" />
-                  <h4 className="text-sm font-bold text-tactical-100">
-                    {messages.match.startingLineups} (22 Players)
-                  </h4>
-                </>
-              )}
-            </div>
-
-            {isMatchFinished ? (
-              <div className="flex items-center gap-3 text-xs font-mono">
-                <span className="text-tactical-300">
-                  {hostName} Avg: <strong className="text-emerald-400 font-bold">{hostAvgRating}</strong>
-                </span>
-                <span className="text-tactical-600">•</span>
-                <span className="text-tactical-300">
-                  {guestName} Avg: <strong className="text-emerald-400 font-bold">{guestAvgRating}</strong>
-                </span>
-              </div>
-            ) : (
-              <span className="text-xs font-mono text-tactical-400">
-                Match In Progress
-              </span>
-            )}
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* Host Squad */}
-            <div className="space-y-1.5">
-              <div className="flex items-center justify-between text-xs font-semibold px-2.5 py-1.5 rounded bg-tactical-900 border border-tactical-750">
-                <span className="text-tactical-100 font-bold truncate">
-                  {hostName} ({hostDraft.formation.name})
-                </span>
-                <span className="text-tactical-400 font-mono text-[11px] capitalize">
-                  {isMatchFinished ? (
-                    <>
-                      Avg: <strong className="text-emerald-400">{hostAvgRating}</strong>
-                    </>
-                  ) : (
-                    hostDraft.strategy
-                  )}
-                </span>
-              </div>
-              <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
-                {ratingsData.hostRatings.map((r) => renderPlayerRow(r, isMatchFinished))}
-              </div>
-            </div>
-
-            {/* Guest Squad */}
-            <div className="space-y-1.5">
-              <div className="flex items-center justify-between text-xs font-semibold px-2.5 py-1.5 rounded bg-tactical-900 border border-tactical-750">
-                <span className="text-tactical-100 font-bold truncate">
-                  {guestName} ({guestDraft?.formation.name || '4-3-3'})
-                </span>
-                <span className="text-tactical-400 font-mono text-[11px] capitalize">
-                  {isMatchFinished ? (
-                    <>
-                      Avg: <strong className="text-emerald-400">{guestAvgRating}</strong>
-                    </>
-                  ) : (
-                    guestDraft?.strategy || 'balanced'
-                  )}
-                </span>
-              </div>
-              <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
-                {ratingsData.guestRatings.map((r) => renderPlayerRow(r, isMatchFinished))}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      </>
+    )}
 
       {/* Penalty Shootout Display (if penalties active or completed) */}
       {liveMatch.penalties && liveMatch.penalties.length > 0 && (
