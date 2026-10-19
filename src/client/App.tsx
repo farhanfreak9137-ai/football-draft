@@ -205,20 +205,6 @@ export const App: React.FC = () => {
     return () => clearInterval(interval);
   }, [room?.roomCode, room?.status, isSimulating, token]);
 
-  // Reset selected player when turn ends or if drafted by opponent
-  useEffect(() => {
-    if (!isMyTurn) {
-      setSelectedPlayer(null);
-    } else if (selectedPlayer) {
-      const isTaken =
-        (myDraft?.usedIdentityIds || []).includes(selectedPlayer.identityId) ||
-        (oppDraft?.usedIdentityIds || []).includes(selectedPlayer.identityId);
-      if (isTaken) {
-        setSelectedPlayer(null);
-      }
-    }
-  }, [isMyTurn, room?.turnNumber, myDraft?.usedIdentityIds, oppDraft?.usedIdentityIds]);
-
   // Handler: Create Room
   const handleCreateRoom = async (params: {
     mode: 'solo' | 'multiplayer';
@@ -369,6 +355,20 @@ export const App: React.FC = () => {
   const myDraftedCount = myDraft ? Object.keys(myDraft.draftedSlots).length : 0;
   const oppDraftedCount = oppDraft ? Object.keys(oppDraft.draftedSlots).length : 0;
   const isBothDraftComplete = myDraftedCount === 11 && oppDraftedCount === 11;
+
+  // Reset selected player when turn ends or if drafted by opponent
+  useEffect(() => {
+    if (!isMyTurn) {
+      setSelectedPlayer(null);
+    } else if (selectedPlayer) {
+      const isTaken =
+        (myDraft?.usedIdentityIds || []).includes(selectedPlayer.identityId) ||
+        (oppDraft?.usedIdentityIds || []).includes(selectedPlayer.identityId);
+      if (isTaken) {
+        setSelectedPlayer(null);
+      }
+    }
+  }, [isMyTurn, room?.turnNumber, myDraft?.usedIdentityIds, oppDraft?.usedIdentityIds]);
 
   return (
     <div className="min-h-screen bg-tactical-900 text-tactical-100 flex flex-col justify-between selection:bg-pitch-accent selection:text-tactical-950 font-sans">
