@@ -14,7 +14,17 @@ export interface MatchEngineConfig {
   randomSeed?: number;
 }
 
+export function getVisualMinute(sec: number): number {
+  if (sec <= 0) return 0;
+  if (sec <= 22) return Math.min(45, Math.max(1, Math.round(sec * (45 / 22))));
+  if (sec <= 45) return Math.min(90, Math.max(46, 45 + Math.round((sec - 22) * (45 / 23))));
+  if (sec <= 52) return Math.min(105, Math.max(91, 90 + Math.round((sec - 45) * (15 / 7))));
+  if (sec <= 60) return Math.min(120, Math.max(106, 105 + Math.round((sec - 52) * (15 / 8))));
+  return 120;
+}
+
 export class MatchEngine {
+  static getVisualMinute = getVisualMinute;
   /**
    * Generates a complete, authoritative match simulation with deterministic event timeline.
    */
@@ -70,11 +80,14 @@ export class MatchEngine {
       description: string,
       player?: PlayerVersion,
       secondaryPlayer?: PlayerVersion,
-      pitchLocation?: { x: number; y: number }
+      pitchLocation?: { x: number; y: number },
+      customMinute?: number
     ): MatchEvent => {
+      const minute = customMinute ?? getVisualMinute(second);
       return {
         id: `ev-${second}-${type}-${prng.nextInt(1000, 9999)}`,
         second,
+        minute,
         period,
         type,
         team,
@@ -94,151 +107,147 @@ export class MatchEngine {
       };
     };
 
-    // 1. Kickoff
-    events.push(createEvent(0, 'first_half', 'kickoff', 'host', 'The match kicks off at the historic stadium!'));
+    // 1. Kickoff (Visual 0', Real 0s)
+    events.push(createEvent(0, 'first_half', 'kickoff', 'host', 'The match kicks off! Both sides battle for historical supremacy.', undefined, undefined, { x: 50, y: 50 }, 0));
 
-    // Simulation loop for regular time (seconds 1 to 90)
-    for (let sec = 1; sec <= 90; sec++) {
-      if (sec === 45) {
-        events.push(createEvent(45, 'first_half', 'halftime', 'host', 'Half-time whistle blows. Teams head into the tactical dugout.'));
+    // Simulation loop for regular time (45 real seconds representing 90 visual minutes)
+    for (let sec = 1; sec <= 45; sec++) {
+      if (sec === 22) {
+        events.push(createEvent(22, 'first_half', 'halftime', 'host', 'Half-time whistle blows! Teams head into the tactical dugout.', undefined, undefined, { x: 50, y: 50 }, 45));
         continue;
       }
 
-      if (sec === 46) {
-        events.push(createEvent(46, 'second_half', 'kickoff', 'guest', 'Second half underway!'));
+      if (sec === 23) {
+        events.push(createEvent(23, 'second_half', 'kickoff', 'guest', 'Second half underway! Tension is mounting on the pitch.', undefined, undefined, { x: 50, y: 50 }, 46));
         continue;
       }
 
-      if (sec >= 80 && sec <= 82 && prng.chance(0.4)) {
-        const pressTeam = currentScore.host < currentScore.guest ? 'host' : currentScore.guest < currentScore.host ? 'guest' : prng.pickOne(['host', 'guest'] as const);
-        const attackingSquad = pressTeam === 'host' ? hostPlayers : guestPlayers;
-        const forward = getSquadPlayer(attackingSquad, 'FWD');
-        events.push(createEvent(
-          sec,
-          'second_half',
-          'late_pressure',
-          pressTeam,
-          `Intense late pressure mounted by ${pressTeam === 'host' ? hostDraft.playerName : guestDraft.playerName}! ${forward.name} drives the team forward.`
-        ));
-      }
-
-      // Roll chance of significant match action (luck-governed: ~18-22% chance per second)
-      if (prng.chance(0.20)) {
+      // Roll chance of significant match action (~18% chance per real second -> 6-8 key highlights per match)
+      if (prng.chance(0.18)) {
         const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
         const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
         const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
         const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
-        const currentPeriod = sec <= 45 ? 'first_half' : 'second_half';
+        const currentPeriod: MatchEvent['period'] = sec <= 22 ? 'first_half' : 'second_half';
 
         const actionRoll = prng.next();
 
-        if (actionRoll < 0.35) {
-          // Defensive intervention / tackle
-          const defender = getSquadPlayer(defendingSquad, 'DEF');
-          stats[defendingTeam].tackles++;
-          events.push(createEvent(
-            sec,
-            currentPeriod,
-            'defensive_intervention',
-            defendingTeam,
-            `Crucial defensive tackle by ${defender.name} breaks up the dangerous counter-attack!`,
-            defender,
-            undefined,
-            { x: attackingTeam === 'host' ? 75 : 25, y: prng.nextInt(30, 70) }
-          ));
-        } else if (actionRoll < 0.65) {
-          // Attack building up
-          const midfielder = getSquadPlayer(attackingSquad, 'MID');
-          events.push(createEvent(
-            sec,
-            currentPeriod,
-            'attack',
-            attackingTeam,
-            `Crisp passing move orchestrated by ${midfielder.name} cutting into the final third.`,
-            midfielder,
-            undefined,
-            { x: attackingTeam === 'host' ? 65 : 35, y: prng.nextInt(20, 80) }
-          ));
-        } else if (actionRoll < 0.85) {
-          // Shot on target / Save
-          const shooter = getSquadPlayer(attackingSquad, 'FWD');
-          const keeper = getSquadPlayer(defendingSquad, 'GK');
-          stats[attackingTeam].shots++;
-          stats[attackingTeam].shotsOnTarget++;
-          stats[defendingTeam].saves++;
-
-          events.push(createEvent(
-            sec,
-            currentPeriod,
-            'save',
-            defendingTeam,
-            `Fierce shot by ${shooter.name}! Spectacular reflex save by ${keeper.name} to turn it behind for a corner!`,
-            keeper,
-            shooter,
-            { x: attackingTeam === 'host' ? 90 : 10, y: 50 }
-          ));
-          stats[attackingTeam].corners++;
-        } else if (actionRoll < 0.93) {
-          // Missed chance
-          const shooter = getSquadPlayer(attackingSquad, 'FWD');
-          stats[attackingTeam].shots++;
-          events.push(createEvent(
-            sec,
-            currentPeriod,
-            'miss',
-            attackingTeam,
-            `Golden opportunity! ${shooter.name} fires from the edge of the area, but the ball flashes inches wide of the upright!`,
-            shooter,
-            undefined,
-            { x: attackingTeam === 'host' ? 88 : 12, y: prng.nextInt(35, 65) }
-          ));
-        } else {
-          // GOAL! (Luck-first: approx ~2-3 goals per 90s match on average)
+        if (actionRoll < 0.42) {
+          // 1. GOAL! (approx 2-3 goals per match)
           const scorer = getSquadPlayer(attackingSquad, 'FWD');
           const assister = getSquadPlayer(attackingSquad, 'MID');
           stats[attackingTeam].shots++;
           stats[attackingTeam].shotsOnTarget++;
           currentScore[attackingTeam]++;
 
+          const goalPhrases = [
+            `GOAL! ${scorer.name} clinically strikes into the bottom corner after an exquisite pass from ${assister.name}! (${currentScore.host}-${currentScore.guest})`,
+            `GOAL! Sensational finish! ${scorer.name} unleashes a thunderous volley into the top corner! (${currentScore.host}-${currentScore.guest})`,
+            `GOAL! ${scorer.name} rises highest and powers an unstoppable header home from ${assister.name}'s delivery! (${currentScore.host}-${currentScore.guest})`,
+            `GOAL! Pure individual magic from ${scorer.name}! Dribbles past the defender and chips the goalkeeper with supreme composure! (${currentScore.host}-${currentScore.guest})`,
+          ];
+
           events.push(createEvent(
             sec,
             currentPeriod,
             'goal',
             attackingTeam,
-            `GOAL! ${scorer.name} clinically strikes it home into the bottom corner after an exquisite pass from ${assister.name}! (${currentScore.host}-${currentScore.guest})`,
+            prng.pickOne(goalPhrases),
             scorer,
             assister,
             { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
+          ));
+        } else if (actionRoll < 0.82) {
+          // 2. MAGICAL SAVE!
+          const shooter = getSquadPlayer(attackingSquad, 'FWD');
+          const keeper = getSquadPlayer(defendingSquad, 'GK');
+          stats[attackingTeam].shots++;
+          stats[attackingTeam].shotsOnTarget++;
+          stats[defendingTeam].saves++;
+
+          const savePhrases = [
+            `MAGICAL SAVE! ${keeper.name} produces an unbelievable flying fingertip save to deny ${shooter.name}'s thunderous shot!`,
+            `MAGICAL SAVE! Incredible point-blank reflex stop on the goal-line by ${keeper.name}!`,
+            `MAGICAL SAVE! ${keeper.name} dashes off his line with an astonishing one-on-one diving save against ${shooter.name}!`,
+            `MAGICAL SAVE! Miraculous acrobatic dive by ${keeper.name} tipping the ball over the crossbar!`,
+          ];
+
+          events.push(createEvent(
+            sec,
+            currentPeriod,
+            'save',
+            defendingTeam,
+            prng.pickOne(savePhrases),
+            keeper,
+            shooter,
+            { x: attackingTeam === 'host' ? 90 : 10, y: 50 }
+          ));
+        } else if (actionRoll < 0.95) {
+          // 3. YELLOW CARD!
+          const defender = getSquadPlayer(defendingSquad, 'DEF');
+          const attacker = getSquadPlayer(attackingSquad, 'FWD');
+          stats[defendingTeam].fouls++;
+
+          const cardPhrases = [
+            `YELLOW CARD! ${defender.name} is booked for a cynical tactical slide to break up ${attacker.name}'s counter-attack.`,
+            `YELLOW CARD! Referee shows yellow to ${defender.name} following a fierce lunging challenge on ${attacker.name}.`,
+            `YELLOW CARD! ${defender.name} goes into the referee's notebook for an aggressive shirt pull on the break.`,
+          ];
+
+          events.push(createEvent(
+            sec,
+            currentPeriod,
+            'yellow_card',
+            defendingTeam,
+            prng.pickOne(cardPhrases),
+            defender,
+            attacker,
+            { x: attackingTeam === 'host' ? 65 : 35, y: prng.nextInt(30, 70) }
+          ));
+        } else {
+          // 4. RED CARD! (Dramatic & rare)
+          const defender = getSquadPlayer(defendingSquad, 'DEF');
+          stats[defendingTeam].fouls++;
+
+          events.push(createEvent(
+            sec,
+            currentPeriod,
+            'red_card',
+            defendingTeam,
+            `RED CARD! ${defender.name} is sent off for a dangerous last-man tackle denying a clear goalscoring opportunity!`,
+            defender,
+            undefined,
+            { x: attackingTeam === 'host' ? 80 : 20, y: prng.nextInt(35, 65) }
           ));
         }
       }
     }
 
-    events.push(createEvent(90, 'second_half', 'fulltime', 'host', `Full time whistle! Score: ${currentScore.host} - ${currentScore.guest}`));
+    events.push(createEvent(45, 'second_half', 'fulltime', 'host', `Full-time whistle blows! Final score: ${currentScore.host} - ${currentScore.guest}`, undefined, undefined, { x: 50, y: 50 }, 90));
 
-    let totalDuration = 90;
+    let totalDuration = 45;
     let matchWinner: 'host' | 'guest' | 'draw' =
       currentScore.host > currentScore.guest ? 'host' : currentScore.guest > currentScore.host ? 'guest' : 'draw';
     let winMethod: MatchSimulationState['winMethod'] = matchWinner === 'draw' ? 'draw' : 'regular_time';
     const penalties: PenaltyKickResult[] = [];
     let penaltyScore: { host: number; guest: number } | undefined;
 
-    // Check Extra Time if tied and knockoutMode is active
+    // Check Extra Time if tied and knockoutMode is active (15 real seconds: 46-60)
     if (matchWinner === 'draw' && knockoutMode) {
-      totalDuration = 120;
+      totalDuration = 60;
       winMethod = 'extra_time';
 
-      events.push(createEvent(91, 'extra_time_1', 'extra_time_start', 'host', 'Match is tied! Heading into Extra Time (two 15-second halves).'));
+      events.push(createEvent(45, 'extra_time_1', 'extra_time_start', 'host', 'Match is tied! Heading into Extra Time (two rapid halves).', undefined, undefined, { x: 50, y: 50 }, 91));
 
-      // Extra Time First Half: 91 to 105
-      for (let sec = 92; sec <= 105; sec++) {
-        if (prng.chance(0.20)) {
+      // Extra Time First Half: real seconds 46 to 52 (visual 91' to 105')
+      for (let sec = 46; sec <= 52; sec++) {
+        if (prng.chance(0.25)) {
           const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
           const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
           const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
           const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
 
-          if (prng.chance(0.12)) {
+          if (prng.chance(0.35)) {
             // Extra time goal
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
@@ -248,7 +257,7 @@ export class MatchEngine {
               'extra_time_1',
               'goal',
               attackingTeam,
-              `EXTRA TIME GOAL! Dramatic finish by ${scorer.name}! (${currentScore.host}-${currentScore.guest})`,
+              `EXTRA TIME GOAL! Dramatic finish by ${scorer.name} after a through-ball from ${assister.name}! (${currentScore.host}-${currentScore.guest})`,
               scorer,
               assister,
               { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
@@ -256,12 +265,13 @@ export class MatchEngine {
           } else {
             const shooter = getSquadPlayer(attackingSquad, 'FWD');
             const keeper = getSquadPlayer(defendingSquad, 'GK');
+            stats[defendingTeam].saves++;
             events.push(createEvent(
               sec,
               'extra_time_1',
               'save',
               defendingTeam,
-              `Extra-time save! ${keeper.name} keeps his team in the contest!`,
+              `MAGICAL SAVE! ${keeper.name} keeps his team alive with a stunning extra-time reflex save!`,
               keeper,
               shooter
             ));
@@ -269,17 +279,17 @@ export class MatchEngine {
         }
       }
 
-      events.push(createEvent(105, 'extra_time_1', 'extra_time_half', 'host', 'Half-time in Extra Time. Quick turnaround.'));
+      events.push(createEvent(52, 'extra_time_1', 'extra_time_half', 'host', 'Half-time in Extra Time. Quick turnaround.', undefined, undefined, { x: 50, y: 50 }, 105));
 
-      // Extra Time Second Half: 106 to 120
-      for (let sec = 106; sec <= 120; sec++) {
-        if (prng.chance(0.20)) {
+      // Extra Time Second Half: real seconds 53 to 60 (visual 106' to 120')
+      for (let sec = 53; sec <= 59; sec++) {
+        if (prng.chance(0.25)) {
           const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
           const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
           const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
           const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
 
-          if (prng.chance(0.12)) {
+          if (prng.chance(0.35)) {
             // Extra time goal
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
@@ -296,28 +306,31 @@ export class MatchEngine {
             ));
           } else {
             const shooter = getSquadPlayer(attackingSquad, 'FWD');
+            const keeper = getSquadPlayer(defendingSquad, 'GK');
+            stats[defendingTeam].saves++;
             events.push(createEvent(
               sec,
               'extra_time_2',
-              'miss',
-              attackingTeam,
-              `Exhausted effort by ${shooter.name} skids narrowly wide of the post!`,
+              'save',
+              defendingTeam,
+              `MAGICAL SAVE! Heroic save by ${keeper.name} in the final minutes!`,
+              keeper,
               shooter
             ));
           }
         }
       }
 
-      events.push(createEvent(120, 'extra_time_2', 'extra_time_end', 'host', `Extra time ends! Score: ${currentScore.host} - ${currentScore.guest}`));
+      events.push(createEvent(60, 'extra_time_2', 'extra_time_end', 'host', `Extra time ends! Score: ${currentScore.host} - ${currentScore.guest}`, undefined, undefined, { x: 50, y: 50 }, 120));
 
       // Check if decided in Extra Time
       if (currentScore.host !== currentScore.guest) {
         matchWinner = currentScore.host > currentScore.guest ? 'host' : 'guest';
         winMethod = 'extra_time';
       } else {
-        // PENALTY SHOOTOUT
+        // PENALTY SHOOTOUT (starts at real second 60)
         winMethod = 'penalties';
-        events.push(createEvent(120, 'penalties', 'penalty_shootout_start', 'host', 'Score remains level after 120 simulated seconds! Proceeding to the Penalty Shootout!'));
+        events.push(createEvent(60, 'penalties', 'penalty_shootout_start', 'host', 'Score remains level after Extra Time! Proceeding to the Penalty Shootout!', undefined, undefined, { x: 50, y: 50 }, 120));
 
         const currentPenScore = { host: 0, guest: 0 };
         const hostKickers = [...hostPlayers];
@@ -433,11 +446,11 @@ export class MatchEngine {
 
         matchWinner = shootoutWinner;
         penaltyScore = { ...currentPenScore };
-        events.push(createEvent(120, 'penalties', 'match_end', matchWinner, `Shootout finished! ${matchWinner === 'host' ? hostDraft.playerName : guestDraft.playerName} wins the penalty shootout (${currentPenScore.host}-${currentPenScore.guest})!`));
+        events.push(createEvent(60, 'penalties', 'match_end', matchWinner, `Shootout finished! ${matchWinner === 'host' ? hostDraft.playerName : guestDraft.playerName} wins the penalty shootout (${currentPenScore.host}-${currentPenScore.guest})!`, undefined, undefined, { x: 50, y: 50 }, 120));
       }
     }
 
-    events.push(createEvent(totalDuration, totalDuration <= 90 ? 'second_half' : 'extra_time_2', 'match_end', matchWinner === 'draw' ? 'host' : matchWinner, `Final Result: ${matchWinner === 'draw' ? 'Match Drawn' : `${matchWinner === 'host' ? hostDraft.playerName : guestDraft.playerName} victorious!`} [Score: ${currentScore.host}-${currentScore.guest}]`));
+    events.push(createEvent(totalDuration, totalDuration <= 45 ? 'second_half' : 'extra_time_2', 'match_end', matchWinner === 'draw' ? 'host' : matchWinner, `Final Result: ${matchWinner === 'draw' ? 'Match Drawn' : `${matchWinner === 'host' ? hostDraft.playerName : guestDraft.playerName} victorious!`} [Score: ${currentScore.host}-${currentScore.guest}]`, undefined, undefined, { x: 50, y: 50 }, totalDuration <= 45 ? 90 : 120));
 
     return {
       matchId: `match-${seed}`,
@@ -478,15 +491,15 @@ export class MatchEngine {
     let livePenaltyScore: { host: number; guest: number } | undefined = undefined;
 
     if (simulation.winMethod === 'penalties' && simulation.penalties && simulation.penalties.length > 0) {
-      if (currentSecond < 120) {
-        status = currentSecond === 45 ? 'halftime' : currentSecond > 90 ? 'extra_time' : 'live';
+      if (currentSecond < 60) {
+        status = currentSecond === 22 ? 'halftime' : currentSecond > 45 ? 'extra_time' : 'live';
       } else {
-        // After 120s: each penalty kick reveals consecutively every 2 seconds
-        const penElapsed = elapsedSeconds - 120;
-        const totalPenDuration = simulation.penalties.length * 2;
+        // After 60s: each penalty kick reveals consecutively every 1.5 seconds
+        const penElapsed = Math.max(0, (now - simulation.startTime) / 1000 - 60);
+        const totalPenDuration = simulation.penalties.length * 1.5;
         const visibleKicks = Math.min(
           simulation.penalties.length,
-          Math.max(1, Math.floor(penElapsed / 2) + 1)
+          Math.max(1, Math.floor(penElapsed / 1.5) + 1)
         );
         visiblePenalties = simulation.penalties.slice(0, visibleKicks);
         livePenaltyScore = { host: 0, guest: 0 };
@@ -503,9 +516,9 @@ export class MatchEngine {
     } else {
       if (currentSecond >= simulation.totalDurationSeconds) {
         status = 'completed';
-      } else if (currentSecond === 45) {
+      } else if (currentSecond === 22) {
         status = 'halftime';
-      } else if (currentSecond > 90 && simulation.totalDurationSeconds > 90) {
+      } else if (currentSecond > 45 && simulation.totalDurationSeconds > 45) {
         status = 'extra_time';
       }
     }
@@ -525,19 +538,13 @@ export class MatchEngine {
         currentScore[ev.team]++;
         liveStats[ev.team].shots++;
         liveStats[ev.team].shotsOnTarget++;
-      } else if (ev.type === 'shot') {
-        liveStats[ev.team].shots++;
-        liveStats[ev.team].shotsOnTarget++;
-      } else if (ev.type === 'miss') {
-        liveStats[ev.team].shots++;
       } else if (ev.type === 'save') {
         const opposing = ev.team === 'host' ? 'guest' : 'host';
         liveStats[opposing].saves++;
         liveStats[ev.team].shots++;
         liveStats[ev.team].shotsOnTarget++;
-      } else if (ev.type === 'defensive_intervention') {
-        const opposing = ev.team === 'host' ? 'guest' : 'host';
-        liveStats[opposing].tackles++;
+      } else if (ev.type === 'yellow_card' || ev.type === 'red_card') {
+        liveStats[ev.team].fouls++;
       }
     }
 
