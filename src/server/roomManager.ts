@@ -6,7 +6,7 @@ import {
   PoolType,
   RoomState,
 } from '../shared/types/index.js';
-import { FORMATIONS } from '../shared/constants/formations.js';
+import { FORMATIONS, isPlayerEligibleForSlot } from '../shared/constants/formations.js';
 import { DraftEngine } from '../shared/engine/draftEngine.js';
 import { MatchEngine } from '../shared/engine/matchEngine.js';
 import { PRNG } from '../shared/engine/prng.js';
@@ -15,6 +15,7 @@ import { DatabaseService } from './db.js';
 export class RoomManager {
   private db: DatabaseService;
   private matches: Map<string, MatchSimulationState> = new Map();
+  private matchRotationCounter = 0;
   public onRoomUpdated?: (room: RoomState) => void;
 
   constructor(db: DatabaseService) {
@@ -39,6 +40,7 @@ export class RoomManager {
     poolType: PoolType;
     hostName: string;
     formationId?: string;
+    matchFormat?: 'auto' | 'normal' | 'knockout';
   }): Promise<{ room: RoomState; hostToken: string; guestToken?: string }> {
     const roomCode = this.generateRoomCode();
     const hostToken = this.generateToken();
@@ -75,6 +77,7 @@ export class RoomManager {
       status: params.mode === 'solo' ? 'drafting' : 'lobby',
       mode: params.mode,
       poolType: params.poolType,
+      matchFormat: params.matchFormat || 'auto',
       createdAt: now,
       updatedAt: now,
       expiresAt,
@@ -230,6 +233,17 @@ export class RoomManager {
       room.guestDraft = updatedDraft;
     }
 
+    const pickedPlayer = this.db.players.find((p) => p.id === params.playerId);
+    if (pickedPlayer) {
+      room.lastPickAnnouncement = {
+        seat,
+        playerName: pickedPlayer.name,
+        squadNumber: pickedPlayer.squadNumber,
+        position: params.slotId.replace(/\d+$/, ''),
+        teamEditionName: currentDraft.currentTeamEdition?.teamName,
+      };
+    }
+
     // Check if both teams are finished drafting (11 slots filled)
     const hostComplete = room.hostDraft.isReady;
     const guestComplete = room.guestDraft?.isReady ?? false;
@@ -333,30 +347,53 @@ export class RoomManager {
     nextDraft.currentTeamEdition = edition;
     nextDraft.currentRoster = roster;
 
-    // Handle Solo Mode AI turn automatically
+    // Handle Solo Mode AI turn automatically (equal odds and human-like strategy)
     if (room.mode === 'solo' && nextTurn === 'guest') {
       await this.db.saveRoom(room);
       this.onRoomUpdated?.(room);
-      // Execute AI turn immediately with a realistic short thinking delay
+      // Execute AI turn with a realistic human-like thinking delay
       setTimeout(async () => {
         try {
           const freshRoom = await this.db.getRoom(room.roomCode);
           if (freshRoom && freshRoom.status === 'drafting' && freshRoom.activeTurn === 'guest') {
-            const aiDraft = freshRoom.guestDraft!;
+            let aiDraft = freshRoom.guestDraft!;
             if (aiDraft.currentRoster.length > 0) {
-              const auto = DraftEngine.getDeterministicAutoPick(aiDraft, aiDraft.currentRoster);
-              await this.executePick({
-                roomCode: freshRoom.roomCode,
-                token: freshRoom.guestSeat!.token,
-                playerId: auto.player.id,
-                slotId: auto.slotId,
-              });
+              // Strategic AI: Calculate best legal OVR available in current rolled roster
+              const openSlots = aiDraft.formation.slots.filter(
+                (s) => !aiDraft.draftedSlots[s.id]
+              );
+              let bestLegalOvr = 0;
+              for (const p of aiDraft.currentRoster) {
+                if (aiDraft.usedIdentityIds.includes(p.identityId)) continue;
+                if (openSlots.some((slot) => isPlayerEligibleForSlot(p, slot))) {
+                  if (p.ovr > bestLegalOvr) bestLegalOvr = p.ovr;
+                }
+              }
+
+              // Equal odds: AI can reroll up to 2 times if rolled roster lacks high-impact players (< 84)
+              if (bestLegalOvr < 84 && aiDraft.rerollsRemaining > 0) {
+                const rerolledRoom = await this.executeReroll({
+                  roomCode: freshRoom.roomCode,
+                  token: freshRoom.guestSeat!.token,
+                });
+                aiDraft = rerolledRoom.guestDraft!;
+              }
+
+              if (aiDraft.currentRoster.length > 0) {
+                const auto = DraftEngine.getDeterministicAutoPick(aiDraft, aiDraft.currentRoster);
+                await this.executePick({
+                  roomCode: freshRoom.roomCode,
+                  token: freshRoom.guestSeat!.token,
+                  playerId: auto.player.id,
+                  slotId: auto.slotId,
+                });
+              }
             }
           }
         } catch (err) {
           console.error('Error executing solo AI turn:', err);
         }
-      }, 500);
+      }, 750);
       return;
     }
 
@@ -420,12 +457,25 @@ export class RoomManager {
     }
 
     const now = Date.now();
+    let isKnockout = true;
+    if (room.matchFormat === 'normal') {
+      isKnockout = false;
+    } else if (room.matchFormat === 'knockout') {
+      isKnockout = true;
+    } else {
+      // 'auto' mode: rotates between Normal Time (League) and Knockout (Cup)
+      isKnockout = this.matchRotationCounter % 2 === 1;
+      this.matchRotationCounter++;
+    }
+
     const simulation = MatchEngine.simulateMatch(room.hostDraft, room.guestDraft, {
-      knockoutMode: true,
+      knockoutMode: isKnockout,
       randomSeed: now,
     });
     simulation.startTime = now;
     simulation.status = 'live';
+    simulation.knockoutMode = isKnockout;
+    simulation.matchFormat = isKnockout ? 'cup' : 'league';
 
     this.matches.set(room.roomCode, simulation);
     room.status = 'simulating';

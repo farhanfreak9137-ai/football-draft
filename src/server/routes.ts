@@ -77,7 +77,7 @@ export function createApiRouter(
   // Create room
   router.post('/rooms/create', async (req: Request, res: Response) => {
     try {
-      const { mode, poolType, hostName, formationId } = req.body;
+      const { mode, poolType, hostName, formationId, matchFormat } = req.body;
       if (!mode || !poolType) {
         res.status(400).json({ success: false, error: 'mode and poolType are required' });
         return;
@@ -87,6 +87,7 @@ export function createApiRouter(
         poolType,
         hostName: hostName || 'Host Manager',
         formationId,
+        matchFormat,
       });
       res.json({
         success: true,

@@ -459,6 +459,8 @@ export class MatchEngine {
       currentSecond: 0,
       totalDurationSeconds: totalDuration,
       startTime: 0,
+      knockoutMode,
+      matchFormat: knockoutMode ? 'cup' : 'league',
       score: currentScore,
       events,
       penalties,

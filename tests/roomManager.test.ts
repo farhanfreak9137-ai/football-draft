@@ -162,5 +162,31 @@ describe('RoomManager & Multiplayer Security', () => {
     const checkOld = await db.getRoom(oldRoom.roomCode);
     expect(checkOld).toBeNull();
   });
+
+  it('supports match formats (auto-rotate, normal league, and cup knockout)', async () => {
+    const { room: r1 } = await rm.createRoom({
+      mode: 'multiplayer',
+      poolType: 'national',
+      hostName: 'Host 1',
+      matchFormat: 'auto',
+    });
+    expect(r1.matchFormat).toBe('auto');
+
+    const { room: r2 } = await rm.createRoom({
+      mode: 'multiplayer',
+      poolType: 'national',
+      hostName: 'Host 2',
+      matchFormat: 'normal',
+    });
+    expect(r2.matchFormat).toBe('normal');
+
+    const { room: r3 } = await rm.createRoom({
+      mode: 'multiplayer',
+      poolType: 'national',
+      hostName: 'Host 3',
+      matchFormat: 'knockout',
+    });
+    expect(r3.matchFormat).toBe('knockout');
+  });
 });
 
