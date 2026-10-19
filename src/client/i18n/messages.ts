@@ -69,10 +69,12 @@ export const messages = {
     shotsOnTarget: 'Shots on Target',
     saves: 'Saves',
     corners: 'Corners',
-    tackles: 'Tackles',
     winnerBanner: 'Victory!',
     drawBanner: 'Match Ended in Draw',
     playAgain: 'Return to Tactical Lobby',
+    playerRatingsReport: 'Post-Match Player Ratings & Performance Report',
+    starOfMatch: 'Player of the Match',
+    startingLineups: 'Active On-Pitch Lineups',
   },
   settings: {
     title: 'Game & Audio Settings',

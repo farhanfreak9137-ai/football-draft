@@ -1,8 +1,15 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { MatchEvent, MatchSimulationState, PenaltyKickResult, PlayerDraftState } from '../../shared/types/index.js';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import {
+  MatchEvent,
+  MatchSimulationState,
+  PenaltyKickResult,
+  PlayerDraftState,
+  PlayerMatchRating,
+  Position,
+} from '../../shared/types/index.js';
 import { soundManager } from '../utils/audio.js';
 import { messages } from '../i18n/messages.js';
-import { getVisualMinute } from '../../shared/engine/matchEngine.js';
+import { MatchEngine, getVisualMinute } from '../../shared/engine/matchEngine.js';
 import {
   Shield,
   Activity,
@@ -16,6 +23,9 @@ import {
   CircleDot,
   CheckCircle2,
   XCircle,
+  Users,
+  Star,
+  Sparkles,
 } from 'lucide-react';
 
 interface MatchViewProps {
@@ -32,6 +42,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
   onExitMatch,
 }) => {
   const [soundEnabled, setSoundEnabled] = useState(soundManager.enabled);
+  const [activeTab, setActiveTab] = useState<'pitch' | 'lineups' | 'report'>('pitch');
   const eventFeedRef = useRef<HTMLDivElement>(null);
   const prevEventsLength = useRef(liveMatch.events.length);
 
@@ -67,6 +78,55 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
   const visualMinute = getVisualMinute(liveMatch.currentSecond);
   const maxVisualMinute = liveMatch.totalDurationSeconds > 45 ? 120 : 90;
+
+  // Compute live & post-match player ratings
+  const ratingsData = useMemo(() => {
+    if (!guestDraft) return null;
+    return MatchEngine.computePlayerRatings(hostDraft, guestDraft, liveMatch);
+  }, [
+    hostDraft,
+    guestDraft,
+    liveMatch.events,
+    liveMatch.penalties,
+    liveMatch.score,
+    liveMatch.winner,
+  ]);
+
+  const hostAvgRating = ratingsData
+    ? (
+        ratingsData.hostRatings.reduce((acc, r) => acc + r.rating, 0) /
+        (ratingsData.hostRatings.length || 1)
+      ).toFixed(1)
+    : '7.0';
+  const guestAvgRating = ratingsData
+    ? (
+        ratingsData.guestRatings.reduce((acc, r) => acc + r.rating, 0) /
+        (ratingsData.guestRatings.length || 1)
+      ).toFixed(1)
+    : '7.0';
+
+  // Helper: Rating badge color styling
+  const getRatingBadgeClass = (rating: number) => {
+    if (rating >= 9.0)
+      return 'bg-emerald-500 text-tactical-950 font-black shadow-[0_0_10px_rgba(16,185,129,0.5)]';
+    if (rating >= 8.0)
+      return 'bg-emerald-950 text-emerald-300 border border-emerald-500/60 font-bold';
+    if (rating >= 7.0)
+      return 'bg-blue-950 text-blue-300 border border-blue-500/40 font-semibold';
+    if (rating >= 6.0)
+      return 'bg-tactical-800 text-tactical-200 border border-tactical-700 font-medium';
+    return 'bg-rose-950/70 text-rose-300 border border-rose-500/50 font-medium';
+  };
+
+  // Helper: Position badge color styling
+  const getPositionPillClass = (pos: Position) => {
+    if (pos === 'GK') return 'bg-amber-500/20 text-amber-300 border-amber-500/40';
+    if (['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(pos))
+      return 'bg-blue-500/20 text-blue-300 border-blue-500/40';
+    if (['CDM', 'CM', 'CAM', 'LM', 'RM'].includes(pos))
+      return 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40';
+    return 'bg-rose-500/20 text-rose-300 border-rose-500/40';
+  };
 
   // Status badge styling
   const getStatusBadge = () => {
@@ -112,6 +172,105 @@ export const MatchView: React.FC<MatchViewProps> = ({
   const latestEvent = liveMatch.events[liveMatch.events.length - 1];
   const ballPos = latestEvent?.pitchLocation || { x: 50, y: 50 };
 
+  // Render a single player row for starting lineups & performance tables
+  const renderPlayerRow = (r: PlayerMatchRating, isReportView = false) => (
+    <div
+      key={r.playerId}
+      className={`flex items-center justify-between px-3 py-2 rounded-lg border transition-all ${
+        r.isStarOfMatch
+          ? 'bg-gradient-to-r from-amber-950/50 via-tactical-850 to-amber-950/30 border-gold-500/70 shadow-md ring-1 ring-gold-400/30'
+          : 'bg-tactical-900/70 border-tactical-750 hover:bg-tactical-800/80'
+      }`}
+    >
+      <div className="flex items-center gap-2 min-w-0 mr-2 flex-1">
+        <span
+          className={`font-mono text-[10px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${getPositionPillClass(
+            r.position
+          )}`}
+        >
+          {r.position}
+        </span>
+        <span className="font-mono text-[11px] text-tactical-400 font-semibold w-5 shrink-0 text-left">
+          #{r.squadNumber}
+        </span>
+        <span className="font-medium text-xs text-tactical-100 truncate">
+          {r.name}
+        </span>
+        {r.isStarOfMatch && (
+          <span
+            className="text-gold-400 font-bold text-xs shrink-0 flex items-center gap-0.5"
+            title="Star of the Match"
+          >
+            ★
+          </span>
+        )}
+      </div>
+
+      <div className="flex items-center gap-2 shrink-0">
+        {/* Match event badges */}
+        <div className="flex items-center gap-1">
+          {r.stats.goals > 0 && (
+            <span
+              className="px-1.5 py-0.5 rounded bg-emerald-950/90 border border-emerald-400 text-emerald-300 font-mono text-[10px] font-bold"
+              title={`${r.stats.goals} Goal${r.stats.goals > 1 ? 's' : ''}`}
+            >
+              ⚽{r.stats.goals > 1 ? `x${r.stats.goals}` : ''}
+            </span>
+          )}
+          {r.stats.saves > 0 && (
+            <span
+              className="px-1.5 py-0.5 rounded bg-cyan-950/90 border border-cyan-400 text-cyan-300 font-mono text-[10px] font-bold"
+              title={`${r.stats.saves} Save${r.stats.saves > 1 ? 's' : ''}`}
+            >
+              🧤{r.stats.saves > 1 ? `x${r.stats.saves}` : ''}
+            </span>
+          )}
+          {r.stats.yellowCard && (
+            <span
+              className="px-1 py-0.5 rounded bg-amber-950/90 border border-yellow-400 text-yellow-300 font-mono text-[10px] font-bold flex items-center gap-0.5"
+              title="Yellow Card (Cautioned)"
+            >
+              <span className="inline-block w-2 h-3 bg-yellow-400 rounded-xs border border-yellow-200"></span>
+            </span>
+          )}
+          {r.stats.redCard && (
+            <span
+              className="px-1 py-0.5 rounded bg-red-950/90 border border-red-500 text-red-300 font-mono text-[10px] font-bold flex items-center gap-0.5"
+              title="Red Card"
+            >
+              <span className="inline-block w-2 h-3 bg-red-500 rounded-xs border border-red-200"></span>
+            </span>
+          )}
+          {r.stats.cleanSheet &&
+            (r.position === 'GK' ||
+              ['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(r.position)) && (
+              <span className="text-[11px] text-emerald-400" title="Clean Sheet Maintained">
+                🛡️
+              </span>
+            )}
+        </div>
+
+        {/* Base Historical OVR */}
+        <span
+          className="font-mono text-[11px] text-tactical-400 hidden sm:inline"
+          title="Historical OVR"
+        >
+          {r.ovr}
+        </span>
+
+        {/* Match Rating Pill */}
+        <span
+          className={`font-mono text-xs px-2 py-0.5 rounded font-bold ${getRatingBadgeClass(
+            r.rating
+          )}`}
+          title={`Match Rating: ${r.rating.toFixed(1)} / 10.0`}
+        >
+          {r.rating.toFixed(1)}
+        </span>
+      </div>
+    </div>
+  );
+
   return (
     <div className="space-y-4 max-w-6xl mx-auto">
       {/* Top Banner: Scoreboard & Real-time Authoritative Clock */}
@@ -122,17 +281,23 @@ export const MatchView: React.FC<MatchViewProps> = ({
             <span className="font-mono text-tactical-200 font-bold text-sm">
               {visualMinute}'
             </span>
-            <span className="text-tactical-400 text-[11px]">/ {maxVisualMinute}' Match Time ({liveMatch.currentSecond}s Sim)</span>
+            <span className="text-tactical-400 text-[11px]">
+              / {maxVisualMinute}' Match Time ({liveMatch.currentSecond}s Sim)
+            </span>
           </div>
 
           <div className="flex items-center gap-2 flex-wrap">
             <div>{getStatusBadge()}</div>
-            <span className={`px-2.5 py-0.5 rounded text-[11px] font-semibold border ${
-              liveMatch.knockoutMode
-                ? 'bg-purple-500/15 text-purple-300 border-purple-500/40'
-                : 'bg-pitch-DEFAULT/20 text-pitch-accent border-pitch-line/50'
-            }`}>
-              {liveMatch.knockoutMode ? '🏆 Cup Knockout (ET & Penalties)' : '⚽ League Match (Draws Allowed)'}
+            <span
+              className={`px-2.5 py-0.5 rounded text-[11px] font-semibold border ${
+                liveMatch.knockoutMode
+                  ? 'bg-purple-500/15 text-purple-300 border-purple-500/40'
+                  : 'bg-pitch-DEFAULT/20 text-pitch-accent border-pitch-line/50'
+              }`}
+            >
+              {liveMatch.knockoutMode
+                ? '🏆 Cup Knockout (ET & Penalties)'
+                : '⚽ League Match (Draws Allowed)'}
             </span>
           </div>
 
@@ -140,7 +305,11 @@ export const MatchView: React.FC<MatchViewProps> = ({
             onClick={toggleSound}
             className="flex items-center gap-1.5 text-xs text-tactical-300 hover:text-tactical-100 px-2 py-1 rounded bg-tactical-800 border border-tactical-700"
           >
-            {soundEnabled ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
+            {soundEnabled ? (
+              <Volume2 className="w-3.5 h-3.5" />
+            ) : (
+              <VolumeX className="w-3.5 h-3.5" />
+            )}
             <span>{soundEnabled ? 'Audio On' : 'Muted'}</span>
           </button>
         </div>
@@ -193,128 +362,307 @@ export const MatchView: React.FC<MatchViewProps> = ({
         </div>
       </div>
 
-      {/* Main Grid: 2D Tactical Pitch & Authoritative Event Feed */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-        {/* 2D Pitch Visualizer (7 cols) */}
-        <div className="lg:col-span-7 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col justify-between">
-          <div className="flex items-center justify-between mb-3 text-xs text-tactical-400">
-            <span className="font-semibold text-tactical-200 flex items-center gap-1.5">
-              <Activity className="w-3.5 h-3.5 text-pitch-accent" />
-              Tactical Pitch Simulation
-            </span>
-            <span className="font-mono text-[11px]">
-              Action Zone: {latestEvent ? latestEvent.type.toUpperCase() : 'MIDFIELD'}
-            </span>
-          </div>
+      {/* View Switcher Navigation Tabs */}
+      <div className="flex items-center gap-2 p-1 bg-tactical-850 rounded-xl border border-tactical-750 max-w-lg mx-auto">
+        <button
+          onClick={() => setActiveTab('pitch')}
+          className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
+            activeTab === 'pitch'
+              ? 'bg-tactical-700 text-tactical-100 shadow-sm border border-tactical-600'
+              : 'text-tactical-400 hover:text-tactical-200'
+          }`}
+        >
+          <Activity className="w-3.5 h-3.5 text-pitch-accent" />
+          <span>Pitch & Action</span>
+        </button>
 
-          {/* 2D Pitch Field */}
-          <div className="relative w-full aspect-[16/10] bg-pitch-DEFAULT rounded-lg border-2 border-pitch-line/80 overflow-hidden shadow-inner flex items-center justify-center">
-            {/* Field Markings */}
-            {/* Center line */}
-            <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-pitch-line/60 -translate-x-1/2"></div>
-            {/* Center circle */}
-            <div className="absolute top-1/2 left-1/2 w-24 h-24 rounded-full border-2 border-pitch-line/60 -translate-x-1/2 -translate-y-1/2"></div>
-            <div className="absolute top-1/2 left-1/2 w-2 h-2 rounded-full bg-pitch-line/80 -translate-x-1/2 -translate-y-1/2"></div>
-            {/* Penalty boxes */}
-            <div className="absolute top-1/4 bottom-1/4 left-0 w-16 border-r-2 border-t-2 border-b-2 border-pitch-line/60"></div>
-            <div className="absolute top-1/4 bottom-1/4 right-0 w-16 border-l-2 border-t-2 border-b-2 border-pitch-line/60"></div>
+        <button
+          onClick={() => setActiveTab('lineups')}
+          className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
+            activeTab === 'lineups'
+              ? 'bg-tactical-700 text-tactical-100 shadow-sm border border-tactical-600'
+              : 'text-tactical-400 hover:text-tactical-200'
+          }`}
+        >
+          <Users className="w-3.5 h-3.5 text-blue-400" />
+          <span>Both Lineups (22)</span>
+        </button>
 
-            {/* Goal boxes */}
-            <div className="absolute top-1/3 bottom-1/3 left-0 w-6 border-r-2 border-t-2 border-b-2 border-pitch-line/60"></div>
-            <div className="absolute top-1/3 bottom-1/3 right-0 w-6 border-l-2 border-t-2 border-b-2 border-pitch-line/60"></div>
+        {liveMatch.status === 'completed' && (
+          <button
+            onClick={() => setActiveTab('report')}
+            className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
+              activeTab === 'report'
+                ? 'bg-gold-500/20 text-gold-300 shadow-sm border border-gold-500/50'
+                : 'text-tactical-400 hover:text-tactical-200'
+            }`}
+          >
+            <Award className="w-3.5 h-3.5 text-gold-400" />
+            <span>Ratings Report</span>
+          </button>
+        )}
+      </div>
 
-            {/* Animated Ball Position */}
-            <div
-              className="absolute w-4 h-4 rounded-full bg-white shadow-[0_0_12px_rgba(255,255,255,0.9)] transition-all duration-700 -translate-x-1/2 -translate-y-1/2 z-20 flex items-center justify-center"
-              style={{
-                left: `${ballPos.x}%`,
-                top: `${ballPos.y}%`,
-              }}
-            >
-              <div className="w-1.5 h-1.5 rounded-full bg-tactical-950"></div>
+      {/* Main Simulation View: 2D Pitch & Distinct Highlights Feed */}
+      {(activeTab === 'pitch' || activeTab === 'lineups') && (
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+          {/* 2D Pitch Visualizer (7 cols) */}
+          <div className="lg:col-span-7 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col justify-between">
+            <div className="flex items-center justify-between mb-3 text-xs text-tactical-400">
+              <span className="font-semibold text-tactical-200 flex items-center gap-1.5">
+                <Activity className="w-3.5 h-3.5 text-pitch-accent" />
+                Tactical Pitch Simulation
+              </span>
+              <span className="font-mono text-[11px]">
+                Action Zone: {latestEvent ? latestEvent.type.toUpperCase() : 'MIDFIELD'}
+              </span>
             </div>
 
-            {/* Event Ripple if Goal or Magical Save */}
-            {latestEvent && (latestEvent.type === 'goal' || latestEvent.type === 'save') && (
+            {/* 2D Pitch Field */}
+            <div className="relative w-full aspect-[16/10] bg-pitch-DEFAULT rounded-lg border-2 border-pitch-line/80 overflow-hidden shadow-inner flex items-center justify-center">
+              {/* Field Markings */}
+              <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-pitch-line/60 -translate-x-1/2"></div>
+              <div className="absolute top-1/2 left-1/2 w-24 h-24 rounded-full border-2 border-pitch-line/60 -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="absolute top-1/2 left-1/2 w-2 h-2 rounded-full bg-pitch-line/80 -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="absolute top-1/4 bottom-1/4 left-0 w-16 border-r-2 border-t-2 border-b-2 border-pitch-line/60"></div>
+              <div className="absolute top-1/4 bottom-1/4 right-0 w-16 border-l-2 border-t-2 border-b-2 border-pitch-line/60"></div>
+              <div className="absolute top-1/3 bottom-1/3 left-0 w-6 border-r-2 border-t-2 border-b-2 border-pitch-line/60"></div>
+              <div className="absolute top-1/3 bottom-1/3 right-0 w-6 border-l-2 border-t-2 border-b-2 border-pitch-line/60"></div>
+
+              {/* Animated Ball Position */}
               <div
-                className={`absolute w-12 h-12 rounded-full border-2 ${
-                  latestEvent.type === 'goal' ? 'border-gold-400' : 'border-blue-400'
-                } animate-ping -translate-x-1/2 -translate-y-1/2 pointer-events-none`}
+                className="absolute w-4 h-4 rounded-full bg-white shadow-[0_0_12px_rgba(255,255,255,0.9)] transition-all duration-700 -translate-x-1/2 -translate-y-1/2 z-20 flex items-center justify-center"
                 style={{
                   left: `${ballPos.x}%`,
                   top: `${ballPos.y}%`,
                 }}
-              />
-            )}
+              >
+                <div className="w-1.5 h-1.5 rounded-full bg-tactical-950"></div>
+              </div>
 
-            {/* Team labels on pitch */}
-            <div className="absolute top-3 left-3 text-[11px] font-mono text-pitch-line/90 uppercase tracking-wider font-bold">
-              {hostName} (ATTACK →)
-            </div>
-            <div className="absolute bottom-3 right-3 text-[11px] font-mono text-pitch-line/90 uppercase tracking-wider font-bold">
-              (← ATTACK) {guestName}
-            </div>
-          </div>
-
-          {/* Active Highlight Banner */}
-          <div className="mt-3 p-2.5 rounded bg-tactical-900 border border-tactical-700/60 text-xs text-tactical-200 flex items-center gap-2">
-            <span className="font-mono text-pitch-accent font-bold">
-              {latestEvent ? `${latestEvent.minute ?? latestEvent.second}'` : '0\''}
-            </span>
-            <span className="text-tactical-300">
-              {latestEvent ? latestEvent.description : 'Match underway.'}
-            </span>
-          </div>
-        </div>
-
-        {/* Authoritative Highlight Feed (5 cols) */}
-        <div className="lg:col-span-5 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col h-[380px] lg:h-auto">
-          <div className="flex items-center justify-between pb-2 mb-2 border-b border-tactical-700 text-xs">
-            <span className="font-semibold text-tactical-200">Match Highlights ({liveMatch.events.length})</span>
-            <span className="text-[11px] text-tactical-400 font-mono">Key Events Only</span>
-          </div>
-
-          <div ref={eventFeedRef} className="flex-1 overflow-y-auto space-y-2 pr-1 text-xs">
-            {liveMatch.events.length === 0 ? (
-              <div className="text-tactical-500 text-center py-10 italic">Awaiting kickoff...</div>
-            ) : (
-              liveMatch.events.map((ev) => (
+              {/* Distinct Visual Pitch Animations */}
+              {/* 1. Goal Event: Glowing Emerald Burst & Bounce Badge */}
+              {latestEvent && latestEvent.type === 'goal' && (
                 <div
-                  key={ev.id}
-                  className={`p-2.5 rounded-lg border transition-all ${
-                    ev.type === 'goal'
-                      ? 'bg-amber-500/15 border-amber-500/50 text-amber-200 shadow-sm'
-                      : ev.type === 'save'
-                      ? 'bg-blue-500/15 border-blue-500/40 text-blue-200'
-                      : ev.type === 'red_card'
-                      ? 'bg-red-500/15 border-red-500/50 text-red-200'
-                      : ev.type === 'yellow_card'
-                      ? 'bg-yellow-500/15 border-yellow-500/40 text-yellow-200'
-                      : 'bg-tactical-900/60 border-tactical-750 text-tactical-300'
-                  }`}
+                  className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center"
+                  style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
                 >
-                  <div className="flex items-center justify-between text-[11px] font-mono mb-1">
-                    <span className="font-bold flex items-center gap-1.5">
-                      {ev.type === 'goal' && '⚽ GOAL!'}
-                      {ev.type === 'save' && '🧤 MAGICAL SAVE'}
-                      {ev.type === 'yellow_card' && '🟨 YELLOW CARD'}
-                      {ev.type === 'red_card' && '🟥 RED CARD'}
-                      {ev.type === 'kickoff' && '⏱ KICKOFF'}
-                      {ev.type === 'halftime' && '⏱ HALF-TIME'}
-                      {ev.type === 'fulltime' && '🏁 FULL-TIME'}
-                      <span className="text-tactical-300">({ev.minute ?? ev.second}')</span>
-                    </span>
-                    <span className="text-tactical-400 font-bold">
-                      {ev.score.host} - {ev.score.guest}
-                    </span>
-                  </div>
-                  <p className="text-xs leading-relaxed">{ev.description}</p>
+                  <div className="w-16 h-16 rounded-full border-4 border-emerald-400 shadow-[0_0_25px_rgba(52,211,153,0.9)] animate-ping" />
+                  <span className="font-mono font-black text-xs px-2 py-0.5 rounded bg-emerald-500 text-tactical-950 shadow-lg uppercase tracking-wider mt-1 animate-bounce">
+                    ⚽ GOAL!
+                  </span>
                 </div>
-              ))
-            )}
+              )}
+
+              {/* 2. Yellow Card Event: Physical Yellow Referee Card Popup */}
+              {latestEvent && latestEvent.type === 'yellow_card' && (
+                <div
+                  className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center animate-bounce"
+                  style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
+                >
+                  <div className="w-5 h-7 rounded-xs bg-yellow-400 border-2 border-yellow-100 shadow-[0_0_18px_rgba(250,204,21,1)] flex items-center justify-center font-bold text-[10px] text-yellow-950 font-mono">
+                    !
+                  </div>
+                  <span className="font-mono font-bold text-[10px] px-1.5 py-0.5 rounded bg-amber-950/95 border border-yellow-400 text-yellow-300 shadow-md uppercase tracking-wider mt-1">
+                    🟨 CARD
+                  </span>
+                </div>
+              )}
+
+              {/* 3. Magical Save Event: Cyan Ring */}
+              {latestEvent && latestEvent.type === 'save' && (
+                <div
+                  className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center"
+                  style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
+                >
+                  <div className="w-14 h-14 rounded-full border-3 border-cyan-400 shadow-[0_0_20px_rgba(34,211,238,0.8)] animate-ping" />
+                  <span className="font-mono font-bold text-[10px] px-1.5 py-0.5 rounded bg-cyan-950/90 border border-cyan-400 text-cyan-300 shadow-md uppercase tracking-wider mt-1">
+                    🧤 SAVE
+                  </span>
+                </div>
+              )}
+
+              {/* Team labels on pitch */}
+              <div className="absolute top-3 left-3 text-[11px] font-mono text-pitch-line/90 uppercase tracking-wider font-bold">
+                {hostName} (ATTACK →)
+              </div>
+              <div className="absolute bottom-3 right-3 text-[11px] font-mono text-pitch-line/90 uppercase tracking-wider font-bold">
+                (← ATTACK) {guestName}
+              </div>
+            </div>
+
+            {/* Active Highlight Banner (Differentiated by event type) */}
+            <div
+              className={`mt-3 p-2.5 rounded-lg border text-xs flex items-center gap-2.5 transition-all shadow-md ${
+                latestEvent?.type === 'goal'
+                  ? 'bg-emerald-950/90 border-emerald-400 text-emerald-100 ring-2 ring-emerald-400/50'
+                  : latestEvent?.type === 'yellow_card'
+                  ? 'bg-amber-950/90 border-amber-400 text-amber-100 ring-2 ring-amber-400/40'
+                  : latestEvent?.type === 'red_card'
+                  ? 'bg-red-950/90 border-red-400 text-red-100'
+                  : latestEvent?.type === 'save'
+                  ? 'bg-cyan-950/90 border-cyan-400 text-cyan-100'
+                  : 'bg-tactical-900 border-tactical-700/60 text-tactical-200'
+              }`}
+            >
+              <span className="font-mono font-black text-sm shrink-0 px-2 py-0.5 rounded bg-tactical-950/80 border border-tactical-700">
+                {latestEvent ? `${latestEvent.minute ?? latestEvent.second}'` : '0\''}
+              </span>
+              <div className="flex items-center gap-2 min-w-0 flex-1">
+                {latestEvent?.type === 'goal' && (
+                  <span className="px-2 py-0.5 rounded bg-emerald-500 text-tactical-950 font-black font-mono text-[11px] uppercase tracking-wider shrink-0 animate-pulse">
+                    ⚽ GOAL!
+                  </span>
+                )}
+                {latestEvent?.type === 'yellow_card' && (
+                  <span className="px-2 py-0.5 rounded bg-yellow-400 text-tactical-950 font-bold font-mono text-[11px] uppercase tracking-wider shrink-0 flex items-center gap-1">
+                    <span className="inline-block w-2.5 h-3.5 bg-yellow-300 rounded-xs border border-yellow-100 shadow-xs"></span>
+                    YELLOW CARD
+                  </span>
+                )}
+                {latestEvent?.type === 'save' && (
+                  <span className="px-2 py-0.5 rounded bg-cyan-500 text-tactical-950 font-bold font-mono text-[11px] uppercase tracking-wider shrink-0">
+                    🧤 SAVE
+                  </span>
+                )}
+                <span className="font-medium truncate">
+                  {latestEvent ? latestEvent.description : 'Match underway.'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Authoritative Highlight Feed (5 cols) */}
+          <div className="lg:col-span-5 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col h-[380px] lg:h-auto">
+            <div className="flex items-center justify-between pb-2 mb-2 border-b border-tactical-700 text-xs">
+              <span className="font-semibold text-tactical-200">
+                Match Highlights ({liveMatch.events.length})
+              </span>
+              <span className="text-[11px] text-tactical-400 font-mono">
+                Key Events Only
+              </span>
+            </div>
+
+            <div
+              ref={eventFeedRef}
+              className="flex-1 overflow-y-auto space-y-2 pr-1 text-xs"
+            >
+              {liveMatch.events.length === 0 ? (
+                <div className="text-tactical-500 text-center py-10 italic">
+                  Awaiting kickoff...
+                </div>
+              ) : (
+                liveMatch.events.map((ev) => (
+                  <div
+                    key={ev.id}
+                    className={`p-2.5 rounded-lg border transition-all ${
+                      ev.type === 'goal'
+                        ? 'bg-emerald-950/85 border-2 border-emerald-400 text-emerald-100 shadow-[0_0_15px_rgba(16,185,129,0.25)] ring-1 ring-emerald-400/40'
+                        : ev.type === 'save'
+                        ? 'bg-cyan-950/60 border-2 border-cyan-400 text-cyan-100 shadow-sm'
+                        : ev.type === 'red_card'
+                        ? 'bg-red-950/70 border-2 border-red-500 text-red-100 shadow-sm'
+                        : ev.type === 'yellow_card'
+                        ? 'bg-amber-950/60 border-2 border-yellow-400 text-amber-100 shadow-[0_0_12px_rgba(250,204,21,0.2)]'
+                        : 'bg-tactical-900/60 border-tactical-750 text-tactical-300'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between text-[11px] font-mono mb-1">
+                      <span className="font-bold flex items-center gap-1.5">
+                        {ev.type === 'goal' && (
+                          <span className="text-emerald-300 font-extrabold flex items-center gap-1">
+                            ⚽ GOAL!
+                          </span>
+                        )}
+                        {ev.type === 'save' && (
+                          <span className="text-cyan-300 font-bold flex items-center gap-1">
+                            🧤 MAGICAL SAVE
+                          </span>
+                        )}
+                        {ev.type === 'yellow_card' && (
+                          <span className="text-yellow-300 font-bold flex items-center gap-1">
+                            <span className="inline-block w-2.5 h-3.5 bg-yellow-400 rounded-xs border border-yellow-200 shadow-xs mr-0.5"></span>
+                            🟨 YELLOW CARD
+                          </span>
+                        )}
+                        {ev.type === 'red_card' && (
+                          <span className="text-red-300 font-bold flex items-center gap-1">
+                            <span className="inline-block w-2.5 h-3.5 bg-red-500 rounded-xs border border-red-200 shadow-xs mr-0.5"></span>
+                            🟥 RED CARD
+                          </span>
+                        )}
+                        {ev.type === 'kickoff' && '⏱ KICKOFF'}
+                        {ev.type === 'halftime' && '⏱ HALF-TIME'}
+                        {ev.type === 'fulltime' && '🏁 FULL-TIME'}
+                        <span className="text-tactical-400 font-normal">
+                          ({ev.minute ?? ev.second}')
+                        </span>
+                      </span>
+                      <span className="text-tactical-300 font-bold">
+                        {ev.score.host} - {ev.score.guest}
+                      </span>
+                    </div>
+                    <p className="text-xs leading-relaxed">{ev.description}</p>
+                  </div>
+                ))
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      )}
+
+      {/* Both Teams On-Pitch Lineup Display (Visible while simulation is running!) */}
+      {ratingsData && (
+        <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 shadow-xl space-y-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-2.5 border-b border-tactical-700/70 gap-2">
+            <h4 className="text-sm font-bold text-tactical-100 flex items-center gap-2">
+              <Users className="w-4 h-4 text-blue-400" />
+              <span>{messages.match.startingLineups} (22 Players)</span>
+            </h4>
+            <div className="flex items-center gap-3 text-xs font-mono">
+              <span className="text-tactical-300">
+                {hostName} Avg: <strong className="text-emerald-400 font-bold">{hostAvgRating}</strong>
+              </span>
+              <span className="text-tactical-600">•</span>
+              <span className="text-tactical-300">
+                {guestName} Avg: <strong className="text-emerald-400 font-bold">{guestAvgRating}</strong>
+              </span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Host Squad */}
+            <div className="space-y-1.5">
+              <div className="flex items-center justify-between text-xs font-semibold px-2.5 py-1.5 rounded bg-tactical-900 border border-tactical-750">
+                <span className="text-tactical-100 font-bold truncate">
+                  {hostName} ({hostDraft.formation.name})
+                </span>
+                <span className="text-tactical-400 font-mono text-[11px] capitalize">
+                  {hostDraft.strategy}
+                </span>
+              </div>
+              <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
+                {ratingsData.hostRatings.map((r) => renderPlayerRow(r))}
+              </div>
+            </div>
+
+            {/* Guest Squad */}
+            <div className="space-y-1.5">
+              <div className="flex items-center justify-between text-xs font-semibold px-2.5 py-1.5 rounded bg-tactical-900 border border-tactical-750">
+                <span className="text-tactical-100 font-bold truncate">
+                  {guestName} ({guestDraft?.formation.name || '4-3-3'})
+                </span>
+                <span className="text-tactical-400 font-mono text-[11px] capitalize">
+                  {guestDraft?.strategy || 'balanced'}
+                </span>
+              </div>
+              <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
+                {ratingsData.guestRatings.map((r) => renderPlayerRow(r))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Penalty Shootout Display (if penalties active or completed) */}
       {liveMatch.penalties && liveMatch.penalties.length > 0 && (
@@ -329,7 +677,6 @@ export const MatchView: React.FC<MatchViewProps> = ({
             </div>
           </div>
 
-          {/* Side-by-side shootout columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Host Kickers */}
             <div className="bg-tactical-900/80 rounded-lg p-3 border border-tactical-750 space-y-2">
@@ -426,6 +773,126 @@ export const MatchView: React.FC<MatchViewProps> = ({
         </div>
       )}
 
+      {/* Post-Match Ratings & Performance Report (When match is completed or tab active) */}
+      {liveMatch.status === 'completed' && ratingsData && (
+        <div className="bg-tactical-850 border border-gold-500/60 rounded-xl p-5 shadow-2xl space-y-5">
+          {/* Header */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-tactical-700/80 gap-3">
+            <div>
+              <h3 className="text-lg font-bold text-tactical-100 flex items-center gap-2">
+                <Trophy className="w-5 h-5 text-gold-400" />
+                <span>{messages.match.playerRatingsReport}</span>
+              </h3>
+              <p className="text-xs text-tactical-400 mt-0.5">
+                Authentic match evaluation based on goals, saves, assists, clean sheets, and tactical impact.
+              </p>
+            </div>
+            <div className="flex items-center gap-3 bg-tactical-900 px-3.5 py-1.5 rounded-lg border border-tactical-700 text-xs font-mono">
+              <div>
+                {hostName}: <strong className="text-emerald-400 font-bold">{hostAvgRating}</strong>
+              </div>
+              <span className="text-tactical-600">vs</span>
+              <div>
+                {guestName}: <strong className="text-emerald-400 font-bold">{guestAvgRating}</strong>
+              </div>
+            </div>
+          </div>
+
+          {/* Star of the Match Spotlight Card */}
+          {ratingsData.starOfMatch && (
+            <div className="bg-gradient-to-r from-amber-950/70 via-tactical-900 to-amber-950/50 border-2 border-gold-400/90 rounded-xl p-4 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3.5 min-w-0">
+                <div className="w-12 h-12 rounded-full bg-gold-400/20 border-2 border-gold-400 flex items-center justify-center text-gold-400 text-2xl font-bold shrink-0 shadow-lg animate-pulse">
+                  ★
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="px-2 py-0.5 rounded bg-gold-400/20 border border-gold-400 text-gold-300 font-mono text-[10px] font-bold uppercase tracking-wider">
+                      {messages.match.starOfMatch}
+                    </span>
+                    <span className="text-xs text-tactical-400 font-mono">
+                      {ratingsData.starOfMatch.team === 'host' ? hostName : guestName}
+                    </span>
+                  </div>
+                  <h4 className="text-lg font-bold text-tactical-100 mt-0.5">
+                    #{ratingsData.starOfMatch.squadNumber} {ratingsData.starOfMatch.name}{' '}
+                    <span className="text-xs font-normal text-tactical-400">
+                      ({ratingsData.starOfMatch.position})
+                    </span>
+                  </h4>
+                  <p className="text-xs text-gold-300/90 font-medium mt-0.5">
+                    {ratingsData.starOfMatch.summary}
+                  </p>
+                </div>
+              </div>
+
+              <div className="text-center sm:text-right shrink-0 bg-tactical-950/80 px-4 py-2 rounded-lg border border-gold-500/40">
+                <div className="text-[10px] uppercase font-mono text-tactical-400 font-semibold tracking-wider">
+                  Match Rating
+                </div>
+                <div className="font-mono text-3xl font-black text-gold-400">
+                  {ratingsData.starOfMatch.rating.toFixed(1)}
+                  <span className="text-xs font-normal text-tactical-400">/10</span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Full Squad Ratings Side-by-Side */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {/* Host Ratings */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between pb-2 border-b border-tactical-750">
+                <h5 className="font-bold text-sm text-tactical-100 flex items-center gap-2">
+                  <span>{hostName}</span>
+                  <span className="font-mono text-xs text-emerald-400 font-bold bg-tactical-900 px-2 py-0.5 rounded border border-tactical-750">
+                    Ø {hostAvgRating}
+                  </span>
+                </h5>
+                <span className="font-mono text-xs text-tactical-400">
+                  {hostDraft.formation.name}
+                </span>
+              </div>
+              <div className="space-y-2">
+                {ratingsData.hostRatings.map((r) => (
+                  <div key={r.playerId} className="space-y-1">
+                    {renderPlayerRow(r, true)}
+                    <div className="text-[10px] text-tactical-400 pl-2 italic truncate">
+                      {r.summary}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Guest Ratings */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between pb-2 border-b border-tactical-750">
+                <h5 className="font-bold text-sm text-tactical-100 flex items-center gap-2">
+                  <span>{guestName}</span>
+                  <span className="font-mono text-xs text-emerald-400 font-bold bg-tactical-900 px-2 py-0.5 rounded border border-tactical-750">
+                    Ø {guestAvgRating}
+                  </span>
+                </h5>
+                <span className="font-mono text-xs text-tactical-400">
+                  {guestDraft?.formation.name || '4-3-3'}
+                </span>
+              </div>
+              <div className="space-y-2">
+                {ratingsData.guestRatings.map((r) => (
+                  <div key={r.playerId} className="space-y-1">
+                    {renderPlayerRow(r, true)}
+                    <div className="text-[10px] text-tactical-400 pl-2 italic truncate">
+                      {r.summary}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Match Statistics Grid */}
       <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-4">
         <h4 className="text-xs font-semibold text-tactical-300 uppercase tracking-wider mb-3">
@@ -480,7 +947,10 @@ export const MatchView: React.FC<MatchViewProps> = ({
                 : 'Match Drawn!'}
             </h3>
             <p className="text-xs text-tactical-400 mt-1">
-              Method: {liveMatch.winMethod ? liveMatch.winMethod.replace('_', ' ').toUpperCase() : 'REGULAR TIME'}
+              Method:{' '}
+              {liveMatch.winMethod
+                ? liveMatch.winMethod.replace('_', ' ').toUpperCase()
+                : 'REGULAR TIME'}
             </p>
           </div>
 
@@ -496,4 +966,3 @@ export const MatchView: React.FC<MatchViewProps> = ({
     </div>
   );
 };
-
