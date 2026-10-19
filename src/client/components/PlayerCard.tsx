@@ -1,6 +1,9 @@
 import React from 'react';
 import { PlayerVersion } from '../../shared/types/index.js';
 
+import { getOvrColorClass } from '../utils/ovrColor.js';
+export { getOvrColorClass };
+
 interface PlayerCardProps {
   player: PlayerVersion;
   eligible?: boolean;
@@ -86,11 +89,7 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
               ? 'text-emerald-300 font-extrabold'
               : isTakenByOpponent
               ? 'text-rose-400/60 line-through'
-              : player.ovr >= 95
-              ? 'text-amber-300'
-              : player.ovr >= 90
-              ? 'text-emerald-300'
-              : 'text-tactical-200'
+              : getOvrColorClass(player.ovr)
           }`}
         >
           {player.ovr}

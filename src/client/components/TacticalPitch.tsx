@@ -1,6 +1,7 @@
 import React from 'react';
 import { DraftedSlot, FormationDefinition, FormationSlot } from '../../shared/types/index.js';
 import { Award, User } from 'lucide-react';
+import { getOvrColorClass } from '../utils/ovrColor.js';
 
 interface TacticalPitchProps {
   formation: FormationDefinition;
@@ -80,7 +81,7 @@ export const TacticalPitch: React.FC<TacticalPitchProps> = ({
                     : 'bg-tactical-800 border-pitch-accent shadow-pitch-accent/20'
                 }`}
               >
-                <span className="font-mono font-bold text-xs text-tactical-100">
+                <span className={`font-mono font-bold text-xs ${getOvrColorClass(drafted.player.ovr)}`}>
                   {drafted.player.ovr}
                 </span>
                 <span className="font-mono text-[10px] text-pitch-accent font-semibold">

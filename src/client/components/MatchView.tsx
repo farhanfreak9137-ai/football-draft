@@ -12,6 +12,7 @@ import { messages } from '../i18n/messages.js';
 import { MatchEngine, getVisualMinute } from '../../shared/engine/matchEngine.js';
 import { BothPitchesView } from './BothPitchesView.js';
 import { MatchResultModal } from './MatchResultModal.js';
+import { getOvrColorClass } from '../utils/ovrColor.js';
 import {
   Shield,
   Activity,
@@ -267,7 +268,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
         {/* Base Historical OVR */}
         <span
-          className="font-mono text-[11px] text-tactical-400 hidden sm:inline"
+          className={`font-mono text-[11px] hidden sm:inline ${getOvrColorClass(r.ovr)}`}
           title="Historical OVR"
         >
           {r.ovr}
@@ -305,16 +306,6 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
           <div className="flex items-center gap-2 flex-wrap">
             <div>{getStatusBadge()}</div>
-            {isMatchFinished && (
-              <button
-                onClick={() => setShowResultModal(true)}
-                className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-gold-300 border border-amber-500/50 hover:bg-amber-500/30 shadow-[0_0_12px_rgba(250,204,21,0.25)] transition-all animate-pulse"
-                title="View Winner & Match Result Popup"
-              >
-                <Trophy className="w-3.5 h-3.5 text-gold-400" />
-                <span>Winner Popup</span>
-              </button>
-            )}
             <span
               className={`px-2.5 py-0.5 rounded text-[11px] font-semibold border ${
                 liveMatch.knockoutMode
@@ -412,7 +403,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
           }`}
         >
           <Shield className="w-3.5 h-3.5 text-pitch-accent" />
-          <span>{isMatchFinished ? 'Both Pitches & Ratings' : 'Both Pitches & Lineups (22)'}</span>
+          <span>Both Pitches</span>
         </button>
       </div>
 
@@ -427,43 +418,12 @@ export const MatchView: React.FC<MatchViewProps> = ({
           hostAvgRating={hostAvgRating}
           guestAvgRating={guestAvgRating}
           renderPlayerRow={renderPlayerRow}
-          onOpenResultModal={() => setShowResultModal(true)}
         />
       )}
 
       {/* Main Simulation View: 2D Pitch & Distinct Highlights Feed (Lineups removed from here!) */}
       {activeTab === 'pitch' && (
         <>
-          {/* Quick Option Banner to View Both Pitches */}
-          <div className="flex items-center justify-between px-4 py-2.5 rounded-xl bg-tactical-850 border border-tactical-700/80 text-xs shadow-md">
-            <div className="flex items-center gap-2 text-tactical-300">
-              <Shield className="w-4 h-4 text-pitch-accent shrink-0" />
-              <span>
-                {isMatchFinished
-                  ? 'Full-time ratings are ready on both tactical pitches'
-                  : 'View both teams set on their tactical pitches'}
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              {isMatchFinished && (
-                <button
-                  onClick={() => setShowResultModal(true)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 text-gold-300 font-semibold border border-amber-500/50 transition-all text-xs shrink-0 shadow-sm active:scale-95"
-                >
-                  <Trophy className="w-3.5 h-3.5 text-gold-400" />
-                  <span>Winner Popup</span>
-                </button>
-              )}
-              <button
-                onClick={() => setActiveTab('lineups')}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-100 font-semibold border border-tactical-700 hover:border-tactical-600 transition-all text-xs shrink-0 shadow-sm"
-              >
-                <span>{isMatchFinished ? 'Both Pitches & Ratings' : 'View Both Pitches (22)'}</span>
-                <ArrowRight className="w-3.5 h-3.5 text-pitch-accent" />
-              </button>
-            </div>
-          </div>
-
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {/* 2D Pitch Visualizer (7 cols) */}
           <div className="lg:col-span-7 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col justify-between">
@@ -869,26 +829,10 @@ export const MatchView: React.FC<MatchViewProps> = ({
             </p>
           </div>
 
-          <div className="flex items-center justify-center gap-3 flex-wrap">
-            <button
-              onClick={() => setShowResultModal(true)}
-              className="inline-flex items-center gap-2 bg-amber-500/20 hover:bg-amber-500/30 text-gold-300 font-bold px-5 py-2.5 rounded-lg text-sm border border-amber-500/50 shadow-md transition-all active:scale-95"
-            >
-              <Trophy className="w-4 h-4 text-gold-400" />
-              <span>View Winner Popup</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('lineups')}
-              className="inline-flex items-center gap-2 bg-tactical-800 hover:bg-tactical-700 text-tactical-100 font-semibold px-5 py-2.5 rounded-lg text-sm border border-tactical-700 transition-all active:scale-95"
-            >
-              <Shield className="w-4 h-4 text-pitch-accent" />
-              <span>Both Pitches & Ratings</span>
-            </button>
-
+          <div className="flex items-center justify-center">
             <button
               onClick={onExitMatch}
-              className="inline-flex items-center gap-2 bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-semibold px-6 py-2.5 rounded-lg text-sm border border-pitch-line active:scale-98 transition-all"
+              className="inline-flex items-center gap-2 bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-semibold px-6 py-2.5 rounded-lg text-sm border border-pitch-line active:scale-98 transition-all shadow-md"
             >
               <span>{messages.match.playAgain}</span>
               <ArrowRight className="w-4 h-4" />

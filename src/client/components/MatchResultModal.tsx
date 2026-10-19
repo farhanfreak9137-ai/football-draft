@@ -15,6 +15,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { messages } from '../i18n/messages.js';
+import { getOvrColorClass } from '../utils/ovrColor.js';
 
 interface MatchResultModalProps {
   isOpen: boolean;
@@ -314,7 +315,9 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
                     </div>
                     <div className="text-[11px] text-tactical-400 truncate">
                       {starOfMatch.team === 'host' ? hostName : guestName} • Historical OVR{' '}
-                      {starOfMatch.ovr}
+                      <span className={`font-mono font-bold ${getOvrColorClass(starOfMatch.ovr)}`}>
+                        {starOfMatch.ovr}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -381,30 +384,17 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
         </div>
 
         {/* Action Buttons Footer */}
-        <div className="p-4 sm:p-5 border-t border-tactical-750 bg-tactical-900/80 flex flex-col sm:flex-row items-center gap-2.5">
-          <button
-            onClick={() => {
-              onViewBothPitches();
-              onClose();
-            }}
-            className="w-full sm:flex-1 flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-xs border border-pitch-line active:scale-98 shadow-lg transition-all"
-          >
-            <Shield className="w-4 h-4 text-pitch-accent" />
-            <span>Both Pitches & Ratings</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
-
+        <div className="p-4 sm:p-5 border-t border-tactical-750 bg-tactical-900/80 flex items-center justify-end gap-2.5">
           <button
             onClick={onClose}
-            className="w-full sm:w-auto flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-200 font-semibold text-xs border border-tactical-700 transition-all"
+            className="flex items-center justify-center gap-1.5 py-2 px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-200 font-semibold text-xs border border-tactical-700 transition-all"
           >
-            <Activity className="w-3.5 h-3.5 text-tactical-400" />
-            <span>Review Pitch</span>
+            <span>Close</span>
           </button>
 
           <button
             onClick={onPlayAgain}
-            className="w-full sm:w-auto flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-300 hover:text-tactical-100 font-semibold text-xs border border-tactical-700 transition-all"
+            className="flex items-center justify-center gap-1.5 py-2 px-5 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-xs border border-pitch-line active:scale-98 shadow-md transition-all"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>{messages.match.playAgain}</span>
