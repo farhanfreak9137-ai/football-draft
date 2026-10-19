@@ -163,6 +163,8 @@ export type MatchEventType =
   | 'chance'
   | 'shot'
   | 'save'
+  | 'yellow_card'
+  | 'red_card'
   | 'defensive_intervention'
   | 'goal'
   | 'miss'
@@ -178,7 +180,8 @@ export type MatchEventType =
 
 export interface MatchEvent {
   id: string;
-  second: number; // 0 to 90 (or up to 120 for ET)
+  second: number; // Real second elapsed (0 to 45 for regular time)
+  minute?: number; // Simulated visual match minute (0 to 90, or up to 120 in ET)
   period: 'first_half' | 'second_half' | 'extra_time_1' | 'extra_time_2' | 'penalties';
   type: MatchEventType;
   team: 'host' | 'guest';
