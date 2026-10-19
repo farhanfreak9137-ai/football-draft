@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { MatchEvent, MatchSimulationState, PenaltyKickResult, PlayerDraftState } from '../../shared/types/index.js';
 import { soundManager } from '../utils/audio.js';
 import { messages } from '../i18n/messages.js';
+import { getVisualMinute } from '../../shared/engine/matchEngine.js';
 import {
   Shield,
   Activity,
@@ -41,6 +42,10 @@ export const MatchView: React.FC<MatchViewProps> = ({
       newEvents.forEach((ev) => {
         if (ev.type === 'goal') {
           soundManager.playGoalAlert();
+        } else if (ev.type === 'save') {
+          soundManager.playSaveAlert();
+        } else if (ev.type === 'yellow_card' || ev.type === 'red_card') {
+          soundManager.playCardAlert();
         } else if (ev.type === 'kickoff' || ev.type === 'halftime' || ev.type === 'fulltime') {
           soundManager.playWhistle();
         }
@@ -60,11 +65,8 @@ export const MatchView: React.FC<MatchViewProps> = ({
   const hostName = hostDraft.playerName || 'Host XI';
   const guestName = guestDraft?.playerName || 'Opponent XI';
 
-  const formatClock = (sec: number) => {
-    const mins = Math.floor(sec / 60);
-    const s = sec % 60;
-    return `${mins.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-  };
+  const visualMinute = getVisualMinute(liveMatch.currentSecond);
+  const maxVisualMinute = liveMatch.totalDurationSeconds > 45 ? 120 : 90;
 
   // Status badge styling
   const getStatusBadge = () => {
@@ -73,19 +75,19 @@ export const MatchView: React.FC<MatchViewProps> = ({
         return (
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-red-500/20 text-red-400 border border-red-500/40 animate-pulse">
             <span className="w-2 h-2 rounded-full bg-red-500"></span>
-            LIVE ({liveMatch.currentSecond}s)
+            LIVE ({visualMinute}')
           </span>
         );
       case 'halftime':
         return (
           <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/40">
-            Half-Time
+            Half-Time (45')
           </span>
         );
       case 'extra_time':
         return (
           <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-500/20 text-purple-300 border border-purple-500/40 animate-pulse">
-            Extra Time
+            Extra Time ({visualMinute}')
           </span>
         );
       case 'penalties':
@@ -98,7 +100,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
       case 'completed':
         return (
           <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-            Full-Time
+            Full-Time ({maxVisualMinute}')
           </span>
         );
       default:
@@ -118,9 +120,9 @@ export const MatchView: React.FC<MatchViewProps> = ({
           <div className="flex items-center gap-2">
             <Clock className="w-4 h-4 text-pitch-accent" />
             <span className="font-mono text-tactical-200 font-bold text-sm">
-              {formatClock(liveMatch.currentSecond)}
+              {visualMinute}'
             </span>
-            <span className="text-tactical-400 text-[11px]">/ 01:30 (Real-Time Sim)</span>
+            <span className="text-tactical-400 text-[11px]">/ {maxVisualMinute}' Match Time ({liveMatch.currentSecond}s Sim)</span>
           </div>
 
           <div>{getStatusBadge()}</div>
@@ -223,10 +225,12 @@ export const MatchView: React.FC<MatchViewProps> = ({
               <div className="w-1.5 h-1.5 rounded-full bg-tactical-950"></div>
             </div>
 
-            {/* Event Ripple if Goal or Shot */}
-            {latestEvent && (latestEvent.type === 'goal' || latestEvent.type === 'shot') && (
+            {/* Event Ripple if Goal or Magical Save */}
+            {latestEvent && (latestEvent.type === 'goal' || latestEvent.type === 'save') && (
               <div
-                className="absolute w-12 h-12 rounded-full border-2 border-gold-400 animate-ping -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+                className={`absolute w-12 h-12 rounded-full border-2 ${
+                  latestEvent.type === 'goal' ? 'border-gold-400' : 'border-blue-400'
+                } animate-ping -translate-x-1/2 -translate-y-1/2 pointer-events-none`}
                 style={{
                   left: `${ballPos.x}%`,
                   top: `${ballPos.y}%`,
@@ -246,7 +250,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
           {/* Active Highlight Banner */}
           <div className="mt-3 p-2.5 rounded bg-tactical-900 border border-tactical-700/60 text-xs text-tactical-200 flex items-center gap-2">
             <span className="font-mono text-pitch-accent font-bold">
-              {latestEvent ? `${latestEvent.second}'` : '0\''}
+              {latestEvent ? `${latestEvent.minute ?? latestEvent.second}'` : '0\''}
             </span>
             <span className="text-tactical-300">
               {latestEvent ? latestEvent.description : 'Match underway.'}
@@ -254,11 +258,11 @@ export const MatchView: React.FC<MatchViewProps> = ({
           </div>
         </div>
 
-        {/* Authoritative Event Feed (5 cols) */}
+        {/* Authoritative Highlight Feed (5 cols) */}
         <div className="lg:col-span-5 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col h-[380px] lg:h-auto">
           <div className="flex items-center justify-between pb-2 mb-2 border-b border-tactical-700 text-xs">
-            <span className="font-semibold text-tactical-200">Match Events ({liveMatch.events.length})</span>
-            <span className="text-[11px] text-tactical-400 font-mono">1s = 1 Match Sec</span>
+            <span className="font-semibold text-tactical-200">Match Highlights ({liveMatch.events.length})</span>
+            <span className="text-[11px] text-tactical-400 font-mono">Key Events Only</span>
           </div>
 
           <div ref={eventFeedRef} className="flex-1 overflow-y-auto space-y-2 pr-1 text-xs">
@@ -268,28 +272,31 @@ export const MatchView: React.FC<MatchViewProps> = ({
               liveMatch.events.map((ev) => (
                 <div
                   key={ev.id}
-                  className={`p-2 rounded border transition-all ${
+                  className={`p-2.5 rounded-lg border transition-all ${
                     ev.type === 'goal'
-                      ? 'bg-amber-500/15 border-amber-500/40 text-amber-200'
+                      ? 'bg-amber-500/15 border-amber-500/50 text-amber-200 shadow-sm'
                       : ev.type === 'save'
-                      ? 'bg-blue-500/10 border-blue-500/30 text-blue-200'
-                      : ev.type === 'shot'
-                      ? 'bg-pitch-DEFAULT/15 border-pitch-line/40 text-pitch-accent'
+                      ? 'bg-blue-500/15 border-blue-500/40 text-blue-200'
+                      : ev.type === 'red_card'
+                      ? 'bg-red-500/15 border-red-500/50 text-red-200'
+                      : ev.type === 'yellow_card'
+                      ? 'bg-yellow-500/15 border-yellow-500/40 text-yellow-200'
                       : 'bg-tactical-900/60 border-tactical-750 text-tactical-300'
                   }`}
                 >
                   <div className="flex items-center justify-between text-[11px] font-mono mb-1">
-                    <span className="font-bold flex items-center gap-1">
+                    <span className="font-bold flex items-center gap-1.5">
                       {ev.type === 'goal' && '⚽ GOAL!'}
-                      {ev.type === 'save' && '🧤 SAVE'}
-                      {ev.type === 'shot' && '🎯 SHOT'}
+                      {ev.type === 'save' && '🧤 MAGICAL SAVE'}
+                      {ev.type === 'yellow_card' && '🟨 YELLOW CARD'}
+                      {ev.type === 'red_card' && '🟥 RED CARD'}
                       {ev.type === 'kickoff' && '⏱ KICKOFF'}
                       {ev.type === 'halftime' && '⏱ HALF-TIME'}
                       {ev.type === 'fulltime' && '🏁 FULL-TIME'}
-                      {ev.second}'
+                      <span className="text-tactical-300">({ev.minute ?? ev.second}')</span>
                     </span>
-                    <span className="text-tactical-400">
-                      Score: {ev.score.host} - {ev.score.guest}
+                    <span className="text-tactical-400 font-bold">
+                      {ev.score.host} - {ev.score.guest}
                     </span>
                   </div>
                   <p className="text-xs leading-relaxed">{ev.description}</p>
