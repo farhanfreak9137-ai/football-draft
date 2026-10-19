@@ -35,8 +35,8 @@ function createTestSquad(editionId: string, managerName: string) {
   return state;
 }
 
-describe('MatchEngine (90s Luck-First Simulation)', () => {
-  it('simulates a complete 90-second match with valid timing and chronological event feed', () => {
+describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)', () => {
+  it('simulates a complete 45-second match with valid timing and chronological event feed', () => {
     const hostDraft = createTestSquad('brazil-1970', 'Brazil 1970 Manager');
     const guestDraft = createTestSquad('italy-1982', 'Italy 1982 Manager');
 
@@ -45,7 +45,7 @@ describe('MatchEngine (90s Luck-First Simulation)', () => {
       knockoutMode: false,
     });
 
-    expect(sim.totalDurationSeconds).toBe(90);
+    expect(sim.totalDurationSeconds).toBe(45);
     expect(sim.events.length).toBeGreaterThan(0);
 
     // Event 0 must be kickoff
@@ -83,7 +83,7 @@ describe('MatchEngine (90s Luck-First Simulation)', () => {
     }
   });
 
-  it('supports extra time (2 x 15s) and penalty shootout with sudden death when tied in knockout', () => {
+  it('supports extra time (15s) and penalty shootout with sudden death when tied in knockout', () => {
     const hostDraft = createTestSquad('greece-2004', 'Greece Manager');
     const guestDraft = createTestSquad('portugal-2016', 'Portugal Manager');
 
@@ -97,7 +97,7 @@ describe('MatchEngine (90s Luck-First Simulation)', () => {
 
       if (sim.winMethod === 'penalties') {
         foundPenalties = true;
-        expect(sim.totalDurationSeconds).toBe(120);
+        expect(sim.totalDurationSeconds).toBe(60);
         expect(sim.penalties.length).toBeGreaterThanOrEqual(5);
         expect(sim.penaltyScore).toBeDefined();
         expect(sim.winner).toMatch(/host|guest/);
@@ -169,19 +169,19 @@ describe('MatchEngine (90s Luck-First Simulation)', () => {
     sim.startTime = startTime;
     sim.status = 'live';
 
-    // 1. Reconnect at second 30
-    const stateAt30 = MatchEngine.getAuthoritativeStateAtTime(sim, startTime + 30000);
-    expect(stateAt30.currentSecond).toBe(30);
-    expect(stateAt30.events.every((e) => e.second <= 30)).toBe(true);
+    // 1. Reconnect at second 15
+    const stateAt15 = MatchEngine.getAuthoritativeStateAtTime(sim, startTime + 15000);
+    expect(stateAt15.currentSecond).toBe(15);
+    expect(stateAt15.events.every((e) => e.second <= 15)).toBe(true);
 
-    // 2. Reconnect at second 45 (half-time)
-    const stateAt45 = MatchEngine.getAuthoritativeStateAtTime(sim, startTime + 45000);
-    expect(stateAt45.currentSecond).toBe(45);
-    expect(stateAt45.status).toBe('halftime');
+    // 2. Reconnect at second 22 (half-time)
+    const stateAt22 = MatchEngine.getAuthoritativeStateAtTime(sim, startTime + 22000);
+    expect(stateAt22.currentSecond).toBe(22);
+    expect(stateAt22.status).toBe('halftime');
 
-    // 3. Reconnect at second 90+ (completed)
-    const stateAt100 = MatchEngine.getAuthoritativeStateAtTime(sim, startTime + 100000);
-    expect(stateAt100.currentSecond).toBe(90);
-    expect(stateAt100.status).toBe('completed');
+    // 3. Reconnect at second 50 (after 45s completed)
+    const stateAt50 = MatchEngine.getAuthoritativeStateAtTime(sim, startTime + 50000);
+    expect(stateAt50.currentSecond).toBe(45);
+    expect(stateAt50.status).toBe('completed');
   });
 });
