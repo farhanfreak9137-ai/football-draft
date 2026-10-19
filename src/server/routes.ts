@@ -191,6 +191,25 @@ export function createApiRouter(
     }
   });
 
+  // Roll team edition
+  router.post('/rooms/:roomCode/roll', async (req: Request, res: Response) => {
+    try {
+      const { token } = req.body;
+      if (!token) {
+        res.status(400).json({ success: false, error: 'token is required' });
+        return;
+      }
+      const room = await roomManager.executeRoll({
+        roomCode: req.params.roomCode,
+        token,
+      });
+      getWsHandler?.()?.broadcastRoom(room.roomCode, room);
+      res.json({ success: true, room });
+    } catch (err: any) {
+      res.status(400).json({ success: false, error: err.message });
+    }
+  });
+
   // Reroll
   router.post('/rooms/:roomCode/reroll', async (req: Request, res: Response) => {
     try {

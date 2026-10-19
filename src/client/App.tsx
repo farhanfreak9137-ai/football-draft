@@ -14,6 +14,7 @@ import {
   closeRoom,
   createRoom,
   executePick,
+  executeRoll,
   executeReroll,
   getLiveMatch,
   joinRoom,
@@ -52,6 +53,7 @@ export const App: React.FC = () => {
   const [selectedCustomFormation, setSelectedCustomFormation] = useState<FormationDefinition | null>(null);
   const [copiedCode, setCopiedCode] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [isRolling, setIsRolling] = useState(false);
   const [errorNotice, setErrorNotice] = useState<string | null>(null);
 
   // Load saved custom formations on initial render
@@ -293,6 +295,25 @@ export const App: React.FC = () => {
       setRoom(updated);
     } catch (err: any) {
       setErrorNotice(err.message || 'Pick rejected by server.');
+    }
+  };
+
+  // Handler: Execute Roll (Initial team draw for turn)
+  const handleRoll = async () => {
+    if (!room || !token) return;
+    try {
+      setIsRolling(true);
+      setErrorNotice(null);
+      setSelectedPlayer(null);
+      const updated = await executeRoll({
+        roomCode: room.roomCode,
+        token,
+      });
+      setRoom(updated);
+    } catch (err: any) {
+      setErrorNotice(err.message || 'Roll failed.');
+    } finally {
+      setIsRolling(false);
     }
   };
 
@@ -681,7 +702,9 @@ export const App: React.FC = () => {
                       setSelectedPlayer((prev) => (prev?.id === player.id ? null : player))
                     }
                     onReroll={handleReroll}
-                    disabled={loading}
+                    onRoll={handleRoll}
+                    isRolling={isRolling}
+                    disabled={loading || isRolling}
                   />
                 ) : (
                   <div className="bg-tactical-850 border border-pitch-line/50 rounded-xl p-8 text-center space-y-4 shadow-xl">

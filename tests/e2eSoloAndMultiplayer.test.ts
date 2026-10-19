@@ -105,6 +105,16 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
     for (let round = 1; round <= 11; round++) {
       // --- Host turn ---
       expect(currentRoom.activeTurn).toBe('host');
+
+      // Host rolls team edition for their turn
+      const hostRollRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/roll`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: hostToken }),
+      }).then((r) => r.json());
+      expect(hostRollRes.success).toBe(true);
+      currentRoom = hostRollRes.room;
+
       const hostPick = DraftEngine.getDeterministicAutoPick(
         currentRoom.hostDraft,
         currentRoom.hostDraft.currentRoster,
@@ -126,6 +136,16 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
 
       // --- Guest turn ---
       expect(currentRoom.activeTurn).toBe('guest');
+
+      // Guest rolls team edition for their turn
+      const guestRollRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/roll`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: guestToken }),
+      }).then((r) => r.json());
+      expect(guestRollRes.success).toBe(true);
+      currentRoom = guestRollRes.room;
+
       const guestPick = DraftEngine.getDeterministicAutoPick(
         currentRoom.guestDraft!,
         currentRoom.guestDraft!.currentRoster,

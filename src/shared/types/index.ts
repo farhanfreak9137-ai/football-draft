@@ -123,7 +123,7 @@ export interface PlayerDraftState {
   strategy: Strategy;
   draftedSlots: Record<string, DraftedSlot>; // slotId -> DraftedSlot
   usedIdentityIds: string[]; // Uniqueness tracker
-  rerollsRemaining: number; // 2 per XI
+  rerollsRemaining: number; // 3 per XI
   currentTeamEdition: TeamEdition | null;
   currentRoster: PlayerVersion[];
   isReady: boolean;

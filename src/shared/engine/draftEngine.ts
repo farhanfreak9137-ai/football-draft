@@ -37,7 +37,7 @@ export class DraftEngine {
       strategy: 'balanced',
       draftedSlots: {},
       usedIdentityIds: [],
-      rerollsRemaining: 2,
+      rerollsRemaining: 3,
       currentTeamEdition: null,
       currentRoster: [],
       isReady: false,

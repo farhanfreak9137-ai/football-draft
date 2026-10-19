@@ -80,6 +80,20 @@ export async function executePick(params: {
   return data.room;
 }
 
+export async function executeRoll(params: {
+  roomCode: string;
+  token: string;
+}): Promise<RoomState> {
+  const res = await fetch(`${API_BASE}/rooms/${params.roomCode}/roll`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ token: params.token }),
+  });
+  const data = await res.json();
+  if (!data.success) throw new Error(data.error);
+  return data.room;
+}
+
 export async function executeReroll(params: {
   roomCode: string;
   token: string;

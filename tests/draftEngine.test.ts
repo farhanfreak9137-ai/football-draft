@@ -122,7 +122,7 @@ describe('DraftEngine & Formation Rules', () => {
     }
   });
 
-  it('provides two rerolls per XI and depletes properly', () => {
+  it('provides three rerolls per XI and depletes properly', () => {
     let state = DraftEngine.createInitialDraftState({
       seatId: 'host',
       playerId: 'test-host',
@@ -131,7 +131,7 @@ describe('DraftEngine & Formation Rules', () => {
       formationId: '4-3-3',
     });
 
-    expect(state.rerollsRemaining).toBe(2);
+    expect(state.rerollsRemaining).toBe(3);
     const prng = new PRNG(101);
 
     // First reroll
@@ -140,7 +140,7 @@ describe('DraftEngine & Formation Rules', () => {
       { editions: nationalEditions, players: nationalPlayers },
       prng
     );
-    expect(state.rerollsRemaining).toBe(1);
+    expect(state.rerollsRemaining).toBe(2);
     expect(state.currentTeamEdition).toBeDefined();
 
     // Second reroll
@@ -149,9 +149,17 @@ describe('DraftEngine & Formation Rules', () => {
       { editions: nationalEditions, players: nationalPlayers },
       prng
     );
+    expect(state.rerollsRemaining).toBe(1);
+
+    // Third reroll
+    state = DraftEngine.executeReroll(
+      state,
+      { editions: nationalEditions, players: nationalPlayers },
+      prng
+    );
     expect(state.rerollsRemaining).toBe(0);
 
-    // Third reroll MUST throw error
+    // Fourth reroll MUST throw error
     expect(() => {
       DraftEngine.executeReroll(
         state,
@@ -193,7 +201,7 @@ describe('DraftEngine & Formation Rules', () => {
     );
     expect(hasLegalGK).toBe(true);
     // Rerolls remaining was untouched
-    expect(state.rerollsRemaining).toBe(2);
+    expect(state.rerollsRemaining).toBe(3);
   });
 
   it('deterministic auto-pick selects highest-OVR legal player with documented tie-breaks', () => {

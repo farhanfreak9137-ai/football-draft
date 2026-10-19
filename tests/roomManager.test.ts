@@ -52,20 +52,26 @@ describe('RoomManager & Multiplayer Security', () => {
     expect(activeRoom.status).toBe('drafting');
     expect(activeRoom.activeTurn).toBe('host'); // Host always goes first
 
+    // Host rolls team edition for their turn
+    const rolledRoom = await rm.executeRoll({
+      roomCode: activeRoom.roomCode,
+      token: hostToken,
+    });
+    const hostRoster = rolledRoom.hostDraft.currentRoster;
+
     // Guest attempting to pick out of turn MUST be rejected
-    const guestRoster = activeRoom.hostDraft.currentRoster;
     await expect(
       rm.executePick({
         roomCode: activeRoom.roomCode,
         token: guestToken,
-        playerId: guestRoster[0].id,
+        playerId: hostRoster[0].id,
         slotId: 'gk',
       })
     ).rejects.toThrow(/not your turn/i);
 
     // Host picks a legal player for an eligible slot
-    const hostPlayer = activeRoom.hostDraft.currentRoster.find((p) => p.naturalPositions.includes('GK')) || activeRoom.hostDraft.currentRoster[0];
-    const slotId = activeRoom.hostDraft.formation.slots.find((s) => s.defaultPosition === hostPlayer.naturalPositions[0])?.id || 'st';
+    const hostPlayer = hostRoster.find((p) => p.naturalPositions.includes('GK')) || hostRoster[0];
+    const slotId = rolledRoom.hostDraft.formation.slots.find((s) => s.defaultPosition === hostPlayer.naturalPositions[0])?.id || 'st';
 
     const afterHostPick = await rm.executePick({
       roomCode: activeRoom.roomCode,

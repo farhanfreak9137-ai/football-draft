@@ -103,18 +103,6 @@ export class RoomManager {
       turnNumber: 1,
     };
 
-    // If starting immediately in solo mode, roll initial team edition for host
-    if (params.mode === 'solo') {
-      const prng = new PRNG();
-      const { edition, roster } = DraftEngine.rollTeamEdition(
-        room.hostDraft,
-        { editions: this.db.editions, players: this.db.players },
-        prng
-      );
-      room.hostDraft.currentTeamEdition = edition;
-      room.hostDraft.currentRoster = roster;
-    }
-
     await this.db.saveRoom(room);
     return { room, hostToken, guestToken };
   }
@@ -160,16 +148,6 @@ export class RoomManager {
     room.updatedAt = now;
     room.activeTurn = 'host';
     room.turnDeadline = now + 40000; // 40 seconds
-
-    // Roll initial team for host
-    const prng = new PRNG();
-    const { edition, roster } = DraftEngine.rollTeamEdition(
-      room.hostDraft,
-      { editions: this.db.editions, players: this.db.players },
-      prng
-    );
-    room.hostDraft.currentTeamEdition = edition;
-    room.hostDraft.currentRoster = roster;
 
     await this.db.saveRoom(room);
     return { room, guestToken };
@@ -221,8 +199,20 @@ export class RoomManager {
 
     const currentDraft = seat === 'host' ? room.hostDraft : room.guestDraft!;
     const otherDraft = seat === 'host' ? room.guestDraft : room.hostDraft;
-    if (!currentDraft.currentTeamEdition) {
-      throw new Error('No team edition currently rolled for this turn');
+    // Fallback: if called programmatically before rolling, roll team edition
+    if (!currentDraft.currentTeamEdition || currentDraft.currentRoster.length === 0) {
+      const prng = new PRNG();
+      const { edition, roster } = DraftEngine.rollTeamEdition(
+        currentDraft,
+        { editions: this.db.editions, players: this.db.players },
+        prng,
+        {
+          excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+          excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+        }
+      );
+      currentDraft.currentTeamEdition = edition;
+      currentDraft.currentRoster = roster;
     }
 
     // Execute pick with cross-team uniqueness check (22 unique players rule)
@@ -269,6 +259,51 @@ export class RoomManager {
 
     // Advance turn to next seat
     await this.advanceTurn(room);
+    this.onRoomUpdated?.(room);
+    return room;
+  }
+
+  async executeRoll(params: {
+    roomCode: string;
+    token: string;
+  }): Promise<RoomState> {
+    const auth = await this.authenticateSeat(params.roomCode, params.token);
+    if (!auth) {
+      throw new Error('UNAUTHORIZED_SEAT_TOKEN');
+    }
+
+    const { seat, room } = auth;
+    if (room.status !== 'drafting') {
+      throw new Error(`Cannot roll team while room status is ${room.status}`);
+    }
+
+    if (room.activeTurn !== seat) {
+      throw new Error(`It is not your turn to roll. Current turn: ${room.activeTurn}`);
+    }
+
+    const currentDraft = seat === 'host' ? room.hostDraft : room.guestDraft!;
+    if (currentDraft.currentTeamEdition && currentDraft.currentRoster.length > 0) {
+      // Already rolled for this turn
+      return room;
+    }
+
+    const otherDraft = seat === 'host' ? room.guestDraft : room.hostDraft;
+    const prng = new PRNG();
+    const { edition, roster } = DraftEngine.rollTeamEdition(
+      currentDraft,
+      { editions: this.db.editions, players: this.db.players },
+      prng,
+      {
+        excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+        excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+      }
+    );
+
+    currentDraft.currentTeamEdition = edition;
+    currentDraft.currentRoster = roster;
+    room.updatedAt = Date.now();
+
+    await this.db.saveRoom(room);
     this.onRoomUpdated?.(room);
     return room;
   }
@@ -327,21 +362,9 @@ export class RoomManager {
     // If next player has already completed their XI, keep turn on current if they still have open slots
     if (nextDraft.isReady) {
       const currentDraft = room.activeTurn === 'host' ? room.hostDraft : room.guestDraft!;
-      const otherDraft = room.activeTurn === 'host' ? room.guestDraft : room.hostDraft;
       if (!currentDraft.isReady) {
-        // Roll new team for current player
-        const prng = new PRNG();
-        const { edition, roster } = DraftEngine.rollTeamEdition(
-          currentDraft,
-          { editions: this.db.editions, players: this.db.players },
-          prng,
-          {
-            excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
-            excludedIdentityIds: otherDraft?.usedIdentityIds || [],
-          }
-        );
-        currentDraft.currentTeamEdition = edition;
-        currentDraft.currentRoster = roster;
+        currentDraft.currentTeamEdition = null;
+        currentDraft.currentRoster = [];
         room.turnDeadline = Date.now() + 40000;
         await this.db.saveRoom(room);
         this.onRoomUpdated?.(room);
@@ -354,75 +377,71 @@ export class RoomManager {
     const now = Date.now();
     room.turnDeadline = now + 40000; // 40 seconds
 
-    // Roll new team edition for the new active player
-    const otherDraft = nextTurn === 'host' ? room.guestDraft : room.hostDraft;
-    const prng = new PRNG();
-    const { edition, roster } = DraftEngine.rollTeamEdition(
-      nextDraft,
-      { editions: this.db.editions, players: this.db.players },
-      prng,
-      {
-        excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
-        excludedIdentityIds: otherDraft?.usedIdentityIds || [],
-      }
-    );
-    nextDraft.currentTeamEdition = edition;
-    nextDraft.currentRoster = roster;
-
-    // Handle Solo Mode AI turn automatically (equal odds and human-like strategy)
+    // Handle Solo Mode AI turn immediately (Requirement: AI has 0ms delay)
     if (room.mode === 'solo' && nextTurn === 'guest') {
-      await this.db.saveRoom(room);
-      this.onRoomUpdated?.(room);
-      // Execute AI turn with a realistic human-like thinking delay
-      setTimeout(async () => {
-        try {
-          const freshRoom = await this.db.getRoom(room.roomCode);
-          if (freshRoom && freshRoom.status === 'drafting' && freshRoom.activeTurn === 'guest') {
-            let aiDraft = freshRoom.guestDraft!;
-            const hostUsedIdentities = freshRoom.hostDraft?.usedIdentityIds || [];
-            if (aiDraft.currentRoster.length > 0) {
-              // Strategic AI: Calculate best legal OVR available in current rolled roster
-              const openSlots = aiDraft.formation.slots.filter(
-                (s) => !aiDraft.draftedSlots[s.id]
-              );
-              let bestLegalOvr = 0;
-              for (const p of aiDraft.currentRoster) {
-                if (aiDraft.usedIdentityIds.includes(p.identityId) || hostUsedIdentities.includes(p.identityId)) continue;
-                if (openSlots.some((slot) => isPlayerEligibleForSlot(p, slot))) {
-                  if (p.ovr > bestLegalOvr) bestLegalOvr = p.ovr;
-                }
-              }
-
-              // Equal odds: AI can reroll up to 2 times if rolled roster lacks high-impact players (< 84)
-              if (bestLegalOvr < 84 && aiDraft.rerollsRemaining > 0) {
-                const rerolledRoom = await this.executeReroll({
-                  roomCode: freshRoom.roomCode,
-                  token: freshRoom.guestSeat!.token,
-                });
-                aiDraft = rerolledRoom.guestDraft!;
-              }
-
-              if (aiDraft.currentRoster.length > 0) {
-                const auto = DraftEngine.getDeterministicAutoPick(
-                  aiDraft,
-                  aiDraft.currentRoster,
-                  freshRoom.hostDraft?.usedIdentityIds || []
-                );
-                await this.executePick({
-                  roomCode: freshRoom.roomCode,
-                  token: freshRoom.guestSeat!.token,
-                  playerId: auto.player.id,
-                  slotId: auto.slotId,
-                });
-              }
-            }
-          }
-        } catch (err) {
-          console.error('Error executing solo AI turn:', err);
+      const otherDraft = room.hostDraft;
+      const prng = new PRNG();
+      const { edition, roster } = DraftEngine.rollTeamEdition(
+        nextDraft,
+        { editions: this.db.editions, players: this.db.players },
+        prng,
+        {
+          excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+          excludedIdentityIds: otherDraft?.usedIdentityIds || [],
         }
-      }, 750);
-      return;
+      );
+      nextDraft.currentTeamEdition = edition;
+      nextDraft.currentRoster = roster;
+
+      let aiDraft = nextDraft;
+      const hostUsedIdentities = room.hostDraft?.usedIdentityIds || [];
+      if (aiDraft.currentRoster.length > 0) {
+        const openSlots = aiDraft.formation.slots.filter(
+          (s) => !aiDraft.draftedSlots[s.id]
+        );
+        let bestLegalOvr = 0;
+        for (const p of aiDraft.currentRoster) {
+          if (aiDraft.usedIdentityIds.includes(p.identityId) || hostUsedIdentities.includes(p.identityId)) continue;
+          if (openSlots.some((slot) => isPlayerEligibleForSlot(p, slot))) {
+            if (p.ovr > bestLegalOvr) bestLegalOvr = p.ovr;
+          }
+        }
+
+        // AI strategically rerolls if best legal player is weak (< 84) and rerolls remain
+        if (bestLegalOvr < 84 && aiDraft.rerollsRemaining > 0) {
+          const rerolled = DraftEngine.executeReroll(
+            aiDraft,
+            { editions: this.db.editions, players: this.db.players },
+            prng,
+            {
+              excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+              excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+            }
+          );
+          aiDraft = rerolled;
+          room.guestDraft = aiDraft;
+        }
+
+        if (aiDraft.currentRoster.length > 0) {
+          const auto = DraftEngine.getDeterministicAutoPick(
+            aiDraft,
+            aiDraft.currentRoster,
+            room.hostDraft?.usedIdentityIds || []
+          );
+          await this.executePick({
+            roomCode: room.roomCode,
+            token: room.guestSeat!.token,
+            playerId: auto.player.id,
+            slotId: auto.slotId,
+          });
+          return;
+        }
+      }
     }
+
+    // For human player turns, start with no team rolled until they click "Roll"
+    nextDraft.currentTeamEdition = null;
+    nextDraft.currentRoster = [];
 
     await this.db.saveRoom(room);
     this.onRoomUpdated?.(room);
@@ -442,6 +461,23 @@ export class RoomManager {
         try {
           const activeDraft = room.activeTurn === 'host' ? room.hostDraft : room.guestDraft!;
           const otherDraft = room.activeTurn === 'host' ? room.guestDraft : room.hostDraft;
+
+          // If player hasn't rolled yet when timer expires, auto-roll for them
+          if (!activeDraft.currentTeamEdition || activeDraft.currentRoster.length === 0) {
+            const prng = new PRNG();
+            const { edition, roster } = DraftEngine.rollTeamEdition(
+              activeDraft,
+              { editions: this.db.editions, players: this.db.players },
+              prng,
+              {
+                excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+                excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+              }
+            );
+            activeDraft.currentTeamEdition = edition;
+            activeDraft.currentRoster = roster;
+          }
+
           if (activeDraft.currentRoster.length > 0) {
             const autoPick = DraftEngine.getDeterministicAutoPick(
               activeDraft,
