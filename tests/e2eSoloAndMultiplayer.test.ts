@@ -107,7 +107,8 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
       expect(currentRoom.activeTurn).toBe('host');
       const hostPick = DraftEngine.getDeterministicAutoPick(
         currentRoom.hostDraft,
-        currentRoom.hostDraft.currentRoster
+        currentRoom.hostDraft.currentRoster,
+        currentRoom.guestDraft?.usedIdentityIds || []
       );
 
       const hostPickRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/pick`, {
@@ -127,7 +128,8 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
       expect(currentRoom.activeTurn).toBe('guest');
       const guestPick = DraftEngine.getDeterministicAutoPick(
         currentRoom.guestDraft!,
-        currentRoom.guestDraft!.currentRoster
+        currentRoom.guestDraft!.currentRoster,
+        currentRoom.hostDraft.usedIdentityIds
       );
 
       const guestPickRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/pick`, {

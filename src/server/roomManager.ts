@@ -215,16 +215,18 @@ export class RoomManager {
     }
 
     const currentDraft = seat === 'host' ? room.hostDraft : room.guestDraft!;
+    const otherDraft = seat === 'host' ? room.guestDraft : room.hostDraft;
     if (!currentDraft.currentTeamEdition) {
       throw new Error('No team edition currently rolled for this turn');
     }
 
-    // Execute pick
+    // Execute pick with cross-team uniqueness check (22 unique players rule)
     const updatedDraft = DraftEngine.pickPlayer(
       currentDraft,
       params.playerId,
       params.slotId,
-      this.db.players
+      this.db.players,
+      otherDraft?.usedIdentityIds || []
     );
 
     if (seat === 'host') {
@@ -285,11 +287,16 @@ export class RoomManager {
     }
 
     const currentDraft = seat === 'host' ? room.hostDraft : room.guestDraft!;
+    const otherDraft = seat === 'host' ? room.guestDraft : room.hostDraft;
     const prng = new PRNG();
     const updatedDraft = DraftEngine.executeReroll(
       currentDraft,
       { editions: this.db.editions, players: this.db.players },
-      prng
+      prng,
+      {
+        excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+        excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+      }
     );
 
     if (seat === 'host') {
@@ -315,13 +322,18 @@ export class RoomManager {
     // If next player has already completed their XI, keep turn on current if they still have open slots
     if (nextDraft.isReady) {
       const currentDraft = room.activeTurn === 'host' ? room.hostDraft : room.guestDraft!;
+      const otherDraft = room.activeTurn === 'host' ? room.guestDraft : room.hostDraft;
       if (!currentDraft.isReady) {
         // Roll new team for current player
         const prng = new PRNG();
         const { edition, roster } = DraftEngine.rollTeamEdition(
           currentDraft,
           { editions: this.db.editions, players: this.db.players },
-          prng
+          prng,
+          {
+            excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+            excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+          }
         );
         currentDraft.currentTeamEdition = edition;
         currentDraft.currentRoster = roster;
@@ -338,11 +350,16 @@ export class RoomManager {
     room.turnDeadline = now + 40000; // 40 seconds
 
     // Roll new team edition for the new active player
+    const otherDraft = nextTurn === 'host' ? room.guestDraft : room.hostDraft;
     const prng = new PRNG();
     const { edition, roster } = DraftEngine.rollTeamEdition(
       nextDraft,
       { editions: this.db.editions, players: this.db.players },
-      prng
+      prng,
+      {
+        excludedEditionIds: otherDraft?.currentTeamEdition ? [otherDraft.currentTeamEdition.id] : [],
+        excludedIdentityIds: otherDraft?.usedIdentityIds || [],
+      }
     );
     nextDraft.currentTeamEdition = edition;
     nextDraft.currentRoster = roster;
@@ -357,6 +374,7 @@ export class RoomManager {
           const freshRoom = await this.db.getRoom(room.roomCode);
           if (freshRoom && freshRoom.status === 'drafting' && freshRoom.activeTurn === 'guest') {
             let aiDraft = freshRoom.guestDraft!;
+            const hostUsedIdentities = freshRoom.hostDraft?.usedIdentityIds || [];
             if (aiDraft.currentRoster.length > 0) {
               // Strategic AI: Calculate best legal OVR available in current rolled roster
               const openSlots = aiDraft.formation.slots.filter(
@@ -364,7 +382,7 @@ export class RoomManager {
               );
               let bestLegalOvr = 0;
               for (const p of aiDraft.currentRoster) {
-                if (aiDraft.usedIdentityIds.includes(p.identityId)) continue;
+                if (aiDraft.usedIdentityIds.includes(p.identityId) || hostUsedIdentities.includes(p.identityId)) continue;
                 if (openSlots.some((slot) => isPlayerEligibleForSlot(p, slot))) {
                   if (p.ovr > bestLegalOvr) bestLegalOvr = p.ovr;
                 }
@@ -380,7 +398,11 @@ export class RoomManager {
               }
 
               if (aiDraft.currentRoster.length > 0) {
-                const auto = DraftEngine.getDeterministicAutoPick(aiDraft, aiDraft.currentRoster);
+                const auto = DraftEngine.getDeterministicAutoPick(
+                  aiDraft,
+                  aiDraft.currentRoster,
+                  freshRoom.hostDraft?.usedIdentityIds || []
+                );
                 await this.executePick({
                   roomCode: freshRoom.roomCode,
                   token: freshRoom.guestSeat!.token,
@@ -414,10 +436,12 @@ export class RoomManager {
       if (room.status === 'drafting' && room.turnDeadline > 0 && now >= room.turnDeadline) {
         try {
           const activeDraft = room.activeTurn === 'host' ? room.hostDraft : room.guestDraft!;
+          const otherDraft = room.activeTurn === 'host' ? room.guestDraft : room.hostDraft;
           if (activeDraft.currentRoster.length > 0) {
             const autoPick = DraftEngine.getDeterministicAutoPick(
               activeDraft,
-              activeDraft.currentRoster
+              activeDraft.currentRoster,
+              otherDraft?.usedIdentityIds || []
             );
             const token =
               room.activeTurn === 'host' ? room.hostSeat.token : room.guestSeat!.token;
