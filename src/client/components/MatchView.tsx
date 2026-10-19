@@ -11,6 +11,7 @@ import { soundManager } from '../utils/audio.js';
 import { messages } from '../i18n/messages.js';
 import { MatchEngine, getVisualMinute } from '../../shared/engine/matchEngine.js';
 import { BothPitchesView } from './BothPitchesView.js';
+import { MatchResultModal } from './MatchResultModal.js';
 import {
   Shield,
   Activity,
@@ -44,8 +45,19 @@ export const MatchView: React.FC<MatchViewProps> = ({
 }) => {
   const [soundEnabled, setSoundEnabled] = useState(soundManager.enabled);
   const [activeTab, setActiveTab] = useState<'pitch' | 'lineups' | 'report'>('pitch');
+  const [showResultModal, setShowResultModal] = useState(false);
+  const hasAutoOpenedModal = useRef(false);
   const eventFeedRef = useRef<HTMLDivElement>(null);
   const prevEventsLength = useRef(liveMatch.events.length);
+
+  // Automatically trigger Winner Result popup and victory fanfare when match finishes
+  useEffect(() => {
+    if (liveMatch.status === 'completed' && !hasAutoOpenedModal.current) {
+      hasAutoOpenedModal.current = true;
+      setShowResultModal(true);
+      soundManager.playVictoryFanfare();
+    }
+  }, [liveMatch.status]);
 
   // Auto-scroll event feed and play sounds
   useEffect(() => {
@@ -293,6 +305,16 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
           <div className="flex items-center gap-2 flex-wrap">
             <div>{getStatusBadge()}</div>
+            {isMatchFinished && (
+              <button
+                onClick={() => setShowResultModal(true)}
+                className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-gold-300 border border-amber-500/50 hover:bg-amber-500/30 shadow-[0_0_12px_rgba(250,204,21,0.25)] transition-all animate-pulse"
+                title="View Winner & Match Result Popup"
+              >
+                <Trophy className="w-3.5 h-3.5 text-gold-400" />
+                <span>Winner Popup</span>
+              </button>
+            )}
             <span
               className={`px-2.5 py-0.5 rounded text-[11px] font-semibold border ${
                 liveMatch.knockoutMode
@@ -405,6 +427,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
           hostAvgRating={hostAvgRating}
           guestAvgRating={guestAvgRating}
           renderPlayerRow={renderPlayerRow}
+          onOpenResultModal={() => setShowResultModal(true)}
         />
       )}
 
@@ -421,13 +444,24 @@ export const MatchView: React.FC<MatchViewProps> = ({
                   : 'View both teams set on their tactical pitches'}
               </span>
             </div>
-            <button
-              onClick={() => setActiveTab('lineups')}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-100 font-semibold border border-tactical-700 hover:border-tactical-600 transition-all text-xs shrink-0 shadow-sm"
-            >
-              <span>{isMatchFinished ? 'Both Pitches & Ratings' : 'View Both Pitches (22)'}</span>
-              <ArrowRight className="w-3.5 h-3.5 text-pitch-accent" />
-            </button>
+            <div className="flex items-center gap-2">
+              {isMatchFinished && (
+                <button
+                  onClick={() => setShowResultModal(true)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 text-gold-300 font-semibold border border-amber-500/50 transition-all text-xs shrink-0 shadow-sm active:scale-95"
+                >
+                  <Trophy className="w-3.5 h-3.5 text-gold-400" />
+                  <span>Winner Popup</span>
+                </button>
+              )}
+              <button
+                onClick={() => setActiveTab('lineups')}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-100 font-semibold border border-tactical-700 hover:border-tactical-600 transition-all text-xs shrink-0 shadow-sm"
+              >
+                <span>{isMatchFinished ? 'Both Pitches & Ratings' : 'View Both Pitches (22)'}</span>
+                <ArrowRight className="w-3.5 h-3.5 text-pitch-accent" />
+              </button>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
@@ -835,15 +869,48 @@ export const MatchView: React.FC<MatchViewProps> = ({
             </p>
           </div>
 
-          <button
-            onClick={onExitMatch}
-            className="inline-flex items-center gap-2 bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-semibold px-6 py-2.5 rounded-lg text-sm border border-pitch-line active:scale-98 transition-all"
-          >
-            <span>{messages.match.playAgain}</span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
+          <div className="flex items-center justify-center gap-3 flex-wrap">
+            <button
+              onClick={() => setShowResultModal(true)}
+              className="inline-flex items-center gap-2 bg-amber-500/20 hover:bg-amber-500/30 text-gold-300 font-bold px-5 py-2.5 rounded-lg text-sm border border-amber-500/50 shadow-md transition-all active:scale-95"
+            >
+              <Trophy className="w-4 h-4 text-gold-400" />
+              <span>View Winner Popup</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab('lineups')}
+              className="inline-flex items-center gap-2 bg-tactical-800 hover:bg-tactical-700 text-tactical-100 font-semibold px-5 py-2.5 rounded-lg text-sm border border-tactical-700 transition-all active:scale-95"
+            >
+              <Shield className="w-4 h-4 text-pitch-accent" />
+              <span>Both Pitches & Ratings</span>
+            </button>
+
+            <button
+              onClick={onExitMatch}
+              className="inline-flex items-center gap-2 bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-semibold px-6 py-2.5 rounded-lg text-sm border border-pitch-line active:scale-98 transition-all"
+            >
+              <span>{messages.match.playAgain}</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       )}
+
+      {/* Match Result Winner Modal / Popup */}
+      <MatchResultModal
+        isOpen={showResultModal}
+        onClose={() => setShowResultModal(false)}
+        liveMatch={liveMatch}
+        hostDraft={hostDraft}
+        guestDraft={guestDraft}
+        ratingsData={ratingsData}
+        onViewBothPitches={() => {
+          setActiveTab('lineups');
+          setShowResultModal(false);
+        }}
+        onPlayAgain={onExitMatch}
+      />
     </div>
   );
 };

@@ -19,6 +19,7 @@ interface BothPitchesViewProps {
   hostAvgRating: string;
   guestAvgRating: string;
   renderPlayerRow: (r: PlayerMatchRating, showRating?: boolean) => React.ReactNode;
+  onOpenResultModal?: () => void;
 }
 
 export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
@@ -30,6 +31,7 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
   hostAvgRating,
   guestAvgRating,
   renderPlayerRow,
+  onOpenResultModal,
 }) => {
   const [mobilePitchView, setMobilePitchView] = useState<'both' | 'host' | 'guest'>('both');
   const [showRosterTable, setShowRosterTable] = useState(true);
@@ -287,6 +289,16 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
             </span>
           )}
 
+          {isMatchFinished && onOpenResultModal && (
+            <button
+              onClick={onOpenResultModal}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/50 text-gold-300 font-bold transition-all shadow-sm active:scale-95"
+            >
+              <Trophy className="w-3.5 h-3.5 text-gold-400" />
+              <span>Winner Popup</span>
+            </button>
+          )}
+
           {isMatchFinished ? (
             <div className="flex items-center gap-2 px-2.5 py-1 rounded bg-tactical-900 border border-tactical-750">
               <span className="text-tactical-300">
@@ -424,3 +436,4 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
     </div>
   );
 };
+

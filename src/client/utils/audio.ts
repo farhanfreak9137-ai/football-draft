@@ -123,6 +123,35 @@ class SoundManager {
     osc.start();
     osc.stop(ctx.currentTime + 0.25);
   }
+
+  playVictoryFanfare() {
+    if (!this.enabled) return;
+    const ctx = this.getContext();
+    if (!ctx) return;
+
+    // Celebratory ascending brass / fanfare tones: C5, E5, G5, C6
+    const notes = [523.25, 659.25, 783.99, 1046.5];
+    notes.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.12);
+
+      gain.gain.setValueAtTime(0.001, ctx.currentTime + idx * 0.12);
+      gain.gain.linearRampToValueAtTime(this.volume * 0.22, ctx.currentTime + idx * 0.12 + 0.04);
+      gain.gain.exponentialRampToValueAtTime(
+        0.001,
+        ctx.currentTime + idx * 0.12 + (idx === notes.length - 1 ? 0.8 : 0.4)
+      );
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(ctx.currentTime + idx * 0.12);
+      osc.stop(ctx.currentTime + idx * 0.12 + (idx === notes.length - 1 ? 0.8 : 0.4));
+    });
+  }
 }
 
 export const soundManager = new SoundManager();
