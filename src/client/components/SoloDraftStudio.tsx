@@ -88,43 +88,66 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
   const isDraftComplete = Object.keys(draftedSlots).length === formation.slots.length;
 
   // Helper: Roll a team edition that has eligible players for the slot
-  const rollPackEditionForSlot = (slotPosition: string) => {
+  const rollPackEditionForSlot = (targetSlot: typeof currentSlot, excludeEditionId?: string) => {
     setIsRolling(true);
-    soundManager.playRerollSound();
+    try {
+      soundManager.playRerollSound();
+    } catch (e) {}
+
     setTimeout(() => {
-      const eligibleEditions = allEditions.filter((ed) => {
+      // Find editions with at least 1 eligible, unused player for this slot
+      let eligibleEditions = allEditions.filter((ed) => {
+        if (excludeEditionId && ed.id === excludeEditionId && allEditions.length > 1) {
+          return false;
+        }
         const teamPlayers = allPlayers.filter((p) => p.editionId === ed.id);
         return teamPlayers.some(
           (p) =>
             !usedIdentityIds.includes(p.identityId) &&
-            isPlayerEligibleForSlot(p, {
-              id: 'temp',
-              defaultPosition: slotPosition as any,
-              coordinates: { x: 0, y: 0 },
-            })
+            isPlayerEligibleForSlot(p, targetSlot)
         );
       });
-      const pool = eligibleEditions.length > 0 ? eligibleEditions : allEditions;
-      const chosen = pool[Math.floor(Math.random() * pool.length)];
+
+      // If filtering out current edition left no candidates, fall back to any eligible edition
+      if (eligibleEditions.length === 0) {
+        eligibleEditions = allEditions.filter((ed) => {
+          const teamPlayers = allPlayers.filter((p) => p.editionId === ed.id);
+          return teamPlayers.some(
+            (p) =>
+              !usedIdentityIds.includes(p.identityId) &&
+              isPlayerEligibleForSlot(p, targetSlot)
+          );
+        });
+      }
+
+      const pool = eligibleEditions.length > 0
+        ? eligibleEditions
+        : allEditions.filter((ed) => {
+            const teamPlayers = allPlayers.filter((p) => p.editionId === ed.id);
+            return teamPlayers.some((p) => isPlayerEligibleForSlot(p, targetSlot));
+          });
+
+      const finalPool = pool.length > 0 ? pool : allEditions;
+      const chosen = finalPool[Math.floor(Math.random() * finalPool.length)];
       setPackRollEdition(chosen);
       setIsRolling(false);
-    }, 250);
+    }, 200);
   };
 
   // Helper: Draw 5 unique cards for current slot position
-  const drawFiveCardsForSlot = (slotPosition: string) => {
-    soundManager.playRerollSound();
+  const drawFiveCardsForSlot = (targetSlot: typeof currentSlot) => {
+    try {
+      soundManager.playRerollSound();
+    } catch (e) {}
+
     const eligible = allPlayers.filter(
       (p) =>
         !usedIdentityIds.includes(p.identityId) &&
-        isPlayerEligibleForSlot(p, {
-          id: 'temp',
-          defaultPosition: slotPosition as any,
-          coordinates: { x: 0, y: 0 },
-        })
+        isPlayerEligibleForSlot(p, targetSlot)
     );
+    const pool = eligible.length >= 5 ? eligible : allPlayers.filter((p) => isPlayerEligibleForSlot(p, targetSlot));
     // Shuffle and pick 5 from diverse editions
-    const shuffled = [...eligible].sort(() => Math.random() - 0.5);
+    const shuffled = [...pool].sort(() => Math.random() - 0.5);
     const chosen: PlayerVersion[] = [];
     const usedEditions = new Set<string>();
 
@@ -151,15 +174,18 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
   useEffect(() => {
     if (isDraftComplete) return;
     if (draftMode === 'pack_roll' || draftMode === 'campaign') {
-      rollPackEditionForSlot(currentSlot.defaultPosition);
+      rollPackEditionForSlot(currentSlot);
     } else if (draftMode === 'five_card') {
-      drawFiveCardsForSlot(currentSlot.defaultPosition);
+      drawFiveCardsForSlot(currentSlot);
     }
   }, [currentSlotIndex, draftMode]);
 
   // Handle Pick in Pack-Roll or 5-Card
   const handleSelectPlayer = (player: PlayerVersion) => {
-    soundManager.playPickSound();
+    try {
+      soundManager.playPickSound();
+    } catch (e) {}
+
     const updatedDrafted = { ...draftedSlots, [currentSlot.id]: player };
     const updatedIdentities = [...usedIdentityIds, player.identityId];
     setDraftedSlots(updatedDrafted);
@@ -174,14 +200,14 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
   const handleRerollPack = () => {
     if (packRerollsLeft <= 0 || isRolling) return;
     setPackRerollsLeft((prev) => prev - 1);
-    rollPackEditionForSlot(currentSlot.defaultPosition);
+    rollPackEditionForSlot(currentSlot, packRollEdition?.id);
   };
 
   // Wildcard Reshuffle in 5-Card Mode
   const handleReshuffleFiveCards = () => {
     if (wildcardsLeft <= 0) return;
     setWildcardsLeft((prev) => prev - 1);
-    drawFiveCardsForSlot(currentSlot.defaultPosition);
+    drawFiveCardsForSlot(currentSlot);
   };
 
   // Mode C: Star Budget pick
@@ -465,7 +491,12 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
                     Available {currentSlot.defaultPosition} Candidates:
                   </span>
 
-                  {packEligiblePlayers.length > 0 ? (
+                  {isRolling ? (
+                    <div className="p-8 rounded-xl bg-tactical-850/60 border border-tactical-800 text-center space-y-2 animate-pulse">
+                      <RefreshCw className="w-6 h-6 text-gold-400 animate-spin mx-auto" />
+                      <p className="text-xs font-bold text-tactical-300">Rolling Historical Team Pack...</p>
+                    </div>
+                  ) : packEligiblePlayers.length > 0 ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                       {packEligiblePlayers.map((player) => (
                         <div
@@ -504,10 +535,10 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
                         No eligible {currentSlot.defaultPosition} players from {packRollEdition?.teamName}.
                       </p>
                       <button
-                        onClick={handleRerollPack}
+                        onClick={() => rollPackEditionForSlot(currentSlot, packRollEdition?.id)}
                         className="px-4 py-2 rounded-lg bg-gold-500 hover:bg-gold-400 text-tactical-950 font-bold text-xs"
                       >
-                        🎲 Reroll for another team
+                        🎲 Free Reroll for another team
                       </button>
                     </div>
                   )}

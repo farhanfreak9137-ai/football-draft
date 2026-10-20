@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { soundManager } from '../utils/audio.js';
 import { messages } from '../i18n/messages.js';
 import {

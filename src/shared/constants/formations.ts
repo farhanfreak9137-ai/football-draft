@@ -223,15 +223,30 @@ export const DEFAULT_FORMATION_ID = '4-3-3';
 export const FORMATION_PRESETS = FORMATIONS;
 
 /**
-  * Checks whether a player's natural or secondary positions qualify them for a given formation slot.
-  */
- export function isPlayerEligibleForSlot(
-   player: { naturalPositions: Position[]; secondaryPositions: Position[] },
-   slot: { eligiblePositions: Position[] }
- ): boolean {
-   const allPositions = [...player.naturalPositions, ...player.secondaryPositions];
-   return allPositions.some((pos) => slot.eligiblePositions.includes(pos));
- }
+ * Checks whether a player's natural or secondary positions qualify them for a given formation slot.
+ * Safely defaults eligible positions from the slot's defaultPosition if eligiblePositions is not pre-populated.
+ */
+export function isPlayerEligibleForSlot(
+  player: { naturalPositions?: Position[]; secondaryPositions?: Position[] },
+  slot: { eligiblePositions?: Position[]; defaultPosition?: Position }
+): boolean {
+  if (!player || !slot) return false;
+  const eligible =
+    slot.eligiblePositions && slot.eligiblePositions.length > 0
+      ? slot.eligiblePositions
+      : slot.defaultPosition && ELIGIBLE_POSITIONS_MAP[slot.defaultPosition]
+      ? ELIGIBLE_POSITIONS_MAP[slot.defaultPosition]
+      : slot.defaultPosition
+      ? [slot.defaultPosition]
+      : [];
+
+  const playerPositions = [
+    ...(player.naturalPositions || []),
+    ...(player.secondaryPositions || []),
+  ];
+
+  return playerPositions.some((pos) => eligible.includes(pos));
+}
 
 /**
  * Authoritative mapping from default position to eligible natural and secondary positions.
