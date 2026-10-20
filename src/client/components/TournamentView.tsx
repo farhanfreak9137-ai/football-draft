@@ -616,3 +616,4 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
     </div>
   );
 };
+

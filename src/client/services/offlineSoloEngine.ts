@@ -34,6 +34,35 @@ export class OfflineSoloEngine {
     return OfflineSoloEngine.instance;
   }
 
+  private cloneRoom(room: RoomState): RoomState {
+    const cloned: RoomState = {
+      ...room,
+      updatedAt: Date.now(),
+      hostDraft: {
+        ...room.hostDraft,
+        draftedSlots: { ...room.hostDraft.draftedSlots },
+        usedIdentityIds: [...room.hostDraft.usedIdentityIds],
+        currentRoster: [...room.hostDraft.currentRoster],
+        currentTeamEdition: room.hostDraft.currentTeamEdition
+          ? { ...room.hostDraft.currentTeamEdition }
+          : null,
+      },
+      guestDraft: room.guestDraft
+        ? {
+            ...room.guestDraft,
+            draftedSlots: { ...room.guestDraft.draftedSlots },
+            usedIdentityIds: [...room.guestDraft.usedIdentityIds],
+            currentRoster: [...room.guestDraft.currentRoster],
+            currentTeamEdition: room.guestDraft.currentTeamEdition
+              ? { ...room.guestDraft.currentTeamEdition }
+              : null,
+          }
+        : undefined,
+    };
+    this.currentRoom = cloned;
+    return cloned;
+  }
+
   isSoloRoom(roomCode?: string | null): boolean {
     if (!roomCode) return false;
     return roomCode.startsWith('SOLO-') || Boolean(this.currentRoom && this.currentRoom.roomCode === roomCode);
@@ -142,8 +171,7 @@ export class OfflineSoloEngine {
 
     hostDraft.currentTeamEdition = edition;
     hostDraft.currentRoster = roster;
-    room.updatedAt = Date.now();
-    return room;
+    return this.cloneRoom(room);
   }
 
   executeReroll(params: { roomCode: string; token: string }): RoomState {
@@ -172,8 +200,7 @@ export class OfflineSoloEngine {
     );
 
     room.hostDraft = updatedDraft;
-    room.updatedAt = Date.now();
-    return room;
+    return this.cloneRoom(room);
   }
 
   executePick(params: {
@@ -242,12 +269,12 @@ export class OfflineSoloEngine {
       room.status = 'draft_complete';
       room.activeTurn = 'host';
       room.turnDeadline = 0;
-      return room;
+      return this.cloneRoom(room);
     }
 
     // Run AI turn immediately with 0ms delay
     this.advanceTurnToAi(room);
-    return room;
+    return this.cloneRoom(room);
   }
 
   private advanceTurnToAi(room: RoomState): void {
@@ -378,7 +405,7 @@ export class OfflineSoloEngine {
         slotId: autoPick.slotId,
       });
     }
-    return room;
+    return this.cloneRoom(room);
   }
 
   startMatch(params: {

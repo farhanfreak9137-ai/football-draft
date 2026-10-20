@@ -293,3 +293,4 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
     </div>
   );
 };
+

@@ -166,19 +166,30 @@ export const RosterList: React.FC<RosterListProps> = ({
         {/* Minimalist Reroll Button */}
         <div className="flex items-center gap-2 shrink-0">
           <button
-            onClick={onReroll}
-            disabled={!isMyTurn || rerollsRemaining <= 0 || disabled}
-            title={rerollsRemaining <= 0 ? 'No rerolls remaining' : 'Roll another historical team'}
-            className={`flex items-center gap-1.5 px-2.5 py-1 rounded text-xs font-semibold transition-all ${
-              isMyTurn && rerollsRemaining > 0 && !disabled
-                ? 'bg-tactical-750 hover:bg-tactical-700 text-tactical-200 border border-tactical-600 active:scale-95'
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              onReroll();
+            }}
+            disabled={!isMyTurn || rerollsRemaining <= 0 || disabled || isRolling}
+            title={
+              rerollsRemaining <= 0
+                ? 'No tactical rerolls remaining (limit 3 per draft)'
+                : !isMyTurn
+                ? 'Wait for your turn'
+                : 'Reroll for another historical squad (consumes 1 reroll)'
+            }
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all shadow-sm ${
+              isMyTurn && rerollsRemaining > 0 && !disabled && !isRolling
+                ? 'bg-tactical-750 hover:bg-tactical-700 text-gold-400 border border-gold-500/50 hover:border-gold-400 active:scale-95 cursor-pointer ring-1 ring-gold-500/20'
                 : 'bg-tactical-800 text-tactical-600 border border-tactical-750 cursor-not-allowed opacity-50'
             }`}
           >
-            <RefreshCw className="w-3 h-3" />
-            <span>Reroll</span>
-            <span className="font-mono text-[10px] px-1 py-0.5 bg-tactical-900 rounded text-tactical-400">
-              {rerollsRemaining}
+            <RefreshCw className={`w-3.5 h-3.5 ${isRolling ? 'animate-spin text-pitch-accent' : ''}`} />
+            <span>{isRolling ? 'Rerolling...' : 'Reroll'}</span>
+            <span className="font-mono text-[10px] px-1.5 py-0.5 bg-tactical-900 rounded border border-tactical-750 text-tactical-300">
+              {rerollsRemaining}/3
             </span>
           </button>
         </div>

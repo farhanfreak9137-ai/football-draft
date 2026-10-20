@@ -359,17 +359,35 @@ export const App: React.FC = () => {
 
   // Handler: Execute Reroll
   const handleReroll = async () => {
-    if (!room || !token) return;
+    if (!room || !token || isRolling) return;
     try {
+      setIsRolling(true);
       setErrorNotice(null);
       setSelectedPlayer(null);
+      soundManager.playRerollSound();
       const updated = await executeReroll({
         roomCode: room.roomCode,
         token,
       });
-      setRoom(updated);
+      setRoom({
+        ...updated,
+        hostDraft: {
+          ...updated.hostDraft,
+          draftedSlots: { ...updated.hostDraft.draftedSlots },
+          currentRoster: [...updated.hostDraft.currentRoster],
+        },
+        guestDraft: updated.guestDraft
+          ? {
+              ...updated.guestDraft,
+              draftedSlots: { ...updated.guestDraft.draftedSlots },
+              currentRoster: [...updated.guestDraft.currentRoster],
+            }
+          : undefined,
+      });
     } catch (err: any) {
       setErrorNotice(err.message || 'Reroll rejected by server.');
+    } finally {
+      setIsRolling(false);
     }
   };
 

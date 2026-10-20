@@ -125,9 +125,17 @@ export class DraftEngine {
     }
 
     // Filter editions that have at least one legal player for current open slots and excluded match identities
-    const validEditions = eligibleEditions.filter((ed) =>
+    let validEditions = eligibleEditions.filter((ed) =>
       this.hasAnyLegalPick(ed.id, db.players, draftState, options.excludedIdentityIds)
     );
+
+    // If excluding editions left 0 valid options, fallback to all pool editions that have legal picks
+    if (validEditions.length === 0) {
+      const allPoolEditions = db.editions.filter((ed) => ed.editionType === draftState.poolType);
+      validEditions = allPoolEditions.filter((ed) =>
+        this.hasAnyLegalPick(ed.id, db.players, draftState, options.excludedIdentityIds)
+      );
+    }
 
     if (validEditions.length === 0) {
       throw new Error('NO_LEGAL_PICKS_REMAINING_IN_POOL');
