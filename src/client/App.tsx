@@ -70,6 +70,7 @@ export const App: React.FC = () => {
   const [liveMatch, setLiveMatch] = useState<MatchSimulationState | null>(null);
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerVersion | null>(null);
   const [viewingSquad, setViewingSquad] = useState<'mine' | 'opponent'>('mine');
+  const [mobileDraftTab, setMobileDraftTab] = useState<'roster' | 'pitch'>('roster');
 
   // Reset selected player when turn or draft state changes
   useEffect(() => {
@@ -610,9 +611,48 @@ export const App: React.FC = () => {
               </div>
             )}
 
-            {/* Tactical Pitch View (Your Lineup or Opponent Lineup) */}
+            {/* Mobile Tab Switcher (Draft Roster vs Pitch XI) */}
+            <div className="flex items-center p-1 bg-tactical-900 rounded-xl border border-tactical-750 lg:hidden shadow-md">
+              <button
+                type="button"
+                onClick={() => setMobileDraftTab('roster')}
+                className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+                  mobileDraftTab === 'roster'
+                    ? 'bg-tactical-750 text-tactical-100 shadow border border-tactical-600'
+                    : 'text-tactical-400 hover:text-tactical-200'
+                }`}
+              >
+                <span>📋 Draft Roster</span>
+                {myDraft.currentTeamEdition && (
+                  <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-tactical-800 text-pitch-accent border border-pitch-line/40 truncate max-w-[100px]">
+                    {myDraft.currentTeamEdition.teamName.split(' ')[0]}
+                  </span>
+                )}
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setMobileDraftTab('pitch')}
+                className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+                  mobileDraftTab === 'pitch'
+                    ? 'bg-tactical-750 text-tactical-100 shadow border border-tactical-600'
+                    : 'text-tactical-400 hover:text-tactical-200'
+                }`}
+              >
+                <span>🏟️ Pitch XI</span>
+                <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-tactical-800 text-gold-400 border border-tactical-700">
+                  {myDraftedCount}/11
+                </span>
+                {selectedPlayer && (
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+                )}
+              </button>
+            </div>
+
+            {/* Tactical Pitch View & Roster Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-              <div className="lg:col-span-5 space-y-3">
+              {/* Pitch Column: Visible on pitch tab on mobile, always visible on lg desktop */}
+              <div className={`space-y-3 lg:col-span-5 ${mobileDraftTab === 'pitch' ? 'block' : 'hidden lg:block'}`}>
                 {/* Squad Selector Toggle */}
                 <div className="flex items-center gap-2 p-1 bg-tactical-900 rounded-lg border border-tactical-750">
                   <button
@@ -655,12 +695,12 @@ export const App: React.FC = () => {
 
                 {/* Selection Guidance Banner */}
                 {viewingSquad === 'mine' && selectedPlayer ? (
-                  <div className="bg-emerald-950/90 border border-emerald-400 rounded-lg px-3 py-2 flex items-center justify-between shadow-lg shadow-emerald-950/50 animate-pulse">
+                  <div className="bg-emerald-950/90 border border-emerald-400 rounded-lg px-3 py-2 flex items-center justify-between shadow-lg shadow-emerald-950/50">
                     <div className="flex items-center gap-2 min-w-0">
                       <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
                       <span className="text-xs text-emerald-100 truncate">
                         Drafting <strong>{selectedPlayer.name}</strong> ({[...selectedPlayer.naturalPositions, ...selectedPlayer.secondaryPositions].join('/')}):{' '}
-                        <span className="text-emerald-300 font-bold">Click a glowing position on the pitch</span>
+                        <span className="text-emerald-300 font-bold">Tap glowing position on pitch</span>
                       </span>
                     </div>
                     <button
@@ -673,7 +713,7 @@ export const App: React.FC = () => {
                 ) : viewingSquad === 'mine' && isMyTurn && !isBothDraftComplete ? (
                   <div className="bg-tactical-850/80 border border-tactical-700/60 rounded-lg px-3 py-1.5 text-xs text-tactical-400 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-pitch-accent animate-pulse shrink-0" />
-                    <span>Click any player in the list to reveal their glowing pitch positions.</span>
+                    <span>Select a player in Roster to reveal matching pitch positions.</span>
                   </div>
                 ) : null}
 
@@ -686,8 +726,34 @@ export const App: React.FC = () => {
                 />
               </div>
 
-              {/* Available Edition Roster or Opponent Lineup */}
-              <div className="lg:col-span-7 space-y-4">
+              {/* Available Edition Roster or Opponent Lineup: Visible on roster tab on mobile, always visible on lg desktop */}
+              <div className={`space-y-4 lg:col-span-7 ${mobileDraftTab === 'roster' ? 'block' : 'hidden lg:block'}`}>
+                {/* Mobile Active Selection Alert when on roster tab */}
+                {selectedPlayer && (
+                  <div className="bg-emerald-950/95 border border-emerald-400/80 rounded-lg px-3.5 py-2.5 flex items-center justify-between shadow-lg text-xs lg:hidden">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping shrink-0" />
+                      <span className="text-emerald-200 truncate">
+                        Selected: <strong>{selectedPlayer.name}</strong> • Tap 1-Tap Assign below or:
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0 ml-2">
+                      <button
+                        onClick={() => setMobileDraftTab('pitch')}
+                        className="px-2 py-1 rounded bg-emerald-500 hover:bg-emerald-400 text-tactical-950 font-bold text-xs shadow"
+                      >
+                        View Pitch
+                      </button>
+                      <button
+                        onClick={() => setSelectedPlayer(null)}
+                        className="px-2 py-1 rounded bg-tactical-900 border border-emerald-500/50 text-emerald-300 text-xs"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                )}
+
                 {!isBothDraftComplete ? (
                   <RosterList
                     edition={myDraft.currentTeamEdition}
@@ -701,6 +767,7 @@ export const App: React.FC = () => {
                     onSelectPlayer={(player) =>
                       setSelectedPlayer((prev) => (prev?.id === player.id ? null : player))
                     }
+                    onSlotSelect={handleSlotSelect}
                     onReroll={handleReroll}
                     onRoll={handleRoll}
                     isRolling={isRolling}

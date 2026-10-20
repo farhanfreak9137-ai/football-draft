@@ -61,7 +61,7 @@ export const TimerCountdown: React.FC<TimerCountdownProps> = ({
 
   return (
     <div
-      className={`rounded-xl border px-3.5 py-2.5 transition-all w-52 sm:w-60 shadow-md ${
+      className={`rounded-xl border px-3.5 py-2.5 transition-all w-full sm:w-60 shadow-md ${
         isUrgent && isMyTurn
           ? 'bg-red-950/60 border-red-500/70 text-red-200 ring-2 ring-red-500/40 animate-pulse'
           : 'bg-tactical-850 border-tactical-700/80 text-tactical-100'

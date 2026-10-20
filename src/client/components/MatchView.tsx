@@ -292,87 +292,89 @@ export const MatchView: React.FC<MatchViewProps> = ({
   return (
     <div className="space-y-4 max-w-6xl mx-auto">
       {/* Top Banner: Scoreboard & Real-time Authoritative Clock */}
-      <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-5 shadow-2xl relative overflow-hidden">
-        <div className="flex items-center justify-between pb-3 border-b border-tactical-700/60 text-xs text-tactical-400">
-          <div className="flex items-center gap-2">
-            <Clock className="w-4 h-4 text-pitch-accent" />
-            <span className="font-mono text-tactical-200 font-bold text-sm">
-              {visualMinute}'
-            </span>
-            <span className="text-tactical-400 text-[11px]">
-              / {maxVisualMinute}' Match Time ({liveMatch.currentSecond}s Sim)
-            </span>
+      <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-3 sm:p-5 shadow-2xl relative overflow-hidden">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-tactical-700/60 text-xs text-tactical-400 gap-2.5">
+          <div className="flex items-center justify-between sm:justify-start gap-3">
+            <div className="flex items-center gap-1.5">
+              <Clock className="w-4 h-4 text-pitch-accent shrink-0" />
+              <span className="font-mono text-tactical-200 font-bold text-sm">
+                {visualMinute}'
+              </span>
+              <span className="text-tactical-400 text-[11px]">
+                / {maxVisualMinute}' ({liveMatch.currentSecond}s)
+              </span>
+            </div>
+            <div>{getStatusBadge()}</div>
           </div>
 
-          <div className="flex items-center gap-2 flex-wrap">
-            <div>{getStatusBadge()}</div>
+          <div className="flex items-center justify-between sm:justify-end gap-2 flex-wrap">
             <span
-              className={`px-2.5 py-0.5 rounded text-[11px] font-semibold border ${
+              className={`px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-semibold border ${
                 liveMatch.knockoutMode
                   ? 'bg-purple-500/15 text-purple-300 border-purple-500/40'
                   : 'bg-pitch-DEFAULT/20 text-pitch-accent border-pitch-line/50'
               }`}
             >
               {liveMatch.knockoutMode
-                ? '🏆 Cup Knockout (ET & Penalties)'
-                : '⚽ League Match (Draws Allowed)'}
+                ? '🏆 Cup Knockout'
+                : '⚽ League Match'}
             </span>
-          </div>
 
-          <button
-            onClick={toggleSound}
-            className="flex items-center gap-1.5 text-xs text-tactical-300 hover:text-tactical-100 px-2 py-1 rounded bg-tactical-800 border border-tactical-700"
-          >
-            {soundEnabled ? (
-              <Volume2 className="w-3.5 h-3.5" />
-            ) : (
-              <VolumeX className="w-3.5 h-3.5" />
-            )}
-            <span>{soundEnabled ? 'Audio On' : 'Muted'}</span>
-          </button>
+            <button
+              onClick={toggleSound}
+              className="flex items-center gap-1.5 text-[11px] text-tactical-300 hover:text-tactical-100 px-2 py-1 rounded bg-tactical-800 border border-tactical-700"
+            >
+              {soundEnabled ? (
+                <Volume2 className="w-3.5 h-3.5" />
+              ) : (
+                <VolumeX className="w-3.5 h-3.5" />
+              )}
+              <span>{soundEnabled ? 'Audio' : 'Muted'}</span>
+            </button>
+          </div>
         </div>
 
         {/* Score Display */}
-        <div className="grid grid-cols-3 items-center py-4 text-center">
+        <div className="grid grid-cols-3 items-center py-3 sm:py-4 text-center gap-1 sm:gap-4">
           {/* Host */}
-          <div className="flex flex-col items-center">
-            <div className="w-10 h-10 rounded-full bg-tactical-800 border border-tactical-600 flex items-center justify-center font-bold text-tactical-200 mb-2">
+          <div className="flex flex-col items-center min-w-0">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-tactical-800 border border-tactical-600 flex items-center justify-center font-bold text-xs sm:text-sm text-tactical-200 mb-1 sm:mb-2 shrink-0">
               H
             </div>
-            <h2 className="font-bold text-base sm:text-lg text-tactical-100 truncate max-w-[180px]">
+            <h2 className="font-bold text-xs sm:text-base text-tactical-100 truncate w-full px-1">
               {hostName}
             </h2>
-            <div className="flex items-center gap-1.5 text-xs text-tactical-400 font-mono mt-1">
-              <span>{hostDraft.formation.name}</span>
+            <div className="flex items-center justify-center gap-1 text-[10px] sm:text-xs text-tactical-400 font-mono mt-0.5 truncate w-full">
+              <span className="truncate">{hostDraft.formation.name.split(' ')[0]}</span>
               <span>•</span>
               <span className="capitalize">{hostDraft.strategy}</span>
             </div>
           </div>
 
           {/* Central Score */}
-          <div className="flex flex-col items-center justify-center">
-            <div className="font-mono text-4xl sm:text-5xl font-black text-tactical-100 tracking-tight flex items-center gap-3">
+          <div className="flex flex-col items-center justify-center shrink-0">
+            <div className="font-mono text-3xl sm:text-5xl font-black text-tactical-100 tracking-tight flex items-center gap-2 sm:gap-3">
               <span>{liveMatch.score.host}</span>
-              <span className="text-tactical-500 font-light text-3xl">-</span>
+              <span className="text-tactical-500 font-light text-2xl sm:text-3xl">-</span>
               <span>{liveMatch.score.guest}</span>
             </div>
             {liveMatch.penaltyScore && (
-              <div className="font-mono text-xs text-gold-400 mt-1">
-                Penalties: {liveMatch.penaltyScore.host} - {liveMatch.penaltyScore.guest}
+              <div className="font-mono text-[10px] sm:text-xs text-gold-400 mt-1 whitespace-nowrap">
+                Pens: {liveMatch.penaltyScore.host} - {liveMatch.penaltyScore.guest}
               </div>
             )}
           </div>
 
           {/* Guest */}
-          <div className="flex flex-col items-center">
-            <div className="w-10 h-10 rounded-full bg-tactical-800 border border-tactical-600 flex items-center justify-center font-bold text-tactical-200 mb-2">
+          <div className="flex flex-col items-center min-w-0">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-tactical-800 border border-tactical-600 flex items-center justify-center font-bold text-xs sm:text-sm text-tactical-200 mb-1 sm:mb-2 shrink-0">
               G
             </div>
-            <h2 className="font-bold text-base sm:text-lg text-tactical-100 truncate max-w-[180px]">
+            <h2 className="font-bold text-xs sm:text-base text-tactical-100 truncate w-full px-1">
               {guestName}
             </h2>
-            <div className="flex items-center gap-1.5 text-xs text-tactical-400 font-mono mt-1">
-              <span>{guestDraft?.formation.name || '4-3-3'}</span>
+            <div className="flex items-center justify-center gap-1 text-[10px] sm:text-xs text-tactical-400 font-mono mt-0.5 truncate w-full">
+              <span className="truncate">{(guestDraft?.formation.name || '4-3-3').split(' ')[0]}</span>
               <span>•</span>
               <span className="capitalize">{guestDraft?.strategy || 'balanced'}</span>
             </div>

@@ -104,6 +104,17 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
     }
   }, [initialFormation]);
 
+  // Close on Escape key press
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
+
   // Validation
   const validation = validateCustomFormation(slots);
 
@@ -393,50 +404,50 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
         )}
 
         {/* Mode Switcher Bar */}
-        <div className="flex items-center justify-between px-5 py-2.5 bg-tactical-850/60 border-b border-tactical-750 gap-3 flex-wrap">
-          <div className="flex items-center gap-1.5 bg-tactical-900 p-1 rounded-xl border border-tactical-750">
+        <div className="flex items-center justify-between px-3 sm:px-5 py-2.5 bg-tactical-850/60 border-b border-tactical-750 gap-2 sm:gap-3 flex-wrap">
+          <div className="flex items-center gap-1 bg-tactical-900 p-1 rounded-xl border border-tactical-750 w-full sm:w-auto justify-between sm:justify-start">
             <button
               type="button"
               onClick={() => setMode('free')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              className={`flex items-center justify-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex-1 sm:flex-initial ${
                 mode === 'free'
                   ? 'bg-tactical-700 text-pitch-accent shadow-sm'
                   : 'text-tactical-400 hover:text-tactical-200'
               }`}
             >
               <Move className="w-3.5 h-3.5" />
-              <span>Free Drag & Drop</span>
+              <span>Free Drag</span>
             </button>
 
             <button
               type="button"
               onClick={() => setMode('snap')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              className={`flex items-center justify-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex-1 sm:flex-initial ${
                 mode === 'snap'
                   ? 'bg-tactical-700 text-gold-400 shadow-sm'
                   : 'text-tactical-400 hover:text-tactical-200'
               }`}
             >
               <Magnet className="w-3.5 h-3.5" />
-              <span>Snap-to-Nodes (25 Anchors)</span>
+              <span>Snap <span className="hidden sm:inline">Anchors (25)</span></span>
             </button>
 
             <button
               type="button"
               onClick={() => setMode('lines')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              className={`flex items-center justify-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex-1 sm:flex-initial ${
                 mode === 'lines'
                   ? 'bg-tactical-700 text-blue-400 shadow-sm'
                   : 'text-tactical-400 hover:text-tactical-200'
               }`}
             >
               <Sliders className="w-3.5 h-3.5" />
-              <span>Line Stepper & Archetypes</span>
+              <span>Lines</span>
             </button>
           </div>
 
           {/* Formation Name Input */}
-          <div className="flex items-center gap-2 flex-1 max-w-xs">
+          <div className="flex items-center gap-2 w-full sm:w-auto sm:flex-1 max-w-xs">
             <span className="text-xs text-tactical-400 font-semibold whitespace-nowrap">Name:</span>
             <input
               type="text"

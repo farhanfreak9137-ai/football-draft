@@ -16,6 +16,7 @@ interface RosterListProps {
   isMyTurn: boolean;
   selectedPlayerId?: string | null;
   onSelectPlayer: (player: PlayerVersion) => void;
+  onSlotSelect?: (slotId: string) => void;
   onReroll: () => void;
   onRoll?: () => void;
   isRolling?: boolean;
@@ -32,6 +33,7 @@ export const RosterList: React.FC<RosterListProps> = ({
   isMyTurn,
   selectedPlayerId,
   onSelectPlayer,
+  onSlotSelect,
   onReroll,
   onRoll,
   isRolling = false,
@@ -130,6 +132,7 @@ export const RosterList: React.FC<RosterListProps> = ({
       eligible: true,
       reason: undefined,
       isTakenByOpponent: false,
+      matchingSlots,
     };
   });
 
@@ -198,18 +201,47 @@ export const RosterList: React.FC<RosterListProps> = ({
 
             {/* Players Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-              {group.items.map(({ player, eligible, reason, isTakenByOpponent }) => (
-                <PlayerCard
-                  key={player.id}
-                  player={player}
-                  eligible={eligible}
-                  isSelected={selectedPlayerId === player.id}
-                  ineligibleReason={reason}
-                  isTakenByOpponent={isTakenByOpponent}
-                  disabled={!isMyTurn || disabled}
-                  onPick={eligible && isMyTurn ? () => onSelectPlayer(player) : undefined}
-                />
-              ))}
+              {group.items.map(({ player, eligible, reason, isTakenByOpponent, matchingSlots }) => {
+                const isSelected = selectedPlayerId === player.id;
+                return (
+                  <div key={player.id} className="flex flex-col">
+                    <PlayerCard
+                      player={player}
+                      eligible={eligible}
+                      isSelected={isSelected}
+                      ineligibleReason={reason}
+                      isTakenByOpponent={isTakenByOpponent}
+                      disabled={!isMyTurn || disabled}
+                      onPick={eligible && isMyTurn ? () => onSelectPlayer(player) : undefined}
+                    />
+                    {isSelected && isMyTurn && matchingSlots && matchingSlots.length > 0 && (
+                      <div className="bg-emerald-950/95 border-x border-b border-emerald-400 rounded-b p-2 flex flex-col gap-1.5 shadow-xl animate-in fade-in duration-150 z-20">
+                        <div className="flex items-center justify-between text-[11px] text-emerald-200 font-semibold">
+                          <span>Assign <strong>{player.name}</strong> to:</span>
+                          <span className="text-[10px] text-emerald-400 font-mono font-bold bg-emerald-900/60 px-1.5 py-0.5 rounded border border-emerald-500/40">1-Tap Assign</span>
+                        </div>
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          {matchingSlots.map((slot) => (
+                            <button
+                              key={slot.id}
+                              data-testid="quick-assign-btn"
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                if (onSlotSelect) onSlotSelect(slot.id);
+                              }}
+                              className="flex items-center gap-1 px-2.5 py-1.5 rounded bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-tactical-950 font-black text-xs shadow-md transition-all cursor-pointer"
+                            >
+                              <span>{slot.defaultPosition}</span>
+                              <span className="text-[10px] font-medium opacity-90">({slot.name})</span>
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         ))}

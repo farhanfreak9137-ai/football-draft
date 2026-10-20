@@ -265,17 +265,17 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
 
             {/* Formation Preset & Custom Formations */}
             <div>
-              <div className="flex items-center justify-between mb-2">
+              <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
                 <label className="block text-xs font-semibold text-tactical-300 uppercase tracking-wider">
                   {messages.lobby.selectFormation}
                 </label>
                 <button
                   type="button"
                   onClick={onOpenFormationStudio}
-                  className="flex items-center gap-1.5 px-3 py-1 bg-tactical-800 hover:bg-tactical-700 text-pitch-accent border border-pitch-line/50 rounded-lg text-xs font-bold transition-all shadow-sm group"
+                  className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 bg-tactical-800 hover:bg-tactical-700 text-pitch-accent border border-pitch-line/50 rounded-lg text-xs font-bold transition-all shadow-sm group"
                 >
                   <Sparkles className="w-3.5 h-3.5 group-hover:rotate-12 transition-transform" />
-                  <span>Custom Formation Studio</span>
+                  <span><span className="hidden sm:inline">Custom </span>Formation Studio</span>
                 </button>
               </div>
 
