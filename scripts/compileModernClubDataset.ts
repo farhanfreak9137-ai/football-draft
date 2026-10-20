@@ -17,17 +17,52 @@ import { expansionPlayersPart1 } from './expansionPlayersPart1.js';
 import { expansionPlayersPart2 } from './expansionPlayersPart2.js';
 import { expansionPlayersPart3 } from './expansionPlayersPart3.js';
 import { expansionIdentities } from './expansionIdentities.js';
+import { benchPart1 } from './generateBenchPart1.js';
+import { benchPart2 } from './generateBenchPart2.js';
+import { benchPart3 } from './generateBenchPart3.js';
+import { benchPart4 } from './generateBenchPart4.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Combined new players from batch 1 and batch 2
+// Helper to convert bench player input to PlayerDef format
+function benchToPlayerDef(b: any): PlayerDef {
+  return {
+    id: b.id,
+    identityId: b.identityId,
+    editionId: b.editionId,
+    name: b.name,
+    squadNumber: b.squadNumber,
+    ovr: b.ovr,
+    naturalPositions: b.naturalPositions,
+    secondaryPositions: b.secondaryPositions,
+    hasLegendSeal: !!b.hasLegendSeal,
+    ...(b.legendSealReason ? { legendSealReason: b.legendSealReason } : {}),
+    appearances: b.appearances,
+    goals: b.goals,
+    ...(b.assists !== undefined ? { assists: b.assists } : {}),
+    ...(b.cleanSheets !== undefined ? { cleanSheets: b.cleanSheets } : {}),
+    ratingRationale: b.ratingRationale,
+    sourceId: b.sourceId,
+    sourceFact: b.sourceFact,
+  };
+}
+
+const allBenchPlayerDefs = [
+  ...benchPart1,
+  ...benchPart2,
+  ...benchPart3,
+  ...benchPart4,
+].map(benchToPlayerDef);
+
+// Combined new players from starting XI and full bench expansions
 const allNewPlayerDefs = [
   ...modernClubPlayersPart1,
   ...modernClubPlayersPart2,
   ...expansionPlayersPart1,
   ...expansionPlayersPart2,
   ...expansionPlayersPart3,
+  ...allBenchPlayerDefs,
 ];
 
 // Known identity dictionary for any newly introduced players
@@ -228,6 +263,10 @@ const baseIdentityRegistry: Record<string, Omit<IdentityDef, 'id'>> = {
 };
 
 // Merged dictionary
+const benchPlayerMap = new Map<string, any>(
+  [...benchPart1, ...benchPart2, ...benchPart3, ...benchPart4].map((b) => [b.identityId, b])
+);
+
 const identityRegistry: Record<string, Omit<IdentityDef, 'id'>> = {
   ...baseIdentityRegistry,
   ...expansionIdentities,
@@ -239,7 +278,7 @@ const updatedIdentities = [...existingIdentities];
 
 for (const player of allNewPlayerDefs) {
   if (!existingIdSet.has(player.identityId)) {
-    const reg = identityRegistry[player.identityId];
+    const reg = identityRegistry[player.identityId] || benchPlayerMap.get(player.identityId);
     if (reg) {
       const newIdentity: IdentityDef = {
         id: player.identityId,
@@ -265,9 +304,16 @@ const finalClubEditions = [
   ...expansionClubEditions,
 ];
 
-// 3. Assemble new club players
+// 3. Assemble new club players (deduplicating by player ID)
 const newClubPlayersFormatted = allNewPlayerDefs.map(toPlayerVersion);
-const finalClubPlayers = [...keptClubPlayers, ...newClubPlayersFormatted];
+const playerMap = new Map<string, any>();
+for (const p of keptClubPlayers) {
+  playerMap.set(p.id, p);
+}
+for (const p of newClubPlayersFormatted) {
+  playerMap.set(p.id, p);
+}
+const finalClubPlayers = Array.from(playerMap.values());
 
 console.log(`Total Modern Club Editions: ${finalClubEditions.length}`);
 console.log(`Total Modern Club Players: ${finalClubPlayers.length}`);

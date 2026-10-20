@@ -1,6 +1,6 @@
 import React from 'react';
 import { PlayerVersion } from '../../shared/types/index.js';
-
+import { getPositionBadgeClass } from '../utils/positionCategory.js';
 import { getOvrColorClass } from '../utils/ovrColor.js';
 export { getOvrColorClass };
 
@@ -70,7 +70,11 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
         >
           {player.name}
         </span>
-        <span className="font-mono text-[10px] text-pitch-accent shrink-0">
+        <span
+          className={`font-mono text-[9px] px-1.5 py-0.5 rounded font-bold tracking-tight shrink-0 uppercase ${getPositionBadgeClass(
+            player.naturalPositions[0] || 'CM'
+          )}`}
+        >
           {positions}
         </span>
         {player.hasLegendSeal && (

@@ -4,6 +4,7 @@ import { isPlayerEligibleForSlot } from '../../shared/constants/formations.js';
 import { PlayerCard } from './PlayerCard.js';
 import { RefreshCw, Info, Dice5, Clock, Sparkles } from 'lucide-react';
 import { messages } from '../i18n/messages.js';
+import { CATEGORY_ORDER, getPlayerCategory } from '../utils/positionCategory.js';
 
 interface RosterListProps {
   edition: TeamEdition | null;
@@ -132,6 +133,17 @@ export const RosterList: React.FC<RosterListProps> = ({
     };
   });
 
+  // Group players by position category: Goalkeepers, Defenders, Midfielders, Attackers
+  const groupedPlayers = CATEGORY_ORDER.map((cat) => {
+    const items = playerEligibility.filter(
+      (item) => getPlayerCategory(item.player) === cat.id
+    );
+    return {
+      ...cat,
+      items,
+    };
+  }).filter((group) => group.items.length > 0);
+
   return (
     <div className="bg-tactical-850 border border-tactical-700/60 rounded-lg p-3 space-y-2.5">
       {/* Minimalist Header bar */}
@@ -169,19 +181,37 @@ export const RosterList: React.FC<RosterListProps> = ({
         </div>
       </div>
 
-      {/* Minimalist Roster List (2 columns on sm+, single column on mobile) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 max-h-[560px] overflow-y-auto pr-1">
-        {playerEligibility.map(({ player, eligible, reason, isTakenByOpponent }) => (
-          <PlayerCard
-            key={player.id}
-            player={player}
-            eligible={eligible}
-            isSelected={selectedPlayerId === player.id}
-            ineligibleReason={reason}
-            isTakenByOpponent={isTakenByOpponent}
-            disabled={!isMyTurn || disabled}
-            onPick={eligible && isMyTurn ? () => onSelectPlayer(player) : undefined}
-          />
+      {/* Categorized Roster List (Clean scrollable sections: GK, DEF, MID, ATT) */}
+      <div className="space-y-3 max-h-[580px] overflow-y-auto pr-1">
+        {groupedPlayers.map((group) => (
+          <div key={group.id} className="space-y-1.5">
+            {/* Minimalist Section Header */}
+            <div className="sticky top-0 z-10 bg-tactical-850/95 backdrop-blur-sm py-1 border-b border-tactical-700/60 flex items-center justify-between">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-tactical-200 uppercase tracking-wide">
+                <span>{group.icon}</span>
+                <span>{group.label}</span>
+              </div>
+              <span className="font-mono text-[10px] text-tactical-400 bg-tactical-800 px-1.5 py-0.5 rounded border border-tactical-700/60">
+                {group.items.length}
+              </span>
+            </div>
+
+            {/* Players Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+              {group.items.map(({ player, eligible, reason, isTakenByOpponent }) => (
+                <PlayerCard
+                  key={player.id}
+                  player={player}
+                  eligible={eligible}
+                  isSelected={selectedPlayerId === player.id}
+                  ineligibleReason={reason}
+                  isTakenByOpponent={isTakenByOpponent}
+                  disabled={!isMyTurn || disabled}
+                  onPick={eligible && isMyTurn ? () => onSelectPlayer(player) : undefined}
+                />
+              ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>
