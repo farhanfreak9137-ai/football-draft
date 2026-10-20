@@ -1,4 +1,4 @@
-import { ManagerProfile, PoolType, TournamentDraftMode } from '../../shared/types/index.js';
+import { ManagerProfile, PoolType, TournamentDraftMode, SavedDreamTeam } from '../../shared/types/index.js';
 
 const STORAGE_KEY = 'hfd_manager_profile';
 
@@ -143,6 +143,22 @@ export class ProfileService {
     }
 
     this.profile.level = Math.floor(this.profile.xp / 300) + 1;
+    this.saveProfile();
+    return this.getProfile();
+  }
+
+  saveDreamTeam(team: SavedDreamTeam): ManagerProfile {
+    this.profile.dreamTeam = team;
+    this.saveProfile();
+    return this.getProfile();
+  }
+
+  getDreamTeam(): SavedDreamTeam | null {
+    return this.profile.dreamTeam || null;
+  }
+
+  clearDreamTeam(): ManagerProfile {
+    delete this.profile.dreamTeam;
     this.saveProfile();
     return this.getProfile();
   }

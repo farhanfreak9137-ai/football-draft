@@ -11,6 +11,10 @@ import {
   Strategy,
   TournamentMatchFixture,
   TournamentState,
+  TournamentTeam,
+  DefensiveStyle,
+  PassingStyle,
+  TouchlineShout,
 } from '../shared/types/index.js';
 import { FORMATIONS, isPlayerEligibleForSlot } from '../shared/constants/formations.js';
 import {
@@ -29,12 +33,15 @@ import {
 } from './services/api.js';
 import { offlineSoloEngine } from './services/offlineSoloEngine.js';
 import { tournamentService } from './services/tournamentService.js';
+import { profileService } from './services/profileService.js';
+import { convertDreamTeamToDraftState, convertDraftStateToDreamTeam } from './utils/dreamTeamHelper.js';
 import { TournamentEngine } from '../shared/engine/tournamentEngine.js';
 import { soundManager } from './utils/audio.js';
 import { getCustomFormations } from './utils/customFormations.js';
 import { messages } from './i18n/messages.js';
 import { LobbyView } from './components/LobbyView.js';
 import { TournamentView } from './components/TournamentView.js';
+import { SoloDraftStudio } from './components/SoloDraftStudio.js';
 import { ProfileModal } from './components/ProfileModal.js';
 import { TacticalPitch } from './components/TacticalPitch.js';
 import { RosterList } from './components/RosterList.js';
@@ -78,6 +85,12 @@ export const App: React.FC = () => {
     isTournament: boolean;
     matchFixture?: TournamentMatchFixture;
     draftMode?: string;
+  } | null>(null);
+
+  // Solo Draft Modal Context (for Pack-Roll, 5-Card, Star-Budget)
+  const [soloDraftParams, setSoloDraftParams] = useState<{
+    tournament: TournamentState;
+    fixture: TournamentMatchFixture;
   } | null>(null);
 
   // Load saved custom formations on initial render
@@ -412,13 +425,10 @@ export const App: React.FC = () => {
         const tourney = tournamentService.getActiveTournament();
         if (tourney) {
           matchDurationSec = tourney.matchDurationSec;
-          // If in campaign mode and squad was just drafted, save user squad to tournament state!
-          if (tourney.draftMode === 'campaign' && !tourney.userSquad) {
-            tourney.userSquad = room.hostDraft;
-            try {
-              localStorage.setItem('hfd_active_tournament', JSON.stringify(tourney));
-              setActiveTournament({ ...tourney });
-            } catch (e) {}
+          // If in a draft-once mode and squad was just drafted, save user squad to tournament state!
+          if (tourney.draftMode !== 'dynamic' && !tourney.userSquad && room.hostDraft) {
+            tournamentService.setUserSquad(room.hostDraft);
+            setActiveTournament(tournamentService.getActiveTournament());
           }
         }
       }
@@ -494,6 +504,105 @@ export const App: React.FC = () => {
     }
   };
 
+  // Handler: In-Match Touchline Tactics & Shouts
+  const handleTacticsChange = (tactics: {
+    mentality?: LiveMentality;
+    defensiveStyle?: DefensiveStyle;
+    passingStyle?: PassingStyle;
+    shout?: TouchlineShout;
+  }) => {
+    if (room && offlineSoloEngine.getLiveMatch(room.roomCode)) {
+      const updated = offlineSoloEngine.updateLiveTactics(tactics, mySeat);
+      if (updated) {
+        setLiveMatch({ ...updated });
+      }
+    }
+  };
+
+  // Handler: Solo Draft Complete from Studio (Pack-Roll, 5-Card, Star-Budget)
+  const handleSoloDraftComplete = (draftState: any, saveAsDreamTeam: boolean) => {
+    if (!soloDraftParams) return;
+    const { tournament: tourney, fixture } = soloDraftParams;
+    const opponentTeam = fixture.homeTeam.isUser ? fixture.awayTeam : fixture.homeTeam;
+    const isKnockout = !tourney.currentRound.startsWith('group_match_');
+
+    // Save user squad to tournament state!
+    const updatedTourney = tournamentService.setUserSquad(draftState);
+    setActiveTournament({ ...updatedTourney });
+
+    // Save as Dream Team if checked
+    if (saveAsDreamTeam) {
+      profileService.saveDreamTeam(convertDraftStateToDreamTeam(draftState));
+    }
+
+    // Build authentic AI opponent squad
+    const aiDraft = TournamentEngine.buildAiTeamSquad(
+      opponentTeam,
+      tourney.poolType,
+      offlineSoloEngine.getPlayers(),
+      opponentTeam.formationId
+    );
+
+    // Launch Prebuilt Match directly!
+    const res = createPrebuiltMatch({
+      hostDraft: draftState,
+      guestDraft: aiDraft,
+      matchDurationSec: tourney.matchDurationSec,
+      isKnockout,
+      poolType: tourney.poolType,
+    });
+
+    setRoom(res.room);
+    setMySeat('host');
+    setToken(res.room.hostSeat.token);
+    setLiveMatch(res.simulation);
+    setTournamentMatchContext({
+      isTournament: true,
+      matchFixture: fixture,
+      draftMode: tourney.draftMode,
+    });
+    setSoloDraftParams(null);
+  };
+
+  // Handler: Launch Exhibition Friendly Match from Profile
+  const handlePlayFriendlyMatch = (opponentEditionId: string, durationSec: number) => {
+    const dreamTeam = profileService.getDreamTeam();
+    if (!dreamTeam) return;
+
+    const hostDraft = convertDreamTeamToDraftState(dreamTeam);
+    const opponentEdition = offlineSoloEngine.getEditions().find((e) => e.id === opponentEditionId);
+    const opponentTeam: TournamentTeam = {
+      id: 'friendly-ai',
+      name: opponentEdition ? `${opponentEdition.teamName} (${opponentEdition.yearOrSeason})` : 'Classic XI',
+      editionId: opponentEditionId,
+      poolType: opponentEdition?.editionType || 'national',
+      isUser: false,
+      formationId: opponentEdition?.tacticalFormation || '4-3-3',
+      groupStats: { played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0, points: 0 },
+    };
+
+    const guestDraft = TournamentEngine.buildAiTeamSquad(
+      opponentTeam,
+      opponentTeam.poolType,
+      offlineSoloEngine.getPlayers(),
+      opponentTeam.formationId
+    );
+
+    const res = createPrebuiltMatch({
+      hostDraft,
+      guestDraft,
+      matchDurationSec: durationSec,
+      isKnockout: false,
+      poolType: opponentTeam.poolType,
+    });
+
+    setRoom(res.room);
+    setMySeat('host');
+    setToken(res.room.hostSeat.token);
+    setLiveMatch(res.simulation);
+    setTournamentMatchContext(null);
+  };
+
   // Handler: Launch Tournament Match
   const handleStartTournamentMatch = async (
     tourney: TournamentState,
@@ -506,8 +615,9 @@ export const App: React.FC = () => {
       const opponentTeam = fixture.homeTeam.isUser ? fixture.awayTeam : fixture.homeTeam;
       const isKnockout = !tourney.currentRound.startsWith('group_match_');
 
-      if (tourney.draftMode === 'campaign') {
-        // If manager squad is already drafted from Match 1:
+      // 1. DRAFT-ONCE MODES (pack_roll, five_card, star_budget, dream_team, campaign)
+      if (tourney.draftMode !== 'dynamic') {
+        // If manager squad is already drafted (Games 2 through 7, or Game 1 after draft):
         if (tourney.userSquad && tourney.userSquad.isReady) {
           const aiDraft = TournamentEngine.buildAiTeamSquad(
             opponentTeam,
@@ -531,39 +641,53 @@ export const App: React.FC = () => {
           setTournamentMatchContext({
             isTournament: true,
             matchFixture: fixture,
-            draftMode: 'campaign',
+            draftMode: tourney.draftMode,
           });
           return;
         }
 
-        // If manager squad not yet drafted (First Match):
-        const res = await createRoom({
-          mode: 'solo',
-          poolType: tourney.poolType,
-          hostName: tourney.userTeam.name,
-          formationId: tourney.userTeam.formationId,
-          strategy: 'balanced',
-          matchFormat: isKnockout ? 'knockout' : 'normal',
-        });
+        // Game 1: If squad NOT yet drafted
+        if (tourney.draftMode === 'dream_team') {
+          const dreamTeam = profileService.getDreamTeam();
+          if (dreamTeam) {
+            const hostDraft = convertDreamTeamToDraftState(dreamTeam, tourney.poolType);
+            tournamentService.setUserSquad(hostDraft);
+            setActiveTournament(tournamentService.getActiveTournament());
 
-        if (res.room.guestDraft) {
-          res.room.guestDraft.playerName = opponentTeam.name;
-          res.room.guestDraft.formation =
-            FORMATIONS[opponentTeam.formationId || '4-3-3'] || FORMATIONS['4-3-3'];
+            const aiDraft = TournamentEngine.buildAiTeamSquad(
+              opponentTeam,
+              tourney.poolType,
+              offlineSoloEngine.getPlayers(),
+              opponentTeam.formationId
+            );
+
+            const res = createPrebuiltMatch({
+              hostDraft,
+              guestDraft: aiDraft,
+              matchDurationSec: tourney.matchDurationSec,
+              isKnockout,
+              poolType: tourney.poolType,
+            });
+
+            setRoom(res.room);
+            setMySeat('host');
+            setToken(res.room.hostSeat.token);
+            setLiveMatch(res.simulation);
+            setTournamentMatchContext({
+              isTournament: true,
+              matchFixture: fixture,
+              draftMode: 'dream_team',
+            });
+            return;
+          }
         }
 
-        setRoom(res.room);
-        setMySeat('host');
-        setToken(res.hostToken);
-        setTournamentMatchContext({
-          isTournament: true,
-          matchFixture: fixture,
-          draftMode: 'campaign',
-        });
+        // Open Solo Draft Studio for pack_roll, five_card, star_budget, campaign
+        setSoloDraftParams({ tournament: tourney, fixture });
         return;
       }
 
-      // Dynamic Draft Mode: draft fresh before every match
+      // 2. Dynamic Draft Mode: draft fresh before every match
       const res = await createRoom({
         mode: 'solo',
         poolType: tourney.poolType,
@@ -774,6 +898,7 @@ export const App: React.FC = () => {
             guestDraft={room.guestDraft}
             onExitMatch={handleLeaveRoom}
             onMentalityChange={handleLiveMentalityChange}
+            onTacticsChange={handleTacticsChange}
           />
         )}
 
@@ -1085,7 +1210,11 @@ export const App: React.FC = () => {
       </footer>
 
       {/* Modals */}
-      <ProfileModal isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} />
+      <ProfileModal
+        isOpen={isProfileOpen}
+        onClose={() => setIsProfileOpen(false)}
+        onPlayFriendlyMatch={handlePlayFriendlyMatch}
+      />
       <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
       <FormationStudioModal
         isOpen={isFormationStudioOpen}
@@ -1099,6 +1228,18 @@ export const App: React.FC = () => {
         }}
         initialFormation={selectedCustomFormation}
       />
+
+      {/* Solo Draft Studio for Tournament (Pack-Roll, 5-Card, Star-Budget) */}
+      {soloDraftParams && (
+        <SoloDraftStudio
+          draftMode={soloDraftParams.tournament.draftMode}
+          poolType={soloDraftParams.tournament.poolType}
+          formationId={soloDraftParams.tournament.userTeam.formationId || '4-3-3'}
+          managerName={soloDraftParams.tournament.userTeam.name}
+          onComplete={handleSoloDraftComplete}
+          onCancel={() => setSoloDraftParams(null)}
+        />
+      )}
     </div>
   );
 };

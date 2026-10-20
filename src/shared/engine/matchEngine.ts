@@ -9,6 +9,10 @@ import {
   Position,
   SquadRoles,
   LiveMentality,
+  DefensiveStyle,
+  PassingStyle,
+  TouchlineShout,
+  TacticalInstructions,
 } from '../types/index.js';
 import { PRNG } from './prng.js';
 
@@ -573,6 +577,47 @@ export class MatchEngine {
     team: 'host' | 'guest' = 'host'
   ): MatchSimulationState {
     simulation.liveMentality = mentality;
+    if (!simulation.tacticalInstructions) {
+      simulation.tacticalInstructions = {};
+    }
+    simulation.tacticalInstructions.mentality = mentality;
+    return simulation;
+  }
+
+  /**
+   * Updates live in-match touchline tactics (mentality, pressing, passing style, touchline shouts).
+   */
+  static updateLiveTactics(
+    simulation: MatchSimulationState,
+    tactics: {
+      mentality?: LiveMentality;
+      defensiveStyle?: DefensiveStyle;
+      passingStyle?: PassingStyle;
+      shout?: TouchlineShout;
+    },
+    team: 'host' | 'guest' = 'host'
+  ): MatchSimulationState {
+    if (!simulation.tacticalInstructions) {
+      simulation.tacticalInstructions = {};
+    }
+    if (tactics.mentality) {
+      simulation.liveMentality = tactics.mentality;
+      simulation.tacticalInstructions.mentality = tactics.mentality;
+    }
+    if (tactics.defensiveStyle) {
+      simulation.tacticalInstructions.defensiveStyle = tactics.defensiveStyle;
+    }
+    if (tactics.passingStyle) {
+      simulation.tacticalInstructions.passingStyle = tactics.passingStyle;
+    }
+    if (tactics.shout) {
+      const curSec = simulation.currentSecond || 0;
+      simulation.tacticalInstructions.activeShout = {
+        shout: tactics.shout,
+        activatedAtSec: curSec,
+        expiresAtSec: curSec + 15,
+      };
+    }
     return simulation;
   }
 

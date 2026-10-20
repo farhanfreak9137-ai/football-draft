@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { profileService } from '../services/profileService.js';
-import { ManagerProfile } from '../../shared/types/index.js';
+import { offlineSoloEngine } from '../services/offlineSoloEngine.js';
+import { ManagerProfile, TeamEdition } from '../../shared/types/index.js';
+import { getOvrBadgeClass } from '../utils/ovrColor.js';
 import {
   X,
   Trophy,
@@ -12,18 +14,31 @@ import {
   Edit2,
   Calendar,
   Sparkles,
+  Play,
+  Trash2,
+  Users,
 } from 'lucide-react';
 
 interface ProfileModalProps {
   isOpen: boolean;
   onClose: () => void;
+  onPlayFriendlyMatch?: (opponentEditionId: string, durationSec: number) => void;
 }
 
-export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) => {
+export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onPlayFriendlyMatch }) => {
   const [profile, setProfile] = useState<ManagerProfile>(() => profileService.getProfile());
+  const [activeTab, setActiveTab] = useState<'career' | 'dream_team'>('career');
   const [isEditingName, setIsEditingName] = useState(false);
   const [nameInput, setNameInput] = useState(profile.managerName);
   const [selectedEmoji, setSelectedEmoji] = useState(profile.avatarEmoji || '👔');
+
+  // Friendly match state
+  const [isExhibitionOpen, setIsExhibitionOpen] = useState(false);
+  const [opponentSearch, setOpponentSearch] = useState('');
+  const [selectedOpponentId, setSelectedOpponentId] = useState<string>('');
+  const [durationSec, setDurationSec] = useState<number>(90);
+
+  const allEditions = useMemo(() => offlineSoloEngine.getEditions(), []);
 
   const EMOJI_OPTIONS = ['👔', '🧢', '🕶️', '⚽', '👑', '🦁', '⚡', '🦅', '🎯', '🔥'];
 
@@ -35,6 +50,19 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
     setIsEditingName(false);
   };
 
+  const handleDisbandDreamTeam = () => {
+    if (window.confirm('Are you sure you want to disband your Dream Team?')) {
+      const updated = profileService.clearDreamTeam();
+      setProfile(updated);
+    }
+  };
+
+  const handleLaunchExhibition = () => {
+    if (!selectedOpponentId || !onPlayFriendlyMatch) return;
+    onPlayFriendlyMatch(selectedOpponentId, durationSec);
+    onClose();
+  };
+
   const winRate =
     profile.stats.matchesPlayed > 0
       ? Math.round((profile.stats.wins / profile.stats.matchesPlayed) * 100)
@@ -43,6 +71,10 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
   const nextLevelXp = profile.level * 300;
   const currentLevelXp = profile.xp % 300;
   const xpPercent = Math.min(100, Math.round((currentLevelXp / 300) * 100));
+
+  const dreamTeamPlayers = profile.dreamTeam
+    ? Object.values(profile.dreamTeam.draftedSlots).map((s) => s.player)
+    : [];
 
   return (
     <div
@@ -56,7 +88,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
         <div className="flex items-center justify-between px-6 py-4 border-b border-tactical-700 bg-tactical-900 shrink-0">
           <div className="flex items-center gap-2">
             <Trophy className="w-5 h-5 text-gold-400" />
-            <h2 className="text-base font-bold text-tactical-100">Manager Profile & Career</h2>
+            <h2 className="text-base font-bold text-tactical-100">Manager Office & Profile</h2>
           </div>
           <button
             onClick={onClose}
@@ -67,9 +99,44 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
           </button>
         </div>
 
+        {/* Navigation Tabs */}
+        <div className="flex border-b border-tactical-750 bg-tactical-900/60 px-6 shrink-0">
+          <button
+            type="button"
+            onClick={() => setActiveTab('career')}
+            className={`py-3 px-4 text-xs font-bold border-b-2 flex items-center gap-2 transition-all ${
+              activeTab === 'career'
+                ? 'border-gold-400 text-gold-400'
+                : 'border-transparent text-tactical-400 hover:text-tactical-200'
+            }`}
+          >
+            <Trophy className="w-4 h-4" />
+            <span>Career & Trophies</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('dream_team')}
+            className={`py-3 px-4 text-xs font-bold border-b-2 flex items-center gap-2 transition-all ${
+              activeTab === 'dream_team'
+                ? 'border-gold-400 text-gold-400'
+                : 'border-transparent text-tactical-400 hover:text-tactical-200'
+            }`}
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>⭐ My Dream Team</span>
+            {profile.dreamTeam && (
+              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-gold-500/20 text-gold-300 font-mono">
+                {profile.dreamTeam.totalOvr} OVR
+              </span>
+            )}
+          </button>
+        </div>
+
         {/* Content */}
         <div className="p-6 space-y-6 overflow-y-auto">
-          {/* Manager Badge & XP Card */}
+          {activeTab === 'career' ? (
+            <>
+              {/* Manager Badge & XP Card */}
           <div className="p-4 rounded-xl bg-tactical-900 border border-tactical-750 flex flex-col sm:flex-row items-center gap-4">
             <div className="text-4xl p-3 bg-tactical-800 rounded-2xl border border-tactical-700 shadow-inner">
               {profile.avatarEmoji}
@@ -278,6 +345,173 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) =
               </div>
             )}
           </div>
+            </>
+          ) : (
+            /* ============================================================== */
+            /* TAB 2: MY DREAM TEAM */
+            /* ============================================================== */
+            <div className="space-y-5">
+              {profile.dreamTeam ? (
+                <>
+                  {/* Dream Team Banner */}
+                  <div className="p-4 rounded-xl bg-gradient-to-r from-gold-500/15 to-amber-600/15 border border-gold-500/40 space-y-3">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <span className="text-[10px] text-gold-400 font-mono uppercase tracking-wider">
+                          Official Personal Squad
+                        </span>
+                        <h3 className="text-lg font-black text-tactical-100 flex items-center gap-2">
+                          <span>{profile.dreamTeam.name}</span>
+                          <span className="text-xs px-2 py-0.5 rounded bg-tactical-850 text-gold-300 font-mono border border-gold-500/30">
+                            {profile.dreamTeam.formationId}
+                          </span>
+                        </h3>
+                      </div>
+
+                      <div className="text-right">
+                        <div className="text-[10px] text-tactical-400 font-mono">Team Rating</div>
+                        <div className="text-xl font-black text-gold-400 font-mono">
+                          {profile.dreamTeam.totalOvr} <span className="text-xs font-normal">OVR</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 pt-2 border-t border-tactical-700/60">
+                      <button
+                        type="button"
+                        onClick={() => setIsExhibitionOpen(!isExhibitionOpen)}
+                        className="flex-1 py-2 px-3 rounded-lg bg-gold-500 hover:bg-gold-400 text-tactical-950 font-bold text-xs flex items-center justify-center gap-1.5 shadow-md active:scale-98 transition-all"
+                      >
+                        <Play className="w-3.5 h-3.5 fill-tactical-950" />
+                        <span>{isExhibitionOpen ? 'Hide Exhibition Panel' : 'Play Exhibition Match'}</span>
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={handleDisbandDreamTeam}
+                        className="py-2 px-3 rounded-lg bg-tactical-800 hover:bg-red-950/60 text-tactical-400 hover:text-red-400 border border-tactical-700 hover:border-red-800 text-xs font-bold transition-all"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Exhibition Match Setup Panel */}
+                  {isExhibitionOpen && (
+                    <div className="p-4 rounded-xl bg-tactical-900 border border-gold-500/50 space-y-3 animate-fade-in">
+                      <div className="text-xs font-bold text-tactical-100 flex items-center justify-between">
+                        <span>⚔️ Exhibition Friendly Match</span>
+                        <span className="text-[10px] text-tactical-400">Play anytime with your Dream XI</span>
+                      </div>
+
+                      <div className="space-y-1.5">
+                        <label className="text-[11px] text-tactical-400">Select Classic Opponent Edition:</label>
+                        <select
+                          value={selectedOpponentId}
+                          onChange={(e) => setSelectedOpponentId(e.target.value)}
+                          className="w-full px-3 py-2 rounded-lg bg-tactical-800 border border-tactical-700 text-xs text-tactical-100 font-bold focus:outline-none focus:border-gold-500"
+                        >
+                          <option value="">-- Choose Historical Opponent --</option>
+                          {allEditions.slice(0, 50).map((ed) => (
+                            <option key={ed.id} value={ed.id}>
+                              {ed.teamName} ({ed.yearOrSeason}) • {ed.editionType.toUpperCase()}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+
+                      <div className="space-y-1.5">
+                        <label className="text-[11px] text-tactical-400">Match Duration:</label>
+                        <div className="grid grid-cols-3 gap-2">
+                          {[
+                            { label: '45s Blitz', val: 45 },
+                            { label: '90s Classic', val: 90 },
+                            { label: '180s Manager', val: 180 },
+                          ].map((dur) => (
+                            <button
+                              key={dur.val}
+                              type="button"
+                              onClick={() => setDurationSec(dur.val)}
+                              className={`py-1.5 px-2 rounded-lg text-xs font-bold border transition-all ${
+                                durationSec === dur.val
+                                  ? 'bg-gold-500/20 text-gold-400 border-gold-500/50'
+                                  : 'bg-tactical-800 text-tactical-400 border-tactical-700'
+                              }`}
+                            >
+                              {dur.label}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+
+                      <button
+                        type="button"
+                        onClick={handleLaunchExhibition}
+                        disabled={!selectedOpponentId}
+                        className="w-full py-2.5 rounded-lg bg-pitch-DEFAULT hover:bg-pitch-light disabled:opacity-40 disabled:cursor-not-allowed text-tactical-100 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg active:scale-98 transition-all"
+                      >
+                        <Play className="w-4 h-4 fill-tactical-100" />
+                        <span>Kick Off Friendly Match</span>
+                      </button>
+                    </div>
+                  )}
+
+                  {/* 11 Starting Players List */}
+                  <div className="space-y-2">
+                    <div className="text-xs font-bold text-tactical-300 uppercase tracking-wider flex items-center gap-1.5">
+                      <Users className="w-3.5 h-3.5 text-pitch-accent" />
+                      <span>Starting XI ({dreamTeamPlayers.length}/11)</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {Object.entries(profile.dreamTeam.draftedSlots).map(([slotId, slot]) => (
+                        <div
+                          key={slotId}
+                          className="p-2.5 rounded-lg bg-tactical-900 border border-tactical-750 flex items-center justify-between"
+                        >
+                          <div className="flex items-center gap-2.5 min-w-0">
+                            <span
+                              className={`w-7 h-7 rounded-md flex items-center justify-center font-black text-xs shrink-0 ${getOvrBadgeClass(
+                                slot.player.ovr
+                              )}`}
+                            >
+                              {slot.player.ovr}
+                            </span>
+                            <div className="min-w-0">
+                              <div className="text-xs font-bold text-tactical-100 truncate">
+                                {slot.player.name}
+                              </div>
+                              <div className="text-[10px] text-tactical-400 font-mono">
+                                Pos: {slot.assignedPosition} • #{slot.player.squadNumber}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              ) : (
+                /* Empty Dream Team State */
+                <div className="p-8 rounded-xl bg-tactical-900/60 border border-tactical-800 text-center space-y-4">
+                  <div className="w-14 h-14 rounded-2xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mx-auto text-gold-400">
+                    <Sparkles className="w-7 h-7" />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-sm font-bold text-tactical-100">No Dream Team Saved Yet</h4>
+                    <p className="text-xs text-tactical-400 max-w-sm mx-auto">
+                      Whenever you complete a draft or win a match in Tournament or Solo mode, click{' '}
+                      <strong className="text-gold-400">"⭐ Save as Dream Team"</strong> to preserve your ultimate squad
+                      here.
+                    </p>
+                  </div>
+                  <div className="text-[11px] text-tactical-500 font-mono">
+                    You can then play friendly matches against any historic squad or enter tournaments anytime!
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Footer */}

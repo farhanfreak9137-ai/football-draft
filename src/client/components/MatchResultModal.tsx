@@ -13,9 +13,13 @@ import {
   Activity,
   RotateCcw,
   Sparkles,
+  Check,
 } from 'lucide-react';
 import { messages } from '../i18n/messages.js';
 import { getOvrColorClass } from '../utils/ovrColor.js';
+import { profileService } from '../services/profileService.js';
+import { convertDraftStateToDreamTeam } from '../utils/dreamTeamHelper.js';
+import { soundManager } from '../utils/audio.js';
 
 interface MatchResultModalProps {
   isOpen: boolean;
@@ -42,7 +46,16 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
   onViewBothPitches,
   onPlayAgain,
 }) => {
+  const [dreamTeamSaved, setDreamTeamSaved] = useState(false);
+
   if (!isOpen) return null;
+
+  const handleSaveDreamTeam = () => {
+    const dt = convertDraftStateToDreamTeam(hostDraft);
+    profileService.saveDreamTeam(dt);
+    setDreamTeamSaved(true);
+    soundManager.playPickSound();
+  };
 
   const hostName = hostDraft.playerName || 'Host XI';
   const guestName = guestDraft?.playerName || 'Opponent XI';
@@ -384,21 +397,31 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
         </div>
 
         {/* Action Buttons Footer */}
-        <div className="p-4 sm:p-5 border-t border-tactical-750 bg-tactical-900/80 flex items-center justify-end gap-2.5">
+        <div className="p-4 sm:p-5 border-t border-tactical-750 bg-tactical-900/80 flex flex-wrap items-center justify-between gap-2.5">
           <button
-            onClick={onClose}
-            className="flex items-center justify-center gap-1.5 py-2 px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-200 font-semibold text-xs border border-tactical-700 transition-all"
+            onClick={handleSaveDreamTeam}
+            className="flex items-center justify-center gap-1.5 py-2 px-3.5 rounded-xl bg-gold-500/20 hover:bg-gold-500/30 text-gold-300 font-bold text-xs border border-gold-500/50 active:scale-98 shadow-md transition-all"
           >
-            <span>Close</span>
+            {dreamTeamSaved ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Sparkles className="w-3.5 h-3.5 text-gold-400" />}
+            <span>{dreamTeamSaved ? 'Saved to Dream Team!' : '⭐ Save XI as Dream Team'}</span>
           </button>
 
-          <button
-            onClick={onPlayAgain}
-            className="flex items-center justify-center gap-1.5 py-2 px-5 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-xs border border-pitch-line active:scale-98 shadow-md transition-all"
-          >
-            <RotateCcw className="w-3.5 h-3.5" />
-            <span>{messages.match.playAgain}</span>
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={onClose}
+              className="flex items-center justify-center gap-1.5 py-2 px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-200 font-semibold text-xs border border-tactical-700 transition-all"
+            >
+              <span>Close</span>
+            </button>
+
+            <button
+              onClick={onPlayAgain}
+              className="flex items-center justify-center gap-1.5 py-2 px-5 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-xs border border-pitch-line active:scale-98 shadow-md transition-all"
+            >
+              <RotateCcw className="w-3.5 h-3.5" />
+              <span>{messages.match.playAgain}</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

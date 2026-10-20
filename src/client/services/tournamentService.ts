@@ -1,6 +1,7 @@
 import {
   FormationDefinition,
   MatchSimulationState,
+  PlayerDraftState,
   PoolType,
   TournamentDraftMode,
   TournamentMatchFixture,
@@ -85,6 +86,15 @@ export class TournamentService {
     return TournamentEngine.getCurrentUserMatch(this.activeTournament);
   }
 
+  setUserSquad(squad: PlayerDraftState): TournamentState {
+    if (!this.activeTournament) {
+      throw new Error('No active tournament');
+    }
+    this.activeTournament.userSquad = squad;
+    this.saveActiveTournament();
+    return { ...this.activeTournament };
+  }
+
   recordUserMatchResult(result: {
     userScore: number;
     opponentScore: number;
@@ -115,11 +125,16 @@ export class TournamentService {
       goalsConceded: result.opponentScore,
     });
 
+    const userSquadBackup = this.activeTournament.userSquad;
     const updated = TournamentEngine.advanceTournament(
       this.activeTournament,
       result,
       offlineSoloEngine.getPlayers()
     );
+
+    if (userSquadBackup && !updated.userSquad) {
+      updated.userSquad = userSquadBackup;
+    }
 
     // If tournament just finished (Final or eliminated)
     if (updated.currentRound === 'completed') {

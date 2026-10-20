@@ -7,6 +7,10 @@ import {
   PoolType,
   RoomState,
   TeamEdition,
+  LiveMentality,
+  DefensiveStyle,
+  PassingStyle,
+  TouchlineShout,
 } from '../../shared/types/index.js';
 import { FORMATIONS, isPlayerEligibleForSlot } from '../../shared/constants/formations.js';
 import { DraftEngine } from '../../shared/engine/draftEngine.js';
@@ -512,6 +516,20 @@ export class OfflineSoloEngine {
   updateLiveMentality(mentality: any, team: 'host' | 'guest' = 'host'): MatchSimulationState | null {
     if (!this.currentMatch) return null;
     this.currentMatch = MatchEngine.updateLiveMentality(this.currentMatch, mentality, team);
+    return this.getLiveMatch(this.currentRoom?.roomCode || '');
+  }
+
+  updateLiveTactics(
+    tactics: {
+      mentality?: LiveMentality;
+      defensiveStyle?: DefensiveStyle;
+      passingStyle?: PassingStyle;
+      shout?: TouchlineShout;
+    },
+    team: 'host' | 'guest' = 'host'
+  ): MatchSimulationState | null {
+    if (!this.currentMatch) return null;
+    this.currentMatch = MatchEngine.updateLiveTactics(this.currentMatch, tactics, team);
     return this.getLiveMatch(this.currentRoom?.roomCode || '');
   }
 

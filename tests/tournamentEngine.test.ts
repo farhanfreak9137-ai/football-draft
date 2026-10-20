@@ -98,5 +98,39 @@ describe('TournamentEngine (7-Game World Cup Event Campaign)', () => {
     expect(tourney.champion?.name).toBe('World Champ');
     expect(tourney.isEliminated).toBe(false);
   });
+
+  it('builds authentic AI opponent squad from the team edition roster and preserves userSquad', () => {
+    const editions = offlineSoloEngine.getEditions();
+    const players = offlineSoloEngine.getPlayers();
+
+    const tourney = TournamentEngine.createTournament({
+      poolType: 'national',
+      draftMode: 'pack_roll',
+      userName: 'Tactical Master',
+      editions,
+      players,
+    });
+
+    // Check opponent team
+    const opponentTeam = tourney.groups[0].teams.find((t) => !t.isUser)!;
+    const aiDraft = TournamentEngine.buildAiTeamSquad(opponentTeam, tourney.poolType, players, opponentTeam.formationId);
+
+    expect(aiDraft.isReady).toBe(true);
+    const draftedList = Object.values(aiDraft.draftedSlots);
+    expect(draftedList.length).toBe(11);
+    // Verify each drafted player belongs to the opponent's historical team edition
+    const opponentEditionPlayers = players.filter((p) => p.editionId === opponentTeam.editionId);
+    expect(opponentEditionPlayers.length).toBeGreaterThanOrEqual(11);
+    for (const slot of draftedList) {
+      expect(slot.player.editionId).toBe(opponentTeam.editionId);
+    }
+
+    // Set userSquad on tournament and verify advanceTournament preserves it
+    tourney.userSquad = aiDraft; // mock user squad
+    TournamentEngine.advanceTournament(tourney, { userScore: 3, opponentScore: 1 }, players);
+    expect(tourney.userSquad).toBeDefined();
+    expect(tourney.userSquad?.isReady).toBe(true);
+    expect(Object.keys(tourney.userSquad?.draftedSlots || {}).length).toBe(11);
+  });
 });
 

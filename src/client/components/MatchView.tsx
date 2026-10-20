@@ -7,6 +7,9 @@ import {
   PlayerDraftState,
   PlayerMatchRating,
   Position,
+  DefensiveStyle,
+  PassingStyle,
+  TouchlineShout,
 } from '../../shared/types/index.js';
 import { soundManager } from '../utils/audio.js';
 import { messages } from '../i18n/messages.js';
@@ -30,6 +33,10 @@ import {
   Users,
   Star,
   Sparkles,
+  Megaphone,
+  Zap,
+  Compass,
+  Flame,
 } from 'lucide-react';
 
 interface MatchViewProps {
@@ -38,6 +45,12 @@ interface MatchViewProps {
   guestDraft?: PlayerDraftState;
   onExitMatch: () => void;
   onMentalityChange?: (mentality: LiveMentality) => void;
+  onTacticsChange?: (tactics: {
+    mentality?: LiveMentality;
+    defensiveStyle?: DefensiveStyle;
+    passingStyle?: PassingStyle;
+    shout?: TouchlineShout;
+  }) => void;
 }
 
 export const MatchView: React.FC<MatchViewProps> = ({
@@ -46,19 +59,47 @@ export const MatchView: React.FC<MatchViewProps> = ({
   guestDraft,
   onExitMatch,
   onMentalityChange,
+  onTacticsChange,
 }) => {
   const [soundEnabled, setSoundEnabled] = useState(soundManager.enabled);
   const [activeTab, setActiveTab] = useState<'pitch' | 'lineups' | 'report'>('pitch');
   const [showResultModal, setShowResultModal] = useState(false);
   const [currentMentality, setCurrentMentality] = useState<LiveMentality>('balanced');
+  const [defensiveStyle, setDefensiveStyle] = useState<DefensiveStyle>('mid_block');
+  const [passingStyle, setPassingStyle] = useState<PassingStyle>('tiki_taka');
+  const [activeShout, setActiveShout] = useState<{ shout: TouchlineShout; label: string; expiresAtSec: number } | null>(null);
+  const [shoutCooldownUntil, setShoutCooldownUntil] = useState<number>(0);
+  const [isDugoutOpen, setIsDugoutOpen] = useState(false);
+
   const hasAutoOpenedModal = useRef(false);
   const eventFeedRef = useRef<HTMLDivElement>(null);
   const prevEventsLength = useRef(liveMatch.events.length);
 
   const handleMentalitySelect = (m: LiveMentality) => {
     setCurrentMentality(m);
-    if (onMentalityChange) {
-      onMentalityChange(m);
+    if (onMentalityChange) onMentalityChange(m);
+    if (onTacticsChange) onTacticsChange({ mentality: m, defensiveStyle, passingStyle });
+  };
+
+  const handleDefensiveSelect = (style: DefensiveStyle) => {
+    setDefensiveStyle(style);
+    if (onTacticsChange) onTacticsChange({ mentality: currentMentality, defensiveStyle: style, passingStyle });
+  };
+
+  const handlePassingSelect = (style: PassingStyle) => {
+    setPassingStyle(style);
+    if (onTacticsChange) onTacticsChange({ mentality: currentMentality, defensiveStyle, passingStyle: style });
+  };
+
+  const handleShout = (shout: TouchlineShout, label: string) => {
+    const now = Date.now();
+    if (now < shoutCooldownUntil) return;
+    soundManager.playPickSound();
+    const curSec = liveMatch.currentSecond || 0;
+    setActiveShout({ shout, label, expiresAtSec: curSec + 15 });
+    setShoutCooldownUntil(now + 25000); // 25s cooldown
+    if (onTacticsChange) {
+      onTacticsChange({ mentality: currentMentality, defensiveStyle, passingStyle, shout });
     }
   };
 
@@ -393,57 +434,176 @@ export const MatchView: React.FC<MatchViewProps> = ({
         </div>
       </div>
 
-      {/* Live In-Match Touchline Tactical Mentality Instructions */}
+      {/* Live In-Match Touchline Tactical Dugout */}
       {!isMatchFinished && (
-        <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-3 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-pitch-accent animate-pulse"></span>
-            <span className="text-xs font-bold text-tactical-200 uppercase tracking-wider">
-              Touchline Tactical Instructions:
-            </span>
-            <span className="text-[11px] font-mono text-tactical-400 capitalize hidden sm:inline">
-              (Current: {currentMentality})
-            </span>
+        <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-3.5 shadow-lg space-y-3">
+          {/* Active Shout Banner */}
+          {activeShout && (
+            <div className="p-2.5 rounded-lg bg-gold-500/20 border border-gold-500/50 flex items-center justify-between text-xs text-gold-300 font-bold animate-pulse">
+              <div className="flex items-center gap-2">
+                <Megaphone className="w-4 h-4 text-gold-400" />
+                <span>📢 Manager Shout: {activeShout.label}!</span>
+              </div>
+              <span className="text-[10px] font-mono text-gold-400">Tactical Boost Active</span>
+            </div>
+          )}
+
+          {/* Primary Row: Mentality & Dugout Toggle */}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-pitch-accent animate-pulse"></span>
+              <span className="text-xs font-bold text-tactical-200 uppercase tracking-wider">
+                Mentality:
+              </span>
+              <span className="text-[11px] font-mono text-tactical-400 capitalize">
+                {currentMentality} • {defensiveStyle.replace('_', ' ')} • {passingStyle.replace('_', ' ')}
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2 w-full sm:w-auto">
+              <div className="grid grid-cols-3 gap-1.5 flex-1 sm:flex-none">
+                <button
+                  type="button"
+                  onClick={() => handleMentalitySelect('defend')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
+                    currentMentality === 'defend'
+                      ? 'bg-blue-600 text-white shadow-md border border-blue-400 ring-2 ring-blue-500/40'
+                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
+                  }`}
+                  title="Park the Bus: Strengthen defense, prioritize clean sheets and blocks"
+                >
+                  <span>🛡️</span>
+                  <span>Defend</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleMentalitySelect('balanced')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
+                    currentMentality === 'balanced'
+                      ? 'bg-tactical-700 text-tactical-100 shadow-md border border-tactical-500 ring-2 ring-tactical-500/40'
+                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
+                  }`}
+                  title="Balanced: Maintain planned tactical shape and discipline"
+                >
+                  <span>⚖️</span>
+                  <span>Balanced</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleMentalitySelect('attack')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
+                    currentMentality === 'attack'
+                      ? 'bg-rose-600 text-white shadow-md border border-rose-400 ring-2 ring-rose-500/40 animate-pulse'
+                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
+                  }`}
+                  title="All-Out Attack: Commit players forward to generate chances and goals"
+                >
+                  <span>⚡</span>
+                  <span>Attack</span>
+                </button>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setIsDugoutOpen(!isDugoutOpen)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-all ${
+                  isDugoutOpen
+                    ? 'bg-gold-500/20 text-gold-300 border-gold-500/50'
+                    : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border-tactical-700'
+                }`}
+              >
+                {isDugoutOpen ? 'Hide Dugout ✕' : 'Tactics & Shouts ⚙️'}
+              </button>
+            </div>
           </div>
 
-          <div className="grid grid-cols-3 gap-2 w-full sm:w-auto">
-            <button
-              onClick={() => handleMentalitySelect('defend')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
-                currentMentality === 'defend'
-                  ? 'bg-blue-600 text-white shadow-md border border-blue-400 ring-2 ring-blue-500/40'
-                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
-              }`}
-              title="Park the Bus: Strengthen defense, prioritize clean sheets and blocks"
-            >
-              <span>🛡️</span>
-              <span>Defend</span>
-            </button>
-            <button
-              onClick={() => handleMentalitySelect('balanced')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
-                currentMentality === 'balanced'
-                  ? 'bg-tactical-700 text-tactical-100 shadow-md border border-tactical-500 ring-2 ring-tactical-500/40'
-                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
-              }`}
-              title="Balanced: Maintain planned tactical shape and discipline"
-            >
-              <span>⚖️</span>
-              <span>Balanced</span>
-            </button>
-            <button
-              onClick={() => handleMentalitySelect('attack')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
-                currentMentality === 'attack'
-                  ? 'bg-rose-600 text-white shadow-md border border-rose-400 ring-2 ring-rose-500/40 animate-pulse'
-                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
-              }`}
-              title="All-Out Attack: Commit players forward to generate chances and goals"
-            >
-              <span>⚡</span>
-              <span>Attack</span>
-            </button>
-          </div>
+          {/* Expanded Tactical Dugout (Pressing, Passing Style, Shouts) */}
+          {isDugoutOpen && (
+            <div className="pt-3 border-t border-tactical-750 grid grid-cols-1 md:grid-cols-3 gap-3 animate-fade-in">
+              {/* Defensive & Pressing Line */}
+              <div className="space-y-1.5">
+                <span className="text-[10px] font-bold text-tactical-400 uppercase tracking-wider">
+                  Pressing & Defensive Line
+                </span>
+                <div className="grid grid-cols-3 gap-1">
+                  {[
+                    { id: 'low_block', label: 'Low Block', desc: 'Absorb & counter' },
+                    { id: 'mid_block', label: 'Mid Block', desc: 'Disciplined' },
+                    { id: 'high_press', label: 'High Press', desc: 'Gegenpress' },
+                  ].map((s) => (
+                    <button
+                      key={s.id}
+                      type="button"
+                      onClick={() => handleDefensiveSelect(s.id as DefensiveStyle)}
+                      className={`p-1.5 rounded-lg text-[10px] font-bold border transition-all text-center ${
+                        defensiveStyle === s.id
+                          ? 'bg-pitch-DEFAULT/30 text-pitch-accent border-pitch-line'
+                          : 'bg-tactical-900 text-tactical-400 border-tactical-800 hover:bg-tactical-800'
+                      }`}
+                    >
+                      {s.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Build-Up & Passing Style */}
+              <div className="space-y-1.5">
+                <span className="text-[10px] font-bold text-tactical-400 uppercase tracking-wider">
+                  Passing & Build-Up
+                </span>
+                <div className="grid grid-cols-3 gap-1">
+                  {[
+                    { id: 'tiki_taka', label: 'Tiki-Taka', desc: 'Short passes' },
+                    { id: 'direct', label: 'Direct', desc: 'Long ball' },
+                    { id: 'wing_play', label: 'Wing Play', desc: 'Crosses' },
+                  ].map((s) => (
+                    <button
+                      key={s.id}
+                      type="button"
+                      onClick={() => handlePassingSelect(s.id as PassingStyle)}
+                      className={`p-1.5 rounded-lg text-[10px] font-bold border transition-all text-center ${
+                        passingStyle === s.id
+                          ? 'bg-pitch-DEFAULT/30 text-pitch-accent border-pitch-line'
+                          : 'bg-tactical-900 text-tactical-400 border-tactical-800 hover:bg-tactical-800'
+                      }`}
+                    >
+                      {s.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Touchline Shouts (with Cooldown) */}
+              <div className="space-y-1.5">
+                <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wider flex items-center justify-between">
+                  <span>📢 Touchline Shouts</span>
+                  {Date.now() < shoutCooldownUntil && (
+                    <span className="font-mono text-tactical-400">
+                      Cooldown ({Math.ceil((shoutCooldownUntil - Date.now()) / 1000)}s)
+                    </span>
+                  )}
+                </span>
+                <div className="grid grid-cols-3 gap-1">
+                  {[
+                    { id: 'demand_more', label: 'Demand More', icon: '🔥' },
+                    { id: 'focus_retain', label: 'Focus & Retain', icon: '🧠' },
+                    { id: 'push_forward', label: 'Push Forward', icon: '⚡' },
+                  ].map((sh) => (
+                    <button
+                      key={sh.id}
+                      type="button"
+                      disabled={Date.now() < shoutCooldownUntil}
+                      onClick={() => handleShout(sh.id as TouchlineShout, sh.label)}
+                      className="p-1.5 rounded-lg text-[10px] font-bold bg-gold-500/15 hover:bg-gold-500/25 disabled:opacity-40 disabled:cursor-not-allowed text-gold-300 border border-gold-500/40 text-center active:scale-95 transition-all truncate"
+                    >
+                      <span>{sh.icon} {sh.label}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       )}
 

@@ -48,6 +48,21 @@ export interface SquadRoles {
 export type TacticalGameplan = 'balanced' | 'possession' | 'counter' | 'high_press' | 'defensive' | 'attacking';
 export type LiveMentality = 'defensive' | 'balanced' | 'attacking';
 
+export type DefensiveStyle = 'low_block' | 'mid_block' | 'high_press';
+export type PassingStyle = 'tiki_taka' | 'direct' | 'wing_play';
+export type TouchlineShout = 'demand_more' | 'focus_retain' | 'push_forward';
+
+export interface TacticalInstructions {
+  mentality?: LiveMentality;
+  defensiveStyle?: DefensiveStyle;
+  passingStyle?: PassingStyle;
+  activeShout?: {
+    shout: TouchlineShout;
+    activatedAtSec: number;
+    expiresAtSec: number;
+  };
+}
+
 export interface SourceReference {
   sourceId: string;
   fact: string;
@@ -287,6 +302,7 @@ export interface MatchSimulationState {
   winner?: 'host' | 'guest' | 'draw';
   winMethod?: 'regular_time' | 'extra_time' | 'penalties' | 'draw';
   liveMentality?: LiveMentality;
+  tacticalInstructions?: TacticalInstructions;
   stats: {
     host: {
       shots: number;
@@ -330,7 +346,13 @@ export interface PlayerMatchRating {
 }
 
 // Tournament System Types
-export type TournamentDraftMode = 'campaign' | 'dynamic';
+export type TournamentDraftMode =
+  | 'pack_roll' // Draft once: 11-round historic team roll with rerolls
+  | 'five_card' // Draft once: 11-round 5-card player picks with reshuffles
+  | 'star_budget' // Draft once: 100-star point budget squad builder
+  | 'dream_team' // Draft once: Instant entry with saved profile Dream Team
+  | 'dynamic' // Draft every match: Alternating draft against opponent before every match
+  | 'campaign'; // Backwards compatibility alias for 'pack_roll'
 
 export interface TournamentTeam {
   id: string;
@@ -391,6 +413,7 @@ export interface TournamentState {
   currentRound: TournamentRound;
   groups: TournamentGroup[];
   userTeam: TournamentTeam;
+  userSquad?: PlayerDraftState;
   userGroupLetter: string;
   groupFixtures: TournamentMatchFixture[];
   knockoutFixtures: {
@@ -406,6 +429,15 @@ export interface TournamentState {
   updatedAt: number;
 }
 
+export interface SavedDreamTeam {
+  name: string;
+  formationId: string;
+  customFormation?: FormationDefinition;
+  draftedSlots: Record<string, DraftedSlot>;
+  totalOvr: number;
+  savedAt: number;
+}
+
 // Manager Profile System
 export interface ManagerProfile {
   id: string;
@@ -413,6 +445,7 @@ export interface ManagerProfile {
   avatarEmoji: string;
   level: number;
   xp: number;
+  dreamTeam?: SavedDreamTeam;
   stats: {
     matchesPlayed: number;
     wins: number;

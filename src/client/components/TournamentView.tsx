@@ -7,6 +7,7 @@ import {
   TournamentState,
 } from '../../shared/types/index.js';
 import { tournamentService } from '../services/tournamentService.js';
+import { profileService } from '../services/profileService.js';
 import {
   Trophy,
   ArrowRight,
@@ -41,11 +42,14 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
 
   // Setup Wizard State (when starting a new tournament)
   const [poolType, setPoolType] = useState<PoolType>('national');
-  const [draftMode, setDraftMode] = useState<TournamentDraftMode>('campaign');
+  const [draftMode, setDraftMode] = useState<TournamentDraftMode>('pack_roll');
   const [matchDurationSec, setMatchDurationSec] = useState<number>(180); // Default 3 min for Manager Mode
   const [teamName, setTeamName] = useState('My Dream XI');
   const [formationId, setFormationId] = useState(defaultFormationId || '4-3-3');
   const [viewingGroup, setViewingGroup] = useState<string>('A');
+
+  const savedDreamTeam = profileService.getDreamTeam();
+  const hasSavedDreamTeam = Boolean(savedDreamTeam);
 
   const handleCreateTournament = () => {
     const newTourney = tournamentService.startTournament({
@@ -170,33 +174,110 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
           {/* 2. Draft Mode */}
           <div className="space-y-3">
             <label className="text-xs font-bold text-tactical-300 uppercase tracking-wider">
-              2. Tournament Drafting Style
+              2. Squad Entry & Drafting Style
             </label>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {/* Option 1: Pack Roll */}
               <button
                 type="button"
                 onClick={() => {
-                  setDraftMode('campaign');
-                  if (matchDurationSec === 90 || matchDurationSec === 45) {
-                    setMatchDurationSec(180); // Auto-suggest 3 min for manager mode
-                  }
+                  setDraftMode('pack_roll');
+                  setMatchDurationSec(180);
                 }}
                 className={`p-4 rounded-xl border text-left transition-all ${
-                  draftMode === 'campaign'
+                  draftMode === 'pack_roll' || draftMode === 'campaign'
                     ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30 shadow-lg'
                     : 'bg-tactical-900 border-tactical-750 opacity-60 hover:opacity-100'
                 }`}
               >
                 <div className="flex items-center gap-1.5 font-bold text-sm text-gold-400">
                   <Award className="w-4 h-4" />
-                  <span>Campaign Manager Mode (Recommended)</span>
+                  <span>🎲 Pack Roll Draft (1x)</span>
                 </div>
                 <div className="text-[11px] text-tactical-300 mt-1 leading-relaxed">
-                  Draft your starting XI <strong>once</strong> at the start. Build tactical synergy, customize player roles,
-                  and lead your chosen squad through all 7 tournament fixtures!
+                  Draft once before Game 1: roll historic team packs position-by-position with rerolls. Play all 7 matches with this squad!
                 </div>
               </button>
 
+              {/* Option 2: 5-Card Pick (FUT Style) */}
+              <button
+                type="button"
+                onClick={() => {
+                  setDraftMode('five_card');
+                  setMatchDurationSec(180);
+                }}
+                className={`p-4 rounded-xl border text-left transition-all ${
+                  draftMode === 'five_card'
+                    ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30 shadow-lg'
+                    : 'bg-tactical-900 border-tactical-750 opacity-60 hover:opacity-100'
+                }`}
+              >
+                <div className="flex items-center gap-1.5 font-bold text-sm text-gold-400">
+                  <Sparkles className="w-4 h-4" />
+                  <span>🃏 5-Card Pick Draft (1x)</span>
+                </div>
+                <div className="text-[11px] text-tactical-300 mt-1 leading-relaxed">
+                  11 rounds: dealt 5 random player cards per position to choose from. Includes 2 wildcard redraws. Fast and tactical!
+                </div>
+              </button>
+
+              {/* Option 3: Star Budget */}
+              <button
+                type="button"
+                onClick={() => {
+                  setDraftMode('star_budget');
+                  setMatchDurationSec(180);
+                }}
+                className={`p-4 rounded-xl border text-left transition-all ${
+                  draftMode === 'star_budget'
+                    ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30 shadow-lg'
+                    : 'bg-tactical-900 border-tactical-750 opacity-60 hover:opacity-100'
+                }`}
+              >
+                <div className="flex items-center gap-1.5 font-bold text-sm text-gold-400">
+                  <Shield className="w-4 h-4" />
+                  <span>⭐ Star Budget (1x)</span>
+                </div>
+                <div className="text-[11px] text-tactical-300 mt-1 leading-relaxed">
+                  100 Star Points budget. Pick any players from the database respecting the cap to craft your balanced dream squad.
+                </div>
+              </button>
+
+              {/* Option 4: Saved Dream Team */}
+              <button
+                type="button"
+                disabled={!hasSavedDreamTeam}
+                onClick={() => {
+                  setDraftMode('dream_team');
+                  setMatchDurationSec(180);
+                }}
+                className={`p-4 rounded-xl border text-left transition-all ${
+                  draftMode === 'dream_team'
+                    ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30 shadow-lg'
+                    : hasSavedDreamTeam
+                    ? 'bg-tactical-900 border-tactical-750 opacity-60 hover:opacity-100'
+                    : 'bg-tactical-950/40 border-tactical-800 opacity-30 cursor-not-allowed'
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-1.5 font-bold text-sm text-gold-400">
+                    <Trophy className="w-4 h-4" />
+                    <span>👑 Saved Dream Team</span>
+                  </div>
+                  {!hasSavedDreamTeam && (
+                    <span className="text-[9px] px-1.5 py-0.5 rounded bg-tactical-800 text-tactical-400 font-mono">
+                      No Squad
+                    </span>
+                  )}
+                </div>
+                <div className="text-[11px] text-tactical-300 mt-1 leading-relaxed">
+                  {hasSavedDreamTeam
+                    ? `Load your saved ${savedDreamTeam?.name} (${savedDreamTeam?.totalOvr} OVR) and kickoff immediately!`
+                    : 'Save a Dream Team in your Profile first to unlock instant tournament entry.'}
+                </div>
+              </button>
+
+              {/* Option 5: Dynamic Draft Every Match */}
               <button
                 type="button"
                 onClick={() => {
@@ -211,11 +292,10 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
               >
                 <div className="flex items-center gap-1.5 font-bold text-sm text-pitch-accent">
                   <RotateCcw className="w-4 h-4" />
-                  <span>Dynamic Round-by-Round Draft</span>
+                  <span>🔄 Draft Every Match</span>
                 </div>
                 <div className="text-[11px] text-tactical-300 mt-1 leading-relaxed">
-                  Draft a fresh, tailored 11-player squad <strong>before every match</strong> to counter each specific opponent's
-                  strengths and weaknesses.
+                  Draft a fresh 11-player squad against the opponent before every single match in the tournament.
                 </div>
               </button>
             </div>
@@ -429,11 +509,29 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
             </div>
           </div>
 
+          {tournament.userSquad && (
+            <div className="p-3 rounded-xl bg-tactical-900/80 border border-tactical-700/70 flex items-center justify-between text-xs">
+              <div className="flex items-center gap-2">
+                <Shield className="w-4 h-4 text-emerald-400" />
+                <span className="text-tactical-200">
+                  Manager Squad Locked: <strong>{tournament.userTeam.name}</strong> (11/11 Players)
+                </span>
+              </div>
+              <span className="text-gold-400 font-mono font-bold">Ready for Kickoff</span>
+            </div>
+          )}
+
           <button
             onClick={() => onStartTournamentMatch(tournament, nextMatch)}
             className="w-full py-4 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-extrabold text-sm border border-pitch-line shadow-lg flex items-center justify-center gap-2 active:scale-[0.99] transition-all"
           >
-            <span>{tournament.draftMode === 'dynamic' ? 'Draft XI & Play Fixture' : 'Enter Match & Tactical Dugout'}</span>
+            <span>
+              {tournament.draftMode === 'dynamic'
+                ? '🔄 Draft XI & Play Fixture'
+                : tournament.userSquad
+                ? '⚔️ Kick Off Match (Simulate Now)'
+                : '📋 Draft Your 11 Players for Campaign'}
+            </span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>
