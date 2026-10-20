@@ -228,3 +228,4 @@ export const expansionIdentities: Record<string, Omit<IdentityDef, 'id'>> = {
   'victor-osimhen': { name: 'Victor James Osimhen', commonName: 'Victor Osimhen', nationality: 'Nigeria', birthYear: 1998, canonicalPosition: 'ST' },
   'khvicha-kvaratskhelia': { name: 'Khvicha Kvaratskhelia', commonName: 'Kvaratskhelia', nationality: 'Georgia', birthYear: 2001, canonicalPosition: 'LW' }
 };
+

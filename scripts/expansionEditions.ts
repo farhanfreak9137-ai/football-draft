@@ -550,3 +550,4 @@ export const expansionClubEditions: ClubEditionDef[] = [
     verificationStatus: "verified"
   }
 ];
+

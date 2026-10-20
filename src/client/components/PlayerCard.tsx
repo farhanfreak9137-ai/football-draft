@@ -46,7 +46,11 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
           : isSelected
           ? 'bg-emerald-950/90 border-emerald-400 ring-2 ring-emerald-400/90 shadow-lg scale-[1.01] cursor-pointer'
           : eligible && !disabled
-          ? 'bg-tactical-800/90 border-tactical-700 hover:bg-tactical-750 hover:border-pitch-line/80 hover:shadow-sm cursor-pointer active:scale-[0.99]'
+          ? player.ovr >= 95
+            ? 'bg-tactical-800/90 border-red-950/70 hover:bg-tactical-750 hover:border-red-500/70 hover:shadow-[0_0_10px_rgba(239,68,68,0.25)] cursor-pointer active:scale-[0.99]'
+            : player.ovr >= 90
+            ? 'bg-tactical-800/90 border-amber-950/60 hover:bg-tactical-750 hover:border-gold-500/70 hover:shadow-[0_0_8px_rgba(243,207,85,0.15)] cursor-pointer active:scale-[0.99]'
+            : 'bg-tactical-800/90 border-tactical-700 hover:bg-tactical-750 hover:border-pitch-line/80 hover:shadow-sm cursor-pointer active:scale-[0.99]'
           : 'bg-tactical-900/40 border-tactical-800/40 opacity-40 cursor-not-allowed'
       }`}
     >
@@ -70,7 +74,12 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
           {positions}
         </span>
         {player.hasLegendSeal && (
-          <span className="text-gold-400 text-[10px] shrink-0" title={player.legendSealReason}>
+          <span
+            className={`text-[10px] shrink-0 ${
+              player.ovr >= 95 ? 'text-red-400 drop-shadow-[0_0_4px_rgba(239,68,68,0.8)]' : 'text-gold-400'
+            }`}
+            title={player.legendSealReason}
+          >
             ★
           </span>
         )}

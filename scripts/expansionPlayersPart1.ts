@@ -956,3 +956,4 @@ export const expansionPlayersPart1: PlayerDef[] = [
     sourceId: "rsssf-global", sourceFact: "Scored winner vs Manchester City"
   }
 ];
+

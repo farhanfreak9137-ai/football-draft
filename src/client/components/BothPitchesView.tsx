@@ -43,8 +43,11 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
   const guestRatingMap = new Map(ratingsData?.guestRatings.map((r) => [r.playerId, r]));
 
   // Helper for role-based styling
-  const getRoleColors = (pos: Position, hasLegendSeal: boolean) => {
-    if (hasLegendSeal) {
+  const getRoleColors = (pos: Position, hasLegendSeal: boolean, ovr?: number) => {
+    if (ovr !== undefined && ovr >= 95) {
+      return 'bg-red-950/95 border-red-500 text-red-300 ring-2 ring-red-500/50 shadow-[0_0_14px_rgba(239,68,68,0.55)]';
+    }
+    if (hasLegendSeal || (ovr !== undefined && ovr >= 90)) {
       return 'bg-amber-950/95 border-gold-400 text-gold-300 ring-2 ring-gold-400/40 shadow-[0_0_12px_rgba(234,179,8,0.4)]';
     }
     if (pos === 'GK') {
@@ -161,7 +164,8 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
                 <div
                   className={`relative flex flex-col items-center justify-center w-11 h-11 sm:w-12 sm:h-12 rounded-full border-2 transition-transform duration-200 group-hover:scale-115 ${getRoleColors(
                     drafted.assignedPosition,
-                    player.hasLegendSeal
+                    player.hasLegendSeal,
+                    player.ovr
                   )}`}
                 >
                   <span className="font-mono text-[9px] font-bold opacity-90 uppercase">
@@ -180,7 +184,13 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
 
                   {/* Legend Seal Star */}
                   {player.hasLegendSeal && (
-                    <Award className="absolute -top-1 -right-1 w-3.5 h-3.5 text-gold-400 fill-gold-500/30" />
+                    <Award
+                      className={`absolute -top-1 -right-1 w-3.5 h-3.5 ${
+                        player.ovr >= 95
+                          ? 'text-red-400 fill-red-500/30'
+                          : 'text-gold-400 fill-gold-500/30'
+                      }`}
+                    />
                   )}
 
                   {/* Live Goal Badge */}

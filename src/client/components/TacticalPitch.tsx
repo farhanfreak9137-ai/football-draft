@@ -76,7 +76,9 @@ export const TacticalPitch: React.FC<TacticalPitchProps> = ({
               // Drafted Player Token
               <div
                 className={`relative flex flex-col items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full border-2 shadow-lg transition-transform ${
-                  drafted.player.hasLegendSeal
+                  drafted.player.ovr >= 95
+                    ? 'bg-tactical-800 border-red-500 ring-2 ring-red-500/40 shadow-[0_0_14px_rgba(239,68,68,0.5)]'
+                    : drafted.player.ovr >= 90 || drafted.player.hasLegendSeal
                     ? 'bg-tactical-800 border-gold-500 shadow-gold-500/20'
                     : 'bg-tactical-800 border-pitch-accent shadow-pitch-accent/20'
                 }`}
@@ -88,7 +90,13 @@ export const TacticalPitch: React.FC<TacticalPitchProps> = ({
                   {drafted.assignedPosition}
                 </span>
                 {drafted.player.hasLegendSeal && (
-                  <Award className="absolute -top-1 -right-1 w-4 h-4 text-gold-400 fill-gold-500/30" />
+                  <Award
+                    className={`absolute -top-1 -right-1 w-4 h-4 ${
+                      drafted.player.ovr >= 95
+                        ? 'text-red-400 fill-red-500/30'
+                        : 'text-gold-400 fill-gold-500/30'
+                    }`}
+                  />
                 )}
               </div>
             ) : (
