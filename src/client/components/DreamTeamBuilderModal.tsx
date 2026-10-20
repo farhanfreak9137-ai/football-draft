@@ -419,12 +419,16 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
     const starterEntries = Object.entries(newStarters);
     if (starterEntries.length > 0) {
       const topOvr = [...starterEntries].sort((a, b) => b[1].ovr - a[1].ovr)[0];
-      const topShooter = [...starterEntries].sort(
-        (a, b) => (b[1].stats.shooting || 0) - (a[1].stats.shooting || 0)
-      )[0];
-      const topPlaymaker = [...starterEntries].sort(
-        (a, b) => (b[1].stats.passing || 0) - (a[1].stats.passing || 0)
-      )[0];
+      const topShooter = [...starterEntries].sort((a, b) => {
+        const aGoals = a[1].tournamentOrSeasonStats?.goals || 0;
+        const bGoals = b[1].tournamentOrSeasonStats?.goals || 0;
+        return (bGoals * 2 + b[1].ovr) - (aGoals * 2 + a[1].ovr);
+      })[0];
+      const topPlaymaker = [...starterEntries].sort((a, b) => {
+        const aAssists = a[1].tournamentOrSeasonStats?.assists || 0;
+        const bAssists = b[1].tournamentOrSeasonStats?.assists || 0;
+        return (bAssists * 2 + b[1].ovr) - (aAssists * 2 + a[1].ovr);
+      })[0];
 
       setRoles({
         captainSlotId: topOvr[0],
@@ -815,8 +819,8 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                                       )}
                                     </div>
                                     <div className="text-[10px] text-tactical-400 font-mono truncate">
-                                      {player.naturalPositions.join('/')} • PAC {player.stats.pace} • SHO{' '}
-                                      {player.stats.shooting}
+                                      {player.naturalPositions.join('/')} • #{player.squadNumber} • {player.ovr} OVR
+                                      {player.tournamentOrSeasonStats?.goals ? ` • ${player.tournamentOrSeasonStats.goals} G` : ''}
                                     </div>
                                   </div>
                                 </>
@@ -1151,7 +1155,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                       if (!p) return null;
                       return (
                         <option key={s.id} value={s.id}>
-                          {p.name} (SHO: {p.stats.shooting} • {p.ovr} OVR)
+                          {p.name} ({s.defaultPosition} • {p.ovr} OVR{p.tournamentOrSeasonStats?.goals ? ` • ${p.tournamentOrSeasonStats.goals} G` : ''})
                         </option>
                       );
                     })}
@@ -1175,7 +1179,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                       if (!p) return null;
                       return (
                         <option key={s.id} value={s.id}>
-                          {p.name} (PAS: {p.stats.passing} • SHO: {p.stats.shooting} • {p.ovr} OVR)
+                          {p.name} ({s.defaultPosition} • {p.ovr} OVR{p.tournamentOrSeasonStats?.goals ? ` • ${p.tournamentOrSeasonStats.goals} G` : ''})
                         </option>
                       );
                     })}
@@ -1199,7 +1203,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                       if (!p) return null;
                       return (
                         <option key={s.id} value={s.id}>
-                          {p.name} (PAS: {p.stats.passing} • {s.defaultPosition})
+                          {p.name} ({s.defaultPosition} • {p.ovr} OVR{p.tournamentOrSeasonStats?.assists ? ` • ${p.tournamentOrSeasonStats.assists} A` : ''})
                         </option>
                       );
                     })}
