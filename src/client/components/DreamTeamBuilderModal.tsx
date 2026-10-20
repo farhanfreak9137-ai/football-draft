@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import {
-  FormationDefinition,
   PlayerVersion,
   SavedDreamTeam,
   DraftedSlot,
@@ -9,15 +8,13 @@ import { FORMATIONS, isPlayerEligibleForSlot } from '../../shared/constants/form
 import { offlineSoloEngine } from '../services/offlineSoloEngine.js';
 import { profileService } from '../services/profileService.js';
 import { soundManager } from '../utils/audio.js';
-import { getOvrBadgeClass, getOvrColorClass } from '../utils/ovrColor.js';
+import { getOvrBadgeClass } from '../utils/ovrColor.js';
 import {
   X,
   Sparkles,
   Shield,
   Search,
   Check,
-  RotateCcw,
-  Users,
   Zap,
 } from 'lucide-react';
 
@@ -58,7 +55,6 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
 
   const [selectedSlotId, setSelectedSlotId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [positionFilter, setPositionFilter] = useState<'ALL' | 'GK' | 'DEF' | 'MID' | 'FWD'>('ALL');
 
   const currentSlot = formation.slots.find((s) => s.id === selectedSlotId);
   const usedIdentityIds = Object.values(draftedSlots).map((p) => p.identityId);
@@ -93,7 +89,9 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
 
   // Auto-Fill Best All-Stars
   const handleAutoFill = () => {
-    soundManager.playPickSound();
+    try {
+      soundManager.playPickSound();
+    } catch (e) {}
     const newDrafted: Record<string, PlayerVersion> = {};
     const usedIds: string[] = [];
 
@@ -113,7 +111,9 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
 
   const handleSelectPlayer = (player: PlayerVersion) => {
     if (!selectedSlotId) return;
-    soundManager.playPickSound();
+    try {
+      soundManager.playPickSound();
+    } catch (e) {}
     setDraftedSlots((prev) => ({ ...prev, [selectedSlotId]: player }));
     setSelectedSlotId(null);
   };
@@ -208,6 +208,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
               onChange={(e) => {
                 setFormationId(e.target.value);
                 setDraftedSlots({});
+                setSelectedSlotId(null);
               }}
               className="px-3 py-1.5 rounded-lg bg-tactical-800 border border-tactical-700 text-xs text-tactical-100 font-bold focus:border-gold-500 focus:outline-none"
             >
@@ -370,9 +371,16 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                           </div>
                         </div>
 
-                        <span className="text-xs font-bold text-pitch-accent">
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleSelectPlayer(player);
+                          }}
+                          className="px-3 py-1 rounded-lg bg-pitch-DEFAULT/20 hover:bg-pitch-DEFAULT text-pitch-accent hover:text-tactical-100 border border-pitch-line/40 text-xs font-bold transition-all active:scale-95 shrink-0"
+                        >
                           Select →
-                        </span>
+                        </button>
                       </div>
                     );
                   })}

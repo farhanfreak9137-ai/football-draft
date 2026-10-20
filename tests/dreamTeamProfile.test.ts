@@ -3,6 +3,7 @@ import { profileService } from '../src/client/services/profileService.js';
 import { getEditionCaliber } from '../src/client/utils/dreamTeamHelper.js';
 import { offlineSoloEngine } from '../src/client/services/offlineSoloEngine.js';
 import { SavedDreamTeam, PlayerVersion } from '../src/shared/types/index.js';
+import { FORMATIONS, isPlayerEligibleForSlot } from '../src/shared/constants/formations.js';
 
 describe('Profile Dream Team & Stats Tracking', () => {
   beforeEach(() => {
@@ -21,6 +22,7 @@ describe('Profile Dream Team & Stats Tracking', () => {
       draftedSlots: {
         'slot-st': {
           slotId: 'slot-st',
+          assignedPosition: 'ST',
           player: {
             id: 'p-pele',
             identityId: 'pele',
@@ -30,7 +32,7 @@ describe('Profile Dream Team & Stats Tracking', () => {
             editionId: 'ed-bra-1970',
             squadNumber: 10,
             stats: { pace: 95, shooting: 97, passing: 93, dribbling: 96, defending: 55, physical: 86 },
-          } as PlayerVersion,
+          } as unknown as PlayerVersion,
         },
       },
     };
@@ -56,6 +58,7 @@ describe('Profile Dream Team & Stats Tracking', () => {
       draftedSlots: {
         'slot-st': {
           slotId: 'slot-st',
+          assignedPosition: 'RW',
           player: {
             id: 'p-messi',
             identityId: 'messi',
@@ -65,7 +68,7 @@ describe('Profile Dream Team & Stats Tracking', () => {
             editionId: 'ed-arg-2022',
             squadNumber: 10,
             stats: { pace: 90, shooting: 94, passing: 95, dribbling: 97, defending: 40, physical: 72 },
-          } as PlayerVersion,
+          } as unknown as PlayerVersion,
         },
       },
     };
@@ -151,6 +154,70 @@ describe('Profile Dream Team & Stats Tracking', () => {
 
     expect(caliber).toBeGreaterThanOrEqual(70);
     expect(caliber).toBeLessThanOrEqual(99);
+  });
+
+  it('safely invokes soundManager.playPickSound without throwing', async () => {
+    const { soundManager } = await import('../src/client/utils/audio.js');
+    expect(() => soundManager.playPickSound()).not.toThrow();
+    expect(() => soundManager.playRerollSound()).not.toThrow();
+    expect(() => soundManager.playVictoryFanfare()).not.toThrow();
+  });
+
+  it('verifies slot eligibility rules for squad builder assignments', () => {
+    const players = offlineSoloEngine.getPlayers();
+    const formation433 = FORMATIONS['4-3-3'];
+
+    const gkSlot = formation433.slots.find((s: any) => s.defaultPosition === 'GK');
+    expect(gkSlot).toBeDefined();
+
+    const gkCandidates = players.filter((p: any) => isPlayerEligibleForSlot(p, gkSlot));
+    expect(gkCandidates.length).toBeGreaterThan(50);
+    // Every candidate for GK slot must have GK position
+    gkCandidates.forEach((p: any) => {
+      const allPos = [...p.naturalPositions, ...(p.secondaryPositions || [])];
+      expect(allPos).toContain('GK');
+    });
+
+    const stSlot = formation433.slots.find((s: any) => s.defaultPosition === 'ST');
+    expect(stSlot).toBeDefined();
+    const stCandidates = players.filter((p: any) => isPlayerEligibleForSlot(p, stSlot));
+    expect(stCandidates.length).toBeGreaterThan(50);
+  });
+
+  it('auto-fills an entire 11-player squad with unique identities and saves to profile', () => {
+    const players = offlineSoloEngine.getPlayers();
+    const formation = FORMATIONS['4-3-3'];
+
+    const newDrafted: Record<string, any> = {};
+    const usedIds: string[] = [];
+
+    for (const slot of formation.slots) {
+      const eligible = players.filter(
+        (p: any) => !usedIds.includes(p.identityId) && isPlayerEligibleForSlot(p, slot)
+      );
+      const best = eligible.sort((a: any, b: any) => b.ovr - a.ovr)[0] || players[0];
+      newDrafted[slot.id] = {
+        slotId: slot.id,
+        player: best,
+        assignedPosition: slot.defaultPosition,
+      };
+      usedIds.push(best.identityId);
+    }
+
+    expect(Object.keys(newDrafted).length).toBe(11);
+    expect(new Set(usedIds).size).toBe(11);
+
+    profileService.saveDreamTeam({
+      name: 'Auto Star XI',
+      formationId: '4-3-3',
+      draftedSlots: newDrafted,
+      totalOvr: 93,
+      savedAt: Date.now(),
+    });
+
+    const saved = profileService.getDreamTeam();
+    expect(saved?.name).toBe('Auto Star XI');
+    expect(Object.keys(saved?.draftedSlots || {}).length).toBe(11);
   });
 });
 
