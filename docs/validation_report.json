@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-19T23:09:55.149Z",
+  "timestamp": "2026-10-20T01:04:35.656Z",
   "summary": {
-    "totalIdentities": 541,
+    "totalIdentities": 709,
     "totalNationalEditions": 20,
-    "totalClubEditions": 37,
+    "totalClubEditions": 75,
     "totalNationalPlayers": 220,
-    "totalClubPlayers": 408,
+    "totalClubPlayers": 826,
     "totalSources": 21,
     "totalErrors": 0,
     "status": "PASSED"
   },
   "acceptedRecords": {
-    "identities": 541,
-    "editions": 57,
-    "playerVersions": 628,
+    "identities": 709,
+    "editions": 95,
+    "playerVersions": 1046,
     "sources": 21
   },
   "rejectedRecords": [],

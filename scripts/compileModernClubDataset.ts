@@ -12,15 +12,26 @@ import {
 import { newClubEditions } from './modernClubAdditions.js';
 import { modernClubPlayersPart1 } from './modernClubPlayers1.js';
 import { modernClubPlayersPart2 } from './modernClubPlayers2.js';
+import { expansionClubEditions } from './expansionEditions.js';
+import { expansionPlayersPart1 } from './expansionPlayersPart1.js';
+import { expansionPlayersPart2 } from './expansionPlayersPart2.js';
+import { expansionPlayersPart3 } from './expansionPlayersPart3.js';
+import { expansionIdentities } from './expansionIdentities.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Combined new players
-const allNewPlayerDefs = [...modernClubPlayersPart1, ...modernClubPlayersPart2];
+// Combined new players from batch 1 and batch 2
+const allNewPlayerDefs = [
+  ...modernClubPlayersPart1,
+  ...modernClubPlayersPart2,
+  ...expansionPlayersPart1,
+  ...expansionPlayersPart2,
+  ...expansionPlayersPart3,
+];
 
 // Known identity dictionary for any newly introduced players
-const identityRegistry: Record<string, Omit<IdentityDef, 'id'>> = {
+const baseIdentityRegistry: Record<string, Omit<IdentityDef, 'id'>> = {
   // Barcelona 2011 & 2006
   'oleguer-presas': { name: 'Oleguer Presas Renom', commonName: 'Oleguer', nationality: 'Spain', birthYear: 1980, canonicalPosition: 'RB' },
   'edmilson': { name: 'José Edmílson Gomes de Moraes', commonName: 'Edmílson', nationality: 'Brazil', birthYear: 1976, canonicalPosition: 'CDM' },
@@ -216,6 +227,12 @@ const identityRegistry: Record<string, Omit<IdentityDef, 'id'>> = {
   'dino-baggio': { name: 'Dino Baggio', commonName: 'Dino Baggio', nationality: 'Italy', birthYear: 1971, canonicalPosition: 'CM' },
 };
 
+// Merged dictionary
+const identityRegistry: Record<string, Omit<IdentityDef, 'id'>> = {
+  ...baseIdentityRegistry,
+  ...expansionIdentities,
+};
+
 // 1. Process and update identities
 const existingIdSet = new Set(existingIdentities.map((i) => i.id));
 const updatedIdentities = [...existingIdentities];
@@ -242,7 +259,11 @@ for (const player of allNewPlayerDefs) {
 }
 
 // 2. Assemble new club editions
-const finalClubEditions = [...keptClubEditions, ...newClubEditions];
+const finalClubEditions = [
+  ...keptClubEditions,
+  ...newClubEditions,
+  ...expansionClubEditions,
+];
 
 // 3. Assemble new club players
 const newClubPlayersFormatted = allNewPlayerDefs.map(toPlayerVersion);
