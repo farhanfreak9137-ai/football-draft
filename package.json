@@ -19,6 +19,9 @@
     "seed": "tsx scripts/seedDatabase.ts"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
     "@libsql/client": "^0.18.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
