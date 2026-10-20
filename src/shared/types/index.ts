@@ -452,9 +452,13 @@ export interface SavedDreamTeam {
   name: string;
   formationId: string;
   customFormation?: FormationDefinition;
-  draftedSlots: Record<string, DraftedSlot>;
-  totalOvr: number;
+  draftedSlots: Record<string, DraftedSlot>; // 11 Starters
+  benchSlots?: Record<string, DraftedSlot>; // 9 Substitutes
+  totalOvr: number; // Starting XI OVR
+  squadOvr?: number; // Full 20-Player Squad OVR
   savedAt: number;
+  tactics?: TacticalInstructions;
+  roles?: SquadRoles;
   playerStats?: Record<string, DreamTeamPlayerStats>;
   teamStats?: DreamTeamRecord;
 }

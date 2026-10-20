@@ -52,7 +52,11 @@ export function convertDreamTeamToDraftState(
   });
 
   draftState.draftedSlots = { ...dreamTeam.draftedSlots };
-  draftState.usedIdentityIds = Object.values(dreamTeam.draftedSlots).map((s) => s.player.identityId);
+  draftState.usedIdentityIds = [
+    ...Object.values(dreamTeam.draftedSlots).map((s) => s.player.identityId),
+    ...Object.values(dreamTeam.benchSlots || {}).map((s) => s.player.identityId),
+  ];
+  draftState.roles = dreamTeam.roles;
   draftState.isReady = true;
 
   return draftState;

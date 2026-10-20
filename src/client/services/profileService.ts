@@ -166,7 +166,11 @@ export class ProfileService {
     };
 
     const playerStats: Record<string, DreamTeamPlayerStats> = {};
-    for (const slot of Object.values(team.draftedSlots)) {
+    const allSlots = [
+      ...Object.values(team.draftedSlots),
+      ...Object.values(team.benchSlots || {}),
+    ];
+    for (const slot of allSlots) {
       const pId = slot.player.identityId || slot.player.id;
       playerStats[pId] = existingPlayerStats[pId] || {
         appearances: 0,

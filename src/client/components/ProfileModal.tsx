@@ -414,6 +414,27 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
                       </div>
                     )}
 
+                    {/* Tactics & Roles Badges */}
+                    {(profile.dreamTeam.tactics || profile.dreamTeam.roles) && (
+                      <div className="flex flex-wrap items-center gap-1.5 p-2 rounded-lg bg-tactical-900/60 border border-tactical-750 text-[11px]">
+                        {profile.dreamTeam.tactics?.mentality && (
+                          <span className="px-2 py-0.5 rounded bg-tactical-800 text-gold-300 font-mono">
+                            🛡️ {profile.dreamTeam.tactics.mentality.replace('_', ' ')}
+                          </span>
+                        )}
+                        {profile.dreamTeam.tactics?.defensiveStyle && (
+                          <span className="px-2 py-0.5 rounded bg-tactical-800 text-pitch-accent font-mono">
+                            ⚡ {profile.dreamTeam.tactics.defensiveStyle.replace('_', ' ')}
+                          </span>
+                        )}
+                        {profile.dreamTeam.tactics?.passingStyle && (
+                          <span className="px-2 py-0.5 rounded bg-tactical-800 text-blue-300 font-mono">
+                            ⚽ {profile.dreamTeam.tactics.passingStyle.replace('_', ' ')}
+                          </span>
+                        )}
+                      </div>
+                    )}
+
                     <div className="flex items-center gap-2 pt-2 border-t border-tactical-700/60">
                       <button
                         type="button"
@@ -587,6 +608,77 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
                       })}
                     </div>
                   </div>
+
+                  {/* Substitutes & Bench Reserves List */}
+                  {profile.dreamTeam.benchSlots && Object.keys(profile.dreamTeam.benchSlots).length > 0 && (
+                    <div className="space-y-2 mt-4">
+                      <div className="text-xs font-bold text-tactical-300 uppercase tracking-wider flex items-center justify-between">
+                        <span className="flex items-center gap-1.5">
+                          <Users className="w-3.5 h-3.5 text-gold-400" />
+                          <span>Substitutes & Reserves ({Object.keys(profile.dreamTeam.benchSlots).length}/9 Assigned)</span>
+                        </span>
+                        <span className="text-[10px] text-tactical-400 font-mono">
+                          Bench Depth
+                        </span>
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-2">
+                        {Object.entries(profile.dreamTeam.benchSlots).map(([slotId, slot]) => {
+                          const pId = slot.player.identityId || slot.player.id;
+                          const pStats = profile.dreamTeam?.playerStats?.[pId] || {
+                            appearances: 0,
+                            goals: 0,
+                            assists: 0,
+                            cleanSheets: 0,
+                            motmAwards: 0,
+                            totalRating: 0,
+                          };
+                          const avgRating =
+                            pStats.appearances > 0 ? (pStats.totalRating / pStats.appearances).toFixed(1) : '-';
+
+                          return (
+                            <div
+                              key={slotId}
+                              className="p-2.5 rounded-xl bg-tactical-900 border border-tactical-750 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow-sm"
+                            >
+                              <div className="flex items-center gap-2.5 min-w-0">
+                                <span
+                                  className={`w-8 h-8 rounded-lg flex items-center justify-center font-black text-xs shrink-0 ${getOvrBadgeClass(
+                                    slot.player.ovr
+                                  )}`}
+                                >
+                                  {slot.player.ovr}
+                                </span>
+                                <div className="min-w-0">
+                                  <div className="text-xs font-bold text-tactical-100 truncate">
+                                    {slot.player.name}
+                                  </div>
+                                  <div className="text-[10px] text-tactical-400 font-mono">
+                                    Bench Role: <strong className="text-tactical-300">{slot.assignedPosition}</strong> • #{slot.player.squadNumber}
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div className="flex flex-wrap items-center gap-1.5 font-mono text-[11px] shrink-0">
+                                <span className="px-2 py-0.5 rounded bg-tactical-800 border border-tactical-700 text-tactical-300">
+                                  {pStats.appearances} Apps
+                                </span>
+                                <span className="px-2 py-0.5 rounded bg-emerald-950/70 border border-emerald-800/40 text-emerald-300 font-bold">
+                                  ⚽ {pStats.goals}
+                                </span>
+                                <span className="px-2 py-0.5 rounded bg-cyan-950/70 border border-cyan-800/40 text-cyan-300 font-bold">
+                                  🅰️ {pStats.assists}
+                                </span>
+                                <span className="px-2 py-0.5 rounded bg-amber-950/70 border border-amber-800/40 text-gold-300">
+                                  ⭐ {avgRating}
+                                </span>
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
                 </>
               ) : (
                 /* Empty Dream Team State with Direct Studio Builder */

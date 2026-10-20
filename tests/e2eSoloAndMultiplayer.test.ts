@@ -41,7 +41,7 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
     // 1. Formations endpoint
     const formRes = await fetch(`${baseUrl}/api/formations`).then((r) => r.json());
     expect(formRes.success).toBe(true);
-    expect(formRes.formations.length).toBe(4);
+    expect(formRes.formations.length).toBe(12);
     expect(formRes.formations.map((f: any) => f.id)).toContain('4-3-3');
     expect(formRes.formations.map((f: any) => f.id)).toContain('4-4-2');
     expect(formRes.formations.map((f: any) => f.id)).toContain('4-2-3-1');

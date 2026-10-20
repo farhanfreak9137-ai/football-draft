@@ -4,6 +4,7 @@ import { getEditionCaliber } from '../src/client/utils/dreamTeamHelper.js';
 import { offlineSoloEngine } from '../src/client/services/offlineSoloEngine.js';
 import { SavedDreamTeam, PlayerVersion } from '../src/shared/types/index.js';
 import { FORMATIONS, isPlayerEligibleForSlot } from '../src/shared/constants/formations.js';
+import { DREAM_TEAM_BENCH_SLOTS } from '../src/client/components/DreamTeamBuilderModal.js';
 
 describe('Profile Dream Team & Stats Tracking', () => {
   beforeEach(() => {
@@ -218,6 +219,95 @@ describe('Profile Dream Team & Stats Tracking', () => {
     const saved = profileService.getDreamTeam();
     expect(saved?.name).toBe('Auto Star XI');
     expect(Object.keys(saved?.draftedSlots || {}).length).toBe(11);
+  });
+
+  it('validates all 12 historic/modern formation presets are properly registered with 11 slots', () => {
+    const formationIds = [
+      '4-3-3',
+      '4-4-2',
+      '4-2-3-1',
+      '3-5-2',
+      '3-4-3',
+      '5-3-2',
+      '4-1-2-1-2',
+      '4-3-1-2',
+      '4-2-2-2',
+      '4-3-2-1',
+      '4-5-1',
+      '3-4-1-2',
+    ];
+
+    expect(Object.keys(FORMATIONS).length).toBeGreaterThanOrEqual(12);
+
+    formationIds.forEach((id) => {
+      const f = FORMATIONS[id];
+      expect(f, `Formation ${id} should exist`).toBeDefined();
+      expect(f.slots.length, `Formation ${id} must have exactly 11 slots`).toBe(11);
+      // Must contain a GK
+      const hasGk = f.slots.some((s) => s.defaultPosition === 'GK');
+      expect(hasGk, `Formation ${id} must have a GK`).toBe(true);
+    });
+  });
+
+  it('creates and saves a full 20-player squad (11 Starters + 9 Subs) with custom tactics and roles', () => {
+    const players = offlineSoloEngine.getPlayers();
+    const formation = FORMATIONS['4-3-3'];
+
+    const startersMap: Record<string, any> = {};
+    const benchMap: Record<string, any> = {};
+    const usedIds: string[] = [];
+
+    // 11 Starters
+    for (const slot of formation.slots) {
+      const eligible = players.filter((p) => !usedIds.includes(p.identityId) && isPlayerEligibleForSlot(p, slot));
+      const best = eligible.sort((a, b) => b.ovr - a.ovr)[0] || players[0];
+      startersMap[slot.id] = { slotId: slot.id, player: best, assignedPosition: slot.defaultPosition };
+      usedIds.push(best.identityId);
+    }
+
+    // 9 Subs
+    for (const bSlot of DREAM_TEAM_BENCH_SLOTS) {
+      const eligible = players.filter((p) => !usedIds.includes(p.identityId));
+      const best = eligible.sort((a, b) => b.ovr - a.ovr)[0] || players[0];
+      benchMap[bSlot.id] = { slotId: bSlot.id, player: best, assignedPosition: bSlot.defaultPosition };
+      usedIds.push(best.identityId);
+    }
+
+    expect(Object.keys(startersMap).length).toBe(11);
+    expect(Object.keys(benchMap).length).toBe(9);
+    expect(new Set(usedIds).size).toBe(20);
+
+    profileService.saveDreamTeam({
+      name: 'Galacticos 20 Squad',
+      formationId: '4-3-3',
+      draftedSlots: startersMap,
+      benchSlots: benchMap,
+      totalOvr: 93,
+      squadOvr: 91,
+      tactics: {
+        mentality: 'attacking',
+        defensiveStyle: 'high_press',
+        passingStyle: 'tiki_taka',
+      },
+      roles: {
+        captainSlotId: 'st',
+        penaltySlotId: 'st',
+        freeKickSlotId: 'lw',
+        cornerSlotId: 'rw',
+      },
+      savedAt: Date.now(),
+    });
+
+    const saved = profileService.getDreamTeam();
+    expect(saved).not.toBeNull();
+    expect(saved?.name).toBe('Galacticos 20 Squad');
+    expect(Object.keys(saved?.draftedSlots || {}).length).toBe(11);
+    expect(Object.keys(saved?.benchSlots || {}).length).toBe(9);
+    expect(saved?.tactics?.mentality).toBe('attacking');
+    expect(saved?.roles?.captainSlotId).toBe('st');
+
+    // Verify all 20 players have initialized stats
+    expect(Object.keys(saved?.playerStats || {}).length).toBe(20);
   });
 });
 
