@@ -17,10 +17,12 @@ import {
   executeRoll,
   executeReroll,
   getLiveMatch,
+  getServerUrl,
   joinRoom,
   reconnectSeat,
   startMatch,
 } from './services/api.js';
+import { offlineSoloEngine } from './services/offlineSoloEngine.js';
 import { soundManager } from './utils/audio.js';
 import { getCustomFormations } from './utils/customFormations.js';
 import { messages } from './i18n/messages.js';
@@ -101,11 +103,12 @@ export const App: React.FC = () => {
 
   // When tab/window is closed or refreshed, automatically quit and close the room on the server
   useEffect(() => {
-    if (!room || !token) return;
+    if (!room || !token || room.mode === 'solo' || room.roomCode.startsWith('SOLO-')) return;
 
     const handleBeforeUnload = () => {
       try {
-        fetch(`/api/rooms/${room.roomCode}/close`, {
+        const base = getServerUrl();
+        fetch(`${base}/api/rooms/${room.roomCode}/close`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ token }),
@@ -121,11 +124,11 @@ export const App: React.FC = () => {
       window.removeEventListener('beforeunload', handleBeforeUnload);
       window.removeEventListener('pagehide', handleBeforeUnload);
     };
-  }, [room?.roomCode, token]);
+  }, [room?.roomCode, room?.mode, token]);
 
   // WebSocket connection management when room and token exist
   useEffect(() => {
-    if (!room || !token) {
+    if (!room || !token || room.mode === 'solo' || room.roomCode.startsWith('SOLO-')) {
       if (wsRef.current) {
         wsRef.current.close();
         wsRef.current = null;
@@ -133,8 +136,22 @@ export const App: React.FC = () => {
       return;
     }
 
-    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    const wsUrl = `${protocol}//${window.location.host}/ws?token=${token}&roomCode=${room.roomCode}`;
+    const serverBase = getServerUrl();
+    let wsUrl = '';
+    if (serverBase) {
+      try {
+        const url = new URL(serverBase);
+        const protocol = url.protocol === 'https:' ? 'wss:' : 'ws:';
+        wsUrl = `${protocol}//${url.host}/ws?token=${token}&roomCode=${room.roomCode}`;
+      } catch (e) {
+        const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+        wsUrl = `${protocol}//${window.location.host}/ws?token=${token}&roomCode=${room.roomCode}`;
+      }
+    } else {
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      wsUrl = `${protocol}//${window.location.host}/ws?token=${token}&roomCode=${room.roomCode}`;
+    }
+
     const ws = new WebSocket(wsUrl);
     wsRef.current = ws;
 
@@ -377,6 +394,17 @@ export const App: React.FC = () => {
     setErrorNotice(null);
   };
 
+  // Handler: Turn countdown timer timeout (auto-pick in offline solo mode)
+  const handleTimerTimeout = () => {
+    if (room && room.mode === 'solo' && isMyTurn) {
+      const updated = offlineSoloEngine.autoPickHostIfExpired(room.roomCode);
+      if (updated) {
+        setRoom({ ...updated });
+        setSelectedPlayer(null);
+      }
+    }
+  };
+
   const copyRoomCode = () => {
     if (!room) return;
     navigator.clipboard.writeText(room.roomCode);
@@ -567,7 +595,11 @@ export const App: React.FC = () => {
               {/* Turn Countdown Timer */}
               {!isBothDraftComplete && (
                 <div className="flex items-center gap-4">
-                  <TimerCountdown deadline={room.turnDeadline} isMyTurn={isMyTurn} />
+                  <TimerCountdown
+                    deadline={room.turnDeadline}
+                    isMyTurn={isMyTurn}
+                    onTimeout={handleTimerTimeout}
+                  />
                 </div>
               )}
 

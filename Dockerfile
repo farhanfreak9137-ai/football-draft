@@ -10,6 +10,7 @@ RUN npm ci
 
 # Copy source code and data
 COPY data ./data
+COPY world_cup_teams ./world_cup_teams
 COPY src ./src
 
 # Build client and server
@@ -30,9 +31,9 @@ RUN npm ci --only=production
 # Copy built artifacts from builder stage
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/data ./data
+COPY --from=builder /app/world_cup_teams ./world_cup_teams
 COPY migrations ./migrations
 
 EXPOSE 3001
 
 CMD ["node", "dist/server/server/index.js"]
-
