@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
+  LiveMentality,
   MatchEvent,
   MatchSimulationState,
   PenaltyKickResult,
@@ -36,6 +37,7 @@ interface MatchViewProps {
   hostDraft: PlayerDraftState;
   guestDraft?: PlayerDraftState;
   onExitMatch: () => void;
+  onMentalityChange?: (mentality: LiveMentality) => void;
 }
 
 export const MatchView: React.FC<MatchViewProps> = ({
@@ -43,13 +45,22 @@ export const MatchView: React.FC<MatchViewProps> = ({
   hostDraft,
   guestDraft,
   onExitMatch,
+  onMentalityChange,
 }) => {
   const [soundEnabled, setSoundEnabled] = useState(soundManager.enabled);
   const [activeTab, setActiveTab] = useState<'pitch' | 'lineups' | 'report'>('pitch');
   const [showResultModal, setShowResultModal] = useState(false);
+  const [currentMentality, setCurrentMentality] = useState<LiveMentality>('balanced');
   const hasAutoOpenedModal = useRef(false);
   const eventFeedRef = useRef<HTMLDivElement>(null);
   const prevEventsLength = useRef(liveMatch.events.length);
+
+  const handleMentalitySelect = (m: LiveMentality) => {
+    setCurrentMentality(m);
+    if (onMentalityChange) {
+      onMentalityChange(m);
+    }
+  };
 
   // Automatically trigger Winner Result popup and victory fanfare when match finishes
   useEffect(() => {
@@ -381,6 +392,60 @@ export const MatchView: React.FC<MatchViewProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Live In-Match Touchline Tactical Mentality Instructions */}
+      {!isMatchFinished && (
+        <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-3 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <span className="w-2.5 h-2.5 rounded-full bg-pitch-accent animate-pulse"></span>
+            <span className="text-xs font-bold text-tactical-200 uppercase tracking-wider">
+              Touchline Tactical Instructions:
+            </span>
+            <span className="text-[11px] font-mono text-tactical-400 capitalize hidden sm:inline">
+              (Current: {currentMentality})
+            </span>
+          </div>
+
+          <div className="grid grid-cols-3 gap-2 w-full sm:w-auto">
+            <button
+              onClick={() => handleMentalitySelect('defend')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                currentMentality === 'defend'
+                  ? 'bg-blue-600 text-white shadow-md border border-blue-400 ring-2 ring-blue-500/40'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
+              }`}
+              title="Park the Bus: Strengthen defense, prioritize clean sheets and blocks"
+            >
+              <span>🛡️</span>
+              <span>Defend</span>
+            </button>
+            <button
+              onClick={() => handleMentalitySelect('balanced')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                currentMentality === 'balanced'
+                  ? 'bg-tactical-700 text-tactical-100 shadow-md border border-tactical-500 ring-2 ring-tactical-500/40'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
+              }`}
+              title="Balanced: Maintain planned tactical shape and discipline"
+            >
+              <span>⚖️</span>
+              <span>Balanced</span>
+            </button>
+            <button
+              onClick={() => handleMentalitySelect('attack')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                currentMentality === 'attack'
+                  ? 'bg-rose-600 text-white shadow-md border border-rose-400 ring-2 ring-rose-500/40 animate-pulse'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
+              }`}
+              title="All-Out Attack: Commit players forward to generate chances and goals"
+            >
+              <span>⚡</span>
+              <span>Attack</span>
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* View Switcher Navigation Tabs */}
       <div className="flex items-center gap-2 p-1 bg-tactical-850 rounded-xl border border-tactical-750 max-w-lg mx-auto">

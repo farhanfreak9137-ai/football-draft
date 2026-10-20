@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { FormationDefinition, PoolType, Strategy } from '../../shared/types/index.js';
+import React, { useState, useEffect } from 'react';
+import { FormationDefinition, PoolType, Strategy, ManagerProfile } from '../../shared/types/index.js';
 import { FORMATION_PRESETS } from '../../shared/constants/formations.js';
+import { profileService } from '../services/profileService.js';
 import { messages } from '../i18n/messages.js';
 import {
   Users,
@@ -14,6 +15,8 @@ import {
   Settings,
   Flame,
   ArrowRight,
+  Trophy,
+  Award,
 } from 'lucide-react';
 
 interface LobbyViewProps {
@@ -35,6 +38,10 @@ interface LobbyViewProps {
   }) => void;
   onOpenSettings: () => void;
   onOpenFormationStudio: () => void;
+  onOpenTournament: () => void;
+  onOpenProfile: () => void;
+  hasActiveTournament?: boolean;
+  tournamentRoundLabel?: string;
   customFormations: FormationDefinition[];
   selectedCustomFormation: FormationDefinition | null;
   onSelectCustomFormation: (custom: FormationDefinition | null) => void;
@@ -46,15 +53,28 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
   onJoinRoom,
   onOpenSettings,
   onOpenFormationStudio,
+  onOpenTournament,
+  onOpenProfile,
+  hasActiveTournament = false,
+  tournamentRoundLabel,
   customFormations,
   selectedCustomFormation,
   onSelectCustomFormation,
   loading = false,
 }) => {
+  const [profile, setProfile] = useState<ManagerProfile>(() => profileService.getProfile());
   const [mode, setMode] = useState<'solo' | 'multiplayer'>('solo');
   const [tab, setTab] = useState<'create' | 'join'>('create');
   const [poolType, setPoolType] = useState<PoolType>('national');
-  const [managerName, setManagerName] = useState('Tactical Manager');
+  const [managerName, setManagerName] = useState(profile.managerName || 'Tactical Manager');
+
+  useEffect(() => {
+    try {
+      const p = profileService.getProfile();
+      setProfile(p);
+      setManagerName(p.managerName);
+    } catch (e) {}
+  }, []);
   const [selectedFormationId, setSelectedFormationId] = useState(
     selectedCustomFormation ? selectedCustomFormation.id : '4-3-3'
   );
@@ -116,6 +136,17 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
 
           <div className="flex items-center gap-2">
             <button
+              onClick={onOpenProfile}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-tactical-800 hover:bg-tactical-750 text-tactical-100 border border-tactical-600 transition-all text-xs font-bold shadow-sm"
+              title="Manager Profile & Career"
+            >
+              <span className="text-sm">{profile?.avatarEmoji || '👔'}</span>
+              <span className="hidden sm:inline">{profile?.managerName || 'Profile'}</span>
+              <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-tactical-900 text-gold-400 border border-tactical-700">
+                Lv.{profile?.level || 1}
+              </span>
+            </button>
+            <button
               onClick={onOpenSettings}
               className="p-2 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-300 border border-tactical-600 transition-all"
               title="Settings"
@@ -123,6 +154,50 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
               <Settings className="w-4 h-4" />
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* Featured Mode: 7-Game World Cup Tournament */}
+      <div className="bg-gradient-to-r from-amber-950/60 via-tactical-850 to-tactical-850 border border-gold-500/40 rounded-xl p-5 shadow-xl relative overflow-hidden">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex items-start gap-3.5">
+            <div className="w-12 h-12 rounded-xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-2xl shrink-0 shadow-inner">
+              🏆
+            </div>
+            <div>
+              <div className="flex items-center gap-2 mb-1 flex-wrap">
+                <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-gold-500/20 text-gold-400 border border-gold-500/30">
+                  Featured Mode
+                </span>
+                {hasActiveTournament && (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 animate-pulse">
+                    Campaign in Progress ({tournamentRoundLabel || 'Active'})
+                  </span>
+                )}
+              </div>
+              <h2 className="text-base sm:text-lg font-black text-tactical-100 flex items-center gap-1.5">
+                <span>World Championship Campaign (7 Matches)</span>
+              </h2>
+              <p className="text-xs text-tactical-300 mt-0.5 max-w-xl">
+                {hasActiveTournament
+                  ? 'Your tournament campaign is actively saved. Jump back into the manager dugout and play your next fixture!'
+                  : 'Experience the 7-game international campaign: 3 group matches, Round of 16, Quarters, Semis, and Grand Final. Choose Manager Mode (3-4 min tactical pace) or Dynamic Draft (90s fast sim).'}
+              </p>
+            </div>
+          </div>
+
+          <button
+            onClick={onOpenTournament}
+            className={`w-full sm:w-auto px-5 py-3 rounded-lg font-black text-xs uppercase tracking-wider flex items-center justify-center gap-2 transition-all active:scale-98 shrink-0 shadow-lg ${
+              hasActiveTournament
+                ? 'bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-tactical-950 shadow-emerald-900/40'
+                : 'bg-gradient-to-r from-gold-500 to-amber-500 hover:from-gold-400 hover:to-amber-400 text-tactical-950 shadow-gold-950/50'
+            }`}
+          >
+            <Trophy className="w-4 h-4" />
+            <span>{hasActiveTournament ? 'Continue Tournament' : 'Enter World Cup'}</span>
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </div>
 

@@ -3,8 +3,6 @@
   "appName": "Historical Football Draft",
   "webDir": "dist/client",
   "server": {
-    "url": "https://football-draft-08nh.onrender.com",
-    "cleartext": false,
     "androidScheme": "https"
   },
   "android": {

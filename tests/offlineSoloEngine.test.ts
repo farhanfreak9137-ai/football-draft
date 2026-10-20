@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { offlineSoloEngine } from '../src/client/services/offlineSoloEngine.js';
+import { isPlayerEligibleForSlot } from '../src/shared/constants/formations.js';
 
 describe('OfflineSoloEngine (100% Client-Side Offline Mode)', () => {
   it('creates an offline solo room with instant AI opponent', () => {
@@ -61,17 +62,22 @@ describe('OfflineSoloEngine (100% Client-Side Offline Mode)', () => {
     // Pick first eligible player for an open slot
     const hostDraft = room.hostDraft;
     const roster = hostDraft.currentRoster;
-    const firstSlot = hostDraft.formation.slots[0];
-    const eligiblePlayer = roster.find((p) =>
-      p.naturalPositions.includes(firstSlot.role as any) ||
-      (p.secondaryPositions && p.secondaryPositions.includes(firstSlot.role as any))
-    ) || roster[0];
+    let chosenPlayer = roster[0];
+    let chosenSlot = hostDraft.formation.slots[0];
+    for (const p of roster) {
+      const match = hostDraft.formation.slots.find((s) => isPlayerEligibleForSlot(p, s));
+      if (match) {
+        chosenPlayer = p;
+        chosenSlot = match;
+        break;
+      }
+    }
 
     const afterPick = offlineSoloEngine.executePick({
       roomCode: room.roomCode,
       token: hostToken,
-      playerId: eligiblePlayer.id,
-      slotId: firstSlot.id,
+      playerId: chosenPlayer.id,
+      slotId: chosenSlot.id,
     });
 
     // Host has 1 pick
@@ -117,3 +123,4 @@ describe('OfflineSoloEngine (100% Client-Side Offline Mode)', () => {
     expect(live?.status).toBe('live');
   });
 });
+

@@ -38,6 +38,16 @@ export interface FormationDefinition {
 export type Strategy = 'attacking' | 'balanced' | 'defensive';
 export type PoolType = 'national' | 'club';
 
+export interface SquadRoles {
+  captainSlotId?: string;
+  penaltySlotId?: string;
+  freeKickSlotId?: string;
+  cornerSlotId?: string;
+}
+
+export type TacticalGameplan = 'balanced' | 'possession' | 'counter' | 'high_press' | 'defensive' | 'attacking';
+export type LiveMentality = 'defensive' | 'balanced' | 'attacking';
+
 export interface SourceReference {
   sourceId: string;
   fact: string;
@@ -121,6 +131,8 @@ export interface PlayerDraftState {
   poolType: PoolType;
   formation: FormationDefinition;
   strategy: Strategy;
+  roles?: SquadRoles;
+  gameplan?: TacticalGameplan;
   draftedSlots: Record<string, DraftedSlot>; // slotId -> DraftedSlot
   usedIdentityIds: string[]; // Uniqueness tracker
   rerollsRemaining: number; // 3 per XI
@@ -156,6 +168,7 @@ export interface RoomState {
   turnNumber: number;
   matchId?: string;
   matchFormat?: 'auto' | 'normal' | 'knockout';
+  matchDurationSec?: number; // 45, 90, 180 (3 min), 240 (4 min)
   lastPickAnnouncement?: {
     seat: 'host' | 'guest';
     playerName: string;
@@ -189,7 +202,7 @@ export type MatchEventType =
 
 export interface MatchEvent {
   id: string;
-  second: number; // Real second elapsed (0 to 45 for regular time)
+  second: number; // Real second elapsed
   minute?: number; // Simulated visual match minute (0 to 90, or up to 120 in ET)
   period: 'first_half' | 'second_half' | 'extra_time_1' | 'extra_time_2' | 'penalties';
   type: MatchEventType;
@@ -203,15 +216,18 @@ export interface MatchEvent {
   secondaryPlayer?: {
     id: string;
     name: string;
+    position: Position;
+    squadNumber: number;
   };
   description: string;
   score: {
     host: number;
     guest: number;
   };
+  isGoal?: boolean;
   pitchLocation?: {
-    x: number; // 0 to 100
-    y: number; // 0 to 100
+    x: number; // 0-100 percentage length of pitch
+    y: number; // 0-100 percentage width of pitch
   };
 }
 
@@ -224,34 +240,53 @@ export interface PenaltyKickResult {
     squadNumber: number;
   };
   scored: boolean;
-  scoreAfterKick: {
-    host: number;
-    guest: number;
-  };
+  suddenDeath: boolean;
   description: string;
 }
 
 export interface MatchSimulationState {
   matchId: string;
-  seed: number;
-  status: 'not_started' | 'live' | 'halftime' | 'fulltime' | 'extra_time' | 'penalties' | 'completed';
-  currentSecond: number; // 0 to 90 (or up to 120)
-  totalDurationSeconds: number; // 90, 105, or 120
-  startTime: number; // authoritative real server timestamp
+  startTime: number;
+  totalDurationMs: number;
+  totalDurationSeconds: number;
+  regularDurationSeconds?: number;
+  currentElapsedSec: number;
+  currentSecond: number;
+  status: 'live' | 'halftime' | 'extra_time' | 'penalties' | 'fulltime' | 'completed';
+  currentMinute: number; // 0-90 (or up to 120)
+  knockoutMode: boolean;
   matchFormat?: 'league' | 'cup';
-  knockoutMode?: boolean;
+  hostTeam: {
+    name: string;
+    formation: string;
+    avgOvr: number;
+    roles?: SquadRoles;
+  };
+  guestTeam: {
+    name: string;
+    formation: string;
+    avgOvr: number;
+    roles?: SquadRoles;
+  };
+  events: MatchEvent[];
+  visibleEvents: MatchEvent[];
+  penalties?: PenaltyKickResult[];
+  penaltyKicks?: PenaltyKickResult[];
+  penaltyScore?: {
+    host: number;
+    guest: number;
+  };
   score: {
     host: number;
     guest: number;
   };
-  events: MatchEvent[];
-  penalties: PenaltyKickResult[];
-  penaltyScore?: {
+  finalScore: {
     host: number;
     guest: number;
   };
   winner?: 'host' | 'guest' | 'draw';
   winMethod?: 'regular_time' | 'extra_time' | 'penalties' | 'draw';
+  liveMentality?: LiveMentality;
   stats: {
     host: {
       shots: number;
@@ -294,4 +329,115 @@ export interface PlayerMatchRating {
   summary: string;
 }
 
+// Tournament System Types
+export type TournamentDraftMode = 'campaign' | 'dynamic';
 
+export interface TournamentTeam {
+  id: string;
+  name: string;
+  editionId: string;
+  poolType: PoolType;
+  isUser: boolean;
+  formationId?: string;
+  squad?: PlayerDraftState;
+  groupStats: {
+    played: number;
+    won: number;
+    drawn: number;
+    lost: number;
+    goalsFor: number;
+    goalsAgainst: number;
+    goalDifference: number;
+    points: number;
+  };
+}
+
+export interface TournamentGroup {
+  id: string; // 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'
+  name: string;
+  teams: TournamentTeam[];
+}
+
+export type TournamentRound =
+  | 'group_match_1'
+  | 'group_match_2'
+  | 'group_match_3'
+  | 'round_of_16'
+  | 'quarter_finals'
+  | 'semi_finals'
+  | 'final'
+  | 'completed';
+
+export interface TournamentMatchFixture {
+  id: string;
+  round: TournamentRound;
+  groupLetter?: string;
+  homeTeam: TournamentTeam;
+  awayTeam: TournamentTeam;
+  homeScore?: number;
+  awayScore?: number;
+  penaltyScore?: { home: number; away: number };
+  status: 'scheduled' | 'live' | 'finished';
+  isUserMatch: boolean;
+  simulation?: MatchSimulationState;
+}
+
+export interface TournamentState {
+  id: string;
+  name: string;
+  poolType: PoolType;
+  draftMode: TournamentDraftMode;
+  matchDurationSec: number; // 45s, 90s, 180s (3m), 240s (4m)
+  currentRound: TournamentRound;
+  groups: TournamentGroup[];
+  userTeam: TournamentTeam;
+  userGroupLetter: string;
+  groupFixtures: TournamentMatchFixture[];
+  knockoutFixtures: {
+    roundOf16: TournamentMatchFixture[];
+    quarterFinals: TournamentMatchFixture[];
+    semiFinals: TournamentMatchFixture[];
+    final?: TournamentMatchFixture;
+  };
+  champion?: TournamentTeam;
+  runnerUp?: TournamentTeam;
+  isEliminated: boolean;
+  createdAt: number;
+  updatedAt: number;
+}
+
+// Manager Profile System
+export interface ManagerProfile {
+  id: string;
+  managerName: string;
+  avatarEmoji: string;
+  level: number;
+  xp: number;
+  stats: {
+    matchesPlayed: number;
+    wins: number;
+    draws: number;
+    losses: number;
+    goalsScored: number;
+    goalsConceded: number;
+    cleanSheets: number;
+    trophiesWon: number;
+    runnerUpCount: number;
+    tournamentsPlayed: number;
+  };
+  trophies: Array<{
+    id: string;
+    tournamentName: string;
+    date: number;
+    type: 'gold' | 'silver';
+    poolType: PoolType;
+    draftMode: TournamentDraftMode;
+  }>;
+  recentMatches: Array<{
+    opponentName: string;
+    score: string;
+    result: 'win' | 'loss' | 'draw';
+    date: number;
+    stage: string;
+  }>;
+}

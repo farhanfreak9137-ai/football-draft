@@ -1,6 +1,9 @@
 import {
   FormationDefinition,
+  LiveMentality,
   MatchSimulationState,
+  PlayerDraftState,
+  PoolType,
   RoomState,
   TeamEdition,
 } from '../../shared/types/index.js';
@@ -212,6 +215,7 @@ export async function executeReroll(params: {
 export async function startMatch(params: {
   roomCode: string;
   token: string;
+  matchDurationSec?: number;
 }): Promise<{ room: RoomState; simulation: MatchSimulationState }> {
   if (offlineSoloEngine.isSoloRoom(params.roomCode)) {
     return offlineSoloEngine.startMatch(params);
@@ -220,11 +224,32 @@ export async function startMatch(params: {
   const res = await fetch(`${getApiBase()}/rooms/${params.roomCode}/start-match`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ token: params.token }),
+    body: JSON.stringify({ token: params.token, matchDurationSec: params.matchDurationSec }),
   });
   const data = await res.json();
   if (!data.success) throw new Error(data.error);
   return data;
+}
+
+export function createPrebuiltMatch(params: {
+  hostDraft: PlayerDraftState;
+  guestDraft: PlayerDraftState;
+  matchDurationSec?: number;
+  isKnockout?: boolean;
+  poolType?: PoolType;
+}): { room: RoomState; simulation: MatchSimulationState } {
+  return offlineSoloEngine.createPrebuiltMatch(params);
+}
+
+export function updateLiveMentality(
+  roomCode: string,
+  mentality: LiveMentality,
+  team: 'host' | 'guest' = 'host'
+): MatchSimulationState | null {
+  if (offlineSoloEngine.isSoloRoom(roomCode)) {
+    return offlineSoloEngine.updateLiveMentality(mentality, team);
+  }
+  return null;
 }
 
 export async function closeRoom(params: {

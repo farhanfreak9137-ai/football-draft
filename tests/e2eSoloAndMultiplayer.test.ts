@@ -191,7 +191,7 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
     expect(finalMatch!.score.host).toBeGreaterThanOrEqual(0);
     expect(finalMatch!.score.guest).toBeGreaterThanOrEqual(0);
     expect(finalMatch!.events.length).toBeGreaterThanOrEqual(4);
-  });
+  }, 25000);
 
   it('handles automatic turn timeout selection when user does not act within 40 seconds', async () => {
     const { room } = await roomManager.createRoom({

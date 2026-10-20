@@ -2,16 +2,20 @@ import React, { useEffect, useState, useRef } from 'react';
 import {
   FormationDefinition,
   FormationSlot,
+  LiveMentality,
   MatchSimulationState,
   PlayerVersion,
   PoolType,
   Position,
   RoomState,
   Strategy,
+  TournamentMatchFixture,
+  TournamentState,
 } from '../shared/types/index.js';
-import { isPlayerEligibleForSlot } from '../shared/constants/formations.js';
+import { FORMATIONS, isPlayerEligibleForSlot } from '../shared/constants/formations.js';
 import {
   closeRoom,
+  createPrebuiltMatch,
   createRoom,
   executePick,
   executeRoll,
@@ -21,12 +25,17 @@ import {
   joinRoom,
   reconnectSeat,
   startMatch,
+  updateLiveMentality,
 } from './services/api.js';
 import { offlineSoloEngine } from './services/offlineSoloEngine.js';
+import { tournamentService } from './services/tournamentService.js';
+import { TournamentEngine } from '../shared/engine/tournamentEngine.js';
 import { soundManager } from './utils/audio.js';
 import { getCustomFormations } from './utils/customFormations.js';
 import { messages } from './i18n/messages.js';
 import { LobbyView } from './components/LobbyView.js';
+import { TournamentView } from './components/TournamentView.js';
+import { ProfileModal } from './components/ProfileModal.js';
 import { TacticalPitch } from './components/TacticalPitch.js';
 import { RosterList } from './components/RosterList.js';
 import { MatchView } from './components/MatchView.js';
@@ -45,6 +54,7 @@ import {
   Clock,
   ArrowRight,
   LogOut,
+  Trophy,
 } from 'lucide-react';
 
 export const App: React.FC = () => {
@@ -57,6 +67,18 @@ export const App: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [isRolling, setIsRolling] = useState(false);
   const [errorNotice, setErrorNotice] = useState<string | null>(null);
+
+  // Tournament & Profile State
+  const [activeScreen, setActiveScreen] = useState<'lobby' | 'tournament'>('lobby');
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [activeTournament, setActiveTournament] = useState<TournamentState | null>(() =>
+    tournamentService.getActiveTournament()
+  );
+  const [tournamentMatchContext, setTournamentMatchContext] = useState<{
+    isTournament: boolean;
+    matchFixture?: TournamentMatchFixture;
+    draftMode?: string;
+  } | null>(null);
 
   // Load saved custom formations on initial render
   useEffect(() => {
@@ -366,9 +388,27 @@ export const App: React.FC = () => {
     try {
       setLoading(true);
       setErrorNotice(null);
+
+      let matchDurationSec: number | undefined = undefined;
+      if (tournamentMatchContext?.isTournament) {
+        const tourney = tournamentService.getActiveTournament();
+        if (tourney) {
+          matchDurationSec = tourney.matchDurationSec;
+          // If in campaign mode and squad was just drafted, save user squad to tournament state!
+          if (tourney.draftMode === 'campaign' && !tourney.userSquad) {
+            tourney.userSquad = room.hostDraft;
+            try {
+              localStorage.setItem('hfd_active_tournament', JSON.stringify(tourney));
+              setActiveTournament({ ...tourney });
+            } catch (e) {}
+          }
+        }
+      }
+
       const res = await startMatch({
         roomCode: room.roomCode,
         token,
+        matchDurationSec,
       });
       setRoom(res.room);
       setLiveMatch(res.simulation);
@@ -379,8 +419,39 @@ export const App: React.FC = () => {
     }
   };
 
-  // Handler: Leave / Close Room
+  // Handler: Leave / Close Room / Exit Match
   const handleLeaveRoom = async () => {
+    if (tournamentMatchContext?.isTournament && liveMatch) {
+      const userScore = mySeat === 'host' ? liveMatch.score.host : liveMatch.score.guest;
+      const opponentScore = mySeat === 'host' ? liveMatch.score.guest : liveMatch.score.host;
+      const penaltyScore = liveMatch.penaltyScore
+        ? {
+            user: mySeat === 'host' ? liveMatch.penaltyScore.host : liveMatch.penaltyScore.guest,
+            opponent: mySeat === 'host' ? liveMatch.penaltyScore.guest : liveMatch.penaltyScore.host,
+          }
+        : undefined;
+
+      try {
+        const updated = tournamentService.recordUserMatchResult({
+          userScore,
+          opponentScore,
+          penaltyScore,
+          simulation: liveMatch,
+        });
+        setActiveTournament({ ...updated });
+      } catch (e) {
+        console.error('Error recording tournament result:', e);
+      }
+
+      setTournamentMatchContext(null);
+      setRoom(null);
+      setToken(null);
+      setLiveMatch(null);
+      setErrorNotice(null);
+      setActiveScreen('tournament');
+      return;
+    }
+
     if (room && token) {
       try {
         await closeRoom({ roomCode: room.roomCode, token });
@@ -392,6 +463,117 @@ export const App: React.FC = () => {
     setToken(null);
     setLiveMatch(null);
     setErrorNotice(null);
+    setActiveScreen('lobby');
+  };
+
+  // Handler: Touchline In-Match Live Mentality Instruction
+  const handleLiveMentalityChange = (mentality: LiveMentality) => {
+    if (room) {
+      const updated = updateLiveMentality(room.roomCode, mentality, mySeat);
+      if (updated) {
+        setLiveMatch({ ...updated });
+      }
+    }
+  };
+
+  // Handler: Launch Tournament Match
+  const handleStartTournamentMatch = async (
+    tourney: TournamentState,
+    fixture: TournamentMatchFixture
+  ) => {
+    try {
+      setLoading(true);
+      setErrorNotice(null);
+
+      const opponentTeam = fixture.homeTeam.isUser ? fixture.awayTeam : fixture.homeTeam;
+      const isKnockout = !tourney.currentRound.startsWith('group_match_');
+
+      if (tourney.draftMode === 'campaign') {
+        // If manager squad is already drafted from Match 1:
+        if (tourney.userSquad && tourney.userSquad.isReady) {
+          const aiDraft = TournamentEngine.buildAiTeamSquad(
+            opponentTeam,
+            tourney.poolType,
+            offlineSoloEngine.getPlayers(),
+            opponentTeam.formationId
+          );
+
+          const res = createPrebuiltMatch({
+            hostDraft: tourney.userSquad,
+            guestDraft: aiDraft,
+            matchDurationSec: tourney.matchDurationSec,
+            isKnockout,
+            poolType: tourney.poolType,
+          });
+
+          setRoom(res.room);
+          setMySeat('host');
+          setToken(res.room.hostSeat.token);
+          setLiveMatch(res.simulation);
+          setTournamentMatchContext({
+            isTournament: true,
+            matchFixture: fixture,
+            draftMode: 'campaign',
+          });
+          return;
+        }
+
+        // If manager squad not yet drafted (First Match):
+        const res = await createRoom({
+          mode: 'solo',
+          poolType: tourney.poolType,
+          hostName: tourney.userTeam.name,
+          formationId: tourney.userTeam.formationId,
+          strategy: 'balanced',
+          matchFormat: isKnockout ? 'knockout' : 'normal',
+        });
+
+        if (res.room.guestDraft) {
+          res.room.guestDraft.playerName = opponentTeam.name;
+          res.room.guestDraft.formation =
+            FORMATIONS[opponentTeam.formationId || '4-3-3'] || FORMATIONS['4-3-3'];
+        }
+
+        setRoom(res.room);
+        setMySeat('host');
+        setToken(res.hostToken);
+        setTournamentMatchContext({
+          isTournament: true,
+          matchFixture: fixture,
+          draftMode: 'campaign',
+        });
+        return;
+      }
+
+      // Dynamic Draft Mode: draft fresh before every match
+      const res = await createRoom({
+        mode: 'solo',
+        poolType: tourney.poolType,
+        hostName: tourney.userTeam.name,
+        formationId: tourney.userTeam.formationId,
+        strategy: 'balanced',
+        matchFormat: isKnockout ? 'knockout' : 'normal',
+      });
+
+      if (res.room.guestDraft) {
+        res.room.guestDraft.playerName = opponentTeam.name;
+        res.room.guestDraft.formation =
+          FORMATIONS[opponentTeam.formationId || '4-3-3'] || FORMATIONS['4-3-3'];
+      }
+
+      setRoom(res.room);
+      setMySeat('host');
+      setToken(res.hostToken);
+      setTournamentMatchContext({
+        isTournament: true,
+        matchFixture: fixture,
+        draftMode: 'dynamic',
+      });
+    } catch (err: any) {
+      setErrorNotice(err.message || 'Failed to start tournament match.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   // Handler: Turn countdown timer timeout (auto-pick in offline solo mode)
@@ -469,6 +651,32 @@ export const App: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-2">
+            {!room && (
+              <>
+                <button
+                  onClick={() => setActiveScreen(activeScreen === 'tournament' ? 'lobby' : 'tournament')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 border ${
+                    activeScreen === 'tournament'
+                      ? 'bg-gold-500/20 text-gold-400 border-gold-500/50'
+                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border-tactical-700'
+                  }`}
+                  title="Toggle World Cup Campaign"
+                >
+                  <Trophy className="w-3.5 h-3.5 text-gold-400" />
+                  <span className="hidden sm:inline">
+                    {activeScreen === 'tournament' ? 'Quick Play' : 'World Cup'}
+                  </span>
+                </button>
+                <button
+                  onClick={() => setIsProfileOpen(true)}
+                  className="px-2.5 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-200 border border-tactical-600 transition-all text-xs font-bold flex items-center gap-1"
+                  title="Manager Profile"
+                >
+                  <span>👔</span>
+                  <span className="hidden md:inline">Profile</span>
+                </button>
+              </>
+            )}
             <button
               onClick={() => setIsSettingsOpen(true)}
               className="p-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-300 border border-tactical-600 transition-all"
@@ -508,13 +716,31 @@ export const App: React.FC = () => {
           </div>
         )}
 
-        {/* View 1: Lobby (Not in a room) */}
-        {!room && (
+        {/* View 1: Tournament Hub View (Active Tournament or Creation Wizard) */}
+        {!room && activeScreen === 'tournament' && (
+          <TournamentView
+            onStartTournamentMatch={handleStartTournamentMatch}
+            onBackToLobby={() => setActiveScreen('lobby')}
+            formations={Object.values(FORMATIONS)}
+            defaultFormationId={selectedCustomFormation?.id || '4-3-3'}
+          />
+        )}
+
+        {/* View 2: Quick Play Lobby (Solo & Multiplayer Draft Setup) */}
+        {!room && activeScreen === 'lobby' && (
           <LobbyView
             onCreateRoom={handleCreateRoom}
             onJoinRoom={handleJoinRoom}
             onOpenSettings={() => setIsSettingsOpen(true)}
             onOpenFormationStudio={() => setIsFormationStudioOpen(true)}
+            onOpenTournament={() => setActiveScreen('tournament')}
+            onOpenProfile={() => setIsProfileOpen(true)}
+            hasActiveTournament={Boolean(
+              activeTournament &&
+                activeTournament.currentRound !== 'completed' &&
+                !activeTournament.isEliminated
+            )}
+            tournamentRoundLabel={activeTournament?.currentRound.replace(/_/g, ' ').toUpperCase()}
             customFormations={customFormations}
             selectedCustomFormation={selectedCustomFormation}
             onSelectCustomFormation={(f) => setSelectedCustomFormation(f)}
@@ -522,13 +748,14 @@ export const App: React.FC = () => {
           />
         )}
 
-        {/* View 2: Live Match Simulation */}
+        {/* View 3: Live Match Simulation */}
         {room && isSimulating && liveMatch && (
           <MatchView
             liveMatch={liveMatch}
             hostDraft={room.hostDraft}
             guestDraft={room.guestDraft}
             onExitMatch={handleLeaveRoom}
+            onMentalityChange={handleLiveMentalityChange}
           />
         )}
 
@@ -840,6 +1067,7 @@ export const App: React.FC = () => {
       </footer>
 
       {/* Modals */}
+      <ProfileModal isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} />
       <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
       <FormationStudioModal
         isOpen={isFormationStudioOpen}

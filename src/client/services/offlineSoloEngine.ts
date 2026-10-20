@@ -384,6 +384,7 @@ export class OfflineSoloEngine {
   startMatch(params: {
     roomCode: string;
     token: string;
+    matchDurationSec?: number;
   }): { room: RoomState; simulation: MatchSimulationState } {
     const room = this.currentRoom;
     if (!room || room.roomCode !== params.roomCode) {
@@ -407,6 +408,7 @@ export class OfflineSoloEngine {
     const simulation = MatchEngine.simulateMatch(room.hostDraft, room.guestDraft!, {
       knockoutMode: isKnockout,
       randomSeed: now,
+      matchDurationSec: params.matchDurationSec,
     });
     simulation.startTime = now;
     simulation.status = 'live';
@@ -420,6 +422,70 @@ export class OfflineSoloEngine {
 
     const initialSim = MatchEngine.getAuthoritativeStateAtTime(simulation, now);
     return { room, simulation: initialSim };
+  }
+
+  createPrebuiltMatch(params: {
+    hostDraft: PlayerDraftState;
+    guestDraft: PlayerDraftState;
+    matchDurationSec?: number;
+    isKnockout?: boolean;
+    poolType?: PoolType;
+  }): { room: RoomState; simulation: MatchSimulationState } {
+    const roomCode = 'SOLO-TOURNEY-' + Math.floor(100000 + Math.random() * 900000);
+    const hostToken = 'solo-host-' + Math.random().toString(36).substring(2, 10);
+    const guestToken = 'solo-guest-ai';
+    const now = Date.now();
+    const expiresAt = now + 60 * 60 * 1000;
+    const isKnockout = params.isKnockout ?? true;
+
+    const room: RoomState = {
+      roomCode,
+      status: 'simulating',
+      mode: 'solo',
+      poolType: params.poolType || 'national',
+      matchFormat: isKnockout ? 'knockout' : 'normal',
+      createdAt: now,
+      updatedAt: now,
+      expiresAt,
+      hostSeat: {
+        token: hostToken,
+        connected: true,
+        lastPing: now,
+      },
+      guestSeat: {
+        token: guestToken,
+        connected: true,
+        lastPing: now,
+      },
+      turnNumber: 12,
+      activeTurn: 'host',
+      turnDeadline: 0,
+      hostDraft: params.hostDraft,
+      guestDraft: params.guestDraft,
+    };
+
+    const simulation = MatchEngine.simulateMatch(params.hostDraft, params.guestDraft, {
+      knockoutMode: isKnockout,
+      randomSeed: now,
+      matchDurationSec: params.matchDurationSec,
+    });
+    simulation.startTime = now;
+    simulation.status = 'live';
+    simulation.knockoutMode = isKnockout;
+    simulation.matchFormat = isKnockout ? 'cup' : 'league';
+
+    this.currentRoom = room;
+    this.currentMatch = simulation;
+    room.matchId = simulation.matchId;
+
+    const initialSim = MatchEngine.getAuthoritativeStateAtTime(simulation, now);
+    return { room, simulation: initialSim };
+  }
+
+  updateLiveMentality(mentality: any, team: 'host' | 'guest' = 'host'): MatchSimulationState | null {
+    if (!this.currentMatch) return null;
+    this.currentMatch = MatchEngine.updateLiveMentality(this.currentMatch, mentality, team);
+    return this.getLiveMatch(this.currentRoom?.roomCode || '');
   }
 
   getLiveMatch(roomCode: string): MatchSimulationState | null {
@@ -459,3 +525,4 @@ export class OfflineSoloEngine {
 }
 
 export const offlineSoloEngine = OfflineSoloEngine.getInstance();
+
