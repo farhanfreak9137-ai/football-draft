@@ -1,4 +1,11 @@
-import { ManagerProfile, PoolType, TournamentDraftMode, SavedDreamTeam } from '../../shared/types/index.js';
+import {
+  ManagerProfile,
+  PoolType,
+  TournamentDraftMode,
+  SavedDreamTeam,
+  DreamTeamPlayerStats,
+  DreamTeamRecord,
+} from '../../shared/types/index.js';
 
 const STORAGE_KEY = 'hfd_manager_profile';
 
@@ -148,7 +155,136 @@ export class ProfileService {
   }
 
   saveDreamTeam(team: SavedDreamTeam): ManagerProfile {
-    this.profile.dreamTeam = team;
+    const existingPlayerStats = this.profile.dreamTeam?.playerStats || {};
+    const existingTeamStats = this.profile.dreamTeam?.teamStats || {
+      matchesPlayed: 0,
+      wins: 0,
+      draws: 0,
+      losses: 0,
+      goalsFor: 0,
+      goalsAgainst: 0,
+    };
+
+    const playerStats: Record<string, DreamTeamPlayerStats> = {};
+    for (const slot of Object.values(team.draftedSlots)) {
+      const pId = slot.player.identityId || slot.player.id;
+      playerStats[pId] = existingPlayerStats[pId] || {
+        appearances: 0,
+        goals: 0,
+        assists: 0,
+        cleanSheets: 0,
+        motmAwards: 0,
+        yellowCards: 0,
+        redCards: 0,
+        totalRating: 0,
+      };
+    }
+
+    this.profile.dreamTeam = {
+      ...team,
+      playerStats,
+      teamStats: existingTeamStats,
+    };
+    this.saveProfile();
+    return this.getProfile();
+  }
+
+  recordDreamTeamMatch(params: {
+    userScore: number;
+    opponentScore: number;
+    opponentName: string;
+    playerMatchStats: Array<{
+      identityId: string;
+      goals: number;
+      assists: number;
+      cleanSheet: boolean;
+      motm: boolean;
+      yellowCard: boolean;
+      redCard: boolean;
+      rating: number;
+    }>;
+  }): ManagerProfile {
+    if (!this.profile.dreamTeam) return this.getProfile();
+
+    const dt = this.profile.dreamTeam;
+    if (!dt.teamStats) {
+      dt.teamStats = {
+        matchesPlayed: 0,
+        wins: 0,
+        draws: 0,
+        losses: 0,
+        goalsFor: 0,
+        goalsAgainst: 0,
+      };
+    }
+    if (!dt.playerStats) {
+      dt.playerStats = {};
+    }
+
+    // Update Team Stats
+    dt.teamStats.matchesPlayed += 1;
+    dt.teamStats.goalsFor += params.userScore;
+    dt.teamStats.goalsAgainst += params.opponentScore;
+
+    const isWin = params.userScore > params.opponentScore;
+    const isDraw = params.userScore === params.opponentScore;
+
+    if (isWin) {
+      dt.teamStats.wins += 1;
+      this.profile.xp += 80;
+    } else if (isDraw) {
+      dt.teamStats.draws += 1;
+      this.profile.xp += 30;
+    } else {
+      dt.teamStats.losses += 1;
+      this.profile.xp += 15;
+    }
+
+    this.profile.stats.matchesPlayed += 1;
+    if (isWin) this.profile.stats.wins += 1;
+    else if (isDraw) this.profile.stats.draws += 1;
+    else this.profile.stats.losses += 1;
+    this.profile.stats.goalsScored += params.userScore;
+    this.profile.stats.goalsConceded += params.opponentScore;
+
+    // Update Player Stats
+    for (const p of params.playerMatchStats) {
+      if (!dt.playerStats[p.identityId]) {
+        dt.playerStats[p.identityId] = {
+          appearances: 0,
+          goals: 0,
+          assists: 0,
+          cleanSheets: 0,
+          motmAwards: 0,
+          yellowCards: 0,
+          redCards: 0,
+          totalRating: 0,
+        };
+      }
+      const s = dt.playerStats[p.identityId];
+      s.appearances += 1;
+      s.goals += p.goals;
+      s.assists += p.assists;
+      if (p.cleanSheet) s.cleanSheets += 1;
+      if (p.motm) s.motmAwards += 1;
+      if (p.yellowCard) s.yellowCards += 1;
+      if (p.redCard) s.redCards += 1;
+      s.totalRating += p.rating;
+    }
+
+    // Add to profile recent matches
+    this.profile.recentMatches.unshift({
+      opponentName: `${params.opponentName} (Dream Team AI)`,
+      score: `${params.userScore}-${params.opponentScore}`,
+      result: isWin ? 'win' : isDraw ? 'draw' : 'loss',
+      date: Date.now(),
+      stage: 'TITAN EXHIBITION',
+    });
+    if (this.profile.recentMatches.length > 10) {
+      this.profile.recentMatches.pop();
+    }
+
+    this.profile.level = Math.floor(this.profile.xp / 300) + 1;
     this.saveProfile();
     return this.getProfile();
   }

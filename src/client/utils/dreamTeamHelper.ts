@@ -1,11 +1,20 @@
 import {
   DraftedSlot,
   PlayerDraftState,
+  PlayerVersion,
   PoolType,
   SavedDreamTeam,
+  TeamEdition,
 } from '../../shared/types/index.js';
 import { FORMATIONS } from '../../shared/constants/formations.js';
 import { DraftEngine } from '../../shared/engine/draftEngine.js';
+
+export function getEditionCaliber(edition: TeamEdition, players: PlayerVersion[]): number {
+  const edPlayers = players.filter((p) => p.editionId === edition.id);
+  if (edPlayers.length === 0) return 80;
+  const top11 = [...edPlayers].sort((a, b) => b.ovr - a.ovr).slice(0, 11);
+  return Math.round(top11.reduce((sum, p) => sum + p.ovr, 0) / top11.length);
+}
 
 export function convertDraftStateToDreamTeam(
   draft: PlayerDraftState,
@@ -48,3 +57,4 @@ export function convertDreamTeamToDraftState(
 
   return draftState;
 }
+

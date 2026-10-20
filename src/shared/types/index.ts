@@ -350,7 +350,6 @@ export type TournamentDraftMode =
   | 'pack_roll' // Draft once: 11-round historic team roll with rerolls
   | 'five_card' // Draft once: 11-round 5-card player picks with reshuffles
   | 'star_budget' // Draft once: 100-star point budget squad builder
-  | 'dream_team' // Draft once: Instant entry with saved profile Dream Team
   | 'dynamic' // Draft every match: Alternating draft against opponent before every match
   | 'campaign'; // Backwards compatibility alias for 'pack_roll'
 
@@ -429,6 +428,26 @@ export interface TournamentState {
   updatedAt: number;
 }
 
+export interface DreamTeamPlayerStats {
+  appearances: number;
+  goals: number;
+  assists: number;
+  cleanSheets: number;
+  motmAwards: number;
+  yellowCards: number;
+  redCards: number;
+  totalRating: number;
+}
+
+export interface DreamTeamRecord {
+  matchesPlayed: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goalsFor: number;
+  goalsAgainst: number;
+}
+
 export interface SavedDreamTeam {
   name: string;
   formationId: string;
@@ -436,6 +455,8 @@ export interface SavedDreamTeam {
   draftedSlots: Record<string, DraftedSlot>;
   totalOvr: number;
   savedAt: number;
+  playerStats?: Record<string, DreamTeamPlayerStats>;
+  teamStats?: DreamTeamRecord;
 }
 
 // Manager Profile System

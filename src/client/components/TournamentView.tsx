@@ -48,9 +48,6 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
   const [formationId, setFormationId] = useState(defaultFormationId || '4-3-3');
   const [viewingGroup, setViewingGroup] = useState<string>('A');
 
-  const savedDreamTeam = profileService.getDreamTeam();
-  const hasSavedDreamTeam = Boolean(savedDreamTeam);
-
   const handleCreateTournament = () => {
     const newTourney = tournamentService.startTournament({
       poolType,
@@ -243,41 +240,7 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
                 </div>
               </button>
 
-              {/* Option 4: Saved Dream Team */}
-              <button
-                type="button"
-                disabled={!hasSavedDreamTeam}
-                onClick={() => {
-                  setDraftMode('dream_team');
-                  setMatchDurationSec(180);
-                }}
-                className={`p-4 rounded-xl border text-left transition-all ${
-                  draftMode === 'dream_team'
-                    ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30 shadow-lg'
-                    : hasSavedDreamTeam
-                    ? 'bg-tactical-900 border-tactical-750 opacity-60 hover:opacity-100'
-                    : 'bg-tactical-950/40 border-tactical-800 opacity-30 cursor-not-allowed'
-                }`}
-              >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1.5 font-bold text-sm text-gold-400">
-                    <Trophy className="w-4 h-4" />
-                    <span>👑 Saved Dream Team</span>
-                  </div>
-                  {!hasSavedDreamTeam && (
-                    <span className="text-[9px] px-1.5 py-0.5 rounded bg-tactical-800 text-tactical-400 font-mono">
-                      No Squad
-                    </span>
-                  )}
-                </div>
-                <div className="text-[11px] text-tactical-300 mt-1 leading-relaxed">
-                  {hasSavedDreamTeam
-                    ? `Load your saved ${savedDreamTeam?.name} (${savedDreamTeam?.totalOvr} OVR) and kickoff immediately!`
-                    : 'Save a Dream Team in your Profile first to unlock instant tournament entry.'}
-                </div>
-              </button>
-
-              {/* Option 5: Dynamic Draft Every Match */}
+              {/* Option 4: Dynamic Draft Every Match */}
               <button
                 type="button"
                 onClick={() => {

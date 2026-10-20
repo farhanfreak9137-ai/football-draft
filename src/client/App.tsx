@@ -36,6 +36,7 @@ import { tournamentService } from './services/tournamentService.js';
 import { profileService } from './services/profileService.js';
 import { convertDreamTeamToDraftState, convertDraftStateToDreamTeam } from './utils/dreamTeamHelper.js';
 import { TournamentEngine } from '../shared/engine/tournamentEngine.js';
+import { MatchEngine } from '../shared/engine/matchEngine.js';
 import { soundManager } from './utils/audio.js';
 import { getCustomFormations } from './utils/customFormations.js';
 import { messages } from './i18n/messages.js';
@@ -105,6 +106,7 @@ export const App: React.FC = () => {
   const [mySeat, setMySeat] = useState<'host' | 'guest'>('host');
   const [token, setToken] = useState<string | null>(null);
   const [liveMatch, setLiveMatch] = useState<MatchSimulationState | null>(null);
+  const [isDreamTeamMatch, setIsDreamTeamMatch] = useState(false);
   const [selectedPlayer, setSelectedPlayer] = useState<PlayerVersion | null>(null);
   const [viewingSquad, setViewingSquad] = useState<'mine' | 'opponent'>('mine');
   const [mobileDraftTab, setMobileDraftTab] = useState<'roster' | 'pitch'>('roster');
@@ -297,6 +299,7 @@ export const App: React.FC = () => {
       setRoom(res.room);
       setMySeat('host');
       setToken(res.hostToken);
+      setIsDreamTeamMatch(false);
     } catch (err: any) {
       setErrorNotice(err.message || 'Failed to create room.');
     } finally {
@@ -326,6 +329,7 @@ export const App: React.FC = () => {
       setRoom(res.room);
       setMySeat('guest');
       setToken(res.guestToken);
+      setIsDreamTeamMatch(false);
     } catch (err: any) {
       setErrorNotice(err.message || 'Failed to join room.');
     } finally {
@@ -480,6 +484,59 @@ export const App: React.FC = () => {
       return;
     }
 
+    if (isDreamTeamMatch && liveMatch && room?.hostDraft && room?.guestDraft) {
+      try {
+        const ratingsData = MatchEngine.computePlayerRatings(room.hostDraft, room.guestDraft, liveMatch);
+        const dreamTeam = profileService.getDreamTeam();
+        if (dreamTeam) {
+          const userScore = liveMatch.score.host;
+          const opponentScore = liveMatch.score.guest;
+          const opponentName = room.guestDraft.playerName || 'AI Titan';
+
+          const playerMatchStats = Object.values(dreamTeam.draftedSlots).map((slot) => {
+            const p = slot.player;
+            const r = ratingsData.hostRatings.find((hr) => hr.playerId === p.id);
+            const goals = liveMatch.events.filter((e) => e.type === 'goal' && e.player?.id === p.id).length;
+            const assists = liveMatch.events.filter((e) => e.type === 'goal' && e.secondaryPlayer?.id === p.id).length;
+            const hasYellow = liveMatch.events.some((e) => e.type === 'yellow_card' && e.player?.id === p.id);
+            const hasRed = liveMatch.events.some((e) => e.type === 'red_card' && e.player?.id === p.id);
+            const cleanSheet = opponentScore === 0;
+            const motm = ratingsData.starOfMatch?.playerId === p.id;
+            const rating = r ? r.rating : 6.5;
+
+            return {
+              identityId: p.identityId || p.id,
+              goals,
+              assists,
+              cleanSheet,
+              motm,
+              yellowCard: hasYellow,
+              redCard: hasRed,
+              rating,
+            };
+          });
+
+          profileService.recordDreamTeamMatch({
+            userScore,
+            opponentScore,
+            opponentName,
+            playerMatchStats,
+          });
+        }
+      } catch (err) {
+        console.error('Error saving Dream Team match stats:', err);
+      }
+
+      setIsDreamTeamMatch(false);
+      setRoom(null);
+      setToken(null);
+      setLiveMatch(null);
+      setErrorNotice(null);
+      setIsProfileOpen(true);
+      setActiveScreen('lobby');
+      return;
+    }
+
     if (room && token) {
       try {
         await closeRoom({ roomCode: room.roomCode, token });
@@ -552,6 +609,7 @@ export const App: React.FC = () => {
       poolType: tourney.poolType,
     });
 
+    setIsDreamTeamMatch(false);
     setRoom(res.room);
     setMySeat('host');
     setToken(res.room.hostSeat.token);
@@ -596,6 +654,7 @@ export const App: React.FC = () => {
       poolType: opponentTeam.poolType,
     });
 
+    setIsDreamTeamMatch(true);
     setRoom(res.room);
     setMySeat('host');
     setToken(res.room.hostSeat.token);
@@ -609,6 +668,7 @@ export const App: React.FC = () => {
     fixture: TournamentMatchFixture
   ) => {
     try {
+      setIsDreamTeamMatch(false);
       setLoading(true);
       setErrorNotice(null);
 
@@ -644,42 +704,6 @@ export const App: React.FC = () => {
             draftMode: tourney.draftMode,
           });
           return;
-        }
-
-        // Game 1: If squad NOT yet drafted
-        if (tourney.draftMode === 'dream_team') {
-          const dreamTeam = profileService.getDreamTeam();
-          if (dreamTeam) {
-            const hostDraft = convertDreamTeamToDraftState(dreamTeam, tourney.poolType);
-            tournamentService.setUserSquad(hostDraft);
-            setActiveTournament(tournamentService.getActiveTournament());
-
-            const aiDraft = TournamentEngine.buildAiTeamSquad(
-              opponentTeam,
-              tourney.poolType,
-              offlineSoloEngine.getPlayers(),
-              opponentTeam.formationId
-            );
-
-            const res = createPrebuiltMatch({
-              hostDraft,
-              guestDraft: aiDraft,
-              matchDurationSec: tourney.matchDurationSec,
-              isKnockout,
-              poolType: tourney.poolType,
-            });
-
-            setRoom(res.room);
-            setMySeat('host');
-            setToken(res.room.hostSeat.token);
-            setLiveMatch(res.simulation);
-            setTournamentMatchContext({
-              isTournament: true,
-              matchFixture: fixture,
-              draftMode: 'dream_team',
-            });
-            return;
-          }
         }
 
         // Open Solo Draft Studio for pack_roll, five_card, star_budget, campaign
