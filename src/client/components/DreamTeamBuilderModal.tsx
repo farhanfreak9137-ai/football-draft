@@ -60,10 +60,27 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
   const [searchQuery, setSearchQuery] = useState('');
   const [positionFilter, setPositionFilter] = useState<'ALL' | 'GK' | 'DEF' | 'MID' | 'FWD'>('ALL');
 
-  if (!isOpen) return null;
-
   const currentSlot = formation.slots.find((s) => s.id === selectedSlotId);
   const usedIdentityIds = Object.values(draftedSlots).map((p) => p.identityId);
+
+  // Filtered candidate players for drawer
+  const candidatePlayers = useMemo(() => {
+    if (!currentSlot) return [];
+    return allPlayers.filter((p) => {
+      if (usedIdentityIds.includes(p.identityId) && draftedSlots[currentSlot.id]?.id !== p.id) {
+        return false;
+      }
+      if (!isPlayerEligibleForSlot(p, currentSlot)) return false;
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase();
+        return (
+          p.name.toLowerCase().includes(q) ||
+          p.naturalPositions.some((pos) => pos.toLowerCase().includes(q))
+        );
+      }
+      return true;
+    }).sort((a, b) => b.ovr - a.ovr);
+  }, [allPlayers, currentSlot, usedIdentityIds, draftedSlots, searchQuery]);
 
   const filledCount = Object.keys(draftedSlots).length;
   const isComplete = filledCount === formation.slots.length;
@@ -137,24 +154,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
     onClose();
   };
 
-  // Filtered candidate players for drawer
-  const candidatePlayers = useMemo(() => {
-    if (!currentSlot) return [];
-    return allPlayers.filter((p) => {
-      if (usedIdentityIds.includes(p.identityId) && draftedSlots[currentSlot.id]?.id !== p.id) {
-        return false;
-      }
-      if (!isPlayerEligibleForSlot(p, currentSlot)) return false;
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
-        return (
-          p.name.toLowerCase().includes(q) ||
-          p.naturalPositions.some((pos) => pos.toLowerCase().includes(q))
-        );
-      }
-      return true;
-    }).sort((a, b) => b.ovr - a.ovr);
-  }, [allPlayers, currentSlot, usedIdentityIds, draftedSlots, searchQuery]);
+  if (!isOpen) return null;
 
   return (
     <div
@@ -451,3 +451,4 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
     </div>
   );
 };
+

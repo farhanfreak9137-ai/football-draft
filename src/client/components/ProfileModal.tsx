@@ -627,15 +627,17 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
       </div>
 
       {/* Dream Team Studio Builder Modal */}
-      <DreamTeamBuilderModal
-        isOpen={isBuilderOpen}
-        onClose={() => setIsBuilderOpen(false)}
-        onSaved={() => {
-          setProfile(profileService.getProfile());
-          setIsBuilderOpen(false);
-        }}
-        initialDreamTeam={profile.dreamTeam}
-      />
+      {isBuilderOpen && (
+        <DreamTeamBuilderModal
+          isOpen={isBuilderOpen}
+          onClose={() => setIsBuilderOpen(false)}
+          onSaved={() => {
+            setProfile(profileService.getProfile());
+            setIsBuilderOpen(false);
+          }}
+          initialDreamTeam={profile.dreamTeam}
+        />
+      )}
     </div>
   );
 };

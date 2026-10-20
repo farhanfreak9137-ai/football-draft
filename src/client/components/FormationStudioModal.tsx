@@ -54,8 +54,6 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
   onSelectFormation,
   initialFormation,
 }) => {
-  if (!isOpen) return null;
-
   const pitchRef = useRef<HTMLDivElement>(null);
 
   // Studio Mode: Mode 1 (free), Mode 2 (snap), Mode 3 (lines & archetypes)
@@ -336,6 +334,8 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
         return 'bg-rose-500/20 text-rose-300 border-rose-500/50';
     }
   };
+
+  if (!isOpen) return null;
 
   return (
     <div

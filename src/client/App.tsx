@@ -1240,18 +1240,20 @@ export const App: React.FC = () => {
         onPlayFriendlyMatch={handlePlayFriendlyMatch}
       />
       <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
-      <FormationStudioModal
-        isOpen={isFormationStudioOpen}
-        onClose={() => {
-          setIsFormationStudioOpen(false);
-          setCustomFormations(getCustomFormations());
-        }}
-        onSelectFormation={(custom) => {
-          setSelectedCustomFormation(custom);
-          setCustomFormations(getCustomFormations());
-        }}
-        initialFormation={selectedCustomFormation}
-      />
+      {isFormationStudioOpen && (
+        <FormationStudioModal
+          isOpen={isFormationStudioOpen}
+          onClose={() => {
+            setIsFormationStudioOpen(false);
+            setCustomFormations(getCustomFormations());
+          }}
+          onSelectFormation={(custom) => {
+            setSelectedCustomFormation(custom);
+            setCustomFormations(getCustomFormations());
+          }}
+          initialFormation={selectedCustomFormation}
+        />
+      )}
 
       {/* Solo Draft Studio for Tournament (Pack-Roll, 5-Card, Star-Budget) */}
       {soloDraftParams && (
