@@ -840,8 +840,8 @@ export const App: React.FC = () => {
             <div className="w-8 h-8 rounded-lg bg-pitch-DEFAULT border border-pitch-line flex items-center justify-center font-bold font-mono text-pitch-accent shadow-sm">
               ⚽
             </div>
-            <div>
-              <span className="font-extrabold text-sm sm:text-base tracking-tight text-tactical-100">
+            <div className="min-w-0">
+              <span className="font-extrabold text-xs sm:text-base tracking-tight text-tactical-100 truncate block sm:inline max-w-[150px] sm:max-w-none">
                 HISTORICAL FOOTBALL SIMULATOR
               </span>
               <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-pitch-accent">

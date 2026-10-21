@@ -58,7 +58,7 @@ async function bootstrap() {
     res.setHeader('Expires', '0');
     res.sendFile(indexHtml, (err) => {
       if (err) {
-        res.status(200).send('Historical Football Draft Backend Running.');
+        res.status(200).send('Historical Football Simulator Backend Running.');
       }
     });
   });
@@ -122,7 +122,7 @@ async function bootstrap() {
   }, 60000);
 
   server.listen(PORT, () => {
-    console.log(`[Server] Historical Football Draft server running on http://localhost:${PORT}`);
+    console.log(`[Server] Historical Football Simulator running on http://localhost:${PORT}`);
   });
 }
 

@@ -6,7 +6,7 @@ import { getOvrColorClass } from '../utils/ovrColor.js';
 interface TacticalPitchProps {
   formation: FormationDefinition;
   draftedSlots: Record<string, DraftedSlot>;
-  selectedSlotId: string | null;
+  selectedSlotId?: string | null;
   highlightedSlotIds?: string[];
   onSlotSelect?: (slotId: string) => void;
   interactive?: boolean;
@@ -15,7 +15,7 @@ interface TacticalPitchProps {
 export const TacticalPitch: React.FC<TacticalPitchProps> = ({
   formation,
   draftedSlots,
-  selectedSlotId,
+  selectedSlotId = null,
   highlightedSlotIds = [],
   onSlotSelect,
   interactive = true,
