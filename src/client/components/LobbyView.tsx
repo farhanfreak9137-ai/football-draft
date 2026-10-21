@@ -128,11 +128,12 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
               </span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-tactical-100 tracking-tight">
-              Historical Football Draft
+              Historical Football Simulator
             </h1>
             <p className="text-sm text-tactical-300 mt-1 max-w-xl">
-              Draft a starting XI from historical national teams and club editions. Challenge a tactical
-              historical AI or another player in real-time, then watch the 90-second luck-first simulation unfold.
+              Draft a starting XI from historical national teams and club editions. Face a tactical
+              AI or a live opponent, then watch your match simulation unfold — with full career
+              tracking, tactical management, and a World Cup campaign.
             </p>
           </div>
 

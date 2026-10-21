@@ -169,20 +169,83 @@ export class MatchEngine {
     };
 
     // 1. Kickoff (Visual 0', Real 0s)
-    events.push(createEvent(0, 'first_half', 'kickoff', 'host', 'The match kicks off! Both sides battle for historical supremacy.', undefined, undefined, { x: 50, y: 50 }, 0));
+    events.push(createEvent(0, 'first_half', 'kickoff', 'host', 'The whistle blows — both sides battle for historical supremacy.', undefined, undefined, { x: 50, y: 50 }, 0));
 
-    // Calculate action chance per second based on duration
-    const actionChance = regDuration <= 45 ? 0.18 : regDuration <= 90 ? 0.14 : regDuration <= 180 ? 0.10 : 0.08;
+    // Action frequency: tuned so expected goals across a 45s match ≈ 2.5
+    // (real football: ~2.7/90m). Each second has a base chance of producing a
+    // notable event. Goal rate within an event is ~12% (shots on target × conversion).
+    const actionChance = regDuration <= 45 ? 0.28 : regDuration <= 90 ? 0.22 : regDuration <= 180 ? 0.16 : 0.12;
+
+    // Goal commentary — 12 distinct phrases (P2-2 fix)
+    const buildGoalPhrase = (scorer: PlayerVersion, assister: PlayerVersion, score: typeof currentScore) => {
+      const phrases = [
+        `GOAL! ${scorer.name} clinically strikes into the bottom corner — a masterpiece finish! (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} unleashes a thunderous volley into the top corner! ${assister.name}'s vision was impeccable. (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} rises highest and powers an unstoppable header home from ${assister.name}'s delivery! (${score.host}-${score.guest})`,
+        `GOAL! Individual brilliance from ${scorer.name} — dribbles past two defenders and slots home! (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} latches onto ${assister.name}'s perfectly weighted through ball and finishes with composure! (${score.host}-${score.guest})`,
+        `GOAL! A sweeping move — ${assister.name} threads the needle, ${scorer.name} does the rest! (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} ghosts into the box unmarked and tucks it into the far corner. Clinical! (${score.host}-${score.guest})`,
+        `GOAL! Counter-attack at lightning pace — ${scorer.name} rounds the keeper and strokes it home. (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} with a first-time volley — pure technique! (${score.host}-${score.guest})`,
+        `GOAL! The crowd goes wild! ${scorer.name} finishes from close range after ${assister.name}'s precise delivery. (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} with an audacious chip over the advancing goalkeeper! (${score.host}-${score.guest})`,
+        `GOAL! A moment of genius from ${scorer.name} — a curled effort into the top corner from outside the box! (${score.host}-${score.guest})`,
+      ];
+      return prng.pickOne(phrases);
+    };
+
+    // Save commentary — 10 distinct phrases
+    const buildSavePhrase = (keeper: PlayerVersion, shooter: PlayerVersion) => {
+      const phrases = [
+        `MAGNIFICENT SAVE! ${keeper.name} produces a flying fingertip save to deny ${shooter.name}!`,
+        `SAVE! Incredible point-blank reflex stop on the line by ${keeper.name}!`,
+        `${keeper.name} dashes off his line — brave one-on-one stop to deny ${shooter.name}!`,
+        `SENSATIONAL SAVE! ${keeper.name} tips the thunderbolt from ${shooter.name} over the crossbar!`,
+        `SAVE! ${keeper.name} stands tall and smothers the shot from ${shooter.name}!`,
+        `Acrobatic save! ${keeper.name} dives full-stretch to turn ${shooter.name}'s effort around the post!`,
+        `${keeper.name} has eyes in the back of his head — an instinctive reaction stop!`,
+        `SAVE! ${shooter.name} was certain he'd scored, but ${keeper.name} had other ideas!`,
+        `Brilliant! ${keeper.name} positions himself perfectly and smothers ${shooter.name}'s effort!`,
+        `SAVE! ${keeper.name} with a double save — denies ${shooter.name} twice in two seconds!`,
+      ];
+      return prng.pickOne(phrases);
+    };
+
+    // Tackle commentary — 6 phrases
+    const buildTacklePhrase = (defender: PlayerVersion, attacker: PlayerVersion) => {
+      const phrases = [
+        `BRILLIANT TACKLE! ${defender.name} executes a perfectly-timed sliding challenge to stop ${attacker.name}!`,
+        `${defender.name} reads the play superbly — dispossesses ${attacker.name} with a crunching tackle!`,
+        `Last-ditch defending! ${defender.name} throws himself in front of ${attacker.name}'s strike!`,
+        `${defender.name} hunts down ${attacker.name} and makes a superb recovery tackle!`,
+        `Composed defending from ${defender.name} — he reads the danger and snuffs it out early!`,
+        `${attacker.name} looks to cut inside but ${defender.name} is perfectly positioned to intercept!`,
+      ];
+      return prng.pickOne(phrases);
+    };
+
+    // Yellow card commentary — 5 phrases
+    const buildCardPhrase = (foulCommitter: PlayerVersion) => {
+      const phrases = [
+        `YELLOW CARD! Referee cautions ${foulCommitter.name} for a cynical trip.`,
+        `BOOKING! ${foulCommitter.name} cuts down the attacker — the referee reaches for his pocket.`,
+        `${foulCommitter.name} receives a yellow card for a late, reckless challenge.`,
+        `Caution shown to ${foulCommitter.name} for a professional foul on the edge of the box.`,
+        `${foulCommitter.name} argues the decision, but the yellow card stands — tempers are rising!`,
+      ];
+      return prng.pickOne(phrases);
+    };
 
     // Simulation loop for regular time
     for (let sec = 1; sec <= regDuration; sec++) {
       if (sec === halfTimeSec) {
-        events.push(createEvent(halfTimeSec, 'first_half', 'halftime', 'host', 'Half-time whistle blows! Teams head into the tactical dugout.', undefined, undefined, { x: 50, y: 50 }, 45));
+        events.push(createEvent(halfTimeSec, 'first_half', 'halftime', 'host', 'Half-time whistle! Teams retreat to the tactical dugout.', undefined, undefined, { x: 50, y: 50 }, 45));
         continue;
       }
 
       if (sec === halfTimeSec + 1) {
-        events.push(createEvent(halfTimeSec + 1, 'second_half', 'kickoff', 'guest', 'Second half underway! Tension is mounting on the pitch.', undefined, undefined, { x: 50, y: 50 }, 46));
+        events.push(createEvent(halfTimeSec + 1, 'second_half', 'kickoff', 'guest', 'The second half is underway! Who will seize the initiative?', undefined, undefined, { x: 50, y: 50 }, 46));
         continue;
       }
 
@@ -198,58 +261,69 @@ export class MatchEngine {
 
         const actionRoll = prng.next();
 
-        if (actionRoll < 0.40) {
-          // 1. GOAL!
+        if (actionRoll < 0.12) {
+          // 1. GOAL! (~12% of events — down from 40%, giving realistic goal counts)
           const scorer = getSquadPlayer(attackingSquad, 'FWD');
           const assister = getSquadPlayer(attackingSquad, 'MID');
           stats[attackingTeam].shots++;
           stats[attackingTeam].shotsOnTarget++;
           currentScore[attackingTeam]++;
 
-          const goalPhrases = [
-            `GOAL! ${scorer.name} clinically strikes into the bottom corner after an exquisite pass from ${assister.name}! (${currentScore.host}-${currentScore.guest})`,
-            `GOAL! Sensational finish! ${scorer.name} unleashes a thunderous volley into the top corner! (${currentScore.host}-${currentScore.guest})`,
-            `GOAL! ${scorer.name} rises highest and powers an unstoppable header home from ${assister.name}'s delivery! (${currentScore.host}-${currentScore.guest})`,
-            `GOAL! Pure individual magic from ${scorer.name}! Dribbles past the defender and chips the goalkeeper with supreme composure! (${currentScore.host}-${currentScore.guest})`,
-          ];
-
           events.push(createEvent(
             sec,
             currentPeriod,
             'goal',
             attackingTeam,
-            prng.pickOne(goalPhrases),
+            buildGoalPhrase(scorer, assister, currentScore),
             scorer,
             assister,
-            { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
+            { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) }
           ));
-        } else if (actionRoll < 0.76) {
-          // 2. MAGICAL SAVE!
+        } else if (actionRoll < 0.32) {
+          // 2. SHOT ON TARGET — SAVE (~20% of events)
           const shooter = getSquadPlayer(attackingSquad, 'FWD');
           const keeper = getSquadPlayer(defendingSquad, 'GK');
           stats[attackingTeam].shots++;
           stats[attackingTeam].shotsOnTarget++;
           stats[defendingTeam].saves++;
 
-          const savePhrases = [
-            `MAGICAL SAVE! ${keeper.name} produces an unbelievable flying fingertip save to deny ${shooter.name}'s thunderous shot!`,
-            `MAGICAL SAVE! Incredible point-blank reflex stop on the goal-line by ${keeper.name}!`,
-            `MAGICAL SAVE! ${keeper.name} dashes off his line with an astonishing one-on-one diving save against ${shooter.name}!`,
-            `MAGICAL SAVE! Miraculous acrobatic dive by ${keeper.name} tipping the ball over the crossbar!`,
-          ];
-
           events.push(createEvent(
             sec,
             currentPeriod,
             'save',
             defendingTeam,
-            prng.pickOne(savePhrases),
+            buildSavePhrase(keeper, shooter),
             keeper,
             shooter,
-            { x: attackingTeam === 'host' ? 90 : 10, y: 50 }
+            { x: attackingTeam === 'host' ? 90 : 10, y: prng.nextInt(30, 70) }
           ));
-        } else if (actionRoll < 0.88) {
-          // 3. DEFENSIVE INTERVENTION / TACKLE
+        } else if (actionRoll < 0.50) {
+          // 3. SHOT WIDE / MISS (~18% of events)
+          const shooter = getSquadPlayer(attackingSquad, 'FWD');
+          const midfielderBuildup = getSquadPlayer(attackingSquad, 'MID');
+          stats[attackingTeam].shots++;
+
+          const missPhrases = [
+            `${shooter.name} breaks into the box but blazes over the crossbar! Chance wasted!`,
+            `${shooter.name} curls his shot just wide of the far post — so close!`,
+            `${midfielderBuildup.name} plays in ${shooter.name} but the effort clips the outside of the post!`,
+            `${shooter.name} strikes from range — comfortable save, or into the stands? Wide!`,
+            `A great chance! ${shooter.name} rounds the keeper but can only hit the side-netting.`,
+            `${shooter.name} with a half-volley from the edge of the area — flashes just over the bar!`,
+          ];
+
+          events.push(createEvent(
+            sec,
+            currentPeriod,
+            'shot',
+            attackingTeam,
+            prng.pickOne(missPhrases),
+            shooter,
+            midfielderBuildup,
+            { x: attackingTeam === 'host' ? 85 : 15, y: prng.nextInt(25, 75) }
+          ));
+        } else if (actionRoll < 0.68) {
+          // 4. DEFENSIVE INTERVENTION / TACKLE (~18% of events)
           const defender = getSquadPlayer(defendingSquad, 'DEF');
           const attacker = getSquadPlayer(attackingSquad, 'FWD');
           stats[defendingTeam].tackles++;
@@ -259,31 +333,51 @@ export class MatchEngine {
             currentPeriod,
             'defensive_intervention',
             defendingTeam,
-            `BRILLIANT TACKLE! ${defender.name} executes a masterclass sliding tackle to stop ${attacker.name}'s counter-attack!`,
+            buildTacklePhrase(defender, attacker),
             defender,
             attacker,
-            { x: attackingTeam === 'host' ? 70 : 30, y: prng.nextInt(20, 80) }
+            { x: attackingTeam === 'host' ? 68 : 32, y: prng.nextInt(15, 85) }
           ));
-        } else if (actionRoll < 0.94) {
-          // 4. SET PIECE (FREE KICK / CORNER)
+        } else if (actionRoll < 0.82) {
+          // 5. SET PIECE (FREE KICK / CORNER) (~14% of events)
           const setPieceTaker = getSpecialist(attackingDraft, 'freeKick', 'MID');
           const defender = getSquadPlayer(defendingSquad, 'DEF');
           stats[attackingTeam].shots++;
           stats[defendingTeam].fouls++;
 
-          if (prng.chance(0.35)) {
-            // Direct free-kick goal!
+          if (prng.chance(0.20)) {
+            // Direct free-kick goal! (~20% of set pieces → goal, ≈2.8% of all events)
             currentScore[attackingTeam]++;
             stats[attackingTeam].shotsOnTarget++;
+            const fkGoalPhrases = [
+              `FREE-KICK GOAL! ${setPieceTaker.name} whips an unstoppable curler over the wall into the top corner! (${currentScore.host}-${currentScore.guest})`,
+              `STUNNING SET PIECE! ${setPieceTaker.name} bends it perfectly beyond the despairing dive of the keeper! (${currentScore.host}-${currentScore.guest})`,
+              `DIRECT FREE-KICK GOAL! ${setPieceTaker.name} — a technique carved from granite. Absolutely world-class! (${currentScore.host}-${currentScore.guest})`,
+            ];
             events.push(createEvent(
               sec,
               currentPeriod,
               'goal',
               attackingTeam,
-              `STUNNING FREE-KICK GOAL! ${setPieceTaker.name} curls a breathtaking direct free-kick over the wall into the top corner! (${currentScore.host}-${currentScore.guest})`,
+              prng.pickOne(fkGoalPhrases),
               setPieceTaker,
               defender,
-              { x: attackingTeam === 'host' ? 95 : 5, y: 40 }
+              { x: attackingTeam === 'host' ? 93 : 7, y: prng.nextInt(30, 70) }
+            ));
+          } else if (prng.chance(0.40)) {
+            // Shot on target from set piece — save!
+            const keeper = getSquadPlayer(defendingSquad, 'GK');
+            stats[attackingTeam].shotsOnTarget++;
+            stats[defendingTeam].saves++;
+            events.push(createEvent(
+              sec,
+              currentPeriod,
+              'save',
+              defendingTeam,
+              `CORNER SAVE! ${keeper.name} claims ${setPieceTaker.name}'s dangerous delivery at the near post!`,
+              keeper,
+              setPieceTaker,
+              { x: attackingTeam === 'host' ? 88 : 12, y: prng.nextInt(25, 75) }
             ));
           } else {
             events.push(createEvent(
@@ -291,14 +385,14 @@ export class MatchEngine {
               currentPeriod,
               'shot',
               attackingTeam,
-              `DANGEROUS FREE-KICK! ${setPieceTaker.name} curls the ball beautifully, but it whistles just inches past the post!`,
+              `DANGEROUS FREE-KICK! ${setPieceTaker.name} curls it beautifully — it clips the outside of the post!`,
               setPieceTaker,
               defender,
-              { x: attackingTeam === 'host' ? 88 : 12, y: 40 }
+              { x: attackingTeam === 'host' ? 87 : 13, y: prng.nextInt(30, 70) }
             ));
           }
         } else {
-          // 5. DISCIPLINARY / YELLOW CARD
+          // 6. DISCIPLINARY / YELLOW CARD (~18% of events)
           const foulCommitter = getSquadPlayer(defendingSquad, 'DEF');
           stats[defendingTeam].fouls++;
 
@@ -307,10 +401,10 @@ export class MatchEngine {
             currentPeriod,
             'yellow_card',
             defendingTeam,
-            `YELLOW CARD! Referee cautions ${foulCommitter.name} for a cynical tactical trip.`,
+            buildCardPhrase(foulCommitter),
             foulCommitter,
             undefined,
-            { x: attackingTeam === 'host' ? 65 : 35, y: prng.nextInt(20, 80) }
+            { x: attackingTeam === 'host' ? 62 : 38, y: prng.nextInt(20, 80) }
           ));
         }
       }
@@ -353,16 +447,19 @@ export class MatchEngine {
 
       // Extra Time 1
       for (let sec = et1Start; sec <= et1End; sec++) {
-        if (prng.chance(actionChance * 1.2)) {
+        if (prng.chance(actionChance * 1.3)) {
           const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
           const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
           const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
           const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
 
-          if (prng.chance(0.35)) {
+          const etRoll = prng.next();
+          if (etRoll < 0.14) {
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
             currentScore[attackingTeam]++;
+            stats[attackingTeam].shots++;
+            stats[attackingTeam].shotsOnTarget++;
             events.push(createEvent(
               sec,
               'extra_time_1',
@@ -373,18 +470,33 @@ export class MatchEngine {
               assister,
               { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
             ));
-          } else {
+          } else if (etRoll < 0.42) {
             const shooter = getSquadPlayer(attackingSquad, 'FWD');
             const keeper = getSquadPlayer(defendingSquad, 'GK');
+            stats[attackingTeam].shots++;
+            stats[attackingTeam].shotsOnTarget++;
             stats[defendingTeam].saves++;
             events.push(createEvent(
               sec,
               'extra_time_1',
               'save',
               defendingTeam,
-              `MAGICAL SAVE! ${keeper.name} keeps his team alive with a stunning extra-time reflex save!`,
+              `${keeper.name} keeps his team alive with a stunning extra-time reflex save to deny ${shooter.name}!`,
               keeper,
               shooter
+            ));
+          } else {
+            const defender = getSquadPlayer(defendingSquad, 'DEF');
+            const attacker = getSquadPlayer(attackingSquad, 'FWD');
+            stats[defendingTeam].tackles++;
+            events.push(createEvent(
+              sec,
+              'extra_time_1',
+              'defensive_intervention',
+              defendingTeam,
+              `Crucial block in extra time! ${defender.name} denies ${attacker.name} a clear path to goal!`,
+              defender,
+              attacker
             ));
           }
         }
@@ -394,38 +506,61 @@ export class MatchEngine {
 
       // Extra Time 2
       for (let sec = et2Start; sec <= et2End; sec++) {
-        if (prng.chance(actionChance * 1.2)) {
+        if (prng.chance(actionChance * 1.3)) {
           const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
           const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
           const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
           const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
 
-          if (prng.chance(0.35)) {
+          const etRoll = prng.next();
+          if (etRoll < 0.14) {
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
             currentScore[attackingTeam]++;
+            stats[attackingTeam].shots++;
+            stats[attackingTeam].shotsOnTarget++;
+            const etGoalPhrases = [
+              `LATE DRAMA! ${scorer.name} strikes in the dying moments of extra time! (${currentScore.host}-${currentScore.guest})`,
+              `GOLDEN GOAL! ${scorer.name} ends the contest in extra time! Scenes of jubilation! (${currentScore.host}-${currentScore.guest})`,
+              `INCREDIBLE! ${assister.name} releases ${scorer.name} and he finishes emphatically to break the deadlock! (${currentScore.host}-${currentScore.guest})`,
+            ];
             events.push(createEvent(
               sec,
               'extra_time_2',
               'goal',
               attackingTeam,
-              `LATE DRAMA! ${scorer.name} strikes in the dying moments of extra time! (${currentScore.host}-${currentScore.guest})`,
+              prng.pickOne(etGoalPhrases),
               scorer,
               assister,
               { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
             ));
-          } else {
+          } else if (etRoll < 0.42) {
             const shooter = getSquadPlayer(attackingSquad, 'FWD');
             const keeper = getSquadPlayer(defendingSquad, 'GK');
+            stats[attackingTeam].shots++;
+            stats[attackingTeam].shotsOnTarget++;
             stats[defendingTeam].saves++;
             events.push(createEvent(
               sec,
               'extra_time_2',
               'save',
               defendingTeam,
-              `MAGICAL SAVE! Heroic save by ${keeper.name} in the final minutes!`,
+              `Heroic stop! ${keeper.name} dives at full stretch to deny ${shooter.name} — keeping his side in this!`,
               keeper,
               shooter
+            ));
+          } else {
+            const defender = getSquadPlayer(defendingSquad, 'DEF');
+            const attacker = getSquadPlayer(attackingSquad, 'FWD');
+            stats[defendingTeam].tackles++;
+            events.push(createEvent(
+              sec,
+              'extra_time_2',
+              'defensive_intervention',
+              defendingTeam,
+              `${defender.name} with a vital tackle to deny ${attacker.name} a clear-cut chance in extra time!`,
+              defender,
+              attacker
             ));
           }
         }
@@ -662,10 +797,19 @@ export class MatchEngine {
         liveStats[ev.team].shots++;
         liveStats[ev.team].shotsOnTarget++;
       } else if (ev.type === 'save') {
-        const opposing = ev.team === 'host' ? 'guest' : 'host';
-        liveStats[opposing].saves++;
-        liveStats[ev.team].shots++;
-        liveStats[ev.team].shotsOnTarget++;
+        // ev.team is the DEFENDING team (the one that made the save).
+        // Shots belong to the ATTACKING team (the opponent of the saver).
+        const attackingTeam = ev.team === 'host' ? 'guest' : 'host';
+        liveStats[attackingTeam].shots++;
+        liveStats[attackingTeam].shotsOnTarget++;
+        liveStats[ev.team].saves++;
+      } else if (ev.type === 'shot') {
+        // Shot on target that missed (set piece near miss, etc.)
+        const attackingTeam = ev.team === 'host' ? 'guest' : 'host';
+        liveStats[attackingTeam].shots++;
+        liveStats[attackingTeam].shotsOnTarget++;
+      } else if (ev.type === 'defensive_intervention') {
+        liveStats[ev.team].tackles++;
       } else if (ev.type === 'yellow_card' || ev.type === 'red_card') {
         liveStats[ev.team].fouls++;
       }

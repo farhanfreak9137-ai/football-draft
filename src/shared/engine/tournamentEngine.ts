@@ -247,12 +247,18 @@ export class TournamentEngine {
 
   /**
    * Simulates all remaining AI matches in the current round and updates group standings or bracket.
+   * Uses a deterministic seed derived from tournament ID and round to ensure reproducibility.
    */
   static simulateAiMatchesInRound(
     tournament: TournamentState,
     players: PlayerVersion[]
   ): void {
-    const prng = new PRNG();
+    // Derive a deterministic seed from the tournament ID and current round
+    // so AI match results are reproducible if state is saved/loaded.
+    const roundSeed = tournament.id.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) +
+      tournament.currentRound.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) +
+      (tournament.updatedAt || tournament.createdAt);
+    const prng = new PRNG(roundSeed);
 
     if (tournament.currentRound.startsWith('group_match_')) {
       const currentMatches = tournament.groupFixtures.filter(
@@ -552,7 +558,8 @@ export class TournamentEngine {
   }
 
   private static setupQuarterFinals(tournament: TournamentState): void {
-    const prng = new PRNG();
+    const seed = tournament.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + 1001;
+    const prng = new PRNG(seed);
     const r16Winners: TournamentTeam[] = [];
 
     for (const match of tournament.knockoutFixtures.roundOf16) {
@@ -577,7 +584,8 @@ export class TournamentEngine {
   }
 
   private static setupSemiFinals(tournament: TournamentState): void {
-    const prng = new PRNG();
+    const seed = tournament.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + 2002;
+    const prng = new PRNG(seed);
     const qfWinners: TournamentTeam[] = [];
 
     for (const match of tournament.knockoutFixtures.quarterFinals) {
@@ -600,7 +608,8 @@ export class TournamentEngine {
   }
 
   private static setupFinal(tournament: TournamentState): void {
-    const prng = new PRNG();
+    const seed = tournament.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + 3003;
+    const prng = new PRNG(seed);
     const sfWinners: TournamentTeam[] = [];
 
     for (const match of tournament.knockoutFixtures.semiFinals) {

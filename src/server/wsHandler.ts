@@ -173,12 +173,9 @@ export class WebSocketHandler {
   }
 
   public broadcastRoom(roomCode: string, room: RoomState) {
+    // Send a single unified update message — avoid double-broadcasting the same payload
     this.broadcastToRoom(roomCode, {
       type: 'SYNC_STATE',
-      room,
-    });
-    this.broadcastToRoom(roomCode, {
-      type: 'room_update',
       room,
     });
   }

@@ -70,6 +70,20 @@ export const MatchView: React.FC<MatchViewProps> = ({
   const [activeShout, setActiveShout] = useState<{ shout: TouchlineShout; label: string; expiresAtSec: number } | null>(null);
   const [shoutCooldownUntil, setShoutCooldownUntil] = useState<number>(0);
   const [isDugoutOpen, setIsDugoutOpen] = useState(false);
+  // Reactive clock for shout cooldown display — updates every second while cooldown is active
+  const [now, setNow] = useState(Date.now());
+
+  useEffect(() => {
+    if (shoutCooldownUntil <= 0) return;
+    const interval = setInterval(() => {
+      const current = Date.now();
+      setNow(current);
+      if (current >= shoutCooldownUntil) {
+        clearInterval(interval);
+      }
+    }, 500);
+    return () => clearInterval(interval);
+  }, [shoutCooldownUntil]);
 
   const hasAutoOpenedModal = useRef(false);
   const eventFeedRef = useRef<HTMLDivElement>(null);
@@ -103,12 +117,22 @@ export const MatchView: React.FC<MatchViewProps> = ({
     }
   };
 
-  // Automatically trigger Winner Result popup and victory fanfare when match finishes
+  // Automatically trigger Winner Result popup and appropriate audio when match finishes
   useEffect(() => {
     if (liveMatch.status === 'completed' && !hasAutoOpenedModal.current) {
       hasAutoOpenedModal.current = true;
       setShowResultModal(true);
-      soundManager.playVictoryFanfare();
+      // Only play victory fanfare if the user (host) actually won.
+      // A draw or loss should not play celebratory audio.
+      if (liveMatch.winner === 'host') {
+        soundManager.playVictoryFanfare();
+      } else if (liveMatch.winner === 'guest') {
+        // Play a softer defeat signal (reuse whistle — distinct from fanfare)
+        soundManager.playWhistle();
+      } else {
+        // Draw — neutral whistle
+        soundManager.playWhistle();
+      }
     }
   }, [liveMatch.status]);
 
@@ -470,9 +494,9 @@ export const MatchView: React.FC<MatchViewProps> = ({
               <div className="grid grid-cols-3 gap-1.5 flex-1 sm:flex-none">
                 <button
                   type="button"
-                  onClick={() => handleMentalitySelect('defend')}
+                  onClick={() => handleMentalitySelect('defensive')}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
-                    currentMentality === 'defend'
+                    currentMentality === 'defensive'
                       ? 'bg-blue-600 text-white shadow-md border border-blue-400 ring-2 ring-blue-500/40'
                       : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
                   }`}
@@ -496,9 +520,9 @@ export const MatchView: React.FC<MatchViewProps> = ({
                 </button>
                 <button
                   type="button"
-                  onClick={() => handleMentalitySelect('attack')}
+                  onClick={() => handleMentalitySelect('attacking')}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
-                    currentMentality === 'attack'
+                    currentMentality === 'attacking'
                       ? 'bg-rose-600 text-white shadow-md border border-rose-400 ring-2 ring-rose-500/40 animate-pulse'
                       : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
                   }`}
@@ -584,9 +608,9 @@ export const MatchView: React.FC<MatchViewProps> = ({
               <div className="space-y-1.5">
                 <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wider flex items-center justify-between">
                   <span>📢 Touchline Shouts</span>
-                  {Date.now() < shoutCooldownUntil && (
+                  {now < shoutCooldownUntil && (
                     <span className="font-mono text-tactical-400">
-                      Cooldown ({Math.ceil((shoutCooldownUntil - Date.now()) / 1000)}s)
+                      Cooldown ({Math.ceil((shoutCooldownUntil - now) / 1000)}s)
                     </span>
                   )}
                 </span>
@@ -599,7 +623,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
                     <button
                       key={sh.id}
                       type="button"
-                      disabled={Date.now() < shoutCooldownUntil}
+                      disabled={now < shoutCooldownUntil}
                       onClick={() => handleShout(sh.id as TouchlineShout, sh.label)}
                       className="p-1.5 rounded-lg text-[10px] font-bold bg-gold-500/15 hover:bg-gold-500/25 disabled:opacity-40 disabled:cursor-not-allowed text-gold-300 border border-gold-500/40 text-center active:scale-95 transition-all truncate"
                     >

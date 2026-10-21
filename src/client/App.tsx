@@ -544,6 +544,40 @@ export const App: React.FC = () => {
         // Ignore close error
       }
     }
+
+    // Record quick match (solo AI or multiplayer) result to career stats if match was completed.
+    // Tournament matches and Dream Team matches are recorded separately above.
+    if (liveMatch && liveMatch.status === 'completed') {
+      try {
+        const userScore = mySeat === 'host' ? liveMatch.score.host : liveMatch.score.guest;
+        const opponentScore = mySeat === 'host' ? liveMatch.score.guest : liveMatch.score.host;
+        const opponentName =
+          (mySeat === 'host' ? room?.guestDraft?.playerName : room?.hostDraft?.playerName) ||
+          'Opponent';
+        const isWin =
+          userScore > opponentScore ||
+          (liveMatch.penaltyScore
+            ? (mySeat === 'host'
+                ? liveMatch.penaltyScore.host > liveMatch.penaltyScore.guest
+                : liveMatch.penaltyScore.guest > liveMatch.penaltyScore.host)
+            : false);
+        const isDraw =
+          userScore === opponentScore &&
+          !liveMatch.penaltyScore;
+
+        profileService.recordMatch({
+          opponentName,
+          score: `${userScore}-${opponentScore}`,
+          result: isWin ? 'win' : isDraw ? 'draw' : 'loss',
+          stage: room?.mode === 'solo' ? 'QUICK MATCH (AI)' : 'MULTIPLAYER',
+          goalsScored: userScore,
+          goalsConceded: opponentScore,
+        });
+      } catch (e) {
+        console.error('Error recording quick match result:', e);
+      }
+    }
+
     setRoom(null);
     setToken(null);
     setLiveMatch(null);
