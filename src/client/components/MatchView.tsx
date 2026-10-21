@@ -266,6 +266,8 @@ export const MatchView: React.FC<MatchViewProps> = ({
   // Active event on pitch
   const latestEvent = liveMatch.events[liveMatch.events.length - 1];
   const ballPos = latestEvent?.pitchLocation || { x: 50, y: 50 };
+  const clampedX = Math.max(14, Math.min(86, ballPos.x));
+  const clampedY = Math.max(18, Math.min(82, ballPos.y));
 
   // Render a single player row (showRating=false during simulation, true after full-time)
   const renderPlayerRow = (r: PlayerMatchRating, showRating = false) => (
@@ -715,41 +717,56 @@ export const MatchView: React.FC<MatchViewProps> = ({
               </div>
 
               {/* Distinct Visual Pitch Animations */}
-              {/* 1. Goal Event: Distinctly styled by scoring team (Host = Emerald, Guest = Orange) */}
+              {/* 1. Goal Event: Broadcast Graphic + Pitch Ripple */}
               {latestEvent && latestEvent.type === 'goal' && (
-                <div
-                  className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center"
-                  style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
-                >
+                <>
+                  {/* Ball Ripple (Clamped to prevent clipping) */}
                   <div
-                    className={`w-16 h-16 rounded-full border-4 animate-ping ${
-                      latestEvent.team === 'host'
-                        ? 'border-emerald-400 shadow-[0_0_25px_rgba(52,211,153,0.9)]'
-                        : 'border-orange-400 shadow-[0_0_25px_rgba(249,115,22,0.9)]'
-                    }`}
-                  />
-                  <span
-                    className={`font-mono font-black text-xs px-2.5 py-0.5 rounded shadow-lg uppercase tracking-wider mt-1 animate-bounce ${
-                      latestEvent.team === 'host'
-                        ? 'bg-emerald-500 text-tactical-950'
-                        : 'bg-orange-500 text-white'
-                    }`}
+                    className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20"
+                    style={{ left: `${clampedX}%`, top: `${clampedY}%` }}
                   >
-                    ⚽ {latestEvent.team === 'host' ? hostName : guestName} GOAL!
-                  </span>
-                </div>
+                    <div
+                      className={`w-14 h-14 rounded-full border-4 animate-ping ${
+                        latestEvent.team === 'host'
+                          ? 'border-emerald-400 shadow-[0_0_25px_rgba(52,211,153,0.9)]'
+                          : 'border-orange-400 shadow-[0_0_25px_rgba(249,115,22,0.9)]'
+                      }`}
+                    />
+                  </div>
+
+                  {/* Centered TV Broadcast Goal Banner */}
+                  <div className="absolute inset-0 z-30 flex items-center justify-center pointer-events-none p-3">
+                    <div
+                      className={`px-4 py-2 sm:px-6 sm:py-2.5 rounded-xl border-2 shadow-2xl flex flex-col items-center animate-bounce backdrop-blur-sm ${
+                        latestEvent.team === 'host'
+                          ? 'bg-emerald-950/95 border-emerald-400 text-emerald-100 shadow-[0_0_30px_rgba(52,211,153,0.7)]'
+                          : 'bg-orange-950/95 border-orange-400 text-orange-100 shadow-[0_0_30px_rgba(249,115,22,0.7)]'
+                      }`}
+                    >
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-base sm:text-lg">⚽</span>
+                        <span className="font-mono font-black text-xs sm:text-sm tracking-widest uppercase">
+                          GOAL!
+                        </span>
+                      </div>
+                      <span className="text-[11px] sm:text-xs font-bold text-white/95 truncate max-w-[200px] text-center whitespace-nowrap">
+                        {latestEvent.team === 'host' ? hostName : guestName}
+                      </span>
+                    </div>
+                  </div>
+                </>
               )}
 
               {/* 2. Yellow Card Event: Physical Yellow Referee Card Popup */}
               {latestEvent && latestEvent.type === 'yellow_card' && (
                 <div
                   className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center animate-bounce"
-                  style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
+                  style={{ left: `${clampedX}%`, top: `${clampedY}%` }}
                 >
                   <div className="w-5 h-7 rounded-xs bg-yellow-400 border-2 border-yellow-100 shadow-[0_0_18px_rgba(250,204,21,1)] flex items-center justify-center font-bold text-[10px] text-yellow-950 font-mono">
                     !
                   </div>
-                  <span className="font-mono font-bold text-[10px] px-1.5 py-0.5 rounded bg-amber-950/95 border border-yellow-400 text-yellow-300 shadow-md uppercase tracking-wider mt-1">
+                  <span className="font-mono font-bold text-[10px] px-1.5 py-0.5 rounded bg-amber-950/95 border border-yellow-400 text-yellow-300 shadow-md uppercase tracking-wider mt-1 whitespace-nowrap">
                     🟨 CARD
                   </span>
                 </div>
@@ -759,27 +776,27 @@ export const MatchView: React.FC<MatchViewProps> = ({
               {latestEvent && latestEvent.type === 'save' && (
                 <div
                   className="absolute -translate-x-1/2 -translate-y-1/2 pointer-events-none z-30 flex flex-col items-center"
-                  style={{ left: `${ballPos.x}%`, top: `${ballPos.y}%` }}
+                  style={{ left: `${clampedX}%`, top: `${clampedY}%` }}
                 >
                   <div className="w-14 h-14 rounded-full border-3 border-cyan-400 shadow-[0_0_20px_rgba(34,211,238,0.8)] animate-ping" />
-                  <span className="font-mono font-bold text-[10px] px-1.5 py-0.5 rounded bg-cyan-950/90 border border-cyan-400 text-cyan-300 shadow-md uppercase tracking-wider mt-1">
+                  <span className="font-mono font-bold text-[10px] px-1.5 py-0.5 rounded bg-cyan-950/90 border border-cyan-400 text-cyan-300 shadow-md uppercase tracking-wider mt-1 whitespace-nowrap">
                     🧤 SAVE
                   </span>
                 </div>
               )}
 
               {/* Team labels on pitch */}
-              <div className="absolute top-3 left-3 text-[11px] font-mono text-pitch-line/90 uppercase tracking-wider font-bold">
+              <div className="absolute top-2.5 left-2.5 text-[10px] sm:text-[11px] font-mono text-pitch-line/95 uppercase tracking-wider font-bold bg-tactical-950/75 px-2 py-0.5 rounded border border-pitch-line/30 backdrop-blur-xs select-none">
                 {hostName} (ATTACK →)
               </div>
-              <div className="absolute bottom-3 right-3 text-[11px] font-mono text-pitch-line/90 uppercase tracking-wider font-bold">
+              <div className="absolute bottom-2.5 right-2.5 text-[10px] sm:text-[11px] font-mono text-pitch-line/95 uppercase tracking-wider font-bold bg-tactical-950/75 px-2 py-0.5 rounded border border-pitch-line/30 backdrop-blur-xs select-none">
                 (← ATTACK) {guestName}
               </div>
             </div>
 
             {/* Active Highlight Banner (Differentiated by event & scoring team) */}
             <div
-              className={`mt-3 p-2.5 rounded-lg border text-xs flex items-center gap-2.5 transition-all shadow-md ${
+              className={`mt-3 p-2.5 rounded-lg border text-xs flex flex-col sm:flex-row items-start sm:items-center gap-2 transition-all shadow-md ${
                 latestEvent?.type === 'goal'
                   ? latestEvent.team === 'host'
                     ? 'bg-emerald-950/90 border-emerald-400 text-emerald-100 ring-2 ring-emerald-400/50'
@@ -793,13 +810,13 @@ export const MatchView: React.FC<MatchViewProps> = ({
                   : 'bg-tactical-900 border-tactical-700/60 text-tactical-200'
               }`}
             >
-              <span className="font-mono font-black text-sm shrink-0 px-2 py-0.5 rounded bg-tactical-950/80 border border-tactical-700">
-                {latestEvent ? `${latestEvent.minute ?? latestEvent.second}'` : '0\''}
-              </span>
-              <div className="flex items-center gap-2 min-w-0 flex-1">
+              <div className="flex items-center gap-2 shrink-0">
+                <span className="font-mono font-black text-xs shrink-0 px-2 py-0.5 rounded bg-tactical-950/80 border border-tactical-700">
+                  {latestEvent ? `${latestEvent.minute ?? latestEvent.second}'` : '0\''}
+                </span>
                 {latestEvent?.type === 'goal' && (
                   <span
-                    className={`px-2 py-0.5 rounded font-black font-mono text-[11px] uppercase tracking-wider shrink-0 animate-pulse ${
+                    className={`px-2 py-0.5 rounded font-black font-mono text-[10px] sm:text-[11px] uppercase tracking-wider shrink-0 animate-pulse whitespace-nowrap ${
                       latestEvent.team === 'host'
                         ? 'bg-emerald-500 text-tactical-950'
                         : 'bg-orange-500 text-white'
@@ -809,25 +826,25 @@ export const MatchView: React.FC<MatchViewProps> = ({
                   </span>
                 )}
                 {latestEvent?.type === 'yellow_card' && (
-                  <span className="px-2 py-0.5 rounded bg-yellow-400 text-tactical-950 font-bold font-mono text-[11px] uppercase tracking-wider shrink-0 flex items-center gap-1">
+                  <span className="px-2 py-0.5 rounded bg-yellow-400 text-tactical-950 font-bold font-mono text-[10px] sm:text-[11px] uppercase tracking-wider shrink-0 flex items-center gap-1 whitespace-nowrap">
                     <span className="inline-block w-2.5 h-3.5 bg-yellow-300 rounded-xs border border-yellow-100 shadow-xs"></span>
                     YELLOW CARD
                   </span>
                 )}
                 {latestEvent?.type === 'save' && (
-                  <span className="px-2 py-0.5 rounded bg-cyan-500 text-tactical-950 font-bold font-mono text-[11px] uppercase tracking-wider shrink-0">
+                  <span className="px-2 py-0.5 rounded bg-cyan-500 text-tactical-950 font-bold font-mono text-[10px] sm:text-[11px] uppercase tracking-wider shrink-0 whitespace-nowrap">
                     🧤 SAVE
                   </span>
                 )}
-                <span className="font-medium truncate">
-                  {latestEvent ? latestEvent.description : 'Match underway.'}
-                </span>
+              </div>
+              <div className="font-medium text-xs text-tactical-200 flex-1 leading-snug">
+                {latestEvent ? latestEvent.description : 'Match underway.'}
               </div>
             </div>
           </div>
 
           {/* Authoritative Highlight Feed (5 cols) */}
-          <div className="lg:col-span-5 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col h-[380px] lg:h-auto">
+          <div className="lg:col-span-5 bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 flex flex-col h-[340px] lg:h-auto">
             <div className="flex items-center justify-between pb-2 mb-2 border-b border-tactical-700 text-xs">
               <span className="font-semibold text-tactical-200">
                 Match Highlights ({liveMatch.events.length})
@@ -839,7 +856,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
 
             <div
               ref={eventFeedRef}
-              className="flex-1 overflow-y-auto space-y-2 pr-1 text-xs"
+              className="flex-1 overflow-y-auto space-y-2 pr-1 text-xs smooth-scroll"
             >
               {liveMatch.events.length === 0 ? (
                 <div className="text-tactical-500 text-center py-10 italic">

@@ -119,6 +119,10 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
         if (e.target === e.currentTarget) onClose();
       }}
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-fade-in"
+      style={{
+        paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+        paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)',
+      }}
     >
       <div className="bg-tactical-900 border border-tactical-700 rounded-2xl w-full max-w-2xl shadow-2xl overflow-hidden max-h-[92vh] flex flex-col">
         {/* Header */}

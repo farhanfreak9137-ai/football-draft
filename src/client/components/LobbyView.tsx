@@ -120,8 +120,8 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
       {/* Header Banner */}
       <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-6 shadow-xl relative overflow-hidden">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div className="flex items-start gap-4">
-            <Logo size={56} className="mt-1 hidden sm:inline-flex" />
+          <div className="flex items-start gap-3 sm:gap-4">
+            <Logo size={44} className="mt-0.5 shrink-0" />
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <span className="font-mono text-xs uppercase px-2 py-0.5 rounded bg-pitch-DEFAULT/30 text-pitch-accent border border-pitch-line/50">

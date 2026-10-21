@@ -107,6 +107,10 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-tactical-950/85 backdrop-blur-md animate-fade-in"
+      style={{
+        paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+        paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)',
+      }}
       role="dialog"
       aria-modal="true"
       aria-labelledby="match-result-title"

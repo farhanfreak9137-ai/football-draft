@@ -91,6 +91,10 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose })
         if (e.target === e.currentTarget) onClose();
       }}
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in"
+      style={{
+        paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+        paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)',
+      }}
     >
       <div className="bg-tactical-850 border border-tactical-700 rounded-xl w-full max-w-lg shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
         {/* Header */}

@@ -834,13 +834,20 @@ export const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-tactical-900 text-tactical-100 flex flex-col justify-between selection:bg-pitch-accent selection:text-tactical-950 font-sans">
-      {/* Global Top Navbar */}
-      <header className="border-b border-tactical-700/80 bg-tactical-850 px-4 py-3 sticky top-0 z-40 backdrop-blur shadow-md">
+      {/* Global Top Navbar with Mobile Safe-Area padding */}
+      <header
+        className="border-b border-tactical-700/80 bg-tactical-850 px-4 pb-3 sticky top-0 z-40 backdrop-blur shadow-md"
+        style={{
+          paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+          paddingLeft: 'max(env(safe-area-inset-left, 0px), 16px)',
+          paddingRight: 'max(env(safe-area-inset-right, 0px), 16px)',
+        }}
+      >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5 sm:gap-3">
             <Logo size={34} />
             <div className="min-w-0">
-              <span className="font-extrabold text-xs sm:text-base tracking-tight text-tactical-100 truncate block sm:inline max-w-[150px] sm:max-w-none">
+              <span className="font-extrabold text-xs sm:text-base tracking-tight text-tactical-100 truncate block sm:inline max-w-[190px] sm:max-w-none">
                 HISTORICAL FOOTBALL SIMULATOR
               </span>
               <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-pitch-accent">
@@ -1261,8 +1268,11 @@ export const App: React.FC = () => {
         )}
       </main>
 
-      {/* Global Footer */}
-      <footer className="border-t border-tactical-800 bg-tactical-900 px-4 py-3 text-center text-xs text-tactical-500 font-mono">
+      {/* Global Footer with Safe-Area Bottom */}
+      <footer
+        className="border-t border-tactical-800 bg-tactical-900 px-4 pt-3 text-center text-xs text-tactical-500 font-mono"
+        style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)' }}
+      >
         Historical Football Simulator Engine • FIFA World Cup (1950–2026) • Server-Authoritative PRNG
       </footer>
 

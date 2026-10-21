@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { FormationSlot, PlayerVersion, TeamEdition } from '../../shared/types/index.js';
 import { isPlayerEligibleForSlot } from '../../shared/constants/formations.js';
 import { PlayerCard } from './PlayerCard.js';
@@ -147,8 +147,47 @@ export const RosterList: React.FC<RosterListProps> = ({
     };
   }).filter((group) => group.items.length > 0);
 
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const lastEditionId = useRef<string | null>(null);
+
+  const scrollToCategory = (catId: string) => {
+    const el = document.getElementById(`cat-group-${catId}`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  // Auto-scroll to first category with eligible players when turn starts or edition rolls
+  useEffect(() => {
+    if (!edition || !isMyTurn) return;
+    const currentKey = `${edition.id || edition.teamName}-${draftedPlayerIds.length}`;
+    if (lastEditionId.current !== currentKey) {
+      lastEditionId.current = currentKey;
+      const firstEligibleGroup = groupedPlayers.find((g) => g.items.some((i) => i.eligible));
+      if (firstEligibleGroup && firstEligibleGroup.id !== groupedPlayers[0]?.id) {
+        const timer = setTimeout(() => {
+          scrollToCategory(firstEligibleGroup.id);
+        }, 120);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [edition?.id, edition?.teamName, isMyTurn, draftedPlayerIds.length]);
+
+  // Auto-scroll selected player and 1-Tap assign buttons into clear view
+  useEffect(() => {
+    if (selectedPlayerId) {
+      const el = document.getElementById(`player-card-${selectedPlayerId}`);
+      if (el) {
+        const timer = setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 60);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [selectedPlayerId]);
+
   return (
-    <div className="bg-tactical-850 border border-tactical-700/60 rounded-lg p-3 space-y-2.5">
+    <div className="bg-tactical-850 border border-tactical-700/60 rounded-lg p-3 space-y-2.5 shadow-lg">
       {/* Minimalist Header bar */}
       <div className="flex items-center justify-between border-b border-tactical-700/70 pb-2">
         <div className="min-w-0 pr-2">
@@ -195,10 +234,45 @@ export const RosterList: React.FC<RosterListProps> = ({
         </div>
       </div>
 
-      {/* Categorized Roster List (Clean scrollable sections: GK, DEF, MID, ATT) */}
-      <div className="space-y-3 max-h-[580px] overflow-y-auto pr-1">
+      {/* Quick Category Jump Bar with Auto-Scroll navigation */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 pt-0.5 no-scrollbar select-none">
+        {groupedPlayers.map((cat) => {
+          const eligibleCount = cat.items.filter((i) => i.eligible).length;
+          const isNeeded = eligibleCount > 0;
+          return (
+            <button
+              key={cat.id}
+              type="button"
+              onClick={() => scrollToCategory(cat.id)}
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold shrink-0 transition-all flex items-center gap-1.5 border active:scale-95 ${
+                isNeeded
+                  ? 'bg-tactical-800 hover:bg-tactical-750 text-tactical-100 border-tactical-600 shadow-xs'
+                  : 'bg-tactical-900/60 text-tactical-500 border-tactical-800 opacity-60'
+              }`}
+            >
+              <span>{cat.icon}</span>
+              <span>{cat.label}</span>
+              <span
+                className={`text-[10px] font-mono px-1.5 py-0.2 rounded font-bold ${
+                  isNeeded
+                    ? 'bg-pitch-DEFAULT/30 text-pitch-accent border border-pitch-line/40'
+                    : 'bg-tactical-800 text-tactical-500'
+                }`}
+              >
+                {eligibleCount}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Categorized Roster List (Smooth natural mobile scrolling with section jump anchors) */}
+      <div
+        ref={scrollContainerRef}
+        className="space-y-3.5 max-h-[68vh] sm:max-h-[600px] overflow-y-auto smooth-scroll pr-1 pb-4"
+      >
         {groupedPlayers.map((group) => (
-          <div key={group.id} className="space-y-1.5">
+          <div key={group.id} id={`cat-group-${group.id}`} className="space-y-1.5 scroll-mt-2">
             {/* Minimalist Section Header */}
             <div className="sticky top-0 z-10 bg-tactical-850/95 backdrop-blur-sm py-1 border-b border-tactical-700/60 flex items-center justify-between">
               <div className="flex items-center gap-1.5 text-xs font-bold text-tactical-200 uppercase tracking-wide">
@@ -215,7 +289,7 @@ export const RosterList: React.FC<RosterListProps> = ({
               {group.items.map(({ player, eligible, reason, isTakenByOpponent, matchingSlots }) => {
                 const isSelected = selectedPlayerId === player.id;
                 return (
-                  <div key={player.id} className="flex flex-col">
+                  <div key={player.id} id={`player-card-${player.id}`} className="flex flex-col scroll-mt-4">
                     <PlayerCard
                       player={player}
                       eligible={eligible}

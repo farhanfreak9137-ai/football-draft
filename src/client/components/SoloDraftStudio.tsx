@@ -291,8 +291,15 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 bg-tactical-950/95 backdrop-blur-md flex flex-col overflow-y-auto">
-      {/* Header Bar */}
-      <header className="sticky top-0 z-20 border-b border-tactical-800 bg-tactical-900/90 backdrop-blur px-4 sm:px-6 py-3 flex items-center justify-between">
+      {/* Header Bar with Safe-Area Padding */}
+      <header
+        className="sticky top-0 z-20 border-b border-tactical-800 bg-tactical-900/95 backdrop-blur px-4 sm:px-6 pb-3 flex items-center justify-between"
+        style={{
+          paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+          paddingLeft: 'max(env(safe-area-inset-left, 0px), 16px)',
+          paddingRight: 'max(env(safe-area-inset-right, 0px), 16px)',
+        }}
+      >
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-gold-400">
             {draftMode === 'five_card' ? (

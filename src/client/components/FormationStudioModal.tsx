@@ -340,6 +340,10 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-tactical-950/85 backdrop-blur-md overflow-y-auto"
+      style={{
+        paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+        paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)',
+      }}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
     >
