@@ -170,6 +170,49 @@ class SoundManager {
     osc.stop(ctx.currentTime + 0.18);
   }
 
+  playShoutSound() {
+    if (!this.enabled) return;
+    const ctx = this.getContext();
+    if (!ctx) return;
+
+    // Distinct double touchline chirp for manager commands
+    [880, 1174].forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.08);
+      osc.frequency.exponentialRampToValueAtTime(freq * 1.2, ctx.currentTime + idx * 0.08 + 0.06);
+      gain.gain.setValueAtTime(this.volume * 0.22, ctx.currentTime + idx * 0.08);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + idx * 0.08 + 0.09);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(ctx.currentTime + idx * 0.08);
+      osc.stop(ctx.currentTime + idx * 0.08 + 0.09);
+    });
+  }
+
+  playDefeatSound() {
+    if (!this.enabled) return;
+    const ctx = this.getContext();
+    if (!ctx) return;
+
+    // Low, somber descending minor triad for defeat
+    const notes = [392.0, 329.63, 261.63]; // G4, E4, C4 minor descent
+    notes.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.16);
+      gain.gain.setValueAtTime(0.001, ctx.currentTime + idx * 0.16);
+      gain.gain.linearRampToValueAtTime(this.volume * 0.18, ctx.currentTime + idx * 0.16 + 0.04);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + idx * 0.16 + 0.35);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(ctx.currentTime + idx * 0.16);
+      osc.stop(ctx.currentTime + idx * 0.16 + 0.35);
+    });
+  }
+
   playVictoryFanfare() {
     if (!this.enabled) return;
     const ctx = this.getContext();

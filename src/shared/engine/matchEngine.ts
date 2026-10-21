@@ -67,7 +67,7 @@ export class MatchEngine {
     const ratingWeight = config.ratingWeight ?? 0.05;
     const regDuration = config.matchDurationSec || 45;
     const halfTimeSec = Math.floor(regDuration / 2);
-    const liveMentality: LiveMentality = config.liveMentality || 'balanced';
+    const liveMentality: LiveMentality = config.liveMentality || (hostDraft.strategy as LiveMentality) || 'balanced';
 
     const hostPlayers = Object.values(hostDraft.draftedSlots).map((s) => s.player);
     const guestPlayers = Object.values(guestDraft.draftedSlots).map((s) => s.player);
@@ -88,6 +88,12 @@ export class MatchEngine {
       ratingAdvantage += 0.08;
     } else if (liveMentality === 'defensive') {
       ratingAdvantage -= 0.04;
+    }
+
+    if (guestDraft.strategy === 'attacking') {
+      ratingAdvantage -= 0.08;
+    } else if (guestDraft.strategy === 'defensive') {
+      ratingAdvantage += 0.04;
     }
 
     // Base probability that an attack belongs to host (50% base + rating advantage)
@@ -177,20 +183,20 @@ export class MatchEngine {
     const actionChance = regDuration <= 45 ? 0.28 : regDuration <= 90 ? 0.22 : regDuration <= 180 ? 0.16 : 0.12;
 
     // Goal commentary — 12 distinct phrases (P2-2 fix)
-    const buildGoalPhrase = (scorer: PlayerVersion, assister: PlayerVersion, score: typeof currentScore) => {
+    const buildGoalPhrase = (scorer: PlayerVersion, assister: PlayerVersion, _score?: typeof currentScore) => {
       const phrases = [
-        `GOAL! ${scorer.name} clinically strikes into the bottom corner — a masterpiece finish! (${score.host}-${score.guest})`,
-        `GOAL! ${scorer.name} unleashes a thunderous volley into the top corner! ${assister.name}'s vision was impeccable. (${score.host}-${score.guest})`,
-        `GOAL! ${scorer.name} rises highest and powers an unstoppable header home from ${assister.name}'s delivery! (${score.host}-${score.guest})`,
-        `GOAL! Individual brilliance from ${scorer.name} — dribbles past two defenders and slots home! (${score.host}-${score.guest})`,
-        `GOAL! ${scorer.name} latches onto ${assister.name}'s perfectly weighted through ball and finishes with composure! (${score.host}-${score.guest})`,
-        `GOAL! A sweeping move — ${assister.name} threads the needle, ${scorer.name} does the rest! (${score.host}-${score.guest})`,
-        `GOAL! ${scorer.name} ghosts into the box unmarked and tucks it into the far corner. Clinical! (${score.host}-${score.guest})`,
-        `GOAL! Counter-attack at lightning pace — ${scorer.name} rounds the keeper and strokes it home. (${score.host}-${score.guest})`,
-        `GOAL! ${scorer.name} with a first-time volley — pure technique! (${score.host}-${score.guest})`,
-        `GOAL! The crowd goes wild! ${scorer.name} finishes from close range after ${assister.name}'s precise delivery. (${score.host}-${score.guest})`,
-        `GOAL! ${scorer.name} with an audacious chip over the advancing goalkeeper! (${score.host}-${score.guest})`,
-        `GOAL! A moment of genius from ${scorer.name} — a curled effort into the top corner from outside the box! (${score.host}-${score.guest})`,
+        `GOAL! ${scorer.name} clinically strikes into the bottom corner — a masterpiece finish!`,
+        `GOAL! ${scorer.name} unleashes a thunderous volley into the top corner! ${assister.name}'s vision was impeccable.`,
+        `GOAL! ${scorer.name} rises highest and powers an unstoppable header home from ${assister.name}'s delivery!`,
+        `GOAL! Individual brilliance from ${scorer.name} — dribbles past two defenders and slots home!`,
+        `GOAL! ${scorer.name} latches onto ${assister.name}'s perfectly weighted through ball and finishes with composure!`,
+        `GOAL! A sweeping move — ${assister.name} threads the needle, ${scorer.name} does the rest!`,
+        `GOAL! ${scorer.name} ghosts into the box unmarked and tucks it into the far corner. Clinical!`,
+        `GOAL! Counter-attack at lightning pace — ${scorer.name} rounds the keeper and strokes it home.`,
+        `GOAL! ${scorer.name} with a first-time volley — pure technique!`,
+        `GOAL! The crowd goes wild! ${scorer.name} finishes from close range after ${assister.name}'s precise delivery.`,
+        `GOAL! ${scorer.name} with an audacious chip over the advancing goalkeeper!`,
+        `GOAL! A moment of genius from ${scorer.name} — a curled effort into the top corner from outside the box!`,
       ];
       return prng.pickOne(phrases);
     };
@@ -350,9 +356,9 @@ export class MatchEngine {
             currentScore[attackingTeam]++;
             stats[attackingTeam].shotsOnTarget++;
             const fkGoalPhrases = [
-              `FREE-KICK GOAL! ${setPieceTaker.name} whips an unstoppable curler over the wall into the top corner! (${currentScore.host}-${currentScore.guest})`,
-              `STUNNING SET PIECE! ${setPieceTaker.name} bends it perfectly beyond the despairing dive of the keeper! (${currentScore.host}-${currentScore.guest})`,
-              `DIRECT FREE-KICK GOAL! ${setPieceTaker.name} — a technique carved from granite. Absolutely world-class! (${currentScore.host}-${currentScore.guest})`,
+              `FREE-KICK GOAL! ${setPieceTaker.name} whips an unstoppable curler over the wall into the top corner!`,
+              `STUNNING SET PIECE! ${setPieceTaker.name} bends it perfectly beyond the despairing dive of the keeper!`,
+              `DIRECT FREE-KICK GOAL! ${setPieceTaker.name} — a technique carved from granite. Absolutely world-class!`,
             ];
             events.push(createEvent(
               sec,
@@ -465,7 +471,7 @@ export class MatchEngine {
               'extra_time_1',
               'goal',
               attackingTeam,
-              `EXTRA TIME GOAL! Dramatic finish by ${scorer.name} after a through-ball from ${assister.name}! (${currentScore.host}-${currentScore.guest})`,
+              `EXTRA TIME GOAL! Dramatic finish by ${scorer.name} after a through-ball from ${assister.name}!`,
               scorer,
               assister,
               { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
@@ -520,9 +526,9 @@ export class MatchEngine {
             stats[attackingTeam].shots++;
             stats[attackingTeam].shotsOnTarget++;
             const etGoalPhrases = [
-              `LATE DRAMA! ${scorer.name} strikes in the dying moments of extra time! (${currentScore.host}-${currentScore.guest})`,
-              `GOLDEN GOAL! ${scorer.name} ends the contest in extra time! Scenes of jubilation! (${currentScore.host}-${currentScore.guest})`,
-              `INCREDIBLE! ${assister.name} releases ${scorer.name} and he finishes emphatically to break the deadlock! (${currentScore.host}-${currentScore.guest})`,
+              `LATE DRAMA! ${scorer.name} strikes in the dying moments of extra time!`,
+              `GOLDEN GOAL! ${scorer.name} ends the contest in extra time! Scenes of jubilation!`,
+              `INCREDIBLE! ${assister.name} releases ${scorer.name} and he finishes emphatically to break the deadlock!`,
             ];
             events.push(createEvent(
               sec,

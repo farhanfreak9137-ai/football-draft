@@ -842,10 +842,10 @@ export const App: React.FC = () => {
             </div>
             <div>
               <span className="font-extrabold text-sm sm:text-base tracking-tight text-tactical-100">
-                HISTORICAL FOOTBALL DRAFT
+                HISTORICAL FOOTBALL SIMULATOR
               </span>
-              <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-tactical-400">
-                v1.0 (Luck-First Sim)
+              <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-pitch-accent">
+                v1.0 (Tactical Sim)
               </span>
             </div>
           </div>
@@ -1264,7 +1264,7 @@ export const App: React.FC = () => {
 
       {/* Global Footer */}
       <footer className="border-t border-tactical-800 bg-tactical-900 px-4 py-3 text-center text-xs text-tactical-500 font-mono">
-        Historical Football Draft Engine • FIFA World Cup (1950–2026) • Server-Authoritative PRNG
+        Historical Football Simulator Engine • FIFA World Cup (1950–2026) • Server-Authoritative PRNG
       </footer>
 
       {/* Modals */}

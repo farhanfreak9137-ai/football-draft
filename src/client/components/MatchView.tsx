@@ -108,7 +108,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
   const handleShout = (shout: TouchlineShout, label: string) => {
     const now = Date.now();
     if (now < shoutCooldownUntil) return;
-    soundManager.playPickSound();
+    soundManager.playShoutSound();
     const curSec = liveMatch.currentSecond || 0;
     setActiveShout({ shout, label, expiresAtSec: curSec + 15 });
     setShoutCooldownUntil(now + 25000); // 25s cooldown
@@ -122,15 +122,13 @@ export const MatchView: React.FC<MatchViewProps> = ({
     if (liveMatch.status === 'completed' && !hasAutoOpenedModal.current) {
       hasAutoOpenedModal.current = true;
       setShowResultModal(true);
-      // Only play victory fanfare if the user (host) actually won.
-      // A draw or loss should not play celebratory audio.
+      // Play outcome-specific sound
       if (liveMatch.winner === 'host') {
         soundManager.playVictoryFanfare();
       } else if (liveMatch.winner === 'guest') {
-        // Play a softer defeat signal (reuse whistle — distinct from fanfare)
-        soundManager.playWhistle();
+        soundManager.playDefeatSound();
       } else {
-        // Draw — neutral whistle
+        // Draw — neutral final whistle
         soundManager.playWhistle();
       }
     }

@@ -225,4 +225,82 @@ describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)',
     expect(MatchEngine.calculateVisualMinute(90, 180)).toBe(45);
     expect(MatchEngine.calculateVisualMinute(180, 180)).toBe(90);
   });
+
+  it('produces realistic average goal counts across large match sample (P2-1 tuning test)', () => {
+    const hostDraft = createTestSquad('brazil-1970', 'Brazil 1970');
+    const guestDraft = createTestSquad('italy-1982', 'Italy 1982');
+
+    let totalGoals = 0;
+    const SAMPLE_SIZE = 100;
+
+    for (let seed = 1; seed <= SAMPLE_SIZE; seed++) {
+      const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+        randomSeed: seed,
+        knockoutMode: false,
+      });
+      totalGoals += sim.finalScore.host + sim.finalScore.guest;
+    }
+
+    const avgGoals = totalGoals / SAMPLE_SIZE;
+    // Real football averages ~2.7 goals per match.
+    // Old implementation produced 6-8 goals per 45s match.
+    // With tuning, avgGoals should comfortably sit between 1.5 and 4.5.
+    expect(avgGoals).toBeGreaterThanOrEqual(1.5);
+    expect(avgGoals).toBeLessThanOrEqual(4.5);
+  });
+
+  it('correctly attributes live stats: saves credited to defending team, shots to attacker (P0-1 test)', () => {
+    const hostDraft = createTestSquad('france-1998', 'France 1998');
+    const guestDraft = createTestSquad('brazil-2002', 'Brazil 2002');
+
+    const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+      randomSeed: 4242,
+      knockoutMode: false,
+    });
+    sim.startTime = 100000;
+    sim.status = 'live';
+
+    // Calculate full authoritative state
+    const authoritative = MatchEngine.getAuthoritativeStateAtTime(sim, 100000 + 45000);
+
+    // Filter saves in the event feed
+    const saveEvents = authoritative.events.filter((e) => e.type === 'save');
+    expect(saveEvents.length).toBeGreaterThan(0);
+
+    for (const saveEvent of saveEvents) {
+      // In a save event, saveEvent.team is the defending team making the save
+      const defender = saveEvent.team;
+      const attacker = defender === 'host' ? 'guest' : 'host';
+
+      // Defender must have saves recorded
+      expect(authoritative.stats[defender].saves).toBeGreaterThan(0);
+      // Attacker must have shots recorded
+      expect(authoritative.stats[attacker].shots).toBeGreaterThan(0);
+    }
+  });
+
+  it('verifies tactical mentality values impact simulation outcomes (P0-2 test)', () => {
+    const hostDraftDef = createTestSquad('spain-2010', 'Spain Defensive');
+    hostDraftDef.strategy = 'defensive';
+    const guestDraft = createTestSquad('argentina-1986', 'Argentina Neutral');
+    guestDraft.strategy = 'balanced';
+
+    const hostDraftAtt = createTestSquad('spain-2010', 'Spain Attacking');
+    hostDraftAtt.strategy = 'attacking';
+
+    let defensiveHostGoals = 0;
+    let attackingHostGoals = 0;
+    const MATCH_COUNT = 150;
+
+    for (let seed = 1; seed <= MATCH_COUNT; seed++) {
+      const defSim = MatchEngine.simulateMatch(hostDraftDef, guestDraft, { randomSeed: seed });
+      defensiveHostGoals += defSim.finalScore.host;
+
+      const attSim = MatchEngine.simulateMatch(hostDraftAtt, guestDraft, { randomSeed: seed });
+      attackingHostGoals += attSim.finalScore.host;
+    }
+
+    // Attacking mentality generates more goals on average than defensive mentality
+    expect(attackingHostGoals).toBeGreaterThan(defensiveHostGoals);
+  });
 });

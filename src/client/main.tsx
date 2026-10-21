@@ -54,7 +54,7 @@ class ErrorBoundary extends React.Component<{ children: React.ReactNode }, Error
           }}>
             <div style={{ fontSize: '36px', marginBottom: '16px' }}>⚽</div>
             <h1 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '8px' }}>
-              Historical Football Draft
+              Historical Football Simulator
             </h1>
             <p style={{ fontSize: '14px', color: '#8899a6', marginBottom: '20px' }}>
               An error occurred while loading the game interface.

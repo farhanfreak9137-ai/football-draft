@@ -384,7 +384,7 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
   }
 
   // Active Tournament Hub View
-  const groupA = tournament.groups.find((g) => g.id === 'A')!;
+  const currentGroup = tournament.groups.find((g) => g.id === viewingGroup) || tournament.groups[0];
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
@@ -560,13 +560,34 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
       )}
 
       {/* GROUP STAGE STANDINGS TABLE (During Group Stages) */}
-      {tournament.currentRound.startsWith('group_match_') && (
+      {tournament.currentRound.startsWith('group_match_') && currentGroup && (
         <div className="bg-tactical-850 border border-tactical-700 rounded-xl p-5 shadow-lg space-y-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-wrap items-center justify-between gap-2">
             <h3 className="text-xs font-bold text-tactical-200 uppercase tracking-wider flex items-center gap-1.5">
               <Shield className="w-4 h-4 text-pitch-accent" />
-              <span>Group A Standings (Top 2 Advance to Round of 16)</span>
+              <span>Group {currentGroup.id} Standings (Top 2 Advance to Round of 16)</span>
             </h3>
+            {/* Group Switcher Tabs (A through H) */}
+            <div className="flex items-center gap-1 overflow-x-auto py-1">
+              {tournament.groups.map((grp) => {
+                const isSelected = (viewingGroup || 'A') === grp.id;
+                const hasUser = grp.teams.some((t) => t.isUser);
+                return (
+                  <button
+                    key={grp.id}
+                    onClick={() => setViewingGroup(grp.id)}
+                    title={`View Group ${grp.id}${hasUser ? ' (Your Group)' : ''}`}
+                    className={`px-2.5 py-1 rounded text-[11px] font-bold transition-all ${
+                      isSelected
+                        ? 'bg-pitch-DEFAULT text-tactical-100 border border-pitch-line shadow-sm'
+                        : 'bg-tactical-800 text-tactical-400 hover:text-tactical-200 border border-tactical-700'
+                    }`}
+                  >
+                    {grp.id}{hasUser ? ' ★' : ''}
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           <div className="overflow-x-auto">
@@ -584,7 +605,7 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
                 </tr>
               </thead>
               <tbody className="divide-y divide-tactical-750">
-                {groupA.teams.map((team, idx) => {
+                {currentGroup.teams.map((team, idx) => {
                   const isTop2 = idx < 2;
                   return (
                     <tr

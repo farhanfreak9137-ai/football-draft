@@ -160,7 +160,7 @@ export type DraftTurn = 'host' | 'guest';
 
 export interface RoomState {
   roomCode: string;
-  status: 'lobby' | 'drafting' | 'draft_complete' | 'match_ready' | 'simulating' | 'match_finished' | 'closed';
+  status: 'lobby' | 'drafting' | 'draft_complete' | 'simulating' | 'match_finished' | 'closed';
   mode: 'solo' | 'multiplayer';
   poolType: PoolType;
   createdAt: number;

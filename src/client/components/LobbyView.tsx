@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FormationDefinition, PoolType, Strategy, ManagerProfile } from '../../shared/types/index.js';
-import { FORMATION_PRESETS } from '../../shared/constants/formations.js';
+import { FormationSelector } from './FormationSelector.js';
 import { profileService } from '../services/profileService.js';
 import { messages } from '../i18n/messages.js';
 import {
@@ -81,8 +81,6 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
   const [strategy, setStrategy] = useState<Strategy>('balanced');
   const [matchFormat, setMatchFormat] = useState<'auto' | 'normal' | 'knockout'>('auto');
   const [joinCode, setJoinCode] = useState('');
-  const [showAllHostFormations, setShowAllHostFormations] = useState(false);
-  const [showAllGuestFormations, setShowAllGuestFormations] = useState(false);
 
   // Synchronize when a custom formation is selected from the studio
   React.useEffect(() => {
@@ -342,139 +340,16 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
             </div>
 
             {/* Formation Preset & Custom Formations */}
-            <div>
-              <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <label className="block text-xs font-semibold text-tactical-300 uppercase tracking-wider">
-                  {messages.lobby.selectFormation}
-                </label>
-                <button
-                  type="button"
-                  onClick={onOpenFormationStudio}
-                  className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 bg-tactical-800 hover:bg-tactical-700 text-pitch-accent border border-pitch-line/50 rounded-lg text-xs font-bold transition-all shadow-sm group"
-                >
-                  <Sparkles className="w-3.5 h-3.5 group-hover:rotate-12 transition-transform" />
-                  <span><span className="hidden sm:inline">Custom </span>Formation Studio</span>
-                </button>
-              </div>
-
-              {/* Selected Custom Formation Banner if active */}
-              {selectedCustomFormation && (
-                <div className="mb-2.5 p-3 rounded-lg bg-pitch-DEFAULT/15 border border-pitch-line/70 flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-pitch-accent animate-pulse" />
-                    <div>
-                      <div className="font-bold text-xs text-tactical-100 flex items-center gap-1.5">
-                        <span className="px-1.5 py-0.5 rounded text-[10px] bg-pitch-DEFAULT text-tactical-100 font-mono">
-                          CUSTOM ACTIVE
-                        </span>
-                        <span>{selectedCustomFormation.name}</span>
-                      </div>
-                      <div className="text-[11px] text-tactical-400 mt-0.5">
-                        {selectedCustomFormation.description}
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={onOpenFormationStudio}
-                    className="text-xs text-pitch-accent hover:underline font-semibold"
-                  >
-                    Edit Studio
-                  </button>
-                </div>
-              )}
-
-              {/* Custom Formations (if any) */}
-              {customFormations.length > 0 && (
-                <div className="mb-2.5 space-y-1">
-                  <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider">
-                    ✨ Custom Formations ({customFormations.length})
-                  </span>
-                  <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
-                    {customFormations.map((cf) => {
-                      const isSelected = selectedFormationId === cf.id && selectedCustomFormation?.id === cf.id;
-                      return (
-                        <div
-                          key={cf.id}
-                          onClick={() => {
-                            setSelectedFormationId(cf.id);
-                            onSelectCustomFormation(cf);
-                          }}
-                          className={`flex items-center justify-between px-3.5 py-2 cursor-pointer transition-colors ${
-                            isSelected
-                              ? 'bg-tactical-800 text-gold-400 font-bold'
-                              : 'hover:bg-tactical-850 text-tactical-200'
-                          }`}
-                        >
-                          <span className="text-xs font-semibold">{cf.name}</span>
-                          {isSelected ? (
-                            <span className="text-[11px] text-gold-400 font-bold flex items-center gap-1">
-                              <Check className="w-3.5 h-3.5" />
-                              <span>Active</span>
-                            </span>
-                          ) : (
-                            <span className="text-[10px] text-tactical-400 font-mono">Custom</span>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Preset Formations as clean lines */}
-              <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
-                {(showAllHostFormations
-                  ? Object.values(FORMATION_PRESETS)
-                  : Object.values(FORMATION_PRESETS).slice(0, 4)
-                ).map((f) => {
-                  const isSelected = selectedFormationId === f.id && !selectedCustomFormation;
-                  return (
-                    <div
-                      key={f.id}
-                      onClick={() => {
-                        setSelectedFormationId(f.id);
-                        onSelectCustomFormation(null);
-                      }}
-                      className={`flex items-center justify-between px-3.5 py-2 cursor-pointer transition-colors ${
-                        isSelected
-                          ? 'bg-tactical-800 text-pitch-accent font-bold'
-                          : 'hover:bg-tactical-850/80 text-tactical-200'
-                      }`}
-                    >
-                      <span className="text-xs font-semibold">{f.name}</span>
-                      {isSelected ? (
-                        <span className="text-[11px] text-pitch-accent font-bold flex items-center gap-1">
-                          <Check className="w-3.5 h-3.5" />
-                          <span>Active</span>
-                        </span>
-                      ) : (
-                        <span className="text-[10px] text-tactical-500 font-mono">Select →</span>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-
-              {/* Show More / Show Less Toggle Button */}
-              {!showAllHostFormations ? (
-                <button
-                  type="button"
-                  onClick={() => setShowAllHostFormations(true)}
-                  className="w-full mt-2 py-1.5 px-3 text-xs font-bold text-pitch-accent hover:text-pitch-light hover:bg-tactical-850 rounded-lg border border-dashed border-tactical-700 transition-all flex items-center justify-center gap-1.5"
-                >
-                  <span>Show More Formations ({Object.values(FORMATION_PRESETS).length - 4} more) ▾</span>
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  onClick={() => setShowAllHostFormations(false)}
-                  className="w-full mt-1.5 py-1 text-center text-[11px] font-bold text-tactical-400 hover:text-tactical-200 hover:bg-tactical-850 rounded-lg transition-all"
-                >
-                  <span>Show Less ▴</span>
-                </button>
-              )}
-            </div>
+            <FormationSelector
+              selectedFormationId={selectedFormationId}
+              selectedCustomFormation={selectedCustomFormation}
+              customFormations={customFormations}
+              onSelectFormation={(fid, custom) => {
+                setSelectedFormationId(fid);
+                onSelectCustomFormation(custom);
+              }}
+              onOpenFormationStudio={onOpenFormationStudio}
+            />
 
             {/* Strategy */}
             <div>
@@ -583,130 +458,17 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
               />
             </div>
 
-            <div>
-              <div className="flex items-center justify-between mb-2">
-                <label className="block text-xs font-semibold text-tactical-300 uppercase tracking-wider">
-                  {messages.lobby.selectFormation}
-                </label>
-                <button
-                  type="button"
-                  onClick={onOpenFormationStudio}
-                  className="flex items-center gap-1.5 px-2.5 py-1 bg-tactical-800 hover:bg-tactical-700 text-pitch-accent border border-pitch-line/50 rounded-lg text-xs font-bold transition-all shadow-sm group"
-                >
-                  <Sparkles className="w-3.5 h-3.5 group-hover:rotate-12 transition-transform" />
-                  <span>Custom Studio</span>
-                </button>
-              </div>
-
-              {selectedCustomFormation && (
-                <div className="mb-2 p-2 rounded-lg bg-pitch-DEFAULT/15 border border-pitch-line/70 flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-1.5 font-bold text-tactical-100 truncate">
-                    <span className="px-1 py-0.5 rounded text-[9px] bg-pitch-DEFAULT text-tactical-100 font-mono">
-                      CUSTOM
-                    </span>
-                    <span className="truncate">{selectedCustomFormation.name}</span>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={onOpenFormationStudio}
-                    className="text-[11px] text-pitch-accent hover:underline font-semibold shrink-0"
-                  >
-                    Edit
-                  </button>
-                </div>
-              )}
-
-              {/* Custom Formations (if any) */}
-              {customFormations.length > 0 && (
-                <div className="mb-2 space-y-1">
-                  <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wider">
-                    ✨ Custom Formations ({customFormations.length})
-                  </span>
-                  <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
-                    {customFormations.map((cf) => {
-                      const isSelected = selectedFormationId === cf.id && selectedCustomFormation?.id === cf.id;
-                      return (
-                        <div
-                          key={cf.id}
-                          onClick={() => {
-                            setSelectedFormationId(cf.id);
-                            onSelectCustomFormation(cf);
-                          }}
-                          className={`flex items-center justify-between px-3 py-1.5 cursor-pointer transition-colors ${
-                            isSelected
-                              ? 'bg-tactical-800 text-gold-400 font-bold'
-                              : 'hover:bg-tactical-850 text-tactical-200'
-                          }`}
-                        >
-                          <span className="text-xs font-semibold">{cf.name}</span>
-                          {isSelected ? (
-                            <span className="text-[10px] text-gold-400 font-bold flex items-center gap-1">
-                              <Check className="w-3 h-3" />
-                              <span>Active</span>
-                            </span>
-                          ) : (
-                            <span className="text-[9px] text-tactical-400 font-mono">Custom</span>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Preset Formations as clean lines */}
-              <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
-                {(showAllGuestFormations
-                  ? Object.values(FORMATION_PRESETS)
-                  : Object.values(FORMATION_PRESETS).slice(0, 4)
-                ).map((f) => {
-                  const isSelected = selectedFormationId === f.id && !selectedCustomFormation;
-                  return (
-                    <div
-                      key={f.id}
-                      onClick={() => {
-                        setSelectedFormationId(f.id);
-                        onSelectCustomFormation(null);
-                      }}
-                      className={`flex items-center justify-between px-3 py-1.5 cursor-pointer transition-colors ${
-                        isSelected
-                          ? 'bg-tactical-800 text-pitch-accent font-bold'
-                          : 'hover:bg-tactical-850/80 text-tactical-200'
-                      }`}
-                    >
-                      <span className="text-xs font-semibold">{f.name}</span>
-                      {isSelected ? (
-                        <span className="text-[10px] text-pitch-accent font-bold flex items-center gap-1">
-                          <Check className="w-3 h-3" />
-                          <span>Active</span>
-                        </span>
-                      ) : (
-                        <span className="text-[9px] text-tactical-500 font-mono">Select →</span>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-
-              {/* Show More / Show Less Toggle Button */}
-              {!showAllGuestFormations ? (
-                <button
-                  type="button"
-                  onClick={() => setShowAllGuestFormations(true)}
-                  className="w-full mt-1.5 py-1 px-3 text-xs font-bold text-pitch-accent hover:text-pitch-light hover:bg-tactical-850 rounded-lg border border-dashed border-tactical-700 transition-all flex items-center justify-center gap-1.5"
-                >
-                  <span>Show More Formations ({Object.values(FORMATION_PRESETS).length - 4} more) ▾</span>
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  onClick={() => setShowAllGuestFormations(false)}
-                  className="w-full mt-1 py-1 text-center text-[10px] font-bold text-tactical-400 hover:text-tactical-200 hover:bg-tactical-850 rounded-lg transition-all"
-                >
-                  <span>Show Less ▴</span>
-                </button>
-              )}
-            </div>
+            <FormationSelector
+              selectedFormationId={selectedFormationId}
+              selectedCustomFormation={selectedCustomFormation}
+              customFormations={customFormations}
+              onSelectFormation={(fid, custom) => {
+                setSelectedFormationId(fid);
+                onSelectCustomFormation(custom);
+              }}
+              onOpenFormationStudio={onOpenFormationStudio}
+              compact
+            />
 
             <div>
               <label className="block text-xs font-semibold text-tactical-300 uppercase tracking-wider mb-2">
