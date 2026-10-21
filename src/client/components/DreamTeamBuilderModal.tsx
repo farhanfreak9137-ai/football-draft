@@ -270,6 +270,27 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
       ? Math.round(allSquadPlayersList.reduce((acc, p) => acc + p.ovr, 0) / allSquadPlayersList.length)
       : 0;
 
+  // Department Ratings (ATT, MID, DEF, GK)
+  const departmentRatings = useMemo(() => {
+    const starters = Object.values(draftedSlots);
+    const getAvg = (matchPositions: Position[]) => {
+      const matched = starters.filter((p) => {
+        const slot = formation.slots.find((s) => draftedSlots[s.id]?.id === p.id);
+        const pos = slot?.defaultPosition || p.naturalPositions[0];
+        return matchPositions.includes(pos);
+      });
+      if (matched.length === 0) return 0;
+      return Math.round(matched.reduce((sum, p) => sum + p.ovr, 0) / matched.length);
+    };
+
+    return {
+      att: getAvg(['ST', 'CF', 'SS', 'LW', 'RW']),
+      mid: getAvg(['CAM', 'CM', 'CDM', 'LM', 'RM']),
+      def: getAvg(['CB', 'LB', 'RB', 'LWB', 'RWB']),
+      gk: getAvg(['GK']),
+    };
+  }, [draftedSlots, formation]);
+
   // Handler: Assign Player to Active Slot (Starter or Bench)
   const handleSelectPlayer = (player: PlayerVersion) => {
     if (!activeSlotTarget) return;
@@ -498,60 +519,60 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
     >
       <div className="bg-tactical-900 border border-tactical-700 rounded-2xl w-full max-w-5xl shadow-2xl overflow-hidden max-h-[96vh] flex flex-col">
         {/* Top Header */}
-        <div className="flex items-center justify-between px-4 sm:px-6 py-3.5 border-b border-tactical-750 bg-tactical-950 shrink-0">
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-gold-400 shadow-md">
-              <Sparkles className="w-5 h-5" />
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 px-4 sm:px-6 py-3 border-b border-tactical-750 bg-tactical-950 shrink-0">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className="w-9 h-9 rounded-xl bg-gold-500/15 border border-gold-500/30 flex items-center justify-center text-gold-400 shadow-sm shrink-0">
+              <Sparkles className="w-4 h-4" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-2 flex-wrap">
                 <input
                   type="text"
                   value={teamName}
                   onChange={(e) => setTeamName(e.target.value)}
                   placeholder="Team Name..."
                   maxLength={28}
-                  className="bg-transparent border-b border-dashed border-tactical-600 focus:border-gold-500 text-sm sm:text-base font-black text-tactical-100 focus:outline-none px-1"
+                  className="bg-transparent border-b border-dashed border-tactical-600 focus:border-gold-500 text-sm sm:text-base font-black text-tactical-100 focus:outline-none px-1 max-w-[140px] sm:max-w-[220px] truncate"
                 />
-                <span className="text-xs px-2 py-0.5 rounded-full bg-gold-500/20 text-gold-300 font-mono font-bold border border-gold-500/30">
-                  {avgStarterOvr > 0 ? `${avgStarterOvr} Starting OVR` : 'Custom XI'}
+                <span className="text-[11px] px-2 py-0.5 rounded-full bg-gold-500/15 text-gold-300 font-mono font-bold border border-gold-500/30 whitespace-nowrap">
+                  {avgStarterOvr > 0 ? `${avgStarterOvr} OVR` : 'Custom XI'}
                 </span>
                 {totalSquadCount > 0 && (
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-tactical-800 text-tactical-300 font-mono hidden md:inline">
+                  <span className="text-[11px] px-2 py-0.5 rounded-full bg-tactical-800 text-tactical-300 font-mono hidden md:inline whitespace-nowrap">
                     Squad 20: {avgSquadOvr} OVR
                   </span>
                 )}
               </div>
-              <p className="text-[11px] text-tactical-400 mt-0.5">
-                Build your complete 20-man dream squad with custom formation, tactics & roles.
+              <p className="text-[10px] sm:text-[11px] text-tactical-400 mt-0.5 truncate hidden sm:block">
+                Build your 20-man dream squad with custom formation, tactics & roles.
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 shrink-0 justify-end">
             <button
               type="button"
               onClick={handleAutoFill20}
-              className="py-1.5 px-3 rounded-xl bg-tactical-800 hover:bg-tactical-750 text-gold-300 border border-gold-500/40 text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95 shadow-sm"
+              className="py-1.5 px-3 rounded-xl bg-tactical-800 hover:bg-tactical-750 text-gold-300 border border-gold-500/40 text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95 shadow-sm whitespace-nowrap"
               title="Automatically fills all 11 starters and 9 bench players with the top ratings in the game!"
             >
-              <Zap className="w-3.5 h-3.5 fill-gold-400" />
-              <span className="hidden sm:inline">⚡ Auto-Fill 20 Stars</span>
+              <Zap className="w-3.5 h-3.5 fill-gold-400 text-gold-400 shrink-0" />
+              <span>⚡ Auto-Fill 20 Stars</span>
             </button>
 
             <button
               type="button"
               onClick={handleSaveDreamTeam}
               disabled={!isStartersComplete}
-              className="py-1.5 px-4 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light disabled:opacity-40 disabled:cursor-not-allowed text-tactical-100 text-xs font-black uppercase tracking-wider flex items-center gap-1.5 border border-pitch-line transition-all active:scale-95 shadow-md"
+              className="py-1.5 px-3.5 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light disabled:opacity-40 disabled:cursor-not-allowed text-tactical-100 text-xs font-black uppercase tracking-wider flex items-center gap-1.5 border border-pitch-line transition-all active:scale-95 shadow-md whitespace-nowrap"
             >
-              <Check className="w-4 h-4" />
+              <Check className="w-3.5 h-3.5 shrink-0" />
               <span>Save Squad ({totalSquadCount}/20)</span>
             </button>
 
             <button
               onClick={onClose}
-              className="p-1.5 rounded-lg text-tactical-400 hover:text-tactical-100 hover:bg-tactical-800 transition-colors"
+              className="p-1.5 rounded-lg text-tactical-400 hover:text-tactical-100 hover:bg-tactical-800 transition-colors shrink-0"
             >
               <X className="w-5 h-5" />
             </button>
@@ -559,77 +580,77 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
         </div>
 
         {/* Secondary Subheader: Formation Selector Bar & Mode Tabs */}
-        <div className="px-4 sm:px-6 py-2.5 bg-tactical-850 border-b border-tactical-750 flex flex-wrap items-center justify-between gap-3 shrink-0">
+        <div className="px-3 sm:px-6 py-2 bg-tactical-850 border-b border-tactical-750 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 shrink-0">
           {/* Formation Picker Button */}
           <div className="flex items-center gap-2">
-            <span className="text-[11px] font-bold text-tactical-400 uppercase tracking-wider">Formation:</span>
+            <span className="text-[11px] font-bold text-tactical-400 uppercase tracking-wider shrink-0">Formation:</span>
             <button
               type="button"
               onClick={() => setIsFormationPickerOpen(true)}
-              className="px-3 py-1.5 rounded-xl bg-tactical-800 hover:bg-tactical-750 border border-gold-500/50 text-gold-300 text-xs font-extrabold flex items-center gap-2 transition-all shadow-sm group"
+              className="px-2.5 py-1.5 rounded-xl bg-tactical-800 hover:bg-tactical-750 border border-gold-500/50 text-gold-300 text-xs font-extrabold flex items-center gap-1.5 transition-all shadow-sm group whitespace-nowrap"
             >
-              <Layers className="w-3.5 h-3.5 text-gold-400" />
-              <span>{formation.name}</span>
+              <Layers className="w-3.5 h-3.5 text-gold-400 shrink-0" />
+              <span className="truncate max-w-[150px] sm:max-w-[200px]">{formation.name}</span>
               <span className="text-[10px] text-tactical-400 group-hover:text-tactical-200 font-mono">
-                (Change ▾)
+                ▾
               </span>
             </button>
 
             <button
               type="button"
               onClick={() => setIsFormationStudioOpen(true)}
-              className="p-1.5 rounded-xl bg-tactical-800 hover:bg-tactical-750 border border-tactical-700 text-tactical-300 hover:text-tactical-100 text-xs font-bold transition-all"
+              className="px-2.5 py-1.5 rounded-xl bg-tactical-800 hover:bg-tactical-750 border border-tactical-700 text-tactical-300 hover:text-tactical-100 text-xs font-bold transition-all whitespace-nowrap"
               title="Open Formation Studio to design a custom layout"
             >
               🛠️ Architect
             </button>
           </div>
 
-          {/* Navigation Tabs */}
-          <div className="flex items-center gap-1 bg-tactical-900 p-1 rounded-xl border border-tactical-750">
+          {/* Navigation Tabs (Scrollable on mobile, no word-wrapping) */}
+          <div className="flex items-center gap-1 bg-tactical-900 p-1 rounded-xl border border-tactical-750 overflow-x-auto no-scrollbar whitespace-nowrap">
             <button
               type="button"
               onClick={() => setActiveTab('pitch')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0 ${
                 activeTab === 'pitch'
                   ? 'bg-pitch-DEFAULT text-tactical-100 shadow'
                   : 'text-tactical-400 hover:text-tactical-200'
               }`}
             >
-              <Shield className="w-3.5 h-3.5" />
+              <Shield className="w-3.5 h-3.5 shrink-0" />
               <span>Starting XI ({startersCount}/11)</span>
             </button>
 
             <button
               type="button"
               onClick={() => setActiveTab('bench')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0 ${
                 activeTab === 'bench'
                   ? 'bg-pitch-DEFAULT text-tactical-100 shadow'
                   : 'text-tactical-400 hover:text-tactical-200'
               }`}
             >
-              <Users className="w-3.5 h-3.5" />
+              <Users className="w-3.5 h-3.5 shrink-0" />
               <span>Bench ({benchCount}/9)</span>
             </button>
 
             <button
               type="button"
               onClick={() => setActiveTab('tactics')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0 ${
                 activeTab === 'tactics'
                   ? 'bg-pitch-DEFAULT text-tactical-100 shadow'
                   : 'text-tactical-400 hover:text-tactical-200'
               }`}
             >
-              <Sliders className="w-3.5 h-3.5" />
+              <Sliders className="w-3.5 h-3.5 shrink-0" />
               <span>Tactics & Roles</span>
             </button>
 
             <button
               type="button"
               onClick={() => setActiveTab('roster')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              className={`px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 whitespace-nowrap shrink-0 ${
                 activeTab === 'roster'
                   ? 'bg-pitch-DEFAULT text-tactical-100 shadow'
                   : 'text-tactical-400 hover:text-tactical-200'
@@ -676,9 +697,19 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                 </div>
 
                 {/* Pitch Canvas */}
-                <div className="relative aspect-[4/5] bg-pitch-DEFAULT/40 border border-pitch-line/50 rounded-xl overflow-hidden p-2 shadow-inner">
+                <div className="relative aspect-[4/5] bg-pitch-DEFAULT/45 border border-pitch-line/50 rounded-xl overflow-hidden p-2 shadow-inner select-none">
+                  {/* Pitch Grass Markings */}
                   <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-[1px] bg-pitch-line/40 pointer-events-none" />
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full border border-pitch-line/40 pointer-events-none" />
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full border border-pitch-line/40 pointer-events-none" />
+                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-pitch-line/50 pointer-events-none" />
+
+                  {/* Top Goal Area */}
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-16 border-b border-x border-pitch-line/30 rounded-b-md pointer-events-none" />
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-6 border-b border-x border-pitch-line/25 pointer-events-none" />
+
+                  {/* Bottom Goal Area */}
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-16 border-t border-x border-pitch-line/30 rounded-t-md pointer-events-none" />
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 h-6 border-t border-x border-pitch-line/25 pointer-events-none" />
 
                   {formation.slots.map((slot) => {
                     const player = draftedSlots[slot.id];
@@ -687,6 +718,10 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                     const isCaptain = roles.captainSlotId === slot.id;
                     const isPenalty = roles.penaltySlotId === slot.id;
                     const isFreeKick = roles.freeKickSlotId === slot.id;
+
+                    // Safe Y and X coordinate scaling to prevent clipping near pitch boundaries
+                    const safeY = 6 + slot.coordinates.y * 0.82;
+                    const safeX = Math.max(10, Math.min(90, slot.coordinates.x));
 
                     return (
                       <div
@@ -699,56 +734,79 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                           }
                         }}
                         style={{
-                          left: `${slot.coordinates.x}%`,
-                          top: `${slot.coordinates.y}%`,
+                          left: `${safeX}%`,
+                          top: `${safeY}%`,
                           transform: 'translate(-50%, -50%)',
                         }}
                         className={`absolute cursor-pointer transition-all ${
                           isSelected || isSwapSelected
-                            ? 'ring-2 ring-gold-400 scale-110 z-20'
+                            ? 'z-20 scale-105'
                             : player
-                            ? 'opacity-100 hover:scale-105 z-10'
-                            : 'opacity-75 hover:opacity-100 hover:scale-105'
+                            ? 'z-10 hover:scale-105'
+                            : 'z-5 hover:scale-105'
                         }`}
                       >
                         <div
-                          className={`w-9 h-9 sm:w-11 sm:h-11 rounded-full flex flex-col items-center justify-center text-[10px] sm:text-xs font-bold shadow-md border relative ${
-                            player
-                              ? 'bg-tactical-850 border-gold-500/70 text-gold-300'
-                              : isSelected
-                              ? 'bg-gold-500 text-tactical-950 border-gold-400 animate-pulse font-black'
-                              : 'bg-tactical-800 border-tactical-600 text-tactical-400'
+                          className={`w-14 sm:w-16 rounded-xl p-1 flex flex-col items-center justify-center shadow-lg border transition-all text-center relative select-none ${
+                            isSelected || isSwapSelected
+                              ? 'bg-tactical-800 border-gold-400 ring-2 ring-gold-400/50 shadow-gold-500/20'
+                              : player
+                              ? 'bg-tactical-900/95 border-tactical-700/80 hover:border-gold-500/60 hover:bg-tactical-850'
+                              : 'bg-tactical-950/80 border-dashed border-tactical-700/60 hover:border-tactical-500 hover:bg-tactical-900/90'
                           }`}
                         >
-                          <span>{player ? player.ovr : slot.defaultPosition}</span>
-
                           {/* Role Badges */}
                           {isCaptain && (
-                            <span className="absolute -top-1 -right-1 text-[11px]" title="Team Captain">
+                            <span className="absolute -top-1.5 -right-1 text-[11px] leading-none" title="Team Captain">
                               👑
                             </span>
                           )}
                           {!isCaptain && isPenalty && (
-                            <span className="absolute -top-1 -right-1 text-[10px]" title="Penalty Taker">
+                            <span className="absolute -top-1.5 -right-1 text-[10px] leading-none" title="Penalty Taker">
                               ⚽
                             </span>
                           )}
                           {!isCaptain && !isPenalty && isFreeKick && (
-                            <span className="absolute -top-1 -right-1 text-[10px]" title="Free Kick Taker">
+                            <span className="absolute -top-1.5 -right-1 text-[10px] leading-none" title="Free Kick Taker">
                               🎯
                             </span>
                           )}
-                        </div>
 
-                        {player ? (
-                          <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap bg-tactical-950/95 px-1.5 py-0.2 rounded text-[9px] font-mono text-tactical-200 border border-tactical-800 pointer-events-none">
-                            {player.name.split(' ').pop()}
+                          {/* Top Row: Position & OVR */}
+                          <div className="flex items-center justify-between w-full px-0.5 gap-1">
+                            <span className="text-[9px] font-mono font-black text-tactical-400">
+                              {slot.defaultPosition}
+                            </span>
+                            {player ? (
+                              <span
+                                className={`text-[9px] font-mono font-black px-1 rounded ${
+                                  player.ovr >= 95
+                                    ? 'bg-gold-500/20 text-gold-300'
+                                    : player.ovr >= 90
+                                    ? 'bg-emerald-500/20 text-emerald-300'
+                                    : 'bg-blue-500/20 text-blue-300'
+                                }`}
+                              >
+                                {player.ovr}
+                              </span>
+                            ) : (
+                              <span className="text-[8px] text-tactical-500 font-mono">+</span>
+                            )}
                           </div>
-                        ) : (
-                          <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap bg-tactical-900/90 px-1 py-0.2 rounded text-[8px] font-mono text-tactical-400 pointer-events-none">
-                            {slot.defaultPosition}
+
+                          {/* Bottom Row: Player Surname or Empty */}
+                          <div className="w-full mt-0.5">
+                            {player ? (
+                              <div className="text-[10px] font-bold text-tactical-100 truncate tracking-tight leading-none">
+                                {player.name.split(' ').pop()}
+                              </div>
+                            ) : (
+                              <div className="text-[9px] text-tactical-500 italic leading-none">
+                                Empty
+                              </div>
+                            )}
                           </div>
-                        )}
+                        </div>
                       </div>
                     );
                   })}
@@ -759,101 +817,178 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                 </div>
               </div>
 
-              {/* Right Column: Player Selector Drawer or Starters List */}
+              {/* Right Column: Player Selector Drawer OR Tactical Command Center */}
               <div className="lg:col-span-6 bg-tactical-950 border border-tactical-800 rounded-2xl p-4 flex flex-col justify-between shadow-xl">
                 {activeSlotTarget ? (
                   /* Player Picker Drawer */
                   renderCandidatePicker()
                 ) : (
-                  /* Starters List */
-                  <div className="space-y-3 flex flex-col h-full">
-                    <div className="flex items-center justify-between pb-2 border-b border-tactical-800 shrink-0">
-                      <div>
-                        <span className="text-xs font-bold text-tactical-200 uppercase tracking-wider">
-                          Starting XI Lineup
+                  /* Tactical Squad Command Center */
+                  <div className="space-y-4 flex flex-col justify-between h-full">
+                    {/* Header: Department Ratings & Squad Health */}
+                    <div>
+                      <div className="flex items-center justify-between pb-3 border-b border-tactical-800">
+                        <div className="flex items-center gap-2">
+                          <Sliders className="w-4 h-4 text-gold-400" />
+                          <h4 className="text-xs font-black uppercase tracking-wider text-tactical-100">
+                            Tactical Squad Command
+                          </h4>
+                        </div>
+                        <span className="text-[11px] font-mono text-gold-400 font-bold">
+                          {startersCount}/11 Starters
                         </span>
-                        <div className="text-[11px] text-tactical-400">
-                          {startersCount}/11 Starters Assigned
+                      </div>
+
+                      {/* 4 Department Ratings Grid */}
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-3">
+                        <div className="p-2.5 rounded-xl bg-tactical-900 border border-tactical-800 flex flex-col justify-between">
+                          <div className="flex items-center justify-between text-[10px] text-tactical-400 font-bold uppercase">
+                            <span>⚔️ Attack</span>
+                            <span className="font-mono text-amber-400 font-black">
+                              {departmentRatings.att > 0 ? departmentRatings.att : '--'}
+                            </span>
+                          </div>
+                          <div className="w-full bg-tactical-950 h-1.5 rounded-full overflow-hidden mt-2">
+                            <div
+                              className="bg-gradient-to-r from-amber-500 to-rose-500 h-full rounded-full transition-all"
+                              style={{ width: `${Math.min(100, (departmentRatings.att / 99) * 100)}%` }}
+                            />
+                          </div>
+                        </div>
+
+                        <div className="p-2.5 rounded-xl bg-tactical-900 border border-tactical-800 flex flex-col justify-between">
+                          <div className="flex items-center justify-between text-[10px] text-tactical-400 font-bold uppercase">
+                            <span>⚡ Midfield</span>
+                            <span className="font-mono text-emerald-400 font-black">
+                              {departmentRatings.mid > 0 ? departmentRatings.mid : '--'}
+                            </span>
+                          </div>
+                          <div className="w-full bg-tactical-950 h-1.5 rounded-full overflow-hidden mt-2">
+                            <div
+                              className="bg-gradient-to-r from-emerald-500 to-teal-400 h-full rounded-full transition-all"
+                              style={{ width: `${Math.min(100, (departmentRatings.mid / 99) * 100)}%` }}
+                            />
+                          </div>
+                        </div>
+
+                        <div className="p-2.5 rounded-xl bg-tactical-900 border border-tactical-800 flex flex-col justify-between">
+                          <div className="flex items-center justify-between text-[10px] text-tactical-400 font-bold uppercase">
+                            <span>🛡️ Defense</span>
+                            <span className="font-mono text-blue-400 font-black">
+                              {departmentRatings.def > 0 ? departmentRatings.def : '--'}
+                            </span>
+                          </div>
+                          <div className="w-full bg-tactical-950 h-1.5 rounded-full overflow-hidden mt-2">
+                            <div
+                              className="bg-gradient-to-r from-blue-500 to-cyan-400 h-full rounded-full transition-all"
+                              style={{ width: `${Math.min(100, (departmentRatings.def / 99) * 100)}%` }}
+                            />
+                          </div>
+                        </div>
+
+                        <div className="p-2.5 rounded-xl bg-tactical-900 border border-tactical-800 flex flex-col justify-between">
+                          <div className="flex items-center justify-between text-[10px] text-tactical-400 font-bold uppercase">
+                            <span>🧤 Keeper</span>
+                            <span className="font-mono text-purple-400 font-black">
+                              {departmentRatings.gk > 0 ? departmentRatings.gk : '--'}
+                            </span>
+                          </div>
+                          <div className="w-full bg-tactical-950 h-1.5 rounded-full overflow-hidden mt-2">
+                            <div
+                              className="bg-gradient-to-r from-purple-500 to-pink-400 h-full rounded-full transition-all"
+                              style={{ width: `${Math.min(100, (departmentRatings.gk / 99) * 100)}%` }}
+                            />
+                          </div>
                         </div>
                       </div>
-                      <span className="text-xs text-gold-400 font-mono font-bold">
-                        Avg: {avgStarterOvr} OVR
-                      </span>
+
+                      {/* Tactical Roles Pills */}
+                      <div className="mt-3 p-3 rounded-xl bg-tactical-900/80 border border-tactical-800 space-y-2">
+                        <div className="text-[10px] font-bold text-tactical-400 uppercase tracking-wider flex items-center justify-between">
+                          <span>Assigned Squad Roles</span>
+                          <button
+                            type="button"
+                            onClick={() => setActiveTab('tactics')}
+                            className="text-gold-400 hover:underline text-[10px] font-bold"
+                          >
+                            Edit Roles →
+                          </button>
+                        </div>
+                        <div className="grid grid-cols-2 gap-1.5 text-[11px]">
+                          <div className="flex items-center gap-1.5 p-1.5 rounded-lg bg-tactical-950/60 border border-tactical-850 truncate">
+                            <span>👑</span>
+                            <span className="text-tactical-400 font-mono text-[10px]">Captain:</span>
+                            <span className="text-tactical-100 font-bold truncate">
+                              {roles.captainSlotId && draftedSlots[roles.captainSlotId]
+                                ? draftedSlots[roles.captainSlotId].name
+                                : 'Auto'}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 p-1.5 rounded-lg bg-tactical-950/60 border border-tactical-850 truncate">
+                            <span>⚽</span>
+                            <span className="text-tactical-400 font-mono text-[10px]">Penalty:</span>
+                            <span className="text-tactical-100 font-bold truncate">
+                              {roles.penaltySlotId && draftedSlots[roles.penaltySlotId]
+                                ? draftedSlots[roles.penaltySlotId].name
+                                : 'Auto'}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 p-1.5 rounded-lg bg-tactical-950/60 border border-tactical-850 truncate">
+                            <span>🎯</span>
+                            <span className="text-tactical-400 font-mono text-[10px]">Free Kick:</span>
+                            <span className="text-tactical-100 font-bold truncate">
+                              {roles.freeKickSlotId && draftedSlots[roles.freeKickSlotId]
+                                ? draftedSlots[roles.freeKickSlotId].name
+                                : 'Auto'}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 p-1.5 rounded-lg bg-tactical-950/60 border border-tactical-850 truncate">
+                            <span>🚩</span>
+                            <span className="text-tactical-400 font-mono text-[10px]">Corner:</span>
+                            <span className="text-tactical-100 font-bold truncate">
+                              {roles.cornerSlotId && draftedSlots[roles.cornerSlotId]
+                                ? draftedSlots[roles.cornerSlotId].name
+                                : 'Auto'}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Guidance Card */}
+                      <div className="mt-3 p-3.5 rounded-xl bg-tactical-900/60 border border-tactical-800 text-center space-y-2">
+                        <div className="w-8 h-8 rounded-full bg-gold-500/10 border border-gold-500/30 flex items-center justify-center mx-auto text-gold-400">
+                          <Users className="w-4 h-4" />
+                        </div>
+                        <div className="text-xs font-bold text-tactical-200">
+                          {isStartersComplete ? 'Starting XI Complete' : 'Tap Any Pitch Slot to Assign'}
+                        </div>
+                        <p className="text-[11px] text-tactical-400 max-w-xs mx-auto">
+                          {isStartersComplete
+                            ? 'Click any slot on the pitch to substitute, swap positions, or view candidate ratings.'
+                            : `You have ${11 - startersCount} unfilled positions. Select any position on the tactical pitch to search candidates.`}
+                        </p>
+                      </div>
                     </div>
 
-                    <div className="flex-1 overflow-y-auto space-y-1.5 pr-1 max-h-[460px]">
-                      {formation.slots.map((slot) => {
-                        const player = draftedSlots[slot.id];
-                        return (
-                          <div
-                            key={slot.id}
-                            className={`p-2.5 rounded-xl border transition-all flex items-center justify-between ${
-                              player
-                                ? 'bg-tactical-900 border-tactical-750 hover:border-tactical-600'
-                                : 'bg-tactical-950/50 border-dashed border-tactical-750 hover:border-gold-500/40'
-                            }`}
-                          >
-                            <div
-                              onClick={() => setActiveSlotTarget({ type: 'starter', slotId: slot.id })}
-                              className="flex items-center gap-2.5 min-w-0 cursor-pointer flex-1"
-                            >
-                              <span className="w-8 text-[11px] font-bold text-tactical-400 font-mono">
-                                {slot.defaultPosition}
-                              </span>
-                              {player ? (
-                                <>
-                                  <span
-                                    className={`w-7 h-7 rounded-lg flex items-center justify-center font-black text-xs shrink-0 ${getOvrBadgeClass(
-                                      player.ovr
-                                    )}`}
-                                  >
-                                    {player.ovr}
-                                  </span>
-                                  <div className="min-w-0">
-                                    <div className="text-xs font-bold text-tactical-100 truncate flex items-center gap-1.5">
-                                      <span>{player.name}</span>
-                                      {roles.captainSlotId === slot.id && (
-                                        <span className="text-xs" title="Captain">
-                                          👑
-                                        </span>
-                                      )}
-                                    </div>
-                                    <div className="text-[10px] text-tactical-400 font-mono truncate">
-                                      {player.naturalPositions.join('/')} • #{player.squadNumber} • {player.ovr} OVR
-                                      {player.tournamentOrSeasonStats?.goals ? ` • ${player.tournamentOrSeasonStats.goals} G` : ''}
-                                    </div>
-                                  </div>
-                                </>
-                              ) : (
-                                <span className="text-xs text-tactical-500 italic">
-                                  + Empty Slot (Click to assign)
-                                </span>
-                              )}
-                            </div>
+                    {/* Bottom Quick Action: Bench peek or Auto-Fill */}
+                    <div className="pt-2 border-t border-tactical-800 flex items-center justify-between text-xs">
+                      <button
+                        type="button"
+                        onClick={() => setActiveTab('bench')}
+                        className="text-tactical-400 hover:text-tactical-200 font-bold flex items-center gap-1 text-[11px]"
+                      >
+                        <Users className="w-3.5 h-3.5 text-pitch-accent" />
+                        <span>Manage Bench ({benchCount}/9) →</span>
+                      </button>
 
-                            {player && (
-                              <div className="flex items-center gap-1.5">
-                                <button
-                                  type="button"
-                                  onClick={() => setSwappingSlot({ type: 'starter', slotId: slot.id })}
-                                  className="px-2 py-1 rounded bg-tactical-800 hover:bg-tactical-700 text-tactical-300 text-[10px] font-bold border border-tactical-700"
-                                  title="Swap this starter with another player or bench sub"
-                                >
-                                  ⇄ Swap
-                                </button>
-                                <button
-                                  type="button"
-                                  onClick={() => handleRemoveSlot('starter', slot.id)}
-                                  className="text-tactical-500 hover:text-red-400 text-xs px-2 py-1"
-                                  title="Remove player from slot"
-                                >
-                                  ✕
-                                </button>
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })}
+                      <button
+                        type="button"
+                        onClick={handleAutoFill20}
+                        className="text-gold-400 hover:text-gold-300 font-bold flex items-center gap-1 text-[11px]"
+                      >
+                        <Zap className="w-3.5 h-3.5" />
+                        <span>Auto-Fill 20 Stars</span>
+                      </button>
                     </div>
                   </div>
                 )}

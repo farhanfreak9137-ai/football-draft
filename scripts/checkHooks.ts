@@ -26,3 +26,4 @@ function checkDir(dir: string) {
 console.log('Auditing React hook imports across src/client...');
 checkDir('src/client');
 console.log('Audit complete.');
+
