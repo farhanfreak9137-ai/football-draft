@@ -92,6 +92,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
     initialDreamTeam?.customFormation
   );
   const [isFormationPickerOpen, setIsFormationPickerOpen] = useState(false);
+  const [showAllFormations, setShowAllFormations] = useState(false);
   const [isFormationStudioOpen, setIsFormationStudioOpen] = useState(false);
 
   // Active Formation object
@@ -586,13 +587,16 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
             <span className="text-[11px] font-bold text-tactical-400 uppercase tracking-wider shrink-0">Formation:</span>
             <button
               type="button"
-              onClick={() => setIsFormationPickerOpen(true)}
+              onClick={() => {
+                setShowAllFormations(false);
+                setIsFormationPickerOpen(true);
+              }}
               className="px-2.5 py-1.5 rounded-xl bg-tactical-800 hover:bg-tactical-750 border border-gold-500/50 text-gold-300 text-xs font-extrabold flex items-center gap-1.5 transition-all shadow-sm group whitespace-nowrap"
             >
               <Layers className="w-3.5 h-3.5 text-gold-400 shrink-0" />
               <span className="truncate max-w-[150px] sm:max-w-[200px]">{formation.name}</span>
               <span className="text-[10px] text-tactical-400 group-hover:text-tactical-200 font-mono">
-                ▾
+                (Change ▾)
               </span>
             </button>
 
@@ -1488,11 +1492,11 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
             }}
             className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in"
           >
-            <div className="bg-tactical-900 border border-tactical-700 rounded-2xl w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden shadow-2xl">
-              <div className="px-5 py-4 border-b border-tactical-750 flex items-center justify-between shrink-0 bg-tactical-950">
+            <div className="bg-tactical-900 border border-tactical-700 rounded-2xl w-full max-w-md max-h-[85vh] flex flex-col overflow-hidden shadow-2xl">
+              <div className="px-4 py-3 border-b border-tactical-750 flex items-center justify-between shrink-0 bg-tactical-950">
                 <div className="flex items-center gap-2">
-                  <Layers className="w-5 h-5 text-gold-400" />
-                  <h3 className="text-base font-extrabold text-tactical-100">
+                  <Layers className="w-4 h-4 text-gold-400" />
+                  <h3 className="text-sm font-extrabold text-tactical-100">
                     Select Tactical Formation
                   </h3>
                 </div>
@@ -1501,49 +1505,57 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                   onClick={() => setIsFormationPickerOpen(false)}
                   className="p-1 rounded text-tactical-400 hover:text-tactical-100"
                 >
-                  <X className="w-5 h-5" />
+                  <X className="w-4 h-4" />
                 </button>
               </div>
 
-              <div className="p-5 overflow-y-auto space-y-4">
+              <div className="p-4 overflow-y-auto space-y-4">
                 {/* Custom Formations (if any) */}
                 {customFormations.length > 0 && (
-                  <div className="space-y-2">
-                    <span className="text-xs font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1.5">
-                      <span>✨ Your Custom Formations ({customFormations.length})</span>
+                  <div className="space-y-1.5">
+                    <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider">
+                      ✨ Your Custom Formations ({customFormations.length})
                     </span>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                      {customFormations.map((cf) => (
-                        <div
-                          key={cf.id}
-                          onClick={() => {
-                            setFormationId(cf.id);
-                            setSelectedCustomFormation(cf);
-                            setDraftedSlots({});
-                            setActiveSlotTarget(null);
-                            setIsFormationPickerOpen(false);
-                          }}
-                          className={`p-3 rounded-xl border cursor-pointer transition-all ${
-                            formationId === cf.id
-                              ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30'
-                              : 'bg-tactical-850 border-tactical-750 hover:border-gold-500/40'
-                          }`}
-                        >
-                          <div className="font-bold text-xs text-tactical-100">{cf.name}</div>
-                          <div className="text-[10px] text-tactical-400 mt-0.5">
-                            Custom design • 11 slots
+                    <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
+                      {customFormations.map((cf) => {
+                        const isSelected = formationId === cf.id;
+                        return (
+                          <div
+                            key={cf.id}
+                            onClick={() => {
+                              setFormationId(cf.id);
+                              setSelectedCustomFormation(cf);
+                              setDraftedSlots({});
+                              setActiveSlotTarget(null);
+                              setIsFormationPickerOpen(false);
+                            }}
+                            className={`flex items-center justify-between px-3 py-2 cursor-pointer transition-colors ${
+                              isSelected
+                                ? 'bg-tactical-800 text-gold-400 font-bold'
+                                : 'hover:bg-tactical-850 text-tactical-200'
+                            }`}
+                          >
+                            <span className="text-xs font-semibold">{cf.name}</span>
+                            {isSelected ? (
+                              <span className="text-[11px] text-gold-400 font-bold flex items-center gap-1">
+                                <Check className="w-3.5 h-3.5" />
+                                <span>Active</span>
+                              </span>
+                            ) : (
+                              <span className="text-[10px] text-tactical-400 font-mono">Custom</span>
+                            )}
                           </div>
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 )}
 
                 {/* Preset Formations */}
                 <div className="space-y-2">
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-center justify-between pb-1">
                     <span className="text-xs font-bold text-tactical-300 uppercase tracking-wider">
-                      Preset Tactical Systems (12 Systems)
+                      Preset Tactical Systems
                     </span>
                     <button
                       type="button"
@@ -1557,33 +1569,61 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                     </button>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    {Object.values(FORMATIONS).map((f) => (
-                      <div
-                        key={f.id}
-                        onClick={() => {
-                          setFormationId(f.id);
-                          setSelectedCustomFormation(undefined);
-                          setDraftedSlots({});
-                          setActiveSlotTarget(null);
-                          setIsFormationPickerOpen(false);
-                        }}
-                        className={`p-3 rounded-xl border cursor-pointer transition-all ${
-                          formationId === f.id
-                            ? 'bg-tactical-800 border-gold-500 ring-2 ring-gold-500/30'
-                            : 'bg-tactical-850 border-tactical-750 hover:border-tactical-600'
-                        }`}
-                      >
-                        <div className="flex items-center justify-between">
-                          <span className="font-black text-xs text-tactical-100">{f.name}</span>
-                          <span className="text-[10px] font-mono text-gold-400">{f.id}</span>
+                  {/* Formations as clean single lines, no boxes, no details */}
+                  <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
+                    {(showAllFormations
+                      ? Object.values(FORMATIONS)
+                      : Object.values(FORMATIONS).slice(0, 4)
+                    ).map((f) => {
+                      const isSelected = formationId === f.id && !selectedCustomFormation;
+                      return (
+                        <div
+                          key={f.id}
+                          onClick={() => {
+                            setFormationId(f.id);
+                            setSelectedCustomFormation(undefined);
+                            setDraftedSlots({});
+                            setActiveSlotTarget(null);
+                            setIsFormationPickerOpen(false);
+                          }}
+                          className={`flex items-center justify-between px-3.5 py-2.5 cursor-pointer transition-colors ${
+                            isSelected
+                              ? 'bg-tactical-800 text-gold-400 font-bold'
+                              : 'hover:bg-tactical-850 text-tactical-200'
+                          }`}
+                        >
+                          <span className="text-xs font-semibold">{f.name}</span>
+                          {isSelected ? (
+                            <span className="text-[11px] text-gold-400 font-bold flex items-center gap-1">
+                              <Check className="w-3.5 h-3.5" />
+                              <span>Active</span>
+                            </span>
+                          ) : (
+                            <span className="text-[10px] text-tactical-500 font-mono">Select →</span>
+                          )}
                         </div>
-                        <p className="text-[11px] text-tactical-400 mt-1 line-clamp-2 leading-relaxed">
-                          {f.description}
-                        </p>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
+
+                  {/* Show More / Show Less Toggle Button */}
+                  {!showAllFormations ? (
+                    <button
+                      type="button"
+                      onClick={() => setShowAllFormations(true)}
+                      className="w-full py-2 px-3 text-xs font-bold text-gold-400 hover:text-gold-300 hover:bg-tactical-850 rounded-xl border border-dashed border-tactical-700 transition-all flex items-center justify-center gap-1.5"
+                    >
+                      <span>Show More Formations ({Object.values(FORMATIONS).length - 4} more) ▾</span>
+                    </button>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => setShowAllFormations(false)}
+                      className="w-full py-1.5 text-center text-[11px] font-bold text-tactical-400 hover:text-tactical-200 hover:bg-tactical-850 rounded-lg transition-all"
+                    >
+                      <span>Show Less ▴</span>
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
