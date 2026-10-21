@@ -138,9 +138,13 @@ export class TournamentService {
 
     // If tournament just finished (Final or eliminated)
     if (updated.currentRound === 'completed') {
+      const isChampion = Boolean(updated.champion && updated.champion.isUser);
+      const isRunnerUp = Boolean(updated.runnerUp && updated.runnerUp.isUser);
       profileService.recordTournament({
         tournamentName: updated.name,
-        won: Boolean(updated.champion && updated.champion.isUser),
+        result: isChampion ? 'champion' : isRunnerUp ? 'runner_up' : 'eliminated',
+        won: isChampion,
+        isRunnerUp,
         poolType: updated.poolType,
         draftMode: updated.draftMode,
       });

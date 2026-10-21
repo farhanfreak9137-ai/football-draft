@@ -301,6 +301,18 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
                 <Trophy className="w-3.5 h-3.5 text-gold-400" />
                 <span>Trophy Cabinet ({profile.trophies.length})</span>
               </h4>
+              {profile.trophies.some((t) => t.type === 'silver') && (
+                <button
+                  onClick={() => {
+                    const updated = profileService.clearRunnerUpTrophies();
+                    setProfile(updated);
+                  }}
+                  className="text-[11px] text-tactical-400 hover:text-rose-400 transition-colors underline"
+                  title="Remove unearned runner-up medals"
+                >
+                  Clear runner-ups
+                </button>
+              )}
             </div>
 
             {profile.trophies.length === 0 ? (
@@ -318,7 +330,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
                 {profile.trophies.map((tr) => (
                   <div
                     key={tr.id}
-                    className="p-3 rounded-lg bg-tactical-900 border border-gold-900/40 flex items-center gap-3"
+                    className="p-3 rounded-lg bg-tactical-900 border border-gold-900/40 flex items-center gap-3 relative group"
                   >
                     <div
                       className={`text-2xl p-2 rounded-lg ${
@@ -337,6 +349,18 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
                         <span>{tr.draftMode === 'campaign' ? 'Campaign' : 'Dynamic'}</span>
                       </div>
                     </div>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        const updated = profileService.removeTrophy(tr.id);
+                        setProfile(updated);
+                      }}
+                      className="p-1.5 rounded-md text-tactical-500 hover:text-rose-400 hover:bg-tactical-800 transition-colors opacity-80 group-hover:opacity-100 shrink-0"
+                      title="Remove trophy"
+                      aria-label="Remove trophy"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                    </button>
                   </div>
                 ))}
               </div>

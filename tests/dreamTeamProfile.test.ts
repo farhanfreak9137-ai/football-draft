@@ -309,5 +309,77 @@ describe('Profile Dream Team & Stats Tracking', () => {
     // Verify all 20 players have initialized stats
     expect(Object.keys(saved?.playerStats || {}).length).toBe(20);
   });
+
+  it('strictly awards trophies ONLY for 1st (champion) and 2nd (runner-up), never for early campaign elimination', () => {
+    // 1. Elimination in group stage or knockouts
+    profileService.recordTournament({
+      tournamentName: 'World Championship Cup',
+      result: 'eliminated',
+      won: false,
+      isRunnerUp: false,
+      poolType: 'national',
+      draftMode: 'campaign',
+    });
+
+    let p = profileService.getProfile();
+    expect(p.stats.tournamentsPlayed).toBe(1);
+    expect(p.stats.trophiesWon).toBe(0);
+    expect(p.stats.runnerUpCount).toBe(0);
+    expect(p.trophies.length).toBe(0); // Strictly zero trophies for early elimination!
+
+    // 2. Runner-Up (2nd place in Grand Final)
+    profileService.recordTournament({
+      tournamentName: 'World Championship Cup',
+      result: 'runner_up',
+      won: false,
+      isRunnerUp: true,
+      poolType: 'national',
+      draftMode: 'campaign',
+    });
+
+    p = profileService.getProfile();
+    expect(p.stats.tournamentsPlayed).toBe(2);
+    expect(p.stats.trophiesWon).toBe(0);
+    expect(p.stats.runnerUpCount).toBe(1);
+    expect(p.trophies.length).toBe(1);
+    expect(p.trophies[0].type).toBe('silver');
+
+    // 3. Champion (1st place in Grand Final)
+    profileService.recordTournament({
+      tournamentName: 'World Championship Cup',
+      result: 'champion',
+      won: true,
+      isRunnerUp: false,
+      poolType: 'national',
+      draftMode: 'campaign',
+    });
+
+    p = profileService.getProfile();
+    expect(p.stats.tournamentsPlayed).toBe(3);
+    expect(p.stats.trophiesWon).toBe(1);
+    expect(p.stats.runnerUpCount).toBe(1);
+    expect(p.trophies.length).toBe(2);
+    expect(p.trophies[0].type).toBe('gold');
+
+    // 4. Test removeTrophy
+    const silverTrophy = p.trophies.find((t) => t.type === 'silver')!;
+    profileService.removeTrophy(silverTrophy.id);
+    p = profileService.getProfile();
+    expect(p.trophies.length).toBe(1);
+    expect(p.stats.runnerUpCount).toBe(0);
+    expect(p.stats.trophiesWon).toBe(1);
+
+    // 5. Test clearRunnerUpTrophies
+    profileService.recordTournament({
+      tournamentName: 'World Championship Cup',
+      result: 'runner_up',
+      poolType: 'national',
+      draftMode: 'campaign',
+    });
+    expect(profileService.getProfile().trophies.length).toBe(2);
+    profileService.clearRunnerUpTrophies();
+    expect(profileService.getProfile().trophies.length).toBe(1);
+    expect(profileService.getProfile().stats.runnerUpCount).toBe(0);
+  });
 });
 

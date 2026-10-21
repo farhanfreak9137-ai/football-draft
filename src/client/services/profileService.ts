@@ -50,10 +50,61 @@ export class ProfileService {
     try {
       const data = localStorage.getItem(STORAGE_KEY);
       if (data) {
-        return { ...DEFAULT_PROFILE, ...JSON.parse(data) };
+        const loaded: ManagerProfile = { ...DEFAULT_PROFILE, ...JSON.parse(data) };
+        const initialCount = loaded.trophies?.length || 0;
+        this.sanitizeProfileTrophies(loaded);
+        if (loaded.trophies?.length !== initialCount) {
+          try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(loaded));
+          } catch (e) {}
+        }
+        return loaded;
       }
     } catch (e) {}
     return { ...DEFAULT_PROFILE };
+  }
+
+  private sanitizeProfileTrophies(profile: ManagerProfile): void {
+    if (!profile.trophies || !Array.isArray(profile.trophies)) {
+      profile.trophies = [];
+      return;
+    }
+
+    const SANITIZE_KEY = 'hfd_runnerup_sanitized_v2';
+    let alreadySanitized = false;
+    try {
+      alreadySanitized = typeof localStorage !== 'undefined' && localStorage.getItem(SANITIZE_KEY) === 'true';
+    } catch (e) {}
+
+    if (!alreadySanitized) {
+      const goldCount = profile.trophies.filter((t) => t.type === 'gold').length;
+      const totalWins = profile.stats?.wins || 0;
+      // Winning 1 World Championship gold requires at least 5 wins in knockouts/groups.
+      // Reaching the final as runner-up requires at least 4 wins in knockouts/groups.
+      const maxPossibleRunnerUps = Math.max(0, Math.floor((totalWins - (goldCount * 5)) / 4));
+
+      const silverTrophies = profile.trophies.filter((t) => t.type === 'silver');
+      if (silverTrophies.length > maxPossibleRunnerUps) {
+        // Prune unearned runner-up trophies created by the legacy campaign completion bug
+        const validSilvers = silverTrophies.slice(0, maxPossibleRunnerUps);
+        profile.trophies = [
+          ...profile.trophies.filter((t) => t.type === 'gold'),
+          ...validSilvers,
+        ];
+      }
+
+      try {
+        if (typeof localStorage !== 'undefined') {
+          localStorage.setItem(SANITIZE_KEY, 'true');
+        }
+      } catch (e) {}
+    }
+
+    // Always synchronize stats counters with actual trophy cabinet
+    if (profile.stats) {
+      profile.stats.trophiesWon = profile.trophies.filter((t) => t.type === 'gold').length;
+      profile.stats.runnerUpCount = profile.trophies.filter((t) => t.type === 'silver').length;
+    }
   }
 
   private saveProfile(): void {
@@ -119,37 +170,70 @@ export class ProfileService {
 
   recordTournament(params: {
     tournamentName: string;
-    won: boolean;
+    result?: 'champion' | 'runner_up' | 'eliminated';
+    won?: boolean;
+    isRunnerUp?: boolean;
     poolType: PoolType;
     draftMode: TournamentDraftMode;
   }): ManagerProfile {
     const s = this.profile.stats;
     s.tournamentsPlayed += 1;
-    if (params.won) {
+
+    const outcome =
+      params.result ||
+      (params.won ? 'champion' : params.isRunnerUp ? 'runner_up' : 'eliminated');
+
+    if (outcome === 'champion') {
       s.trophiesWon += 1;
       this.profile.xp += 500;
       this.profile.trophies.unshift({
-        id: `trophy-${Date.now()}`,
+        id: `trophy-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
         tournamentName: params.tournamentName,
         date: Date.now(),
         type: 'gold',
         poolType: params.poolType,
         draftMode: params.draftMode,
       });
-    } else {
+    } else if (outcome === 'runner_up') {
       s.runnerUpCount += 1;
-      this.profile.xp += 200;
+      this.profile.xp += 250;
       this.profile.trophies.unshift({
-        id: `trophy-${Date.now()}`,
+        id: `trophy-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
         tournamentName: params.tournamentName,
         date: Date.now(),
         type: 'silver',
         poolType: params.poolType,
         draftMode: params.draftMode,
       });
+    } else {
+      // Eliminated early (group stage, R16, QF, SF)
+      // Strictly NO trophy awarded! Only 1st (gold) and 2nd (silver) receive trophies.
+      this.profile.xp += 50;
     }
 
     this.profile.level = Math.floor(this.profile.xp / 300) + 1;
+    this.saveProfile();
+    return this.getProfile();
+  }
+
+  removeTrophy(trophyId: string): ManagerProfile {
+    const trophy = this.profile.trophies.find((t) => t.id === trophyId);
+    if (!trophy) return this.getProfile();
+
+    if (trophy.type === 'gold') {
+      this.profile.stats.trophiesWon = Math.max(0, this.profile.stats.trophiesWon - 1);
+    } else if (trophy.type === 'silver') {
+      this.profile.stats.runnerUpCount = Math.max(0, this.profile.stats.runnerUpCount - 1);
+    }
+
+    this.profile.trophies = this.profile.trophies.filter((t) => t.id !== trophyId);
+    this.saveProfile();
+    return this.getProfile();
+  }
+
+  clearRunnerUpTrophies(): ManagerProfile {
+    this.profile.trophies = this.profile.trophies.filter((t) => t.type !== 'silver');
+    this.profile.stats.runnerUpCount = 0;
     this.saveProfile();
     return this.getProfile();
   }

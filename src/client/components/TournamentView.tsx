@@ -446,19 +446,43 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
               }}
               className="px-6 py-3 rounded-xl bg-gold-500 hover:bg-gold-400 text-tactical-950 font-black text-sm shadow-xl transition-all"
             >
-              Claim Trophy & Start New Tournament
+              Claim Gold Trophy & Start New Tournament
             </button>
           </div>
         </div>
       )}
 
-      {/* Eliminated Screen if lost in knockouts or missed group qualification */}
-      {tournament.isEliminated && (
+      {/* Runner-Up Screen if reached final and finished 2nd */}
+      {tournament.currentRound === 'completed' && tournament.runnerUp?.isUser && (
+        <div className="bg-gradient-to-b from-slate-900 via-tactical-900 to-tactical-950 border-2 border-slate-400 rounded-2xl p-8 text-center shadow-2xl space-y-4 animate-fade-in">
+          <div className="text-6xl animate-bounce">🥈</div>
+          <h2 className="text-3xl font-black text-slate-200 tracking-wide uppercase">
+            TOURNAMENT RUNNER-UP!
+          </h2>
+          <p className="text-sm text-tactical-200 max-w-md mx-auto">
+            Incredible campaign reaching the Grand Final! You finished 2nd place and earned the Silver Runner-Up Medal.
+          </p>
+          <div className="pt-2">
+            <button
+              onClick={() => {
+                tournamentService.abandonTournament();
+                setTournament(null);
+              }}
+              className="px-6 py-3 rounded-xl bg-slate-200 hover:bg-white text-tactical-950 font-black text-sm shadow-xl transition-all"
+            >
+              Claim Silver Medal & Start New Tournament
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Eliminated Screen if lost in knockouts or missed group qualification (strictly NOT runner up) */}
+      {tournament.isEliminated && !tournament.runnerUp?.isUser && (
         <div className="bg-tactical-900 border border-rose-900/50 rounded-2xl p-6 text-center space-y-3">
           <div className="text-4xl">💔</div>
           <h3 className="text-xl font-bold text-rose-400">Campaign Ended</h3>
           <p className="text-xs text-tactical-300 max-w-md mx-auto">
-            Your team was eliminated from the tournament. Review your career statistics in the profile and try again!
+            Your team was eliminated from the tournament without a podium finish. Only Champions (1st) and Runners-Up (2nd) receive trophies. Review your career statistics in the profile and try again!
           </p>
           <button
             onClick={() => {

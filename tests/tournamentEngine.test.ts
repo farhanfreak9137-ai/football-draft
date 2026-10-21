@@ -99,6 +99,63 @@ describe('TournamentEngine (7-Game World Cup Event Campaign)', () => {
     expect(tourney.isEliminated).toBe(false);
   });
 
+  it('marks tournament eliminated with NO champion or runner-up when user finishes last in group', () => {
+    const editions = offlineSoloEngine.getEditions();
+    const players = offlineSoloEngine.getPlayers();
+
+    const tourney = TournamentEngine.createTournament({
+      poolType: 'national',
+      draftMode: 'campaign',
+      userName: 'Unlucky XI',
+      editions,
+      players,
+    });
+
+    // Match 1: User loses 0-3
+    TournamentEngine.advanceTournament(tourney, { userScore: 0, opponentScore: 3 }, players);
+    // Match 2: User loses 1-4
+    TournamentEngine.advanceTournament(tourney, { userScore: 1, opponentScore: 4 }, players);
+    // Match 3: User loses 0-2 (Dead last with 0 points)
+    TournamentEngine.advanceTournament(tourney, { userScore: 0, opponentScore: 2 }, players);
+
+    expect(tourney.isEliminated).toBe(true);
+    expect(tourney.currentRound).toBe('completed');
+    expect(tourney.champion).toBeUndefined();
+    expect(tourney.runnerUp).toBeUndefined(); // Strictly no runner-up!
+  });
+
+  it('correctly sets runnerUp to user when user loses the Grand Final', () => {
+    const editions = offlineSoloEngine.getEditions();
+    const players = offlineSoloEngine.getPlayers();
+
+    const tourney = TournamentEngine.createTournament({
+      poolType: 'national',
+      draftMode: 'campaign',
+      userName: 'Silver Finalist',
+      editions,
+      players,
+    });
+
+    // 3 Group Wins
+    TournamentEngine.advanceTournament(tourney, { userScore: 2, opponentScore: 0 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 3, opponentScore: 1 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 1, opponentScore: 0 }, players);
+    // R16 Win
+    TournamentEngine.advanceTournament(tourney, { userScore: 2, opponentScore: 1 }, players);
+    // QF Win
+    TournamentEngine.advanceTournament(tourney, { userScore: 1, opponentScore: 0 }, players);
+    // SF Win
+    TournamentEngine.advanceTournament(tourney, { userScore: 3, opponentScore: 2 }, players);
+    expect(tourney.currentRound).toBe('final');
+
+    // Grand Final: User loses 1-2
+    TournamentEngine.advanceTournament(tourney, { userScore: 1, opponentScore: 2 }, players);
+    expect(tourney.currentRound).toBe('completed');
+    expect(tourney.champion?.isUser).toBe(false);
+    expect(tourney.runnerUp?.isUser).toBe(true);
+    expect(tourney.runnerUp?.name).toBe('Silver Finalist');
+  });
+
   it('builds authentic AI opponent squad from the team edition roster and preserves userSquad', () => {
     const editions = offlineSoloEngine.getEditions();
     const players = offlineSoloEngine.getPlayers();
