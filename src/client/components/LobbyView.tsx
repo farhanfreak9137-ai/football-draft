@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FormationDefinition, PoolType, Strategy, ManagerProfile } from '../../shared/types/index.js';
 import { FormationSelector } from './FormationSelector.js';
+import { Logo } from './Logo.js';
 import { profileService } from '../services/profileService.js';
 import { messages } from '../i18n/messages.js';
 import {
@@ -119,20 +120,23 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
       {/* Header Banner */}
       <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-6 shadow-xl relative overflow-hidden">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="font-mono text-xs uppercase px-2 py-0.5 rounded bg-pitch-DEFAULT/30 text-pitch-accent border border-pitch-line/50">
-                Authoritative Match Engine
-              </span>
+          <div className="flex items-start gap-4">
+            <Logo size={56} className="mt-1 hidden sm:inline-flex" />
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="font-mono text-xs uppercase px-2 py-0.5 rounded bg-pitch-DEFAULT/30 text-pitch-accent border border-pitch-line/50">
+                  Authoritative Match Engine
+                </span>
+              </div>
+              <h1 className="text-2xl sm:text-3xl font-extrabold text-tactical-100 tracking-tight">
+                Historical Football Simulator
+              </h1>
+              <p className="text-sm text-tactical-300 mt-1 max-w-xl">
+                Draft a starting XI from historical national teams and club editions. Face a tactical
+                AI or a live opponent, then watch your match simulation unfold — with full career
+                tracking, tactical management, and a World Cup campaign.
+              </p>
             </div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-tactical-100 tracking-tight">
-              Historical Football Simulator
-            </h1>
-            <p className="text-sm text-tactical-300 mt-1 max-w-xl">
-              Draft a starting XI from historical national teams and club editions. Face a tactical
-              AI or a live opponent, then watch your match simulation unfold — with full career
-              tracking, tactical management, and a World Cup campaign.
-            </p>
           </div>
 
           <div className="flex items-center gap-2">

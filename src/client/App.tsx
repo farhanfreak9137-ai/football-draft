@@ -50,6 +50,7 @@ import { MatchView } from './components/MatchView.js';
 import { TimerCountdown } from './components/TimerCountdown.js';
 import { SettingsModal } from './components/SettingsModal.js';
 import { FormationStudioModal } from './components/FormationStudioModal.js';
+import { Logo } from './components/Logo.js';
 import {
   Users,
   Copy,
@@ -837,9 +838,7 @@ export const App: React.FC = () => {
       <header className="border-b border-tactical-700/80 bg-tactical-850 px-4 py-3 sticky top-0 z-40 backdrop-blur shadow-md">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-pitch-DEFAULT border border-pitch-line flex items-center justify-center font-bold font-mono text-pitch-accent shadow-sm">
-              ⚽
-            </div>
+            <Logo size={36} />
             <div className="min-w-0">
               <span className="font-extrabold text-xs sm:text-base tracking-tight text-tactical-100 truncate block sm:inline max-w-[150px] sm:max-w-none">
                 HISTORICAL FOOTBALL SIMULATOR
