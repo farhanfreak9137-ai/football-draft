@@ -838,7 +838,7 @@ export const App: React.FC = () => {
       <header className="border-b border-tactical-700/80 bg-tactical-850 px-4 py-3 sticky top-0 z-40 backdrop-blur shadow-md">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Logo size={36} />
+            <Logo size={34} />
             <div className="min-w-0">
               <span className="font-extrabold text-xs sm:text-base tracking-tight text-tactical-100 truncate block sm:inline max-w-[150px] sm:max-w-none">
                 HISTORICAL FOOTBALL SIMULATOR

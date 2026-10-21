@@ -8,7 +8,7 @@ describe('RoomManager & Multiplayer Security', () => {
   let rm: RoomManager;
 
   beforeEach(async () => {
-    db = new DatabaseService();
+    db = new DatabaseService(':memory:');
     await db.initSchema();
     rm = new RoomManager(db);
   });

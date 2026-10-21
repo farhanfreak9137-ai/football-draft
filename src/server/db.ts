@@ -20,11 +20,11 @@ export class DatabaseService {
   public players: PlayerVersion[] = [];
   public identities: PlayerIdentity[] = [];
 
-  constructor() {
+  constructor(customUrl?: string) {
     // Load historical datasets into memory cache for sub-millisecond game operations
     this.loadDataFiles();
 
-    const dbUrl = process.env.DATABASE_URL || 'file:local.db';
+    const dbUrl = customUrl || process.env.DATABASE_URL || 'file:local.db';
     this.client = createClient({
       url: dbUrl,
     });

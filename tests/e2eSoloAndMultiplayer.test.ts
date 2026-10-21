@@ -14,7 +14,7 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
   let baseUrl: string;
 
   beforeEach(async () => {
-    db = new DatabaseService();
+    db = new DatabaseService(':memory:');
     await db.initSchema();
     roomManager = new RoomManager(db);
 
