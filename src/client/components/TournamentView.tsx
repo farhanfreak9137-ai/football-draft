@@ -46,6 +46,7 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
   const [matchDurationSec, setMatchDurationSec] = useState<number>(180); // Default 3 min for Manager Mode
   const [teamName, setTeamName] = useState('My Dream XI');
   const [formationId, setFormationId] = useState(defaultFormationId || '4-3-3');
+  const [showAllTourneyFormations, setShowAllTourneyFormations] = useState(false);
   const [viewingGroup, setViewingGroup] = useState<string>('A');
 
   const handleCreateTournament = () => {
@@ -316,20 +317,54 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
             </div>
 
             <div className="space-y-2">
-              <label className="text-xs font-bold text-tactical-300 uppercase tracking-wider">
+              <label className="text-xs font-bold text-tactical-300 uppercase tracking-wider block">
                 Base Tactical Formation
               </label>
-              <select
-                value={formationId}
-                onChange={(e) => setFormationId(e.target.value)}
-                className="w-full bg-tactical-800 border border-tactical-700 rounded-lg px-3 py-2 text-xs font-bold text-tactical-100 focus:border-pitch-accent focus:outline-none"
-              >
-                {formations.map((f) => (
-                  <option key={f.id} value={f.id}>
-                    {f.name} — {f.description}
-                  </option>
-                ))}
-              </select>
+
+              <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
+                {(showAllTourneyFormations ? formations : formations.slice(0, 4)).map((f) => {
+                  const isSelected = formationId === f.id;
+                  return (
+                    <div
+                      key={f.id}
+                      onClick={() => setFormationId(f.id)}
+                      className={`flex items-center justify-between px-3.5 py-2 cursor-pointer transition-colors ${
+                        isSelected
+                          ? 'bg-tactical-800 text-pitch-accent font-bold'
+                          : 'hover:bg-tactical-850/80 text-tactical-200'
+                      }`}
+                    >
+                      <span className="text-xs font-semibold">{f.name}</span>
+                      {isSelected ? (
+                        <span className="text-[11px] text-pitch-accent font-bold flex items-center gap-1">
+                          <Check className="w-3.5 h-3.5" />
+                          <span>Active</span>
+                        </span>
+                      ) : (
+                        <span className="text-[10px] text-tactical-500 font-mono">Select →</span>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              {!showAllTourneyFormations ? (
+                <button
+                  type="button"
+                  onClick={() => setShowAllTourneyFormations(true)}
+                  className="w-full py-1.5 px-3 text-xs font-bold text-pitch-accent hover:text-pitch-light hover:bg-tactical-850 rounded-lg border border-dashed border-tactical-700 transition-all flex items-center justify-center gap-1.5"
+                >
+                  <span>Show More Formations ({formations.length - 4} more) ▾</span>
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setShowAllTourneyFormations(false)}
+                  className="w-full py-1 text-center text-[11px] font-bold text-tactical-400 hover:text-tactical-200 hover:bg-tactical-850 rounded-lg transition-all"
+                >
+                  <span>Show Less ▴</span>
+                </button>
+              )}
             </div>
           </div>
 

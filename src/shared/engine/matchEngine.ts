@@ -45,8 +45,8 @@ export function calculateVisualMinute(sec: number, regDuration = 45): number {
   return 120;
 }
 
-export function getVisualMinute(sec: number): number {
-  return calculateVisualMinute(sec, 45);
+export function getVisualMinute(sec: number, regDuration = 45): number {
+  return calculateVisualMinute(sec, regDuration);
 }
 
 export class MatchEngine {
@@ -634,7 +634,7 @@ export class MatchEngine {
 
     const elapsedSeconds = Math.max(0, Math.floor((now - simulation.startTime) / 1000));
     const totalDurationSec = simulation.totalDurationSeconds || Math.floor((simulation.totalDurationMs || 45000) / 1000);
-    const regDuration = simulation.regularDurationSeconds || (totalDurationSec === 60 ? 45 : Math.floor(totalDurationSec * 0.75));
+    const regDuration = simulation.regularDurationSeconds || (totalDurationSec <= 60 ? 45 : totalDurationSec);
     const currentSecond = Math.min(elapsedSeconds, totalDurationSec);
 
     let status: MatchSimulationState['status'] = 'live';
@@ -671,9 +671,7 @@ export class MatchEngine {
       }
     }
 
-    const currentMinute = visibleEvents.length > 0
-      ? visibleEvents[visibleEvents.length - 1].minute ?? 0
-      : 0;
+    const currentMinute = calculateVisualMinute(currentSecond, regDuration);
 
     return {
       ...simulation,

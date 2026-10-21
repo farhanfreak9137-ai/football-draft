@@ -207,4 +207,22 @@ describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)',
       expect(r.summary).toBeDefined();
     }
   });
+
+  it('correctly maps real seconds to simulated match minutes across 45s, 90s, and 180s durations', () => {
+    // 45s blitz: 0s -> 0', 22s -> 45', 45s -> 90'
+    expect(MatchEngine.calculateVisualMinute(0, 45)).toBe(0);
+    expect(MatchEngine.calculateVisualMinute(22, 45)).toBe(45);
+    expect(MatchEngine.calculateVisualMinute(45, 45)).toBe(90);
+
+    // 90s classic: 0s -> 0', 45s -> 45', 59s -> 59', 90s -> 90' (NEVER 120' in regular time!)
+    expect(MatchEngine.calculateVisualMinute(0, 90)).toBe(0);
+    expect(MatchEngine.calculateVisualMinute(45, 90)).toBe(45);
+    expect(MatchEngine.calculateVisualMinute(59, 90)).toBe(59);
+    expect(MatchEngine.calculateVisualMinute(90, 90)).toBe(90);
+
+    // 180s (3m manager mode): 0s -> 0', 90s -> 45', 180s -> 90'
+    expect(MatchEngine.calculateVisualMinute(0, 180)).toBe(0);
+    expect(MatchEngine.calculateVisualMinute(90, 180)).toBe(45);
+    expect(MatchEngine.calculateVisualMinute(180, 180)).toBe(90);
+  });
 });

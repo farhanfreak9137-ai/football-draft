@@ -142,8 +142,14 @@ export const MatchView: React.FC<MatchViewProps> = ({
   const hostName = hostDraft.playerName || 'Host XI';
   const guestName = guestDraft?.playerName || 'Opponent XI';
 
-  const visualMinute = getVisualMinute(liveMatch.currentSecond);
-  const maxVisualMinute = liveMatch.totalDurationSeconds > 45 ? 120 : 90;
+  const regDuration = liveMatch.regularDurationSeconds || (liveMatch.totalDurationSeconds <= 60 ? 45 : liveMatch.totalDurationSeconds);
+  const hasExtraTime = Boolean(
+    liveMatch.totalDurationSeconds > regDuration ||
+    liveMatch.winMethod === 'extra_time' ||
+    liveMatch.winMethod === 'penalties'
+  );
+  const maxVisualMinute = hasExtraTime ? 120 : 90;
+  const visualMinute = MatchEngine.calculateVisualMinute(liveMatch.currentSecond, regDuration);
   const isMatchFinished = liveMatch.status === 'completed';
 
   // Compute live & post-match player ratings

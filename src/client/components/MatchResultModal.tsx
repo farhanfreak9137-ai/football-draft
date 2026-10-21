@@ -59,7 +59,13 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
 
   const hostName = hostDraft.playerName || 'Host XI';
   const guestName = guestDraft?.playerName || 'Opponent XI';
-  const maxVisualMinute = liveMatch.totalDurationSeconds > 45 ? 120 : 90;
+  const regDuration = liveMatch.regularDurationSeconds || (liveMatch.totalDurationSeconds <= 60 ? 45 : liveMatch.totalDurationSeconds);
+  const hasExtraTime = Boolean(
+    liveMatch.totalDurationSeconds > regDuration ||
+    liveMatch.winMethod === 'extra_time' ||
+    liveMatch.winMethod === 'penalties'
+  );
+  const maxVisualMinute = hasExtraTime ? 120 : 90;
 
   const isHostWinner = liveMatch.winner === 'host';
   const isGuestWinner = liveMatch.winner === 'guest';
