@@ -34,6 +34,7 @@ interface MatchResultModalProps {
   } | null;
   onViewBothPitches: () => void;
   onPlayAgain: () => void;
+  isTournament?: boolean;
 }
 
 export const MatchResultModal: React.FC<MatchResultModalProps> = ({
@@ -45,6 +46,7 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
   ratingsData,
   onViewBothPitches,
   onPlayAgain,
+  isTournament = false,
 }) => {
   const [dreamTeamSaved, setDreamTeamSaved] = useState(false);
 
@@ -408,13 +410,15 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
 
         {/* Action Buttons Footer */}
         <div className="p-4 sm:p-5 border-t border-tactical-750 bg-tactical-900/80 flex flex-wrap items-center justify-between gap-2.5">
-          <button
-            onClick={handleSaveDreamTeam}
-            className="flex items-center justify-center gap-1.5 py-2 px-3.5 rounded-xl bg-gold-500/20 hover:bg-gold-500/30 text-gold-300 font-bold text-xs border border-gold-500/50 active:scale-98 shadow-md transition-all"
-          >
-            {dreamTeamSaved ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Sparkles className="w-3.5 h-3.5 text-gold-400" />}
-            <span>{dreamTeamSaved ? 'Saved to Dream Team!' : '⭐ Save XI as Dream Team'}</span>
-          </button>
+          {!isTournament ? (
+            <button
+              onClick={handleSaveDreamTeam}
+              className="flex items-center justify-center gap-1.5 py-2 px-3.5 rounded-xl bg-gold-500/20 hover:bg-gold-500/30 text-gold-300 font-bold text-xs border border-gold-500/50 active:scale-98 shadow-md transition-all"
+            >
+              {dreamTeamSaved ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Sparkles className="w-3.5 h-3.5 text-gold-400" />}
+              <span>{dreamTeamSaved ? 'Saved to Dream Team!' : '⭐ Save XI as Dream Team'}</span>
+            </button>
+          ) : <div />}
 
           <div className="flex items-center gap-2">
             <button

@@ -32,7 +32,7 @@ interface SoloDraftStudioProps {
   formationId: string;
   customFormation?: FormationDefinition;
   managerName: string;
-  onComplete: (draftState: PlayerDraftState, saveAsDreamTeam: boolean) => void;
+  onComplete: (draftState: PlayerDraftState) => void;
   onCancel: () => void;
 }
 
@@ -68,7 +68,6 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
   const [currentSlotIndex, setCurrentSlotIndex] = useState(0);
   const [draftedSlots, setDraftedSlots] = useState<Record<string, PlayerVersion>>({});
   const [usedIdentityIds, setUsedIdentityIds] = useState<string[]>([]);
-  const [saveAsDreamTeam, setSaveAsDreamTeam] = useState(true);
 
   // Mode A: Pack Roll State
   const [packRollEdition, setPackRollEdition] = useState<TeamEdition | null>(null);
@@ -268,7 +267,7 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
     initialDraft.usedIdentityIds = [...usedIdentityIds];
     initialDraft.isReady = true;
 
-    onComplete(initialDraft, saveAsDreamTeam);
+    onComplete(initialDraft);
   };
 
   // Pack roll candidate players
@@ -422,15 +421,6 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
                 <Sparkles className="w-4 h-4" />
                 <span>Squad Complete!</span>
               </div>
-              <label className="flex items-center justify-center gap-2 text-xs text-tactical-300 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={saveAsDreamTeam}
-                  onChange={(e) => setSaveAsDreamTeam(e.target.checked)}
-                  className="rounded border-tactical-700 text-gold-500 focus:ring-0"
-                />
-                <span>Save to Profile as My Dream Team</span>
-              </label>
               <button
                 onClick={handleFinalizeDraft}
                 className="w-full py-3 rounded-xl bg-gradient-to-r from-gold-500 to-amber-600 hover:from-gold-400 hover:to-amber-500 text-tactical-950 font-black text-sm uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg active:scale-98 transition-all"

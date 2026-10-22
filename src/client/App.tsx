@@ -612,7 +612,7 @@ export const App: React.FC = () => {
   };
 
   // Handler: Solo Draft Complete from Studio (Pack-Roll, 5-Card, Star-Budget)
-  const handleSoloDraftComplete = (draftState: any, saveAsDreamTeam: boolean) => {
+  const handleSoloDraftComplete = (draftState: any) => {
     if (!soloDraftParams) return;
     const { tournament: tourney, fixture } = soloDraftParams;
     const opponentTeam = fixture.homeTeam.isUser ? fixture.awayTeam : fixture.homeTeam;
@@ -621,11 +621,6 @@ export const App: React.FC = () => {
     // Save user squad to tournament state!
     const updatedTourney = tournamentService.setUserSquad(draftState);
     setActiveTournament({ ...updatedTourney });
-
-    // Save as Dream Team if checked
-    if (saveAsDreamTeam) {
-      profileService.saveDreamTeam(convertDraftStateToDreamTeam(draftState));
-    }
 
     // Build authentic AI opponent squad
     const aiDraft = TournamentEngine.buildAiTeamSquad(
@@ -963,6 +958,7 @@ export const App: React.FC = () => {
             onExitMatch={handleLeaveRoom}
             onMentalityChange={handleLiveMentalityChange}
             onTacticsChange={handleTacticsChange}
+            isTournament={Boolean(tournamentMatchContext?.isTournament)}
           />
         )}
 

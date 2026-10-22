@@ -51,6 +51,7 @@ interface MatchViewProps {
     passingStyle?: PassingStyle;
     shout?: TouchlineShout;
   }) => void;
+  isTournament?: boolean;
 }
 
 export const MatchView: React.FC<MatchViewProps> = ({
@@ -60,6 +61,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
   onExitMatch,
   onMentalityChange,
   onTacticsChange,
+  isTournament = false,
 }) => {
   const [soundEnabled, setSoundEnabled] = useState(soundManager.enabled);
   const [activeTab, setActiveTab] = useState<'pitch' | 'lineups' | 'report'>('pitch');
@@ -1121,6 +1123,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
         hostDraft={hostDraft}
         guestDraft={guestDraft}
         ratingsData={ratingsData}
+        isTournament={isTournament}
         onViewBothPitches={() => {
           setActiveTab('lineups');
           setShowResultModal(false);
