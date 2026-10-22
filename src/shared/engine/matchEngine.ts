@@ -831,7 +831,7 @@ export class MatchEngine {
     if (activeShout && fromSecond <= activeShout.expiresAtSec) {
       if (activeShout.shout === 'demand_more') ratingAdvantage += 0.06;
       else if (activeShout.shout === 'push_forward') ratingAdvantage += 0.08;
-      else if (activeShout.shout === 'tighten_up') ratingAdvantage -= 0.06;
+      else if (activeShout.shout === 'focus_retain') ratingAdvantage -= 0.06;
     }
 
     const hostAttackChance = Math.max(0.20, Math.min(0.80, 0.5 + ratingAdvantage));
