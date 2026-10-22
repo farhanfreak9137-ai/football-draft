@@ -509,6 +509,41 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
     onClose();
   };
 
+  const handleApplyNewFormation = (newForm: FormationDefinition, custom?: FormationDefinition) => {
+    setFormationId(newForm.id);
+    setSelectedCustomFormation(custom);
+
+    // Intelligently preserve existing drafted players that are compatible with new formation slots
+    const newDraftedSlots: Record<string, PlayerVersion> = {};
+    const unassignedPlayers: PlayerVersion[] = Object.values(draftedSlots);
+    const usedIds = new Set<string>();
+
+    for (const slot of newForm.slots) {
+      const matchIndex = unassignedPlayers.findIndex(
+        (p) => p && !usedIds.has(p.identityId) && isPlayerEligibleForSlot(p, slot)
+      );
+      if (matchIndex !== -1) {
+        newDraftedSlots[slot.id] = unassignedPlayers[matchIndex];
+        usedIds.add(unassignedPlayers[matchIndex].identityId);
+        unassignedPlayers.splice(matchIndex, 1);
+      }
+    }
+
+    setDraftedSlots(newDraftedSlots);
+
+    // If any former starters couldn't fit the new slots, preserve them on the bench
+    if (unassignedPlayers.length > 0) {
+      setBenchPlayers((prev) => {
+        const currentBenchIds = new Set(prev.map((p) => p.identityId));
+        const added = unassignedPlayers.filter((p) => !currentBenchIds.has(p.identityId));
+        return [...prev, ...added].slice(0, 9);
+      });
+    }
+
+    setActiveSlotTarget(null);
+    setIsFormationPickerOpen(false);
+  };
+
   if (!isOpen) return null;
 
   return (
@@ -516,8 +551,9 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
-      className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/85 backdrop-blur-md animate-fade-in"
+      className="fixed inset-0 z-[70] flex items-center justify-center p-2 sm:p-4 bg-black/85 backdrop-blur-md animate-fade-in"
       style={{
+        zIndex: 70,
         paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
         paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)',
       }}
@@ -705,7 +741,7 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                 </div>
 
                 {/* Pitch Canvas */}
-                <div className="relative aspect-[4/5] bg-pitch-DEFAULT/45 border border-pitch-line/50 rounded-xl overflow-hidden p-2 shadow-inner select-none">
+                <div className={`relative aspect-[4/5] bg-pitch-DEFAULT/45 border border-pitch-line/50 rounded-xl overflow-hidden p-2 shadow-inner select-none ${isFormationPickerOpen || isFormationStudioOpen ? 'pointer-events-none' : ''}`}>
                   {/* Pitch Grass Markings */}
                   <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-[1px] bg-pitch-line/40 pointer-events-none" />
                   <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full border border-pitch-line/40 pointer-events-none" />
@@ -1488,171 +1524,159 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
           )}
         </div>
 
-        {/* Formation Picker Modal Overlay */}
-        {isFormationPickerOpen && (
-          <div
-            onClick={(e) => {
-              if (e.target === e.currentTarget) setIsFormationPickerOpen(false);
-            }}
-            className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in"
-          >
-            <div className="bg-tactical-900 border border-tactical-700 rounded-2xl w-full max-w-md max-h-[85vh] flex flex-col overflow-hidden shadow-2xl">
-              <div className="px-4 py-3 border-b border-tactical-750 flex items-center justify-between shrink-0 bg-tactical-950">
-                <div className="flex items-center gap-2">
-                  <Layers className="w-4 h-4 text-gold-400" />
-                  <h3 className="text-sm font-extrabold text-tactical-100">
-                    Select Tactical Formation
-                  </h3>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setIsFormationPickerOpen(false)}
-                  className="p-1 rounded text-tactical-400 hover:text-tactical-100"
-                >
-                  <X className="w-4 h-4" />
-                </button>
+      </div>
+
+      {/* Formation Picker Modal Overlay (Rooted at top level with z-[100] to sit above all pitch player slots) */}
+      {isFormationPickerOpen && (
+        <div
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setIsFormationPickerOpen(false);
+          }}
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-fade-in"
+          style={{ zIndex: 100 }}
+        >
+          <div className="bg-tactical-900 border border-tactical-700 rounded-2xl w-full max-w-md max-h-[85vh] flex flex-col overflow-hidden shadow-2xl">
+            <div className="px-4 py-3 border-b border-tactical-750 flex items-center justify-between shrink-0 bg-tactical-950">
+              <div className="flex items-center gap-2">
+                <Layers className="w-4 h-4 text-gold-400" />
+                <h3 className="text-sm font-extrabold text-tactical-100">
+                  Select Tactical Formation
+                </h3>
               </div>
+              <button
+                type="button"
+                onClick={() => setIsFormationPickerOpen(false)}
+                className="p-1 rounded text-tactical-400 hover:text-tactical-100"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
 
-              <div className="p-4 overflow-y-auto space-y-4">
-                {/* Custom Formations (if any) */}
-                {customFormations.length > 0 && (
-                  <div className="space-y-1.5">
-                    <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider">
-                      ✨ Your Custom Formations ({customFormations.length})
-                    </span>
-                    <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
-                      {customFormations.map((cf) => {
-                        const isSelected = formationId === cf.id;
-                        return (
-                          <div
-                            key={cf.id}
-                            onClick={() => {
-                              setFormationId(cf.id);
-                              setSelectedCustomFormation(cf);
-                              setDraftedSlots({});
-                              setActiveSlotTarget(null);
-                              setIsFormationPickerOpen(false);
-                            }}
-                            className={`flex items-center justify-between px-3 py-2 cursor-pointer transition-colors ${
-                              isSelected
-                                ? 'bg-tactical-800 text-gold-400 font-bold'
-                                : 'hover:bg-tactical-850 text-tactical-200'
-                            }`}
-                          >
-                            <span className="text-xs font-semibold">{cf.name}</span>
-                            {isSelected ? (
-                              <span className="text-[11px] text-gold-400 font-bold flex items-center gap-1">
-                                <Check className="w-3.5 h-3.5" />
-                                <span>Active</span>
-                              </span>
-                            ) : (
-                              <span className="text-[10px] text-tactical-400 font-mono">Custom</span>
-                            )}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-
-                {/* Preset Formations */}
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between pb-1">
-                    <span className="text-xs font-bold text-tactical-300 uppercase tracking-wider">
-                      Preset Tactical Systems
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setIsFormationPickerOpen(false);
-                        setIsFormationStudioOpen(true);
-                      }}
-                      className="text-xs text-pitch-accent hover:underline font-bold"
-                    >
-                      + Create Custom in Studio
-                    </button>
-                  </div>
-
-                  {/* Formations as clean single lines, no boxes, no details */}
+            <div className="p-4 overflow-y-auto space-y-4">
+              {/* Custom Formations (if any) */}
+              {customFormations.length > 0 && (
+                <div className="space-y-1.5">
+                  <span className="text-[11px] font-bold text-gold-400 uppercase tracking-wider">
+                    ✨ Your Custom Formations ({customFormations.length})
+                  </span>
                   <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
-                    {(showAllFormations
-                      ? Object.values(FORMATIONS)
-                      : Object.values(FORMATIONS).slice(0, 4)
-                    ).map((f) => {
-                      const isSelected = formationId === f.id && !selectedCustomFormation;
+                    {customFormations.map((cf) => {
+                      const isSelected = formationId === cf.id;
                       return (
                         <div
-                          key={f.id}
-                          onClick={() => {
-                            setFormationId(f.id);
-                            setSelectedCustomFormation(undefined);
-                            setDraftedSlots({});
-                            setActiveSlotTarget(null);
-                            setIsFormationPickerOpen(false);
-                          }}
-                          className={`flex items-center justify-between px-3.5 py-2.5 cursor-pointer transition-colors ${
+                          key={cf.id}
+                          onClick={() => handleApplyNewFormation(cf, cf)}
+                          className={`flex items-center justify-between px-3 py-2 cursor-pointer transition-colors ${
                             isSelected
                               ? 'bg-tactical-800 text-gold-400 font-bold'
                               : 'hover:bg-tactical-850 text-tactical-200'
                           }`}
                         >
-                          <span className="text-xs font-semibold">{f.name}</span>
+                          <span className="text-xs font-semibold">{cf.name}</span>
                           {isSelected ? (
                             <span className="text-[11px] text-gold-400 font-bold flex items-center gap-1">
                               <Check className="w-3.5 h-3.5" />
                               <span>Active</span>
                             </span>
                           ) : (
-                            <span className="text-[10px] text-tactical-500 font-mono">Select →</span>
+                            <span className="text-[10px] text-tactical-400 font-mono">Custom</span>
                           )}
                         </div>
                       );
                     })}
                   </div>
-
-                  {/* Show More / Show Less Toggle Button */}
-                  {!showAllFormations ? (
-                    <button
-                      type="button"
-                      onClick={() => setShowAllFormations(true)}
-                      className="w-full py-2 px-3 text-xs font-bold text-gold-400 hover:text-gold-300 hover:bg-tactical-850 rounded-xl border border-dashed border-tactical-700 transition-all flex items-center justify-center gap-1.5"
-                    >
-                      <span>Show More Formations ({Object.values(FORMATIONS).length - 4} more) ▾</span>
-                    </button>
-                  ) : (
-                    <button
-                      type="button"
-                      onClick={() => setShowAllFormations(false)}
-                      className="w-full py-1.5 text-center text-[11px] font-bold text-tactical-400 hover:text-tactical-200 hover:bg-tactical-850 rounded-lg transition-all"
-                    >
-                      <span>Show Less ▴</span>
-                    </button>
-                  )}
                 </div>
+              )}
+
+              {/* Preset Formations */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between pb-1">
+                  <span className="text-xs font-bold text-tactical-300 uppercase tracking-wider">
+                    Preset Tactical Systems
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsFormationPickerOpen(false);
+                      setIsFormationStudioOpen(true);
+                    }}
+                    className="text-xs text-pitch-accent hover:underline font-bold"
+                  >
+                    + Create Custom in Studio
+                  </button>
+                </div>
+
+                {/* Formations as clean single lines */}
+                <div className="divide-y divide-tactical-800 rounded-xl overflow-hidden border border-tactical-800 bg-tactical-950">
+                  {(showAllFormations
+                    ? Object.values(FORMATIONS)
+                    : Object.values(FORMATIONS).slice(0, 4)
+                  ).map((f) => {
+                    const isSelected = formationId === f.id && !selectedCustomFormation;
+                    return (
+                      <div
+                        key={f.id}
+                        onClick={() => handleApplyNewFormation(f)}
+                        className={`flex items-center justify-between px-3.5 py-2.5 cursor-pointer transition-colors ${
+                          isSelected
+                            ? 'bg-tactical-800 text-gold-400 font-bold'
+                            : 'hover:bg-tactical-850 text-tactical-200'
+                        }`}
+                      >
+                        <span className="text-xs font-semibold">{f.name}</span>
+                        {isSelected ? (
+                          <span className="text-[11px] text-gold-400 font-bold flex items-center gap-1">
+                            <Check className="w-3.5 h-3.5" />
+                            <span>Active</span>
+                          </span>
+                        ) : (
+                          <span className="text-[10px] text-tactical-500 font-mono">Select →</span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Show More / Show Less Toggle Button */}
+                {!showAllFormations ? (
+                  <button
+                    type="button"
+                    onClick={() => setShowAllFormations(true)}
+                    className="w-full py-2 px-3 text-xs font-bold text-gold-400 hover:text-gold-300 hover:bg-tactical-850 rounded-xl border border-dashed border-tactical-700 transition-all flex items-center justify-center gap-1.5"
+                  >
+                    <span>Show More Formations ({Object.values(FORMATIONS).length - 4} more) ▾</span>
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setShowAllFormations(false)}
+                    className="w-full py-1.5 text-center text-[11px] font-bold text-tactical-400 hover:text-tactical-200 hover:bg-tactical-850 rounded-lg transition-all"
+                  >
+                    <span>Show Less ▴</span>
+                  </button>
+                )}
               </div>
             </div>
           </div>
-        )}
+        </div>
+      )}
 
-        {/* Formation Studio Modal directly integrated */}
-        {isFormationStudioOpen && (
-          <FormationStudioModal
-            isOpen={isFormationStudioOpen}
-            onClose={() => {
-              setIsFormationStudioOpen(false);
-              setCustomFormations(getCustomFormations());
-            }}
-            onSelectFormation={(custom) => {
-              setSelectedCustomFormation(custom);
-              setFormationId(custom.id);
-              setCustomFormations(getCustomFormations());
-              setDraftedSlots({});
-              setIsFormationStudioOpen(false);
-            }}
-            initialFormation={selectedCustomFormation}
-          />
-        )}
-      </div>
+      {/* Formation Studio Modal directly integrated */}
+      {isFormationStudioOpen && (
+        <FormationStudioModal
+          isOpen={isFormationStudioOpen}
+          onClose={() => {
+            setIsFormationStudioOpen(false);
+            setCustomFormations(getCustomFormations());
+          }}
+          onSelectFormation={(custom) => {
+            handleApplyNewFormation(custom, custom);
+            setCustomFormations(getCustomFormations());
+            setIsFormationStudioOpen(false);
+          }}
+          initialFormation={selectedCustomFormation}
+        />
+      )}
     </div>
   );
 
