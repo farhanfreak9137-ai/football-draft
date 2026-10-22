@@ -147,6 +147,20 @@ export const RosterList: React.FC<RosterListProps> = ({
     };
   }).filter((group) => group.items.length > 0);
 
+  const [density, setDensity] = React.useState<'compact' | 'comfortable'>(() => {
+    if (typeof window !== 'undefined') {
+      return (localStorage.getItem('football_sim_roster_density') as 'compact' | 'comfortable') || 'compact';
+    }
+    return 'compact';
+  });
+
+  const handleToggleDensity = (mode: 'compact' | 'comfortable') => {
+    setDensity(mode);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('football_sim_roster_density', mode);
+    }
+  };
+
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const lastEditionId = useRef<string | null>(null);
 
@@ -187,23 +201,50 @@ export const RosterList: React.FC<RosterListProps> = ({
   }, [selectedPlayerId]);
 
   return (
-    <div className="bg-tactical-850 border border-tactical-700/60 rounded-lg p-3 space-y-2.5 shadow-lg">
+    <div className="bg-tactical-850 border border-tactical-700/60 rounded-lg p-2.5 sm:p-3 space-y-2 shadow-lg">
       {/* Minimalist Header bar */}
       <div className="flex items-center justify-between border-b border-tactical-700/70 pb-2">
         <div className="min-w-0 pr-2">
-          <div className="flex items-center gap-2 flex-wrap">
-            <h3 className="text-base font-bold text-tactical-100 truncate">
+          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
+            <h3 className="text-sm sm:text-base font-bold text-tactical-100 truncate">
               {edition.teamName}{' '}
               <span className="text-gold-400 font-mono">({edition.yearOrSeason})</span>
             </h3>
-            <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-tactical-750 text-tactical-400 border border-tactical-700">
+            <span className="text-[9px] sm:text-[10px] font-mono uppercase px-1.5 py-0.2 rounded bg-tactical-750 text-tactical-400 border border-tactical-700">
               {edition.achievement || 'World Cup'}
             </span>
           </div>
         </div>
 
-        {/* Minimalist Reroll Button */}
-        <div className="flex items-center gap-2 shrink-0">
+        {/* Header Actions: Density Toggle + Reroll Button */}
+        <div className="flex items-center gap-1.5 shrink-0">
+          <div className="flex items-center p-0.5 bg-tactical-900 rounded-lg border border-tactical-750 text-[10px] font-mono select-none">
+            <button
+              type="button"
+              onClick={() => handleToggleDensity('compact')}
+              title="Compact multi-column view to fit squad on screen"
+              className={`px-2 py-1 rounded transition-all flex items-center gap-1 ${
+                density === 'compact'
+                  ? 'bg-tactical-750 text-gold-400 font-bold shadow-xs'
+                  : 'text-tactical-500 hover:text-tactical-300'
+              }`}
+            >
+              <span>🗜️ Fit</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => handleToggleDensity('comfortable')}
+              title="Comfortable 2-column view"
+              className={`px-2 py-1 rounded transition-all flex items-center gap-1 ${
+                density === 'comfortable'
+                  ? 'bg-tactical-750 text-tactical-100 font-bold shadow-xs'
+                  : 'text-tactical-500 hover:text-tactical-300'
+              }`}
+            >
+              <span>▦ List</span>
+            </button>
+          </div>
+
           <button
             type="button"
             onClick={(e) => {
@@ -219,7 +260,7 @@ export const RosterList: React.FC<RosterListProps> = ({
                 ? 'Wait for your turn'
                 : 'Reroll for another historical squad (consumes 1 reroll)'
             }
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all shadow-sm ${
+            className={`flex items-center gap-1.5 px-2.5 py-1 sm:py-1.5 rounded-lg text-xs font-bold transition-all shadow-sm ${
               isMyTurn && rerollsRemaining > 0 && !disabled && !isRolling
                 ? 'bg-tactical-750 hover:bg-tactical-700 text-gold-400 border border-gold-500/50 hover:border-gold-400 active:scale-95 cursor-pointer ring-1 ring-gold-500/20'
                 : 'bg-tactical-800 text-tactical-600 border border-tactical-750 cursor-not-allowed opacity-50'
@@ -227,7 +268,7 @@ export const RosterList: React.FC<RosterListProps> = ({
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isRolling ? 'animate-spin text-pitch-accent' : ''}`} />
             <span>{isRolling ? 'Rerolling...' : 'Reroll'}</span>
-            <span className="font-mono text-[10px] px-1.5 py-0.5 bg-tactical-900 rounded border border-tactical-750 text-tactical-300">
+            <span className="font-mono text-[10px] px-1.5 py-0.2 bg-tactical-900 rounded border border-tactical-750 text-tactical-300">
               {rerollsRemaining}/3
             </span>
           </button>
@@ -244,7 +285,7 @@ export const RosterList: React.FC<RosterListProps> = ({
               key={cat.id}
               type="button"
               onClick={() => scrollToCategory(cat.id)}
-              className={`px-2.5 py-1 rounded-lg text-xs font-bold shrink-0 transition-all flex items-center gap-1.5 border active:scale-95 ${
+              className={`px-2 py-0.5 rounded-lg text-[11px] font-bold shrink-0 transition-all flex items-center gap-1 border active:scale-95 ${
                 isNeeded
                   ? 'bg-tactical-800 hover:bg-tactical-750 text-tactical-100 border-tactical-600 shadow-xs'
                   : 'bg-tactical-900/60 text-tactical-500 border-tactical-800 opacity-60'
@@ -253,7 +294,7 @@ export const RosterList: React.FC<RosterListProps> = ({
               <span>{cat.icon}</span>
               <span>{cat.label}</span>
               <span
-                className={`text-[10px] font-mono px-1.5 py-0.2 rounded font-bold ${
+                className={`text-[9px] font-mono px-1 py-0.2 rounded font-bold ${
                   isNeeded
                     ? 'bg-pitch-DEFAULT/30 text-pitch-accent border border-pitch-line/40'
                     : 'bg-tactical-800 text-tactical-500'
@@ -266,26 +307,34 @@ export const RosterList: React.FC<RosterListProps> = ({
         })}
       </div>
 
-      {/* Categorized Roster List (Smooth natural mobile scrolling with section jump anchors) */}
+      {/* Categorized Roster List (Smooth natural scrolling with responsive density) */}
       <div
         ref={scrollContainerRef}
-        className="space-y-3.5 max-h-[68vh] sm:max-h-[600px] overflow-y-auto smooth-scroll pr-1 pb-4"
+        className={`${
+          density === 'compact' ? 'space-y-1.5 sm:space-y-2' : 'space-y-3'
+        } max-h-[72vh] sm:max-h-[640px] overflow-y-auto smooth-scroll pr-1 pb-3`}
       >
         {groupedPlayers.map((group) => (
-          <div key={group.id} id={`cat-group-${group.id}`} className="space-y-1.5 scroll-mt-2">
+          <div key={group.id} id={`cat-group-${group.id}`} className="space-y-1 scroll-mt-2">
             {/* Minimalist Section Header */}
-            <div className="sticky top-0 z-10 bg-tactical-850/95 backdrop-blur-sm py-1 border-b border-tactical-700/60 flex items-center justify-between">
-              <div className="flex items-center gap-1.5 text-xs font-bold text-tactical-200 uppercase tracking-wide">
+            <div className="sticky top-0 z-10 bg-tactical-850/95 backdrop-blur-sm py-0.5 border-b border-tactical-700/60 flex items-center justify-between">
+              <div className="flex items-center gap-1.5 text-[11px] font-bold text-tactical-200 uppercase tracking-wide">
                 <span>{group.icon}</span>
                 <span>{group.label}</span>
               </div>
-              <span className="font-mono text-[10px] text-tactical-400 bg-tactical-800 px-1.5 py-0.5 rounded border border-tactical-700/60">
+              <span className="font-mono text-[9px] text-tactical-400 bg-tactical-800 px-1 py-0.2 rounded border border-tactical-700/60">
                 {group.items.length}
               </span>
             </div>
 
-            {/* Players Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+            {/* Players Grid: 2 columns on mobile, 3 columns on tablet/desktop in compact mode */}
+            <div
+              className={`grid ${
+                density === 'compact'
+                  ? 'grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-1'
+                  : 'grid-cols-1 sm:grid-cols-2 gap-1.5'
+              }`}
+            >
               {group.items.map(({ player, eligible, reason, isTakenByOpponent, matchingSlots }) => {
                 const isSelected = selectedPlayerId === player.id;
                 return (
@@ -296,16 +345,17 @@ export const RosterList: React.FC<RosterListProps> = ({
                       isSelected={isSelected}
                       ineligibleReason={reason}
                       isTakenByOpponent={isTakenByOpponent}
+                      isCompact={density === 'compact'}
                       disabled={!isMyTurn || disabled}
                       onPick={eligible && isMyTurn ? () => onSelectPlayer(player) : undefined}
                     />
                     {isSelected && isMyTurn && matchingSlots && matchingSlots.length > 0 && (
-                      <div className="bg-emerald-950/95 border-x border-b border-emerald-400 rounded-b p-2 flex flex-col gap-1.5 shadow-xl animate-in fade-in duration-150 z-20">
-                        <div className="flex items-center justify-between text-[11px] text-emerald-200 font-semibold">
+                      <div className="bg-emerald-950/95 border-x border-b border-emerald-400 rounded-b p-1.5 flex flex-col gap-1 shadow-xl animate-in fade-in duration-150 z-20">
+                        <div className="flex items-center justify-between text-[10px] text-emerald-200 font-semibold">
                           <span>Assign <strong>{player.name}</strong> to:</span>
-                          <span className="text-[10px] text-emerald-400 font-mono font-bold bg-emerald-900/60 px-1.5 py-0.5 rounded border border-emerald-500/40">1-Tap Assign</span>
+                          <span className="text-[9px] text-emerald-400 font-mono font-bold bg-emerald-900/60 px-1 py-0.2 rounded border border-emerald-500/40">1-Tap Assign</span>
                         </div>
-                        <div className="flex items-center gap-1.5 flex-wrap">
+                        <div className="flex items-center gap-1 flex-wrap">
                           {matchingSlots.map((slot) => (
                             <button
                               key={slot.id}
@@ -315,10 +365,10 @@ export const RosterList: React.FC<RosterListProps> = ({
                                 e.stopPropagation();
                                 if (onSlotSelect) onSlotSelect(slot.id);
                               }}
-                              className="flex items-center gap-1 px-2.5 py-1.5 rounded bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-tactical-950 font-black text-xs shadow-md transition-all cursor-pointer"
+                              className="flex items-center gap-1 px-2 py-1 rounded bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-tactical-950 font-black text-[11px] shadow-sm transition-all cursor-pointer"
                             >
                               <span>{slot.defaultPosition}</span>
-                              <span className="text-[10px] font-medium opacity-90">({slot.name})</span>
+                              <span className="text-[9px] font-medium opacity-90">({slot.name})</span>
                             </button>
                           ))}
                         </div>

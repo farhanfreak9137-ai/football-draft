@@ -23,6 +23,7 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
   disabled = false,
   ineligibleReason,
   isTakenByOpponent = false,
+  isCompact = false,
 }) => {
   const positions = [...player.naturalPositions, ...player.secondaryPositions].join('/');
 
@@ -37,10 +38,12 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
           : !eligible
           ? ineligibleReason
           : player.hasLegendSeal
-          ? `${player.name} (★ ${player.legendSealReason})`
-          : undefined
+          ? `${player.name} (★ ${player.legendSealReason}) - ${positions} - OVR ${player.ovr}`
+          : `${player.name} (${positions}) - OVR ${player.ovr}`
       }
-      className={`w-full flex items-center justify-between px-2.5 py-1.5 rounded border text-left transition-all select-none ${
+      className={`w-full flex items-center justify-between ${
+        isCompact ? 'px-2 py-1' : 'px-2.5 py-1.5 sm:py-1'
+      } rounded border text-left transition-all select-none ${
         isTakenByOpponent
           ? 'bg-rose-950/30 border-rose-900/50 opacity-45 cursor-not-allowed'
           : isSelected
@@ -55,27 +58,27 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
       }`}
     >
       {/* Left side: 10. Messi RW/ST */}
-      <div className="flex items-center gap-1.5 min-w-0 flex-1 mr-2">
+      <div className="flex items-center gap-1 sm:gap-1.5 min-w-0 flex-1 mr-1.5">
         <span
-          className={`font-mono font-semibold text-[11px] w-6 shrink-0 text-left ${
+          className={`font-mono font-semibold text-[10px] sm:text-[11px] w-4.5 sm:w-5 shrink-0 text-left ${
             isSelected ? 'text-emerald-400 font-bold' : 'text-tactical-400'
           }`}
         >
           {player.squadNumber}.
         </span>
         <span
-          className={`font-medium text-xs truncate ${
+          className={`font-semibold text-xs truncate ${
             isSelected ? 'text-emerald-200 font-bold' : 'text-tactical-100'
           }`}
         >
           {player.name}
         </span>
         <span
-          className={`font-mono text-[9px] px-1.5 py-0.5 rounded font-bold tracking-tight shrink-0 uppercase ${getPositionBadgeClass(
+          className={`font-mono text-[8.5px] sm:text-[9px] px-1 py-0.2 sm:px-1.5 sm:py-0.5 rounded font-bold tracking-tight shrink-0 uppercase ${getPositionBadgeClass(
             player.naturalPositions[0] || 'CM'
           )}`}
         >
-          {positions}
+          {isCompact && player.naturalPositions.length > 0 ? player.naturalPositions.join('/') : positions}
         </span>
         {player.hasLegendSeal && (
           <span
@@ -90,10 +93,10 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
       </div>
 
       {/* Right side: Taken badge and OVR */}
-      <div className="flex items-center gap-1.5 shrink-0">
+      <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
         {isTakenByOpponent && (
-          <span className="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-rose-950/80 border border-rose-600/70 text-rose-300">
-            Taken by Opponent
+          <span className="font-mono text-[8px] sm:text-[9px] font-bold uppercase tracking-wider px-1 sm:px-1.5 py-0.5 rounded bg-rose-950/80 border border-rose-600/70 text-rose-300">
+            {isCompact ? 'Taken' : 'Taken by Opponent'}
           </span>
         )}
         <span

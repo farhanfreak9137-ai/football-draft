@@ -494,33 +494,33 @@ export const SoloDraftStudio: React.FC<SoloDraftStudioProps> = ({
                       <p className="text-xs font-bold text-tactical-300">Rolling Historical Team Pack...</p>
                     </div>
                   ) : packEligiblePlayers.length > 0 ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {packEligiblePlayers.map((player) => (
                         <div
                           key={player.id}
                           onClick={() => handleSelectPlayer(player)}
-                          className="group p-3 rounded-xl bg-tactical-850 hover:bg-tactical-800 border border-tactical-700 hover:border-gold-500/70 cursor-pointer transition-all flex items-center justify-between shadow-md active:scale-98"
+                          className="group p-2.5 rounded-lg bg-tactical-850 hover:bg-tactical-800 border border-tactical-700 hover:border-gold-500/70 cursor-pointer transition-all flex items-center justify-between shadow-md active:scale-98"
                         >
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-2.5 min-w-0">
                             <div
-                              className={`w-9 h-9 rounded-lg flex items-center justify-center font-black text-xs ${getOvrBadgeClass(
+                              className={`w-8 h-8 rounded-lg flex items-center justify-center font-black text-xs shrink-0 ${getOvrBadgeClass(
                                 player.ovr
                               )}`}
                             >
                               {player.ovr}
                             </div>
-                            <div>
-                              <div className="text-sm font-bold text-tactical-100 group-hover:text-gold-400 transition-colors">
+                            <div className="min-w-0">
+                              <div className="text-xs sm:text-sm font-bold text-tactical-100 group-hover:text-gold-400 transition-colors truncate">
                                 {player.name}
                               </div>
-                              <div className="text-[11px] text-tactical-400 flex items-center gap-2">
+                              <div className="text-[10px] sm:text-[11px] text-tactical-400 flex items-center gap-1.5 truncate">
                                 <span>#{player.squadNumber}</span>
                                 <span>•</span>
-                                <span>{player.naturalPositions.join('/')}</span>
+                                <span className="font-mono font-semibold">{player.naturalPositions.join('/')}</span>
                               </div>
                             </div>
                           </div>
-                          <span className="text-xs font-bold text-pitch-accent group-hover:translate-x-1 transition-transform">
+                          <span className="text-xs font-bold text-pitch-accent group-hover:translate-x-0.5 transition-transform shrink-0 ml-1">
                             Pick →
                           </span>
                         </div>
