@@ -262,7 +262,7 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
                   </span>
                 </div>
 
-                {liveMatch.penaltyScore && (
+                {liveMatch.winMethod === 'penalties' && liveMatch.penaltyScore && (
                   <div className="mt-1 px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-gold-400 font-mono text-[11px] font-bold">
                     Penalties: {liveMatch.penaltyScore.host} - {liveMatch.penaltyScore.guest}
                   </div>

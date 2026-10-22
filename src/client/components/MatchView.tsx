@@ -442,11 +442,13 @@ export const MatchView: React.FC<MatchViewProps> = ({
               <span className="text-tactical-500 font-light text-2xl sm:text-3xl">-</span>
               <span>{liveMatch.score.guest}</span>
             </div>
-            {liveMatch.penaltyScore && (
-              <div className="font-mono text-[10px] sm:text-xs text-gold-400 mt-1 whitespace-nowrap">
-                Pens: {liveMatch.penaltyScore.host} - {liveMatch.penaltyScore.guest}
-              </div>
-            )}
+            {(liveMatch.status === 'penalties' ||
+              (liveMatch.status === 'completed' && liveMatch.winMethod === 'penalties')) &&
+              liveMatch.penaltyScore && (
+                <div className="font-mono text-[10px] sm:text-xs text-gold-400 mt-1 whitespace-nowrap animate-fade-in">
+                  Pens: {liveMatch.penaltyScore.host} - {liveMatch.penaltyScore.guest}
+                </div>
+              )}
           </div>
 
           {/* Guest */}
@@ -480,73 +482,72 @@ export const MatchView: React.FC<MatchViewProps> = ({
             </div>
           )}
 
-          {/* Primary Row: Mentality & Dugout Toggle */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-pitch-accent animate-pulse"></span>
-              <span className="text-xs font-bold text-tactical-200 uppercase tracking-wider">
+          {/* Mentality Header & Dugout Toggle */}
+          <div className="flex items-center justify-between gap-2 border-b border-tactical-800/80 pb-2.5">
+            <div className="flex items-center gap-2 min-w-0">
+              <span className="w-2.5 h-2.5 rounded-full bg-pitch-accent animate-pulse shrink-0"></span>
+              <span className="text-xs font-bold text-tactical-200 uppercase tracking-wider shrink-0">
                 Mentality:
               </span>
-              <span className="text-[11px] font-mono text-tactical-400 capitalize">
+              <span className="text-[11px] font-mono text-tactical-300 capitalize truncate">
                 {currentMentality} • {defensiveStyle.replace('_', ' ')} • {passingStyle.replace('_', ' ')}
               </span>
             </div>
 
-            <div className="flex items-center gap-2 w-full sm:w-auto">
-              <div className="grid grid-cols-3 gap-1.5 flex-1 sm:flex-none">
-                <button
-                  type="button"
-                  onClick={() => handleMentalitySelect('defensive')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
-                    currentMentality === 'defensive'
-                      ? 'bg-blue-600 text-white shadow-md border border-blue-400 ring-2 ring-blue-500/40'
-                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
-                  }`}
-                  title="Park the Bus: Strengthen defense, prioritize clean sheets and blocks"
-                >
-                  <span>🛡️</span>
-                  <span>Defend</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => handleMentalitySelect('balanced')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
-                    currentMentality === 'balanced'
-                      ? 'bg-tactical-700 text-tactical-100 shadow-md border border-tactical-500 ring-2 ring-tactical-500/40'
-                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
-                  }`}
-                  title="Balanced: Maintain planned tactical shape and discipline"
-                >
-                  <span>⚖️</span>
-                  <span>Balanced</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => handleMentalitySelect('attacking')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1 ${
-                    currentMentality === 'attacking'
-                      ? 'bg-rose-600 text-white shadow-md border border-rose-400 ring-2 ring-rose-500/40 animate-pulse'
-                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border border-tactical-700'
-                  }`}
-                  title="All-Out Attack: Commit players forward to generate chances and goals"
-                >
-                  <span>⚡</span>
-                  <span>Attack</span>
-                </button>
-              </div>
+            <button
+              type="button"
+              onClick={() => setIsDugoutOpen(!isDugoutOpen)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-all shrink-0 flex items-center gap-1.5 cursor-pointer ${
+                isDugoutOpen
+                  ? 'bg-gold-500/20 text-gold-300 border-gold-500/50 shadow-sm'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 hover:bg-tactical-750 border border-tactical-700'
+              }`}
+            >
+              <span>{isDugoutOpen ? 'Hide Dugout ✕' : 'Tactics & Shouts ⚙️'}</span>
+            </button>
+          </div>
 
-              <button
-                type="button"
-                onClick={() => setIsDugoutOpen(!isDugoutOpen)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-all ${
-                  isDugoutOpen
-                    ? 'bg-gold-500/20 text-gold-300 border-gold-500/50'
-                    : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border-tactical-700'
-                }`}
-              >
-                {isDugoutOpen ? 'Hide Dugout ✕' : 'Tactics & Shouts ⚙️'}
-              </button>
-            </div>
+          {/* Mentality Action Buttons: 3 full-width columns with dedicated room */}
+          <div className="grid grid-cols-3 gap-2 w-full pt-0.5">
+            <button
+              type="button"
+              onClick={() => handleMentalitySelect('defensive')}
+              className={`py-2 px-2.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+                currentMentality === 'defensive'
+                  ? 'bg-blue-600 text-white shadow-md border border-blue-400 ring-2 ring-blue-500/40'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 hover:bg-tactical-750 border border-tactical-700'
+              }`}
+              title="Park the Bus: Strengthen defense, prioritize clean sheets and blocks"
+            >
+              <span>🛡️</span>
+              <span>Defend</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => handleMentalitySelect('balanced')}
+              className={`py-2 px-2.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+                currentMentality === 'balanced'
+                  ? 'bg-tactical-700 text-tactical-100 shadow-md border border-tactical-500 ring-2 ring-tactical-400/40'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 hover:bg-tactical-750 border border-tactical-700'
+              }`}
+              title="Balanced: Maintain planned tactical shape and discipline"
+            >
+              <span>⚖️</span>
+              <span>Balanced</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => handleMentalitySelect('attacking')}
+              className={`py-2 px-2.5 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+                currentMentality === 'attacking'
+                  ? 'bg-rose-600 text-white shadow-md border border-rose-400 ring-2 ring-rose-500/40 animate-pulse'
+                  : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 hover:bg-tactical-750 border border-tactical-700'
+              }`}
+              title="All-Out Attack: Commit players forward to generate chances and goals"
+            >
+              <span>⚡</span>
+              <span>Attack</span>
+            </button>
           </div>
 
           {/* Expanded Tactical Dugout (Pressing, Passing Style, Shouts) */}
@@ -931,8 +932,11 @@ export const MatchView: React.FC<MatchViewProps> = ({
       </>
     )}
 
-      {/* Penalty Shootout Display (if penalties active or completed) */}
-      {liveMatch.penalties && liveMatch.penalties.length > 0 && (
+      {/* Penalty Shootout Display (only if match reached penalties period or finished on penalties) */}
+      {(liveMatch.status === 'penalties' ||
+        (liveMatch.status === 'completed' && liveMatch.winMethod === 'penalties')) &&
+        liveMatch.penalties &&
+        liveMatch.penalties.length > 0 && (
         <div className="bg-tactical-850 border border-gold-500/50 rounded-xl p-5 shadow-2xl space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-tactical-700/70 gap-2">
             <h4 className="text-sm font-bold text-gold-400 uppercase tracking-wider flex items-center gap-2">

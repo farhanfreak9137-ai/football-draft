@@ -303,4 +303,82 @@ describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)',
     // Attacking mentality generates more goals on average than defensive mentality
     expect(attackingHostGoals).toBeGreaterThan(defensiveHostGoals);
   });
+
+  it('guarantees penalties and penaltyScore are never pre-defined or visible during live regular time', () => {
+    const hostDraft = createTestSquad('greece-2004', 'Greece Manager');
+    const guestDraft = createTestSquad('portugal-2016', 'Portugal Manager');
+
+    // Find a match that goes to penalties in knockout mode
+    let penaltySim: any = null;
+    for (let seed = 1; seed <= 50; seed++) {
+      const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+        randomSeed: seed,
+        knockoutMode: true,
+      });
+      if (sim.winMethod === 'penalties') {
+        penaltySim = sim;
+        break;
+      }
+    }
+
+    expect(penaltySim).not.toBeNull();
+    penaltySim.startTime = 100000;
+
+    // Check authoritative state at second 15 and second 22 (regular time)
+    const liveMatch = MatchEngine.getAuthoritativeStateAtTime(penaltySim, 100000 + 15000);
+    expect(liveMatch.status).toBe('live');
+    expect(liveMatch.penalties).toBeUndefined();
+    expect(liveMatch.penaltyKicks).toBeUndefined();
+    expect(liveMatch.penaltyScore).toBeUndefined();
+    expect(liveMatch.winner).toBeUndefined();
+    expect(liveMatch.winMethod).toBeUndefined();
+
+    const midMatch = MatchEngine.getAuthoritativeStateAtTime(penaltySim, 100000 + 22000);
+    expect(['live', 'halftime']).toContain(midMatch.status);
+    expect(midMatch.penalties).toBeUndefined();
+    expect(midMatch.penaltyKicks).toBeUndefined();
+    expect(midMatch.penaltyScore).toBeUndefined();
+    expect(midMatch.winner).toBeUndefined();
+    expect(midMatch.winMethod).toBeUndefined();
+
+    // Check authoritative state at end of match (60s)
+    const finishedMatch = MatchEngine.getAuthoritativeStateAtTime(penaltySim, 100000 + 60000);
+    expect(finishedMatch.status).toBe('completed');
+    expect(finishedMatch.winMethod).toBe('penalties');
+    expect(finishedMatch.penalties).toBeDefined();
+    expect(finishedMatch.penaltyScore).toBeDefined();
+    expect(finishedMatch.winner).toMatch(/host|guest/);
+  });
+
+  it('dynamically decides match along time when tactical mentality changes mid-match', () => {
+    const hostDraft = createTestSquad('spain-2010', 'Spain Manager');
+    const guestDraft = createTestSquad('argentina-1986', 'Argentina Manager');
+
+    const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+      randomSeed: 5555,
+      matchDurationSec: 45,
+      knockoutMode: false,
+    });
+    sim.startTime = 100000;
+
+    const originalEventsAtSecond20 = sim.events.filter((e) => e.second <= 20);
+
+    // Change tactics to all-out attacking at second 20
+    const updatedSim = MatchEngine.updateLiveTactics(
+      sim,
+      { mentality: 'attacking', shout: 'demand_more' },
+      'host',
+      100000 + 20000,
+      hostDraft,
+      guestDraft
+    );
+
+    // Past events must remain 100% frozen
+    const updatedEventsAtSecond20 = updatedSim.events.filter((e) => e.second <= 20);
+    expect(updatedEventsAtSecond20).toEqual(originalEventsAtSecond20);
+
+    // Live mentality and active shout must be updated
+    expect(updatedSim.liveMentality).toBe('attacking');
+    expect(updatedSim.tacticalInstructions?.activeShout?.shout).toBe('demand_more');
+  });
 });

@@ -706,7 +706,10 @@ export class MatchEngine {
       winMethod,
       liveMentality,
       stats,
-    };
+      _hostDraft: hostDraft,
+      _guestDraft: guestDraft,
+      _config: config,
+    } as MatchSimulationState;
   }
 
   /**
@@ -715,18 +718,24 @@ export class MatchEngine {
   static updateLiveMentality(
     simulation: MatchSimulationState,
     mentality: LiveMentality,
-    team: 'host' | 'guest' = 'host'
+    team: 'host' | 'guest' = 'host',
+    now: number = Date.now(),
+    hostDraft?: PlayerDraftState,
+    guestDraft?: PlayerDraftState
   ): MatchSimulationState {
-    simulation.liveMentality = mentality;
-    if (!simulation.tacticalInstructions) {
-      simulation.tacticalInstructions = {};
-    }
-    simulation.tacticalInstructions.mentality = mentality;
-    return simulation;
+    return MatchEngine.updateLiveTactics(
+      simulation,
+      { mentality },
+      team,
+      now,
+      hostDraft,
+      guestDraft
+    );
   }
 
   /**
-   * Updates live in-match touchline tactics (mentality, pressing, passing style, touchline shouts).
+   * Updates live in-match touchline tactics (mentality, pressing, passing style, touchline shouts)
+   * and dynamically recalculates remaining match timeline along time.
    */
   static updateLiveTactics(
     simulation: MatchSimulationState,
@@ -736,7 +745,10 @@ export class MatchEngine {
       passingStyle?: PassingStyle;
       shout?: TouchlineShout;
     },
-    team: 'host' | 'guest' = 'host'
+    team: 'host' | 'guest' = 'host',
+    now: number = Date.now(),
+    hostDraft?: PlayerDraftState,
+    guestDraft?: PlayerDraftState
   ): MatchSimulationState {
     if (!simulation.tacticalInstructions) {
       simulation.tacticalInstructions = {};
@@ -752,14 +764,327 @@ export class MatchEngine {
       simulation.tacticalInstructions.passingStyle = tactics.passingStyle;
     }
     if (tactics.shout) {
-      const curSec = simulation.currentSecond || 0;
+      const curSec = simulation.startTime > 0
+        ? Math.max(0, Math.floor((now - simulation.startTime) / 1000))
+        : simulation.currentSecond || 0;
       simulation.tacticalInstructions.activeShout = {
         shout: tactics.shout,
         activatedAtSec: curSec,
         expiresAtSec: curSec + 15,
       };
     }
+
+    const host = hostDraft || (simulation as any)._hostDraft;
+    const guest = guestDraft || (simulation as any)._guestDraft;
+    const curSec = simulation.startTime > 0
+      ? Math.max(0, Math.floor((now - simulation.startTime) / 1000))
+      : simulation.currentSecond || 0;
+    const regDuration = simulation.regularDurationSeconds || (simulation.totalDurationSeconds <= 60 ? 45 : simulation.totalDurationSeconds);
+
+    // If match is live in regular time and squads are present, dynamically resimulate future events!
+    if (host && guest && curSec < regDuration - 2) {
+      MatchEngine.resimulateFutureEvents(simulation, host, guest, curSec, now);
+    }
+
     return simulation;
+  }
+
+  /**
+   * Dynamically resimulates future match events from the current second to the final whistle,
+   * factoring in live tactical mentality, shouts, and styles along time.
+   */
+  private static resimulateFutureEvents(
+    simulation: MatchSimulationState,
+    hostDraft: PlayerDraftState,
+    guestDraft: PlayerDraftState,
+    fromSecond: number,
+    seedNow: number
+  ): void {
+    const regDuration = simulation.regularDurationSeconds || 45;
+    const prng = new PRNG(seedNow);
+    const pastEvents = simulation.events.filter((e) => e.second <= fromSecond);
+
+    // Current score at the moment tactics changed
+    const currentScore = { host: 0, guest: 0 };
+    for (const ev of pastEvents) {
+      if (ev.type === 'goal') currentScore[ev.team]++;
+    }
+
+    const hostPlayers = Object.values(hostDraft.draftedSlots).map((s) => s.player);
+    const guestPlayers = Object.values(guestDraft.draftedSlots).map((s) => s.player);
+    const hostAvgOvr = hostPlayers.reduce((acc, p) => acc + p.ovr, 0) / hostPlayers.length;
+    const guestAvgOvr = guestPlayers.reduce((acc, p) => acc + p.ovr, 0) / guestPlayers.length;
+
+    const rawDiff = (hostAvgOvr - guestAvgOvr) / 100;
+    let ratingAdvantage = Math.max(-0.05, Math.min(0.05, rawDiff * 0.05));
+
+    // Dynamic tactical adjustment from current live instructions
+    const mentality = simulation.liveMentality || 'balanced';
+    if (mentality === 'attacking') {
+      ratingAdvantage += 0.12; // Dynamic offensive surge
+    } else if (mentality === 'defensive') {
+      ratingAdvantage -= 0.08; // Defensive solidity
+    }
+
+    // Touchline shout boost
+    const activeShout = simulation.tacticalInstructions?.activeShout;
+    if (activeShout && fromSecond <= activeShout.expiresAtSec) {
+      if (activeShout.shout === 'demand_more') ratingAdvantage += 0.06;
+      else if (activeShout.shout === 'push_forward') ratingAdvantage += 0.08;
+      else if (activeShout.shout === 'tighten_up') ratingAdvantage -= 0.06;
+    }
+
+    const hostAttackChance = Math.max(0.20, Math.min(0.80, 0.5 + ratingAdvantage));
+    const actionChance = regDuration <= 45 ? 0.28 : regDuration <= 90 ? 0.22 : 0.16;
+
+    const futureEvents: MatchEvent[] = [];
+    const getSquadPlayer = (squad: PlayerVersion[], group: 'GK' | 'DEF' | 'MID' | 'FWD'): PlayerVersion => {
+      const filtered = squad.filter((p) => {
+        if (group === 'GK') return p.naturalPositions.includes('GK');
+        if (group === 'DEF') return p.naturalPositions.some((pos) => ['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(pos));
+        if (group === 'MID') return p.naturalPositions.some((pos) => ['CDM', 'CM', 'CAM', 'LM', 'RM'].includes(pos));
+        return p.naturalPositions.some((pos) => ['ST', 'CF', 'LW', 'RW', 'SS'].includes(pos));
+      });
+      return filtered.length > 0 ? prng.pickOne(filtered) : prng.pickOne(squad);
+    };
+
+    const halfTimeSec = Math.floor(regDuration / 2);
+
+    for (let sec = fromSecond + 1; sec <= regDuration; sec++) {
+      if (sec === halfTimeSec && fromSecond < halfTimeSec) {
+        futureEvents.push({
+          id: `ev-${sec}-halftime-${prng.nextInt(1000, 9999)}`,
+          second: sec,
+          minute: 45,
+          period: 'first_half',
+          type: 'halftime',
+          team: 'host',
+          description: 'Half-time whistle! Teams retreat to the tactical dugout.',
+          score: { ...currentScore },
+          pitchLocation: { x: 50, y: 50 },
+        });
+        continue;
+      }
+
+      if (sec === halfTimeSec + 1 && fromSecond < halfTimeSec + 1) {
+        futureEvents.push({
+          id: `ev-${sec}-kickoff-${prng.nextInt(1000, 9999)}`,
+          second: sec,
+          minute: 46,
+          period: 'second_half',
+          type: 'kickoff',
+          team: 'guest',
+          description: 'The second half is underway! Tactical adjustments take effect.',
+          score: { ...currentScore },
+          pitchLocation: { x: 50, y: 50 },
+        });
+        continue;
+      }
+
+      if (prng.chance(actionChance)) {
+        const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
+        const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
+        const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
+        const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
+        const currentPeriod = sec <= halfTimeSec ? 'first_half' : 'second_half';
+
+        const actionRoll = prng.next();
+        if (actionRoll < 0.12) {
+          const scorer = getSquadPlayer(attackingSquad, 'FWD');
+          const assister = getSquadPlayer(attackingSquad, 'MID');
+          currentScore[attackingTeam]++;
+          futureEvents.push({
+            id: `ev-${sec}-goal-${prng.nextInt(1000, 9999)}`,
+            second: sec,
+            minute: calculateVisualMinute(sec, regDuration),
+            period: currentPeriod,
+            type: 'goal',
+            team: attackingTeam,
+            description: `GOAL! ${scorer.name} clinically strikes into the corner following tactical shift!`,
+            player: { id: scorer.id, name: scorer.name, position: scorer.naturalPositions[0], squadNumber: scorer.squadNumber },
+            secondaryPlayer: { id: assister.id, name: assister.name, position: assister.naturalPositions[0], squadNumber: assister.squadNumber },
+            score: { ...currentScore },
+            pitchLocation: { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) },
+          });
+        } else if (actionRoll < 0.32) {
+          const shooter = getSquadPlayer(attackingSquad, 'FWD');
+          const keeper = getSquadPlayer(defendingSquad, 'GK');
+          futureEvents.push({
+            id: `ev-${sec}-save-${prng.nextInt(1000, 9999)}`,
+            second: sec,
+            minute: calculateVisualMinute(sec, regDuration),
+            period: currentPeriod,
+            type: 'save',
+            team: defendingTeam,
+            description: `MAGNIFICENT SAVE! ${keeper.name} denies ${shooter.name}!`,
+            player: { id: keeper.id, name: keeper.name, position: keeper.naturalPositions[0], squadNumber: keeper.squadNumber },
+            secondaryPlayer: { id: shooter.id, name: shooter.name, position: shooter.naturalPositions[0], squadNumber: shooter.squadNumber },
+            score: { ...currentScore },
+            pitchLocation: { x: attackingTeam === 'host' ? 90 : 10, y: prng.nextInt(30, 70) },
+          });
+        } else if (actionRoll < 0.50) {
+          const shooter = getSquadPlayer(attackingSquad, 'FWD');
+          futureEvents.push({
+            id: `ev-${sec}-shot-${prng.nextInt(1000, 9999)}`,
+            second: sec,
+            minute: calculateVisualMinute(sec, regDuration),
+            period: currentPeriod,
+            type: 'shot',
+            team: attackingTeam,
+            description: `${shooter.name} breaks forward but fires wide of the target!`,
+            player: { id: shooter.id, name: shooter.name, position: shooter.naturalPositions[0], squadNumber: shooter.squadNumber },
+            score: { ...currentScore },
+            pitchLocation: { x: attackingTeam === 'host' ? 85 : 15, y: prng.nextInt(25, 75) },
+          });
+        }
+      }
+    }
+
+    // Add fulltime
+    futureEvents.push({
+      id: `ev-${regDuration}-fulltime-${prng.nextInt(1000, 9999)}`,
+      second: regDuration,
+      minute: 90,
+      period: 'second_half',
+      type: 'fulltime',
+      team: 'host',
+      description: `Full-time whistle! Final score: ${currentScore.host} - ${currentScore.guest}`,
+      score: { ...currentScore },
+      pitchLocation: { x: 50, y: 50 },
+    });
+
+    let matchWinner: 'host' | 'guest' | 'draw' =
+      currentScore.host > currentScore.guest ? 'host' : currentScore.guest > currentScore.host ? 'guest' : 'draw';
+    let winMethod: 'regular_time' | 'extra_time' | 'penalties' | 'draw' = 'regular_time';
+    let totalDuration = regDuration;
+    const penalties: PenaltyKickResult[] = [];
+    let penaltyScore: { host: number; guest: number } | undefined = undefined;
+
+    // Knockout extra time and penalties if tied
+    if (simulation.knockoutMode && matchWinner === 'draw') {
+      const etTotal = Math.max(15, Math.floor(regDuration * 0.33));
+      const et1End = regDuration + Math.floor(etTotal / 2);
+      const et2End = regDuration + etTotal;
+      totalDuration = et2End;
+      winMethod = 'extra_time';
+
+      futureEvents.push({
+        id: `ev-${regDuration + 1}-etstart-${prng.nextInt(1000, 9999)}`,
+        second: regDuration + 1,
+        minute: 91,
+        period: 'extra_time_1',
+        type: 'extra_time_start',
+        team: 'host',
+        description: 'Match is tied! Heading into Extra Time.',
+        score: { ...currentScore },
+        pitchLocation: { x: 50, y: 50 },
+      });
+
+      // Extra time simulation
+      for (let sec = regDuration + 2; sec <= et2End; sec++) {
+        if (prng.chance(actionChance * 1.3)) {
+          const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
+          const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
+          const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
+          const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
+
+          if (prng.chance(0.14)) {
+            const scorer = getSquadPlayer(attackingSquad, 'FWD');
+            const assister = getSquadPlayer(attackingSquad, 'MID');
+            currentScore[attackingTeam]++;
+            futureEvents.push({
+              id: `ev-${sec}-goal-${prng.nextInt(1000, 9999)}`,
+              second: sec,
+              minute: calculateVisualMinute(sec, regDuration),
+              period: sec <= et1End ? 'extra_time_1' : 'extra_time_2',
+              type: 'goal',
+              team: attackingTeam,
+              description: `DRAMATIC EXTRA TIME GOAL! ${scorer.name} finds the net!`,
+              player: { id: scorer.id, name: scorer.name, position: scorer.naturalPositions[0], squadNumber: scorer.squadNumber },
+              secondaryPlayer: { id: assister.id, name: assister.name, position: assister.naturalPositions[0], squadNumber: assister.squadNumber },
+              score: { ...currentScore },
+              pitchLocation: { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) },
+            });
+          }
+        }
+      }
+
+      if (currentScore.host !== currentScore.guest) {
+        matchWinner = currentScore.host > currentScore.guest ? 'host' : 'guest';
+        winMethod = 'extra_time';
+      } else {
+        // Penalty shootout
+        winMethod = 'penalties';
+        futureEvents.push({
+          id: `ev-${et2End}-pkstart-${prng.nextInt(1000, 9999)}`,
+          second: et2End,
+          minute: 120,
+          period: 'penalties',
+          type: 'penalty_shootout_start',
+          team: 'host',
+          description: 'Level after extra time! Proceeding to the Penalty Shootout!',
+          score: { ...currentScore },
+          pitchLocation: { x: 50, y: 50 },
+        });
+
+        const currentPenScore = { host: 0, guest: 0 };
+        for (let round = 1; round <= 5; round++) {
+          const hKicker = hostPlayers[(round - 1) % hostPlayers.length];
+          const hScored = prng.chance(0.75);
+          if (hScored) currentPenScore.host++;
+          penalties.push({
+            round,
+            team: 'host',
+            kicker: { id: hKicker.id, name: hKicker.name, squadNumber: hKicker.squadNumber },
+            scored: hScored,
+            suddenDeath: false,
+            description: hScored ? `${hKicker.name} converts the spot-kick!` : `${hKicker.name}'s penalty is saved!`,
+          });
+
+          const gKicker = guestPlayers[(round - 1) % guestPlayers.length];
+          const gScored = prng.chance(0.75);
+          if (gScored) currentPenScore.guest++;
+          penalties.push({
+            round,
+            team: 'guest',
+            kicker: { id: gKicker.id, name: gKicker.name, squadNumber: gKicker.squadNumber },
+            scored: gScored,
+            suddenDeath: false,
+            description: gScored ? `${gKicker.name} scores coolly!` : `${gKicker.name}'s penalty is stopped!`,
+          });
+        }
+
+        if (currentPenScore.host === currentPenScore.guest) {
+          if (prng.chance(0.5)) currentPenScore.host++;
+          else currentPenScore.guest++;
+        }
+
+        matchWinner = currentPenScore.host > currentPenScore.guest ? 'host' : 'guest';
+        penaltyScore = { ...currentPenScore };
+      }
+    }
+
+    futureEvents.push({
+      id: `ev-${totalDuration}-matchend-${prng.nextInt(1000, 9999)}`,
+      second: totalDuration,
+      minute: totalDuration <= regDuration ? 90 : 120,
+      period: totalDuration <= regDuration ? 'second_half' : 'extra_time_2',
+      type: 'match_end',
+      team: matchWinner === 'draw' ? 'host' : matchWinner,
+      description: `Final Result: ${matchWinner === 'draw' ? 'Match Drawn' : `${matchWinner === 'host' ? hostDraft.playerName : guestDraft.playerName} victorious!`} [Score: ${currentScore.host}-${currentScore.guest}]`,
+      score: { ...currentScore },
+      pitchLocation: { x: 50, y: 50 },
+    });
+
+    simulation.events = [...pastEvents, ...futureEvents];
+    simulation.finalScore = currentScore;
+    simulation.winner = matchWinner;
+    simulation.winMethod = winMethod;
+    simulation.totalDurationSeconds = totalDuration;
+    simulation.totalDurationMs = totalDuration * 1000;
+    simulation.penalties = penalties.length > 0 ? penalties : undefined;
+    simulation.penaltyKicks = penalties.length > 0 ? penalties : undefined;
+    simulation.penaltyScore = penaltyScore;
   }
 
   /**
@@ -785,7 +1110,13 @@ export class MatchEngine {
     } else if (currentSecond === Math.floor(regDuration / 2)) {
       status = 'halftime';
     } else if (currentSecond > regDuration && totalDurationSec > regDuration) {
-      status = 'extra_time';
+      const etTotal = Math.max(15, Math.floor(regDuration * 0.33));
+      const etEnd = regDuration + etTotal;
+      if (currentSecond >= etEnd && simulation.winMethod === 'penalties') {
+        status = 'penalties';
+      } else {
+        status = 'extra_time';
+      }
     }
 
     // Filter events up to currentSecond
@@ -803,14 +1134,11 @@ export class MatchEngine {
         liveStats[ev.team].shots++;
         liveStats[ev.team].shotsOnTarget++;
       } else if (ev.type === 'save') {
-        // ev.team is the DEFENDING team (the one that made the save).
-        // Shots belong to the ATTACKING team (the opponent of the saver).
         const attackingTeam = ev.team === 'host' ? 'guest' : 'host';
         liveStats[attackingTeam].shots++;
         liveStats[attackingTeam].shotsOnTarget++;
         liveStats[ev.team].saves++;
       } else if (ev.type === 'shot') {
-        // Shot on target that missed (set piece near miss, etc.)
         const attackingTeam = ev.team === 'host' ? 'guest' : 'host';
         liveStats[attackingTeam].shots++;
         liveStats[attackingTeam].shotsOnTarget++;
@@ -822,6 +1150,18 @@ export class MatchEngine {
     }
 
     const currentMinute = calculateVisualMinute(currentSecond, regDuration);
+
+    const isPenaltiesPhase =
+      status === 'penalties' ||
+      (status === 'completed' && simulation.winMethod === 'penalties');
+
+    const visiblePenalties = isPenaltiesPhase
+      ? (simulation.penalties || simulation.penaltyKicks)
+      : undefined;
+
+    const visiblePenaltyScore = isPenaltiesPhase
+      ? simulation.penaltyScore
+      : undefined;
 
     return {
       ...simulation,
@@ -835,8 +1175,9 @@ export class MatchEngine {
       visibleEvents,
       score: currentScore,
       finalScore: currentScore,
-      penalties: simulation.penalties || simulation.penaltyKicks,
-      penaltyKicks: simulation.penaltyKicks || simulation.penalties,
+      penalties: visiblePenalties,
+      penaltyKicks: visiblePenalties,
+      penaltyScore: visiblePenaltyScore,
       winner: status === 'completed' ? simulation.winner : undefined,
       winMethod: status === 'completed' ? simulation.winMethod : undefined,
       stats: liveStats,

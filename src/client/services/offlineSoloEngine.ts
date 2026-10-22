@@ -515,7 +515,14 @@ export class OfflineSoloEngine {
 
   updateLiveMentality(mentality: any, team: 'host' | 'guest' = 'host'): MatchSimulationState | null {
     if (!this.currentMatch) return null;
-    this.currentMatch = MatchEngine.updateLiveMentality(this.currentMatch, mentality, team);
+    this.currentMatch = MatchEngine.updateLiveMentality(
+      this.currentMatch,
+      mentality,
+      team,
+      Date.now(),
+      this.currentRoom?.hostDraft,
+      this.currentRoom?.guestDraft
+    );
     return this.getLiveMatch(this.currentRoom?.roomCode || '');
   }
 
@@ -529,7 +536,14 @@ export class OfflineSoloEngine {
     team: 'host' | 'guest' = 'host'
   ): MatchSimulationState | null {
     if (!this.currentMatch) return null;
-    this.currentMatch = MatchEngine.updateLiveTactics(this.currentMatch, tactics, team);
+    this.currentMatch = MatchEngine.updateLiveTactics(
+      this.currentMatch,
+      tactics,
+      team,
+      Date.now(),
+      this.currentRoom?.hostDraft,
+      this.currentRoom?.guestDraft
+    );
     return this.getLiveMatch(this.currentRoom?.roomCode || '');
   }
 
