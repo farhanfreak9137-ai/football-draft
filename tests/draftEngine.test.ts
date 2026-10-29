@@ -19,7 +19,6 @@ const nationalEditions: TeamEdition[] = JSON.parse(fs.readFileSync(path.join(DAT
 const clubEditions: TeamEdition[] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'editions_club.json'), 'utf-8'));
 const nationalPlayers: PlayerVersion[] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_national.json'), 'utf-8'));
 const clubPlayers: PlayerVersion[] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_club.json'), 'utf-8'));
-const allEditions = [...nationalEditions, ...clubEditions];
 const allPlayers = [...nationalPlayers, ...clubPlayers];
 
 describe('DraftEngine & Formation Rules', () => {
@@ -196,6 +195,7 @@ describe('DraftEngine & Formation Rules', () => {
       prng
     );
 
+    expect(edition).toBeDefined();
     const hasLegalGK = roster.some(
       (p) => DraftEngine.isPlayerDraftable(p, state).eligible
     );
@@ -457,7 +457,7 @@ describe('DraftEngine & Formation Rules', () => {
       expect(draftState.formation.id).toBe(customSetup.id);
       expect(draftState.formation.isCustom).toBe(true);
       expect(draftState.formation.slots.length).toBe(11);
-      expect(DraftEngine.getOpenSlots(draftState).length).toBe(11);
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(17);
 
       // Find striker slot in custom setup
       const fwdSlot = customSetup.slots.find((s) => s.group === 'FWD')!;
@@ -486,8 +486,150 @@ describe('DraftEngine & Formation Rules', () => {
         expect(val.valid).toBe(true);
       }
     });
+
+    it('generates an authentic 7-player bench reserve list from drafted editions', () => {
+      const startingEleven = allPlayers.slice(0, 11);
+      const mockDraftState = {
+        playerId: 'user-1',
+        playerName: 'Manager Test',
+        formation: FORMATIONS['4-3-3'],
+        draftedSlots: startingEleven.reduce((acc, p, idx) => {
+          acc[`slot-${idx}`] = {
+            slotId: `slot-${idx}`,
+            player: p,
+            assignedPosition: p.naturalPositions[0],
+          };
+          return acc;
+        }, {} as any),
+        usedIdentityIds: startingEleven.map((p) => p.identityId),
+        poolType: 'national' as const,
+      };
+
+      const benchMap = DraftEngine.generateBenchReserves(mockDraftState as any, allPlayers);
+      const bench = Object.values(benchMap);
+
+      expect(bench.length).toBe(7);
+      expect(benchMap['sub-gk'].assignedPosition).toBe('GK');
+      expect(['CB', 'LB', 'RB']).toContain(benchMap['sub-def-1'].assignedPosition);
+      expect(['CB', 'LB', 'RB']).toContain(benchMap['sub-def-2'].assignedPosition);
+      expect(['CM', 'CAM', 'CDM']).toContain(benchMap['sub-mid-1'].assignedPosition);
+      expect(['CM', 'CAM', 'CDM']).toContain(benchMap['sub-mid-2'].assignedPosition);
+      expect(['ST', 'RW', 'LW', 'CF']).toContain(benchMap['sub-fwd-1'].assignedPosition);
+      expect(['ST', 'RW', 'LW', 'CF']).toContain(benchMap['sub-fwd-2'].assignedPosition);
+
+      // Verify no starting eleven player is on the bench
+      const starterIds = new Set(startingEleven.map((p) => p.id));
+      for (const slot of bench) {
+        expect(starterIds.has(slot.player.id)).toBe(false);
+      }
+    });
+
+    it('supports full 17-player drafting (11 starters + 6 bench substitutes)', () => {
+      let draftState = DraftEngine.createInitialDraftState({
+        seatId: 'host',
+        playerId: 'user-full-squad',
+        playerName: 'Manager 17',
+        poolType: 'national',
+        formationId: '4-3-3',
+      });
+
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(17);
+      expect(draftState.isReady).toBe(false);
+
+      // Draft 11 starters
+      for (const slot of draftState.formation.slots) {
+        const eligible = allPlayers.find(
+          (p) =>
+            !draftState.usedIdentityIds.includes(p.identityId) &&
+            p.naturalPositions.includes(slot.defaultPosition)
+        );
+        expect(eligible).toBeDefined();
+        draftState = DraftEngine.pickPlayer(
+          draftState,
+          eligible!.id,
+          slot.id,
+          allPlayers
+        );
+      }
+
+      expect(Object.keys(draftState.draftedSlots).length).toBe(11);
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(6);
+      expect(draftState.isReady).toBe(false);
+
+      // Draft 6 bench substitutes
+      const benchSlots = DraftEngine.getOpenSlots(draftState);
+      expect(benchSlots.length).toBe(6);
+
+      for (const bSlot of benchSlots) {
+        const eligible = allPlayers.find(
+          (p) =>
+            !draftState.usedIdentityIds.includes(p.identityId) &&
+            p.naturalPositions.some((pos) => bSlot.eligiblePositions.includes(pos))
+        );
+        expect(eligible).toBeDefined();
+        draftState = DraftEngine.pickPlayer(
+          draftState,
+          eligible!.id,
+          bSlot.id,
+          allPlayers
+        );
+      }
+
+      expect(Object.keys(draftState.draftedSlots).length).toBe(11);
+      expect(Object.keys(draftState.benchSlots || {}).length).toBe(6);
+      expect(draftState.usedIdentityIds.length).toBe(17);
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(0);
+      expect(draftState.isReady).toBe(true);
+    });
+
+    it('supports disabling substitution system for classic 11-player XI draft', () => {
+      let draftState = DraftEngine.createInitialDraftState({
+        seatId: 'host',
+        playerId: 'user-classic-xi',
+        playerName: 'Manager Classic',
+        poolType: 'national',
+        formationId: '4-3-3',
+        enableSubstitutions: false,
+      });
+
+      expect(draftState.enableSubstitutions).toBe(false);
+      expect(DraftEngine.getAllSlots(draftState).length).toBe(11);
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(11);
+      expect(draftState.benchSlots).toBeUndefined();
+      expect(draftState.isReady).toBe(false);
+
+      // Attempting to pick a bench slot throws an error
+      const anyPlayer = allPlayers[0];
+      expect(() => {
+        DraftEngine.pickPlayer(draftState, anyPlayer.id, 'sub-gk', allPlayers);
+      }).toThrow('Bench drafting and substitutions are disabled for this match');
+
+      // Draft 11 starters
+      for (const slot of draftState.formation.slots) {
+        const eligible = allPlayers.find(
+          (p) =>
+            !draftState.usedIdentityIds.includes(p.identityId) &&
+            p.naturalPositions.includes(slot.defaultPosition)
+        );
+        expect(eligible).toBeDefined();
+        draftState = DraftEngine.pickPlayer(
+          draftState,
+          eligible!.id,
+          slot.id,
+          allPlayers
+        );
+      }
+
+      // Exactly 11 players drafted, ready for match
+      expect(Object.keys(draftState.draftedSlots).length).toBe(11);
+      expect(draftState.benchSlots).toBeUndefined();
+      expect(draftState.usedIdentityIds.length).toBe(11);
+      expect(DraftEngine.getOpenSlots(draftState).length).toBe(0);
+      expect(draftState.isReady).toBe(true);
+    });
   });
 });
+
 
 
 

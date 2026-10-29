@@ -165,6 +165,46 @@ export class WebSocketHandler {
         break;
       }
 
+      case 'rematch_request': {
+        if (!client.roomCode || !client.token) {
+          client.ws.send(JSON.stringify({ type: 'error', message: 'Not authenticated' }));
+          return;
+        }
+        const room = await this.roomManager.requestRematch({
+          roomCode: client.roomCode,
+          token: client.token,
+        });
+        this.broadcastRoom(client.roomCode, room);
+        break;
+      }
+
+      case 'rematch_response': {
+        if (!client.roomCode || !client.token) {
+          client.ws.send(JSON.stringify({ type: 'error', message: 'Not authenticated' }));
+          return;
+        }
+        const room = await this.roomManager.respondRematch({
+          roomCode: client.roomCode,
+          token: client.token,
+          accept: Boolean(msg.accept),
+        });
+        this.broadcastRoom(client.roomCode, room);
+        break;
+      }
+
+      case 'rematch_cancel': {
+        if (!client.roomCode || !client.token) {
+          client.ws.send(JSON.stringify({ type: 'error', message: 'Not authenticated' }));
+          return;
+        }
+        const room = await this.roomManager.cancelRematch({
+          roomCode: client.roomCode,
+          token: client.token,
+        });
+        this.broadcastRoom(client.roomCode, room);
+        break;
+      }
+
       case 'ping': {
         client.ws.send(JSON.stringify({ type: 'pong', timestamp: Date.now() }));
         break;

@@ -1,4 +1,5 @@
 import {
+  DraftedSlot,
   FormationDefinition,
   FormationSlot,
   PlayerDraftState,
@@ -7,7 +8,7 @@ import {
   Position,
   TeamEdition,
 } from '../types/index.js';
-import { FORMATIONS, isPlayerEligibleForSlot } from '../constants/formations.js';
+import { FORMATIONS, isPlayerEligibleForSlot, MATCHDAY_BENCH_SLOTS } from '../constants/formations.js';
 import { PRNG } from './prng.js';
 
 export interface DraftDatabase {
@@ -26,8 +27,10 @@ export class DraftEngine {
     poolType: PoolType;
     formationId?: string;
     customFormation?: FormationDefinition;
+    enableSubstitutions?: boolean;
   }): PlayerDraftState {
     const formation = params.customFormation || FORMATIONS[params.formationId || '4-3-3'] || FORMATIONS['4-3-3'];
+    const enableSubstitutions = params.enableSubstitutions !== false;
     return {
       seatId: params.seatId,
       playerId: params.playerId,
@@ -36,12 +39,41 @@ export class DraftEngine {
       formation,
       strategy: 'balanced',
       draftedSlots: {},
+      benchSlots: enableSubstitutions ? {} : undefined,
+      enableSubstitutions,
       usedIdentityIds: [],
       rerollsRemaining: 3,
       currentTeamEdition: null,
       currentRoster: [],
       isReady: false,
     };
+  }
+
+  /**
+   * Returns all draftable slots (11 starting formation slots + 6 matchday bench slots if enabled).
+   */
+  static getAllSlots(draftState: PlayerDraftState): FormationSlot[] {
+    if (draftState.enableSubstitutions === false) {
+      return draftState.formation.slots;
+    }
+    return [...draftState.formation.slots, ...MATCHDAY_BENCH_SLOTS];
+  }
+
+  /**
+   * Returns all currently open (undrafted) slots across Starting XI (and Bench if enabled).
+   */
+  static getOpenSlots(draftState: PlayerDraftState): FormationSlot[] {
+    const openPitchSlots = draftState.formation.slots.filter(
+      (slot) => !draftState.draftedSlots[slot.id]
+    );
+    if (draftState.enableSubstitutions === false) {
+      return openPitchSlots;
+    }
+    const benchSlots = draftState.benchSlots || {};
+    const openBenchSlots = MATCHDAY_BENCH_SLOTS.filter(
+      (slot) => !benchSlots[slot.id]
+    );
+    return [...openPitchSlots, ...openBenchSlots];
   }
 
   /**
@@ -69,15 +101,6 @@ export class DraftEngine {
       eligible: matchingSlotIds.length > 0,
       openSlotIds: matchingSlotIds,
     };
-  }
-
-  /**
-   * Returns all currently open (undrafted) slots for a given draft state.
-   */
-  static getOpenSlots(draftState: PlayerDraftState): FormationSlot[] {
-    return draftState.formation.slots.filter(
-      (slot) => !draftState.draftedSlots[slot.id]
-    );
   }
 
   /**
@@ -194,13 +217,28 @@ export class DraftEngine {
     allPlayers: PlayerVersion[],
     excludedIdentityIds: string[] = []
   ): PlayerDraftState {
-    const slot = draftState.formation.slots.find((s) => s.id === slotId);
-    if (!slot) {
-      throw new Error(`Slot ${slotId} does not exist in formation`);
+    const isBenchSlot = MATCHDAY_BENCH_SLOTS.some((s) => s.id === slotId);
+
+    if (isBenchSlot && draftState.enableSubstitutions === false) {
+      throw new Error('Bench drafting and substitutions are disabled for this match');
     }
 
-    if (draftState.draftedSlots[slotId]) {
-      throw new Error(`Slot ${slotId} is already filled`);
+    const slot = isBenchSlot
+      ? MATCHDAY_BENCH_SLOTS.find((s) => s.id === slotId)
+      : draftState.formation.slots.find((s) => s.id === slotId);
+
+    if (!slot) {
+      throw new Error(`Slot ${slotId} does not exist in formation or bench`);
+    }
+
+    if (isBenchSlot) {
+      if (draftState.benchSlots && draftState.benchSlots[slotId]) {
+        throw new Error(`Bench slot ${slotId} is already filled`);
+      }
+    } else {
+      if (draftState.draftedSlots[slotId]) {
+        throw new Error(`Slot ${slotId} is already filled`);
+      }
     }
 
     const player = allPlayers.find((p) => p.id === playerId);
@@ -210,7 +248,7 @@ export class DraftEngine {
 
     // Uniqueness check (own squad & match-wide 22 unique players rule)
     if (draftState.usedIdentityIds.includes(player.identityId)) {
-      throw new Error(`Player identity ${player.name} is already drafted in this XI`);
+      throw new Error(`Player identity ${player.name} is already drafted in this squad`);
     }
     if (excludedIdentityIds.includes(player.identityId)) {
       throw new Error(`Player identity ${player.name} has already been drafted by the opponent`);
@@ -228,21 +266,34 @@ export class DraftEngine {
       ? slot.defaultPosition
       : player.naturalPositions[0] || player.secondaryPositions[0] || slot.defaultPosition;
 
-    const newDraftedSlots = {
-      ...draftState.draftedSlots,
-      [slotId]: {
+    const newDraftedSlots = { ...draftState.draftedSlots };
+    const newBenchSlots = { ...(draftState.benchSlots || {}) };
+
+    if (isBenchSlot) {
+      newBenchSlots[slotId] = {
         slotId,
         player,
         assignedPosition,
-      },
-    };
+      };
+    } else {
+      newDraftedSlots[slotId] = {
+        slotId,
+        player,
+        assignedPosition,
+      };
+    }
 
     const newUsedIdentities = [...draftState.usedIdentityIds, player.identityId];
-    const isReady = Object.keys(newDraftedSlots).length === draftState.formation.slots.length;
+    const isReady =
+      draftState.enableSubstitutions === false
+        ? Object.keys(newDraftedSlots).length === draftState.formation.slots.length
+        : Object.keys(newDraftedSlots).length === draftState.formation.slots.length &&
+          Object.keys(newBenchSlots).length === MATCHDAY_BENCH_SLOTS.length;
 
     return {
       ...draftState,
       draftedSlots: newDraftedSlots,
+      benchSlots: draftState.enableSubstitutions === false ? undefined : newBenchSlots,
       usedIdentityIds: newUsedIdentities,
       isReady,
       currentTeamEdition: null,
@@ -251,9 +302,10 @@ export class DraftEngine {
   }
 
   /**
-   * Deterministic auto-pick when timer expires:
+   * Deterministic auto-pick when timer expires or AI picks:
    * Selects the highest-OVR legal player for a valid open slot.
    * Documented deterministic tie-break:
+   * 0. Prioritizes starting XI slots before bench slots.
    * 1. Higher OVR wins.
    * 2. Natural position matches slot default position.
    * 3. Has Golden Legend Seal.
@@ -265,12 +317,10 @@ export class DraftEngine {
     roster: PlayerVersion[],
     excludedIdentityIds: string[] = []
   ): { player: PlayerVersion; slotId: string } {
-    const openSlots = draftState.formation.slots.filter(
-      (slot) => !draftState.draftedSlots[slot.id]
-    );
+    const openSlots = this.getOpenSlots(draftState);
 
     if (openSlots.length === 0) {
-      throw new Error('Formation is already full');
+      throw new Error('Squad is already full');
     }
 
     // Find all legal (player, slot) pairs
@@ -297,8 +347,17 @@ export class DraftEngine {
       throw new Error('No legal picks available for auto-pick');
     }
 
+    const starterSlotIds = new Set(draftState.formation.slots.map((s) => s.id));
+
     // Sort by deterministic tie-break criteria
     legalCandidates.sort((a, b) => {
+      // 0. Prioritize Starting XI slots before bench slots so highest rated players start
+      const aIsStarter = starterSlotIds.has(a.slot.id) ? 1 : 0;
+      const bIsStarter = starterSlotIds.has(b.slot.id) ? 1 : 0;
+      if (bIsStarter !== aIsStarter) {
+        return bIsStarter - aIsStarter;
+      }
+
       // 1. OVR descending
       if (b.player.ovr !== a.player.ovr) {
         return b.player.ovr - a.player.ovr;
@@ -332,6 +391,73 @@ export class DraftEngine {
       player: best.player,
       slotId: best.slot.id,
     };
+  }
+
+  /**
+   * Automatically generates authentic matchday bench reserves (7 substitutes: 1 GK, 2 DEF, 2 MID, 2 FWD)
+   * for a completed draft state, prioritizing unused players from the drafted team editions.
+   */
+  static generateBenchReserves(
+    draftState: PlayerDraftState,
+    allPlayers: PlayerVersion[],
+    _maxSubs: number = 7
+  ): Record<string, DraftedSlot> {
+    const starterIdentities = new Set(draftState?.usedIdentityIds || []);
+    const draftedEditions = new Set(
+      Object.values(draftState?.draftedSlots || {}).map((s) => s?.player?.editionId).filter(Boolean)
+    );
+
+    // 1. Gather candidate players from the drafted editions not in starting XI
+    const editionCandidates = allPlayers.filter(
+      (p) => draftedEditions.has(p.editionId) && !starterIdentities.has(p.identityId)
+    );
+
+    // 2. Backup pool of same poolType if edition candidates are insufficient
+    const generalCandidates = allPlayers.filter(
+      (p) => !starterIdentities.has(p.identityId) && !editionCandidates.some((c) => c.id === p.id)
+    );
+
+    const candidates = [...editionCandidates, ...generalCandidates];
+
+    const isGk = (p: PlayerVersion) => p.naturalPositions.includes('GK');
+    const isDef = (p: PlayerVersion) => p.naturalPositions.some((pos) => ['CB', 'LB', 'RB', 'LWB', 'RWB'].includes(pos));
+    const isMid = (p: PlayerVersion) => p.naturalPositions.some((pos) => ['CDM', 'CM', 'CAM', 'LM', 'RM'].includes(pos));
+    const isFwd = (p: PlayerVersion) => p.naturalPositions.some((pos) => ['ST', 'CF', 'SS', 'LW', 'RW'].includes(pos));
+
+    const benchSlots: Record<string, DraftedSlot> = {};
+    const usedBenchIds = new Set<string>();
+
+    const pickBest = (predicate: (p: PlayerVersion) => boolean, assignedPos: Position, slotId: string) => {
+      const match = candidates
+        .filter((p) => !usedBenchIds.has(p.id) && predicate(p))
+        .sort((a, b) => b.ovr - a.ovr)[0];
+
+      if (match) {
+        usedBenchIds.add(match.id);
+        benchSlots[slotId] = {
+          slotId,
+          player: match,
+          assignedPosition: assignedPos,
+        };
+      }
+    };
+
+    // 1 Backup Goalkeeper
+    pickBest(isGk, 'GK', 'sub-gk');
+
+    // 2 Defenders
+    pickBest(isDef, 'CB', 'sub-def-1');
+    pickBest(isDef, 'LB', 'sub-def-2');
+
+    // 2 Midfielders
+    pickBest(isMid, 'CM', 'sub-mid-1');
+    pickBest(isMid, 'CAM', 'sub-mid-2');
+
+    // 2 Forwards
+    pickBest(isFwd, 'ST', 'sub-fwd-1');
+    pickBest(isFwd, 'RW', 'sub-fwd-2');
+
+    return benchSlots;
   }
 }
 

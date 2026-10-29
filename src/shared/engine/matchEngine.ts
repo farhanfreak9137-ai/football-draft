@@ -2,19 +2,19 @@ import {
   MatchEvent,
   MatchEventType,
   MatchSimulationState,
+  MatchSubstitution,
   PenaltyKickResult,
   PlayerDraftState,
   PlayerMatchRating,
   PlayerVersion,
-  Position,
   SquadRoles,
   LiveMentality,
   DefensiveStyle,
   PassingStyle,
   TouchlineShout,
-  TacticalInstructions,
 } from '../types/index.js';
 import { PRNG } from './prng.js';
+import { ChemistryEngine } from './chemistryEngine.js';
 
 export interface MatchEngineConfig {
   knockoutMode?: boolean; // If true, draws proceed to extra time and penalties
@@ -23,6 +23,32 @@ export interface MatchEngineConfig {
   matchDurationSec?: number; // 45s blitz (default), 90s classic, 180s (3m manager), 240s (4m tactical)
   roles?: SquadRoles;
   liveMentality?: LiveMentality;
+}
+
+export function calculateShotXG(
+  type: 'shot' | 'save' | 'goal',
+  shooterOvr: number = 80,
+  keeperOvr: number = 80,
+  pitchLocation?: { x: number; y: number }
+): number {
+  const x = pitchLocation?.x ?? 90;
+  const y = pitchLocation?.y ?? 50;
+  const targetX = x >= 50 ? 100 : 0;
+  const dist = Math.hypot(targetX - x, 50 - y);
+
+  let baseXG = 0.65 * Math.exp(-dist / 24);
+  const ovrRatio = shooterOvr / Math.max(1, keeperOvr);
+  baseXG *= Math.max(0.75, Math.min(1.25, ovrRatio));
+
+  if (type === 'goal') {
+    baseXG = Math.max(0.18, Math.min(0.92, baseXG));
+  } else if (type === 'save') {
+    baseXG = Math.max(0.10, Math.min(0.72, baseXG));
+  } else {
+    baseXG = Math.max(0.03, Math.min(0.42, baseXG));
+  }
+
+  return Math.round(baseXG * 100) / 100;
 }
 
 export function calculateVisualMinute(sec: number, regDuration = 45): number {
@@ -83,6 +109,13 @@ export class MatchEngine {
     const rawDiff = (hostAvgOvr - guestAvgOvr) / 100;
     let ratingAdvantage = Math.max(-ratingWeight, Math.min(ratingWeight, rawDiff * ratingWeight));
 
+    // Squad chemistry influence (+/- 3% max based on synergy)
+    try {
+      const hostChem = ChemistryEngine.calculateSquadChemistry(hostDraft);
+      const guestChem = ChemistryEngine.calculateSquadChemistry(guestDraft);
+      ratingAdvantage += (hostChem.chemistryAdvantage - guestChem.chemistryAdvantage);
+    } catch (e) {}
+
     // Tactical mentality modifier
     if (liveMentality === 'attacking') {
       ratingAdvantage += 0.08;
@@ -102,8 +135,8 @@ export class MatchEngine {
     const events: MatchEvent[] = [];
     let currentScore = { host: 0, guest: 0 };
     const stats = {
-      host: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0 },
-      guest: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0 },
+      host: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0, xG: 0 },
+      guest: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0, xG: 0 },
     };
 
     // Helper: Select player by position group from squad
@@ -146,7 +179,8 @@ export class MatchEngine {
       player?: PlayerVersion,
       secondaryPlayer?: PlayerVersion,
       pitchLocation?: { x: number; y: number },
-      customMinute?: number
+      customMinute?: number,
+      xG?: number
     ): MatchEvent => {
       const minute = customMinute ?? calculateVisualMinute(second, regDuration);
       return {
@@ -171,6 +205,7 @@ export class MatchEngine {
         description,
         score: { ...currentScore },
         pitchLocation,
+        xG,
       };
     };
 
@@ -260,7 +295,6 @@ export class MatchEngine {
         const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
         const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
         const attackingDraft = attackingTeam === 'host' ? hostDraft : guestDraft;
-        const defendingDraft = attackingTeam === 'host' ? guestDraft : hostDraft;
         const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
         const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
         const currentPeriod: MatchEvent['period'] = sec <= halfTimeSec ? 'first_half' : 'second_half';
@@ -271,8 +305,11 @@ export class MatchEngine {
           // 1. GOAL! (~12% of events — down from 40%, giving realistic goal counts)
           const scorer = getSquadPlayer(attackingSquad, 'FWD');
           const assister = getSquadPlayer(attackingSquad, 'MID');
+          const loc = { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) };
+          const xGVal = calculateShotXG('goal', scorer.ovr, defendingSquad[0]?.ovr || 80, loc);
           stats[attackingTeam].shots++;
           stats[attackingTeam].shotsOnTarget++;
+          stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
           currentScore[attackingTeam]++;
 
           events.push(createEvent(
@@ -283,14 +320,19 @@ export class MatchEngine {
             buildGoalPhrase(scorer, assister, currentScore),
             scorer,
             assister,
-            { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) }
+            loc,
+            undefined,
+            xGVal
           ));
         } else if (actionRoll < 0.32) {
           // 2. SHOT ON TARGET — SAVE (~20% of events)
           const shooter = getSquadPlayer(attackingSquad, 'FWD');
           const keeper = getSquadPlayer(defendingSquad, 'GK');
+          const loc = { x: attackingTeam === 'host' ? 90 : 10, y: prng.nextInt(30, 70) };
+          const xGVal = calculateShotXG('save', shooter.ovr, keeper.ovr, loc);
           stats[attackingTeam].shots++;
           stats[attackingTeam].shotsOnTarget++;
+          stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
           stats[defendingTeam].saves++;
 
           events.push(createEvent(
@@ -301,13 +343,18 @@ export class MatchEngine {
             buildSavePhrase(keeper, shooter),
             keeper,
             shooter,
-            { x: attackingTeam === 'host' ? 90 : 10, y: prng.nextInt(30, 70) }
+            loc,
+            undefined,
+            xGVal
           ));
         } else if (actionRoll < 0.50) {
           // 3. SHOT WIDE / MISS (~18% of events)
           const shooter = getSquadPlayer(attackingSquad, 'FWD');
           const midfielderBuildup = getSquadPlayer(attackingSquad, 'MID');
+          const loc = { x: attackingTeam === 'host' ? 85 : 15, y: prng.nextInt(25, 75) };
+          const xGVal = calculateShotXG('shot', shooter.ovr, 80, loc);
           stats[attackingTeam].shots++;
+          stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
 
           const missPhrases = [
             `${shooter.name} breaks into the box but blazes over the crossbar! Chance wasted!`,
@@ -326,7 +373,9 @@ export class MatchEngine {
             prng.pickOne(missPhrases),
             shooter,
             midfielderBuildup,
-            { x: attackingTeam === 'host' ? 85 : 15, y: prng.nextInt(25, 75) }
+            loc,
+            undefined,
+            xGVal
           ));
         } else if (actionRoll < 0.68) {
           // 4. DEFENSIVE INTERVENTION / TACKLE (~18% of events)
@@ -353,8 +402,11 @@ export class MatchEngine {
 
           if (prng.chance(0.20)) {
             // Direct free-kick goal! (~20% of set pieces → goal, ≈2.8% of all events)
+            const loc = { x: attackingTeam === 'host' ? 93 : 7, y: prng.nextInt(30, 70) };
+            const xGVal = calculateShotXG('goal', setPieceTaker.ovr, 80, loc);
             currentScore[attackingTeam]++;
             stats[attackingTeam].shotsOnTarget++;
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             const fkGoalPhrases = [
               `FREE-KICK GOAL! ${setPieceTaker.name} whips an unstoppable curler over the wall into the top corner!`,
               `STUNNING SET PIECE! ${setPieceTaker.name} bends it perfectly beyond the despairing dive of the keeper!`,
@@ -368,13 +420,18 @@ export class MatchEngine {
               prng.pickOne(fkGoalPhrases),
               setPieceTaker,
               defender,
-              { x: attackingTeam === 'host' ? 93 : 7, y: prng.nextInt(30, 70) }
+              loc,
+              undefined,
+              xGVal
             ));
           } else if (prng.chance(0.40)) {
             // Shot on target from set piece — save!
             const keeper = getSquadPlayer(defendingSquad, 'GK');
+            const loc = { x: attackingTeam === 'host' ? 88 : 12, y: prng.nextInt(25, 75) };
+            const xGVal = calculateShotXG('save', setPieceTaker.ovr, keeper.ovr, loc);
             stats[attackingTeam].shotsOnTarget++;
             stats[defendingTeam].saves++;
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             events.push(createEvent(
               sec,
               currentPeriod,
@@ -383,9 +440,14 @@ export class MatchEngine {
               `CORNER SAVE! ${keeper.name} claims ${setPieceTaker.name}'s dangerous delivery at the near post!`,
               keeper,
               setPieceTaker,
-              { x: attackingTeam === 'host' ? 88 : 12, y: prng.nextInt(25, 75) }
+              loc,
+              undefined,
+              xGVal
             ));
           } else {
+            const loc = { x: attackingTeam === 'host' ? 87 : 13, y: prng.nextInt(30, 70) };
+            const xGVal = calculateShotXG('shot', setPieceTaker.ovr, 80, loc);
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             events.push(createEvent(
               sec,
               currentPeriod,
@@ -394,7 +456,9 @@ export class MatchEngine {
               `DANGEROUS FREE-KICK! ${setPieceTaker.name} curls it beautifully — it clips the outside of the post!`,
               setPieceTaker,
               defender,
-              { x: attackingTeam === 'host' ? 87 : 13, y: prng.nextInt(30, 70) }
+              loc,
+              undefined,
+              xGVal
             ));
           }
         } else {
@@ -441,7 +505,6 @@ export class MatchEngine {
     if (knockoutMode && matchWinner === 'draw') {
       const etTotal = Math.max(15, Math.floor(regDuration * 0.33));
       const et1Duration = Math.floor(etTotal / 2);
-      const et2Duration = etTotal - et1Duration;
       const et1Start = regDuration + 1;
       const et1End = regDuration + et1Duration;
       const et2Start = et1End + 1;
@@ -463,9 +526,12 @@ export class MatchEngine {
           if (etRoll < 0.14) {
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
+            const loc = { x: attackingTeam === 'host' ? 95 : 5, y: 50 };
+            const xGVal = calculateShotXG('goal', scorer.ovr, defendingSquad[0]?.ovr || 80, loc);
             currentScore[attackingTeam]++;
             stats[attackingTeam].shots++;
             stats[attackingTeam].shotsOnTarget++;
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             events.push(createEvent(
               sec,
               'extra_time_1',
@@ -474,14 +540,19 @@ export class MatchEngine {
               `EXTRA TIME GOAL! Dramatic finish by ${scorer.name} after a through-ball from ${assister.name}!`,
               scorer,
               assister,
-              { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
+              loc,
+              undefined,
+              xGVal
             ));
           } else if (etRoll < 0.42) {
             const shooter = getSquadPlayer(attackingSquad, 'FWD');
             const keeper = getSquadPlayer(defendingSquad, 'GK');
+            const loc = { x: attackingTeam === 'host' ? 90 : 10, y: 50 };
+            const xGVal = calculateShotXG('save', shooter.ovr, keeper.ovr, loc);
             stats[attackingTeam].shots++;
             stats[attackingTeam].shotsOnTarget++;
             stats[defendingTeam].saves++;
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             events.push(createEvent(
               sec,
               'extra_time_1',
@@ -489,7 +560,10 @@ export class MatchEngine {
               defendingTeam,
               `${keeper.name} keeps his team alive with a stunning extra-time reflex save to deny ${shooter.name}!`,
               keeper,
-              shooter
+              shooter,
+              loc,
+              undefined,
+              xGVal
             ));
           } else {
             const defender = getSquadPlayer(defendingSquad, 'DEF');
@@ -522,9 +596,12 @@ export class MatchEngine {
           if (etRoll < 0.14) {
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
+            const loc = { x: attackingTeam === 'host' ? 95 : 5, y: 50 };
+            const xGVal = calculateShotXG('goal', scorer.ovr, defendingSquad[0]?.ovr || 80, loc);
             currentScore[attackingTeam]++;
             stats[attackingTeam].shots++;
             stats[attackingTeam].shotsOnTarget++;
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             const etGoalPhrases = [
               `LATE DRAMA! ${scorer.name} strikes in the dying moments of extra time!`,
               `GOLDEN GOAL! ${scorer.name} ends the contest in extra time! Scenes of jubilation!`,
@@ -538,14 +615,19 @@ export class MatchEngine {
               prng.pickOne(etGoalPhrases),
               scorer,
               assister,
-              { x: attackingTeam === 'host' ? 95 : 5, y: 50 }
+              loc,
+              undefined,
+              xGVal
             ));
           } else if (etRoll < 0.42) {
             const shooter = getSquadPlayer(attackingSquad, 'FWD');
             const keeper = getSquadPlayer(defendingSquad, 'GK');
+            const loc = { x: attackingTeam === 'host' ? 90 : 10, y: 50 };
+            const xGVal = calculateShotXG('save', shooter.ovr, keeper.ovr, loc);
             stats[attackingTeam].shots++;
             stats[attackingTeam].shotsOnTarget++;
             stats[defendingTeam].saves++;
+            stats[attackingTeam].xG = Math.round((stats[attackingTeam].xG + xGVal) * 100) / 100;
             events.push(createEvent(
               sec,
               'extra_time_2',
@@ -553,7 +635,10 @@ export class MatchEngine {
               defendingTeam,
               `Heroic stop! ${keeper.name} dives at full stretch to deny ${shooter.name} — keeping his side in this!`,
               keeper,
-              shooter
+              shooter,
+              loc,
+              undefined,
+              xGVal
             ));
           } else {
             const defender = getSquadPlayer(defendingSquad, 'DEF');
@@ -745,7 +830,7 @@ export class MatchEngine {
       passingStyle?: PassingStyle;
       shout?: TouchlineShout;
     },
-    team: 'host' | 'guest' = 'host',
+    _team: 'host' | 'guest' = 'host',
     now: number = Date.now(),
     hostDraft?: PlayerDraftState,
     guestDraft?: PlayerDraftState
@@ -782,6 +867,128 @@ export class MatchEngine {
     const regDuration = simulation.regularDurationSeconds || (simulation.totalDurationSeconds <= 60 ? 45 : simulation.totalDurationSeconds);
 
     // If match is live in regular time and squads are present, dynamically resimulate future events!
+    if (host && guest && curSec < regDuration - 2) {
+      MatchEngine.resimulateFutureEvents(simulation, host, guest, curSec, now);
+    }
+
+    return simulation;
+  }
+
+  /**
+   * Performs an in-match player substitution, swapping a starter on the pitch
+   * with a bench player, granting 'fresh legs' dynamic rating surge for 15 seconds,
+   * inserting a substitution event, and dynamically resimulating future events.
+   */
+  static makeSubstitution(
+    simulation: MatchSimulationState,
+    team: 'host' | 'guest',
+    slotId: string,
+    subPlayer: PlayerVersion,
+    now: number = Date.now(),
+    hostDraft?: PlayerDraftState,
+    guestDraft?: PlayerDraftState
+  ): MatchSimulationState {
+    const host = hostDraft || (simulation as any)._hostDraft;
+    const guest = guestDraft || (simulation as any)._guestDraft;
+    const targetDraft = team === 'host' ? host : guest;
+
+    if (!targetDraft || !targetDraft.draftedSlots[slotId]) {
+      return simulation;
+    }
+
+    const curSec = simulation.startTime > 0
+      ? Math.max(0, Math.floor((now - simulation.startTime) / 1000))
+      : simulation.currentSecond || 0;
+    const regDuration = simulation.regularDurationSeconds || (simulation.totalDurationSeconds <= 60 ? 45 : simulation.totalDurationSeconds);
+    const minute = calculateVisualMinute(curSec, regDuration);
+
+    const oldPlayer = targetDraft.draftedSlots[slotId].player;
+
+    // Swap starter with subPlayer in draftedSlots
+    targetDraft.draftedSlots[slotId] = {
+      ...targetDraft.draftedSlots[slotId],
+      player: subPlayer,
+    };
+
+    // If benchSlots exist, swap or update bench
+    if (targetDraft.benchSlots) {
+      const benchKey = Object.keys(targetDraft.benchSlots).find(
+        (k) => targetDraft.benchSlots?.[k]?.player?.id === subPlayer.id
+      );
+      if (benchKey) {
+        targetDraft.benchSlots[benchKey] = {
+          ...targetDraft.benchSlots[benchKey],
+          player: oldPlayer,
+        };
+      }
+    }
+
+    // Record substitution
+    const subRecord: MatchSubstitution = {
+      playerIn: {
+        id: subPlayer.id,
+        name: subPlayer.name,
+        ovr: subPlayer.ovr,
+        position: subPlayer.naturalPositions[0],
+        squadNumber: subPlayer.squadNumber,
+      },
+      playerOut: {
+        id: oldPlayer.id,
+        name: oldPlayer.name,
+        ovr: oldPlayer.ovr,
+        position: oldPlayer.naturalPositions[0],
+        squadNumber: oldPlayer.squadNumber,
+      },
+      slotId,
+      second: curSec,
+      minute,
+      team,
+    };
+
+    if (!simulation.substitutions) {
+      simulation.substitutions = [];
+    }
+    simulation.substitutions.push(subRecord);
+
+    // Create substitution event
+    const subEvent: MatchEvent = {
+      id: `ev-${curSec}-sub-${Date.now() % 10000}`,
+      second: curSec,
+      minute,
+      period: curSec <= Math.floor(regDuration / 2) ? 'first_half' : 'second_half',
+      type: 'substitution',
+      team,
+      description: `SUBSTITUTION [${team.toUpperCase()}]: ${subPlayer.name} replaces ${oldPlayer.name} — fresh legs onto the pitch!`,
+      player: {
+        id: subPlayer.id,
+        name: subPlayer.name,
+        position: subPlayer.naturalPositions[0],
+        squadNumber: subPlayer.squadNumber,
+      },
+      secondaryPlayer: {
+        id: oldPlayer.id,
+        name: oldPlayer.name,
+        position: oldPlayer.naturalPositions[0],
+        squadNumber: oldPlayer.squadNumber,
+      },
+      score: { ...simulation.score },
+      pitchLocation: { x: team === 'host' ? 40 : 60, y: 5 },
+    };
+
+    simulation.events.push(subEvent);
+    simulation.events.sort((a, b) => a.second - b.second);
+
+    // Apply fresh legs tactical shout bonus for 15 seconds
+    if (!simulation.tacticalInstructions) {
+      simulation.tacticalInstructions = {};
+    }
+    simulation.tacticalInstructions.activeShout = {
+      shout: 'demand_more',
+      activatedAtSec: curSec,
+      expiresAtSec: curSec + 15,
+    };
+
+    // Recalculate future events if in live match
     if (host && guest && curSec < regDuration - 2) {
       MatchEngine.resimulateFutureEvents(simulation, host, guest, curSec, now);
     }
@@ -892,6 +1099,8 @@ export class MatchEngine {
         if (actionRoll < 0.12) {
           const scorer = getSquadPlayer(attackingSquad, 'FWD');
           const assister = getSquadPlayer(attackingSquad, 'MID');
+          const loc = { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) };
+          const xGVal = calculateShotXG('goal', scorer.ovr, defendingSquad[0]?.ovr || 80, loc);
           currentScore[attackingTeam]++;
           futureEvents.push({
             id: `ev-${sec}-goal-${prng.nextInt(1000, 9999)}`,
@@ -904,11 +1113,14 @@ export class MatchEngine {
             player: { id: scorer.id, name: scorer.name, position: scorer.naturalPositions[0], squadNumber: scorer.squadNumber },
             secondaryPlayer: { id: assister.id, name: assister.name, position: assister.naturalPositions[0], squadNumber: assister.squadNumber },
             score: { ...currentScore },
-            pitchLocation: { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) },
+            pitchLocation: loc,
+            xG: xGVal,
           });
         } else if (actionRoll < 0.32) {
           const shooter = getSquadPlayer(attackingSquad, 'FWD');
           const keeper = getSquadPlayer(defendingSquad, 'GK');
+          const loc = { x: attackingTeam === 'host' ? 90 : 10, y: prng.nextInt(30, 70) };
+          const xGVal = calculateShotXG('save', shooter.ovr, keeper.ovr, loc);
           futureEvents.push({
             id: `ev-${sec}-save-${prng.nextInt(1000, 9999)}`,
             second: sec,
@@ -920,10 +1132,13 @@ export class MatchEngine {
             player: { id: keeper.id, name: keeper.name, position: keeper.naturalPositions[0], squadNumber: keeper.squadNumber },
             secondaryPlayer: { id: shooter.id, name: shooter.name, position: shooter.naturalPositions[0], squadNumber: shooter.squadNumber },
             score: { ...currentScore },
-            pitchLocation: { x: attackingTeam === 'host' ? 90 : 10, y: prng.nextInt(30, 70) },
+            pitchLocation: loc,
+            xG: xGVal,
           });
         } else if (actionRoll < 0.50) {
           const shooter = getSquadPlayer(attackingSquad, 'FWD');
+          const loc = { x: attackingTeam === 'host' ? 85 : 15, y: prng.nextInt(25, 75) };
+          const xGVal = calculateShotXG('shot', shooter.ovr, 80, loc);
           futureEvents.push({
             id: `ev-${sec}-shot-${prng.nextInt(1000, 9999)}`,
             second: sec,
@@ -934,7 +1149,8 @@ export class MatchEngine {
             description: `${shooter.name} breaks forward but fires wide of the target!`,
             player: { id: shooter.id, name: shooter.name, position: shooter.naturalPositions[0], squadNumber: shooter.squadNumber },
             score: { ...currentScore },
-            pitchLocation: { x: attackingTeam === 'host' ? 85 : 15, y: prng.nextInt(25, 75) },
+            pitchLocation: loc,
+            xG: xGVal,
           });
         }
       }
@@ -984,13 +1200,14 @@ export class MatchEngine {
       for (let sec = regDuration + 2; sec <= et2End; sec++) {
         if (prng.chance(actionChance * 1.3)) {
           const attackingTeam: 'host' | 'guest' = prng.chance(hostAttackChance) ? 'host' : 'guest';
-          const defendingTeam: 'host' | 'guest' = attackingTeam === 'host' ? 'guest' : 'host';
           const attackingSquad = attackingTeam === 'host' ? hostPlayers : guestPlayers;
           const defendingSquad = attackingTeam === 'host' ? guestPlayers : hostPlayers;
 
           if (prng.chance(0.14)) {
             const scorer = getSquadPlayer(attackingSquad, 'FWD');
             const assister = getSquadPlayer(attackingSquad, 'MID');
+            const loc = { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) };
+            const xGVal = calculateShotXG('goal', scorer.ovr, defendingSquad[0]?.ovr || 80, loc);
             currentScore[attackingTeam]++;
             futureEvents.push({
               id: `ev-${sec}-goal-${prng.nextInt(1000, 9999)}`,
@@ -1003,7 +1220,8 @@ export class MatchEngine {
               player: { id: scorer.id, name: scorer.name, position: scorer.naturalPositions[0], squadNumber: scorer.squadNumber },
               secondaryPlayer: { id: assister.id, name: assister.name, position: assister.naturalPositions[0], squadNumber: assister.squadNumber },
               score: { ...currentScore },
-              pitchLocation: { x: attackingTeam === 'host' ? 95 : 5, y: prng.nextInt(35, 65) },
+              pitchLocation: loc,
+              xG: xGVal,
             });
           }
         }
@@ -1124,11 +1342,17 @@ export class MatchEngine {
 
     const currentScore = { host: 0, guest: 0 };
     const liveStats = {
-      host: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0 },
-      guest: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0 },
+      host: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0, xG: 0 },
+      guest: { shots: 0, shotsOnTarget: 0, saves: 0, corners: 0, tackles: 0, fouls: 0, xG: 0 },
     };
 
     for (const ev of visibleEvents) {
+      if (ev.xG) {
+        // save is defensive action, so the attacking team shooting was the opposite team
+        const attackingTeam = ev.type === 'save' ? (ev.team === 'host' ? 'guest' : 'host') : ev.team;
+        liveStats[attackingTeam].xG = Math.round((liveStats[attackingTeam].xG + ev.xG) * 100) / 100;
+      }
+
       if (ev.type === 'goal') {
         currentScore[ev.team]++;
         liveStats[ev.team].shots++;
@@ -1148,6 +1372,25 @@ export class MatchEngine {
         liveStats[ev.team].fouls++;
       }
     }
+
+    // Dynamic live momentum gauge (-100 to +100) based on recent action (last 15s) and tactics
+    const recentWindowStart = Math.max(0, currentSecond - 15);
+    const recentEvents = visibleEvents.filter((ev) => ev.second >= recentWindowStart);
+    let rawMomentum = 0;
+    for (const ev of recentEvents) {
+      const isHost = ev.team === 'host';
+      const dir = isHost ? 1 : -1;
+      if (ev.type === 'goal') rawMomentum += dir * 35;
+      else if (ev.type === 'save') {
+        const attackerDir = isHost ? -1 : 1;
+        rawMomentum += attackerDir * 15;
+      } else if (ev.type === 'shot') rawMomentum += dir * 10;
+      else if (ev.type === 'defensive_intervention') rawMomentum += dir * 5;
+      else if (ev.type === 'yellow_card') rawMomentum -= dir * 8;
+    }
+    if (simulation.liveMentality === 'attacking') rawMomentum += 12;
+    if (simulation.liveMentality === 'defensive') rawMomentum -= 12;
+    const momentum = Math.max(-100, Math.min(100, Math.round(rawMomentum)));
 
     const currentMinute = calculateVisualMinute(currentSecond, regDuration);
 
@@ -1181,6 +1424,7 @@ export class MatchEngine {
       winner: status === 'completed' ? simulation.winner : undefined,
       winMethod: status === 'completed' ? simulation.winMethod : undefined,
       stats: liveStats,
+      momentum,
     };
   }
 

@@ -77,7 +77,7 @@ export function createApiRouter(
   // Create room
   router.post('/rooms/create', async (req: Request, res: Response) => {
     try {
-      const { mode, poolType, hostName, formationId, customFormation, matchFormat } = req.body;
+      const { mode, poolType, hostName, formationId, customFormation, matchFormat, enableSubstitutions } = req.body;
       if (!mode || !poolType) {
         res.status(400).json({ success: false, error: 'mode and poolType are required' });
         return;
@@ -89,6 +89,7 @@ export function createApiRouter(
         formationId,
         customFormation,
         matchFormat,
+        enableSubstitutions,
       });
       res.json({
         success: true,
@@ -278,6 +279,35 @@ export function createApiRouter(
       return;
     }
     res.json({ success: true, liveMatch });
+  });
+
+  // Rematch management (request, accept, decline, cancel)
+  router.post('/rooms/:roomCode/rematch', async (req: Request, res: Response) => {
+    try {
+      const { token, action } = req.body;
+      if (!token) {
+        res.status(400).json({ success: false, error: 'token is required' });
+        return;
+      }
+      let room;
+      if (action === 'request') {
+        room = await roomManager.requestRematch({ roomCode: req.params.roomCode, token });
+      } else if (action === 'accept') {
+        room = await roomManager.respondRematch({ roomCode: req.params.roomCode, token, accept: true });
+      } else if (action === 'decline') {
+        room = await roomManager.respondRematch({ roomCode: req.params.roomCode, token, accept: false });
+      } else if (action === 'cancel') {
+        room = await roomManager.cancelRematch({ roomCode: req.params.roomCode, token });
+      } else {
+        res.status(400).json({ success: false, error: 'Invalid rematch action' });
+        return;
+      }
+
+      getWsHandler?.()?.broadcastRoom(room.roomCode, room);
+      res.json({ success: true, room });
+    } catch (err: any) {
+      res.status(400).json({ success: false, error: err.message });
+    }
   });
 
   return router;

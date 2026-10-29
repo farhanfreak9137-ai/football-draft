@@ -7,7 +7,7 @@ import {
   PoolType,
   RoomState,
 } from '../shared/types/index.js';
-import { FORMATIONS, isPlayerEligibleForSlot } from '../shared/constants/formations.js';
+import { isPlayerEligibleForSlot } from '../shared/constants/formations.js';
 import { DraftEngine } from '../shared/engine/draftEngine.js';
 import { MatchEngine } from '../shared/engine/matchEngine.js';
 import { PRNG } from '../shared/engine/prng.js';
@@ -43,11 +43,13 @@ export class RoomManager {
     formationId?: string;
     customFormation?: FormationDefinition;
     matchFormat?: 'auto' | 'normal' | 'knockout';
+    enableSubstitutions?: boolean;
   }): Promise<{ room: RoomState; hostToken: string; guestToken?: string }> {
     const roomCode = this.generateRoomCode();
     const hostToken = this.generateToken();
     const now = Date.now();
     const expiresAt = now + 60 * 60 * 1000; // 1 hour expiration
+    const enableSubstitutions = params.enableSubstitutions !== false;
 
     const hostDraft = DraftEngine.createInitialDraftState({
       seatId: 'host',
@@ -56,6 +58,7 @@ export class RoomManager {
       poolType: params.poolType,
       formationId: params.formationId,
       customFormation: params.customFormation,
+      enableSubstitutions,
     });
 
     let guestDraft: PlayerDraftState | undefined;
@@ -72,6 +75,7 @@ export class RoomManager {
         playerName: 'Tactical AI Challenger',
         poolType: params.poolType,
         formationId: aiFormationId,
+        enableSubstitutions,
       });
     }
 
@@ -81,6 +85,7 @@ export class RoomManager {
       mode: params.mode,
       poolType: params.poolType,
       matchFormat: params.matchFormat || 'auto',
+      enableSubstitutions,
       createdAt: now,
       updatedAt: now,
       expiresAt,
@@ -136,6 +141,7 @@ export class RoomManager {
       poolType: room.poolType,
       formationId: params.formationId,
       customFormation: params.customFormation,
+      enableSubstitutions: room.enableSubstitutions !== false,
     });
 
     room.guestSeat = {
@@ -396,9 +402,7 @@ export class RoomManager {
       let aiDraft = nextDraft;
       const hostUsedIdentities = room.hostDraft?.usedIdentityIds || [];
       if (aiDraft.currentRoster.length > 0) {
-        const openSlots = aiDraft.formation.slots.filter(
-          (s) => !aiDraft.draftedSlots[s.id]
-        );
+        const openSlots = DraftEngine.getOpenSlots(aiDraft);
         let bestLegalOvr = 0;
         for (const p of aiDraft.currentRoster) {
           if (aiDraft.usedIdentityIds.includes(p.identityId) || hostUsedIdentities.includes(p.identityId)) continue;
@@ -533,6 +537,21 @@ export class RoomManager {
       this.matchRotationCounter++;
     }
 
+    // Ensure authentic matchday substitutes are populated only if substitutions are enabled
+    if (room.enableSubstitutions !== false) {
+      if (!room.hostDraft.benchSlots || Object.keys(room.hostDraft.benchSlots).length === 0) {
+        room.hostDraft.benchSlots = DraftEngine.generateBenchReserves(room.hostDraft, this.db.players);
+      }
+      if (room.guestDraft && (!room.guestDraft.benchSlots || Object.keys(room.guestDraft.benchSlots).length === 0)) {
+        room.guestDraft.benchSlots = DraftEngine.generateBenchReserves(room.guestDraft, this.db.players);
+      }
+    } else {
+      room.hostDraft.benchSlots = undefined;
+      if (room.guestDraft) {
+        room.guestDraft.benchSlots = undefined;
+      }
+    }
+
     const simulation = MatchEngine.simulateMatch(room.hostDraft, room.guestDraft, {
       knockoutMode: isKnockout,
       randomSeed: now,
@@ -541,6 +560,7 @@ export class RoomManager {
     simulation.status = 'live';
     simulation.knockoutMode = isKnockout;
     simulation.matchFormat = isKnockout ? 'cup' : 'league';
+    simulation.enableSubstitutions = room.enableSubstitutions !== false;
 
     this.matches.set(room.roomCode, simulation);
     room.status = 'simulating';
@@ -571,5 +591,145 @@ export class RoomManager {
     room.status = 'closed';
     this.matches.delete(room.roomCode);
     await this.db.deleteRoom(room.roomCode);
+  }
+
+  /**
+   * Resets the room and draft states for a fresh rematch in the same room code.
+   */
+  public resetRoomForRematch(room: RoomState): RoomState {
+    const now = Date.now();
+    this.matches.delete(room.roomCode);
+
+    room.status = 'drafting';
+    room.matchId = undefined;
+    room.lastPickAnnouncement = undefined;
+    room.rematch = undefined;
+    room.turnNumber = 1;
+    room.activeTurn = 'host';
+    room.turnDeadline = now + 40000;
+    room.updatedAt = now;
+
+    // Reset host draft preserving name, formation, and pool
+    room.hostDraft = DraftEngine.createInitialDraftState({
+      seatId: 'host',
+      playerId: room.hostDraft.playerId,
+      playerName: room.hostDraft.playerName,
+      poolType: room.poolType,
+      formationId: room.hostDraft.formation?.id,
+      customFormation: room.hostDraft.formation?.isCustom ? room.hostDraft.formation : undefined,
+    });
+
+    // Reset guest draft preserving name, formation, and pool
+    if (room.guestDraft) {
+      room.guestDraft = DraftEngine.createInitialDraftState({
+        seatId: 'guest',
+        playerId: room.guestDraft.playerId,
+        playerName: room.guestDraft.playerName,
+        poolType: room.poolType,
+        formationId: room.guestDraft.formation?.id,
+        customFormation: room.guestDraft.formation?.isCustom ? room.guestDraft.formation : undefined,
+      });
+    }
+
+    return room;
+  }
+
+  /**
+   * Request a rematch. In Solo mode or if mutual request exists, resets room immediately.
+   * Otherwise sets status to pending and waits for opponent.
+   */
+  async requestRematch(params: { roomCode: string; token: string }): Promise<RoomState> {
+    const auth = await this.authenticateSeat(params.roomCode, params.token);
+    if (!auth) {
+      throw new Error('UNAUTHORIZED_SEAT_TOKEN');
+    }
+
+    const { seat, room } = auth;
+
+    // In Solo mode, start rematch draft immediately
+    if (room.mode === 'solo') {
+      this.resetRoomForRematch(room);
+      await this.db.saveRoom(room);
+      this.onRoomUpdated?.(room);
+      return room;
+    }
+
+    // In Multiplayer mode:
+    // If opponent already requested a rematch, this is mutual agreement! Reset and start immediately!
+    if (room.rematch && room.rematch.status === 'pending' && room.rematch.requestedBy !== seat) {
+      this.resetRoomForRematch(room);
+      await this.db.saveRoom(room);
+      this.onRoomUpdated?.(room);
+      return room;
+    }
+
+    // Otherwise, mark rematch as pending from this seat
+    room.rematch = {
+      requestedBy: seat,
+      status: 'pending',
+      requestedAt: Date.now(),
+    };
+    room.updatedAt = Date.now();
+    await this.db.saveRoom(room);
+    this.onRoomUpdated?.(room);
+    return room;
+  }
+
+  /**
+   * Respond to an incoming rematch request (accept or decline).
+   */
+  async respondRematch(params: {
+    roomCode: string;
+    token: string;
+    accept: boolean;
+  }): Promise<RoomState> {
+    const auth = await this.authenticateSeat(params.roomCode, params.token);
+    if (!auth) {
+      throw new Error('UNAUTHORIZED_SEAT_TOKEN');
+    }
+
+    const { seat, room } = auth;
+    if (!room.rematch || room.rematch.status !== 'pending') {
+      throw new Error('No pending rematch request to respond to');
+    }
+
+    if (room.rematch.requestedBy === seat) {
+      throw new Error('Cannot respond to your own rematch request');
+    }
+
+    if (params.accept) {
+      this.resetRoomForRematch(room);
+    } else {
+      room.rematch = {
+        requestedBy: room.rematch.requestedBy,
+        status: 'declined',
+        requestedAt: Date.now(),
+      };
+      room.updatedAt = Date.now();
+    }
+
+    await this.db.saveRoom(room);
+    this.onRoomUpdated?.(room);
+    return room;
+  }
+
+  /**
+   * Cancel a pending rematch request made by this seat.
+   */
+  async cancelRematch(params: { roomCode: string; token: string }): Promise<RoomState> {
+    const auth = await this.authenticateSeat(params.roomCode, params.token);
+    if (!auth) {
+      throw new Error('UNAUTHORIZED_SEAT_TOKEN');
+    }
+
+    const { seat, room } = auth;
+    if (room.rematch && room.rematch.requestedBy === seat) {
+      room.rematch = undefined;
+      room.updatedAt = Date.now();
+      await this.db.saveRoom(room);
+      this.onRoomUpdated?.(room);
+    }
+
+    return room;
   }
 }

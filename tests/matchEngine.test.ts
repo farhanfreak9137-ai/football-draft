@@ -1,12 +1,11 @@
 import { describe, it, expect } from 'vitest';
 import { MatchEngine } from '../src/shared/engine/matchEngine.js';
 import { DraftEngine } from '../src/shared/engine/draftEngine.js';
-import { PlayerVersion, TeamEdition } from '../src/shared/types/index.js';
+import { PlayerVersion } from '../src/shared/types/index.js';
 import fs from 'fs';
 import path from 'path';
 
 const DATA_DIR = path.resolve(__dirname, '../data');
-const nationalEditions: TeamEdition[] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'editions_national.json'), 'utf-8'));
 const nationalPlayers: PlayerVersion[] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_national.json'), 'utf-8'));
 
 function createTestSquad(editionId: string, managerName: string) {
@@ -98,14 +97,14 @@ describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)',
       if (sim.winMethod === 'penalties') {
         foundPenalties = true;
         expect(sim.totalDurationSeconds).toBe(60);
-        expect(sim.penalties.length).toBeGreaterThanOrEqual(5);
+        expect(sim.penalties!.length).toBeGreaterThanOrEqual(5);
         expect(sim.penaltyScore).toBeDefined();
         expect(sim.winner).toMatch(/host|guest/);
 
         // Verify penalty scores match kick outcomes
         let countedHost = 0;
         let countedGuest = 0;
-        for (const kick of sim.penalties) {
+        for (const kick of sim.penalties!) {
           if (kick.team === 'host' && kick.scored) countedHost++;
           if (kick.team === 'guest' && kick.scored) countedGuest++;
         }
@@ -380,5 +379,86 @@ describe('MatchEngine (45s Real Sim / 90\' Visual Clock Luck-First Simulation)',
     // Live mentality and active shout must be updated
     expect(updatedSim.liveMentality).toBe('attacking');
     expect(updatedSim.tacticalInstructions?.activeShout?.shout).toBe('demand_more');
+  });
+
+  it('calculates realistic Expected Goals (xG) and accumulates in match stats', () => {
+    const hostDraft = createTestSquad('brazil-1970', 'Brazil 1970');
+    const guestDraft = createTestSquad('italy-1982', 'Italy 1982');
+
+    const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+      randomSeed: 7777,
+      matchDurationSec: 45,
+    });
+
+    // Stats should have numeric xG values
+    expect(typeof sim.stats.host.xG).toBe('number');
+    expect(typeof sim.stats.guest.xG).toBe('number');
+    expect(sim.stats.host.xG).toBeGreaterThanOrEqual(0);
+    expect(sim.stats.guest.xG).toBeGreaterThanOrEqual(0);
+
+    // Goal and shot events should have xG attached
+    const shotEvents = sim.events.filter((e) => ['goal', 'save', 'shot'].includes(e.type));
+    for (const ev of shotEvents) {
+      if (ev.xG !== undefined) {
+        expect(ev.xG).toBeGreaterThanOrEqual(0.01);
+        expect(ev.xG).toBeLessThanOrEqual(0.99);
+      }
+    }
+  });
+
+  it('performs in-match substitutions, updating pitch roster and applying Fresh Legs boost', () => {
+    const hostDraft = createTestSquad('brazil-1970', 'Brazil Manager');
+    const guestDraft = createTestSquad('italy-1982', 'Italy Manager');
+
+    const starterSlotId = hostDraft.formation.slots[0].id;
+    const originalStarter = hostDraft.draftedSlots[starterSlotId].player;
+
+    // Pick a sub player from roster not currently in slot
+    const allRoster = nationalPlayers.filter((p) => p.editionId === 'brazil-1970');
+    const subCandidate = allRoster.find((p) => p.id !== originalStarter.id) || allRoster[0];
+
+    const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+      randomSeed: 8888,
+      matchDurationSec: 45,
+    });
+    sim.startTime = 100000;
+
+    const subbedSim = MatchEngine.makeSubstitution(
+      sim,
+      'host',
+      starterSlotId,
+      subCandidate,
+      100000 + 15000,
+      hostDraft,
+      guestDraft
+    );
+
+    // Starter should be replaced
+    expect(hostDraft.draftedSlots[starterSlotId].player.id).toBe(subCandidate.id);
+
+    // Sub event should be inserted
+    const subEvent = subbedSim.events.find((e) => e.type === 'substitution');
+    expect(subEvent).toBeDefined();
+    expect(subEvent?.player?.id).toBe(subCandidate.id);
+
+    // Tactical shout for Fresh Legs should be active
+    expect(subbedSim.tacticalInstructions?.activeShout).toBeDefined();
+    expect(subbedSim.tacticalInstructions?.activeShout?.shout).toBe('demand_more');
+  });
+
+  it('calculates dynamic momentum gauge and authoritatively clamps between -100 and +100', () => {
+    const hostDraft = createTestSquad('brazil-1970', 'Brazil Manager');
+    const guestDraft = createTestSquad('italy-1982', 'Italy Manager');
+
+    const sim = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+      randomSeed: 9999,
+      matchDurationSec: 45,
+    });
+    sim.startTime = 100000;
+
+    const authState = MatchEngine.getAuthoritativeStateAtTime(sim, 100000 + 20000);
+    expect(typeof authState.momentum).toBe('number');
+    expect(authState.momentum).toBeGreaterThanOrEqual(-100);
+    expect(authState.momentum).toBeLessThanOrEqual(100);
   });
 });

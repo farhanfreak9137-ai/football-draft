@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { RoomManager } from '../src/server/roomManager.js';
 import { DatabaseService } from '../src/server/db.js';
 import { generateFormationFromLines } from '../src/shared/constants/formations.js';
+import { DraftEngine } from '../src/shared/engine/draftEngine.js';
 
 describe('RoomManager & Multiplayer Security', () => {
   let db: DatabaseService;
@@ -138,7 +139,7 @@ describe('RoomManager & Multiplayer Security', () => {
   });
 
   it('allows host to close room and cleans up 1-hour abandoned rooms', async () => {
-    const { room, hostToken, guestToken } = await rm.createRoom({
+    const { room, hostToken } = await rm.createRoom({
       mode: 'multiplayer',
       poolType: 'national',
       hostName: 'Host',
@@ -231,10 +232,107 @@ describe('RoomManager & Multiplayer Security', () => {
       formationId: customGuestFormation.id,
       customFormation: customGuestFormation,
     });
-    expect(joinedRoom.guestDraft.formation.id).toBe(customGuestFormation.id);
-    expect(joinedRoom.guestDraft.formation.isCustom).toBe(true);
-    expect(joinedRoom.guestDraft.formation.slots.length).toBe(11);
-    expect(joinedRoom.guestDraft.formation.name).toBe('Guest Custom 4-2-4');
+    expect(joinedRoom.guestDraft!.formation.id).toBe(customGuestFormation.id);
+    expect(joinedRoom.guestDraft!.formation.isCustom).toBe(true);
+    expect(joinedRoom.guestDraft!.formation.slots.length).toBe(11);
+    expect(joinedRoom.guestDraft!.formation.name).toBe('Guest Custom 4-2-4');
+  });
+
+  it('manages multiplayer rematch lifecycle: request, decline, and accept in same room', async () => {
+    const { room: initialRoom, hostToken } = await rm.createRoom({
+      mode: 'multiplayer',
+      poolType: 'national',
+      hostName: 'Host Manager',
+    });
+
+    const { room: joinedRoom, guestToken } = await rm.joinRoom({
+      roomCode: initialRoom.roomCode,
+      guestName: 'Guest Manager',
+    });
+
+    // Simulate match completion
+    joinedRoom.status = 'match_finished';
+    await db.saveRoom(joinedRoom);
+
+    // 1. Host requests rematch
+    const requestedRoom = await rm.requestRematch({
+      roomCode: joinedRoom.roomCode,
+      token: hostToken,
+    });
+    expect(requestedRoom.rematch).toBeDefined();
+    expect(requestedRoom.rematch?.requestedBy).toBe('host');
+    expect(requestedRoom.rematch?.status).toBe('pending');
+
+    // 2. Guest declines rematch
+    const declinedRoom = await rm.respondRematch({
+      roomCode: joinedRoom.roomCode,
+      token: guestToken,
+      accept: false,
+    });
+    expect(declinedRoom.rematch?.status).toBe('declined');
+    expect(declinedRoom.status).toBe('match_finished');
+
+    // 3. Guest requests rematch
+    const guestRequestedRoom = await rm.requestRematch({
+      roomCode: joinedRoom.roomCode,
+      token: guestToken,
+    });
+    expect(guestRequestedRoom.rematch?.requestedBy).toBe('guest');
+    expect(guestRequestedRoom.rematch?.status).toBe('pending');
+
+    // 4. Host accepts rematch -> Room resets to drafting phase in the same room code!
+    const rematchedRoom = await rm.respondRematch({
+      roomCode: joinedRoom.roomCode,
+      token: hostToken,
+      accept: true,
+    });
+    expect(rematchedRoom.status).toBe('drafting');
+    expect(rematchedRoom.roomCode).toBe(initialRoom.roomCode);
+    expect(rematchedRoom.rematch).toBeUndefined();
+    expect(rematchedRoom.turnNumber).toBe(1);
+    expect(rematchedRoom.activeTurn).toBe('host');
+    expect(rematchedRoom.hostDraft.playerName).toBe('Host Manager');
+    expect(rematchedRoom.guestDraft?.playerName).toBe('Guest Manager');
+    expect(Object.keys(rematchedRoom.hostDraft.draftedSlots).length).toBe(0);
+    expect(Object.keys(rematchedRoom.guestDraft!.draftedSlots).length).toBe(0);
+  });
+
+  it('resets solo match immediately upon rematch request in the same room', async () => {
+    const { room, hostToken } = await rm.createRoom({
+      mode: 'solo',
+      poolType: 'club',
+      hostName: 'Solo Manager',
+    });
+
+    room.status = 'match_finished';
+    await db.saveRoom(room);
+
+    const rematchedRoom = await rm.requestRematch({
+      roomCode: room.roomCode,
+      token: hostToken,
+    });
+
+    expect(rematchedRoom.status).toBe('drafting');
+    expect(rematchedRoom.roomCode).toBe(room.roomCode);
+    expect(rematchedRoom.turnNumber).toBe(1);
+    expect(rematchedRoom.hostDraft.playerName).toBe('Solo Manager');
+    expect(Object.keys(rematchedRoom.hostDraft.draftedSlots).length).toBe(0);
+  });
+
+  it('honors enableSubstitutions: false for classic 11-player rooms', async () => {
+    const { room: classicRoom } = await rm.createRoom({
+      mode: 'solo',
+      poolType: 'national',
+      hostName: 'Classic Manager',
+      enableSubstitutions: false,
+    });
+
+    expect(classicRoom.enableSubstitutions).toBe(false);
+    expect(classicRoom.hostDraft.enableSubstitutions).toBe(false);
+    expect(classicRoom.guestDraft?.enableSubstitutions).toBe(false);
+    expect(DraftEngine.getOpenSlots(classicRoom.hostDraft).length).toBe(11);
+    expect(DraftEngine.getOpenSlots(classicRoom.guestDraft!).length).toBe(11);
   });
 });
+
 

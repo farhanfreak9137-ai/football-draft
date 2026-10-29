@@ -686,3 +686,61 @@ export const ELIGIBLE_POSITIONS_MAP: Record<Position, Position[]> = {
       ],
     },
 ];
+
+/**
+ * Standard 6-player matchday bench slots for drafting.
+ * Combined with the 11 formation starting XI slots, each manager drafts exactly 17 players.
+ */
+export const MATCHDAY_BENCH_SLOTS: FormationSlot[] = [
+  {
+    id: 'sub-gk',
+    name: 'Backup Goalkeeper',
+    group: 'GK',
+    defaultPosition: 'GK',
+    eligiblePositions: ['GK'],
+    coordinates: { x: 10, y: 100 },
+  },
+  {
+    id: 'sub-def-1',
+    name: 'Reserve Defender 1',
+    group: 'DEF',
+    defaultPosition: 'CB',
+    eligiblePositions: ['CB', 'LB', 'RB', 'LWB', 'RWB'],
+    coordinates: { x: 26, y: 100 },
+  },
+  {
+    id: 'sub-def-2',
+    name: 'Reserve Defender 2',
+    group: 'DEF',
+    defaultPosition: 'LB',
+    eligiblePositions: ['CB', 'LB', 'RB', 'LWB', 'RWB', 'CDM'],
+    coordinates: { x: 42, y: 100 },
+  },
+  {
+    id: 'sub-mid-1',
+    name: 'Reserve Midfielder 1',
+    group: 'MID',
+    defaultPosition: 'CM',
+    eligiblePositions: ['CM', 'CDM', 'CAM', 'LM', 'RM'],
+    coordinates: { x: 58, y: 100 },
+  },
+  {
+    id: 'sub-mid-2',
+    name: 'Reserve Midfielder 2',
+    group: 'MID',
+    defaultPosition: 'CAM',
+    eligiblePositions: ['CAM', 'CM', 'CDM', 'LM', 'RM', 'LW', 'RW'],
+    coordinates: { x: 74, y: 100 },
+  },
+  {
+    id: 'sub-fwd-1',
+    name: 'Reserve Forward',
+    group: 'FWD',
+    defaultPosition: 'ST',
+    eligiblePositions: ['ST', 'CF', 'SS', 'LW', 'RW', 'CAM'],
+    coordinates: { x: 90, y: 100 },
+  },
+];
+
+export const TOTAL_DRAFT_ROUNDS = 17; // 11 Starters + 6 Substitutes
+
