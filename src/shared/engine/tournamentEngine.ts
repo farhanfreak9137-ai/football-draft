@@ -279,10 +279,8 @@ export class TournamentEngine {
         TournamentEngine.recordMatchGoalsAndStats(tournament, fixture, homeGoals, awayGoals, players, prng);
       }
 
-      // Sort all groups
-      for (const group of tournament.groups) {
-        TournamentEngine.sortGroupTeams(group);
-      }
+      // Authoritatively recalculate and sort all group standings from finished fixtures
+      TournamentEngine.recalculateAllGroupStandings(tournament);
     }
   }
 
@@ -585,6 +583,66 @@ export class TournamentEngine {
   }
 
   /**
+   * Authoritatively recalculates group standings (P, W, D, L, GF, GA, GD, PTS) for all teams in a group
+   * based on all finished fixtures in tournament.groupFixtures for that group.
+   * Resilient across JSON serialization / localStorage / object cloning boundaries.
+   */
+  static recalculateGroupStandings(
+    group: TournamentGroup,
+    groupFixtures: TournamentMatchFixture[]
+  ): void {
+    if (!group || !group.teams) return;
+
+    // 1. Reset all teams in the group to 0 stats
+    for (const team of group.teams) {
+      team.groupStats = {
+        played: 0,
+        won: 0,
+        drawn: 0,
+        lost: 0,
+        goalsFor: 0,
+        goalsAgainst: 0,
+        goalDifference: 0,
+        points: 0,
+      };
+    }
+
+    // 2. Accumulate stats from all finished matches for this group
+    const finishedMatches = (groupFixtures || []).filter(
+      (f) => f.groupLetter === group.id && f.status === 'finished' && f.homeScore != null && f.awayScore != null
+    );
+
+    for (const fixture of finishedMatches) {
+      const homeTeam = group.teams.find((t) => t.id === fixture.homeTeam.id);
+      const awayTeam = group.teams.find((t) => t.id === fixture.awayTeam.id);
+
+      if (homeTeam && awayTeam) {
+        TournamentEngine.recordMatchResult(homeTeam, awayTeam, fixture.homeScore!, fixture.awayScore!);
+        // Keep fixture copies synchronized as well
+        if (fixture.homeTeam.groupStats) {
+          fixture.homeTeam.groupStats = { ...homeTeam.groupStats };
+        }
+        if (fixture.awayTeam.groupStats) {
+          fixture.awayTeam.groupStats = { ...awayTeam.groupStats };
+        }
+      }
+    }
+
+    // 3. Sort group teams by FIFA tiebreakers
+    TournamentEngine.sortGroupTeams(group);
+  }
+
+  /**
+   * Recalculates standings for all groups (A through H) across the entire tournament.
+   */
+  static recalculateAllGroupStandings(tournament: TournamentState): void {
+    if (!tournament || !tournament.groups || !tournament.groupFixtures) return;
+    for (const group of tournament.groups) {
+      TournamentEngine.recalculateGroupStandings(group, tournament.groupFixtures);
+    }
+  }
+
+  /**
    * Advances tournament after a user match finishes.
    */
   static advanceTournament(
@@ -610,6 +668,7 @@ export class TournamentEngine {
       TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       TournamentEngine.simulateAiMatchesInRound(tournament, players);
+      TournamentEngine.recalculateAllGroupStandings(tournament);
       tournament.currentRound = 'group_match_2';
       tournament.updatedAt = Date.now();
       return tournament;
@@ -625,6 +684,7 @@ export class TournamentEngine {
       TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       TournamentEngine.simulateAiMatchesInRound(tournament, players);
+      TournamentEngine.recalculateAllGroupStandings(tournament);
       tournament.currentRound = 'group_match_3';
       tournament.updatedAt = Date.now();
       return tournament;
@@ -640,6 +700,7 @@ export class TournamentEngine {
       TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       TournamentEngine.simulateAiMatchesInRound(tournament, players);
+      TournamentEngine.recalculateAllGroupStandings(tournament);
 
       // Check if user finished in top 2 of Group A
       const groupA = tournament.groups.find((g) => g.id === 'A')!;
@@ -804,9 +865,9 @@ export class TournamentEngine {
   }
 
   private static setupRoundOf16(tournament: TournamentState): void {
+    TournamentEngine.recalculateAllGroupStandings(tournament);
     const getGroupTopTwo = (letter: string) => {
       const g = tournament.groups.find((x) => x.id === letter)!;
-      TournamentEngine.sortGroupTeams(g);
       return [g.teams[0], g.teams[1]];
     };
 

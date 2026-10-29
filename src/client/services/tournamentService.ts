@@ -32,7 +32,11 @@ export class TournamentService {
     try {
       const data = localStorage.getItem(STORAGE_KEY);
       if (data) {
-        return JSON.parse(data);
+        const parsed = JSON.parse(data);
+        if (parsed && parsed.groups && parsed.groupFixtures) {
+          TournamentEngine.recalculateAllGroupStandings(parsed);
+        }
+        return parsed;
       }
     } catch (e) {}
     return null;
@@ -41,6 +45,7 @@ export class TournamentService {
   private saveActiveTournament(): void {
     try {
       if (this.activeTournament) {
+        TournamentEngine.recalculateAllGroupStandings(this.activeTournament);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(this.activeTournament));
       } else {
         localStorage.removeItem(STORAGE_KEY);
@@ -49,7 +54,11 @@ export class TournamentService {
   }
 
   getActiveTournament(): TournamentState | null {
-    return this.activeTournament ? { ...this.activeTournament } : null;
+    if (!this.activeTournament) return null;
+    if (this.activeTournament.groups && this.activeTournament.groupFixtures) {
+      TournamentEngine.recalculateAllGroupStandings(this.activeTournament);
+    }
+    return { ...this.activeTournament };
   }
 
   startTournament(params: {

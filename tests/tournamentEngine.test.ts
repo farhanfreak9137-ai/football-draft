@@ -331,5 +331,72 @@ describe('TournamentEngine (7-Game World Cup Event Campaign)', () => {
     expect(updated2.userSquad).toBeDefined();
     expect(updated2.userSquad?.isReady).toBe(true);
   });
+
+  it('accurately maintains and recalculates group standings across JSON serialization (localStorage)', () => {
+    const editions = offlineSoloEngine.getEditions();
+    const players = offlineSoloEngine.getPlayers();
+
+    let tourney = TournamentEngine.createTournament({
+      poolType: 'national',
+      draftMode: 'campaign',
+      userName: 'My Dream XI',
+      editions,
+      players,
+    });
+
+    // Simulate localStorage save & reload
+    tourney = JSON.parse(JSON.stringify(tourney));
+
+    // Match 1: User wins 3-1
+    TournamentEngine.advanceTournament(tourney, { userScore: 3, opponentScore: 1 }, players);
+
+    // Verify standings right after Match 1
+    const groupA1 = tourney.groups.find((g) => g.id === 'A')!;
+    const userTeam1 = groupA1.teams.find((t) => t.isUser)!;
+    expect(userTeam1.groupStats.played).toBe(1);
+    expect(userTeam1.groupStats.won).toBe(1);
+    expect(userTeam1.groupStats.points).toBe(3);
+    expect(userTeam1.groupStats.goalsFor).toBe(3);
+    expect(userTeam1.groupStats.goalsAgainst).toBe(1);
+    expect(userTeam1.groupStats.goalDifference).toBe(2);
+
+    // Simulate localStorage reload after Match 1
+    tourney = JSON.parse(JSON.stringify(tourney));
+
+    // Match 2: User wins 2-0
+    TournamentEngine.advanceTournament(tourney, { userScore: 2, opponentScore: 0 }, players);
+
+    // Verify standings after Match 2
+    const groupA2 = tourney.groups.find((g) => g.id === 'A')!;
+    const userTeam2 = groupA2.teams.find((t) => t.isUser)!;
+    expect(userTeam2.groupStats.played).toBe(2);
+    expect(userTeam2.groupStats.won).toBe(2);
+    expect(userTeam2.groupStats.points).toBe(6);
+    expect(userTeam2.groupStats.goalsFor).toBe(5);
+    expect(userTeam2.groupStats.goalsAgainst).toBe(1);
+    expect(userTeam2.groupStats.goalDifference).toBe(4);
+
+    // Verify all 4 teams in Group A have played === 2
+    for (const team of groupA2.teams) {
+      expect(team.groupStats.played).toBe(2);
+      expect(team.groupStats.goalsFor).toBeGreaterThanOrEqual(0);
+      expect(team.groupStats.points).toBeGreaterThanOrEqual(0);
+    }
+
+    // Verify teams are strictly sorted by Points > GD > GF
+    for (let i = 0; i < groupA2.teams.length - 1; i++) {
+      const current = groupA2.teams[i].groupStats;
+      const next = groupA2.teams[i + 1].groupStats;
+      if (current.points === next.points) {
+        if (current.goalDifference === next.goalDifference) {
+          expect(current.goalsFor).toBeGreaterThanOrEqual(next.goalsFor);
+        } else {
+          expect(current.goalDifference).toBeGreaterThan(next.goalDifference);
+        }
+      } else {
+        expect(current.points).toBeGreaterThan(next.points);
+      }
+    }
+  });
 });
 

@@ -7,6 +7,7 @@ import {
   TournamentState,
 } from '../../shared/types/index.js';
 import { tournamentService } from '../services/tournamentService.js';
+import { TournamentEngine } from '../../shared/engine/tournamentEngine.js';
 import {
   Trophy,
   ArrowRight,
@@ -775,6 +776,9 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
 
   // Active Tournament Hub View
   const currentGroup = tournament.groups.find((g) => g.id === viewingGroup) || tournament.groups[0];
+  if (currentGroup && tournament.groupFixtures) {
+    TournamentEngine.recalculateGroupStandings(currentGroup, tournament.groupFixtures);
+  }
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
@@ -1066,19 +1070,34 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
                       return (
                         <tr
                           key={team.id}
-                          className={`${team.isUser ? 'bg-pitch-DEFAULT/15 font-bold' : ''}`}
+                          className={`transition-colors ${
+                            team.isUser
+                              ? 'bg-[#032F30]/35 text-white font-bold border-l-2 border-l-[#0C969C]'
+                              : isTop2
+                              ? 'hover:bg-tactical-800/40 text-tactical-100'
+                              : 'hover:bg-tactical-800/40 text-tactical-300'
+                          }`}
                         >
                           <td className="py-2.5 px-2 font-mono">
                             <span
-                              className={`w-5 h-5 rounded-full inline-flex items-center justify-center text-[10px] ${
-                                isTop2 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700/60' : 'text-tactical-500'
+                              className={`w-5 h-5 rounded-full inline-flex items-center justify-center text-[10px] font-bold ${
+                                isTop2
+                                  ? 'bg-[#0A7075] text-white border border-[#0C969C]/80 shadow-[0_0_8px_rgba(12,150,156,0.3)]'
+                                  : 'bg-black/60 text-tactical-500 border border-tactical-800'
                               }`}
                             >
                               {idx + 1}
                             </span>
                           </td>
-                          <td className="py-2.5 px-2 text-tactical-100 truncate max-w-[160px]">
-                            {team.name} {team.isUser && '(You)'}
+                          <td className="py-2.5 px-2 truncate max-w-[170px]">
+                            <span className={team.isUser ? 'text-[#6BA3BE] font-black' : 'text-tactical-100 font-semibold'}>
+                              {team.name}
+                            </span>
+                            {team.isUser && (
+                              <span className="ml-1.5 px-1.5 py-0.2 rounded text-[9px] font-bold font-mono bg-[#0C969C]/20 text-[#6BA3BE] border border-[#0C969C]/40">
+                                YOU
+                              </span>
+                            )}
                           </td>
                           <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
                             {team.groupStats.played}
@@ -1092,10 +1111,16 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
                           <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
                             {team.groupStats.lost}
                           </td>
-                          <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
+                          <td className={`py-2.5 px-2 text-center font-mono font-bold ${
+                            team.groupStats.goalDifference > 0
+                              ? 'text-emerald-400'
+                              : team.groupStats.goalDifference < 0
+                              ? 'text-rose-400'
+                              : 'text-tactical-400'
+                          }`}>
                             {team.groupStats.goalDifference > 0 ? `+${team.groupStats.goalDifference}` : team.groupStats.goalDifference}
                           </td>
-                          <td className="py-2.5 px-2 text-center font-mono font-black text-tactical-100">
+                          <td className="py-2.5 px-2 text-center font-mono font-black text-[#6BA3BE] text-sm">
                             {team.groupStats.points}
                           </td>
                         </tr>
@@ -1113,41 +1138,63 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
                 if (groupMatches.length === 0) return null;
                 return (
                   <div className="pt-3 border-t border-tactical-750 space-y-2">
-                    <div className="text-[11px] font-bold text-tactical-400 uppercase tracking-wider flex items-center gap-1.5">
-                      <Calendar className="w-3.5 h-3.5 text-pitch-accent" />
-                      <span>Group {currentGroup.id} Completed Fixtures & Scorers</span>
+                    <div className="flex items-center justify-between text-[11px] font-bold text-tactical-400 uppercase tracking-wider">
+                      <div className="flex items-center gap-1.5">
+                        <Calendar className="w-3.5 h-3.5 text-pitch-accent" />
+                        <span>Group {currentGroup.id} Completed Fixtures & Scorers</span>
+                      </div>
+                      <span className="text-[10px] font-mono text-tactical-500">
+                        {groupMatches.length} / 6 Matches Played
+                      </span>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      {groupMatches.map((m) => (
-                        <div
-                          key={m.id}
-                          className={`p-2.5 rounded-xl border text-xs ${
-                            m.isUserMatch
-                              ? 'bg-pitch-DEFAULT/15 border-pitch-line/70'
-                              : 'bg-tactical-900 border-tactical-750'
-                          }`}
-                        >
-                          <div className="flex items-center justify-between font-bold text-tactical-100 mb-1">
-                            <span className="truncate max-w-[120px]">{m.homeTeam.name}</span>
-                            <span className="font-mono px-1.5 py-0.5 rounded bg-tactical-800 border border-tactical-700 text-gold-400 font-black">
-                              {m.homeScore} - {m.awayScore}
-                            </span>
-                            <span className="truncate max-w-[120px] text-right">{m.awayTeam.name}</span>
-                          </div>
-                          {m.goals && m.goals.length > 0 && (
-                            <div className="text-[10px] text-tactical-400 space-y-0.5 pt-1 border-t border-tactical-800/80">
-                              {m.goals.map((g, gi) => (
-                                <div key={gi} className="flex items-center justify-between truncate">
-                                  <span className="truncate">
-                                    ⚽ {g.scorerName} {g.assisterName ? `(ast: ${g.assisterName})` : ''}
-                                  </span>
-                                  <span className="font-mono text-tactical-500 text-[9px]">{g.minute}'</span>
-                                </div>
-                              ))}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-96 overflow-y-auto pr-1">
+                      {groupMatches.map((m) => {
+                        const roundLabel =
+                          m.round === 'group_match_1'
+                            ? 'Matchday 1'
+                            : m.round === 'group_match_2'
+                            ? 'Matchday 2'
+                            : 'Matchday 3';
+
+                        return (
+                          <div
+                            key={m.id}
+                            className={`p-2.5 rounded-xl border text-xs transition-all ${
+                              m.isUserMatch
+                                ? 'bg-[#032F30]/40 border-[#0C969C]/60 shadow-[0_0_12px_rgba(12,150,156,0.15)] ring-1 ring-[#0C969C]/30'
+                                : 'bg-black/60 border-tactical-750 hover:border-tactical-600'
+                            }`}
+                          >
+                            <div className="flex items-center justify-between text-[9px] font-mono text-tactical-400 mb-1 border-b border-tactical-800/60 pb-1">
+                              <span className="font-bold text-tactical-300">{roundLabel}</span>
+                              {m.isUserMatch && (
+                                <span className="px-1.5 py-0.2 rounded bg-gold-500/20 text-gold-400 border border-gold-500/30 font-bold">
+                                  ★ Manager XI
+                                </span>
+                              )}
                             </div>
-                          )}
-                        </div>
-                      ))}
+                            <div className="flex items-center justify-between font-bold text-tactical-100 my-1">
+                              <span className="truncate max-w-[120px]">{m.homeTeam.name}</span>
+                              <span className="font-mono px-2 py-0.5 rounded bg-black/80 border border-[#0C969C]/40 text-[#6BA3BE] font-black text-xs shadow-xs">
+                                {m.homeScore} - {m.awayScore}
+                              </span>
+                              <span className="truncate max-w-[120px] text-right">{m.awayTeam.name}</span>
+                            </div>
+                            {m.goals && m.goals.length > 0 && (
+                              <div className="text-[10px] text-tactical-400 space-y-0.5 pt-1 border-t border-tactical-800/80">
+                                {m.goals.map((g, gi) => (
+                                  <div key={gi} className="flex items-center justify-between truncate">
+                                    <span className="truncate">
+                                      ⚽ {g.scorerName} {g.assisterName ? `(ast: ${g.assisterName})` : ''}
+                                    </span>
+                                    <span className="font-mono text-tactical-500 text-[9px]">{g.minute}'</span>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 );
