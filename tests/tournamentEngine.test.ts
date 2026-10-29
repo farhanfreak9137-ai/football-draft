@@ -275,5 +275,61 @@ describe('TournamentEngine (7-Game World Cup Event Campaign)', () => {
     expect(tourney.awards?.topPlaymaker?.assists).toBeGreaterThanOrEqual(1);
     expect(tourney.awards?.mvp).toBeDefined();
   });
+
+  it('preserves drafted user squad across tournament rounds without requiring re-drafting', () => {
+    const editions = offlineSoloEngine.getEditions();
+    const players = offlineSoloEngine.getPlayers();
+
+    const tourney = TournamentEngine.createTournament({
+      poolType: 'national',
+      draftMode: 'pack_roll',
+      userName: 'Tactical Masters',
+      editions,
+      players,
+    });
+
+    const mockSquad: any = {
+      seatId: 'host',
+      playerId: 'user-manager',
+      playerName: 'Tactical Masters',
+      poolType: 'national',
+      isReady: true,
+      draftedSlots: {
+        'slot-0': { slotId: 'slot-0', player: players[0], assignedPosition: 'GK' },
+        'slot-1': { slotId: 'slot-1', player: players[1], assignedPosition: 'CB' },
+        'slot-2': { slotId: 'slot-2', player: players[2], assignedPosition: 'CB' },
+        'slot-3': { slotId: 'slot-3', player: players[3], assignedPosition: 'LB' },
+        'slot-4': { slotId: 'slot-4', player: players[4], assignedPosition: 'RB' },
+        'slot-5': { slotId: 'slot-5', player: players[5], assignedPosition: 'CM' },
+        'slot-6': { slotId: 'slot-6', player: players[6], assignedPosition: 'CM' },
+        'slot-7': { slotId: 'slot-7', player: players[7], assignedPosition: 'CM' },
+        'slot-8': { slotId: 'slot-8', player: players[8], assignedPosition: 'LW' },
+        'slot-9': { slotId: 'slot-9', player: players[9], assignedPosition: 'RW' },
+        'slot-10': { slotId: 'slot-10', player: players[10], assignedPosition: 'ST' },
+      },
+      usedIdentityIds: players.slice(0, 11).map((p) => p.identityId),
+    };
+
+    tourney.userSquad = mockSquad;
+
+    // Advance Game 1 (win 3-1)
+    const updated1 = TournamentEngine.advanceTournament(tourney, { userScore: 3, opponentScore: 1 }, players);
+    expect(updated1.currentRound).toBe('group_match_2');
+    expect(updated1.userSquad).toBeDefined();
+    expect(updated1.userSquad?.isReady).toBe(true);
+    expect(Object.keys(updated1.userSquad?.draftedSlots || {}).length).toBe(11);
+
+    // Verify next match for Round 2 is ready
+    const userMatch2 = TournamentEngine.getCurrentUserMatch(updated1);
+    expect(userMatch2).toBeDefined();
+    expect(userMatch2?.isUserMatch).toBe(true);
+    expect(userMatch2?.round).toBe('group_match_2');
+
+    // Advance Game 2 (win 2-0)
+    const updated2 = TournamentEngine.advanceTournament(updated1, { userScore: 2, opponentScore: 0 }, players);
+    expect(updated2.currentRound).toBe('group_match_3');
+    expect(updated2.userSquad).toBeDefined();
+    expect(updated2.userSquad?.isReady).toBe(true);
+  });
 });
 

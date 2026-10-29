@@ -421,7 +421,7 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
           </div>
 
           {/* Incoming Rematch Invitation Banner inside Modal */}
-          {isRematchRequestedByOpponent && (
+          {isRematchRequestedByOpponent && !isTournament && (
             <div className="p-3.5 rounded-xl bg-pitch-DEFAULT/15 border-2 border-pitch-line text-tactical-100 space-y-2 animate-fade-in shadow-lg">
               <div className="flex items-center justify-between text-xs font-bold">
                 <span className="flex items-center gap-1.5 text-pitch-accent">
@@ -451,7 +451,7 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
           )}
 
           {/* Rematch Declined Notice inside Modal */}
-          {isRematchDeclinedForMe && (
+          {isRematchDeclinedForMe && !isTournament && (
             <div className="p-3 rounded-xl bg-red-950/70 border border-red-800/80 text-red-200 text-xs flex items-center justify-between gap-2 animate-fade-in">
               <div className="flex items-center gap-2">
                 <span>❌</span>
@@ -496,7 +496,15 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
               </button>
             )}
 
-            {isRematchRequestedByMe ? (
+            {isTournament ? (
+              <button
+                onClick={onExitMatch || onPlayAgain}
+                className="flex items-center justify-center gap-2 py-2 px-6 rounded-xl bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 hover:from-amber-400 hover:to-yellow-300 text-tactical-950 font-black text-xs border border-amber-300/80 shadow-[0_0_20px_rgba(245,158,11,0.35)] active:scale-95 transition-all cursor-pointer uppercase tracking-wider"
+              >
+                <Trophy className="w-4 h-4" />
+                <span>Continue World Cup →</span>
+              </button>
+            ) : isRematchRequestedByMe ? (
               <button
                 onClick={onCancelRematch}
                 className="flex items-center justify-center gap-2 py-2 px-4 rounded-xl bg-gold-950/60 hover:bg-gold-900/80 text-gold-300 font-bold text-xs border border-gold-500/50 active:scale-98 shadow-md transition-all"
@@ -511,7 +519,7 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
                 className="flex items-center justify-center gap-1.5 py-2 px-5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-xs border border-emerald-300/80 shadow-[0_0_15px_rgba(16,185,129,0.35)] active:scale-95 transition-all cursor-pointer uppercase tracking-wider"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
-                <span>{isTournament ? messages.match.playAgain : 'Play Again'}</span>
+                <span>Play Again</span>
               </button>
             )}
           </div>

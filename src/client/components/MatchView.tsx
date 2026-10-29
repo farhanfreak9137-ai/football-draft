@@ -1559,9 +1559,10 @@ export const MatchView: React.FC<MatchViewProps> = ({
             <div className="flex items-center justify-center">
               <button
                 onClick={onExitMatch}
-                className="inline-flex items-center gap-2 bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-semibold px-6 py-2.5 rounded-lg text-sm border border-pitch-line active:scale-98 transition-all shadow-md"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 hover:from-amber-400 hover:to-yellow-300 text-tactical-950 font-black px-6 py-2.5 rounded-xl text-xs border border-amber-300/80 shadow-[0_0_20px_rgba(245,158,11,0.35)] active:scale-95 transition-all cursor-pointer uppercase tracking-wider"
               >
-                <span>{messages.match.playAgain}</span>
+                <Trophy className="w-4 h-4" />
+                <span>Continue World Cup Campaign</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -1605,7 +1606,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
             </div>
           ) : (
             <div className="flex flex-wrap items-center justify-center gap-3">
-              {onRequestRematch && (
+              {!isTournament && onRequestRematch && (
                 <button
                   onClick={onRequestRematch}
                   className="inline-flex items-center gap-2 bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold px-6 py-2.5 rounded-lg text-sm border border-pitch-line active:scale-98 transition-all shadow-md shadow-pitch-DEFAULT/20"
@@ -1618,7 +1619,7 @@ export const MatchView: React.FC<MatchViewProps> = ({
                 onClick={onExitMatch}
                 className="inline-flex items-center gap-2 bg-tactical-800 hover:bg-tactical-750 text-tactical-300 hover:text-tactical-100 font-semibold px-5 py-2.5 rounded-lg text-sm border border-tactical-700 active:scale-98 transition-all"
               >
-                <span>Exit to Lobby</span>
+                <span>{isTournament ? 'Return to Tournament Hub' : 'Exit to Lobby'}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -1739,14 +1740,14 @@ export const MatchView: React.FC<MatchViewProps> = ({
           setActiveTab('lineups');
           setShowResultModal(false);
         }}
-        onPlayAgain={onRequestRematch ? onRequestRematch : onExitMatch}
+        onPlayAgain={isTournament ? onExitMatch : (onRequestRematch ? onRequestRematch : onExitMatch)}
         onExitMatch={onExitMatch}
-        onRespondRematch={onRespondRematch}
-        onCancelRematch={onCancelRematch}
+        onRespondRematch={isTournament ? undefined : onRespondRematch}
+        onCancelRematch={isTournament ? undefined : onCancelRematch}
       />
 
       {/* Rematch Invitation Dialog (Pops up when opponent challenges to a rematch) */}
-      {isRematchRequestedByOpponent && (
+      {isRematchRequestedByOpponent && !isTournament && (
         <div className="fixed inset-0 z-[70] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in">
           <div className="bg-tactical-850 border-2 border-pitch-line rounded-2xl max-w-sm w-full p-5 sm:p-6 shadow-2xl text-center space-y-4 ring-1 ring-pitch-accent/30">
             <div className="w-12 h-12 rounded-full bg-pitch-DEFAULT/20 border border-pitch-line flex items-center justify-center mx-auto text-pitch-accent">

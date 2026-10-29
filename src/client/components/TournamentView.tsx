@@ -21,6 +21,7 @@ import {
 } from 'lucide-react';
 
 interface TournamentViewProps {
+  activeTournament?: TournamentState | null;
   onStartTournamentMatch: (tournament: TournamentState, matchFixture: TournamentMatchFixture) => void;
   onBackToLobby: () => void;
   formations: FormationDefinition[];
@@ -411,14 +412,21 @@ const TournamentStatsSection: React.FC<TournamentStatsSectionProps> = ({
 };
 
 export const TournamentView: React.FC<TournamentViewProps> = ({
+  activeTournament,
   onStartTournamentMatch,
   onBackToLobby,
   formations,
   defaultFormationId,
 }) => {
   const [tournament, setTournament] = useState<TournamentState | null>(() =>
-    tournamentService.getActiveTournament()
+    activeTournament !== undefined ? activeTournament : tournamentService.getActiveTournament()
   );
+
+  useEffect(() => {
+    if (activeTournament !== undefined) {
+      setTournament(activeTournament);
+    }
+  }, [activeTournament]);
 
   // Setup Wizard State (when starting a new tournament)
   const [poolType, setPoolType] = useState<PoolType>('national');

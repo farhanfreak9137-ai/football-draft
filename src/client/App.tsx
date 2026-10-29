@@ -295,7 +295,7 @@ export const App: React.FC = () => {
 
   // Fallback rematch polling while match is finished: detects incoming challenge or rematch acceptance
   useEffect(() => {
-    if (!room || room.status !== 'match_finished' || !token) return;
+    if (!room || room.status !== 'match_finished' || !token || tournamentMatchContext?.isTournament) return;
     const interval = setInterval(async () => {
       try {
         const data = await reconnectSeat({ roomCode: room.roomCode, token });
@@ -308,7 +308,7 @@ export const App: React.FC = () => {
       } catch (e) {}
     }, 1200);
     return () => clearInterval(interval);
-  }, [room?.roomCode, room?.status, token]);
+  }, [room?.roomCode, room?.status, token, tournamentMatchContext?.isTournament]);
 
   // Handler: Create Room
   const handleCreateRoom = async (params: {
@@ -489,26 +489,28 @@ export const App: React.FC = () => {
 
   // Handler: Leave / Close Room / Exit Match
   const handleLeaveRoom = async () => {
-    if (tournamentMatchContext?.isTournament && liveMatch) {
-      const userScore = mySeat === 'host' ? liveMatch.score.host : liveMatch.score.guest;
-      const opponentScore = mySeat === 'host' ? liveMatch.score.guest : liveMatch.score.host;
-      const penaltyScore = liveMatch.penaltyScore
-        ? {
-            user: mySeat === 'host' ? liveMatch.penaltyScore.host : liveMatch.penaltyScore.guest,
-            opponent: mySeat === 'host' ? liveMatch.penaltyScore.guest : liveMatch.penaltyScore.host,
-          }
-        : undefined;
+    if (tournamentMatchContext?.isTournament) {
+      if (liveMatch) {
+        const userScore = mySeat === 'host' ? liveMatch.score.host : liveMatch.score.guest;
+        const opponentScore = mySeat === 'host' ? liveMatch.score.guest : liveMatch.score.host;
+        const penaltyScore = liveMatch.penaltyScore
+          ? {
+              user: mySeat === 'host' ? liveMatch.penaltyScore.host : liveMatch.penaltyScore.guest,
+              opponent: mySeat === 'host' ? liveMatch.penaltyScore.guest : liveMatch.penaltyScore.host,
+            }
+          : undefined;
 
-      try {
-        const updated = tournamentService.recordUserMatchResult({
-          userScore,
-          opponentScore,
-          penaltyScore,
-          simulation: liveMatch,
-        });
-        setActiveTournament({ ...updated });
-      } catch (e) {
-        console.error('Error recording tournament result:', e);
+        try {
+          const updated = tournamentService.recordUserMatchResult({
+            userScore,
+            opponentScore,
+            penaltyScore,
+            simulation: liveMatch,
+          });
+          setActiveTournament({ ...updated });
+        } catch (e) {
+          console.error('Error recording tournament result:', e);
+        }
       }
 
       setTournamentMatchContext(null);
@@ -866,7 +868,10 @@ export const App: React.FC = () => {
       // 1. DRAFT-ONCE MODES (pack_roll, five_card, star_budget, dream_team, campaign)
       if (tourney.draftMode !== 'dynamic') {
         // If manager squad is already drafted (Games 2 through 7, or Game 1 after draft):
-        if (tourney.userSquad && tourney.userSquad.isReady) {
+        if (
+          tourney.userSquad &&
+          (tourney.userSquad.isReady || Object.keys(tourney.userSquad.draftedSlots || {}).length === 11)
+        ) {
           const aiDraft = TournamentEngine.buildAiTeamSquad(
             opponentTeam,
             tourney.poolType,
@@ -1128,6 +1133,7 @@ export const App: React.FC = () => {
         {/* View 1: Tournament Hub View (Active Tournament or Creation Wizard) */}
         {!room && activeScreen === 'tournament' && (
           <TournamentView
+            activeTournament={activeTournament}
             onStartTournamentMatch={handleStartTournamentMatch}
             onBackToLobby={() => setActiveScreen('lobby')}
             formations={Object.values(FORMATIONS)}
@@ -1167,9 +1173,9 @@ export const App: React.FC = () => {
             room={room}
             mySeat={mySeat}
             onExitMatch={handleLeaveRoom}
-            onRequestRematch={handleRequestRematch}
-            onRespondRematch={handleRespondRematch}
-            onCancelRematch={handleCancelRematch}
+            onRequestRematch={tournamentMatchContext?.isTournament ? undefined : handleRequestRematch}
+            onRespondRematch={tournamentMatchContext?.isTournament ? undefined : handleRespondRematch}
+            onCancelRematch={tournamentMatchContext?.isTournament ? undefined : handleCancelRematch}
             onMentalityChange={handleLiveMentalityChange}
             onTacticsChange={handleTacticsChange}
             onSubstitution={handleSubstitution}
