@@ -161,6 +161,8 @@ export class WebSocketHandler {
         this.broadcastToRoom(client.roomCode, {
           type: 'match_started',
           simulation,
+          liveMatch: simulation,
+          room,
         });
         break;
       }

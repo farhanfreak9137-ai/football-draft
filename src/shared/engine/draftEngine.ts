@@ -424,10 +424,13 @@ export class DraftEngine {
     const isMid = (p: PlayerVersion) => p.naturalPositions.some((pos) => ['CDM', 'CM', 'CAM', 'LM', 'RM'].includes(pos));
     const isFwd = (p: PlayerVersion) => p.naturalPositions.some((pos) => ['ST', 'CF', 'SS', 'LW', 'RW'].includes(pos));
 
-    const benchSlots: Record<string, DraftedSlot> = {};
-    const usedBenchIds = new Set<string>();
+    const benchSlots: Record<string, DraftedSlot> = { ...(draftState?.benchSlots || {}) };
+    const usedBenchIds = new Set<string>(
+      Object.values(benchSlots).map((s) => s.player.id)
+    );
 
     const pickBest = (predicate: (p: PlayerVersion) => boolean, assignedPos: Position, slotId: string) => {
+      if (benchSlots[slotId]) return; // Retain existing player if slot was already drafted
       const match = candidates
         .filter((p) => !usedBenchIds.has(p.id) && predicate(p))
         .sort((a, b) => b.ovr - a.ovr)[0];

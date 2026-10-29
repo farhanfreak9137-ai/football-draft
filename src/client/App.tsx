@@ -224,8 +224,15 @@ export const App: React.FC = () => {
           } else if (data.liveMatch) {
             setLiveMatch(data.liveMatch);
           }
-        } else if ((data.type === 'MATCH_UPDATE' || data.type === 'match_tick') && data.liveMatch) {
-          setLiveMatch(data.liveMatch);
+        } else if (
+          (data.type === 'MATCH_UPDATE' ||
+            data.type === 'match_tick' ||
+            data.type === 'match_started') &&
+          (data.liveMatch || data.simulation)
+        ) {
+          const sim = data.liveMatch || data.simulation;
+          setLiveMatch(sim);
+          if (data.room) setRoom(data.room);
         } else if (data.type === 'MATCH_FINISHED') {
           if (data.liveMatch) setLiveMatch(data.liveMatch);
           if (data.room) setRoom(data.room);
@@ -262,17 +269,18 @@ export const App: React.FC = () => {
   // Fallback drafting turn polling: updates client when waiting for opponent or AI selection
   useEffect(() => {
     if (!room || room.status !== 'drafting' || !token) return;
-    if (room.activeTurn !== mySeat) {
-      const interval = setInterval(async () => {
-        try {
-          const data = await reconnectSeat({ roomCode: room.roomCode, token });
-          if (data.room && (data.room.activeTurn === mySeat || data.room.status !== 'drafting')) {
-            setRoom(data.room);
-          }
-        } catch (e) {}
-      }, 500);
-      return () => clearInterval(interval);
-    }
+    const interval = setInterval(async () => {
+      try {
+        const data = await reconnectSeat({ roomCode: room.roomCode, token });
+        if (data.liveMatch) {
+          setLiveMatch(data.liveMatch);
+        }
+        if (data.room && (data.room.activeTurn === mySeat || data.room.status !== 'drafting')) {
+          setRoom(data.room);
+        }
+      } catch (e) {}
+    }, room.activeTurn !== mySeat ? 500 : 1500);
+    return () => clearInterval(interval);
   }, [room?.roomCode, room?.status, room?.activeTurn, mySeat, token]);
 
   // Consecutive real-time match ticker: polls every 1000ms while simulating
@@ -959,7 +967,11 @@ export const App: React.FC = () => {
   const isMyTurn = room?.activeTurn === mySeat;
 
   // Check if substitution / bench system is enabled for this match
-  const subsEnabled = room?.enableSubstitutions !== false && myDraft?.enableSubstitutions !== false;
+  const subsEnabled =
+    room?.enableSubstitutions !== false &&
+    (room?.enableSubstitutions as any) !== 'false' &&
+    myDraft?.enableSubstitutions !== false &&
+    (myDraft?.enableSubstitutions as any) !== 'false';
   const targetRounds = subsEnabled ? 17 : 11;
 
   // Calculate open slots for current user
@@ -984,7 +996,18 @@ export const App: React.FC = () => {
   const oppBenchCount = oppDraft?.benchSlots ? Object.keys(oppDraft.benchSlots).length : 0;
   const oppDraftedCount = subsEnabled ? oppStartersCount + oppBenchCount : oppStartersCount;
 
-  const isBothDraftComplete = myDraftedCount === targetRounds && oppDraftedCount === targetRounds;
+  const myFormationTotalSlots = myDraft?.formation?.slots?.length || 11;
+  const oppFormationTotalSlots = oppDraft?.formation?.slots?.length || 11;
+
+  const areBothStartingXIFilled =
+    myStartersCount >= myFormationTotalSlots &&
+    (room?.mode === 'solo' || !oppDraft ? true : oppStartersCount >= oppFormationTotalSlots);
+
+  const isFullSquadComplete =
+    myDraftedCount === targetRounds &&
+    (room?.mode === 'solo' || !oppDraft ? true : oppDraftedCount === targetRounds);
+
+  const canProceedToMatch = isFullSquadComplete || areBothStartingXIFilled;
 
   // Reset selected player when turn ends or if drafted by opponent
   useEffect(() => {
@@ -1210,6 +1233,18 @@ export const App: React.FC = () => {
                 </button>
               </div>
 
+              <div className="flex items-center justify-center gap-2 flex-wrap text-[11px] font-mono">
+                <span className="px-2.5 py-1 rounded-full bg-tactical-900 border border-tactical-700 text-[#0C969C] font-semibold">
+                  {room.enableSubstitutions !== false ? '🪑 17 Squad (11 XI + 6 Subs)' : '⚡ Classic 11 (Pure Starting XI)'}
+                </span>
+                <span className="px-2.5 py-1 rounded-full bg-tactical-900 border border-tactical-700 text-neutral-300 capitalize">
+                  Format: {room.matchFormat}
+                </span>
+                <span className="px-2.5 py-1 rounded-full bg-tactical-900 border border-tactical-700 text-neutral-300 capitalize">
+                  Pool: {room.poolType === 'club' ? 'Club Eras' : 'National Teams'}
+                </span>
+              </div>
+
               <div className="text-[11px] text-tactical-500">
                 Both managers must connect before the historical draft sequence begins.
               </div>
@@ -1253,7 +1288,7 @@ export const App: React.FC = () => {
               </div>
 
               {/* Turn Countdown Timer */}
-              {!isBothDraftComplete && (
+              {!isFullSquadComplete && (
                 <div className="flex items-center gap-4">
                   <TimerCountdown
                     deadline={room.turnDeadline}
@@ -1263,18 +1298,48 @@ export const App: React.FC = () => {
                 </div>
               )}
 
-              {/* Ready to start match button if 11 drafted */}
-              {isBothDraftComplete && (
+              {/* Ready to start match button if 11 drafted on both sides or full squad complete */}
+              {canProceedToMatch && (
                 <button
                   onClick={handleStartMatch}
                   disabled={loading}
-                  className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-xs uppercase tracking-wider border border-emerald-300/80 active:scale-95 shadow-[0_0_15px_rgba(16,185,129,0.35)] transition-all cursor-pointer"
+                  className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-xs uppercase tracking-wider border border-emerald-300/80 active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.5)] transition-all cursor-pointer animate-pulse"
                 >
                   <Play className="w-4 h-4 fill-tactical-950" />
-                  <span>{messages.draft.proceedToMatch}</span>
+                  <span>
+                    {areBothStartingXIFilled && !isFullSquadComplete
+                      ? '⚡ Kick Off Simulation (XI Ready)'
+                      : messages.draft.proceedToMatch}
+                  </span>
                 </button>
               )}
             </div>
+
+            {/* Prominent Starting XI Ready Action Banner */}
+            {areBothStartingXIFilled && !isFullSquadComplete && (
+              <div className="bg-emerald-950/90 border-2 border-emerald-400 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-[0_0_25px_rgba(16,185,129,0.35)]">
+                <div className="flex items-center gap-3 text-xs text-emerald-200">
+                  <span className="text-3xl shrink-0">⚡</span>
+                  <div>
+                    <span className="font-extrabold text-white text-sm uppercase tracking-wide">
+                      Starting XI 100% Ready on Both Sides!
+                    </span>
+                    <p className="text-xs text-emerald-300/90 mt-0.5 leading-relaxed">
+                      All 11 starting pitch slots are locked in. You can simulate the match now, or continue drafting 6 matchday bench reserves ({myBenchCount}/6 drafted).
+                    </p>
+                  </div>
+                </div>
+                <button
+                  onClick={handleStartMatch}
+                  disabled={loading}
+                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-400 via-teal-400 to-emerald-400 hover:brightness-110 text-tactical-950 font-black text-xs uppercase tracking-wider shadow-lg shrink-0 active:scale-95 transition-all cursor-pointer flex items-center gap-2 border border-emerald-300"
+                >
+                  <Play className="w-4 h-4 fill-tactical-950" />
+                  <span>Simulate Game Now</span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </div>
+            )}
 
             {/* Tactical Announcements & AI Status */}
             {room.lastPickAnnouncement && (
@@ -1294,7 +1359,7 @@ export const App: React.FC = () => {
               </div>
             )}
 
-            {!isMyTurn && room.mode === 'solo' && !isBothDraftComplete && (
+            {!isMyTurn && room.mode === 'solo' && !isFullSquadComplete && (
               <div className="bg-purple-950/40 border border-purple-500/40 rounded-lg px-4 py-2 text-xs text-purple-200 flex items-center gap-2 animate-pulse">
                 <span className="w-2 h-2 rounded-full bg-purple-400 animate-ping shrink-0" />
                 <span>
@@ -1392,7 +1457,9 @@ export const App: React.FC = () => {
                       <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
                       <span className="text-xs text-emerald-100 truncate">
                         Drafting <strong>{selectedPlayer.name}</strong> ({[...selectedPlayer.naturalPositions, ...selectedPlayer.secondaryPositions].join('/')}):{' '}
-                        <span className="text-emerald-300 font-bold">Tap glowing slot on pitch or bench</span>
+                        <span className="text-emerald-300 font-bold">
+                          {myStartersCount >= 11 && subsEnabled ? 'Tap glowing Bench slot below' : 'Tap glowing slot on pitch or bench'}
+                        </span>
                       </span>
                     </div>
                     <button
@@ -1402,10 +1469,14 @@ export const App: React.FC = () => {
                       Cancel
                     </button>
                   </div>
-                ) : viewingSquad === 'mine' && isMyTurn && !isBothDraftComplete ? (
+                ) : viewingSquad === 'mine' && isMyTurn && !isFullSquadComplete ? (
                   <div className="bg-tactical-850/80 border border-tactical-700/60 rounded-lg px-3 py-1.5 text-xs text-tactical-400 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-pitch-accent animate-pulse shrink-0" />
-                    <span>Select a player in Roster to reveal matching {subsEnabled ? 'pitch & bench' : 'pitch'} positions.</span>
+                    <span>
+                      {myStartersCount >= 11 && subsEnabled
+                        ? `Starting XI full! Drafting Bench Reserves (${myBenchCount}/6) — tap bench slots or kick off above.`
+                        : `Select a player in Roster to reveal matching ${subsEnabled ? 'pitch & bench' : 'pitch'} positions.`}
+                    </span>
                   </div>
                 ) : null}
 
@@ -1458,7 +1529,7 @@ export const App: React.FC = () => {
                   </div>
                 )}
 
-                {!isBothDraftComplete ? (
+                {!isFullSquadComplete ? (
                   <RosterList
                     edition={myDraft.currentTeamEdition}
                     roster={myDraft.currentRoster}

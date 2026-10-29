@@ -95,7 +95,7 @@ export class OfflineSoloEngine {
     const guestToken = 'solo-guest-ai';
     const now = Date.now();
     const expiresAt = now + 60 * 60 * 1000;
-    const enableSubstitutions = params.enableSubstitutions !== false;
+    const enableSubstitutions = params.enableSubstitutions !== false && (params.enableSubstitutions as any) !== 'false' && (params.enableSubstitutions as any) !== 0 && (params.enableSubstitutions as any) !== '0';
 
     const hostDraft = DraftEngine.createInitialDraftState({
       seatId: 'host',
@@ -427,7 +427,11 @@ export class OfflineSoloEngine {
     if (!room || room.roomCode !== params.roomCode) {
       throw new Error('Solo room not found');
     }
-    if (room.status !== 'draft_complete' && room.status !== 'match_finished') {
+    const hostStartersFilled = Object.keys(room.hostDraft.draftedSlots).length >= room.hostDraft.formation.slots.length;
+    const guestStartersFilled = room.guestDraft ? Object.keys(room.guestDraft.draftedSlots).length >= room.guestDraft.formation.slots.length : false;
+    const canStartWithXI = hostStartersFilled && guestStartersFilled;
+
+    if (room.status !== 'draft_complete' && room.status !== 'match_finished' && !canStartWithXI) {
       throw new Error(`Cannot start match while room status is ${room.status}`);
     }
 
@@ -443,11 +447,11 @@ export class OfflineSoloEngine {
     }
 
     // Ensure authentic matchday substitutes are populated only if substitutions are enabled
-    if (room.enableSubstitutions !== false) {
-      if (!room.hostDraft.benchSlots || Object.keys(room.hostDraft.benchSlots).length === 0) {
+    if (room.enableSubstitutions !== false && (room.enableSubstitutions as any) !== 'false') {
+      if (!room.hostDraft.benchSlots || Object.keys(room.hostDraft.benchSlots).length < 6) {
         room.hostDraft.benchSlots = DraftEngine.generateBenchReserves(room.hostDraft, this.getPlayers());
       }
-      if (room.guestDraft && (!room.guestDraft.benchSlots || Object.keys(room.guestDraft.benchSlots).length === 0)) {
+      if (room.guestDraft && (!room.guestDraft.benchSlots || Object.keys(room.guestDraft.benchSlots).length < 6)) {
         room.guestDraft.benchSlots = DraftEngine.generateBenchReserves(room.guestDraft, this.getPlayers());
       }
     } else {

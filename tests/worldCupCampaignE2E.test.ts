@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { TournamentEngine } from '../src/shared/engine/tournamentEngine.js';
 import { tournamentService } from '../src/client/services/tournamentService.js';
 import { offlineSoloEngine } from '../src/client/services/offlineSoloEngine.js';
 import { profileService } from '../src/client/services/profileService.js';

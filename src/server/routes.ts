@@ -82,6 +82,12 @@ export function createApiRouter(
         res.status(400).json({ success: false, error: 'mode and poolType are required' });
         return;
       }
+      const normalizedEnableSubs =
+        enableSubstitutions !== false &&
+        enableSubstitutions !== 'false' &&
+        enableSubstitutions !== 0 &&
+        enableSubstitutions !== '0';
+
       const result = await roomManager.createRoom({
         mode,
         poolType,
@@ -89,7 +95,7 @@ export function createApiRouter(
         formationId,
         customFormation,
         matchFormat,
-        enableSubstitutions,
+        enableSubstitutions: normalizedEnableSubs,
       });
       res.json({
         success: true,

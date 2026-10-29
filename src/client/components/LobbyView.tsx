@@ -76,8 +76,21 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
   );
   const [strategy, setStrategy] = useState<Strategy>('balanced');
   const [matchFormat, setMatchFormat] = useState<'auto' | 'normal' | 'knockout'>('auto');
-  const [enableSubstitutions, setEnableSubstitutions] = useState<boolean>(true);
+  const [enableSubstitutions, setEnableSubstitutions] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('football_sim_subs_enabled');
+      if (saved !== null) return saved === 'true';
+    }
+    return false; // Default to Classic 11 (Pure Starting XI Only)
+  });
   const [joinCode, setJoinCode] = useState('');
+
+  const handleToggleSubstitutions = (val: boolean) => {
+    setEnableSubstitutions(val);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('football_sim_subs_enabled', String(val));
+    }
+  };
 
   // Synchronize when a custom formation is selected from the studio
   useEffect(() => {
@@ -343,13 +356,32 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
                 <div>
                   <div className="flex items-center justify-between mb-2">
                     <label className="block text-xs font-semibold text-white uppercase tracking-wider">
-                      Squad Size & Subs
+                      Squad Size & Format
                     </label>
+                    <span className="text-[10px] font-mono text-[#0C969C] font-semibold">
+                      {!enableSubstitutions ? '11 Picks (Starting XI)' : '17 Picks (XI + 6 Subs)'}
+                    </span>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
                     <button
                       type="button"
-                      onClick={() => setEnableSubstitutions(true)}
+                      onClick={() => handleToggleSubstitutions(false)}
+                      className={`p-2.5 rounded-xl border text-left transition-all cursor-pointer ${
+                        !enableSubstitutions
+                          ? 'bg-black border-2 border-[#0C969C] text-white font-bold shadow-[0_0_20px_rgba(12,150,156,0.45)]'
+                          : 'bg-black border-white/10 text-neutral-400 hover:border-[#0C969C] hover:text-white hover:shadow-[0_0_15px_rgba(12,150,156,0.3)]'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs font-bold text-white">Classic 11</span>
+                        <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-black text-[#0C969C] font-bold border border-[#0C969C]/40">⚡ PURE XI</span>
+                      </div>
+                      <div className="text-[10px] text-neutral-400 mt-1">Starting XI • Fast Kickoff</div>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleToggleSubstitutions(true)}
                       className={`p-2.5 rounded-xl border text-left transition-all cursor-pointer ${
                         enableSubstitutions
                           ? 'bg-black border-2 border-[#0C969C] text-white font-bold shadow-[0_0_20px_rgba(12,150,156,0.45)]'
@@ -360,23 +392,7 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
                         <span className="text-xs font-bold text-white">17 Squad</span>
                         <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-[#0C969C]/20 text-[#0C969C] font-bold border border-[#0C969C]/40">SUBS</span>
                       </div>
-                      <div className="text-[10px] text-neutral-400 mt-1">11 Starters + 6 Subs</div>
-                    </button>
-
-                    <button
-                      type="button"
-                      onClick={() => setEnableSubstitutions(false)}
-                      className={`p-2.5 rounded-xl border text-left transition-all cursor-pointer ${
-                        !enableSubstitutions
-                          ? 'bg-black border-2 border-[#0C969C] text-white font-bold shadow-[0_0_20px_rgba(12,150,156,0.45)]'
-                          : 'bg-black border-white/10 text-neutral-400 hover:border-[#0C969C] hover:text-white hover:shadow-[0_0_15px_rgba(12,150,156,0.3)]'
-                      }`}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-white">Classic 11</span>
-                        <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-black text-neutral-400 font-bold border border-white/10">NO SUBS</span>
-                      </div>
-                      <div className="text-[10px] text-neutral-400 mt-1">Pure Starting XI Only</div>
+                      <div className="text-[10px] text-neutral-400 mt-1">11 Starters + 6 Bench</div>
                     </button>
                   </div>
                 </div>
@@ -407,6 +423,13 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
                   placeholder="ROOM CODE (E.G. DRAFT1)"
                   className="w-full bg-black border-2 border-[#0C969C] rounded-xl px-4 py-4 text-center font-mono font-black tracking-widest text-2xl text-[#0C969C] shadow-[0_0_25px_rgba(12,150,156,0.45)] focus:outline-none focus:border-[#6BA3BE] uppercase shadow-inner"
                 />
+              </div>
+
+              <div className="bg-black/60 border border-white/10 rounded-xl p-3 flex items-center gap-2.5 text-xs text-neutral-300">
+                <span className="text-[#0C969C] text-base shrink-0">ℹ️</span>
+                <span>
+                  <strong>Room Rule Sync:</strong> Match format, era pool, and squad rules (Pure 11 or 17-player squad) automatically sync from the host room.
+                </span>
               </div>
 
               <div>
@@ -552,7 +575,7 @@ export const LobbyView: React.FC<LobbyViewProps> = ({
                   formationId: selectedFormationId,
                   strategy: 'balanced',
                   matchFormat: 'auto',
-                  enableSubstitutions: true,
+                  enableSubstitutions: enableSubstitutions,
                   customFormation: selectedCustomFormation || undefined,
                 });
               }}

@@ -251,4 +251,142 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
 
     expect(badRes.success).toBe(false);
   });
+
+  it('allows starting match immediately after 11 starting XI rounds even with substitutions enabled', async () => {
+    // Create room with enableSubstitutions = true (default)
+    const createRes = await fetch(`${baseUrl}/api/rooms/create`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        mode: 'multiplayer',
+        poolType: 'national',
+        hostName: 'XI Ready Host',
+        formationId: '4-3-3',
+        enableSubstitutions: true,
+      }),
+    }).then((r) => r.json());
+
+    expect(createRes.success).toBe(true);
+    const roomCode = createRes.room.roomCode;
+    const hostToken = createRes.hostToken;
+
+    const joinRes = await fetch(`${baseUrl}/api/rooms/join`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        roomCode,
+        guestName: 'XI Ready Guest',
+        formationId: '4-3-3',
+      }),
+    }).then((r) => r.json());
+
+    expect(joinRes.success).toBe(true);
+    let currentRoom = joinRes.room;
+    const guestToken = joinRes.guestToken;
+
+    // Draft exactly 11 players for both sides (Starting XI only)
+    for (let round = 1; round <= 11; round++) {
+      // Host rolls & picks
+      await fetch(`${baseUrl}/api/rooms/${roomCode}/roll`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: hostToken }),
+      }).then((r) => r.json());
+
+      const rHost = (await db.getRoom(roomCode))!;
+      const hostPick = DraftEngine.getDeterministicAutoPick(
+        rHost.hostDraft,
+        rHost.hostDraft.currentRoster,
+        rHost.guestDraft?.usedIdentityIds || []
+      );
+
+      const hPickRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/pick`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          token: hostToken,
+          playerId: hostPick.player.id,
+          slotId: hostPick.slotId,
+        }),
+      }).then((r) => r.json());
+      expect(hPickRes.success).toBe(true);
+
+      // Guest rolls & picks
+      await fetch(`${baseUrl}/api/rooms/${roomCode}/roll`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: guestToken }),
+      }).then((r) => r.json());
+
+      const rGuest = (await db.getRoom(roomCode))!;
+      const guestPick = DraftEngine.getDeterministicAutoPick(
+        rGuest.guestDraft!,
+        rGuest.guestDraft!.currentRoster,
+        rGuest.hostDraft.usedIdentityIds
+      );
+
+      const gPickRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/pick`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          token: guestToken,
+          playerId: guestPick.player.id,
+          slotId: guestPick.slotId,
+        }),
+      }).then((r) => r.json());
+      expect(gPickRes.success).toBe(true);
+      currentRoom = gPickRes.room;
+    }
+
+    // Both Starting XIs have exactly 11 players, 0 bench drafted
+    expect(Object.keys(currentRoom.hostDraft.draftedSlots).length).toBe(11);
+    expect(Object.keys(currentRoom.guestDraft!.draftedSlots).length).toBe(11);
+    expect(Object.keys(currentRoom.hostDraft.benchSlots || {}).length).toBe(0);
+
+    // Host starts match early with XI ready
+    const startRes = await fetch(`${baseUrl}/api/rooms/${roomCode}/start-match`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ token: hostToken }),
+    }).then((r) => r.json());
+
+    expect(startRes.success).toBe(true);
+    expect(startRes.simulation.status).toBe('live');
+    // Bench reserves were automatically populated
+    expect(Object.keys(startRes.room.hostDraft.benchSlots || {}).length).toBeGreaterThanOrEqual(5);
+    expect(Object.keys(startRes.room.guestDraft!.benchSlots || {}).length).toBeGreaterThanOrEqual(5);
+  }, 30000);
+
+  it('creates room with enableSubstitutions: false and completes pure 11-round draft', async () => {
+    const createRes = await fetch(`${baseUrl}/api/rooms/create`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        mode: 'multiplayer',
+        poolType: 'national',
+        hostName: 'Classic Host',
+        formationId: '4-3-3',
+        enableSubstitutions: false,
+      }),
+    }).then((r) => r.json());
+
+    expect(createRes.success).toBe(true);
+    expect(createRes.room.enableSubstitutions).toBe(false);
+    expect(createRes.room.hostDraft.enableSubstitutions).toBe(false);
+
+    const roomCode = createRes.room.roomCode;
+    const joinRes = await fetch(`${baseUrl}/api/rooms/join`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        roomCode,
+        guestName: 'Classic Guest',
+        formationId: '4-3-3',
+      }),
+    }).then((r) => r.json());
+
+    expect(joinRes.success).toBe(true);
+    expect(joinRes.room.enableSubstitutions).toBe(false);
+    expect(joinRes.room.guestDraft.enableSubstitutions).toBe(false);
+  });
 });
