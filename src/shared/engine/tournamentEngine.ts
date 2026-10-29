@@ -4,18 +4,18 @@ import {
   PlayerDraftState,
   PlayerVersion,
   PoolType,
+  Position,
   TeamEdition,
+  TournamentAwards,
   TournamentDraftMode,
   TournamentGroup,
   TournamentMatchFixture,
-  TournamentRound,
   TournamentState,
   TournamentTeam,
 } from '../types/index.js';
 import { FORMATIONS } from '../constants/formations.js';
 import { PRNG } from './prng.js';
 import { DraftEngine } from './draftEngine.js';
-import { MatchEngine } from './matchEngine.js';
 
 export class TournamentEngine {
   /**
@@ -193,6 +193,7 @@ export class TournamentEngine {
         semiFinals: [],
       },
       isEliminated: false,
+      playerStats: {},
       createdAt: now,
       updatedAt: now,
     };
@@ -247,15 +248,14 @@ export class TournamentEngine {
 
   /**
    * Simulates all remaining AI matches in the current round and updates group standings or bracket.
-   * Uses a deterministic seed derived from tournament ID and round to ensure reproducibility.
+   * Deterministically attributes realistic player-level goals and assists from team rosters.
    */
   static simulateAiMatchesInRound(
     tournament: TournamentState,
     players: PlayerVersion[]
   ): void {
-    // Derive a deterministic seed from the tournament ID and current round
-    // so AI match results are reproducible if state is saved/loaded.
-    const roundSeed = tournament.id.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) +
+    const roundSeed =
+      tournament.id.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) +
       tournament.currentRound.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) +
       (tournament.updatedAt || tournament.createdAt);
     const prng = new PRNG(roundSeed);
@@ -266,7 +266,6 @@ export class TournamentEngine {
       );
 
       for (const fixture of currentMatches) {
-        // Deterministic realistic simulation
         const homeGoals = prng.nextInt(0, 3) + (prng.chance(0.2) ? 1 : 0);
         const awayGoals = prng.nextInt(0, 3);
         fixture.homeScore = homeGoals;
@@ -275,6 +274,9 @@ export class TournamentEngine {
 
         // Update group standings
         TournamentEngine.recordMatchResult(fixture.homeTeam, fixture.awayTeam, homeGoals, awayGoals);
+
+        // Record player goals & assists
+        TournamentEngine.recordMatchGoalsAndStats(tournament, fixture, homeGoals, awayGoals, players, prng);
       }
 
       // Sort all groups
@@ -282,6 +284,255 @@ export class TournamentEngine {
         TournamentEngine.sortGroupTeams(group);
       }
     }
+  }
+
+  /**
+   * Records player-level goals and assists for a match fixture.
+   * If live simulation events are present, ingests exact scorers & assisters.
+   * Otherwise, probabilistically selects forwards, playmakers, and defenders from team rosters.
+   */
+  static recordMatchGoalsAndStats(
+    tournament: TournamentState,
+    fixture: TournamentMatchFixture,
+    homeScore: number,
+    awayScore: number,
+    players: PlayerVersion[],
+    prng: PRNG,
+    simulation?: MatchSimulationState
+  ): void {
+    tournament.playerStats = tournament.playerStats || {};
+    fixture.goals = fixture.goals || [];
+
+    const getTeamSquad = (team: TournamentTeam): PlayerVersion[] => {
+      if (team.isUser && tournament.userSquad?.draftedSlots) {
+        const userPlayers = Object.values(tournament.userSquad.draftedSlots)
+          .map((slot) => slot.player)
+          .filter(Boolean);
+        if (userPlayers.length > 0) return userPlayers;
+      }
+      const editionPlayers = players.filter((p) => p.editionId === team.editionId);
+      if (editionPlayers.length > 0) return editionPlayers;
+      return players.slice(0, 15);
+    };
+
+    const pickScorer = (squad: PlayerVersion[]): PlayerVersion => {
+      const nonGk = squad.filter((p) => !p.naturalPositions?.includes('GK'));
+      const pool = nonGk.length > 0 ? nonGk : squad;
+      const weights = pool.map((p) => {
+        const isAttacker = p.naturalPositions?.some((pos) => ['ST', 'CF', 'SS', 'LW', 'RW'].includes(pos));
+        const isMidfielder = p.naturalPositions?.some((pos) => ['CAM', 'CM', 'LM', 'RM', 'CDM'].includes(pos));
+        const base = isAttacker ? 10 : isMidfielder ? 4 : 1;
+        return base * (p.ovr ? p.ovr / 75 : 1);
+      });
+      return prng.pickWeighted(pool, weights) || pool[0];
+    };
+
+    const pickAssister = (squad: PlayerVersion[], scorerId: string): PlayerVersion | undefined => {
+      if (!prng.chance(0.70)) return undefined;
+      const candidates = squad.filter((p) => p.id !== scorerId && !p.naturalPositions?.includes('GK'));
+      if (candidates.length === 0) return undefined;
+      const weights = candidates.map((p) => {
+        const isMidfielder = p.naturalPositions?.some((pos) => ['CAM', 'CM', 'LM', 'RM', 'CDM'].includes(pos));
+        const isAttacker = p.naturalPositions?.some((pos) => ['ST', 'CF', 'SS', 'LW', 'RW'].includes(pos));
+        const base = isMidfielder ? 8 : isAttacker ? 5 : 2;
+        return base * (p.ovr ? p.ovr / 75 : 1);
+      });
+      return prng.pickWeighted(candidates, weights) || candidates[0];
+    };
+
+    const addStat = (
+      player: { id: string; name: string; position?: Position },
+      team: TournamentTeam,
+      type: 'goal' | 'assist'
+    ) => {
+      if (!tournament.playerStats) tournament.playerStats = {};
+      const key = player.id || `anon-${team.id}-${player.name}`;
+      if (!tournament.playerStats[key]) {
+        tournament.playerStats[key] = {
+          playerId: key,
+          name: player.name,
+          teamId: team.id,
+          teamName: team.name,
+          editionId: team.editionId,
+          position: player.position,
+          goals: 0,
+          assists: 0,
+          matchesPlayed: 1,
+          isUserPlayer: team.isUser,
+        };
+      }
+      if (type === 'goal') {
+        tournament.playerStats[key].goals += 1;
+      } else if (type === 'assist') {
+        tournament.playerStats[key].assists += 1;
+      }
+    };
+
+    // 1. Ingest from simulation events if available
+    if (simulation && simulation.events && simulation.events.length > 0) {
+      const goalEvents = simulation.events.filter((e) => e.type === 'goal' || e.isGoal);
+      if (goalEvents.length > 0) {
+        for (const ge of goalEvents) {
+          const scoringTeam = ge.team === 'host' ? fixture.homeTeam : fixture.awayTeam;
+          const minute =
+            ge.minute ??
+            (ge.second != null
+              ? Math.min(90, Math.max(1, Math.floor((ge.second / (simulation.totalDurationSeconds || 90)) * 90)))
+              : prng.nextInt(5, 88));
+          const scorerName = ge.player?.name || `${scoringTeam.name} Forward`;
+          const scorerId = ge.player?.id || `sim-${scoringTeam.id}-${scorerName}`;
+          const assisterName = ge.secondaryPlayer?.name;
+          const assisterId = ge.secondaryPlayer?.id;
+
+          fixture.goals.push({
+            minute,
+            scorerName,
+            scorerId,
+            assisterName,
+            assisterId,
+            teamName: scoringTeam.name,
+            isUser: scoringTeam.isUser,
+          });
+
+          addStat({ id: scorerId, name: scorerName, position: ge.player?.position }, scoringTeam, 'goal');
+          if (assisterName) {
+            addStat(
+              { id: assisterId || `sim-ast-${assisterName}`, name: assisterName, position: ge.secondaryPlayer?.position },
+              scoringTeam,
+              'assist'
+            );
+          }
+        }
+        fixture.goals.sort((a, b) => a.minute - b.minute);
+        return;
+      }
+    }
+
+    // 2. Probabilistic attribution using authentic rosters
+    const homeSquad = getTeamSquad(fixture.homeTeam);
+    const awaySquad = getTeamSquad(fixture.awayTeam);
+
+    for (let i = 0; i < homeScore; i++) {
+      const scorer = pickScorer(homeSquad);
+      const assister = pickAssister(homeSquad, scorer.id);
+      const minute = prng.nextInt(4, 90);
+      fixture.goals.push({
+        minute,
+        scorerName: scorer.name,
+        scorerId: scorer.id,
+        assisterName: assister?.name,
+        assisterId: assister?.id,
+        teamName: fixture.homeTeam.name,
+        isUser: fixture.homeTeam.isUser,
+      });
+      addStat(
+        { id: scorer.id, name: scorer.name, position: scorer.naturalPositions?.[0] },
+        fixture.homeTeam,
+        'goal'
+      );
+      if (assister) {
+        addStat(
+          { id: assister.id, name: assister.name, position: assister.naturalPositions?.[0] },
+          fixture.homeTeam,
+          'assist'
+        );
+      }
+    }
+
+    for (let i = 0; i < awayScore; i++) {
+      const scorer = pickScorer(awaySquad);
+      const assister = pickAssister(awaySquad, scorer.id);
+      const minute = prng.nextInt(4, 90);
+      fixture.goals.push({
+        minute,
+        scorerName: scorer.name,
+        scorerId: scorer.id,
+        assisterName: assister?.name,
+        assisterId: assister?.id,
+        teamName: fixture.awayTeam.name,
+        isUser: fixture.awayTeam.isUser,
+      });
+      addStat(
+        { id: scorer.id, name: scorer.name, position: scorer.naturalPositions?.[0] },
+        fixture.awayTeam,
+        'goal'
+      );
+      if (assister) {
+        addStat(
+          { id: assister.id, name: assister.name, position: assister.naturalPositions?.[0] },
+          fixture.awayTeam,
+          'assist'
+        );
+      }
+    }
+
+    fixture.goals.sort((a, b) => a.minute - b.minute);
+  }
+
+  /**
+   * Computes tournament honours: Golden Boot, Top Playmaker, and Tournament MVP.
+   */
+  static computeAwards(tournament: TournamentState): TournamentAwards | undefined {
+    const statsList = Object.values(tournament.playerStats || {});
+    if (statsList.length === 0) return undefined;
+
+    const sortedByGoals = [...statsList].sort((a, b) => {
+      if (b.goals !== a.goals) return b.goals - a.goals;
+      return b.assists - a.assists;
+    });
+    const goldenBootPlayer = sortedByGoals[0];
+
+    const sortedByAssists = [...statsList].sort((a, b) => {
+      if (b.assists !== a.assists) return b.assists - a.assists;
+      return b.goals - a.goals;
+    });
+    const topPlaymakerPlayer = sortedByAssists[0];
+
+    const sortedByMvp = [...statsList].sort((a, b) => {
+      const aScore = a.goals * 2 + a.assists * 1.5;
+      const bScore = b.goals * 2 + b.assists * 1.5;
+      return bScore - aScore;
+    });
+    const mvpPlayer = sortedByMvp[0];
+
+    const awards: TournamentAwards = {
+      championTeam: tournament.champion?.name || 'Incomplete Campaign',
+      runnerUpTeam: tournament.runnerUp?.name || 'None',
+      goldenBoot: goldenBootPlayer
+        ? {
+            playerId: goldenBootPlayer.playerId,
+            playerName: goldenBootPlayer.name,
+            teamName: goldenBootPlayer.teamName,
+            goals: goldenBootPlayer.goals,
+            assists: goldenBootPlayer.assists,
+            isUserPlayer: goldenBootPlayer.isUserPlayer,
+          }
+        : undefined,
+      topPlaymaker: topPlaymakerPlayer
+        ? {
+            playerId: topPlaymakerPlayer.playerId,
+            playerName: topPlaymakerPlayer.name,
+            teamName: topPlaymakerPlayer.teamName,
+            assists: topPlaymakerPlayer.assists,
+            goals: topPlaymakerPlayer.goals,
+            isUserPlayer: topPlaymakerPlayer.isUserPlayer,
+          }
+        : undefined,
+      mvp: mvpPlayer
+        ? {
+            playerId: mvpPlayer.playerId,
+            playerName: mvpPlayer.name,
+            teamName: mvpPlayer.teamName,
+            goals: mvpPlayer.goals,
+            assists: mvpPlayer.assists,
+            totalContributions: mvpPlayer.goals + mvpPlayer.assists,
+            isUserPlayer: mvpPlayer.isUserPlayer,
+          }
+        : undefined,
+    };
+
+    tournament.awards = awards;
+    return awards;
   }
 
   /**
@@ -356,6 +607,7 @@ export class TournamentEngine {
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
       TournamentEngine.recordMatchResult(userMatch.homeTeam, userMatch.awayTeam, userMatch.homeScore, userMatch.awayScore);
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       TournamentEngine.simulateAiMatchesInRound(tournament, players);
       tournament.currentRound = 'group_match_2';
@@ -370,6 +622,7 @@ export class TournamentEngine {
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
       TournamentEngine.recordMatchResult(userMatch.homeTeam, userMatch.awayTeam, userMatch.homeScore, userMatch.awayScore);
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       TournamentEngine.simulateAiMatchesInRound(tournament, players);
       tournament.currentRound = 'group_match_3';
@@ -384,6 +637,7 @@ export class TournamentEngine {
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
       TournamentEngine.recordMatchResult(userMatch.homeTeam, userMatch.awayTeam, userMatch.homeScore, userMatch.awayScore);
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       TournamentEngine.simulateAiMatchesInRound(tournament, players);
 
@@ -397,6 +651,7 @@ export class TournamentEngine {
         tournament.isEliminated = true;
         tournament.currentRound = 'completed';
         tournament.updatedAt = Date.now();
+        TournamentEngine.computeAwards(tournament);
         return tournament;
       }
 
@@ -412,19 +667,26 @@ export class TournamentEngine {
       const userMatch = tournament.knockoutFixtures.roundOf16.find((m) => m.isUserMatch)!;
       userMatch.homeScore = userMatch.homeTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
       userMatch.awayScore = userMatch.awayTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
+      userMatch.penaltyScore = userMatchResult.penaltyScore
+        ? {
+            home: userMatch.homeTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+            away: userMatch.awayTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+          }
+        : undefined;
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       const userWon = TournamentEngine.didUserWinKnockout(userMatch, userMatchResult.penaltyScore);
       if (!userWon) {
         tournament.isEliminated = true;
         tournament.currentRound = 'completed';
         tournament.updatedAt = Date.now();
+        TournamentEngine.computeAwards(tournament);
         return tournament;
       }
 
-      // Simulate other R16 matches and set up Quarter-Finals
-      TournamentEngine.setupQuarterFinals(tournament);
+      TournamentEngine.setupQuarterFinals(tournament, players);
       tournament.currentRound = 'quarter_finals';
       tournament.updatedAt = Date.now();
       return tournament;
@@ -435,19 +697,26 @@ export class TournamentEngine {
       const userMatch = tournament.knockoutFixtures.quarterFinals.find((m) => m.isUserMatch)!;
       userMatch.homeScore = userMatch.homeTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
       userMatch.awayScore = userMatch.awayTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
+      userMatch.penaltyScore = userMatchResult.penaltyScore
+        ? {
+            home: userMatch.homeTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+            away: userMatch.awayTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+          }
+        : undefined;
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       const userWon = TournamentEngine.didUserWinKnockout(userMatch, userMatchResult.penaltyScore);
       if (!userWon) {
         tournament.isEliminated = true;
         tournament.currentRound = 'completed';
         tournament.updatedAt = Date.now();
+        TournamentEngine.computeAwards(tournament);
         return tournament;
       }
 
-      // Setup Semi-Finals
-      TournamentEngine.setupSemiFinals(tournament);
+      TournamentEngine.setupSemiFinals(tournament, players);
       tournament.currentRound = 'semi_finals';
       tournament.updatedAt = Date.now();
       return tournament;
@@ -458,19 +727,26 @@ export class TournamentEngine {
       const userMatch = tournament.knockoutFixtures.semiFinals.find((m) => m.isUserMatch)!;
       userMatch.homeScore = userMatch.homeTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
       userMatch.awayScore = userMatch.awayTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
+      userMatch.penaltyScore = userMatchResult.penaltyScore
+        ? {
+            home: userMatch.homeTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+            away: userMatch.awayTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+          }
+        : undefined;
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       const userWon = TournamentEngine.didUserWinKnockout(userMatch, userMatchResult.penaltyScore);
       if (!userWon) {
         tournament.isEliminated = true;
         tournament.currentRound = 'completed';
         tournament.updatedAt = Date.now();
+        TournamentEngine.computeAwards(tournament);
         return tournament;
       }
 
-      // Setup Grand Final
-      TournamentEngine.setupFinal(tournament);
+      TournamentEngine.setupFinal(tournament, players);
       tournament.currentRound = 'final';
       tournament.updatedAt = Date.now();
       return tournament;
@@ -481,8 +757,15 @@ export class TournamentEngine {
       const userMatch = tournament.knockoutFixtures.final!;
       userMatch.homeScore = userMatch.homeTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
       userMatch.awayScore = userMatch.awayTeam.isUser ? userMatchResult.userScore : userMatchResult.opponentScore;
+      userMatch.penaltyScore = userMatchResult.penaltyScore
+        ? {
+            home: userMatch.homeTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+            away: userMatch.awayTeam.isUser ? userMatchResult.penaltyScore.user : userMatchResult.penaltyScore.opponent,
+          }
+        : undefined;
       userMatch.status = 'finished';
       userMatch.simulation = userMatchResult.simulation;
+      TournamentEngine.recordMatchGoalsAndStats(tournament, userMatch, userMatch.homeScore, userMatch.awayScore, players, prng, userMatchResult.simulation);
 
       const userWon = TournamentEngine.didUserWinKnockout(userMatch, userMatchResult.penaltyScore);
       if (userWon) {
@@ -496,6 +779,7 @@ export class TournamentEngine {
 
       tournament.currentRound = 'completed';
       tournament.updatedAt = Date.now();
+      TournamentEngine.computeAwards(tournament);
       return tournament;
     }
 
@@ -520,7 +804,6 @@ export class TournamentEngine {
   }
 
   private static setupRoundOf16(tournament: TournamentState): void {
-    const prng = new PRNG();
     const getGroupTopTwo = (letter: string) => {
       const g = tournament.groups.find((x) => x.id === letter)!;
       TournamentEngine.sortGroupTeams(g);
@@ -537,11 +820,11 @@ export class TournamentEngine {
     const [h1, h2] = getGroupTopTwo('H');
 
     const pairings = [
-      { home: a1, away: b2 }, // Match 1 (User is either home or in match 5)
+      { home: a1, away: b2 }, // Match 1
       { home: c1, away: d2 }, // Match 2
       { home: e1, away: f2 }, // Match 3
       { home: g1, away: h2 }, // Match 4
-      { home: b1, away: a2 }, // Match 5 (If user was 2nd in Group A)
+      { home: b1, away: a2 }, // Match 5
       { home: d1, away: c2 }, // Match 6
       { home: f1, away: e2 }, // Match 7
       { home: h1, away: g2 }, // Match 8
@@ -557,20 +840,45 @@ export class TournamentEngine {
     }));
   }
 
-  private static setupQuarterFinals(tournament: TournamentState): void {
+  private static setupQuarterFinals(tournament: TournamentState, players: PlayerVersion[]): void {
     const seed = tournament.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + 1001;
     const prng = new PRNG(seed);
     const r16Winners: TournamentTeam[] = [];
 
     for (const match of tournament.knockoutFixtures.roundOf16) {
-      if (match.isUserMatch) {
-        r16Winners.push(tournament.userTeam);
+      if (match.status === 'finished') {
+        const homeScore = match.homeScore ?? 0;
+        const awayScore = match.awayScore ?? 0;
+        if (homeScore > awayScore) {
+          r16Winners.push(match.homeTeam);
+        } else if (awayScore > homeScore) {
+          r16Winners.push(match.awayTeam);
+        } else if (match.penaltyScore) {
+          r16Winners.push(match.penaltyScore.home > match.penaltyScore.away ? match.homeTeam : match.awayTeam);
+        } else {
+          r16Winners.push(match.homeTeam);
+        }
       } else {
-        const homeWon = prng.chance(0.55);
-        match.homeScore = homeWon ? 2 : 1;
-        match.awayScore = homeWon ? 1 : 2;
+        const homeScore = prng.nextInt(0, 3);
+        const awayScore = prng.nextInt(0, 3);
+        let penaltyScore: { home: number; away: number } | undefined = undefined;
+        let winner: TournamentTeam;
+        if (homeScore > awayScore) {
+          winner = match.homeTeam;
+        } else if (awayScore > homeScore) {
+          winner = match.awayTeam;
+        } else {
+          const homePen = prng.nextInt(3, 5);
+          const awayPen = homePen === 5 ? 4 : homePen - 1;
+          penaltyScore = prng.chance(0.5) ? { home: homePen, away: awayPen } : { home: awayPen, away: homePen };
+          winner = penaltyScore.home > penaltyScore.away ? match.homeTeam : match.awayTeam;
+        }
+        match.homeScore = homeScore;
+        match.awayScore = awayScore;
+        match.penaltyScore = penaltyScore;
         match.status = 'finished';
-        r16Winners.push(homeWon ? match.homeTeam : match.awayTeam);
+        TournamentEngine.recordMatchGoalsAndStats(tournament, match, homeScore, awayScore, players, prng);
+        r16Winners.push(winner);
       }
     }
 
@@ -583,20 +891,45 @@ export class TournamentEngine {
     ];
   }
 
-  private static setupSemiFinals(tournament: TournamentState): void {
+  private static setupSemiFinals(tournament: TournamentState, players: PlayerVersion[]): void {
     const seed = tournament.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + 2002;
     const prng = new PRNG(seed);
     const qfWinners: TournamentTeam[] = [];
 
     for (const match of tournament.knockoutFixtures.quarterFinals) {
-      if (match.isUserMatch) {
-        qfWinners.push(tournament.userTeam);
+      if (match.status === 'finished') {
+        const homeScore = match.homeScore ?? 0;
+        const awayScore = match.awayScore ?? 0;
+        if (homeScore > awayScore) {
+          qfWinners.push(match.homeTeam);
+        } else if (awayScore > homeScore) {
+          qfWinners.push(match.awayTeam);
+        } else if (match.penaltyScore) {
+          qfWinners.push(match.penaltyScore.home > match.penaltyScore.away ? match.homeTeam : match.awayTeam);
+        } else {
+          qfWinners.push(match.homeTeam);
+        }
       } else {
-        const homeWon = prng.chance(0.52);
-        match.homeScore = homeWon ? 2 : 1;
-        match.awayScore = homeWon ? 1 : 2;
+        const homeScore = prng.nextInt(0, 3);
+        const awayScore = prng.nextInt(0, 3);
+        let penaltyScore: { home: number; away: number } | undefined = undefined;
+        let winner: TournamentTeam;
+        if (homeScore > awayScore) {
+          winner = match.homeTeam;
+        } else if (awayScore > homeScore) {
+          winner = match.awayTeam;
+        } else {
+          const homePen = prng.nextInt(3, 5);
+          const awayPen = homePen === 5 ? 4 : homePen - 1;
+          penaltyScore = prng.chance(0.5) ? { home: homePen, away: awayPen } : { home: awayPen, away: homePen };
+          winner = penaltyScore.home > penaltyScore.away ? match.homeTeam : match.awayTeam;
+        }
+        match.homeScore = homeScore;
+        match.awayScore = awayScore;
+        match.penaltyScore = penaltyScore;
         match.status = 'finished';
-        qfWinners.push(homeWon ? match.homeTeam : match.awayTeam);
+        TournamentEngine.recordMatchGoalsAndStats(tournament, match, homeScore, awayScore, players, prng);
+        qfWinners.push(winner);
       }
     }
 
@@ -607,19 +940,32 @@ export class TournamentEngine {
     ];
   }
 
-  private static setupFinal(tournament: TournamentState): void {
+  private static setupFinal(tournament: TournamentState, players: PlayerVersion[]): void {
     const seed = tournament.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + 3003;
     const prng = new PRNG(seed);
     const sfWinners: TournamentTeam[] = [];
 
     for (const match of tournament.knockoutFixtures.semiFinals) {
-      if (match.isUserMatch) {
-        sfWinners.push(tournament.userTeam);
+      if (match.status === 'finished') {
+        const homeScore = match.homeScore ?? 0;
+        const awayScore = match.awayScore ?? 0;
+        if (homeScore > awayScore) {
+          sfWinners.push(match.homeTeam);
+        } else if (awayScore > homeScore) {
+          sfWinners.push(match.awayTeam);
+        } else if (match.penaltyScore) {
+          sfWinners.push(match.penaltyScore.home > match.penaltyScore.away ? match.homeTeam : match.awayTeam);
+        } else {
+          sfWinners.push(match.homeTeam);
+        }
       } else {
         const homeWon = prng.chance(0.5);
-        match.homeScore = homeWon ? 2 : 1;
-        match.awayScore = homeWon ? 1 : 2;
+        const homeScore = homeWon ? 2 : 1;
+        const awayScore = homeWon ? 1 : 2;
+        match.homeScore = homeScore;
+        match.awayScore = awayScore;
         match.status = 'finished';
+        TournamentEngine.recordMatchGoalsAndStats(tournament, match, homeScore, awayScore, players, prng);
         sfWinners.push(homeWon ? match.homeTeam : match.awayTeam);
       }
     }

@@ -189,5 +189,91 @@ describe('TournamentEngine (7-Game World Cup Event Campaign)', () => {
     expect(tourney.userSquad?.isReady).toBe(true);
     expect(Object.keys(tourney.userSquad?.draftedSlots || {}).length).toBe(11);
   });
+
+  it('accurately tracks player goals and assists for all teams in auto-simulation and generates tournament awards', () => {
+    const editions = offlineSoloEngine.getEditions();
+    const players = offlineSoloEngine.getPlayers();
+
+    const tourney = TournamentEngine.createTournament({
+      poolType: 'national',
+      draftMode: 'campaign',
+      userName: 'Legends XI',
+      editions,
+      players,
+    });
+
+    // Advance 3 group matches with mock simulation events for user match
+    const mockSimulation1: any = {
+      durationSec: 90,
+      score: { host: 2, guest: 0 },
+      events: [
+        {
+          type: 'goal',
+          second: 24,
+          minute: 24,
+          period: 'first_half',
+          team: 'host',
+          player: { id: 'user-pel-10', name: 'Pelé', position: 'ST', squadNumber: 10 },
+          secondaryPlayer: { id: 'user-gar-7', name: 'Garrincha', position: 'RW', squadNumber: 7 },
+        },
+        {
+          type: 'goal',
+          second: 68,
+          minute: 68,
+          period: 'second_half',
+          team: 'host',
+          player: { id: 'user-pel-10', name: 'Pelé', position: 'ST', squadNumber: 10 },
+          secondaryPlayer: { id: 'user-did-8', name: 'Didi', position: 'CM', squadNumber: 8 },
+        },
+      ],
+    };
+
+    TournamentEngine.advanceTournament(
+      tourney,
+      { userScore: 2, opponentScore: 0, simulation: mockSimulation1 },
+      players
+    );
+
+    // Verify stats were tracked after Match 1
+    expect(tourney.playerStats).toBeDefined();
+    const peleStat = tourney.playerStats!['user-pel-10'];
+    expect(peleStat).toBeDefined();
+    expect(peleStat.goals).toBe(2);
+    expect(peleStat.isUserPlayer).toBe(true);
+
+    const garrinchaStat = tourney.playerStats!['user-gar-7'];
+    expect(garrinchaStat).toBeDefined();
+    expect(garrinchaStat.assists).toBe(1);
+
+    // Verify auto-simulated AI matches in Round 1 also recorded goals & player stats
+    const aiFinishedFixtures = tourney.groupFixtures.filter(
+      (f) => f.round === 'group_match_1' && !f.isUserMatch && f.status === 'finished'
+    );
+    expect(aiFinishedFixtures.length).toBeGreaterThan(0);
+    for (const aiMatch of aiFinishedFixtures) {
+      const totalGoals = (aiMatch.homeScore ?? 0) + (aiMatch.awayScore ?? 0);
+      expect(aiMatch.goals?.length).toBe(totalGoals);
+    }
+
+    // Play remaining matches to win the World Cup
+    TournamentEngine.advanceTournament(tourney, { userScore: 2, opponentScore: 1 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 1, opponentScore: 0 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 3, opponentScore: 1 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 2, opponentScore: 0 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 1, opponentScore: 0 }, players);
+    TournamentEngine.advanceTournament(tourney, { userScore: 2, opponentScore: 1 }, players);
+
+    expect(tourney.currentRound).toBe('completed');
+    expect(tourney.champion?.name).toBe('Legends XI');
+
+    // Verify tournament awards were computed
+    expect(tourney.awards).toBeDefined();
+    expect(tourney.awards?.championTeam).toBe('Legends XI');
+    expect(tourney.awards?.goldenBoot).toBeDefined();
+    expect(tourney.awards?.goldenBoot?.goals).toBeGreaterThanOrEqual(2);
+    expect(tourney.awards?.topPlaymaker).toBeDefined();
+    expect(tourney.awards?.topPlaymaker?.assists).toBeGreaterThanOrEqual(1);
+    expect(tourney.awards?.mvp).toBeDefined();
+  });
 });
 
