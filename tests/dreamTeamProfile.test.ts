@@ -171,7 +171,7 @@ describe('Profile Dream Team & Stats Tracking', () => {
     const gkSlot = formation433.slots.find((s: any) => s.defaultPosition === 'GK');
     expect(gkSlot).toBeDefined();
 
-    const gkCandidates = players.filter((p: any) => isPlayerEligibleForSlot(p, gkSlot));
+    const gkCandidates = players.filter((p: any) => isPlayerEligibleForSlot(p, gkSlot!));
     expect(gkCandidates.length).toBeGreaterThan(50);
     // Every candidate for GK slot must have GK position
     gkCandidates.forEach((p: any) => {
@@ -181,7 +181,7 @@ describe('Profile Dream Team & Stats Tracking', () => {
 
     const stSlot = formation433.slots.find((s: any) => s.defaultPosition === 'ST');
     expect(stSlot).toBeDefined();
-    const stCandidates = players.filter((p: any) => isPlayerEligibleForSlot(p, stSlot));
+    const stCandidates = players.filter((p: any) => isPlayerEligibleForSlot(p, stSlot!));
     expect(stCandidates.length).toBeGreaterThan(50);
   });
 

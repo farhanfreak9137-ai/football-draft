@@ -1,11 +1,16 @@
 import {
   FormationDefinition,
   LiveMentality,
+  DefensiveStyle,
+  PassingStyle,
+  TouchlineShout,
   MatchSimulationState,
   PlayerDraftState,
+  PlayerVersion,
   PoolType,
   RoomState,
   TeamEdition,
+  HistoricalScenario,
 } from '../../shared/types/index.js';
 import { FORMATIONS } from '../../shared/constants/formations.js';
 import { offlineSoloEngine } from './offlineSoloEngine.js';
@@ -100,6 +105,7 @@ export async function createRoom(params: {
   customFormation?: FormationDefinition;
   strategy?: string;
   matchFormat?: 'auto' | 'normal' | 'knockout';
+  enableSubstitutions?: boolean;
 }): Promise<{ room: RoomState; hostToken: string; guestToken?: string }> {
   // If solo mode, route 100% offline with 0ms latency
   if (params.mode === 'solo') {
@@ -252,6 +258,40 @@ export function updateLiveMentality(
   return null;
 }
 
+export function updateLiveTactics(
+  roomCode: string,
+  tactics: {
+    mentality?: LiveMentality;
+    defensiveStyle?: DefensiveStyle;
+    passingStyle?: PassingStyle;
+    shout?: TouchlineShout;
+  },
+  team: 'host' | 'guest' = 'host'
+): MatchSimulationState | null {
+  if (offlineSoloEngine.isSoloRoom(roomCode)) {
+    return offlineSoloEngine.updateLiveTactics(tactics, team);
+  }
+  return null;
+}
+
+export function makeSubstitution(
+  roomCode: string,
+  slotId: string,
+  subPlayer: PlayerVersion,
+  team: 'host' | 'guest' = 'host'
+): MatchSimulationState | null {
+  if (offlineSoloEngine.isSoloRoom(roomCode)) {
+    return offlineSoloEngine.makeSubstitution(slotId, subPlayer, team);
+  }
+  return null;
+}
+
+export function createScenarioMatch(
+  scenario: HistoricalScenario
+): { room: RoomState; simulation: MatchSimulationState } {
+  return offlineSoloEngine.createScenarioMatch(scenario);
+}
+
 export async function closeRoom(params: {
   roomCode: string;
   token: string;
@@ -278,4 +318,62 @@ export async function getLiveMatch(roomCode: string): Promise<MatchSimulationSta
   const res = await fetch(`${getApiBase()}/rooms/${roomCode}/match`);
   const data = await res.json();
   return data.success ? data.liveMatch : null;
+}
+
+export async function requestRematch(params: {
+  roomCode: string;
+  token: string;
+}): Promise<{ room: RoomState }> {
+  if (offlineSoloEngine.isSoloRoom(params.roomCode)) {
+    return offlineSoloEngine.requestRematch(params);
+  }
+
+  const res = await fetch(`${getApiBase()}/rooms/${params.roomCode}/rematch`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ token: params.token, action: 'request' }),
+  });
+  const data = await res.json();
+  if (!data.success) throw new Error(data.error);
+  return data;
+}
+
+export async function respondRematch(params: {
+  roomCode: string;
+  token: string;
+  accept: boolean;
+}): Promise<{ room: RoomState }> {
+  if (offlineSoloEngine.isSoloRoom(params.roomCode)) {
+    return offlineSoloEngine.requestRematch(params);
+  }
+
+  const res = await fetch(`${getApiBase()}/rooms/${params.roomCode}/rematch`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      token: params.token,
+      action: params.accept ? 'accept' : 'decline',
+    }),
+  });
+  const data = await res.json();
+  if (!data.success) throw new Error(data.error);
+  return data;
+}
+
+export async function cancelRematch(params: {
+  roomCode: string;
+  token: string;
+}): Promise<{ room: RoomState }> {
+  if (offlineSoloEngine.isSoloRoom(params.roomCode)) {
+    return { room: (offlineSoloEngine as any).currentRoom };
+  }
+
+  const res = await fetch(`${getApiBase()}/rooms/${params.roomCode}/rematch`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ token: params.token, action: 'cancel' }),
+  });
+  const data = await res.json();
+  if (!data.success) throw new Error(data.error);
+  return data;
 }

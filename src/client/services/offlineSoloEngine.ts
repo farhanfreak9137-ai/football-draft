@@ -11,10 +11,12 @@ import {
   DefensiveStyle,
   PassingStyle,
   TouchlineShout,
+  HistoricalScenario,
 } from '../../shared/types/index.js';
 import { FORMATIONS, isPlayerEligibleForSlot } from '../../shared/constants/formations.js';
 import { DraftEngine } from '../../shared/engine/draftEngine.js';
 import { MatchEngine } from '../../shared/engine/matchEngine.js';
+import { ChemistryEngine } from '../../shared/engine/chemistryEngine.js';
 import { PRNG } from '../../shared/engine/prng.js';
 import soloData from '../data/soloData.json';
 
@@ -87,12 +89,14 @@ export class OfflineSoloEngine {
     formationId?: string;
     customFormation?: FormationDefinition;
     matchFormat?: 'auto' | 'normal' | 'knockout';
+    enableSubstitutions?: boolean;
   }): { room: RoomState; hostToken: string; guestToken: string } {
     const roomCode = 'SOLO-' + Math.floor(100000 + Math.random() * 900000);
     const hostToken = 'solo-host-' + Math.random().toString(36).substring(2, 10);
     const guestToken = 'solo-guest-ai';
     const now = Date.now();
     const expiresAt = now + 60 * 60 * 1000;
+    const enableSubstitutions = params.enableSubstitutions !== false;
 
     const hostDraft = DraftEngine.createInitialDraftState({
       seatId: 'host',
@@ -101,6 +105,7 @@ export class OfflineSoloEngine {
       poolType: params.poolType,
       formationId: params.formationId,
       customFormation: params.customFormation,
+      enableSubstitutions,
     });
 
     const soloFormations = ['4-3-3', '4-4-2', '4-2-3-1', '3-5-2', '3-4-3', '4-1-2-1-2'];
@@ -111,6 +116,7 @@ export class OfflineSoloEngine {
       playerName: 'Tactical AI Challenger',
       poolType: params.poolType,
       formationId: aiFormationId,
+      enableSubstitutions,
     });
 
     const room: RoomState = {
@@ -119,6 +125,7 @@ export class OfflineSoloEngine {
       mode: 'solo',
       poolType: params.poolType,
       matchFormat: params.matchFormat || 'auto',
+      enableSubstitutions,
       createdAt: now,
       updatedAt: now,
       expiresAt,
@@ -312,7 +319,7 @@ export class OfflineSoloEngine {
     aiDraft.currentRoster = roster;
 
     // AI strategic reroll if best legal player < 84 and rerolls remaining
-    const openSlots = aiDraft.formation.slots.filter((s) => !aiDraft.draftedSlots[s.id]);
+    const openSlots = DraftEngine.getOpenSlots(aiDraft);
     let bestLegalOvr = 0;
     for (const p of aiDraft.currentRoster) {
       if (aiDraft.usedIdentityIds.includes(p.identityId) || hostDraft.usedIdentityIds.includes(p.identityId)) continue;
@@ -436,6 +443,21 @@ export class OfflineSoloEngine {
       this.matchRotationCounter++;
     }
 
+    // Ensure authentic matchday substitutes are populated only if substitutions are enabled
+    if (room.enableSubstitutions !== false) {
+      if (!room.hostDraft.benchSlots || Object.keys(room.hostDraft.benchSlots).length === 0) {
+        room.hostDraft.benchSlots = DraftEngine.generateBenchReserves(room.hostDraft, this.getPlayers());
+      }
+      if (room.guestDraft && (!room.guestDraft.benchSlots || Object.keys(room.guestDraft.benchSlots).length === 0)) {
+        room.guestDraft.benchSlots = DraftEngine.generateBenchReserves(room.guestDraft, this.getPlayers());
+      }
+    } else {
+      room.hostDraft.benchSlots = undefined;
+      if (room.guestDraft) {
+        room.guestDraft.benchSlots = undefined;
+      }
+    }
+
     const simulation = MatchEngine.simulateMatch(room.hostDraft, room.guestDraft!, {
       knockoutMode: isKnockout,
       randomSeed: now,
@@ -445,6 +467,7 @@ export class OfflineSoloEngine {
     simulation.status = 'live';
     simulation.knockoutMode = isKnockout;
     simulation.matchFormat = isKnockout ? 'cup' : 'league';
+    simulation.enableSubstitutions = room.enableSubstitutions !== false;
 
     this.currentMatch = simulation;
     room.status = 'simulating';
@@ -453,6 +476,184 @@ export class OfflineSoloEngine {
 
     const initialSim = MatchEngine.getAuthoritativeStateAtTime(simulation, now);
     return { room, simulation: initialSim };
+  }
+
+  createScenarioMatch(scenario: HistoricalScenario): { room: RoomState; simulation: MatchSimulationState } {
+    const allPlayers = this.getPlayers();
+    const hostPlayers = allPlayers.filter((p) => p.editionId === scenario.userTeam.editionId);
+    const guestPlayers = allPlayers.filter((p) => p.editionId === scenario.opponentTeam.editionId);
+
+    const hostFormation = FORMATIONS[scenario.userTeam.formationId] || FORMATIONS['4-3-3'];
+    const guestFormation = FORMATIONS[scenario.opponentTeam.formationId] || FORMATIONS['4-3-3'];
+
+    const buildRosterDraft = (
+      name: string,
+      seatId: 'host' | 'guest',
+      formation: FormationDefinition,
+      players: PlayerVersion[],
+      poolType: PoolType
+    ): PlayerDraftState => {
+      const draft = DraftEngine.createInitialDraftState({
+        seatId,
+        playerId: `player-${seatId}`,
+        playerName: name,
+        formationId: formation.id,
+        poolType,
+      });
+
+      const usedIds = new Set<string>();
+      const benchSlots: Record<string, any> = {};
+
+      for (const slot of formation.slots) {
+        const candidate = players.find(
+          (p) => !usedIds.has(p.id) && isPlayerEligibleForSlot(p, slot)
+        ) || players.find((p) => !usedIds.has(p.id)) || players[0];
+
+        if (candidate) {
+          usedIds.add(candidate.id);
+          draft.draftedSlots[slot.id] = {
+            slotId: slot.id,
+            assignedPosition: slot.defaultPosition,
+            player: candidate,
+          };
+          draft.usedIdentityIds.push(candidate.identityId);
+        }
+      }
+
+      const benchCandidates = players.filter((p) => !usedIds.has(p.id));
+      benchCandidates.slice(0, 9).forEach((p, idx) => {
+        benchSlots[`bench-${idx + 1}`] = {
+          slotId: `bench-${idx + 1}`,
+          assignedPosition: p.naturalPositions[0] || 'CM',
+          player: p,
+        };
+      });
+      draft.benchSlots = benchSlots;
+      draft.chemistry = ChemistryEngine.calculateSquadChemistry(draft).total;
+
+      return draft;
+    };
+
+    const hostDraft = buildRosterDraft(
+      scenario.userTeam.name,
+      'host',
+      hostFormation,
+      hostPlayers.length >= 11 ? hostPlayers : allPlayers.slice(0, 18),
+      scenario.userTeam.poolType
+    );
+    const guestDraft = buildRosterDraft(
+      scenario.opponentTeam.name,
+      'guest',
+      guestFormation,
+      guestPlayers.length >= 11 ? guestPlayers : allPlayers.slice(18, 36),
+      scenario.opponentTeam.poolType
+    );
+
+    const now = Date.now();
+    const duration = scenario.durationSec || 45;
+    const roomCode = 'SOLO-SCENARIO-' + Math.floor(100000 + Math.random() * 900000);
+
+    const simulation = MatchEngine.simulateMatch(hostDraft, guestDraft, {
+      knockoutMode: true,
+      randomSeed: now,
+      matchDurationSec: duration,
+    });
+
+    simulation.startTime = now - (scenario.startingSecond * 1000);
+    simulation.status = 'live';
+    simulation.knockoutMode = true;
+    simulation.matchFormat = 'cup';
+
+    const pastEvents: any[] = [];
+    pastEvents.push({
+      id: `ev-0-scenariokickoff`,
+      second: 0,
+      minute: 0,
+      period: 'first_half',
+      type: 'kickoff',
+      team: 'host',
+      description: `Historical Scenario: ${scenario.title} — ${scenario.subtitle}`,
+      score: { host: 0, guest: 0 },
+      pitchLocation: { x: 50, y: 50 },
+    });
+
+    for (let h = 1; h <= scenario.startingScore.host; h++) {
+      const sec = Math.min(scenario.startingSecond - 2, Math.floor((scenario.startingSecond / (scenario.startingScore.host + 1)) * h));
+      pastEvents.push({
+        id: `ev-${sec}-scenariogoal-host-${h}`,
+        second: sec,
+        minute: Math.floor((scenario.startingMinute / (scenario.startingScore.host + 1)) * h),
+        period: 'first_half',
+        type: 'goal',
+        team: 'host',
+        description: `GOAL! ${scenario.userTeam.name} score in the opening half!`,
+        score: { host: h, guest: 0 },
+        pitchLocation: { x: 95, y: 50 },
+        xG: 0.65,
+      });
+    }
+
+    for (let g = 1; g <= scenario.startingScore.guest; g++) {
+      const sec = Math.min(scenario.startingSecond - 1, Math.floor((scenario.startingSecond / (scenario.startingScore.guest + 1)) * g));
+      pastEvents.push({
+        id: `ev-${sec}-scenariogoal-guest-${g}`,
+        second: sec,
+        minute: Math.floor((scenario.startingMinute / (scenario.startingScore.guest + 1)) * g),
+        period: 'first_half',
+        type: 'goal',
+        team: 'guest',
+        description: `GOAL! ${scenario.opponentTeam.name} strike with clinical precision!`,
+        score: { host: scenario.startingScore.host, guest: g },
+        pitchLocation: { x: 5, y: 50 },
+        xG: 0.70,
+      });
+    }
+
+    const remainingEvents = simulation.events.filter((e) => e.second > scenario.startingSecond);
+    simulation.events = [...pastEvents, ...remainingEvents];
+
+    const room: RoomState = {
+      roomCode,
+      status: 'simulating',
+      mode: 'solo',
+      poolType: scenario.userTeam.poolType,
+      matchFormat: 'knockout',
+      createdAt: now,
+      updatedAt: now,
+      expiresAt: now + 60 * 60 * 1000,
+      hostSeat: { token: 'solo-host-scenario', connected: true, lastPing: now },
+      guestSeat: { token: 'solo-guest-ai', connected: true, lastPing: now },
+      turnNumber: 12,
+      activeTurn: 'host',
+      turnDeadline: 0,
+      hostDraft,
+      guestDraft,
+      matchId: simulation.matchId,
+    };
+
+    this.currentRoom = room;
+    this.currentMatch = simulation;
+
+    const initialSim = MatchEngine.getAuthoritativeStateAtTime(simulation, now);
+    return { room, simulation: initialSim };
+  }
+
+  makeSubstitution(
+    slotId: string,
+    subPlayer: PlayerVersion,
+    team: 'host' | 'guest' = 'host'
+  ): MatchSimulationState | null {
+    if (!this.currentMatch) return null;
+    this.currentMatch = MatchEngine.makeSubstitution(
+      this.currentMatch,
+      team,
+      slotId,
+      subPlayer,
+      Date.now(),
+      this.currentRoom?.hostDraft,
+      this.currentRoom?.guestDraft
+    );
+    return this.getLiveMatch(this.currentRoom?.roomCode || '');
   }
 
   createPrebuiltMatch(params: {
@@ -494,6 +695,13 @@ export class OfflineSoloEngine {
       hostDraft: params.hostDraft,
       guestDraft: params.guestDraft,
     };
+
+    if (!params.hostDraft.benchSlots || Object.keys(params.hostDraft.benchSlots).length === 0) {
+      params.hostDraft.benchSlots = DraftEngine.generateBenchReserves(params.hostDraft, this.getPlayers());
+    }
+    if (params.guestDraft && (!params.guestDraft.benchSlots || Object.keys(params.guestDraft.benchSlots).length === 0)) {
+      params.guestDraft.benchSlots = DraftEngine.generateBenchReserves(params.guestDraft, this.getPlayers());
+    }
 
     const simulation = MatchEngine.simulateMatch(params.hostDraft, params.guestDraft, {
       knockoutMode: isKnockout,
@@ -580,6 +788,45 @@ export class OfflineSoloEngine {
       this.currentRoom = null;
       this.currentMatch = null;
     }
+  }
+
+  requestRematch(params: { roomCode: string; token: string }): { room: RoomState } {
+    if (!this.currentRoom || this.currentRoom.roomCode !== params.roomCode) {
+      throw new Error('Solo room not found');
+    }
+    const now = Date.now();
+    this.currentMatch = null;
+    this.currentRoom.status = 'drafting';
+    this.currentRoom.matchId = undefined;
+    this.currentRoom.lastPickAnnouncement = undefined;
+    this.currentRoom.rematch = undefined;
+    this.currentRoom.turnNumber = 1;
+    this.currentRoom.activeTurn = 'host';
+    this.currentRoom.turnDeadline = now + 40000;
+    this.currentRoom.updatedAt = now;
+
+    // Reset host draft
+    this.currentRoom.hostDraft = DraftEngine.createInitialDraftState({
+      seatId: 'host',
+      playerId: this.currentRoom.hostDraft.playerId,
+      playerName: this.currentRoom.hostDraft.playerName,
+      poolType: this.currentRoom.poolType,
+      formationId: this.currentRoom.hostDraft.formation?.id,
+      customFormation: this.currentRoom.hostDraft.formation?.isCustom ? this.currentRoom.hostDraft.formation : undefined,
+    });
+
+    // Reset AI opponent draft with fresh random tactical formation
+    const soloFormations = ['4-3-3', '4-4-2', '4-2-3-1', '3-5-2', '3-4-3', '4-1-2-1-2'];
+    const aiFormationId = soloFormations[Math.floor(Math.random() * soloFormations.length)];
+    this.currentRoom.guestDraft = DraftEngine.createInitialDraftState({
+      seatId: 'guest',
+      playerId: 'solo-opponent-ai',
+      playerName: 'Tactical AI Challenger',
+      poolType: this.currentRoom.poolType,
+      formationId: aiFormationId,
+    });
+
+    return { room: this.cloneRoom(this.currentRoom) };
   }
 }
 

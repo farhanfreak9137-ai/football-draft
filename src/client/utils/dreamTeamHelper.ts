@@ -1,5 +1,4 @@
 import {
-  DraftedSlot,
   PlayerDraftState,
   PlayerVersion,
   PoolType,

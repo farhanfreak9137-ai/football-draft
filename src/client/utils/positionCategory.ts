@@ -1,4 +1,4 @@
-import { Position } from '../../shared/types/index.js';
+import type { Position } from '../../shared/types/index.js';
 
 export type PositionCategory = 'GOALKEEPER' | 'DEFENDER' | 'MIDFIELDER' | 'ATTACKER';
 
@@ -43,13 +43,13 @@ export function getPositionBadgeClass(pos: string): string {
   const category = getPositionCategory(pos);
   switch (category) {
     case 'GOALKEEPER':
-      return 'bg-amber-950/70 text-amber-300 border border-amber-500/40';
+      return 'bg-amber-500/15 text-amber-300 border border-amber-500/35 shadow-xs';
     case 'DEFENDER':
-      return 'bg-sky-950/70 text-sky-300 border border-sky-500/40';
+      return 'bg-blue-500/15 text-blue-300 border border-blue-500/35 shadow-xs';
     case 'MIDFIELDER':
-      return 'bg-emerald-950/70 text-emerald-300 border border-emerald-500/40';
+      return 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/35 shadow-xs';
     case 'ATTACKER':
-      return 'bg-rose-950/70 text-rose-300 border border-rose-500/40';
+      return 'bg-rose-500/15 text-rose-300 border border-rose-500/35 shadow-xs';
   }
 }
 

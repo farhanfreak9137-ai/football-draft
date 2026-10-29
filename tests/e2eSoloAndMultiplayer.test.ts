@@ -4,7 +4,6 @@ import http from 'http';
 import { DatabaseService } from '../src/server/db.js';
 import { RoomManager } from '../src/server/roomManager.js';
 import { createApiRouter } from '../src/server/routes.js';
-import { FORMATIONS } from '../src/shared/constants/formations.js';
 import { DraftEngine } from '../src/shared/engine/draftEngine.js';
 
 describe('End-to-End Game Lifecycle & Integration Tests', () => {
@@ -101,8 +100,8 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
     let currentRoom = joinRes.room;
     expect(currentRoom.status).toBe('drafting');
 
-    // Step 3: Alternate 11 rounds between Host and Guest (total 22 picks)
-    for (let round = 1; round <= 11; round++) {
+    // Step 3: Alternate 17 rounds between Host and Guest (total 34 picks: 11 starters + 6 bench)
+    for (let round = 1; round <= 17; round++) {
       // --- Host turn ---
       expect(currentRoom.activeTurn).toBe('host');
 
@@ -166,9 +165,11 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
       currentRoom = guestPickRes.room;
     }
 
-    // Both starting XIs are fully drafted
+    // Both squads are fully drafted with 17 players (11 starters + 6 bench)
     expect(Object.keys(currentRoom.hostDraft.draftedSlots).length).toBe(11);
+    expect(Object.keys(currentRoom.hostDraft.benchSlots || {}).length).toBe(6);
     expect(Object.keys(currentRoom.guestDraft!.draftedSlots).length).toBe(11);
+    expect(Object.keys(currentRoom.guestDraft!.benchSlots || {}).length).toBe(6);
     expect(currentRoom.status).toBe('draft_complete');
 
     // Step 4: Host launches match simulation
@@ -199,14 +200,12 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
       poolType: 'club',
       hostName: 'Slow Manager',
       formationId: '4-4-2',
-      strategy: 'balanced',
     });
 
     await roomManager.joinRoom({
       roomCode: room.roomCode,
       guestName: 'Guest',
       formationId: '4-4-2',
-      strategy: 'balanced',
     });
 
     const initialRoom = (await db.getRoom(room.roomCode))!;
@@ -230,7 +229,6 @@ describe('End-to-End Game Lifecycle & Integration Tests', () => {
       poolType: 'national',
       hostName: 'Reconnecting Manager',
       formationId: '4-3-3',
-      strategy: 'defensive',
     });
 
     // Reconnect with valid token

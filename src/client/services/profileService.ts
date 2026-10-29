@@ -4,7 +4,6 @@ import {
   TournamentDraftMode,
   SavedDreamTeam,
   DreamTeamPlayerStats,
-  DreamTeamRecord,
 } from '../../shared/types/index.js';
 
 const STORAGE_KEY = 'hfd_manager_profile';
@@ -164,6 +163,13 @@ export class ProfileService {
       this.profile.recentMatches.pop();
     }
 
+    this.saveProfile();
+    return this.getProfile();
+  }
+
+  addXp(amount: number): ManagerProfile {
+    this.profile.xp += Math.max(0, amount);
+    this.profile.level = Math.floor(this.profile.xp / 300) + 1;
     this.saveProfile();
     return this.getProfile();
   }

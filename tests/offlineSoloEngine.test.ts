@@ -102,8 +102,8 @@ describe('OfflineSoloEngine (100% Client-Side Offline Mode)', () => {
       const aiSlot = room.guestDraft!.formation.slots[i];
       const p1 = offlineSoloEngine.getPlayers()[i];
       const p2 = offlineSoloEngine.getPlayers()[i + 20];
-      room.hostDraft.draftedSlots[slot.id] = { slot, player: p1 };
-      room.guestDraft!.draftedSlots[aiSlot.id] = { slot: aiSlot, player: p2 };
+      room.hostDraft.draftedSlots[slot.id] = { slotId: slot.id, assignedPosition: slot.defaultPosition, player: p1 };
+      room.guestDraft!.draftedSlots[aiSlot.id] = { slotId: aiSlot.id, assignedPosition: aiSlot.defaultPosition, player: p2 };
     }
     room.hostDraft.isReady = true;
     room.guestDraft!.isReady = true;
