@@ -1,5 +1,3 @@
-import type { Position } from '../../shared/types/index.js';
-
 export type PositionCategory = 'GOALKEEPER' | 'DEFENDER' | 'MIDFIELDER' | 'ATTACKER';
 
 export interface CategoryConfig {

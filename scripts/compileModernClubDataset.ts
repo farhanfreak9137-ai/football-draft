@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import {
   DATA_DIR,
   toPlayerVersion,
@@ -22,9 +21,6 @@ import { benchPart1 } from './generateBenchPart1.js';
 import { benchPart2 } from './generateBenchPart2.js';
 import { benchPart3 } from './generateBenchPart3.js';
 import { benchPart4 } from './generateBenchPart4.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 // Helper to convert bench player input to PlayerDef format
 function benchToPlayerDef(b: any): PlayerDef {

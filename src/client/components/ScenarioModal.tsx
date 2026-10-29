@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HistoricalScenario } from '../../shared/types/index.js';
 import { HISTORICAL_SCENARIOS } from '../../shared/constants/scenarios.js';
-import { Trophy, Clock, Target, Shield, Award, Zap, ChevronRight, X, Sparkles, BookOpen } from 'lucide-react';
+import { Target, ChevronRight, X, BookOpen } from 'lucide-react';
 
 interface ScenarioModalProps {
   isOpen: boolean;

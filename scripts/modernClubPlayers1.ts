@@ -1,4 +1,4 @@
-import { PlayerDef, IdentityDef } from './modernClubBase.js';
+import { PlayerDef } from './modernClubBase.js';
 
 export const modernClubPlayersPart1: PlayerDef[] = [
   // 1. Barcelona 2010-11

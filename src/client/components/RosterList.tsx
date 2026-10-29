@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { FormationSlot, PlayerVersion, TeamEdition } from '../../shared/types/index.js';
 import { isPlayerEligibleForSlot } from '../../shared/constants/formations.js';
 import { PlayerCard } from './PlayerCard.js';
-import { RefreshCw, Info, Dice5, Clock, Sparkles } from 'lucide-react';
+import { RefreshCw, Dice5, Clock } from 'lucide-react';
 import { messages } from '../i18n/messages.js';
 import { CATEGORY_ORDER, getPlayerCategory } from '../utils/positionCategory.js';
 

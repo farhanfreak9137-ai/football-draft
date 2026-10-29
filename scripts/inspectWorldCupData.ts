@@ -47,7 +47,6 @@ function parseCsvLine(line: string): string[] {
 
 const dir = path.resolve(process.cwd(), 'data/world_cup_raw');
 const tournaments = parseCsv(fs.readFileSync(path.join(dir, 'tournaments.csv'), 'utf-8'));
-const standings = parseCsv(fs.readFileSync(path.join(dir, 'tournament_standings.csv'), 'utf-8'));
 const squads = parseCsv(fs.readFileSync(path.join(dir, 'squads.csv'), 'utf-8'));
 const awards = parseCsv(fs.readFileSync(path.join(dir, 'award_winners.csv'), 'utf-8'));
 

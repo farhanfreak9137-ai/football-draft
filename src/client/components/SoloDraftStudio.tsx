@@ -17,7 +17,6 @@ import {
   Layers,
   Star,
   RefreshCw,
-  Check,
   Shield,
   ArrowRight,
   Sparkles,

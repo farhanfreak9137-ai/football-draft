@@ -1,9 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   LiveMentality,
-  MatchEvent,
   MatchSimulationState,
-  PenaltyKickResult,
   PlayerDraftState,
   PlayerMatchRating,
   PlayerVersion,
@@ -14,8 +12,7 @@ import {
   RoomState,
 } from '../../shared/types/index.js';
 import { soundManager } from '../utils/audio.js';
-import { messages } from '../i18n/messages.js';
-import { MatchEngine, getVisualMinute } from '../../shared/engine/matchEngine.js';
+import { MatchEngine } from '../../shared/engine/matchEngine.js';
 import { BothPitchesView } from './BothPitchesView.js';
 import { MatchResultModal } from './MatchResultModal.js';
 import { getOvrColorClass } from '../utils/ovrColor.js';
@@ -27,18 +24,9 @@ import {
   VolumeX,
   ArrowRight,
   Clock,
-  Target,
-  Award,
-  CircleDot,
   CheckCircle2,
   XCircle,
-  Users,
-  Star,
-  Sparkles,
   Megaphone,
-  Zap,
-  Compass,
-  Flame,
   ChevronUp,
   RotateCcw,
 } from 'lucide-react';

@@ -1,5 +1,4 @@
 import {
-  DraftTurn,
   FormationDefinition,
   MatchSimulationState,
   PlayerDraftState,

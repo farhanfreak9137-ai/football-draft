@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { profileService } from '../services/profileService.js';
 import { offlineSoloEngine } from '../services/offlineSoloEngine.js';
-import { ManagerProfile, TeamEdition } from '../../shared/types/index.js';
+import { ManagerProfile } from '../../shared/types/index.js';
 import { getOvrBadgeClass } from '../utils/ovrColor.js';
 import { DreamTeamBuilderModal } from './DreamTeamBuilderModal.js';
 import { getEditionCaliber } from '../utils/dreamTeamHelper.js';
@@ -10,13 +10,9 @@ import { getCustomFormations } from '../utils/customFormations.js';
 import {
   X,
   Trophy,
-  Award,
   Shield,
-  Target,
-  Flame,
   Check,
   Edit2,
-  Calendar,
   Sparkles,
   Play,
   Trash2,
@@ -39,7 +35,6 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
 
   // Friendly match state
   const [isExhibitionOpen, setIsExhibitionOpen] = useState(false);
-  const [opponentSearch, setOpponentSearch] = useState('');
   const [selectedOpponentId, setSelectedOpponentId] = useState<string>('');
   const [durationSec, setDurationSec] = useState<number>(45);
   const [isBuilderOpen, setIsBuilderOpen] = useState(false);
@@ -105,7 +100,6 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
       ? Math.round((profile.stats.wins / profile.stats.matchesPlayed) * 100)
       : 0;
 
-  const nextLevelXp = profile.level * 300;
   const currentLevelXp = profile.xp % 300;
   const xpPercent = Math.min(100, Math.round((currentLevelXp / 300) * 100));
 

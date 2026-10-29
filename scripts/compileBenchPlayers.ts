@@ -32,7 +32,6 @@ const existingClubEditions = JSON.parse(
 );
 
 const identityMap = new Map<string, any>(existingIdentities.map((id: any) => [id.id, id]));
-const existingPlayerIds = new Set<string>(existingClubPlayers.map((p: any) => p.id));
 
 let newIdentitiesAdded = 0;
 let newPlayersAdded = 0;

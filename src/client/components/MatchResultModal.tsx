@@ -13,7 +13,6 @@ import {
   Sparkles,
   Check,
 } from 'lucide-react';
-import { messages } from '../i18n/messages.js';
 import { getOvrColorClass } from '../utils/ovrColor.js';
 import { profileService } from '../services/profileService.js';
 import { convertDraftStateToDreamTeam } from '../utils/dreamTeamHelper.js';

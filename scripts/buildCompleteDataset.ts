@@ -36,7 +36,7 @@ interface IdentityDef {
 }
 
 // Function to convert PlayerDef to PlayerVersion format
-function toPlayerVersion(p: PlayerDef) {
+export function toPlayerVersion(p: PlayerDef) {
   return {
     id: p.id,
     identityId: p.identityId,
@@ -70,8 +70,8 @@ function toPlayerVersion(p: PlayerDef) {
 
 // Read existing datasets
 const existingIdentities: IdentityDef[] = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'identities.json'), 'utf-8'));
-const existingNatPlayers = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_national.json'), 'utf-8'));
-const existingClubPlayers = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_club.json'), 'utf-8'));
+const _existingNatPlayers = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_national.json'), 'utf-8'));
+const _existingClubPlayers = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_club.json'), 'utf-8'));
 
-console.log(`Loaded ${existingIdentities.length} existing identities.`);
+console.log(`Loaded ${existingIdentities.length} existing identities. (${_existingNatPlayers.length} nat, ${_existingClubPlayers.length} club)`);
 

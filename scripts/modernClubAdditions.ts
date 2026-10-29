@@ -1,4 +1,4 @@
-import { ClubEditionDef, PlayerDef, IdentityDef } from './modernClubBase.js';
+import { ClubEditionDef } from './modernClubBase.js';
 
 export const newClubEditions: ClubEditionDef[] = [
   {

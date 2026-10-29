@@ -1,6 +1,6 @@
 import React from 'react';
-import { DraftedSlot, FormationDefinition, FormationSlot } from '../../shared/types/index.js';
-import { Award, User } from 'lucide-react';
+import { DraftedSlot, FormationDefinition } from '../../shared/types/index.js';
+import { Award } from 'lucide-react';
 import { getOvrColorClass } from '../utils/ovrColor.js';
 
 interface TacticalPitchProps {

@@ -13,5 +13,6 @@ const clubEditions = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'editions_cl
 let nationalPlayers = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_national.json'), 'utf-8'));
 let clubPlayers = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'players_club.json'), 'utf-8'));
 
+console.log(`Loaded ${identities.length} identities, ${nationalEditions.length} national editions, ${clubEditions.length} club editions.`);
 console.log(`Starting with ${nationalPlayers.length} national players, ${clubPlayers.length} club players.`);
 
