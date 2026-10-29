@@ -8,6 +8,7 @@ import {
   keptClubPlayers,
   existingIdentities,
   IdentityDef,
+  PlayerDef,
 } from './modernClubBase.js';
 import { newClubEditions } from './modernClubAdditions.js';
 import { modernClubPlayersPart1 } from './modernClubPlayers1.js';

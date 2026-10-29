@@ -149,6 +149,9 @@ export interface PlayerDraftState {
   roles?: SquadRoles;
   gameplan?: TacticalGameplan;
   draftedSlots: Record<string, DraftedSlot>; // slotId -> DraftedSlot
+  benchSlots?: Record<string, DraftedSlot>; // Optional bench substitutes
+  enableSubstitutions?: boolean; // Whether 6 bench substitutes and in-match subs are enabled
+  chemistry?: number; // 0-100 squad synergy
   usedIdentityIds: string[]; // Uniqueness tracker
   rerollsRemaining: number; // 3 per XI
   currentTeamEdition: TeamEdition | null;
@@ -157,6 +160,12 @@ export interface PlayerDraftState {
 }
 
 export type DraftTurn = 'host' | 'guest';
+
+export interface RematchRequest {
+  requestedBy: 'host' | 'guest';
+  status: 'pending' | 'accepted' | 'declined';
+  requestedAt: number;
+}
 
 export interface RoomState {
   roomCode: string;
@@ -184,6 +193,7 @@ export interface RoomState {
   matchId?: string;
   matchFormat?: 'auto' | 'normal' | 'knockout';
   matchDurationSec?: number; // 45, 90, 180 (3 min), 240 (4 min)
+  enableSubstitutions?: boolean; // Toggle for 17-player squad with bench drafting & in-match subs
   lastPickAnnouncement?: {
     seat: 'host' | 'guest';
     playerName: string;
@@ -191,6 +201,7 @@ export interface RoomState {
     position: string;
     teamEditionName?: string;
   };
+  rematch?: RematchRequest;
 }
 
 // Match simulation types
@@ -203,6 +214,7 @@ export type MatchEventType =
   | 'yellow_card'
   | 'red_card'
   | 'defensive_intervention'
+  | 'substitution'
   | 'goal'
   | 'miss'
   | 'halftime'
@@ -240,9 +252,31 @@ export interface MatchEvent {
     guest: number;
   };
   isGoal?: boolean;
+  xG?: number; // Expected Goals value (0.01 to 0.99)
   pitchLocation?: {
     x: number; // 0-100 percentage length of pitch
     y: number; // 0-100 percentage width of pitch
+  };
+}
+
+export interface MatchSubstitution {
+  second: number;
+  minute: number;
+  team: 'host' | 'guest';
+  slotId: string;
+  playerOut: {
+    id: string;
+    name: string;
+    position: Position;
+    squadNumber: number;
+    ovr?: number;
+  };
+  playerIn: {
+    id: string;
+    name: string;
+    position: Position;
+    squadNumber: number;
+    ovr: number;
   };
 }
 
@@ -271,6 +305,7 @@ export interface MatchSimulationState {
   currentMinute: number; // 0-90 (or up to 120)
   knockoutMode: boolean;
   matchFormat?: 'league' | 'cup';
+  enableSubstitutions?: boolean; // Whether substitution mechanics are active for this match
   hostTeam: {
     name: string;
     formation: string;
@@ -303,6 +338,8 @@ export interface MatchSimulationState {
   winMethod?: 'regular_time' | 'extra_time' | 'penalties' | 'draw';
   liveMentality?: LiveMentality;
   tacticalInstructions?: TacticalInstructions;
+  momentum?: number; // -100 (complete guest dominance) to +100 (complete host dominance)
+  substitutions?: MatchSubstitution[];
   stats: {
     host: {
       shots: number;
@@ -311,6 +348,7 @@ export interface MatchSimulationState {
       corners: number;
       tackles: number;
       fouls: number;
+      xG: number;
     };
     guest: {
       shots: number;
@@ -319,6 +357,7 @@ export interface MatchSimulationState {
       corners: number;
       tackles: number;
       fouls: number;
+      xG: number;
     };
   };
 }
@@ -389,6 +428,59 @@ export type TournamentRound =
   | 'final'
   | 'completed';
 
+export interface TournamentGoalEvent {
+  minute: number;
+  scorerName: string;
+  scorerId?: string;
+  assisterName?: string;
+  assisterId?: string;
+  teamName: string;
+  isUser?: boolean;
+}
+
+export interface TournamentPlayerStat {
+  playerId: string;
+  name: string;
+  teamId: string;
+  teamName: string;
+  editionId?: string;
+  position?: Position;
+  goals: number;
+  assists: number;
+  matchesPlayed: number;
+  isUserPlayer?: boolean;
+}
+
+export interface TournamentAwards {
+  championTeam: string;
+  runnerUpTeam: string;
+  goldenBoot?: {
+    playerId: string;
+    playerName: string;
+    teamName: string;
+    goals: number;
+    assists: number;
+    isUserPlayer?: boolean;
+  };
+  topPlaymaker?: {
+    playerId: string;
+    playerName: string;
+    teamName: string;
+    assists: number;
+    goals: number;
+    isUserPlayer?: boolean;
+  };
+  mvp?: {
+    playerId: string;
+    playerName: string;
+    teamName: string;
+    goals: number;
+    assists: number;
+    totalContributions: number;
+    isUserPlayer?: boolean;
+  };
+}
+
 export interface TournamentMatchFixture {
   id: string;
   round: TournamentRound;
@@ -401,6 +493,7 @@ export interface TournamentMatchFixture {
   status: 'scheduled' | 'live' | 'finished';
   isUserMatch: boolean;
   simulation?: MatchSimulationState;
+  goals?: TournamentGoalEvent[];
 }
 
 export interface TournamentState {
@@ -424,6 +517,8 @@ export interface TournamentState {
   champion?: TournamentTeam;
   runnerUp?: TournamentTeam;
   isEliminated: boolean;
+  playerStats?: Record<string, TournamentPlayerStat>;
+  awards?: TournamentAwards;
   createdAt: number;
   updatedAt: number;
 }
@@ -498,4 +593,46 @@ export interface ManagerProfile {
     date: number;
     stage: string;
   }>;
+}
+
+// Historical Scenario ("Time Machine") System
+export interface HistoricalScenarioObjective {
+  id: string;
+  description: string;
+  targetGoalDiff?: number;
+  preventConceding?: boolean;
+}
+
+export interface HistoricalScenario {
+  id: string;
+  title: string;
+  subtitle: string;
+  era: string; // e.g. "2005 Champions League Final"
+  year: number;
+  difficulty: 'normal' | 'hard' | 'legendary';
+  description: string;
+  lore: string;
+  userTeam: {
+    name: string;
+    formationId: string;
+    editionId: string;
+    poolType: PoolType;
+  };
+  opponentTeam: {
+    name: string;
+    formationId: string;
+    editionId: string;
+    poolType: PoolType;
+  };
+  startingSecond: number;
+  startingMinute: number;
+  startingScore: { host: number; guest: number };
+  durationSec: number;
+  userIsHost: boolean;
+  objectives: HistoricalScenarioObjective[];
+  rewards: {
+    xp: number;
+    trophyName: string;
+    badgeEmoji: string;
+  };
 }

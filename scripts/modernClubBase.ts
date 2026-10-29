@@ -121,11 +121,14 @@ const keptClubPlayers = existingClubPlayers.filter(
 console.log(`Kept ${keptClubEditions.length} modern existing club editions.`);
 console.log(`Kept ${keptClubPlayers.length} existing club players.`);
 
-export {
-  DATA_DIR,
+export type {
   ClubEditionDef,
   PlayerDef,
   IdentityDef,
+};
+
+export {
+  DATA_DIR,
   toPlayerVersion,
   keptClubEditions,
   keptClubPlayers,

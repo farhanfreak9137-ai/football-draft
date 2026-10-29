@@ -38,6 +38,26 @@ export class PRNG {
   }
 
   /**
+   * Returns a random element from an array weighted by an array of positive numbers.
+   */
+  pickWeighted<T>(items: readonly T[] | T[], weights: number[]): T {
+    if (items.length === 0) {
+      throw new Error('Cannot pick from empty array');
+    }
+    let totalWeight = 0;
+    for (let i = 0; i < items.length; i++) {
+      totalWeight += Math.max(0, weights[i] ?? 1);
+    }
+    if (totalWeight <= 0) return this.pickOne(items);
+    let r = this.next() * totalWeight;
+    for (let i = 0; i < items.length; i++) {
+      r -= Math.max(0, weights[i] ?? 1);
+      if (r <= 0) return items[i];
+    }
+    return items[items.length - 1];
+  }
+
+  /**
    * Shuffles an array in place using Fisher-Yates.
    */
   shuffle<T>(items: T[]): T[] {

@@ -488,7 +488,7 @@ function completeSquad(team: Simple2026Squad): any[] {
       naturalPositions: nat,
       secondaryPositions: sec,
       ovr,
-      role: 'Reserve Squad',
+      role: 'Rotation',
       hasLegendSeal: false,
       legendSealReason: undefined,
     });
