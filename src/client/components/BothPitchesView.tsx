@@ -45,10 +45,10 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
   // Helper for role-based styling
   const getRoleColors = (pos: Position, hasLegendSeal: boolean, ovr?: number) => {
     if (ovr !== undefined && ovr >= 95) {
-      return 'bg-red-950/95 border-red-500 text-red-300 ring-2 ring-red-500/50 shadow-[0_0_14px_rgba(239,68,68,0.55)]';
+      return 'bg-gradient-to-b from-tactical-800 via-amber-950/40 to-tactical-900 border-amber-300 text-amber-200 ring-2 ring-amber-400/60 shadow-[0_0_16px_rgba(245,158,11,0.55)]';
     }
     if (hasLegendSeal || (ovr !== undefined && ovr >= 90)) {
-      return 'bg-amber-950/95 border-gold-400 text-gold-300 ring-2 ring-gold-400/40 shadow-[0_0_12px_rgba(234,179,8,0.4)]';
+      return 'bg-gradient-to-b from-tactical-800 to-tactical-900 border-amber-400 text-amber-300 ring-2 ring-amber-400/40 shadow-[0_0_12px_rgba(245,158,11,0.3)]';
     }
     if (pos === 'GK') {
       return 'bg-amber-950/90 border-amber-400 text-amber-200 shadow-md';
@@ -81,15 +81,15 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
     const teamTitle = isHost ? hostName : guestName;
 
     return (
-      <div className="bg-tactical-850 border border-tactical-700/80 rounded-xl p-4 shadow-xl flex flex-col space-y-3">
+      <div className="bg-tactical-850/95 border border-tactical-700/80 rounded-2xl p-4 shadow-xl flex flex-col space-y-3">
         {/* Pitch Header */}
         <div className="flex items-center justify-between pb-2.5 border-b border-tactical-700/70 gap-2">
           <div className="flex items-center gap-2.5 min-w-0">
             <div
               className={`w-7 h-7 rounded-full border-2 flex items-center justify-center font-bold text-xs shrink-0 ${
                 isHost
-                  ? 'bg-emerald-950 border-emerald-400 text-emerald-300'
-                  : 'bg-orange-950 border-orange-400 text-orange-300'
+                  ? 'bg-emerald-950 border-emerald-400 text-emerald-300 shadow-sm'
+                  : 'bg-orange-950 border-orange-400 text-orange-300 shadow-sm'
               }`}
             >
               {isHost ? 'H' : 'G'}
@@ -106,7 +106,7 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
 
           <div className="shrink-0 text-right">
             {isMatchFinished ? (
-              <span className="font-mono text-xs px-2 py-0.5 rounded bg-tactical-900 border border-tactical-700 text-emerald-400 font-bold">
+              <span className="font-mono text-xs px-2.5 py-0.5 rounded-full bg-tactical-900 border border-emerald-500/40 text-emerald-400 font-bold shadow-xs">
                 Avg: {avgRating}
               </span>
             ) : (
@@ -118,20 +118,20 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
         </div>
 
         {/* 2D Tactical Field with Set Players */}
-        <div className="relative w-full aspect-[3/4] max-h-[500px] rounded-lg tactical-pitch-bg shadow-inner overflow-hidden select-none border-2 border-pitch-line/80">
+        <div className="relative w-full aspect-[3/4] max-h-[500px] rounded-xl tactical-pitch-bg shadow-2xl overflow-hidden select-none border-2 border-pitch-line-solid/35">
           {/* Halfway line */}
-          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-pitch-line/60 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-pitch-line -translate-y-1/2 pointer-events-none" />
           {/* Center circle */}
-          <div className="absolute top-1/2 left-1/2 w-24 h-24 border-2 border-pitch-line/60 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-          <div className="absolute top-1/2 left-1/2 w-1.5 h-1.5 bg-pitch-line/80 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute top-1/2 left-1/2 w-24 h-24 border-2 border-pitch-line rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-pitch-line rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
 
           {/* Top Penalty Area (Opponent Box) */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-44 h-16 border-b-2 border-x-2 border-pitch-line/60 pointer-events-none" />
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-6 border-b-2 border-x-2 border-pitch-line/60 pointer-events-none" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-44 h-16 border-b-2 border-x-2 border-pitch-line pointer-events-none" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-6 border-b-2 border-x-2 border-pitch-line pointer-events-none" />
 
           {/* Bottom Penalty Area (Defending Box) */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-44 h-16 border-t-2 border-x-2 border-pitch-line/60 pointer-events-none" />
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 h-6 border-t-2 border-x-2 border-pitch-line/60 pointer-events-none" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-44 h-16 border-t-2 border-x-2 border-pitch-line pointer-events-none" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 h-6 border-t-2 border-x-2 border-pitch-line pointer-events-none" />
 
           {/* Direction indicator */}
           <div className="absolute top-2 left-2 text-[9px] font-mono text-pitch-line/90 uppercase tracking-wider font-semibold pointer-events-none">
@@ -187,7 +187,7 @@ export const BothPitchesView: React.FC<BothPitchesViewProps> = ({
                     <Award
                       className={`absolute -top-1 -right-1 w-3.5 h-3.5 ${
                         player.ovr >= 95
-                          ? 'text-red-400 fill-red-500/30'
+                          ? 'text-amber-300 fill-amber-300/40 drop-shadow-[0_0_4px_rgba(251,191,36,0.8)]'
                           : 'text-gold-400 fill-gold-500/30'
                       }`}
                     />

@@ -3,14 +3,12 @@ import {
   MatchSimulationState,
   PlayerDraftState,
   PlayerMatchRating,
+  RoomState,
 } from '../../shared/types/index.js';
 import {
   Trophy,
   Star,
   X,
-  ArrowRight,
-  Shield,
-  Activity,
   RotateCcw,
   Sparkles,
   Check,
@@ -27,13 +25,18 @@ interface MatchResultModalProps {
   liveMatch: MatchSimulationState;
   hostDraft: PlayerDraftState;
   guestDraft?: PlayerDraftState;
+  room?: RoomState | null;
+  mySeat?: 'host' | 'guest';
   ratingsData: {
     hostRatings: PlayerMatchRating[];
     guestRatings: PlayerMatchRating[];
     starOfMatch: PlayerMatchRating | null;
   } | null;
-  onViewBothPitches: () => void;
+  onViewBothPitches?: () => void;
   onPlayAgain: () => void;
+  onExitMatch?: () => void;
+  onRespondRematch?: (accept: boolean) => void;
+  onCancelRematch?: () => void;
   isTournament?: boolean;
 }
 
@@ -43,9 +46,13 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
   liveMatch,
   hostDraft,
   guestDraft,
+  room,
+  mySeat,
   ratingsData,
-  onViewBothPitches,
   onPlayAgain,
+  onExitMatch,
+  onRespondRematch,
+  onCancelRematch,
   isTournament = false,
 }) => {
   const [dreamTeamSaved, setDreamTeamSaved] = useState(false);
@@ -61,6 +68,12 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
 
   const hostName = hostDraft.playerName || 'Host XI';
   const guestName = guestDraft?.playerName || 'Opponent XI';
+  const opponentName = mySeat === 'host' ? guestName : hostName;
+  const rematchState = room?.rematch;
+  const isRematchRequestedByMe = rematchState?.status === 'pending' && rematchState.requestedBy === mySeat;
+  const isRematchRequestedByOpponent = rematchState?.status === 'pending' && rematchState.requestedBy !== mySeat;
+  const isRematchDeclinedForMe = rematchState?.status === 'declined' && rematchState.requestedBy === mySeat;
+
   const regDuration = liveMatch.regularDurationSeconds || (liveMatch.totalDurationSeconds <= 60 ? 45 : liveMatch.totalDurationSeconds);
   const hasExtraTime = Boolean(
     liveMatch.totalDurationSeconds > regDuration ||
@@ -252,11 +265,11 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
 
               {/* Central Score */}
               <div className="flex flex-col items-center justify-center">
-                <div className="font-mono text-3xl sm:text-4xl font-black text-tactical-100 tracking-tight flex items-center gap-2">
+                <div className="font-display text-4xl sm:text-5xl font-black text-white tracking-widest flex items-center gap-2.5 drop-shadow-md">
                   <span className={isHostWinner ? 'text-emerald-400' : ''}>
                     {liveMatch.score.host}
                   </span>
-                  <span className="text-tactical-600 font-light text-2xl">-</span>
+                  <span className="text-tactical-600 font-light text-2xl sm:text-3xl">-</span>
                   <span className={isGuestWinner ? 'text-orange-400' : ''}>
                     {liveMatch.score.guest}
                   </span>
@@ -406,6 +419,52 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
               </span>
             </div>
           </div>
+
+          {/* Incoming Rematch Invitation Banner inside Modal */}
+          {isRematchRequestedByOpponent && (
+            <div className="p-3.5 rounded-xl bg-pitch-DEFAULT/15 border-2 border-pitch-line text-tactical-100 space-y-2 animate-fade-in shadow-lg">
+              <div className="flex items-center justify-between text-xs font-bold">
+                <span className="flex items-center gap-1.5 text-pitch-accent">
+                  <RotateCcw className="w-4 h-4" />
+                  <span>{opponentName} wants a Rematch!</span>
+                </span>
+                <span className="text-[10px] text-tactical-400 font-mono">Room {room?.roomCode}</span>
+              </div>
+              <p className="text-[11px] text-tactical-300">
+                Play again with a brand new 11-round draft in this room?
+              </p>
+              <div className="flex items-center justify-end gap-2 pt-1">
+                <button
+                  onClick={() => onRespondRematch?.(false)}
+                  className="px-3 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-750 text-tactical-300 hover:text-tactical-100 text-xs font-semibold border border-tactical-700 transition-all"
+                >
+                  ✕ Decline
+                </button>
+                <button
+                  onClick={() => onRespondRematch?.(true)}
+                  className="px-4 py-1.5 rounded-lg bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 text-xs font-bold border border-pitch-line shadow-md transition-all active:scale-95"
+                >
+                  ✓ Accept Rematch
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Rematch Declined Notice inside Modal */}
+          {isRematchDeclinedForMe && (
+            <div className="p-3 rounded-xl bg-red-950/70 border border-red-800/80 text-red-200 text-xs flex items-center justify-between gap-2 animate-fade-in">
+              <div className="flex items-center gap-2">
+                <span>❌</span>
+                <span>{opponentName} declined the rematch request.</span>
+              </div>
+              <button
+                onClick={onPlayAgain}
+                className="px-3 py-1 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-200 text-[11px] font-semibold border border-tactical-600"
+              >
+                Try Again
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Action Buttons Footer */}
@@ -423,18 +482,38 @@ export const MatchResultModal: React.FC<MatchResultModalProps> = ({
           <div className="flex items-center gap-2">
             <button
               onClick={onClose}
-              className="flex items-center justify-center gap-1.5 py-2 px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-200 font-semibold text-xs border border-tactical-700 transition-all"
+              className="flex items-center justify-center gap-1.5 py-2 px-3.5 sm:px-4 rounded-xl bg-tactical-800 hover:bg-tactical-700 text-tactical-200 font-semibold text-xs border border-tactical-700 transition-all"
             >
               <span>Close</span>
             </button>
 
-            <button
-              onClick={onPlayAgain}
-              className="flex items-center justify-center gap-1.5 py-2 px-5 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-xs border border-pitch-line active:scale-98 shadow-md transition-all"
-            >
-              <RotateCcw className="w-3.5 h-3.5" />
-              <span>{messages.match.playAgain}</span>
-            </button>
+            {onExitMatch && !isTournament && (
+              <button
+                onClick={onExitMatch}
+                className="flex items-center justify-center gap-1.5 py-2 px-3.5 sm:px-4 rounded-xl bg-tactical-800 hover:bg-tactical-750 text-tactical-300 hover:text-tactical-100 font-semibold text-xs border border-tactical-700 transition-all"
+              >
+                <span>Exit Room</span>
+              </button>
+            )}
+
+            {isRematchRequestedByMe ? (
+              <button
+                onClick={onCancelRematch}
+                className="flex items-center justify-center gap-2 py-2 px-4 rounded-xl bg-gold-950/60 hover:bg-gold-900/80 text-gold-300 font-bold text-xs border border-gold-500/50 active:scale-98 shadow-md transition-all"
+                title="Cancel pending rematch request"
+              >
+                <span className="w-2 h-2 rounded-full bg-gold-400 animate-ping" />
+                <span>Waiting... (Cancel)</span>
+              </button>
+            ) : (
+              <button
+                onClick={onPlayAgain}
+                className="flex items-center justify-center gap-1.5 py-2 px-5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-xs border border-emerald-300/80 shadow-[0_0_15px_rgba(16,185,129,0.35)] active:scale-95 transition-all cursor-pointer uppercase tracking-wider"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>{isTournament ? messages.match.playAgain : 'Play Again'}</span>
+              </button>
+            )}
           </div>
         </div>
       </div>

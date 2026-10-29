@@ -7,34 +7,60 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Exact 6-Color Palette from Uxintace
+        ocean: {
+          abyss: '#031716',    // Deep Abyssal Teal / Pitch Dark Canvas
+          pine: '#032F30',     // Midnight Pine / Surface Container Fill
+          deep: '#0A7075',     // Ocean Teal / Deep Emerald Borders & Buttons
+          teal: '#0C969C',     // Seafoam Turquoise / Glowing Highlights & CTAs
+          ice: '#6BA3BE',      // Glacial Sky Cyan / Text & Subtle Labels
+          petrol: '#274D60',   // Steel Petrol Slate / Dividers & Outlines
+        },
         pitch: {
-          dark: '#0f2416',
-          DEFAULT: '#143820',
-          light: '#1b4d2c',
-          line: '#3a7d50',
-          accent: '#2ecc71',
+          night: '#000000',
+          dark: '#030806',
+          DEFAULT: '#051109',
+          light: '#0A7075',
+          mow: '#063a3b',
+          line: 'rgba(107, 163, 190, 0.45)',
+          'line-solid': '#0C969C',
+          accent: '#0C969C',
+          glow: '#0C969C',
+        },
+        azure: {
+          300: '#8ec0d6',
+          400: '#6BA3BE',
+          500: '#0C969C',
+          600: '#0A7075',
+          700: '#000000',
+          800: '#000000',
+          glow: '#0C969C',
         },
         tactical: {
-          950: '#070a0f',
-          900: '#0d1117',
-          850: '#11161d',
-          800: '#161b22',
-          750: '#1b2129',
-          700: '#21262d',
-          600: '#30363d',
-          500: '#484f58',
-          400: '#8b949e',
-          300: '#c9d1d9',
-          200: '#e6edf3',
-          100: '#f0f6fc',
+          950: '#000000',      // Pure pitch black canvas
+          900: '#030606',      // Pitch black container
+          850: '#070c0c',      // Pitch card container
+          800: '#0e1717',      // Pitch sub-container
+          750: '#142020',      // Pitch border
+          700: '#274D60',      // Steel petrol outline
+          650: '#1e5768',
+          600: '#0A7075',      // Deep ocean emerald
+          500: '#0C969C',      // Seafoam turquoise glow
+          400: '#46a5b6',
+          300: '#6BA3BE',      // Glacial ice text
+          200: '#cbd5e1',
+          100: '#ffffff',
         },
         gold: {
-          500: '#d4af37',
-          600: '#b89628',
-          400: '#f3cf55',
+          300: '#fde047',
+          400: '#fbbf24',
+          500: '#f59e0b',
+          600: '#d97706',
+          700: '#b45309',
         }
       },
       fontFamily: {
+        display: ['Rajdhani', 'Inter', 'system-ui', 'sans-serif'],
         mono: ['JetBrains Mono', 'Menlo', 'Consolas', 'Courier New', 'monospace'],
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
       }

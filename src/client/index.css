@@ -14,9 +14,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #0d1117;
-  color: #f0f6fc;
+  background-color: #000000;
+  color: #ffffff;
   -webkit-tap-highlight-color: transparent;
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(12, 150, 156, 0.28) 0%, transparent 70%),
+    radial-gradient(circle 800px at 90% 20%, rgba(10, 112, 117, 0.18) 0%, transparent 60%),
+    radial-gradient(circle 800px at 10% 70%, rgba(12, 150, 156, 0.12) 0%, transparent 60%);
+  background-attachment: fixed;
 }
 
 /* Smooth mobile touch scrolling & bounce physics */
@@ -27,35 +32,112 @@ body {
   touch-action: pan-y;
 }
 
-/* Custom sleek scrollbar */
+/* Custom sleek stadium scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(13, 17, 23, 0.6);
+  background: #000000;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(46, 204, 113, 0.25);
+  background: rgba(10, 112, 117, 0.5);
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(46, 204, 113, 0.45);
+  background: #0C969C;
 }
 
-/* Tactical pitch styling */
+/* Authentic Tactical Pitch Turf Styling with floodlight vignette */
 .tactical-pitch-bg {
-  background-color: #143820;
-  background-image: 
+  background-color: #000000;
+  background-image:
+    radial-gradient(ellipse at 50% 50%, rgba(12, 150, 156, 0.12) 0%, rgba(0, 0, 0, 0.85) 100%),
     repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.03) 0px,
-      rgba(255, 255, 255, 0.03) 10%,
+      rgba(107, 163, 190, 0.04) 0px,
+      rgba(107, 163, 190, 0.04) 10%,
       transparent 10%,
       transparent 20%
     );
-  border: 2px solid #3a7d50;
+  border: 2px solid rgba(12, 150, 156, 0.4);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8), 0 10px 30px -5px rgba(0, 0, 0, 0.7);
   position: relative;
+}
+
+/* Pitch Black Cards with Turquoise Glowing Borders & Atmospheric Depth */
+.glass-panel {
+  background: rgba(0, 0, 0, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cinematic-card {
+  background: rgba(3, 3, 3, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.95), 0 0 35px -5px rgba(12, 150, 156, 0.22);
+}
+
+.cinematic-card-gold {
+  background: rgba(3, 3, 3, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.95), 0 0 35px -10px rgba(245, 158, 11, 0.25);
+}
+
+/* Vivid Seafoam Glows */
+.turquoise-glow,
+.purple-glow,
+.azure-glow {
+  box-shadow: 0 0 30px rgba(12, 150, 156, 0.45);
+}
+
+.turquoise-glow-sm,
+.purple-glow-sm {
+  box-shadow: 0 0 18px rgba(12, 150, 156, 0.35);
+}
+
+.turquoise-hover,
+.purple-hover {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.turquoise-hover:hover,
+.purple-hover:hover {
+  border-color: #0C969C !important;
+  box-shadow: 0 0 25px rgba(12, 150, 156, 0.45) !important;
+}
+
+.glass-gold {
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+}
+
+.glass-azure {
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(12, 150, 156, 0.4);
+}
+
+.glass-emerald {
+  background: linear-gradient(135deg, rgba(12, 150, 156, 0.12) 0%, rgba(0, 0, 0, 0.92) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(10, 112, 117, 0.4);
+}
+
+.stadium-glow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.gold-glow {
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.25);
 }
 
 /* Reduced motion accessibility */

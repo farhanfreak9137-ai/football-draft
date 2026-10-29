@@ -7,20 +7,17 @@ import {
   TournamentState,
 } from '../../shared/types/index.js';
 import { tournamentService } from '../services/tournamentService.js';
-import { profileService } from '../services/profileService.js';
 import {
   Trophy,
   ArrowRight,
   Shield,
   Clock,
   Check,
-  ChevronRight,
-  Flame,
-  AlertTriangle,
   RotateCcw,
   Sparkles,
   Award,
-  Users,
+  BarChart3,
+  Calendar,
 } from 'lucide-react';
 
 interface TournamentViewProps {
@@ -29,6 +26,389 @@ interface TournamentViewProps {
   formations: FormationDefinition[];
   defaultFormationId: string;
 }
+
+interface TournamentStatsSectionProps {
+  tournament: TournamentState;
+  statsView: 'scorers' | 'assists' | 'squad';
+  setStatsView: (v: 'scorers' | 'assists' | 'squad') => void;
+}
+
+const TournamentStatsSection: React.FC<TournamentStatsSectionProps> = ({
+  tournament,
+  statsView,
+  setStatsView,
+}) => {
+  const allStats = Object.values(tournament.playerStats || {});
+  const topScorers = [...allStats]
+    .filter((s) => s.goals > 0)
+    .sort((a, b) => b.goals - a.goals || b.assists - a.assists)
+    .slice(0, 15);
+
+  const topAssisters = [...allStats]
+    .filter((s) => s.assists > 0)
+    .sort((a, b) => b.assists - a.assists || b.goals - a.goals)
+    .slice(0, 15);
+
+  const squadStats = [...allStats]
+    .filter((s) => s.isUserPlayer)
+    .sort((a, b) => b.goals + b.assists - (a.goals + a.assists) || b.goals - a.goals);
+
+  const awards = tournament.awards;
+
+  return (
+    <div className="bg-tactical-850 border border-tactical-700 rounded-2xl p-5 sm:p-6 shadow-xl space-y-5 animate-fade-in">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-tactical-750 pb-4">
+        <div>
+          <h2 className="text-lg font-black text-tactical-100 uppercase tracking-wide flex items-center gap-2">
+            <BarChart3 className="w-5 h-5 text-gold-400" />
+            <span>Tournament Statistics & Honours</span>
+          </h2>
+          <p className="text-xs text-tactical-400 mt-0.5">
+            Full player-level records across all 32 World Cup teams and simulated matches
+          </p>
+        </div>
+
+        {/* View Switcher Tabs */}
+        <div className="flex items-center gap-1.5 bg-tactical-900 p-1 rounded-xl border border-tactical-750 self-start sm:self-auto">
+          <button
+            type="button"
+            onClick={() => setStatsView('scorers')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              statsView === 'scorers'
+                ? 'bg-gold-500 text-tactical-950 shadow'
+                : 'text-tactical-300 hover:text-tactical-100 hover:bg-tactical-800'
+            }`}
+          >
+            <span>⚽ Top Scorers</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setStatsView('assists')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              statsView === 'assists'
+                ? 'bg-emerald-500 text-tactical-950 shadow'
+                : 'text-tactical-300 hover:text-tactical-100 hover:bg-tactical-800'
+            }`}
+          >
+            <span>🎯 Top Assists</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setStatsView('squad')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
+              statsView === 'squad'
+                ? 'bg-pitch-accent text-tactical-950 shadow'
+                : 'text-tactical-300 hover:text-tactical-100 hover:bg-tactical-800'
+            }`}
+          >
+            <span>⭐️ Your Squad</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Honours Cards (Awards) */}
+      {awards && (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          {/* Golden Boot */}
+          {awards.goldenBoot ? (
+            <div className="bg-gradient-to-br from-amber-950/40 via-tactical-900 to-tactical-900 border border-gold-500/40 rounded-xl p-3.5 relative overflow-hidden">
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-bold text-gold-400 uppercase tracking-wider flex items-center gap-1">
+                  <span>🥇 Golden Boot Winner</span>
+                </span>
+                <span className="text-xl">⚽</span>
+              </div>
+              <div className="mt-2">
+                <div className="text-sm font-black text-tactical-100 truncate flex items-center gap-1.5">
+                  <span className="truncate">{awards.goldenBoot.playerName}</span>
+                  {awards.goldenBoot.isUserPlayer && (
+                    <span className="px-1.5 py-0.2 bg-gold-500/20 text-gold-400 border border-gold-500/40 text-[9px] rounded font-mono font-bold">
+                      YOU
+                    </span>
+                  )}
+                </div>
+                <div className="text-[11px] text-tactical-400 truncate">{awards.goldenBoot.teamName}</div>
+                <div className="mt-2 text-xs font-bold text-gold-400 font-mono">
+                  {awards.goldenBoot.goals} Goals{' '}
+                  <span className="text-tactical-400 font-normal">({awards.goldenBoot.assists} ast)</span>
+                </div>
+              </div>
+            </div>
+          ) : null}
+
+          {/* Top Playmaker */}
+          {awards.topPlaymaker ? (
+            <div className="bg-gradient-to-br from-emerald-950/40 via-tactical-900 to-tactical-900 border border-emerald-500/40 rounded-xl p-3.5 relative overflow-hidden">
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1">
+                  <span>👟 Top Playmaker</span>
+                </span>
+                <span className="text-xl">🎯</span>
+              </div>
+              <div className="mt-2">
+                <div className="text-sm font-black text-tactical-100 truncate flex items-center gap-1.5">
+                  <span className="truncate">{awards.topPlaymaker.playerName}</span>
+                  {awards.topPlaymaker.isUserPlayer && (
+                    <span className="px-1.5 py-0.2 bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-[9px] rounded font-mono font-bold">
+                      YOU
+                    </span>
+                  )}
+                </div>
+                <div className="text-[11px] text-tactical-400 truncate">{awards.topPlaymaker.teamName}</div>
+                <div className="mt-2 text-xs font-bold text-emerald-400 font-mono">
+                  {awards.topPlaymaker.assists} Assists{' '}
+                  <span className="text-tactical-400 font-normal">({awards.topPlaymaker.goals} goals)</span>
+                </div>
+              </div>
+            </div>
+          ) : null}
+
+          {/* Tournament MVP */}
+          {awards.mvp ? (
+            <div className="bg-gradient-to-br from-[#0A7075]/30 via-tactical-900 to-tactical-900 border border-[#0C969C]/50 rounded-xl p-3.5 relative overflow-hidden">
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-bold text-[#0C969C] uppercase tracking-wider flex items-center gap-1">
+                  <span>⭐ Tournament MVP</span>
+                </span>
+                <span className="text-xl">🌟</span>
+              </div>
+              <div className="mt-2">
+                <div className="text-sm font-black text-tactical-100 truncate flex items-center gap-1.5">
+                  <span className="truncate">{awards.mvp.playerName}</span>
+                  {awards.mvp.isUserPlayer && (
+                    <span className="px-1.5 py-0.2 bg-[#0C969C]/20 text-[#0C969C] border border-[#0C969C]/40 text-[9px] rounded font-mono font-bold">
+                      YOU
+                    </span>
+                  )}
+                </div>
+                <div className="text-[11px] text-tactical-400 truncate">{awards.mvp.teamName}</div>
+                <div className="mt-2 text-xs font-bold text-[#0C969C] font-mono">
+                  {awards.mvp.totalContributions} Contributions{' '}
+                  <span className="text-tactical-400 font-normal">
+                    ({awards.mvp.goals}G / {awards.mvp.assists}A)
+                  </span>
+                </div>
+              </div>
+            </div>
+          ) : null}
+        </div>
+      )}
+
+      {/* TABLE SECTION */}
+      {statsView === 'scorers' && (
+        <div className="space-y-2">
+          <div className="text-xs font-bold text-tactical-300 uppercase tracking-wider flex items-center justify-between">
+            <span>Golden Boot Race (Top Goalscorers)</span>
+            <span className="text-[10px] text-tactical-500">{topScorers.length} players listed</span>
+          </div>
+
+          {topScorers.length === 0 ? (
+            <div className="text-center py-6 text-xs text-tactical-500 bg-tactical-900/40 rounded-xl border border-tactical-800">
+              No goals recorded yet. Play or simulate matches to see goalscorers!
+            </div>
+          ) : (
+            <div className="overflow-x-auto rounded-xl border border-tactical-750">
+              <table className="w-full text-xs text-left">
+                <thead>
+                  <tr className="bg-tactical-900/90 border-b border-tactical-750 text-[10px] text-tactical-400 uppercase tracking-wider">
+                    <th className="py-2.5 px-3">#</th>
+                    <th className="py-2.5 px-3">Player</th>
+                    <th className="py-2.5 px-3">Team</th>
+                    <th className="py-2.5 px-3 text-center">Pos</th>
+                    <th className="py-2.5 px-3 text-center font-bold text-gold-400">Goals</th>
+                    <th className="py-2.5 px-3 text-center font-mono">Assists</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-tactical-800 bg-tactical-900/40">
+                  {topScorers.map((player, idx) => (
+                    <tr
+                      key={player.playerId}
+                      className={`transition-colors ${
+                        player.isUserPlayer
+                          ? 'bg-amber-950/30 text-tactical-100 font-bold border-l-2 border-l-gold-500'
+                          : 'hover:bg-tactical-800/40 text-tactical-200'
+                      }`}
+                    >
+                      <td className="py-2.5 px-3 font-mono">
+                        <span
+                          className={`w-5 h-5 rounded-full inline-flex items-center justify-center text-[10px] font-bold ${
+                            idx === 0
+                              ? 'bg-gold-500 text-tactical-950'
+                              : idx === 1
+                              ? 'bg-slate-300 text-tactical-950'
+                              : idx === 2
+                              ? 'bg-amber-700 text-white'
+                              : 'text-tactical-400'
+                          }`}
+                        >
+                          {idx + 1}
+                        </span>
+                      </td>
+                      <td className="py-2.5 px-3">
+                        <div className="flex items-center gap-1.5">
+                          <span className="font-bold text-tactical-100">{player.name}</span>
+                          {player.isUserPlayer && (
+                            <span className="px-1.5 py-0.5 rounded bg-gold-500/20 text-gold-400 text-[9px] font-bold border border-gold-500/30">
+                              ★ Manager XI
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="py-2.5 px-3 text-tactical-300 truncate max-w-[160px]">
+                        {player.teamName}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono text-[10px] text-tactical-400">
+                        {player.position || '-'}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono font-black text-gold-400 text-sm">
+                        {player.goals}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono text-tactical-300">
+                        {player.assists}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {statsView === 'assists' && (
+        <div className="space-y-2">
+          <div className="text-xs font-bold text-tactical-300 uppercase tracking-wider flex items-center justify-between">
+            <span>Playmakers Leaderboard (Top Assists)</span>
+            <span className="text-[10px] text-tactical-500">{topAssisters.length} players listed</span>
+          </div>
+
+          {topAssisters.length === 0 ? (
+            <div className="text-center py-6 text-xs text-tactical-500 bg-tactical-900/40 rounded-xl border border-tactical-800">
+              No assists recorded yet. Play or simulate matches to see playmakers!
+            </div>
+          ) : (
+            <div className="overflow-x-auto rounded-xl border border-tactical-750">
+              <table className="w-full text-xs text-left">
+                <thead>
+                  <tr className="bg-tactical-900/90 border-b border-tactical-750 text-[10px] text-tactical-400 uppercase tracking-wider">
+                    <th className="py-2.5 px-3">#</th>
+                    <th className="py-2.5 px-3">Player</th>
+                    <th className="py-2.5 px-3">Team</th>
+                    <th className="py-2.5 px-3 text-center">Pos</th>
+                    <th className="py-2.5 px-3 text-center font-bold text-emerald-400">Assists</th>
+                    <th className="py-2.5 px-3 text-center font-mono">Goals</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-tactical-800 bg-tactical-900/40">
+                  {topAssisters.map((player, idx) => (
+                    <tr
+                      key={player.playerId}
+                      className={`transition-colors ${
+                        player.isUserPlayer
+                          ? 'bg-emerald-950/30 text-tactical-100 font-bold border-l-2 border-l-emerald-500'
+                          : 'hover:bg-tactical-800/40 text-tactical-200'
+                      }`}
+                    >
+                      <td className="py-2.5 px-3 font-mono">
+                        <span
+                          className={`w-5 h-5 rounded-full inline-flex items-center justify-center text-[10px] font-bold ${
+                            idx === 0
+                              ? 'bg-emerald-400 text-tactical-950'
+                              : idx === 1
+                              ? 'bg-slate-300 text-tactical-950'
+                              : idx === 2
+                              ? 'bg-amber-700 text-white'
+                              : 'text-tactical-400'
+                          }`}
+                        >
+                          {idx + 1}
+                        </span>
+                      </td>
+                      <td className="py-2.5 px-3">
+                        <div className="flex items-center gap-1.5">
+                          <span className="font-bold text-tactical-100">{player.name}</span>
+                          {player.isUserPlayer && (
+                            <span className="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-[9px] font-bold border border-emerald-500/30">
+                              ★ Manager XI
+                            </span>
+                          )}
+                        </div>
+                      </td>
+                      <td className="py-2.5 px-3 text-tactical-300 truncate max-w-[160px]">
+                        {player.teamName}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono text-[10px] text-tactical-400">
+                        {player.position || '-'}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono font-black text-emerald-400 text-sm">
+                        {player.assists}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono text-tactical-300">
+                        {player.goals}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {statsView === 'squad' && (
+        <div className="space-y-2">
+          <div className="text-xs font-bold text-tactical-300 uppercase tracking-wider flex items-center justify-between">
+            <span>Your Squad Performance Breakdown</span>
+            <span className="text-[10px] text-tactical-500">{tournament.userTeam.name}</span>
+          </div>
+
+          {squadStats.length === 0 ? (
+            <div className="text-center py-6 text-xs text-tactical-500 bg-tactical-900/30 rounded-xl border border-tactical-800">
+              Your squad has not recorded goals or assists yet in this campaign.
+            </div>
+          ) : (
+            <div className="overflow-x-auto rounded-xl border border-tactical-750">
+              <table className="w-full text-xs text-left">
+                <thead>
+                  <tr className="bg-tactical-900/90 border-b border-tactical-750 text-[10px] text-tactical-400 uppercase tracking-wider">
+                    <th className="py-2.5 px-3">Player</th>
+                    <th className="py-2.5 px-3 text-center">Pos</th>
+                    <th className="py-2.5 px-3 text-center font-bold text-gold-400">Goals</th>
+                    <th className="py-2.5 px-3 text-center font-bold text-emerald-400">Assists</th>
+                    <th className="py-2.5 px-3 text-center font-mono">Total G+A</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-tactical-800 bg-tactical-900/40">
+                  {squadStats.map((p) => (
+                    <tr key={p.playerId} className="hover:bg-tactical-800/40">
+                      <td className="py-2.5 px-3 font-bold text-tactical-100 flex items-center gap-1.5">
+                        <span>⭐</span>
+                        <span>{p.name}</span>
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono text-tactical-400">
+                        {p.position || '-'}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono font-bold text-gold-400">
+                        {p.goals}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono font-bold text-emerald-400">
+                        {p.assists}
+                      </td>
+                      <td className="py-2.5 px-3 text-center font-mono font-black text-tactical-100">
+                        {p.goals + p.assists}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
 
 export const TournamentView: React.FC<TournamentViewProps> = ({
   onStartTournamentMatch,
@@ -48,6 +428,8 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
   const [formationId, setFormationId] = useState(defaultFormationId || '4-3-3');
   const [showAllTourneyFormations, setShowAllTourneyFormations] = useState(false);
   const [viewingGroup, setViewingGroup] = useState<string>('A');
+  const [activeTab, setActiveTab] = useState<'matches' | 'stats'>('matches');
+  const [statsView, setStatsView] = useState<'scorers' | 'assists' | 'squad'>('scorers');
 
   const handleCreateTournament = () => {
     const newTourney = tournamentService.startTournament({
@@ -428,6 +810,36 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
         </div>
       </div>
 
+      {/* Mode Switcher Tabs for Active Campaign */}
+      {!tournament.isEliminated && tournament.currentRound !== 'completed' && (
+        <div className="flex items-center gap-2 border-b border-tactical-700/60 pb-1">
+          <button
+            type="button"
+            onClick={() => setActiveTab('matches')}
+            className={`px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center gap-2 ${
+              activeTab === 'matches'
+                ? 'bg-pitch-DEFAULT text-tactical-100 border border-pitch-line shadow-md'
+                : 'bg-tactical-850 text-tactical-400 hover:text-tactical-200 border border-tactical-700'
+            }`}
+          >
+            <Shield className="w-4 h-4 text-pitch-accent" />
+            <span>Campaign Fixtures & Standings</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('stats')}
+            className={`px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center gap-2 ${
+              activeTab === 'stats'
+                ? 'bg-gold-500 text-tactical-950 border border-gold-400 shadow-md'
+                : 'bg-tactical-850 text-tactical-400 hover:text-tactical-200 border border-tactical-700'
+            }`}
+          >
+            <BarChart3 className={`w-4 h-4 ${activeTab === 'stats' ? 'text-tactical-950' : 'text-gold-400'}`} />
+            <span>📊 Live Tournament Stats</span>
+          </button>
+        </div>
+      )}
+
       {/* Champion Victory Screen if won */}
       {tournament.currentRound === 'completed' && tournament.champion?.isUser && (
         <div className="bg-gradient-to-b from-amber-950/80 via-tactical-900 to-tactical-950 border-2 border-gold-500 rounded-2xl p-8 text-center shadow-2xl space-y-4 animate-fade-in">
@@ -496,263 +908,431 @@ export const TournamentView: React.FC<TournamentViewProps> = ({
         </div>
       )}
 
-      {/* NEXT FIXTURE CTA CARD */}
-      {!tournament.isEliminated && tournament.currentRound !== 'completed' && nextMatch && (
-        <div className="bg-tactical-850 border border-pitch-line/60 rounded-2xl p-6 shadow-xl space-y-4">
-          <div className="flex items-center justify-between text-xs font-bold text-pitch-accent uppercase tracking-wider">
-            <span>Next Scheduled Fixture</span>
-            <span>{getRoundLabel(tournament.currentRound)}</span>
-          </div>
+      {/* STATS & HONOURS SECTION UNDER COMPLETION CARDS */}
+      {(tournament.isEliminated || tournament.currentRound === 'completed') && (
+        <TournamentStatsSection
+          tournament={tournament}
+          statsView={statsView}
+          setStatsView={setStatsView}
+        />
+      )}
 
-          <div className="grid grid-cols-3 items-center py-4 bg-tactical-900 rounded-xl px-4 border border-tactical-750">
-            {/* Home Team */}
-            <div className="text-center sm:text-left">
-              <div className="text-sm sm:text-base font-black text-tactical-100 truncate">
-                {nextMatch.homeTeam.name}
-              </div>
-              <div className="text-[11px] text-tactical-400">
-                {nextMatch.homeTeam.isUser ? '⭐️ Your Manager XI' : `Formation: ${nextMatch.homeTeam.formationId}`}
-              </div>
-            </div>
+      {/* STATS SECTION IN ACTIVE CAMPAIGN TAB */}
+      {!tournament.isEliminated && tournament.currentRound !== 'completed' && activeTab === 'stats' && (
+        <TournamentStatsSection
+          tournament={tournament}
+          statsView={statsView}
+          setStatsView={setStatsView}
+        />
+      )}
 
-            {/* VS */}
-            <div className="text-center font-black text-xs text-gold-400">
-              VS
-            </div>
-
-            {/* Away Team */}
-            <div className="text-center sm:text-right">
-              <div className="text-sm sm:text-base font-black text-tactical-100 truncate">
-                {nextMatch.awayTeam.name}
-              </div>
-              <div className="text-[11px] text-tactical-400">
-                {nextMatch.awayTeam.isUser ? '⭐️ Your Manager XI' : `Formation: ${nextMatch.awayTeam.formationId}`}
-              </div>
-            </div>
-          </div>
-
-          {tournament.userSquad && (
-            <div className="p-3 rounded-xl bg-tactical-900/80 border border-tactical-700/70 flex items-center justify-between text-xs">
-              <div className="flex items-center gap-2">
-                <Shield className="w-4 h-4 text-emerald-400" />
-                <span className="text-tactical-200">
-                  Manager Squad Locked: <strong>{tournament.userTeam.name}</strong> (11/11 Players)
+      {/* MATCHES & FIXTURES CONTENT */}
+      {!tournament.isEliminated && tournament.currentRound !== 'completed' && activeTab === 'matches' && (
+        <>
+          {/* NEXT FIXTURE CTA CARD */}
+          {nextMatch && (
+            <div className="bg-gradient-to-br from-tactical-850 via-tactical-900 to-tactical-950 border-2 border-emerald-500/50 rounded-2xl p-6 shadow-2xl space-y-4">
+              <div className="flex items-center justify-between text-xs font-bold text-pitch-accent uppercase tracking-wider">
+                <span className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span>Next Scheduled Fixture</span>
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-mono font-bold">
+                  {getRoundLabel(tournament.currentRound)}
                 </span>
               </div>
-              <span className="text-gold-400 font-mono font-bold">Ready for Kickoff</span>
+
+              <div className="grid grid-cols-3 items-center py-5 bg-tactical-950/80 rounded-xl px-4 border border-tactical-750/80 shadow-inner">
+                {/* Home Team */}
+                <div className="text-center sm:text-left">
+                  <div className="text-sm sm:text-lg font-black text-tactical-100 font-display truncate">
+                    {nextMatch.homeTeam.name}
+                  </div>
+                  <div className="text-[11px] text-tactical-400 mt-0.5">
+                    {nextMatch.homeTeam.isUser ? (
+                      <span className="text-gold-400 font-bold">⭐ Your Manager XI</span>
+                    ) : (
+                      <span>Formation: {nextMatch.homeTeam.formationId}</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* VS */}
+                <div className="flex flex-col items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-tactical-850 border border-gold-500/50 flex items-center justify-center font-black text-xs text-gold-400 shadow-md">
+                    VS
+                  </div>
+                </div>
+
+                {/* Away Team */}
+                <div className="text-center sm:text-right">
+                  <div className="text-sm sm:text-lg font-black text-tactical-100 font-display truncate">
+                    {nextMatch.awayTeam.name}
+                  </div>
+                  <div className="text-[11px] text-tactical-400 mt-0.5">
+                    {nextMatch.awayTeam.isUser ? (
+                      <span className="text-gold-400 font-bold">⭐ Your Manager XI</span>
+                    ) : (
+                      <span>Formation: {nextMatch.awayTeam.formationId}</span>
+                    )}
+                  </div>
+                </div>
+              </div>
+
+              {tournament.userSquad && (
+                <div className="p-3 rounded-xl bg-tactical-900/80 border border-tactical-700/70 flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2">
+                    <Shield className="w-4 h-4 text-emerald-400" />
+                    <span className="text-tactical-200">
+                      Manager Squad Locked: <strong className="text-tactical-100">{tournament.userTeam.name}</strong> (11/11 Players)
+                    </span>
+                  </div>
+                  <span className="text-gold-400 font-mono font-bold">Ready for Kickoff</span>
+                </div>
+              )}
+
+              <button
+                onClick={() => onStartTournamentMatch(tournament, nextMatch)}
+                className="w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-sm border border-emerald-300/80 shadow-[0_0_25px_rgba(16,185,129,0.4)] flex items-center justify-center gap-2 active:scale-[0.99] transition-all cursor-pointer uppercase tracking-wider"
+              >
+                <span>
+                  {tournament.draftMode === 'dynamic'
+                    ? '🔄 Draft XI & Play Fixture'
+                    : tournament.userSquad
+                    ? '⚔️ Kick Off Match (Simulate Now)'
+                    : '📋 Draft Your 11 Players for Campaign'}
+                </span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
             </div>
           )}
 
-          <button
-            onClick={() => onStartTournamentMatch(tournament, nextMatch)}
-            className="w-full py-4 rounded-xl bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-extrabold text-sm border border-pitch-line shadow-lg flex items-center justify-center gap-2 active:scale-[0.99] transition-all"
-          >
-            <span>
-              {tournament.draftMode === 'dynamic'
-                ? '🔄 Draft XI & Play Fixture'
-                : tournament.userSquad
-                ? '⚔️ Kick Off Match (Simulate Now)'
-                : '📋 Draft Your 11 Players for Campaign'}
-            </span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </div>
-      )}
+          {/* GROUP STAGE STANDINGS TABLE (During Group Stages) */}
+          {tournament.currentRound.startsWith('group_match_') && currentGroup && (
+            <div className="bg-tactical-850 border border-tactical-700 rounded-xl p-5 shadow-lg space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <h3 className="text-xs font-bold text-tactical-200 uppercase tracking-wider flex items-center gap-1.5">
+                  <Shield className="w-4 h-4 text-pitch-accent" />
+                  <span>Group {currentGroup.id} Standings (Top 2 Advance to Round of 16)</span>
+                </h3>
+                {/* Group Switcher Tabs (A through H) */}
+                <div className="flex items-center gap-1 overflow-x-auto py-1">
+                  {tournament.groups.map((grp) => {
+                    const isSelected = (viewingGroup || 'A') === grp.id;
+                    const hasUser = grp.teams.some((t) => t.isUser);
+                    return (
+                      <button
+                        key={grp.id}
+                        onClick={() => setViewingGroup(grp.id)}
+                        title={`View Group ${grp.id}${hasUser ? ' (Your Group)' : ''}`}
+                        className={`px-2.5 py-1 rounded text-[11px] font-bold transition-all ${
+                          isSelected
+                            ? 'bg-pitch-DEFAULT text-tactical-100 border border-pitch-line shadow-sm'
+                            : 'bg-tactical-800 text-tactical-400 hover:text-tactical-200 border border-tactical-700'
+                        }`}
+                      >
+                        {grp.id}{hasUser ? ' ★' : ''}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
 
-      {/* GROUP STAGE STANDINGS TABLE (During Group Stages) */}
-      {tournament.currentRound.startsWith('group_match_') && currentGroup && (
-        <div className="bg-tactical-850 border border-tactical-700 rounded-xl p-5 shadow-lg space-y-4">
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <h3 className="text-xs font-bold text-tactical-200 uppercase tracking-wider flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-pitch-accent" />
-              <span>Group {currentGroup.id} Standings (Top 2 Advance to Round of 16)</span>
-            </h3>
-            {/* Group Switcher Tabs (A through H) */}
-            <div className="flex items-center gap-1 overflow-x-auto py-1">
-              {tournament.groups.map((grp) => {
-                const isSelected = (viewingGroup || 'A') === grp.id;
-                const hasUser = grp.teams.some((t) => t.isUser);
-                return (
-                  <button
-                    key={grp.id}
-                    onClick={() => setViewingGroup(grp.id)}
-                    title={`View Group ${grp.id}${hasUser ? ' (Your Group)' : ''}`}
-                    className={`px-2.5 py-1 rounded text-[11px] font-bold transition-all ${
-                      isSelected
-                        ? 'bg-pitch-DEFAULT text-tactical-100 border border-pitch-line shadow-sm'
-                        : 'bg-tactical-800 text-tactical-400 hover:text-tactical-200 border border-tactical-700'
-                    }`}
-                  >
-                    {grp.id}{hasUser ? ' ★' : ''}
-                  </button>
+              <div className="overflow-x-auto">
+                <table className="w-full text-xs text-left">
+                  <thead>
+                    <tr className="border-b border-tactical-700 text-[10px] text-tactical-400 uppercase tracking-wider">
+                      <th className="py-2 px-2">#</th>
+                      <th className="py-2 px-2">Team</th>
+                      <th className="py-2 px-2 text-center">P</th>
+                      <th className="py-2 px-2 text-center">W</th>
+                      <th className="py-2 px-2 text-center">D</th>
+                      <th className="py-2 px-2 text-center">L</th>
+                      <th className="py-2 px-2 text-center">GD</th>
+                      <th className="py-2 px-2 text-center font-bold text-tactical-100">PTS</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-tactical-750">
+                    {currentGroup.teams.map((team, idx) => {
+                      const isTop2 = idx < 2;
+                      return (
+                        <tr
+                          key={team.id}
+                          className={`${team.isUser ? 'bg-pitch-DEFAULT/15 font-bold' : ''}`}
+                        >
+                          <td className="py-2.5 px-2 font-mono">
+                            <span
+                              className={`w-5 h-5 rounded-full inline-flex items-center justify-center text-[10px] ${
+                                isTop2 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700/60' : 'text-tactical-500'
+                              }`}
+                            >
+                              {idx + 1}
+                            </span>
+                          </td>
+                          <td className="py-2.5 px-2 text-tactical-100 truncate max-w-[160px]">
+                            {team.name} {team.isUser && '(You)'}
+                          </td>
+                          <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
+                            {team.groupStats.played}
+                          </td>
+                          <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
+                            {team.groupStats.won}
+                          </td>
+                          <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
+                            {team.groupStats.drawn}
+                          </td>
+                          <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
+                            {team.groupStats.lost}
+                          </td>
+                          <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
+                            {team.groupStats.goalDifference > 0 ? `+${team.groupStats.goalDifference}` : team.groupStats.goalDifference}
+                          </td>
+                          <td className="py-2.5 px-2 text-center font-mono font-black text-tactical-100">
+                            {team.groupStats.points}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Group Completed Matches with Goalscorers */}
+              {(() => {
+                const groupMatches = tournament.groupFixtures.filter(
+                  (f) => f.groupLetter === currentGroup.id && f.status === 'finished'
                 );
-              })}
-            </div>
-          </div>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-xs text-left">
-              <thead>
-                <tr className="border-b border-tactical-700 text-[10px] text-tactical-400 uppercase tracking-wider">
-                  <th className="py-2 px-2">#</th>
-                  <th className="py-2 px-2">Team</th>
-                  <th className="py-2 px-2 text-center">P</th>
-                  <th className="py-2 px-2 text-center">W</th>
-                  <th className="py-2 px-2 text-center">D</th>
-                  <th className="py-2 px-2 text-center">L</th>
-                  <th className="py-2 px-2 text-center">GD</th>
-                  <th className="py-2 px-2 text-center font-bold text-tactical-100">PTS</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-tactical-750">
-                {currentGroup.teams.map((team, idx) => {
-                  const isTop2 = idx < 2;
-                  return (
-                    <tr
-                      key={team.id}
-                      className={`${team.isUser ? 'bg-pitch-DEFAULT/15 font-bold' : ''}`}
-                    >
-                      <td className="py-2.5 px-2 font-mono">
-                        <span
-                          className={`w-5 h-5 rounded-full inline-flex items-center justify-center text-[10px] ${
-                            isTop2 ? 'bg-emerald-950 text-emerald-400 border border-emerald-700/60' : 'text-tactical-500'
+                if (groupMatches.length === 0) return null;
+                return (
+                  <div className="pt-3 border-t border-tactical-750 space-y-2">
+                    <div className="text-[11px] font-bold text-tactical-400 uppercase tracking-wider flex items-center gap-1.5">
+                      <Calendar className="w-3.5 h-3.5 text-pitch-accent" />
+                      <span>Group {currentGroup.id} Completed Fixtures & Scorers</span>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {groupMatches.map((m) => (
+                        <div
+                          key={m.id}
+                          className={`p-2.5 rounded-xl border text-xs ${
+                            m.isUserMatch
+                              ? 'bg-pitch-DEFAULT/15 border-pitch-line/70'
+                              : 'bg-tactical-900 border-tactical-750'
                           }`}
                         >
-                          {idx + 1}
-                        </span>
-                      </td>
-                      <td className="py-2.5 px-2 text-tactical-100 truncate max-w-[160px]">
-                        {team.name} {team.isUser && '(You)'}
-                      </td>
-                      <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
-                        {team.groupStats.played}
-                      </td>
-                      <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
-                        {team.groupStats.won}
-                      </td>
-                      <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
-                        {team.groupStats.drawn}
-                      </td>
-                      <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
-                        {team.groupStats.lost}
-                      </td>
-                      <td className="py-2.5 px-2 text-center font-mono text-tactical-300">
-                        {team.groupStats.goalDifference > 0 ? `+${team.groupStats.goalDifference}` : team.groupStats.goalDifference}
-                      </td>
-                      <td className="py-2.5 px-2 text-center font-mono font-black text-tactical-100">
-                        {team.groupStats.points}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )}
-
-      {/* KNOCKOUT BRACKET VIEW (During Knockouts) */}
-      {!tournament.currentRound.startsWith('group_match_') && (
-        <div className="bg-tactical-850 border border-tactical-700 rounded-xl p-5 shadow-lg space-y-4">
-          <h3 className="text-xs font-bold text-tactical-200 uppercase tracking-wider flex items-center gap-1.5">
-            <Trophy className="w-4 h-4 text-gold-400" />
-            <span>Knockout Bracket Tree</span>
-          </h3>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-            {/* Round of 16 Matchups */}
-            <div className="space-y-2">
-              <div className="font-bold text-[10px] uppercase text-tactical-400">
-                Round of 16 ({tournament.knockoutFixtures.roundOf16.length})
-              </div>
-              <div className="space-y-1.5 max-h-48 overflow-y-auto">
-                {tournament.knockoutFixtures.roundOf16.map((m) => (
-                  <div
-                    key={m.id}
-                    className={`p-2 rounded border text-[11px] ${
-                      m.isUserMatch ? 'bg-pitch-DEFAULT/20 border-pitch-accent/80' : 'bg-tactical-900 border-tactical-750'
-                    }`}
-                  >
-                    <div className="flex justify-between truncate">
-                      <span className="truncate">{m.homeTeam.name}</span>
-                      <span className="font-mono">{m.homeScore ?? '-'}</span>
-                    </div>
-                    <div className="flex justify-between truncate">
-                      <span className="truncate">{m.awayTeam.name}</span>
-                      <span className="font-mono">{m.awayScore ?? '-'}</span>
+                          <div className="flex items-center justify-between font-bold text-tactical-100 mb-1">
+                            <span className="truncate max-w-[120px]">{m.homeTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.5 rounded bg-tactical-800 border border-tactical-700 text-gold-400 font-black">
+                              {m.homeScore} - {m.awayScore}
+                            </span>
+                            <span className="truncate max-w-[120px] text-right">{m.awayTeam.name}</span>
+                          </div>
+                          {m.goals && m.goals.length > 0 && (
+                            <div className="text-[10px] text-tactical-400 space-y-0.5 pt-1 border-t border-tactical-800/80">
+                              {m.goals.map((g, gi) => (
+                                <div key={gi} className="flex items-center justify-between truncate">
+                                  <span className="truncate">
+                                    ⚽ {g.scorerName} {g.assisterName ? `(ast: ${g.assisterName})` : ''}
+                                  </span>
+                                  <span className="font-mono text-tactical-500 text-[9px]">{g.minute}'</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
                     </div>
                   </div>
-                ))}
+                );
+              })()}
+            </div>
+          )}
+
+          {/* KNOCKOUT BRACKET VIEW (During Knockouts) */}
+          {!tournament.currentRound.startsWith('group_match_') && (
+            <div className="bg-tactical-850 border border-tactical-700/80 rounded-2xl p-6 shadow-xl space-y-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xs font-black text-tactical-100 uppercase tracking-wider flex items-center gap-2">
+                  <Trophy className="w-4 h-4 text-gold-400" />
+                  <span>World Championship Knockout Bracket</span>
+                </h3>
+                <span className="text-[10px] font-mono text-tactical-400">Road to World Glory</span>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                {/* Round of 16 Matchups */}
+                <div className="space-y-2">
+                  <div className="font-bold text-[10px] uppercase text-tactical-400 flex items-center justify-between">
+                    <span>Round of 16</span>
+                    <span className="font-mono text-tactical-500">{tournament.knockoutFixtures.roundOf16.length} ties</span>
+                  </div>
+                  <div className="space-y-2 max-h-72 overflow-y-auto pr-1">
+                    {tournament.knockoutFixtures.roundOf16.map((m) => {
+                      const isFinished = m.status === 'finished';
+                      const homeWon = isFinished && (m.homeScore ?? 0) > (m.awayScore ?? 0);
+                      const awayWon = isFinished && (m.awayScore ?? 0) > (m.homeScore ?? 0);
+
+                      return (
+                        <div
+                          key={m.id}
+                          className={`p-2.5 rounded-xl border transition-all ${
+                            m.isUserMatch
+                              ? 'bg-emerald-950/30 border-emerald-500/70 shadow-sm border-l-4 border-l-emerald-400'
+                              : 'bg-tactical-900/80 border-tactical-750'
+                          }`}
+                        >
+                          <div className={`flex justify-between items-center truncate ${homeWon ? 'font-bold text-tactical-100' : 'text-tactical-300'}`}>
+                            <span className="truncate">{m.homeTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.2 rounded bg-tactical-800 text-tactical-200 ml-2 shrink-0">{m.homeScore ?? '-'}</span>
+                          </div>
+                          <div className={`flex justify-between items-center truncate mt-1 ${awayWon ? 'font-bold text-tactical-100' : 'text-tactical-300'}`}>
+                            <span className="truncate">{m.awayTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.2 rounded bg-tactical-800 text-tactical-200 ml-2 shrink-0">{m.awayScore ?? '-'}</span>
+                          </div>
+                          {m.goals && m.goals.length > 0 && (
+                            <div className="mt-1.5 pt-1.5 border-t border-tactical-800 text-[9px] text-tactical-400 space-y-0.5">
+                              {m.goals.map((g, gi) => (
+                                <div key={gi} className="flex items-center justify-between truncate">
+                                  <span className="truncate">⚽ {g.scorerName}</span>
+                                  <span className="font-mono text-tactical-500">{g.minute}'</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Quarter-Finals */}
+                <div className="space-y-2">
+                  <div className="font-bold text-[10px] uppercase text-tactical-400 flex items-center justify-between">
+                    <span>Quarter-Finals</span>
+                    <span className="font-mono text-tactical-500">{tournament.knockoutFixtures.quarterFinals.length} ties</span>
+                  </div>
+                  <div className="space-y-2">
+                    {tournament.knockoutFixtures.quarterFinals.map((m) => {
+                      const isFinished = m.status === 'finished';
+                      const homeWon = isFinished && (m.homeScore ?? 0) > (m.awayScore ?? 0);
+                      const awayWon = isFinished && (m.awayScore ?? 0) > (m.homeScore ?? 0);
+
+                      return (
+                        <div
+                          key={m.id}
+                          className={`p-2.5 rounded-xl border transition-all ${
+                            m.isUserMatch
+                              ? 'bg-emerald-950/30 border-emerald-500/70 shadow-sm border-l-4 border-l-emerald-400'
+                              : 'bg-tactical-900/80 border-tactical-750'
+                          }`}
+                        >
+                          <div className={`flex justify-between items-center truncate ${homeWon ? 'font-bold text-tactical-100' : 'text-tactical-300'}`}>
+                            <span className="truncate">{m.homeTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.2 rounded bg-tactical-800 text-tactical-200 ml-2 shrink-0">{m.homeScore ?? '-'}</span>
+                          </div>
+                          <div className={`flex justify-between items-center truncate mt-1 ${awayWon ? 'font-bold text-tactical-100' : 'text-tactical-300'}`}>
+                            <span className="truncate">{m.awayTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.2 rounded bg-tactical-800 text-tactical-200 ml-2 shrink-0">{m.awayScore ?? '-'}</span>
+                          </div>
+                          {m.goals && m.goals.length > 0 && (
+                            <div className="mt-1.5 pt-1.5 border-t border-tactical-800 text-[9px] text-tactical-400 space-y-0.5">
+                              {m.goals.map((g, gi) => (
+                                <div key={gi} className="flex items-center justify-between truncate">
+                                  <span className="truncate">⚽ {g.scorerName}</span>
+                                  <span className="font-mono text-tactical-500">{g.minute}'</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Semi-Finals & Final */}
+                <div className="space-y-2">
+                  <div className="font-bold text-[10px] uppercase text-tactical-400 flex items-center justify-between">
+                    <span>Semis & Grand Final</span>
+                    <span className="font-mono text-gold-400 font-bold">🏆 Trophy Stage</span>
+                  </div>
+                  <div className="space-y-2">
+                    {tournament.knockoutFixtures.semiFinals.map((m) => {
+                      const isFinished = m.status === 'finished';
+                      const homeWon = isFinished && (m.homeScore ?? 0) > (m.awayScore ?? 0);
+                      const awayWon = isFinished && (m.awayScore ?? 0) > (m.homeScore ?? 0);
+
+                      return (
+                        <div
+                          key={m.id}
+                          className={`p-2.5 rounded-xl border transition-all ${
+                            m.isUserMatch
+                              ? 'bg-emerald-950/30 border-emerald-500/70 shadow-sm border-l-4 border-l-emerald-400'
+                              : 'bg-tactical-900/80 border-tactical-750'
+                          }`}
+                        >
+                          <div className={`flex justify-between items-center truncate ${homeWon ? 'font-bold text-tactical-100' : 'text-tactical-300'}`}>
+                            <span className="truncate">{m.homeTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.2 rounded bg-tactical-800 text-tactical-200 ml-2 shrink-0">{m.homeScore ?? '-'}</span>
+                          </div>
+                          <div className={`flex justify-between items-center truncate mt-1 ${awayWon ? 'font-bold text-tactical-100' : 'text-tactical-300'}`}>
+                            <span className="truncate">{m.awayTeam.name}</span>
+                            <span className="font-mono px-1.5 py-0.2 rounded bg-tactical-800 text-tactical-200 ml-2 shrink-0">{m.awayScore ?? '-'}</span>
+                          </div>
+                          {m.goals && m.goals.length > 0 && (
+                            <div className="mt-1.5 pt-1.5 border-t border-tactical-800 text-[9px] text-tactical-400 space-y-0.5">
+                              {m.goals.map((g, gi) => (
+                                <div key={gi} className="flex items-center justify-between truncate">
+                                  <span className="truncate">⚽ {g.scorerName}</span>
+                                  <span className="font-mono text-tactical-500">{g.minute}'</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+
+                    {tournament.knockoutFixtures.final && (
+                      <div className="p-3.5 rounded-xl border-2 border-amber-400/70 bg-gradient-to-br from-amber-950/50 via-tactical-900 to-tactical-950 text-xs shadow-xl gold-glow relative overflow-hidden">
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="text-[10px] font-black text-amber-300 uppercase tracking-widest flex items-center gap-1.5">
+                            <Trophy className="w-3.5 h-3.5 text-amber-400" />
+                            <span>Grand Final Podium</span>
+                          </span>
+                          <span className="px-1.5 py-0.2 rounded bg-amber-400/20 text-amber-300 border border-amber-400/40 text-[9px] font-mono font-bold">
+                            FINAL
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-center truncate font-black text-tactical-100">
+                          <span className="truncate text-sm">{tournament.knockoutFixtures.final.homeTeam.name}</span>
+                          <span className="font-mono font-black text-sm px-2 py-0.5 rounded bg-tactical-800 border border-tactical-700 text-gold-400">
+                            {tournament.knockoutFixtures.final.homeScore ?? '-'}
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-center truncate font-black text-tactical-100 mt-1.5">
+                          <span className="truncate text-sm">{tournament.knockoutFixtures.final.awayTeam.name}</span>
+                          <span className="font-mono font-black text-sm px-2 py-0.5 rounded bg-tactical-800 border border-tactical-700 text-gold-400">
+                            {tournament.knockoutFixtures.final.awayScore ?? '-'}
+                          </span>
+                        </div>
+                        {tournament.knockoutFixtures.final.goals && tournament.knockoutFixtures.final.goals.length > 0 && (
+                          <div className="mt-2 pt-2 border-t border-amber-500/20 text-[10px] text-tactical-300 space-y-0.5">
+                            {tournament.knockoutFixtures.final.goals.map((g, gi) => (
+                              <div key={gi} className="flex items-center justify-between truncate">
+                                <span className="truncate">⚽ {g.scorerName}</span>
+                                <span className="font-mono text-tactical-400">{g.minute}'</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
               </div>
             </div>
-
-            {/* Quarter-Finals */}
-            <div className="space-y-2">
-              <div className="font-bold text-[10px] uppercase text-tactical-400">
-                Quarter-Finals ({tournament.knockoutFixtures.quarterFinals.length})
-              </div>
-              <div className="space-y-1.5">
-                {tournament.knockoutFixtures.quarterFinals.map((m) => (
-                  <div
-                    key={m.id}
-                    className={`p-2 rounded border text-[11px] ${
-                      m.isUserMatch ? 'bg-pitch-DEFAULT/20 border-pitch-accent/80' : 'bg-tactical-900 border-tactical-750'
-                    }`}
-                  >
-                    <div className="flex justify-between truncate">
-                      <span className="truncate">{m.homeTeam.name}</span>
-                      <span className="font-mono">{m.homeScore ?? '-'}</span>
-                    </div>
-                    <div className="flex justify-between truncate">
-                      <span className="truncate">{m.awayTeam.name}</span>
-                      <span className="font-mono">{m.awayScore ?? '-'}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Semi-Finals & Final */}
-            <div className="space-y-2">
-              <div className="font-bold text-[10px] uppercase text-tactical-400">
-                Semis & Grand Final
-              </div>
-              <div className="space-y-1.5">
-                {tournament.knockoutFixtures.semiFinals.map((m) => (
-                  <div
-                    key={m.id}
-                    className={`p-2 rounded border text-[11px] ${
-                      m.isUserMatch ? 'bg-pitch-DEFAULT/20 border-pitch-accent/80' : 'bg-tactical-900 border-tactical-750'
-                    }`}
-                  >
-                    <div className="flex justify-between truncate">
-                      <span className="truncate">{m.homeTeam.name}</span>
-                      <span className="font-mono">{m.homeScore ?? '-'}</span>
-                    </div>
-                    <div className="flex justify-between truncate">
-                      <span className="truncate">{m.awayTeam.name}</span>
-                      <span className="font-mono">{m.awayScore ?? '-'}</span>
-                    </div>
-                  </div>
-                ))}
-
-                {tournament.knockoutFixtures.final && (
-                  <div className="p-2 rounded border border-gold-500/80 bg-amber-950/40 text-[11px]">
-                    <div className="text-[10px] font-bold text-gold-400 uppercase">🏆 Grand Final</div>
-                    <div className="flex justify-between truncate">
-                      <span className="truncate font-bold">{tournament.knockoutFixtures.final.homeTeam.name}</span>
-                      <span className="font-mono font-bold">{tournament.knockoutFixtures.final.homeScore ?? '-'}</span>
-                    </div>
-                    <div className="flex justify-between truncate">
-                      <span className="truncate font-bold">{tournament.knockoutFixtures.final.awayTeam.name}</span>
-                      <span className="font-mono font-bold">{tournament.knockoutFixtures.final.awayScore ?? '-'}</span>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
+          )}
+        </>
       )}
     </div>
   );

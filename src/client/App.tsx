@@ -6,7 +6,6 @@ import {
   MatchSimulationState,
   PlayerVersion,
   PoolType,
-  Position,
   RoomState,
   Strategy,
   TournamentMatchFixture,
@@ -15,11 +14,14 @@ import {
   DefensiveStyle,
   PassingStyle,
   TouchlineShout,
+  HistoricalScenario,
 } from '../shared/types/index.js';
 import { FORMATIONS, isPlayerEligibleForSlot } from '../shared/constants/formations.js';
+import { DraftEngine } from '../shared/engine/draftEngine.js';
 import {
   closeRoom,
   createPrebuiltMatch,
+  createScenarioMatch,
   createRoom,
   executePick,
   executeRoll,
@@ -27,14 +29,18 @@ import {
   getLiveMatch,
   getServerUrl,
   joinRoom,
+  makeSubstitution,
   reconnectSeat,
   startMatch,
   updateLiveMentality,
+  requestRematch,
+  respondRematch,
+  cancelRematch,
 } from './services/api.js';
 import { offlineSoloEngine } from './services/offlineSoloEngine.js';
 import { tournamentService } from './services/tournamentService.js';
 import { profileService } from './services/profileService.js';
-import { convertDreamTeamToDraftState, convertDraftStateToDreamTeam } from './utils/dreamTeamHelper.js';
+import { convertDreamTeamToDraftState } from './utils/dreamTeamHelper.js';
 import { TournamentEngine } from '../shared/engine/tournamentEngine.js';
 import { MatchEngine } from '../shared/engine/matchEngine.js';
 import { soundManager } from './utils/audio.js';
@@ -45,22 +51,22 @@ import { TournamentView } from './components/TournamentView.js';
 import { SoloDraftStudio } from './components/SoloDraftStudio.js';
 import { ProfileModal } from './components/ProfileModal.js';
 import { TacticalPitch } from './components/TacticalPitch.js';
+import { DraftBenchShelf } from './components/DraftBenchShelf.js';
 import { RosterList } from './components/RosterList.js';
 import { MatchView } from './components/MatchView.js';
 import { TimerCountdown } from './components/TimerCountdown.js';
 import { SettingsModal } from './components/SettingsModal.js';
 import { FormationStudioModal } from './components/FormationStudioModal.js';
+import { ScenarioModal } from './components/ScenarioModal.js';
 import { Logo } from './components/Logo.js';
 import {
   Users,
   Copy,
   Check,
-  RotateCcw,
   Play,
   AlertCircle,
   Settings,
   Shield,
-  Clock,
   ArrowRight,
   LogOut,
   Trophy,
@@ -70,6 +76,8 @@ export const App: React.FC = () => {
   // Navigation & Modals
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isFormationStudioOpen, setIsFormationStudioOpen] = useState(false);
+  const [isScenarioModalOpen, setIsScenarioModalOpen] = useState(false);
+  const [activeScenario, setActiveScenario] = useState<HistoricalScenario | null>(null);
   const [customFormations, setCustomFormations] = useState<FormationDefinition[]>([]);
   const [selectedCustomFormation, setSelectedCustomFormation] = useState<FormationDefinition | null>(null);
   const [copiedCode, setCopiedCode] = useState(false);
@@ -80,6 +88,13 @@ export const App: React.FC = () => {
   // Tournament & Profile State
   const [activeScreen, setActiveScreen] = useState<'lobby' | 'tournament'>('lobby');
   const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [userProfile, setUserProfile] = useState(() => profileService.getProfile());
+
+  useEffect(() => {
+    try {
+      setUserProfile(profileService.getProfile());
+    } catch (e) {}
+  }, [isProfileOpen]);
   const [activeTournament, setActiveTournament] = useState<TournamentState | null>(() =>
     tournamentService.getActiveTournament()
   );
@@ -204,7 +219,9 @@ export const App: React.FC = () => {
         const data = JSON.parse(event.data);
         if ((data.type === 'SYNC_STATE' || data.type === 'room_update') && data.room) {
           setRoom(data.room);
-          if (data.liveMatch) {
+          if (data.room.status === 'drafting') {
+            setLiveMatch(null);
+          } else if (data.liveMatch) {
             setLiveMatch(data.liveMatch);
           }
         } else if ((data.type === 'MATCH_UPDATE' || data.type === 'match_tick') && data.liveMatch) {
@@ -276,6 +293,23 @@ export const App: React.FC = () => {
     return () => clearInterval(interval);
   }, [room?.roomCode, room?.status, isSimulating, token]);
 
+  // Fallback rematch polling while match is finished: detects incoming challenge or rematch acceptance
+  useEffect(() => {
+    if (!room || room.status !== 'match_finished' || !token) return;
+    const interval = setInterval(async () => {
+      try {
+        const data = await reconnectSeat({ roomCode: room.roomCode, token });
+        if (data.room) {
+          setRoom(data.room);
+          if (data.room.status === 'drafting') {
+            setLiveMatch(null);
+          }
+        }
+      } catch (e) {}
+    }, 1200);
+    return () => clearInterval(interval);
+  }, [room?.roomCode, room?.status, token]);
+
   // Handler: Create Room
   const handleCreateRoom = async (params: {
     mode: 'solo' | 'multiplayer';
@@ -285,6 +319,7 @@ export const App: React.FC = () => {
     strategy: Strategy;
     matchFormat: 'auto' | 'normal' | 'knockout';
     customFormation?: FormationDefinition;
+    enableSubstitutions?: boolean;
   }) => {
     try {
       setLoading(true);
@@ -548,7 +583,8 @@ export const App: React.FC = () => {
 
     // Record quick match (solo AI or multiplayer) result to career stats if match was completed.
     // Tournament matches and Dream Team matches are recorded separately above.
-    if (liveMatch && liveMatch.status === 'completed') {
+    if (liveMatch && liveMatch.status === 'completed' && !recordedMatchIdsRef.current.has(liveMatch.matchId)) {
+      recordedMatchIdsRef.current.add(liveMatch.matchId);
       try {
         const userScore = mySeat === 'host' ? liveMatch.score.host : liveMatch.score.guest;
         const opponentScore = mySeat === 'host' ? liveMatch.score.guest : liveMatch.score.host;
@@ -570,20 +606,116 @@ export const App: React.FC = () => {
           opponentName,
           score: `${userScore}-${opponentScore}`,
           result: isWin ? 'win' : isDraw ? 'draw' : 'loss',
-          stage: room?.mode === 'solo' ? 'QUICK MATCH (AI)' : 'MULTIPLAYER',
+          stage: activeScenario ? `SCENARIO: ${activeScenario.title.toUpperCase()}` : room?.mode === 'solo' ? 'QUICK MATCH (AI)' : 'MULTIPLAYER',
           goalsScored: userScore,
           goalsConceded: opponentScore,
         });
+
+        if (activeScenario && isWin) {
+          profileService.addXp(activeScenario.rewards.xp);
+        }
       } catch (e) {
         console.error('Error recording quick match result:', e);
       }
     }
 
+    setActiveScenario(null);
     setRoom(null);
     setToken(null);
     setLiveMatch(null);
     setErrorNotice(null);
     setActiveScreen('lobby');
+  };
+
+  const recordedMatchIdsRef = useRef<Set<string>>(new Set());
+
+  // Automatic match result recording when match finishes
+  useEffect(() => {
+    if (!liveMatch || liveMatch.status !== 'completed' || !room) return;
+    if (tournamentMatchContext?.isTournament || isDreamTeamMatch) return;
+    if (recordedMatchIdsRef.current.has(liveMatch.matchId)) return;
+
+    recordedMatchIdsRef.current.add(liveMatch.matchId);
+    try {
+      const userScore = mySeat === 'host' ? liveMatch.score.host : liveMatch.score.guest;
+      const opponentScore = mySeat === 'host' ? liveMatch.score.guest : liveMatch.score.host;
+      const opponentName =
+        (mySeat === 'host' ? room?.guestDraft?.playerName : room?.hostDraft?.playerName) ||
+        'Opponent';
+      const isWin =
+        userScore > opponentScore ||
+        (liveMatch.penaltyScore
+          ? (mySeat === 'host'
+              ? liveMatch.penaltyScore.host > liveMatch.penaltyScore.guest
+              : liveMatch.penaltyScore.guest > liveMatch.penaltyScore.host)
+          : false);
+      const isDraw = userScore === opponentScore && !liveMatch.penaltyScore;
+
+      profileService.recordMatch({
+        opponentName,
+        score: `${userScore}-${opponentScore}`,
+        result: isWin ? 'win' : isDraw ? 'draw' : 'loss',
+        stage: room?.mode === 'solo' ? 'QUICK MATCH (AI)' : 'MULTIPLAYER',
+        goalsScored: userScore,
+        goalsConceded: opponentScore,
+      });
+    } catch (e) {
+      console.error('Error recording match result:', e);
+    }
+  }, [liveMatch?.status, liveMatch?.matchId, room, mySeat, tournamentMatchContext, isDreamTeamMatch]);
+
+  // Handler: Request Rematch in same room
+  const handleRequestRematch = async () => {
+    if (!room || !token) return;
+    try {
+      setLoading(true);
+      setErrorNotice(null);
+      const data = await requestRematch({ roomCode: room.roomCode, token });
+      if (data.room) {
+        setRoom(data.room);
+        if (data.room.status === 'drafting') {
+          setLiveMatch(null);
+        }
+      }
+    } catch (err: any) {
+      setErrorNotice(err.message || 'Failed to request rematch');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Handler: Respond to incoming Rematch (Accept / Decline)
+  const handleRespondRematch = async (accept: boolean) => {
+    if (!room || !token) return;
+    try {
+      setLoading(true);
+      setErrorNotice(null);
+      const data = await respondRematch({ roomCode: room.roomCode, token, accept });
+      if (data.room) {
+        setRoom(data.room);
+        if (data.room.status === 'drafting') {
+          setLiveMatch(null);
+        }
+      }
+    } catch (err: any) {
+      setErrorNotice(err.message || 'Failed to respond to rematch');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Handler: Cancel Rematch Request
+  const handleCancelRematch = async () => {
+    if (!room || !token) return;
+    try {
+      setErrorNotice(null);
+      const data = await cancelRematch({ roomCode: room.roomCode, token });
+      if (data.room) {
+        setRoom(data.room);
+      }
+    } catch (err: any) {
+      setErrorNotice(err.message || 'Failed to cancel rematch');
+    }
   };
 
   // Handler: Touchline In-Match Live Mentality Instruction
@@ -608,6 +740,32 @@ export const App: React.FC = () => {
       if (updated) {
         setLiveMatch({ ...updated });
       }
+    }
+  };
+
+  // Handler: In-Match Player Substitution & Fresh Legs
+  const handleSubstitution = (slotId: string, subPlayer: PlayerVersion) => {
+    if (room && offlineSoloEngine.getLiveMatch(room.roomCode)) {
+      const updated = makeSubstitution(room.roomCode, slotId, subPlayer, mySeat);
+      if (updated) {
+        setLiveMatch({ ...updated });
+      }
+    }
+  };
+
+  // Handler: Launch Time Machine Historical Scenario
+  const handleStartScenarioMatch = (scenario: HistoricalScenario) => {
+    try {
+      const { room: scenarioRoom, simulation: scenarioSim } = createScenarioMatch(scenario);
+      setRoom(scenarioRoom);
+      setMySeat('host');
+      setToken('solo-host-scenario');
+      setLiveMatch(scenarioSim);
+      setActiveScenario(scenario);
+      setActiveScreen('lobby');
+    } catch (err: any) {
+      console.error('Failed to start scenario match', err);
+      setErrorNotice('Failed to initialize historical scenario: ' + (err.message || 'Unknown error'));
     }
   };
 
@@ -795,13 +953,17 @@ export const App: React.FC = () => {
   const oppDraft = room ? (mySeat === 'host' ? room.guestDraft : room.hostDraft) : null;
   const isMyTurn = room?.activeTurn === mySeat;
 
-  // Calculate open formation slots for current user
+  // Check if substitution / bench system is enabled for this match
+  const subsEnabled = room?.enableSubstitutions !== false && myDraft?.enableSubstitutions !== false;
+  const targetRounds = subsEnabled ? 17 : 11;
+
+  // Calculate open slots for current user
   const openFormationSlots: FormationSlot[] =
     myDraft && myDraft.formation
-      ? myDraft.formation.slots.filter((slot) => !myDraft.draftedSlots[slot.id])
+      ? DraftEngine.getOpenSlots(myDraft)
       : [];
 
-  // Calculate slots that glow when a player is selected
+  // Calculate slots that glow when a player is selected (pitch and bench)
   const highlightedSlotIds =
     selectedPlayer && myDraft?.formation
       ? openFormationSlots
@@ -809,9 +971,15 @@ export const App: React.FC = () => {
           .map((slot) => slot.id)
       : [];
 
-  const myDraftedCount = myDraft ? Object.keys(myDraft.draftedSlots).length : 0;
-  const oppDraftedCount = oppDraft ? Object.keys(oppDraft.draftedSlots).length : 0;
-  const isBothDraftComplete = myDraftedCount === 11 && oppDraftedCount === 11;
+  const myStartersCount = myDraft ? Object.keys(myDraft.draftedSlots).length : 0;
+  const myBenchCount = myDraft?.benchSlots ? Object.keys(myDraft.benchSlots).length : 0;
+  const myDraftedCount = subsEnabled ? myStartersCount + myBenchCount : myStartersCount;
+
+  const oppStartersCount = oppDraft ? Object.keys(oppDraft.draftedSlots).length : 0;
+  const oppBenchCount = oppDraft?.benchSlots ? Object.keys(oppDraft.benchSlots).length : 0;
+  const oppDraftedCount = subsEnabled ? oppStartersCount + oppBenchCount : oppStartersCount;
+
+  const isBothDraftComplete = myDraftedCount === targetRounds && oppDraftedCount === targetRounds;
 
   // Reset selected player when turn ends or if drafted by opponent
   useEffect(() => {
@@ -828,79 +996,119 @@ export const App: React.FC = () => {
   }, [isMyTurn, room?.turnNumber, myDraft?.usedIdentityIds, oppDraft?.usedIdentityIds]);
 
   return (
-    <div className="min-h-screen bg-tactical-900 text-tactical-100 flex flex-col justify-between selection:bg-pitch-accent selection:text-tactical-950 font-sans">
-      {/* Global Top Navbar with Mobile Safe-Area padding */}
+    <div className="min-h-screen bg-black text-white flex flex-col justify-between selection:bg-[#0C969C] selection:text-black font-sans relative overflow-x-hidden">
+      {/* Radiant ocean ambient backdrop glow over pitch black */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1400px] h-[380px] bg-gradient-to-b from-[#0C969C]/25 via-[#0A7075]/12 to-transparent blur-3xl pointer-events-none -z-0" />
+
+      {/* Global Sports Command Bar with Mobile Safe-Area padding */}
       <header
-        className="border-b border-tactical-700/80 bg-tactical-850 px-4 pb-3 sticky top-0 z-40 backdrop-blur shadow-md"
+        className="border-b border-white/10 bg-black/85 backdrop-blur-xl px-4 py-2.5 sticky top-0 z-40 shadow-2xl relative"
         style={{
-          paddingTop: 'max(env(safe-area-inset-top, 0px), 12px)',
+          paddingTop: 'max(env(safe-area-inset-top, 0px), 10px)',
           paddingLeft: 'max(env(safe-area-inset-left, 0px), 16px)',
           paddingRight: 'max(env(safe-area-inset-right, 0px), 16px)',
         }}
       >
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2.5 sm:gap-3">
-            <Logo size={34} />
+        <div className="max-w-[1600px] w-full mx-auto flex items-center justify-between gap-3">
+          {/* Brand Logo & Title */}
+          <div
+            onClick={() => !room && setActiveScreen('lobby')}
+            className="flex items-center gap-2.5 sm:gap-3 cursor-pointer select-none group shrink-0"
+          >
+            <Logo size={36} className="transition-transform group-hover:scale-105" />
             <div className="min-w-0">
-              <span className="font-extrabold text-xs sm:text-base tracking-tight text-tactical-100 truncate block sm:inline max-w-[190px] sm:max-w-none">
-                HISTORICAL FOOTBALL SIMULATOR
+              <span className="font-display font-black text-xs sm:text-base tracking-wider text-white uppercase block leading-none">
+                Historical Football Simulator
               </span>
-              <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-pitch-accent">
-                v1.0 (Tactical Sim)
+              <span className="text-[10px] font-mono text-[#0C969C] font-semibold tracking-wide flex items-center gap-1.5 mt-0.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#0C969C] shadow-[0_0_8px_rgba(12,150,156,0.9)] animate-pulse" />
+                <span>90s Match Engine</span>
               </span>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          {/* Center Mode Navigation Tabs (Visible when not in a match room) */}
+          {!room && (
+            <div className="hidden lg:flex items-center gap-1 bg-black p-1 rounded-xl border border-white/10 shadow-inner">
+              <button
+                onClick={() => setActiveScreen('lobby')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
+                  activeScreen === 'lobby'
+                    ? 'bg-[#0A7075]/25 text-white border border-[#0C969C] shadow-[0_0_20px_rgba(12,150,156,0.45)]'
+                    : 'text-neutral-400 hover:text-white hover:border-[#0C969C]/50 hover:shadow-[0_0_15px_rgba(12,150,156,0.25)] border border-transparent'
+                }`}
+              >
+                <span>🏟️ Quick Draft</span>
+              </button>
+
+              <button
+                onClick={() => setActiveScreen('tournament')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 cursor-pointer ${
+                  activeScreen === 'tournament'
+                    ? 'bg-amber-500/20 text-amber-200 border border-amber-500/60 shadow-[0_0_15px_rgba(245,158,11,0.35)]'
+                    : 'text-neutral-400 hover:text-amber-300 hover:border-amber-500/40 hover:shadow-[0_0_15px_rgba(245,158,11,0.25)] border border-transparent'
+                }`}
+              >
+                <Trophy className="w-3.5 h-3.5 text-amber-400" />
+                <span>World Cup (7 Games)</span>
+              </button>
+
+              <button
+                onClick={() => setIsScenarioModalOpen(true)}
+                className="px-3 py-1.5 rounded-lg text-xs font-semibold text-neutral-400 hover:text-white hover:border-[#0C969C]/50 hover:shadow-[0_0_15px_rgba(12,150,156,0.25)] border border-transparent transition-all flex items-center gap-1.5 cursor-pointer"
+              >
+                <span>⏳ Time Machine</span>
+              </button>
+
+              <button
+                onClick={() => setIsFormationStudioOpen(true)}
+                className="px-3 py-1.5 rounded-lg text-xs font-semibold text-neutral-400 hover:text-white hover:border-[#0C969C]/50 hover:shadow-[0_0_15px_rgba(12,150,156,0.25)] border border-transparent transition-all flex items-center gap-1.5 cursor-pointer"
+              >
+                <span>📋 Tactics Studio</span>
+              </button>
+            </div>
+          )}
+
+          {/* Right Action Icons: Profile, Settings, Leave */}
+          <div className="flex items-center gap-2 shrink-0">
             {!room && (
-              <>
-                <button
-                  onClick={() => setActiveScreen(activeScreen === 'tournament' ? 'lobby' : 'tournament')}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 border ${
-                    activeScreen === 'tournament'
-                      ? 'bg-gold-500/20 text-gold-400 border-gold-500/50'
-                      : 'bg-tactical-800 text-tactical-300 hover:text-tactical-100 border-tactical-700'
-                  }`}
-                  title="Toggle World Cup Campaign"
-                >
-                  <Trophy className="w-3.5 h-3.5 text-gold-400" />
-                  <span className="hidden sm:inline">
-                    {activeScreen === 'tournament' ? 'Quick Play' : 'World Cup'}
-                  </span>
-                </button>
-                <button
-                  onClick={() => setIsProfileOpen(true)}
-                  className="px-2.5 py-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-200 border border-tactical-600 transition-all text-xs font-bold flex items-center gap-1"
-                  title="Manager Profile"
-                >
-                  <span>👔</span>
-                  <span className="hidden md:inline">Profile</span>
-                </button>
-              </>
+              <button
+                onClick={() => setIsProfileOpen(true)}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-black hover:border-[#0C969C] hover:shadow-[0_0_20px_rgba(12,150,156,0.4)] text-white border border-white/10 transition-all text-xs font-semibold shadow-xs cursor-pointer"
+                title="Manager Profile & Dream Team"
+              >
+                <span className="text-sm">{userProfile?.avatarEmoji || '👔'}</span>
+                <span className="hidden sm:inline font-semibold text-white">{userProfile?.managerName || 'Manager'}</span>
+                <span className="font-mono text-[9px] px-1.5 py-0.2 rounded-full bg-black text-amber-300 border border-amber-500/40 font-bold">
+                  Lv.{userProfile?.level || 1}
+                </span>
+              </button>
             )}
+
             <button
               onClick={() => setIsSettingsOpen(true)}
-              className="p-1.5 rounded-lg bg-tactical-800 hover:bg-tactical-700 text-tactical-300 border border-tactical-600 transition-all"
-              title="Settings"
+              className="p-2 rounded-xl bg-black hover:border-[#0C969C] hover:shadow-[0_0_20px_rgba(12,150,156,0.4)] text-neutral-400 hover:text-white border border-white/10 transition-all shadow-xs cursor-pointer"
+              title="Settings & Audio"
             >
               <Settings className="w-4 h-4" />
             </button>
+
             {room && (
               <button
                 onClick={handleLeaveRoom}
-                className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-red-900/30 hover:bg-red-900/50 text-red-300 border border-red-800/60 text-xs font-medium transition-all ml-1"
-                title="Leave Room"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-rose-950/60 hover:bg-rose-900/80 text-rose-300 border border-rose-600/50 text-xs font-bold transition-all shadow-xs cursor-pointer ml-1"
+                title="Leave Match Room"
               >
                 <LogOut className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">Leave</span>
+                <span className="hidden sm:inline">Leave Match</span>
               </button>
             )}
           </div>
         </div>
       </header>
 
-      {/* Main Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6">
+      {/* Main Container: Full Widescreen Desktop Ergonomics */}
+      <main className="flex-1 max-w-[1600px] w-full mx-auto p-4 sm:p-6 lg:p-7">
         {/* Error notification banner if any */}
         {errorNotice && (
           <div className="mb-4 p-3 rounded-lg bg-red-950/80 border border-red-800 text-red-200 text-xs flex items-center justify-between">
@@ -936,6 +1144,7 @@ export const App: React.FC = () => {
             onOpenFormationStudio={() => setIsFormationStudioOpen(true)}
             onOpenTournament={() => setActiveScreen('tournament')}
             onOpenProfile={() => setIsProfileOpen(true)}
+            onOpenScenarios={() => setIsScenarioModalOpen(true)}
             hasActiveTournament={Boolean(
               activeTournament &&
                 activeTournament.currentRound !== 'completed' &&
@@ -955,9 +1164,15 @@ export const App: React.FC = () => {
             liveMatch={liveMatch}
             hostDraft={room.hostDraft}
             guestDraft={room.guestDraft}
+            room={room}
+            mySeat={mySeat}
             onExitMatch={handleLeaveRoom}
+            onRequestRematch={handleRequestRematch}
+            onRespondRematch={handleRespondRematch}
+            onCancelRematch={handleCancelRematch}
             onMentalityChange={handleLiveMentalityChange}
             onTacticsChange={handleTacticsChange}
+            onSubstitution={handleSubstitution}
             isTournament={Boolean(tournamentMatchContext?.isTournament)}
           />
         )}
@@ -1016,8 +1231,17 @@ export const App: React.FC = () => {
                     </span>
                   </div>
                   <div className="text-[11px] text-tactical-400">
-                    Your drafted XI: <strong>{myDraftedCount}/11</strong> • Opponent:{' '}
-                    <strong>{oppDraftedCount}/11</strong>
+                    {subsEnabled ? (
+                      <>
+                        Your Squad: <strong>{myDraftedCount}/17</strong> ({myStartersCount}/11 XI • {myBenchCount}/6 Bench) • Opponent:{' '}
+                        <strong>{oppDraftedCount}/17</strong>
+                      </>
+                    ) : (
+                      <>
+                        Your Starting XI: <strong>{myDraftedCount}/11</strong> • Opponent:{' '}
+                        <strong>{oppDraftedCount}/11</strong>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
@@ -1038,9 +1262,9 @@ export const App: React.FC = () => {
                 <button
                   onClick={handleStartMatch}
                   disabled={loading}
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-xs border border-pitch-line active:scale-98 shadow-lg transition-all"
+                  className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-xs uppercase tracking-wider border border-emerald-300/80 active:scale-95 shadow-[0_0_15px_rgba(16,185,129,0.35)] transition-all cursor-pointer"
                 >
-                  <Play className="w-4 h-4 fill-tactical-100" />
+                  <Play className="w-4 h-4 fill-tactical-950" />
                   <span>{messages.draft.proceedToMatch}</span>
                 </button>
               )}
@@ -1074,19 +1298,19 @@ export const App: React.FC = () => {
             )}
 
             {/* Mobile Tab Switcher (Draft Roster vs Pitch XI) */}
-            <div className="flex items-center p-1 bg-tactical-900 rounded-xl border border-tactical-750 lg:hidden shadow-md">
+            <div className="flex items-center p-1 bg-tactical-900/90 rounded-2xl border border-tactical-750 lg:hidden shadow-lg">
               <button
                 type="button"
                 onClick={() => setMobileDraftTab('roster')}
-                className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+                className={`flex-1 py-2.5 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 ${
                   mobileDraftTab === 'roster'
-                    ? 'bg-tactical-750 text-tactical-100 shadow border border-tactical-600'
+                    ? 'bg-gradient-to-r from-emerald-500/20 to-tactical-800 text-emerald-300 shadow border border-emerald-500/40'
                     : 'text-tactical-400 hover:text-tactical-200'
                 }`}
               >
                 <span>📋 Draft Roster</span>
                 {myDraft.currentTeamEdition && (
-                  <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-tactical-800 text-pitch-accent border border-pitch-line/40 truncate max-w-[100px]">
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-tactical-800 text-emerald-300 border border-emerald-500/30 truncate max-w-[100px]">
                     {myDraft.currentTeamEdition.teamName.split(' ')[0]}
                   </span>
                 )}
@@ -1095,15 +1319,15 @@ export const App: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setMobileDraftTab('pitch')}
-                className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+                className={`flex-1 py-2.5 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 ${
                   mobileDraftTab === 'pitch'
-                    ? 'bg-tactical-750 text-tactical-100 shadow border border-tactical-600'
+                    ? 'bg-gradient-to-r from-amber-500/20 to-tactical-800 text-amber-300 shadow border border-amber-500/40'
                     : 'text-tactical-400 hover:text-tactical-200'
                 }`}
               >
-                <span>🏟️ Pitch XI</span>
-                <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-tactical-800 text-gold-400 border border-tactical-700">
-                  {myDraftedCount}/11
+                <span>🏟️ {subsEnabled ? 'Squad' : 'Pitch XI'}</span>
+                <span className="font-mono text-[10px] px-2 py-0.5 rounded-full bg-tactical-800 text-amber-300 border border-amber-500/30 font-bold">
+                  {myDraftedCount}/{targetRounds}
                 </span>
                 {selectedPlayer && (
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
@@ -1126,7 +1350,7 @@ export const App: React.FC = () => {
                         : 'text-tactical-400 hover:text-tactical-200'
                     }`}
                   >
-                    Your Squad ({myDraftedCount}/11)
+                    Your Squad ({myDraftedCount}/{targetRounds})
                   </button>
                   {oppDraft && (
                     <button
@@ -1138,7 +1362,7 @@ export const App: React.FC = () => {
                           : 'text-tactical-400 hover:text-tactical-200'
                       }`}
                     >
-                      {room.mode === 'solo' ? '🤖 AI Squad' : 'Opponent Squad'} ({oppDraftedCount}/11)
+                      {room.mode === 'solo' ? '🤖 AI Squad' : 'Opponent Squad'} ({oppDraftedCount}/{targetRounds})
                     </button>
                   )}
                 </div>
@@ -1162,7 +1386,7 @@ export const App: React.FC = () => {
                       <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping shrink-0" />
                       <span className="text-xs text-emerald-100 truncate">
                         Drafting <strong>{selectedPlayer.name}</strong> ({[...selectedPlayer.naturalPositions, ...selectedPlayer.secondaryPositions].join('/')}):{' '}
-                        <span className="text-emerald-300 font-bold">Tap glowing position on pitch</span>
+                        <span className="text-emerald-300 font-bold">Tap glowing slot on pitch or bench</span>
                       </span>
                     </div>
                     <button
@@ -1175,7 +1399,7 @@ export const App: React.FC = () => {
                 ) : viewingSquad === 'mine' && isMyTurn && !isBothDraftComplete ? (
                   <div className="bg-tactical-850/80 border border-tactical-700/60 rounded-lg px-3 py-1.5 text-xs text-tactical-400 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-pitch-accent animate-pulse shrink-0" />
-                    <span>Select a player in Roster to reveal matching pitch positions.</span>
+                    <span>Select a player in Roster to reveal matching {subsEnabled ? 'pitch & bench' : 'pitch'} positions.</span>
                   </div>
                 ) : null}
 
@@ -1186,6 +1410,18 @@ export const App: React.FC = () => {
                   onSlotSelect={handleSlotSelect}
                   interactive={viewingSquad === 'mine' && isMyTurn}
                 />
+
+                {/* Matchday Bench Reserves Shelf (6 Substitutes, if enabled) */}
+                {subsEnabled && (
+                  <DraftBenchShelf
+                    benchSlots={viewingSquad === 'mine' ? (myDraft.benchSlots || {}) : (oppDraft?.benchSlots || {})}
+                    highlightedSlotIds={viewingSquad === 'mine' ? highlightedSlotIds : []}
+                    onSlotSelect={handleSlotSelect}
+                    interactive={viewingSquad === 'mine' && isMyTurn}
+                    selectedPlayerName={selectedPlayer?.name}
+                    teamName={viewingSquad === 'mine' ? 'Your' : (oppDraft?.playerName || 'Opponent')}
+                  />
+                )}
               </div>
 
               {/* Available Edition Roster or Opponent Lineup: Visible on roster tab on mobile, always visible on lg desktop */}
@@ -1236,23 +1472,24 @@ export const App: React.FC = () => {
                     disabled={loading || isRolling}
                   />
                 ) : (
-                  <div className="bg-tactical-850 border border-pitch-line/50 rounded-xl p-8 text-center space-y-4 shadow-xl">
-                    <div className="w-12 h-12 rounded-full bg-pitch-DEFAULT/30 border border-pitch-line flex items-center justify-center mx-auto text-pitch-accent">
-                      <Shield className="w-6 h-6" />
+                  <div className="bg-gradient-to-b from-tactical-850 to-tactical-900 border-2 border-emerald-500/40 rounded-2xl p-8 text-center space-y-5 shadow-2xl">
+                    <div className="w-14 h-14 rounded-2xl bg-emerald-500/15 border border-emerald-400/50 flex items-center justify-center mx-auto text-emerald-300 shadow-[0_0_20px_rgba(16,185,129,0.25)]">
+                      <Shield className="w-7 h-7" />
                     </div>
-                    <h3 className="text-lg font-bold text-tactical-100">
+                    <h3 className="text-xl font-black text-tactical-100 font-display uppercase tracking-wide">
                       {messages.draft.bothTeamsReady}
                     </h3>
-                    <p className="text-xs text-tactical-400 max-w-md mx-auto">
-                      All 11 positions have been drafted for both squads. Launch the 90-second real-time
-                      authoritative simulation to see tactical strategy and luck clash.
+                    <p className="text-xs text-tactical-300 max-w-md mx-auto leading-relaxed">
+                      {subsEnabled
+                        ? 'All 17 squad positions (11 Starting XI + 6 Bench Substitutes) have been drafted for both squads. Launch the 90-second real-time authoritative simulation to see tactical strategy and luck clash.'
+                        : 'All 11 starting positions have been drafted for both squads. Launch the 90-second real-time authoritative simulation to see tactical strategy and luck clash.'}
                     </p>
                     <button
                       onClick={handleStartMatch}
                       disabled={loading}
-                      className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-pitch-DEFAULT hover:bg-pitch-light text-tactical-100 font-bold text-sm border border-pitch-line active:scale-98 shadow-xl transition-all"
+                      className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-tactical-950 font-black text-sm uppercase tracking-wider border border-emerald-300/80 active:scale-95 shadow-[0_0_25px_rgba(16,185,129,0.4)] transition-all cursor-pointer"
                     >
-                      <Play className="w-4 h-4 fill-tactical-100" />
+                      <Play className="w-4 h-4 fill-tactical-950" />
                       <span>{messages.draft.proceedToMatch}</span>
                       <ArrowRight className="w-4 h-4" />
                     </button>
@@ -1266,10 +1503,10 @@ export const App: React.FC = () => {
 
       {/* Global Footer with Safe-Area Bottom */}
       <footer
-        className="border-t border-tactical-800 bg-tactical-900 px-4 pt-3 text-center text-xs text-tactical-500 font-mono"
-        style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 12px)' }}
+        className="border-t border-tactical-800 bg-tactical-950 px-4 pt-4 text-center text-xs text-tactical-500 font-mono"
+        style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 14px)' }}
       >
-        Historical Football Simulator Engine • FIFA World Cup (1950–2026) • Server-Authoritative PRNG
+        Historical Football Simulator Engine • FIFA World Cup & Club Eras • Server-Authoritative PRNG
       </footer>
 
       {/* Modals */}
@@ -1293,6 +1530,11 @@ export const App: React.FC = () => {
           initialFormation={selectedCustomFormation}
         />
       )}
+      <ScenarioModal
+        isOpen={isScenarioModalOpen}
+        onClose={() => setIsScenarioModalOpen(false)}
+        onSelectScenario={handleStartScenarioMatch}
+      />
 
       {/* Solo Draft Studio for Tournament (Pack-Roll, 5-Card, Star-Budget) */}
       {soloDraftParams && (

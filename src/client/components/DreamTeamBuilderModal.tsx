@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import {
   FormationDefinition,
-  FormationSlot,
   PlayerVersion,
   SavedDreamTeam,
   DraftedSlot,
@@ -33,8 +32,6 @@ import {
   Flag,
   ArrowUpDown,
   Layers,
-  ChevronRight,
-  Info,
 } from 'lucide-react';
 
 export interface BenchSlotDef {
@@ -533,10 +530,18 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
 
     // If any former starters couldn't fit the new slots, preserve them on the bench
     if (unassignedPlayers.length > 0) {
-      setBenchPlayers((prev) => {
-        const currentBenchIds = new Set(prev.map((p) => p.identityId));
+      setBenchSlots((prev) => {
+        const next = { ...prev };
+        const currentBenchIds = new Set(Object.values(prev).map((p) => p.identityId));
         const added = unassignedPlayers.filter((p) => !currentBenchIds.has(p.identityId));
-        return [...prev, ...added].slice(0, 9);
+        const BENCH_SLOT_IDS = ['bench-1', 'bench-2', 'bench-3', 'bench-4', 'bench-5', 'bench-6', 'bench-7', 'bench-8', 'bench-9'];
+        for (const player of added) {
+          const emptySlot = BENCH_SLOT_IDS.find((id) => !next[id]);
+          if (emptySlot) {
+            next[emptySlot] = player;
+          }
+        }
+        return next;
       });
     }
 
@@ -933,13 +938,13 @@ export const DreamTeamBuilderModal: React.FC<DreamTeamBuilderModalProps> = ({
                         <div className="p-2.5 rounded-xl bg-tactical-900 border border-tactical-800 flex flex-col justify-between">
                           <div className="flex items-center justify-between text-[10px] text-tactical-400 font-bold uppercase">
                             <span>🧤 Keeper</span>
-                            <span className="font-mono text-purple-400 font-black">
+                            <span className="font-mono text-[#0C969C] font-black">
                               {departmentRatings.gk > 0 ? departmentRatings.gk : '--'}
                             </span>
                           </div>
                           <div className="w-full bg-tactical-950 h-1.5 rounded-full overflow-hidden mt-2">
                             <div
-                              className="bg-gradient-to-r from-purple-500 to-pink-400 h-full rounded-full transition-all"
+                              className="bg-gradient-to-r from-[#0A7075] to-[#0C969C] h-full rounded-full transition-all"
                               style={{ width: `${Math.min(100, (departmentRatings.gk / 99) * 100)}%` }}
                             />
                           </div>

@@ -325,13 +325,13 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
   const getBadgeStyle = (group: PositionGroup) => {
     switch (group) {
       case 'GK':
-        return 'bg-amber-500/20 text-amber-300 border-amber-500/50';
+        return 'bg-gradient-to-br from-amber-500/30 to-tactical-900 text-amber-200 border-amber-400 shadow-[0_3px_10px_rgba(245,158,11,0.3)]';
       case 'DEF':
-        return 'bg-blue-500/20 text-blue-300 border-blue-500/50';
+        return 'bg-gradient-to-br from-blue-500/30 to-tactical-900 text-blue-200 border-blue-400 shadow-[0_3px_10px_rgba(59,130,246,0.3)]';
       case 'MID':
-        return 'bg-emerald-500/20 text-emerald-300 border-emerald-500/50';
+        return 'bg-gradient-to-br from-emerald-500/30 to-tactical-900 text-emerald-200 border-emerald-400 shadow-[0_3px_10px_rgba(16,185,129,0.3)]';
       case 'FWD':
-        return 'bg-rose-500/20 text-rose-300 border-rose-500/50';
+        return 'bg-gradient-to-br from-rose-500/30 to-tactical-900 text-rose-200 border-rose-400 shadow-[0_3px_10px_rgba(244,63,94,0.3)]';
     }
   };
 
@@ -471,22 +471,38 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
           <div className="flex-1 flex flex-col items-center">
             <div
               ref={pitchRef}
-              className="relative w-full aspect-[3/4] max-w-[420px] rounded-xl tactical-pitch-bg shadow-2xl border-2 border-tactical-700 overflow-hidden select-none touch-none"
+              className="relative w-full aspect-[3/4] max-w-[420px] rounded-2xl tactical-pitch-bg shadow-2xl border-2 border-pitch-line-solid/50 overflow-hidden select-none touch-none"
             >
               {/* Pitch Visual Markings */}
               {/* Halfway line */}
-              <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-pitch-line -translate-y-1/2 pointer-events-none" />
-              {/* Center circle */}
-              <div className="absolute top-1/2 left-1/2 w-28 h-28 border-2 border-pitch-line rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-              <div className="absolute top-1/2 left-1/2 w-1.5 h-1.5 bg-pitch-line rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+              <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-pitch-line-solid/60 -translate-y-1/2 pointer-events-none" />
+              {/* Center circle & spot */}
+              <div className="absolute top-1/2 left-1/2 w-28 h-28 border-2 border-pitch-line-solid/60 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+              <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-pitch-line-solid/90 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
 
               {/* Top Penalty Box (Opponent End) */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-20 border-b-2 border-x-2 border-pitch-line pointer-events-none" />
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-8 border-b-2 border-x-2 border-pitch-line pointer-events-none" />
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-20 border-b-2 border-x-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-8 border-b-2 border-x-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute top-[13.5%] left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-pitch-line-solid/90 rounded-full pointer-events-none" />
+              <div className="absolute top-20 left-1/2 -translate-x-1/2 w-24 h-7 border-b-2 border-pitch-line-solid/60 rounded-b-full pointer-events-none" />
 
               {/* Bottom Penalty Box (Our Defensive End) */}
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-20 border-t-2 border-x-2 border-pitch-line pointer-events-none" />
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-8 border-t-2 border-x-2 border-pitch-line pointer-events-none" />
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-20 border-t-2 border-x-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-8 border-t-2 border-x-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute bottom-[13.5%] left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-pitch-line-solid/90 rounded-full pointer-events-none" />
+              <div className="absolute bottom-20 left-1/2 -translate-x-1/2 w-24 h-7 border-t-2 border-pitch-line-solid/60 rounded-t-full pointer-events-none" />
+
+              {/* Corner Arcs */}
+              <div className="absolute top-0 left-0 w-4 h-4 rounded-br-full border-b-2 border-r-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute top-0 right-0 w-4 h-4 rounded-bl-full border-b-2 border-l-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-4 h-4 rounded-tr-full border-t-2 border-r-2 border-pitch-line-solid/60 pointer-events-none" />
+              <div className="absolute bottom-0 right-0 w-4 h-4 rounded-tl-full border-t-2 border-l-2 border-pitch-line-solid/60 pointer-events-none" />
+
+              {/* Subtle Tactical Guidelines (Thirds & Half-Spaces) */}
+              <div className="absolute top-[33.3%] left-0 right-0 border-t border-dashed border-pitch-line-solid/15 pointer-events-none" />
+              <div className="absolute top-[66.6%] left-0 right-0 border-t border-dashed border-pitch-line-solid/15 pointer-events-none" />
+              <div className="absolute left-[28%] top-0 bottom-0 border-l border-dashed border-pitch-line-solid/15 pointer-events-none" />
+              <div className="absolute right-[28%] top-0 bottom-0 border-r border-dashed border-pitch-line-solid/15 pointer-events-none" />
 
               {/* Mode 2: Tactical Snap Anchors Visual Overlay */}
               {mode === 'snap' && (
@@ -501,17 +517,21 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
                           top: `${node.coordinates.y}%`,
                         }}
                         className={`absolute -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center transition-all ${
-                          isHovered ? 'scale-125 z-10' : 'opacity-40'
+                          isHovered ? 'scale-135 z-10' : 'opacity-50'
                         }`}
                       >
                         <div
-                          className={`w-3 h-3 rounded-full border ${
+                          className={`w-3.5 h-3.5 rounded-full border-2 transition-all flex items-center justify-center ${
                             isHovered
-                              ? 'bg-gold-400 border-white ring-4 ring-gold-400/50 animate-ping'
-                              : 'bg-tactical-800 border-tactical-400'
+                              ? 'bg-amber-400 border-white ring-4 ring-amber-400/60 shadow-[0_0_12px_rgba(245,158,11,1)]'
+                              : 'bg-tactical-950 border-tactical-400'
                           }`}
-                        />
-                        <span className="text-[8px] font-mono font-bold text-tactical-300 mt-0.5">
+                        >
+                          <div className={`w-1 h-1 rounded-full ${isHovered ? 'bg-tactical-950' : 'bg-tactical-300'}`} />
+                        </div>
+                        <span className={`text-[8px] font-mono font-black tracking-tight mt-0.5 px-1 rounded ${
+                          isHovered ? 'bg-amber-400 text-tactical-950' : 'bg-tactical-900/90 text-tactical-300'
+                        }`}>
                           {node.position}
                         </span>
                       </div>
@@ -541,25 +561,25 @@ export const FormationStudioModal: React.FC<FormationStudioModalProps> = ({
                         : 'z-20 hover:scale-105'
                     }`}
                   >
-                    {/* Circle Token */}
+                    {/* Circle Token Puck */}
                     <div
                       className={`w-11 h-11 sm:w-12 sm:h-12 rounded-full border-2 flex flex-col items-center justify-center shadow-lg transition-colors ${
                         isSelected
-                          ? 'border-pitch-accent bg-tactical-850 ring-2 ring-pitch-accent/60'
+                          ? 'border-pitch-line-solid bg-tactical-900 ring-4 ring-pitch-line-solid/60 text-emerald-300 shadow-[0_0_20px_rgba(74,222,128,0.5)]'
                           : getBadgeStyle(slot.group)
                       }`}
                     >
-                      <span className="font-mono font-extrabold text-xs tracking-tight">
+                      <span className="font-mono font-black text-xs sm:text-sm tracking-tight">
                         {slot.defaultPosition}
                       </span>
                     </div>
 
                     {/* Position Label below token */}
                     <div
-                      className={`mt-1 px-1.5 py-0.5 rounded text-center max-w-[85px] truncate font-medium text-[9px] shadow ${
+                      className={`mt-1 px-2 py-0.5 rounded-full text-center max-w-[85px] truncate font-bold text-[9px] shadow-md ${
                         isSelected
-                          ? 'bg-pitch-DEFAULT text-tactical-100 border border-pitch-line font-bold'
-                          : 'bg-tactical-950/85 text-tactical-200 border border-tactical-700/80'
+                          ? 'bg-pitch-line-solid text-tactical-950 font-black ring-1 ring-white/50'
+                          : 'bg-tactical-950/90 text-tactical-200 border border-tactical-700/80'
                       }`}
                     >
                       {slot.name}

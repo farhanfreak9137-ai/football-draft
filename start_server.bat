@@ -19,6 +19,7 @@ if %errorlevel% neq 0 (
 echo [2/3] Preparing game services...
 echo       - Backend Express API : http://localhost:3001
 echo       - Frontend Web Client : http://localhost:5173
+echo       - Phone (Same Wi-Fi)  : http://192.168.1.106:5173
 echo.
 echo [3/3] Starting servers and opening game in browser...
 echo.
@@ -34,3 +35,4 @@ if %errorlevel% neq 0 (
     echo [INFO] Server process ended.
     pause
 )
+

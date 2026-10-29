@@ -238,7 +238,7 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose, onP
               )}
 
               <div className="flex items-center justify-center sm:justify-start gap-2 mt-1">
-                <span className="text-xs font-mono font-bold text-pitch-accent bg-pitch-DEFAULT/20 px-2 py-0.5 rounded border border-pitch-line/40">
+                <span className="text-xs font-mono font-bold text-amber-300 bg-amber-500/20 px-2.5 py-0.5 rounded-full border border-amber-500/40">
                   Level {profile.level} Manager
                 </span>
                 <span className="text-xs text-tactical-400 font-mono">

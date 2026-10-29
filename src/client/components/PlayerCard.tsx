@@ -43,38 +43,38 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
       }
       className={`w-full flex items-center justify-between ${
         isCompact ? 'px-2 py-1' : 'px-2.5 py-1.5 sm:py-1'
-      } rounded border text-left transition-all select-none ${
+      } rounded-lg border text-left transition-all select-none ${
         isTakenByOpponent
-          ? 'bg-rose-950/30 border-rose-900/50 opacity-45 cursor-not-allowed'
+          ? 'bg-rose-950/20 border-rose-900/40 opacity-45 cursor-not-allowed'
           : isSelected
-          ? 'bg-emerald-950/90 border-emerald-400 ring-2 ring-emerald-400/90 shadow-lg scale-[1.01] cursor-pointer'
+          ? 'bg-emerald-950/90 border-emerald-400 ring-2 ring-emerald-400/80 shadow-[0_0_14px_rgba(16,185,129,0.35)] scale-[1.01] cursor-pointer'
           : eligible && !disabled
           ? player.ovr >= 95
-            ? 'bg-tactical-800/90 border-red-950/70 hover:bg-tactical-750 hover:border-red-500/70 hover:shadow-[0_0_10px_rgba(239,68,68,0.25)] cursor-pointer active:scale-[0.99]'
+            ? 'bg-gradient-to-r from-tactical-850 via-amber-950/30 to-tactical-850 border-amber-400/60 hover:bg-tactical-800 hover:border-amber-300 hover:shadow-[0_0_12px_rgba(245,158,11,0.3)] cursor-pointer active:scale-[0.99]'
             : player.ovr >= 90
-            ? 'bg-tactical-800/90 border-amber-950/60 hover:bg-tactical-750 hover:border-gold-500/70 hover:shadow-[0_0_8px_rgba(243,207,85,0.15)] cursor-pointer active:scale-[0.99]'
-            : 'bg-tactical-800/90 border-tactical-700 hover:bg-tactical-750 hover:border-pitch-line/80 hover:shadow-sm cursor-pointer active:scale-[0.99]'
+            ? 'bg-tactical-850/90 border-amber-500/40 hover:bg-tactical-800 hover:border-amber-400 hover:shadow-[0_0_8px_rgba(245,158,11,0.2)] cursor-pointer active:scale-[0.99]'
+            : 'bg-tactical-850/90 border-tactical-700/70 hover:bg-tactical-800 hover:border-emerald-500/50 hover:shadow-xs cursor-pointer active:scale-[0.99]'
           : 'bg-tactical-900/40 border-tactical-800/40 opacity-40 cursor-not-allowed'
       }`}
     >
       {/* Left side: 10. Messi RW/ST */}
-      <div className="flex items-center gap-1 sm:gap-1.5 min-w-0 flex-1 mr-1.5">
+      <div className="flex items-center gap-1.5 min-w-0 flex-1 mr-1.5">
         <span
-          className={`font-mono font-semibold text-[10px] sm:text-[11px] w-4.5 sm:w-5 shrink-0 text-left ${
-            isSelected ? 'text-emerald-400 font-bold' : 'text-tactical-400'
+          className={`font-mono font-bold text-[10px] sm:text-[11px] w-4.5 sm:w-5 shrink-0 text-left ${
+            isSelected ? 'text-emerald-400' : 'text-tactical-400'
           }`}
         >
           {player.squadNumber}.
         </span>
         <span
-          className={`font-semibold text-xs truncate ${
+          className={`font-semibold text-xs truncate tracking-tight ${
             isSelected ? 'text-emerald-200 font-bold' : 'text-tactical-100'
           }`}
         >
           {player.name}
         </span>
         <span
-          className={`font-mono text-[8.5px] sm:text-[9px] px-1 py-0.2 sm:px-1.5 sm:py-0.5 rounded font-bold tracking-tight shrink-0 uppercase ${getPositionBadgeClass(
+          className={`font-mono text-[8.5px] sm:text-[9px] px-1.5 py-0.5 rounded font-bold tracking-tight shrink-0 uppercase ${getPositionBadgeClass(
             player.naturalPositions[0] || 'CM'
           )}`}
         >
@@ -82,8 +82,8 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
         </span>
         {player.hasLegendSeal && (
           <span
-            className={`text-[10px] shrink-0 ${
-              player.ovr >= 95 ? 'text-red-400 drop-shadow-[0_0_4px_rgba(239,68,68,0.8)]' : 'text-gold-400'
+            className={`text-xs shrink-0 ${
+              player.ovr >= 95 ? 'text-amber-300 drop-shadow-[0_0_6px_rgba(251,191,36,0.9)] animate-pulse' : 'text-gold-400'
             }`}
             title={player.legendSealReason}
           >
