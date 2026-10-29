@@ -9,6 +9,7 @@
     "dev": "concurrently -k -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run dev:server\" \"npm run dev:client\"",
     "build:client": "vite build",
     "build:server": "tsc -p tsconfig.server.json",
+    "build:apk": "npm run build:client && npx cap sync android && cd android && gradlew.bat assembleDebug",
     "build": "npm run build:client && npm run build:server",
     "start": "node dist/server/server/index.js",
     "test": "vitest run",
